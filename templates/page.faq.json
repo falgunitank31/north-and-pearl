@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "personalization": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does personalization work?",
+            "icon": "heart",
+            "row_content": "<p>Choose the product, enter the personalization details requested on the product page, and review spelling carefully before checkout.</p>"
+          }
+        },
+        "materials": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What materials are used?",
+            "icon": "question_mark",
+            "row_content": "<p>Material details must be confirmed by the supplier before launch. Until then, North & Pearl will not make claims such as sterling silver, gold vermeil, waterproof, nickel-free, or hypoallergenic.</p>"
+          }
+        },
+        "shipping": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will my order take?",
+            "icon": "truck",
+            "row_content": "<p>Production and shipping timelines will be finalized after supplier and fulfillment confirmation. Product pages will show the clearest available estimate before launch.</p>"
+          }
+        },
+        "returns": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can personalized items be returned?",
+            "icon": "return",
+            "row_content": "<p>Custom products are generally non-returnable unless defective, damaged, or incorrect. Final policies require owner review before publishing.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "personalization",
+        "materials",
+        "shipping",
+        "returns"
+      ],
+      "settings": {
+        "caption": "FAQ",
+        "heading": "Helpful answers before you order",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-2",
+        "open_first_collapsible_row": true,
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq"
+  ]
+}

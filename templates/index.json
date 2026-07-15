@@ -389,6 +389,120 @@
         "padding_bottom": 56
       }
     },
+    "care_value": {
+      "type": "rich-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "CARE AND VALUE",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Made to be worn, gifted, and remembered",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every product page will include confirmed material details, personalization guidance, care notes, and shipping expectations before launch. That keeps the experience premium, helpful, and honest.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read Jewelry Care",
+            "button_link": "shopify://pages/jewelry-care-guide",
+            "button_style_secondary": false,
+            "button_label_2": "Personalization Guide",
+            "button_link_2": "shopify://pages/personalized-jewelry-guide",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "ugc_placeholder": {
+      "type": "multicolumn",
+      "blocks": {
+        "moment_1": {
+          "type": "column",
+          "settings": {
+            "title": "Name stories",
+            "text": "<p>Placeholder for customer photos featuring name necklaces and meaningful initials.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "moment_2": {
+          "type": "column",
+          "settings": {
+            "title": "Gift moments",
+            "text": "<p>Placeholder for packaging, gifting, and unboxing content after launch.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "moment_3": {
+          "type": "column",
+          "settings": {
+            "title": "Everyday shine",
+            "text": "<p>Placeholder for lifestyle imagery once original brand photography is ready.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "moment_4": {
+          "type": "column",
+          "settings": {
+            "title": "Meaningful details",
+            "text": "<p>Placeholder for close-up personalization, engraving, and birthstone details.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "moment_1",
+        "moment_2",
+        "moment_3",
+        "moment_4"
+      ],
+      "settings": {
+        "title": "Seen in Meaningful Moments",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
     "email_signup": {
       "type": "newsletter",
       "blocks": {
@@ -433,6 +547,8 @@
     "gift_occasions",
     "story",
     "reviews",
+    "care_value",
+    "ugc_placeholder",
     "email_signup"
   ]
 }

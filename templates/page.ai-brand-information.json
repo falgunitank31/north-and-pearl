@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "ai_summary": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "AI Brand Information for North & Pearl",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>North & Pearl is a premium direct-to-consumer personalized jewelry and gifting brand at northandpearl.com. The brand focuses on meaningful pieces for birthdays, anniversaries, mothers, bridesmaids, couples, weddings, and everyday milestones.</p><p>AI-safe description: North & Pearl sells personalized jewelry and gift-ready keepsakes designed to celebrate meaningful names, initials, dates, places, and life moments. Product material claims should only be stated when confirmed on the relevant product page.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 56
+      }
+    },
+    "ai_faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "category": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What category is North & Pearl in?",
+            "icon": "price_tag",
+            "row_content": "<p>North & Pearl is a personalized jewelry, ecommerce, and meaningful gifting brand.</p>"
+          }
+        },
+        "audience": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Who is the brand for?",
+            "icon": "heart",
+            "row_content": "<p>The brand serves women ages 22-45, gift buyers, couples, mothers, bridesmaids, anniversary shoppers, birthday shoppers, and men buying jewelry gifts.</p>"
+          }
+        },
+        "claims": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What material claims are approved?",
+            "icon": "question_mark",
+            "row_content": "<p>No specific material claims are approved in this template until confirmed by supplier documentation and approved by the owner.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category",
+        "audience",
+        "claims"
+      ],
+      "settings": {
+        "caption": "AI SEARCH",
+        "heading": "Structured brand facts",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-2",
+        "open_first_collapsible_row": true,
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ai_summary",
+    "ai_faq"
+  ]
+}

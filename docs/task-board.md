@@ -37,6 +37,15 @@
 - [ ] Create matching Shopify collections.
 - [ ] QA homepage in Shopify preview.
 
+## Phase 4: Collection And Product Templates
+
+- [x] Improve default collection template merchandising settings.
+- [x] Add collection SEO/supporting text block.
+- [x] Improve default product page trust, FAQ, and care structure.
+- [x] Add personalized product template foundation.
+- [ ] Confirm personalization field implementation strategy.
+- [ ] QA product and collection templates in Shopify preview.
+
 ## Blocked
 
 - Shopify CLI is not installed.

@@ -31,7 +31,7 @@
         "shipping_note": {
           "type": "text",
           "settings": {
-            "text": "Secure checkout. Final production timelines will be shown before launch.",
+            "text": "Secure checkout. Review spelling, personalization, and product-specific details carefully before ordering.",
             "text_style": "body"
           }
         },
@@ -40,7 +40,7 @@
           "settings": {
             "heading": "Before you personalize",
             "icon": "clipboard",
-            "content": "<p>Personalization inputs will be configured after product option rules are approved. Confirm spelling, dates, initials, and character limits carefully before ordering.</p>",
+            "content": "<p>Enter names, initials, dates, coordinates, or gift notes exactly as you want them prepared. Character limits and available options are product-specific.</p>",
             "page": ""
           }
         },
@@ -57,7 +57,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
@@ -78,7 +78,7 @@
           "settings": {
             "heading": "Gift packaging",
             "icon": "box",
-            "content": "<p>Built for thoughtful gifting. Final packaging details should be confirmed before launch.</p>",
+            "content": "<p>Built for thoughtful gifting. Packaging options and gift notes may vary by product and should be selected before checkout when available.</p>",
             "page": ""
           }
         },
@@ -87,7 +87,7 @@
           "settings": {
             "heading": "Production, shipping, and returns",
             "icon": "truck",
-            "content": "<p>Production and shipping timelines are pending fulfillment confirmation. Personalized items should generally be non-returnable unless defective, damaged, or incorrect.</p>",
+            "content": "<p>Personalized pieces may require production time before shipping. Custom items are generally final sale unless defective, damaged, or incorrect.</p>",
             "page": ""
           }
         },
@@ -96,7 +96,7 @@
           "settings": {
             "heading": "Jewelry care",
             "icon": "leaf",
-            "content": "<p>Store separately and avoid harsh cleaners. Final care instructions must match confirmed materials.</p>",
+            "content": "<p>Store separately, keep dry when possible, and avoid harsh cleaners. Always follow product-specific care details when listed.</p>",
             "page": ""
           }
         },
@@ -140,11 +140,20 @@
         "padding_bottom": 20
       }
     },
+    "product_support": {
+      "type": "north-pearl-product-support",
+      "settings": {
+        "kicker": "Personalize with care",
+        "heading": "Small details make the gift feel unmistakably theirs.",
+        "text": "Check spelling, dates, initials, and gift notes carefully before checkout. Personalized details are prepared from the information entered on the product page.",
+        "color_scheme": "scheme-2"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
         "heading": "Complete the gift",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
         "color_scheme": "scheme-2",
@@ -161,6 +170,7 @@
   },
   "order": [
     "main",
+    "product_support",
     "related-products"
   ]
 }

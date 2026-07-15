@@ -1,0 +1,72 @@
+{{ 'north-pearl-product-support.css' | asset_url | stylesheet_tag }}
+
+<section class="np-product-support color-{{ section.settings.color_scheme }}">
+  <div class="page-width np-product-support__inner">
+    <div class="np-product-support__intro">
+      <p class="np-product-support__kicker">{{ section.settings.kicker }}</p>
+      <h2>{{ section.settings.heading }}</h2>
+      <p>{{ section.settings.text }}</p>
+    </div>
+    <div class="np-product-support__grid">
+      <article>
+        <span>01</span>
+        <h3>Review every detail</h3>
+        <p>Names, initials, dates, coordinates, and gift notes should be checked carefully before checkout.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>Make it gift-ready</h3>
+        <p>Add a thoughtful note and choose elevated packaging options when available for the product.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3>Care with intention</h3>
+        <p>Store jewelry separately, keep it away from harsh cleaners, and follow product-specific care details.</p>
+      </article>
+      <article>
+        <span>04</span>
+        <h3>Need help choosing?</h3>
+        <p>Use the guides and support links to choose a meaningful piece for the person, date, or moment.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product support grid",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "kicker",
+      "label": "Kicker",
+      "default": "Before you order"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "A meaningful piece deserves a careful finish."
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "North & Pearl product pages are designed to help customers personalize with confidence, gift with care, and understand the details before checkout."
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product support grid"
+    }
+  ]
+}
+{% endschema %}

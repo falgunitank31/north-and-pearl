@@ -55,6 +55,29 @@ h3,
   letter-spacing: .02em;
 }
 
+.np-brand-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2.2rem;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid rgba(23, 20, 17, .06);
+  background: #fffaf3;
+  overflow-x: auto;
+}
+
+.np-brand-nav a {
+  flex: 0 0 auto;
+  color: var(--np-black);
+  font-size: 1.2rem;
+  letter-spacing: .08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.np-brand-nav a:hover {
+  color: var(--np-gold);
+}
+
 .button,
 .shopify-challenge__button,
 button.shopify-payment-button__button {
@@ -174,6 +197,85 @@ button.shopify-payment-button__button {
   text-transform: uppercase;
 }
 
+.np-personalization-fields {
+  display: grid;
+  gap: 1.2rem;
+  margin: 1.8rem 0;
+  padding: 1.6rem;
+  border: 1px solid var(--np-line);
+  border-radius: 8px;
+  background: var(--np-ivory);
+}
+
+.np-personalization-fields__title {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  color: var(--np-black);
+}
+
+.np-spelling-confirm {
+  display: flex;
+  gap: .9rem;
+  align-items: flex-start;
+  color: var(--np-muted);
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+.np-spelling-confirm input {
+  margin-top: .2rem;
+}
+
+.np-personalization-fields__hint {
+  margin: 0;
+  color: var(--np-muted);
+  font-size: 1.2rem;
+}
+
+.np-cart-trust {
+  max-width: 1200px;
+  margin: 0 auto 4rem;
+  padding: 0 2rem;
+}
+
+.np-cart-trust__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.np-cart-trust__grid div {
+  padding: 1.8rem;
+  border-radius: 8px;
+  background: var(--np-ivory);
+  text-align: center;
+}
+
+.np-cart-trust__grid strong,
+.np-cart-trust__grid span {
+  display: block;
+}
+
+.np-cart-trust__grid strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.8rem;
+}
+
+.np-cart-trust__grid span {
+  margin-top: .4rem;
+  color: var(--np-muted);
+  font-size: 1.2rem;
+}
+
+.np-empty-recovery {
+  margin-top: 2.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
 .accordion {
   border-color: var(--np-line);
 }
@@ -217,5 +319,9 @@ button.shopify-payment-button__button {
 
   .product-form__submit {
     margin-bottom: 0;
+  }
+
+  .np-cart-trust__grid {
+    grid-template-columns: 1fr;
   }
 }

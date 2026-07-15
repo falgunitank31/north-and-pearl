@@ -60,6 +60,37 @@
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
         {%- endif -%}
 
+        <div class="np-personalization-fields" aria-label="Personalization details">
+          <p class="np-personalization-fields__title">Personalization details</p>
+          <div class="field">
+            <input
+              class="field__input"
+              id="PersonalizationName-{{ section_id }}"
+              type="text"
+              name="properties[Personalization]"
+              maxlength="24"
+              placeholder="Name, initial, date, or word"
+            >
+            <label class="field__label" for="PersonalizationName-{{ section_id }}">Name, initial, date, or word</label>
+          </div>
+          <div class="field">
+            <input
+              class="field__input"
+              id="GiftNote-{{ section_id }}"
+              type="text"
+              name="properties[Gift note]"
+              maxlength="80"
+              placeholder="Optional gift note"
+            >
+            <label class="field__label" for="GiftNote-{{ section_id }}">Optional gift note</label>
+          </div>
+          <label class="np-spelling-confirm">
+            <input type="checkbox" name="properties[Spelling confirmed]" value="Yes">
+            <span>I confirm spelling and personalization details are correct.</span>
+          </label>
+          <p class="np-personalization-fields__hint">Character limits and material-specific options will be finalized after supplier confirmation.</p>
+        </div>
+
         <div class="product-form__buttons">
           {%- liquid
             assign check_against_inventory = true

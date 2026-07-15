@@ -228,6 +228,76 @@
   padding-bottom: 8rem;
 }
 
+.np-product-showcase {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0 2rem 8rem;
+}
+
+.np-product-showcase article {
+  min-height: 42rem;
+  padding: 2.4rem;
+  border: 1px solid var(--np-home-line);
+  border-radius: 8px;
+  background: #fffaf3;
+  box-shadow: 0 18px 44px rgba(23, 20, 17, .08);
+}
+
+.np-product-showcase h3,
+.np-guide-grid h3 {
+  margin: 1rem 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.8rem;
+  line-height: 1.08;
+}
+
+.np-product-showcase p:not(.np-kicker),
+.np-guide-grid p:not(.np-kicker) {
+  color: #675d54;
+  line-height: 1.55;
+}
+
+.np-product-showcase a {
+  display: inline-block;
+  margin-top: 1.6rem;
+  color: var(--np-home-black);
+  font-weight: 700;
+  text-decoration-color: var(--np-home-gold);
+  text-underline-offset: .4rem;
+}
+
+.np-product-art {
+  display: grid;
+  place-items: center;
+  min-height: 21rem;
+  margin-bottom: 2.2rem;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #f8f2e8, #ead8c2);
+  color: var(--np-home-black);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.np-product-art--name {
+  font-size: 5rem;
+}
+
+.np-product-art--initial {
+  color: #fffaf3;
+  background: var(--np-home-black);
+  font-size: 8rem;
+}
+
+.np-product-art--gift {
+  color: var(--np-home-gold);
+  background:
+    linear-gradient(90deg, transparent 47%, rgba(198, 161, 91, .45) 47% 53%, transparent 53%),
+    linear-gradient(#fffaf3 0%, #f8f2e8 100%);
+  font-size: 4.8rem;
+}
+
 .np-category-card {
   min-height: 26rem;
   padding: 2.4rem;
@@ -382,6 +452,21 @@
   text-align: center;
 }
 
+.np-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0 2rem 8rem;
+}
+
+.np-guide-grid article {
+  padding: 2.8rem;
+  border-radius: 8px;
+  background: var(--np-home-ivory);
+}
+
 .np-newsletter h2 {
   max-width: 76rem;
   margin-inline: auto;
@@ -435,6 +520,8 @@
 
   .np-trust,
   .np-category-grid,
+  .np-product-showcase,
+  .np-guide-grid,
   .np-proof-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -461,6 +548,8 @@
 
   .np-trust,
   .np-category-grid,
+  .np-product-showcase,
+  .np-guide-grid,
   .np-proof-grid,
   .np-occasion-grid {
     grid-template-columns: 1fr;

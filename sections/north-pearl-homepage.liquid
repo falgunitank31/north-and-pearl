@@ -1,0 +1,171 @@
+{{ 'north-pearl-homepage.css' | asset_url | stylesheet_tag }}
+
+<section class="np-home" aria-labelledby="np-home-title">
+  <div class="np-hero">
+    <div class="np-hero__content">
+      <p class="np-kicker">{{ section.settings.kicker }}</p>
+      <h1 id="np-home-title">{{ section.settings.heading }}</h1>
+      <p class="np-hero__text">{{ section.settings.text }}</p>
+      <div class="np-actions">
+        <a class="np-button np-button--primary" href="{{ section.settings.primary_link }}">{{ section.settings.primary_label }}</a>
+        <a class="np-button np-button--secondary" href="{{ section.settings.secondary_link }}">{{ section.settings.secondary_label }}</a>
+      </div>
+    </div>
+    <div class="np-hero__visual" aria-label="Personalized jewelry visual placeholder">
+      <div class="np-jewelry-card np-jewelry-card--main">
+        <span class="np-chain"></span>
+        <span class="np-pendant">N</span>
+        <p>Custom Name Necklace</p>
+      </div>
+      <div class="np-jewelry-card np-jewelry-card--small">
+        <span class="np-ring"></span>
+        <p>Birthstone-inspired gifts</p>
+      </div>
+      <div class="np-hero__note">Gift-ready pieces for birthdays, anniversaries, mothers, bridesmaids, and everyday love.</div>
+    </div>
+  </div>
+
+  <div class="np-trust" aria-label="Store benefits">
+    <div><strong>Gift-ready</strong><span>Packaging experience</span></div>
+    <div><strong>Personalized</strong><span>Names, initials, dates</span></div>
+    <div><strong>Quality checked</strong><span>Reviewed before shipping</span></div>
+    <div><strong>Secure checkout</strong><span>Built on Shopify</span></div>
+  </div>
+
+  <div class="np-section-heading">
+    <p class="np-kicker">Shop by meaning</p>
+    <h2>Personalized jewelry made for the moment</h2>
+  </div>
+
+  <div class="np-category-grid">
+    <a class="np-category-card" href="{{ routes.collections_url }}/name-necklaces">
+      <span>Name Necklaces</span>
+      <p>Turn the name they love into an everyday keepsake.</p>
+    </a>
+    <a class="np-category-card" href="{{ routes.collections_url }}/initial-necklaces">
+      <span>Initial Jewelry</span>
+      <p>Minimal, personal, and easy to wear every day.</p>
+    </a>
+    <a class="np-category-card" href="{{ routes.collections_url }}/birthstone-jewelry">
+      <span>Birthstone Gifts</span>
+      <p>Birth-month inspired details for a more thoughtful gift.</p>
+    </a>
+    <a class="np-category-card" href="{{ routes.collections_url }}/gifts">
+      <span>Gift Edit</span>
+      <p>Birthday, anniversary, bridal, mother, and partner gifts.</p>
+    </a>
+  </div>
+
+  <div class="np-split">
+    <div class="np-split__visual">
+      <div class="np-package">
+        <span>North & Pearl</span>
+        <strong>For your meaningful moment</strong>
+      </div>
+    </div>
+    <div class="np-split__content">
+      <p class="np-kicker">How it works</p>
+      <h2>Choose the piece. Add the meaning. Make it unforgettable.</h2>
+      <ol class="np-steps">
+        <li><strong>Choose your style</strong><span>Start with a necklace, bracelet, ring, earrings, or gift-ready favorite.</span></li>
+        <li><strong>Add the personal detail</strong><span>Use a name, initial, date, coordinate, birth-month detail, or short phrase.</span></li>
+        <li><strong>Gift with intention</strong><span>Send a keepsake made for a person, a memory, or a milestone.</span></li>
+      </ol>
+      <a class="np-button np-button--primary" href="{{ routes.collections_url }}/name-necklaces">Create Yours</a>
+    </div>
+  </div>
+
+  <div class="np-occasion-band">
+    <div>
+      <p class="np-kicker">Gift by occasion</p>
+      <h2>Designed for the days they will remember.</h2>
+    </div>
+    <div class="np-occasion-grid">
+      <a href="{{ routes.collections_url }}/gifts">Birthday Gifts</a>
+      <a href="{{ routes.collections_url }}/mothers-collection">Mother's Collection</a>
+      <a href="{{ routes.collections_url }}/wedding-bridesmaids">Wedding & Bridesmaids</a>
+      <a href="{{ routes.collections_url }}/couple-jewelry">Anniversary Gifts</a>
+    </div>
+  </div>
+
+  <div class="np-proof-grid">
+    <div class="np-proof-card">
+      <p>"A gift that feels personal."</p>
+      <span>Placeholder for verified review</span>
+    </div>
+    <div class="np-proof-card">
+      <p>"Simple, meaningful, and beautiful."</p>
+      <span>Placeholder for verified review</span>
+    </div>
+    <div class="np-proof-card np-proof-card--dark">
+      <p>Carefully presented, thoughtfully personalized, and ready for the moment.</p>
+      <a href="/pages/jewelry-care-guide">Read Jewelry Care</a>
+    </div>
+  </div>
+
+  <div class="np-newsletter">
+    <p class="np-kicker">North & Pearl notes</p>
+    <h2>Gift ideas, care tips, and meaningful new arrivals.</h2>
+    {% form 'customer', class: 'np-newsletter__form' %}
+      <input type="hidden" name="contact[tags]" value="newsletter">
+      <label class="visually-hidden" for="NpNewsletterEmail">Email</label>
+      <input id="NpNewsletterEmail" type="email" name="contact[email]" placeholder="Email address" required>
+      <button type="submit">Join</button>
+    {% endform %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "North & Pearl homepage",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "kicker",
+      "label": "Kicker",
+      "default": "Crafted for life's meaningful moments"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Personalized jewelry made to celebrate what matters most."
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Create timeless, gift-ready pieces for names, initials, dates, milestones, and the people you hold closest."
+    },
+    {
+      "type": "text",
+      "id": "primary_label",
+      "label": "Primary button label",
+      "default": "Shop Best Sellers"
+    },
+    {
+      "type": "url",
+      "id": "primary_link",
+      "label": "Primary button link"
+    },
+    {
+      "type": "text",
+      "id": "secondary_label",
+      "label": "Secondary button label",
+      "default": "Create Your Personalized Piece"
+    },
+    {
+      "type": "url",
+      "id": "secondary_link",
+      "label": "Secondary button link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "North & Pearl homepage"
+    }
+  ]
+}
+{% endschema %}

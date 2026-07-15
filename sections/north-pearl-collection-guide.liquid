@@ -1,0 +1,74 @@
+{{ 'north-pearl-collection-guide.css' | asset_url | stylesheet_tag }}
+
+<section class="np-collection-guide color-{{ section.settings.color_scheme }}">
+  <div class="page-width">
+    <div class="np-collection-guide__header">
+      <p class="np-collection-guide__kicker">{{ section.settings.kicker }}</p>
+      <h2>{{ section.settings.heading }}</h2>
+      <p>{{ section.settings.text }}</p>
+    </div>
+
+    <div class="np-collection-guide__chips" aria-label="Shop by shopping intent">
+      <a href="{{ routes.collections_url }}/gifts">Gift-ready pieces</a>
+      <a href="{{ routes.collections_url }}/name-necklaces">Names</a>
+      <a href="{{ routes.collections_url }}/initial-necklaces">Initials</a>
+      <a href="{{ routes.collections_url }}/birthstone-jewelry">Birth-month meaning</a>
+      <a href="{{ routes.collections_url }}/couple-jewelry">Couples</a>
+      <a href="{{ routes.collections_url }}/wedding-bridesmaids">Wedding gifts</a>
+    </div>
+
+    <div class="np-collection-guide__grid">
+      <article>
+        <span>Personalization</span>
+        <p>Choose the name, initial, date, coordinate, or phrase that makes the piece feel specific to the recipient.</p>
+      </article>
+      <article>
+        <span>Occasion</span>
+        <p>Shop by birthday, anniversary, Mother's Day, wedding party, relationship milestone, or everyday meaning.</p>
+      </article>
+      <article>
+        <span>Product details</span>
+        <p>Review product-specific materials, options, production timing, and return rules before checkout.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Collection shopping guide",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "kicker",
+      "label": "Kicker",
+      "default": "Shopping guide"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Find the piece that carries the meaning."
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Use collection filters, recipient ideas, and occasion links to move from inspiration to a personal, gift-ready piece."
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection shopping guide"
+    }
+  ]
+}
+{% endschema %}

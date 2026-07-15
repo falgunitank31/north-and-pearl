@@ -28,6 +28,15 @@
         "padding_bottom": 48
       }
     },
+    "shopping_guide": {
+      "type": "north-pearl-collection-guide",
+      "settings": {
+        "kicker": "Shopping guide",
+        "heading": "Find the piece that carries the meaning.",
+        "text": "Use collection filters, recipient ideas, and occasion links to move from inspiration to a personal, gift-ready piece.",
+        "color_scheme": "scheme-2"
+      }
+    },
     "collection_guidance": {
       "type": "rich-text",
       "blocks": {
@@ -73,6 +82,7 @@
   },
   "order": [
     "banner",
+    "shopping_guide",
     "product-grid",
     "collection_guidance"
   ]

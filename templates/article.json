@@ -32,9 +32,18 @@
         "share",
         "content"
       ]
+    },
+    "guide_links": {
+      "type": "north-pearl-guide-links",
+      "settings": {
+        "kicker": "Next step",
+        "heading": "Choose a personalized piece for the moment.",
+        "color_scheme": "scheme-2"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "guide_links"
   ]
 }

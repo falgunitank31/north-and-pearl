@@ -1,0 +1,61 @@
+{{ 'north-pearl-guide-links.css' | asset_url | stylesheet_tag }}
+
+<section class="np-guide-links color-{{ section.settings.color_scheme }}">
+  <div class="page-width np-guide-links__inner">
+    <div>
+      <p class="np-guide-links__kicker">{{ section.settings.kicker }}</p>
+      <h2>{{ section.settings.heading }}</h2>
+    </div>
+    <div class="np-guide-links__grid">
+      <a href="{{ routes.collections_url }}/gifts">
+        <span>Shop Gifts</span>
+        <p>Find pieces by occasion, recipient, and meaningful moment.</p>
+      </a>
+      <a href="{{ routes.collections_url }}/name-necklaces">
+        <span>Name Necklaces</span>
+        <p>Start with the most personal everyday keepsake.</p>
+      </a>
+      <a href="/pages/personalized-jewelry-guide">
+        <span>Personalized Jewelry Guide</span>
+        <p>Learn how to choose names, initials, dates, and symbols.</p>
+      </a>
+      <a href="/pages/jewelry-care-guide">
+        <span>Jewelry Care</span>
+        <p>Keep meaningful pieces stored and cared for with intention.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Guide links",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "kicker",
+      "label": "Kicker",
+      "default": "Keep exploring"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Helpful paths for choosing a meaningful gift."
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Guide links"
+    }
+  ]
+}
+{% endschema %}

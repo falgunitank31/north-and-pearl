@@ -3,15 +3,58 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "Collections",
-        "sort": "alphabetical",
+        "title": "Shop Personalized Jewelry",
+        "sort": "date_reversed",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "columns_mobile": "2"
+      }
+    },
+    "collection_help": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find the piece that fits the moment",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop by jewelry type, recipient, or occasion. North & Pearl collections are organized to help customers move quickly from inspiration to a meaningful personalized gift.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Best Sellers",
+            "button_link": "shopify://collections/best-sellers",
+            "button_style_secondary": false,
+            "button_label_2": "Gift Guide",
+            "button_link_2": "shopify://blogs/gift-guide",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 56
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collection_help"
   ]
 }

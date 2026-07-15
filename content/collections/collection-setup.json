@@ -1,0 +1,92 @@
+{
+  "status": "setup_blueprint_not_imported",
+  "collections": [
+    {
+      "title": "Shop All",
+      "handle": "all",
+      "type": "manual_or_automated",
+      "seo_title": "Personalized Jewelry & Meaningful Gifts | North & Pearl",
+      "meta_description": "Shop personalized jewelry and meaningful gifts from North & Pearl, including name necklaces, initial jewelry, birthstone-inspired pieces, bracelets, rings, earrings, and gift cards.",
+      "description": "Explore personalized jewelry designed for life's meaningful moments. Shop necklaces, bracelets, rings, earrings, gift cards, and gift-ready keepsakes for birthdays, anniversaries, mothers, bridesmaids, couples, and everyday gifting."
+    },
+    {
+      "title": "Best Sellers",
+      "handle": "best-sellers",
+      "type": "manual",
+      "seo_title": "Best Selling Personalized Jewelry Gifts | North & Pearl",
+      "meta_description": "Discover North & Pearl best sellers: personalized jewelry gifts selected for birthdays, anniversaries, mothers, bridesmaids, couples, and meaningful everyday moments.",
+      "description": "Start with the pieces customers are most likely to love. This collection should feature the strongest personalized jewelry gifts once products and sales data are confirmed."
+    },
+    {
+      "title": "Name Necklaces",
+      "handle": "name-necklaces",
+      "type": "automated",
+      "rule": "Product tag equals name-necklace",
+      "seo_title": "Name Necklaces | Custom Personalized Necklaces | North & Pearl",
+      "meta_description": "Create a custom name necklace for birthdays, anniversaries, mothers, bridesmaids, partners, and meaningful self-gifting.",
+      "description": "Name necklaces turn a meaningful word, name, or memory into an everyday keepsake. Shop custom necklace concepts designed for gifting, milestones, and personal style."
+    },
+    {
+      "title": "Initial Necklaces",
+      "handle": "initial-necklaces",
+      "type": "automated",
+      "rule": "Product tag equals initial-necklace",
+      "seo_title": "Initial Necklaces | Personalized Initial Jewelry | North & Pearl",
+      "meta_description": "Shop initial necklaces made for subtle personalized style, birthdays, bridesmaids, partners, sisters, mothers, and everyday gifting.",
+      "description": "Initial necklaces offer a simple way to wear meaning every day. This collection should focus on refined, minimal personalization and easy giftability."
+    },
+    {
+      "title": "Birthstone Jewelry",
+      "handle": "birthstone-jewelry",
+      "type": "automated",
+      "rule": "Product tag contains birthstone",
+      "seo_title": "Birthstone Jewelry Gifts | Personalized Birth Month Jewelry | North & Pearl",
+      "meta_description": "Shop birthstone-inspired personalized jewelry gifts for birthdays, mothers, anniversaries, and milestone moments. Exact materials and stones pending confirmation.",
+      "description": "Birthstone-inspired jewelry helps connect a gift to a birthday, family story, or milestone. Exact stone and material details must be confirmed on each product before launch."
+    },
+    {
+      "title": "Couple Jewelry",
+      "handle": "couple-jewelry",
+      "type": "automated",
+      "rule": "Product tag contains couple",
+      "seo_title": "Personalized Couple Jewelry | Anniversary Gifts | North & Pearl",
+      "meta_description": "Shop personalized couple jewelry for anniversaries, names, dates, coordinates, and meaningful relationship gifts.",
+      "description": "Couple jewelry is built around names, dates, places, initials, and shared memories. Use this collection for anniversary and relationship gifting."
+    },
+    {
+      "title": "Gifts",
+      "handle": "gifts",
+      "type": "manual_or_automated",
+      "seo_title": "Personalized Jewelry Gifts for Her | North & Pearl",
+      "meta_description": "Find personalized jewelry gifts for birthdays, anniversaries, mothers, bridesmaids, partners, and meaningful occasions.",
+      "description": "Gift shopping should feel easy and thoughtful. This collection organizes North & Pearl pieces around recipient, occasion, and emotional meaning."
+    },
+    {
+      "title": "Mother's Collection",
+      "handle": "mothers-collection",
+      "type": "automated",
+      "rule": "Product tag contains mother-gift OR mothers-day",
+      "seo_title": "Personalized Jewelry Gifts for Mothers | North & Pearl",
+      "meta_description": "Shop personalized jewelry gifts for mothers, Mother's Day, new moms, family milestones, names, initials, and birthstone-inspired keepsakes.",
+      "description": "The Mother's Collection celebrates family meaning through personalized names, initials, and birthstone-inspired details. All material claims must remain product-specific and confirmed."
+    },
+    {
+      "title": "Wedding & Bridesmaids",
+      "handle": "wedding-bridesmaids",
+      "type": "automated",
+      "rule": "Product tag contains wedding OR bridesmaid-gift",
+      "seo_title": "Bridesmaid Jewelry Gifts | Wedding Keepsakes | North & Pearl",
+      "meta_description": "Shop personalized bridesmaid jewelry gifts, wedding keepsakes, maid of honor gifts, and thoughtful bridal party pieces.",
+      "description": "Wedding and bridesmaid jewelry should feel coordinated, personal, and gift-ready. Use this collection for bridal party thank-you gifts and meaningful wedding keepsakes."
+    },
+    {
+      "title": "Gift Cards",
+      "handle": "gift-cards",
+      "type": "automated",
+      "rule": "Product type equals Gift Card",
+      "seo_title": "North & Pearl Gift Cards | Personalized Jewelry Gifts",
+      "meta_description": "Give a North & Pearl digital gift card so they can choose a personalized jewelry piece made for their meaningful moment.",
+      "description": "Gift cards help customers give meaning while letting the recipient choose the piece, style, and personalization they love most."
+    }
+  ]
+}

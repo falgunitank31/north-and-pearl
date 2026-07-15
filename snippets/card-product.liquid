@@ -118,6 +118,16 @@
                 {%- endif -%}
               </div>
             </div>
+          {%- else -%}
+            <div class="card__media np-product-placeholder-card">
+              <div class="media media--transparent">
+                <div class="np-jewelry-placeholder" aria-label="{{ card_product.title | escape }} visual placeholder">
+                  <span class="np-jewelry-placeholder__chain"></span>
+                  <span class="np-jewelry-placeholder__pendant">{{ card_product.title | slice: 0, 1 }}</span>
+                  <span class="np-jewelry-placeholder__shine"></span>
+                </div>
+              </div>
+            </div>
           {%- endif -%}
           <div class="card__content">
             <div class="card__information">

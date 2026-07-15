@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 92" role="img" aria-labelledby="north-pearl-logo-light-title">
+  <title id="north-pearl-logo-light-title">North &amp; Pearl</title>
+  <rect width="420" height="92" fill="none"/>
+  <g fill="#fffaf3">
+    <text x="84" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="38" letter-spacing="1.2">North &amp; Pearl</text>
+    <text x="88" y="73" font-family="Arial, Helvetica, sans-serif" font-size="8.5" letter-spacing="3.5">PERSONALIZED JEWELRY</text>
+  </g>
+  <g transform="translate(22 16)">
+    <circle cx="30" cy="30" r="29" fill="#171411" stroke="#fffaf3" stroke-width="2"/>
+    <circle cx="30" cy="30" r="11" fill="#c6a15b"/>
+    <path d="M30 4l4.6 17.5L52 26l-17.4 4L30 56l-4.6-26L8 26l17.4-4.5L30 4z" fill="#fffaf3"/>
+    <circle cx="30" cy="30" r="7.2" fill="#171411"/>
+  </g>
+</svg>

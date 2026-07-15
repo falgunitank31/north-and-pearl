@@ -44,6 +44,11 @@ h3,
   border-bottom: 1px solid rgba(23, 20, 17, .08);
 }
 
+.np-header-logo {
+  width: min(21rem, 56vw);
+  height: auto;
+}
+
 .header__menu-item,
 .list-menu__item,
 .footer-block__details-content .list-menu__item--link {

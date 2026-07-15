@@ -390,7 +390,7 @@
       }
     },
     "email_signup": {
-      "type": "email-signup-banner",
+      "type": "newsletter",
       "blocks": {
         "heading": {
           "type": "heading",
@@ -417,14 +417,10 @@
         "email_form"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
         "color_scheme": "scheme-2",
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 56
       }
     }
   },

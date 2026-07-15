@@ -22,7 +22,7 @@
 
 ## Phase 2: Dawn Theme Foundation
 
-- [ ] Add Shopify theme baseline.
+- [x] Add Shopify theme baseline.
 - [ ] Add global theme settings.
 - [ ] Add global CSS tokens.
 - [ ] Add reusable sections.

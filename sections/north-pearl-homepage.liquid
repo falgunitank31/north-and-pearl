@@ -1,4 +1,6 @@
 {{ 'north-pearl-homepage.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
 
 <section class="np-home" aria-labelledby="np-home-title">
   <div class="np-hero">
@@ -37,29 +39,58 @@
     <h2>Personalized jewelry made for the moment</h2>
   </div>
 
-  <div class="np-product-showcase" aria-label="Featured product concepts">
-    <article>
-      <span class="np-product-art np-product-art--name">Ava</span>
-      <p class="np-kicker">Best seller concept</p>
-      <h3>Custom Name Necklace</h3>
-      <p>Personalized with the name, word, or memory they carry closest.</p>
-      <a href="{{ routes.collections_url }}/name-necklaces">Shop name necklaces</a>
-    </article>
-    <article>
-      <span class="np-product-art np-product-art--initial">N</span>
-      <p class="np-kicker">Everyday keepsake</p>
-      <h3>Initial Pendant Necklace</h3>
-      <p>Minimal, meaningful, and made for subtle everyday personalization.</p>
-      <a href="{{ routes.collections_url }}/initial-necklaces">Shop initial jewelry</a>
-    </article>
-    <article>
-      <span class="np-product-art np-product-art--gift">Gift</span>
-      <p class="np-kicker">Gift-ready</p>
-      <h3>Mother's Day Gift Set</h3>
-      <p>A thoughtful concept for family meaning, milestones, and moments.</p>
-      <a href="{{ routes.collections_url }}/mothers-collection">Shop mother's gifts</a>
-    </article>
-  </div>
+  {%- assign featured_collection = section.settings.featured_collection -%}
+  {%- if featured_collection != blank and featured_collection.products_count > 0 -%}
+    <div class="np-featured-products page-width" aria-label="{{ featured_collection.title | escape }}">
+      <ul class="grid product-grid grid--2-col-tablet-down grid--4-col-desktop" role="list">
+        {%- for product in featured_collection.products limit: 4 -%}
+          {%- assign lazy_load = false -%}
+          {%- if forloop.index > 2 -%}
+            {%- assign lazy_load = true -%}
+          {%- endif -%}
+          <li class="grid__item">
+            {% render 'card-product',
+              card_product: product,
+              media_aspect_ratio: 'square',
+              show_secondary_image: true,
+              show_vendor: false,
+              show_rating: false,
+              lazy_load: lazy_load,
+              section_id: section.id,
+              product_view_context: 'homepage-featured'
+            %}
+          </li>
+        {%- endfor -%}
+      </ul>
+      <div class="np-featured-products__cta">
+        <a class="np-button np-button--secondary" href="{{ featured_collection.url }}">Shop {{ featured_collection.title }}</a>
+      </div>
+    </div>
+  {%- else -%}
+    <div class="np-product-showcase" aria-label="Featured product concepts">
+      <article>
+        <span class="np-product-art np-product-art--name">Ava</span>
+        <p class="np-kicker">Best seller concept</p>
+        <h3>Custom Name Necklace</h3>
+        <p>Personalized with the name, word, or memory they carry closest.</p>
+        <a href="{{ routes.collections_url }}/name-necklaces">Shop name necklaces</a>
+      </article>
+      <article>
+        <span class="np-product-art np-product-art--initial">N</span>
+        <p class="np-kicker">Everyday keepsake</p>
+        <h3>Initial Pendant Necklace</h3>
+        <p>Minimal, meaningful, and made for subtle everyday personalization.</p>
+        <a href="{{ routes.collections_url }}/initial-necklaces">Shop initial jewelry</a>
+      </article>
+      <article>
+        <span class="np-product-art np-product-art--gift">Gift</span>
+        <p class="np-kicker">Gift-ready</p>
+        <h3>Mother's Day Gift Set</h3>
+        <p>A thoughtful concept for family meaning, milestones, and moments.</p>
+        <a href="{{ routes.collections_url }}/mothers-collection">Shop mother's gifts</a>
+      </article>
+    </div>
+  {%- endif -%}
 
   <div class="np-category-grid">
     <a class="np-category-card" href="{{ routes.collections_url }}/name-necklaces">
@@ -180,6 +211,11 @@
       "id": "text",
       "label": "Text",
       "default": "Create timeless, gift-ready pieces for names, initials, dates, milestones, and the people you hold closest."
+    },
+    {
+      "type": "collection",
+      "id": "featured_collection",
+      "label": "Featured product collection"
     },
     {
       "type": "text",

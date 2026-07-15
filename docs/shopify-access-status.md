@@ -6,35 +6,19 @@ Last updated: July 15, 2026
 
 - Production store URL: `https://north-and-pearl.myshopify.com`
 - Canonical Shopify admin domain discovered by CLI: `q4ydix-w1.myshopify.com`
-- Live theme: Dawn-based North & Pearl build
-- Protected development target requested by owner: theme `189417881784`
+- Live theme: Dawn `189417881784`
+- Current unpublished development theme: `North & Pearl Dev - Codex` `189441802424`
 
 ## Current Access
 
-The Shopify Admin CLI app can perform admin setup actions for products, collections, pages, navigation, and policies.
+The Shopify Admin CLI app can perform admin setup actions for products, collections, pages, navigation, policies, and themes.
 
-Theme deployment through Shopify CLI is currently blocked because the app-authenticated token does not include theme scopes.
-
-Observed error:
-
-```text
-Missing access scope: read_themes
-```
-
-## Required Owner Action
-
-In the Shopify Dev Dashboard app used for North & Pearl, add and release these scopes:
+Theme deployment was unblocked on July 15, 2026 after adding:
 
 - `read_themes`
 - `write_themes`
 
-After releasing the app version, re-run Shopify CLI store auth with the existing admin scopes plus the theme scopes.
-
-Recommended command:
-
-```sh
-npx @shopify/cli@latest store auth --store q4ydix-w1.myshopify.com --scopes read_products,write_products,read_content,write_content,read_online_store_navigation,write_online_store_navigation,read_legal_policies,write_legal_policies,read_themes,write_themes
-```
+Future Shopify CLI re-auth should include theme scopes if access expires.
 
 ## Safe Deployment Rule
 

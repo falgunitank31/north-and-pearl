@@ -269,6 +269,21 @@
   text-underline-offset: .4rem;
 }
 
+.np-featured-products {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+.np-featured-products .card-wrapper {
+  height: 100%;
+}
+
+.np-featured-products__cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
 .np-product-art {
   display: grid;
   place-items: center;

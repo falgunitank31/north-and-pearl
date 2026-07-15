@@ -24,8 +24,15 @@
             "heading_1": "Gift-ready",
             "icon_2": "heart",
             "heading_2": "Personalized with care",
-            "icon_3": "lock",
-            "heading_3": "Secure checkout"
+            "icon_3": "truck",
+            "heading_3": "Free U.S. shipping"
+          }
+        },
+        "shipping_note": {
+          "type": "text",
+          "settings": {
+            "text": "Secure checkout. Final production timelines will be shown before launch.",
+            "text_style": "body"
           }
         },
         "variant_picker": {
@@ -117,6 +124,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "shipping_note",
         "personalization_note",
         "description",
         "materials",

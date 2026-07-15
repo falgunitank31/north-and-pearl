@@ -1,0 +1,123 @@
+{
+  "brand": "North & Pearl",
+  "status": "sample_content_pending_owner_and_supplier_approval",
+  "material_claim_rule": "Do not publish specific material claims until supplier documentation is confirmed and owner approved.",
+  "products": [
+    {
+      "title": "Custom Name Necklace",
+      "type": "Necklace",
+      "price": 79,
+      "compare_at_price": 99,
+      "collections": ["Name Necklaces", "Best Sellers", "Gifts"],
+      "tags": ["personalized", "name-necklace", "gift-for-her", "birthday", "anniversary"],
+      "seo_title": "Custom Name Necklace | Personalized Jewelry Gifts | North & Pearl",
+      "meta_description": "Create a custom name necklace made for meaningful gifting. A personalized keepsake for birthdays, anniversaries, mothers, bridesmaids, and everyday moments.",
+      "short_description": "A personalized name necklace made to carry the word, name, or memory that matters most.",
+      "long_description": "Designed as a thoughtful everyday keepsake, the Custom Name Necklace turns a meaningful name into a wearable gift. Use it for birthdays, anniversaries, bridal party gifts, Mother's Day, or a just-because moment.",
+      "materials": "Pending supplier confirmation.",
+      "features": ["Personalized name detail", "Gift-focused product page", "Material details pending confirmation", "Care instructions included before launch"],
+      "gift_positioning": "Best for birthdays, anniversaries, bridesmaids, mothers, and meaningful self-gifting.",
+      "care_instructions": "Store separately, keep away from harsh chemicals, and clean gently with a soft dry cloth.",
+      "variants": ["Finish pending confirmation", "Chain length pending confirmation"],
+      "faq": [
+        {
+          "question": "Can I choose any name?",
+          "answer": "Character limits will be confirmed before launch and shown on the product page."
+        },
+        {
+          "question": "Are materials confirmed?",
+          "answer": "No. Material claims must be confirmed before publishing."
+        }
+      ]
+    },
+    {
+      "title": "Initial Pendant Necklace",
+      "type": "Necklace",
+      "price": 59,
+      "compare_at_price": 75,
+      "collections": ["Initial Necklaces", "Best Sellers", "Gifts"],
+      "tags": ["personalized", "initial-necklace", "minimal-jewelry", "gift-for-her"],
+      "seo_title": "Initial Pendant Necklace | Personalized Initial Jewelry | North & Pearl",
+      "meta_description": "Shop an initial pendant necklace designed for meaningful everyday gifting. A simple personalized jewelry gift for her.",
+      "short_description": "A minimal initial necklace for a subtle, personal everyday keepsake.",
+      "long_description": "The Initial Pendant Necklace is designed for customers who want personalization that feels refined and easy to wear. It is a strong gift choice for partners, sisters, bridesmaids, mothers, and friends.",
+      "materials": "Pending supplier confirmation.",
+      "features": ["Single initial personalization", "Minimal gift-ready style", "Designed for everyday layering"],
+      "gift_positioning": "Best for birthdays, bridesmaids, sisters, girlfriends, and everyday personal style.",
+      "care_instructions": "Store separately and avoid lotions, perfumes, and harsh cleaners.",
+      "variants": ["Initial A-Z", "Finish pending confirmation"],
+      "faq": []
+    },
+    {
+      "title": "Birthstone Name Necklace",
+      "type": "Necklace",
+      "price": 89,
+      "compare_at_price": 115,
+      "collections": ["Birthstone Jewelry", "Name Necklaces", "Gifts"],
+      "tags": ["birthstone", "name-necklace", "personalized", "mother-gift"],
+      "seo_title": "Birthstone Name Necklace | Personalized Birthstone Gift | North & Pearl",
+      "meta_description": "Personalize a name necklace with birthstone-inspired meaning. A thoughtful jewelry gift for birthdays, mothers, and milestone moments.",
+      "short_description": "A name necklace with birthstone-inspired detail for a more personal gift.",
+      "long_description": "The Birthstone Name Necklace combines name personalization with a birth-month inspired accent. It is built for milestone gifting, Mother's Day, birthdays, and customers who want a piece with layered meaning.",
+      "materials": "Pending supplier confirmation.",
+      "features": ["Name personalization", "Birthstone-inspired option", "Gift-ready positioning"],
+      "gift_positioning": "Best for birthdays, mothers, daughters, partners, and milestone gifts.",
+      "care_instructions": "Clean gently with a soft cloth and store separately.",
+      "variants": ["Birth month", "Name", "Finish pending confirmation"],
+      "faq": []
+    },
+    {
+      "title": "Personalized Bar Necklace",
+      "type": "Necklace",
+      "price": 69,
+      "compare_at_price": 89,
+      "collections": ["Necklaces", "Gifts", "Best Sellers"],
+      "tags": ["engraved", "bar-necklace", "personalized", "anniversary"],
+      "seo_title": "Personalized Bar Necklace | Engraved Jewelry Gift | North & Pearl",
+      "meta_description": "A personalized bar necklace for names, dates, coordinates, or meaningful words. A modern jewelry gift for her.",
+      "short_description": "A clean bar necklace for names, dates, coordinates, or a short meaningful phrase.",
+      "long_description": "The Personalized Bar Necklace is a modern keepsake designed for engraved meaning. It works well for anniversaries, couples, mothers, bridesmaids, and everyday reminders.",
+      "materials": "Pending supplier confirmation.",
+      "features": ["Engraving-ready concept", "Minimal silhouette", "Strong gift positioning"],
+      "gift_positioning": "Best for anniversaries, couples, bridesmaids, and personal milestones.",
+      "care_instructions": "Avoid harsh chemicals and wipe gently after wear.",
+      "variants": ["Text pending limits", "Finish pending confirmation"],
+      "faq": []
+    },
+    {
+      "title": "Digital Gift Card",
+      "type": "Gift Card",
+      "price": 25,
+      "compare_at_price": null,
+      "collections": ["Gift Cards", "Gifts"],
+      "tags": ["gift-card", "last-minute-gift"],
+      "seo_title": "North & Pearl Digital Gift Card | Personalized Jewelry Gift",
+      "meta_description": "Give a North & Pearl digital gift card so they can choose a personalized jewelry piece made for their meaningful moment.",
+      "short_description": "A flexible gift for someone who wants to choose their own meaningful piece.",
+      "long_description": "The Digital Gift Card is designed for birthdays, anniversaries, holidays, bridesmaids, and last-minute gifting when the recipient should choose the personalization.",
+      "materials": "Not applicable.",
+      "features": ["Digital delivery", "Flexible gift amount", "Best for uncertain sizing or style preference"],
+      "gift_positioning": "Best for last-minute gifting and letting the recipient choose.",
+      "care_instructions": "Not applicable.",
+      "variants": ["$25", "$50", "$75", "$100", "$150", "$250"],
+      "faq": []
+    }
+  ],
+  "remaining_catalog_titles": [
+    "Coordinates Necklace",
+    "Couple Name Necklace",
+    "Mama Name Necklace",
+    "Engraved Heart Necklace",
+    "Birth Flower Necklace",
+    "Custom Name Bracelet",
+    "Initial Bracelet",
+    "Engraved Couple Bracelet",
+    "Personalized Ring",
+    "Birthstone Ring",
+    "Initial Stud Earrings",
+    "Custom Hoop Earrings",
+    "Bridesmaid Gift Necklace",
+    "Mother's Day Gift Set",
+    "Luxury Jewelry Gift Box"
+  ]
+}

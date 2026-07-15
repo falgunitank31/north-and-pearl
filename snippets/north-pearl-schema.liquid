@@ -1,0 +1,107 @@
+{%- liquid
+  assign current_url = canonical_url | default: request.origin
+  assign business_description = 'North & Pearl is a premium personalized jewelry and gifting brand focused on meaningful pieces for names, initials, dates, milestones, mothers, couples, weddings, bridesmaids, birthdays, and anniversaries.'
+-%}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "North & Pearl",
+    "url": {{ request.origin | append: routes.root_url | json }},
+    "description": {{ business_description | json }},
+    "brand": {
+      "@type": "Brand",
+      "name": "North & Pearl",
+      "slogan": "Crafted for Life's Meaningful Moments"
+    },
+    "sameAs": []
+  }
+</script>
+
+{%- unless request.page_type == 'index' -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": {{ request.origin | append: routes.root_url | json }}
+        }
+        {%- if product and product.collections.first -%}
+          ,{
+            "@type": "ListItem",
+            "position": 2,
+            "name": {{ product.collections.first.title | json }},
+            "item": {{ request.origin | append: product.collections.first.url | json }}
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": {{ product.title | json }},
+            "item": {{ current_url | json }}
+          }
+        {%- elsif collection -%}
+          ,{
+            "@type": "ListItem",
+            "position": 2,
+            "name": {{ collection.title | json }},
+            "item": {{ request.origin | append: collection.url | json }}
+          }
+        {%- elsif page -%}
+          ,{
+            "@type": "ListItem",
+            "position": 2,
+            "name": {{ page.title | json }},
+            "item": {{ current_url | json }}
+          }
+        {%- elsif blog -%}
+          ,{
+            "@type": "ListItem",
+            "position": 2,
+            "name": {{ blog.title | json }},
+            "item": {{ current_url | json }}
+          }
+        {%- endif -%}
+      ]
+    }
+  </script>
+{%- endunless -%}
+
+{%- if page.handle == 'faq' -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does personalization work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Choose a product, enter the requested personalization details on the product page, and review spelling carefully before checkout."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What materials are used?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Material details must be confirmed by the supplier before launch. North & Pearl does not make material claims unless they are verified and approved."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can personalized items be returned?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Custom products are generally non-returnable unless defective, damaged, or incorrect. Final policies require owner review before publishing."
+          }
+        }
+      ]
+    }
+  </script>
+{%- endif -%}

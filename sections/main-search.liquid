@@ -142,6 +142,15 @@
         {%- endunless -%}
         {%- if search.results_count == 0 and search.filters == empty -%}
           <p role="status">{{ 'templates.search.no_results' | t: terms: search.terms }}</p>
+          <div class="np-search-recovery" aria-label="Popular searches">
+            <p class="np-search-recovery__title">Try a meaningful gift category</p>
+            <div class="np-empty-recovery">
+              <a href="{{ routes.collections_url }}/name-necklaces" class="button button--secondary">Name Necklaces</a>
+              <a href="{{ routes.collections_url }}/initial-necklaces" class="button button--secondary">Initial Jewelry</a>
+              <a href="{{ routes.collections_url }}/gifts" class="button button--secondary">Gifts</a>
+              <a href="{{ routes.collections_url }}/mothers-collection" class="button button--secondary">Mother's Collection</a>
+            </div>
+          </div>
         {%- endif -%}
       {%- endif -%}
     </div>
@@ -271,7 +280,6 @@
                   >
                     {%- case item.object_type -%}
                       {%- when 'product' -%}
-                        {%- capture product_settings -%}{%- if section.settings.product_show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
                         {% render 'card-product',
                           card_product: item,
                           media_aspect_ratio: section.settings.image_ratio,

@@ -14,7 +14,7 @@
           "type": "heading",
           "settings": {
             "heading": "AI Brand Information for North & Pearl",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text": {
@@ -63,17 +63,26 @@
             "icon": "question_mark",
             "row_content": "<p>No specific material claims are approved in this template until confirmed by supplier documentation and approved by the owner.</p>"
           }
+        },
+        "description": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is an AI-safe description of North & Pearl?",
+            "icon": "clipboard",
+            "row_content": "<p>North & Pearl is a premium personalized jewelry and gifting brand focused on meaningful pieces for names, initials, dates, milestones, mothers, couples, weddings, birthdays, and anniversaries. Product material claims should only be stated when confirmed on individual product pages.</p>"
+          }
         }
       },
       "block_order": [
         "category",
         "audience",
-        "claims"
+        "claims",
+        "description"
       ],
       "settings": {
         "caption": "AI SEARCH",
         "heading": "Structured brand facts",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "scheme-1",

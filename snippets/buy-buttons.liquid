@@ -18,8 +18,15 @@
         assign gift_card_recipient_feature_active = true
       endif
 
+      assign product_tags = product.tags | join: ',' | downcase
+      assign product_title = product.title | downcase
+      assign requires_personalization_review = false
+      if product_tags contains 'personalized' or product_tags contains 'engraved' or product_tags contains 'coordinates' or product_title contains 'custom'
+        assign requires_personalization_review = true
+      endif
+
       assign show_dynamic_checkout = false
-      if block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false
+      if block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false and requires_personalization_review == false
         assign show_dynamic_checkout = true
       endif
     -%}
@@ -60,6 +67,7 @@
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
         {%- endif -%}
 
+        {%- if requires_personalization_review -%}
         <div class="np-personalization-fields" aria-label="Personalization details">
           <p class="np-personalization-fields__title">Personalization details</p>
           <div class="field">
@@ -85,11 +93,12 @@
             <label class="field__label" for="GiftNote-{{ section_id }}">Optional gift note</label>
           </div>
           <label class="np-spelling-confirm">
-            <input type="checkbox" name="properties[Spelling confirmed]" value="Yes">
+            <input type="checkbox" name="properties[Spelling confirmed]" value="Yes" required>
             <span>I confirm spelling and personalization details are correct.</span>
           </label>
-          <p class="np-personalization-fields__hint">Character limits and material-specific options will be finalized after supplier confirmation.</p>
+          <p class="np-personalization-fields__hint">Please review spelling carefully. Personalized details are prepared exactly as entered.</p>
         </div>
+        {%- endif -%}
 
         <div class="product-form__buttons">
           {%- liquid

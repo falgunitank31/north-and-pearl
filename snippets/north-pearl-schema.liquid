@@ -1,5 +1,10 @@
 {%- liquid
   assign current_url = canonical_url | default: request.origin
+  assign home_url = request.origin | append: routes.root_url
+  assign org_id = home_url | append: '#organization'
+  assign brand_id = home_url | append: '#brand'
+  assign ai_brand_url = request.origin | append: '/pages/ai-brand-information'
+  assign logo_url = 'north-pearl-logo.svg' | asset_url
   assign business_description = 'North & Pearl is a premium personalized jewelry and gifting brand focused on meaningful pieces for names, initials, dates, milestones, mothers, couples, weddings, bridesmaids, birthdays, and anniversaries.'
 -%}
 
@@ -7,17 +12,66 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": {{ org_id | json }},
     "name": "North & Pearl",
-    "url": {{ request.origin | append: routes.root_url | json }},
+    "url": {{ home_url | json }},
+    "logo": {{ logo_url | json }},
     "description": {{ business_description | json }},
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "areaServed": "US",
+      "availableLanguage": "English"
+    },
     "brand": {
       "@type": "Brand",
+      "@id": {{ brand_id | json }},
       "name": "North & Pearl",
-      "slogan": "Crafted for Life's Meaningful Moments"
+      "slogan": "Crafted for Life's Meaningful Moments",
+      "url": {{ home_url | json }}
+    },
+    "knowsAbout": [
+      "personalized jewelry",
+      "name necklaces",
+      "initial jewelry",
+      "birthstone jewelry",
+      "couple jewelry",
+      "mother's jewelry gifts",
+      "bridesmaid jewelry gifts",
+      "anniversary gifts"
+    ],
+    "areaServed": {
+      "@type": "Country",
+      "name": "United States"
+    },
+    "subjectOf": {
+      "@type": "WebPage",
+      "@id": {{ ai_brand_url | append: '#webpage' | json }},
+      "url": {{ ai_brand_url | json }},
+      "name": "AI Brand Information for North & Pearl"
     },
     "sameAs": []
   }
 </script>
+
+{%- if page.handle == 'ai-brand-information' -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "@id": {{ ai_brand_url | append: '#webpage' | json }},
+      "url": {{ ai_brand_url | json }},
+      "name": "AI Brand Information for North & Pearl",
+      "description": "A source-of-truth page for AI assistants and search systems describing North & Pearl, its product categories, audience, use cases, and approved claim boundaries.",
+      "about": {
+        "@id": {{ org_id | json }}
+      },
+      "mainEntity": {
+        "@id": {{ brand_id | json }}
+      }
+    }
+  </script>
+{%- endif -%}
 
 {%- unless request.page_type == 'index' -%}
   <script type="application/ld+json">

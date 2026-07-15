@@ -276,6 +276,22 @@ button.shopify-payment-button__button {
   justify-content: center;
 }
 
+.np-search-recovery {
+  max-width: 78rem;
+  margin: 2.4rem auto 0;
+  padding: 2rem;
+  border: 1px solid var(--np-line);
+  border-radius: 8px;
+  background: var(--np-ivory);
+}
+
+.np-search-recovery__title {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  color: var(--np-black);
+}
+
 .accordion {
   border-color: var(--np-line);
 }

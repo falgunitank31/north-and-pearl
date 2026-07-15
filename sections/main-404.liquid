@@ -3,6 +3,20 @@
     margin-top: 1rem;
   }
 
+  .template-404__eyebrow {
+    margin-bottom: 1rem;
+    color: rgba(23, 20, 17, .66);
+    font-size: 1.2rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+
+  .template-404__text {
+    max-width: 58rem;
+    margin-inline: auto;
+    color: rgba(23, 20, 17, .72);
+  }
+
   @media screen and (min-width: 750px) {
     .template-404 .title + * {
       margin-top: 2rem;
@@ -11,13 +25,16 @@
 </style>
 
 <div class="template-404 page-width page-margin center">
-  <p>
-    {{ 'templates.404.subtext' | t }}
-  </p>
+  <p class="template-404__eyebrow">North & Pearl</p>
   <h1 class="title">
-    {{ 'templates.404.title' | t }}
+    This meaningful moment moved.
   </h1>
-  <a href="{{ routes.all_products_collection_url }}" class="button">
-    {{ 'general.continue_shopping' | t }}
-  </a>
+  <p class="template-404__text">
+    The page you were looking for is not available, but you can still find personalized jewelry gifts for names, initials, birthdays, anniversaries, mothers, couples, and wedding moments.
+  </p>
+  <div class="np-empty-recovery">
+    <a href="{{ routes.collections_url }}/best-sellers" class="button">Shop Best Sellers</a>
+    <a href="{{ routes.collections_url }}/gifts" class="button button--secondary">Find a Gift</a>
+    <a href="/pages/contact" class="button button--secondary">Contact Support</a>
+  </div>
 </div>

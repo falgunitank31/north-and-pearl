@@ -39,6 +39,17 @@
     if ratio == 0 or ratio == null
       assign ratio = 1
     endif
+
+    assign card_tags = card_product.tags | join: ',' | downcase
+    assign card_title = card_product.title | downcase
+    assign is_personalized = false
+    assign is_giftable = false
+    if card_tags contains 'personalized' or card_tags contains 'engraved' or card_tags contains 'coordinates' or card_title contains 'custom'
+      assign is_personalized = true
+    endif
+    if card_tags contains 'gift' or card_tags contains 'mother' or card_tags contains 'anniversary' or card_tags contains 'birthday' or card_tags contains 'wedding'
+      assign is_giftable = true
+    endif
   -%}
 
   <product-component view-event-payload="{{ card_product | standard_event_data: 'view', context: product_view_context | escape }}">
@@ -169,6 +180,18 @@
               {%- endif -%}
 
               <span class="caption-large light">{{ block.settings.description | escape }}</span>
+
+              <div class="np-card-meta" aria-label="Product highlights">
+                {%- if is_personalized -%}
+                  <span>Personalized</span>
+                {%- endif -%}
+                {%- if is_giftable -%}
+                  <span>Gift-ready</span>
+                {%- endif -%}
+                {%- if card_product.type != blank -%}
+                  <span>{{ card_product.type | escape }}</span>
+                {%- endif -%}
+              </div>
 
               {%- if show_rating and card_product.metafields.reviews.rating.value != blank -%}
                 {% liquid

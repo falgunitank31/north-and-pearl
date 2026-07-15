@@ -1,0 +1,72 @@
+{{ 'north-pearl-cart-support.css' | asset_url | stylesheet_tag }}
+
+{%- unless cart == empty -%}
+  <section class="np-cart-support color-{{ section.settings.color_scheme }}">
+    <div class="page-width">
+      <div class="np-cart-support__inner">
+        <div>
+          <p class="np-cart-support__kicker">{{ section.settings.kicker }}</p>
+          <h2>{{ section.settings.heading }}</h2>
+          <p>{{ section.settings.text }}</p>
+        </div>
+        <div class="np-cart-support__grid">
+          <article>
+            <strong>Check personalization</strong>
+            <span>Review spelling, dates, initials, coordinates, and gift notes before checkout.</span>
+          </article>
+          <article>
+            <strong>Gift-ready details</strong>
+            <span>Add packaging or gift-box options when available for the product.</span>
+          </article>
+          <article>
+            <strong>Secure checkout</strong>
+            <span>Your order is processed through Shopify checkout.</span>
+          </article>
+          <article>
+            <strong>Need support?</strong>
+            <span>Contact us before ordering if you need help choosing the right piece.</span>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+{%- endunless -%}
+
+{% schema %}
+{
+  "name": "Cart support",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "kicker",
+      "label": "Kicker",
+      "default": "Before checkout"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Give the details one last thoughtful look."
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Personalized jewelry is prepared from the details in your order, so a quick review helps every gift arrive with the right meaning."
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Cart support"
+    }
+  ]
+}
+{% endschema %}

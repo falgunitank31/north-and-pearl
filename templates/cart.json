@@ -32,19 +32,19 @@
         "buttons"
       ]
     },
-    "cart_trust": {
-      "type": "custom-liquid",
+    "cart_support": {
+      "type": "north-pearl-cart-support",
       "settings": {
-        "custom_liquid": "<div class=\"np-cart-trust\"><div class=\"np-cart-trust__grid\"><div><strong>Secure checkout</strong><span>Protected Shopify checkout</span></div><div><strong>Gift-ready</strong><span>Packaging details pending final approval</span></div><div><strong>Personalized carefully</strong><span>Review spelling before purchase</span></div><div><strong>Support ready</strong><span>Questions before gifting? Contact us.</span></div></div></div>",
-        "color_scheme": "scheme-1",
-        "padding_top": 0,
-        "padding_bottom": 24
+        "kicker": "Before checkout",
+        "heading": "Give the details one last thoughtful look.",
+        "text": "Personalized jewelry is prepared from the details in your order, so a quick review helps every gift arrive with the right meaning.",
+        "color_scheme": "scheme-2"
       }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "cart_trust"
+    "cart_support"
   ]
 }

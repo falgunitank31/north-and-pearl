@@ -6,10 +6,10 @@
 - [x] Clone repository into a clean North & Pearl project folder.
 - [x] Inspect current repository state.
 - [x] Add governance documentation.
-- [ ] Create `develop` branch.
+- [x] Create `develop` branch.
 - [ ] Confirm Shopify GitHub integration availability.
 - [ ] Confirm unpublished development theme target.
-- [ ] Confirm Dawn baseline source.
+- [x] Confirm Dawn baseline source.
 
 ## Phase 1: Brand System And Site Architecture
 
@@ -23,10 +23,19 @@
 ## Phase 2: Dawn Theme Foundation
 
 - [x] Add Shopify theme baseline.
-- [ ] Add global theme settings.
+- [x] Add global theme settings.
 - [ ] Add global CSS tokens.
 - [ ] Add reusable sections.
 - [ ] Add schema snippets.
+
+## Phase 3: Homepage
+
+- [x] Create homepage foundation with native Dawn sections.
+- [x] Add safe announcement bar copy.
+- [x] Add hero, trust bar, best sellers, category tiles, personalization process, gift occasions, story, placeholder reviews, and email signup.
+- [ ] Replace placeholder imagery with approved product/brand photography.
+- [ ] Create matching Shopify collections.
+- [ ] QA homepage in Shopify preview.
 
 ## Blocked
 

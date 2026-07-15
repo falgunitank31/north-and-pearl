@@ -1,53 +1,124 @@
 {
   "sections": {
-    "image_banner": {
+    "hero": {
       "type": "image-banner",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Personalized Jewelry for Life's Meaningful Moments",
             "heading_size": "h0"
           }
         },
-        "button": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Create timeless pieces made to celebrate the people, memories, and milestones you hold closest.",
+            "text_style": "body"
+          }
+        },
+        "buttons": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_1": "Shop Best Sellers",
+            "button_link_1": "shopify://collections/best-sellers",
+            "button_style_secondary_1": false,
+            "button_label_2": "Create Your Piece",
+            "button_link_2": "shopify://collections/name-necklaces",
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
         "heading",
-        "button"
+        "text",
+        "buttons"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 20,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
         "image_behavior": "none",
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-2",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true
+      }
+    },
+    "trust_bar": {
+      "type": "multicolumn",
+      "blocks": {
+        "gift_ready": {
+          "type": "column",
+          "settings": {
+            "title": "Gift-ready packaging",
+            "text": "<p>Designed to feel thoughtful from the moment it arrives.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "personalized": {
+          "type": "column",
+          "settings": {
+            "title": "Personalized with care",
+            "text": "<p>Made to carry names, dates, initials, and meaning.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "quality_checked": {
+          "type": "column",
+          "settings": {
+            "title": "Quality checked",
+            "text": "<p>Reviewed before shipping for a polished gifting experience.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "secure_checkout": {
+          "type": "column",
+          "settings": {
+            "title": "Secure checkout",
+            "text": "<p>Built on Shopify for a smooth, protected checkout.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "gift_ready",
+        "personalized",
+        "quality_checked",
+        "secure_checkout"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
+        "title": "Best Sellers",
+        "heading_size": "h1",
+        "description": "<p>Meaningful personalized favorites chosen for birthdays, anniversaries, weddings, and everyday gifting.</p>",
+        "show_description": true,
         "description_style": "body",
-        "collection": "all",
+        "collection": "best-sellers",
         "products_to_show": 8,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
@@ -55,21 +126,317 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
+        "padding_top": 56,
+        "padding_bottom": 44
+      }
+    },
+    "category_tiles": {
+      "type": "collection-list",
+      "blocks": {
+        "name_necklaces": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "name-necklaces"
+          }
+        },
+        "initial_necklaces": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "initial-necklaces"
+          }
+        },
+        "birthstone_jewelry": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "birthstone-jewelry"
+          }
+        },
+        "gifts": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gifts"
+          }
+        }
+      },
+      "block_order": [
+        "name_necklaces",
+        "initial_necklaces",
+        "birthstone_jewelry",
+        "gifts"
+      ],
+      "settings": {
+        "title": "Shop Personalized Jewelry",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 44,
-        "padding_bottom": 36
+        "padding_bottom": 44
+      }
+    },
+    "how_it_works": {
+      "type": "multicolumn",
+      "blocks": {
+        "choose": {
+          "type": "column",
+          "settings": {
+            "title": "1. Choose your piece",
+            "text": "<p>Start with a necklace, bracelet, ring, earrings, or gift-ready favorite.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "personalize": {
+          "type": "column",
+          "settings": {
+            "title": "2. Add the meaning",
+            "text": "<p>Personalize with the name, initial, date, birthstone, or detail that matters.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "gift": {
+          "type": "column",
+          "settings": {
+            "title": "3. Make it memorable",
+            "text": "<p>Send a thoughtful keepsake made for birthdays, anniversaries, mothers, bridesmaids, and more.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "choose",
+        "personalize",
+        "gift"
+      ],
+      "settings": {
+        "title": "How Personalization Works",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Create Yours",
+        "button_link": "shopify://collections/name-necklaces",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "gift_occasions": {
+      "type": "multicolumn",
+      "blocks": {
+        "birthday": {
+          "type": "column",
+          "settings": {
+            "title": "Birthday Gifts",
+            "text": "<p>Personal pieces that feel thoughtful, wearable, and lasting.</p>",
+            "link_label": "Shop birthday gifts",
+            "link": "shopify://collections/gifts"
+          }
+        },
+        "mothers": {
+          "type": "column",
+          "settings": {
+            "title": "Mother's Collection",
+            "text": "<p>Meaningful jewelry made to celebrate mothers and family stories.</p>",
+            "link_label": "Shop Mother's gifts",
+            "link": "shopify://collections/mothers-collection"
+          }
+        },
+        "wedding": {
+          "type": "column",
+          "settings": {
+            "title": "Wedding & Bridesmaids",
+            "text": "<p>Elegant keepsakes for bridal parties, vows, and thank-you moments.</p>",
+            "link_label": "Shop wedding gifts",
+            "link": "shopify://collections/wedding-bridesmaids"
+          }
+        }
+      },
+      "block_order": [
+        "birthday",
+        "mothers",
+        "wedding"
+      ],
+      "settings": {
+        "title": "Find the Perfect Gift",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "Shop All Gifts",
+        "button_link": "shopify://collections/gifts",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "story": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jewelry with a story behind it",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>North & Pearl is built for meaningful gifting: pieces that mark names, dates, places, promises, and everyday love. Final material details will be confirmed before launch so every product claim stays accurate and trustworthy.</p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read Our Story",
+            "button_link": "shopify://pages/about-north-pearl",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "reviews": {
+      "type": "multicolumn",
+      "blocks": {
+        "review_1": {
+          "type": "column",
+          "settings": {
+            "title": "A gift that felt personal",
+            "text": "<p>Placeholder review: Add verified customer reviews here after launch.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "review_2": {
+          "type": "column",
+          "settings": {
+            "title": "Beautifully meaningful",
+            "text": "<p>Placeholder review: Replace with real review content once collected.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "review_3": {
+          "type": "column",
+          "settings": {
+            "title": "Made the moment special",
+            "text": "<p>Placeholder review: Keep unpublished until real customer proof is available.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_1",
+        "review_2",
+        "review_3"
+      ],
+      "settings": {
+        "title": "Meaningful Moments, Beautifully Given",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "email_signup": {
+      "type": "email-signup-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "A little meaning in your inbox",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join North & Pearl for gift ideas, personalization inspiration, and first access to new pieces.</p>",
+            "text_style": "body"
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "hero",
+    "trust_bar",
+    "featured_collection",
+    "category_tiles",
+    "how_it_works",
+    "gift_occasions",
+    "story",
+    "reviews",
+    "email_signup"
   ]
 }

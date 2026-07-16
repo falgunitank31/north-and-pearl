@@ -13,14 +13,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Returns & Exchanges Draft",
+            "heading": "Returns & Exchanges",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>This page is a policy draft template. Personalized and custom items are generally non-returnable unless defective, damaged, or incorrect. Standard item return windows require owner review before publishing.</p>"
+            "text": "<p>Personalized and custom items are generally final sale unless they arrive defective, damaged, or incorrect. Standard, non-personalized items may be eligible for return when they are unused, unworn, and approved by support.</p><p>Please contact North & Pearl before sending anything back so the support team can review the order and provide the correct next step.</p>"
           }
         }
       },

@@ -31,7 +31,7 @@
         "shipping_note": {
           "type": "text",
           "settings": {
-            "text": "Secure checkout. Production timing, personalization rules, and product-specific details appear on each finalized product page.",
+            "text": "Secure checkout. Review personalization, care, and shipping details before placing a time-sensitive gift order.",
             "text_style": "body"
           }
         },
@@ -69,7 +69,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "star",
-            "content": "<p>Material details are shown only after supplier confirmation and owner approval. Avoid assuming sterling silver, gold vermeil, waterproof, tarnish-free, nickel-free, or plating claims unless listed on this product.</p>",
+            "content": "<p>Materials can vary by piece and are listed here when confirmed for this product. North & Pearl avoids material and performance claims unless they are verified for the specific item.</p>",
             "page": ""
           }
         },

@@ -23,7 +23,7 @@
           "settings": {
             "heading": "What materials are used?",
             "icon": "question_mark",
-            "row_content": "<p>Material details must be confirmed by the supplier before launch. Until then, North & Pearl will not make claims such as sterling silver, gold vermeil, waterproof, nickel-free, or hypoallergenic.</p>"
+            "row_content": "<p>Materials can vary by piece and are listed on each product page when confirmed. North & Pearl avoids material and performance claims unless they are verified for that specific item.</p>"
           }
         },
         "shipping": {
@@ -31,7 +31,7 @@
           "settings": {
             "heading": "How long will my order take?",
             "icon": "truck",
-            "row_content": "<p>Production and shipping timelines will be finalized after supplier and fulfillment confirmation. Product pages will show the clearest available estimate before launch.</p>"
+            "row_content": "<p>Some personalized pieces may require production time before shipping. Product pages and checkout messaging should be reviewed for the clearest available timing before you place an order.</p>"
           }
         },
         "returns": {
@@ -39,7 +39,7 @@
           "settings": {
             "heading": "Can personalized items be returned?",
             "icon": "return",
-            "row_content": "<p>Custom products are generally non-returnable unless defective, damaged, or incorrect. Final policies require owner review before publishing.</p>"
+            "row_content": "<p>Personalized and custom items are generally final sale unless they arrive defective, damaged, or incorrect. Contact support before starting any return or exchange request.</p>"
           }
         }
       },

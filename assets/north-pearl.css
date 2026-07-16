@@ -6,6 +6,7 @@
   --np-gold: #c6a15b;
   --np-line: #e7ded2;
   --np-muted: #6f665f;
+  --np-shadow: 0 18px 44px rgba(23, 20, 17, .08);
 }
 
 body {
@@ -42,6 +43,8 @@ h3,
 
 .header-wrapper {
   border-bottom: 1px solid rgba(23, 20, 17, .08);
+  background: rgba(255, 250, 243, .96);
+  backdrop-filter: blur(14px);
 }
 
 .np-header-logo {
@@ -92,6 +95,17 @@ button.shopify-payment-button__button {
   color: #fffaf3;
 }
 
+.button:focus-visible,
+.shopify-challenge__button:focus-visible,
+.field__input:focus-visible,
+.select__select:focus-visible,
+a:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--np-gold);
+  outline-offset: 3px;
+  box-shadow: none;
+}
+
 .button--secondary {
   border-color: var(--np-black);
   color: var(--np-black);
@@ -123,6 +137,39 @@ button.shopify-payment-button__button {
 .card,
 .collection-card-wrapper .card {
   border-radius: 8px;
+}
+
+.card-wrapper {
+  height: 100%;
+}
+
+.product-card-wrapper .card,
+.collection-card-wrapper .card {
+  border: 1px solid rgba(23, 20, 17, .08);
+  background: #fffaf3;
+  box-shadow: none;
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+
+.product-card-wrapper:hover .card,
+.collection-card-wrapper:hover .card {
+  border-color: rgba(198, 161, 91, .42);
+  box-shadow: var(--np-shadow);
+  transform: translateY(-2px);
+}
+
+.card__heading {
+  font-size: 1.55rem;
+  line-height: 1.25;
+}
+
+.price {
+  color: var(--np-black);
+  font-weight: 700;
+}
+
+.price--on-sale .price-item--regular {
+  color: var(--np-muted);
 }
 
 .multicolumn-card {
@@ -163,6 +210,13 @@ button.shopify-payment-button__button {
   color: var(--np-muted);
   font-size: 1.1rem;
   line-height: 1.2;
+}
+
+.badge {
+  border-radius: 999px;
+  font-size: 1.1rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
 }
 
 .np-product-placeholder-card .media {
@@ -449,6 +503,11 @@ button.shopify-payment-button__button {
   padding: clamp(1.8rem, 8vw, 4.8rem);
 }
 
+.card__media {
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+
 .product__media.media {
   border: 1px solid var(--np-line);
   border-radius: 8px;
@@ -465,6 +524,100 @@ button.shopify-payment-button__button {
   height: min(76%, 52rem);
   object-fit: contain;
   transform: translate(-50%, -50%);
+}
+
+.product__title h1 {
+  font-size: clamp(3.2rem, 4vw, 5.4rem);
+  line-height: 1.02;
+}
+
+.product__text.subtitle {
+  color: var(--np-gold);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.product__info-container .price--large {
+  margin-top: .8rem;
+  font-size: 2rem;
+}
+
+.product-form__submit {
+  box-shadow: 0 12px 28px rgba(23, 20, 17, .12);
+}
+
+.product__accordion .accordion__title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.8rem;
+}
+
+.icon-with-text {
+  padding: 1.4rem;
+  border: 1px solid var(--np-line);
+  border-radius: 8px;
+  background: rgba(248, 242, 232, .58);
+}
+
+.collection-hero {
+  border-bottom: 1px solid var(--np-line);
+  background:
+    radial-gradient(circle at 82% 20%, rgba(198, 161, 91, .16), transparent 22rem),
+    linear-gradient(135deg, #fffaf3, var(--np-ivory));
+}
+
+.collection-hero__title {
+  font-size: clamp(3.8rem, 6vw, 7rem);
+}
+
+.collection-hero__description {
+  max-width: 74rem;
+  color: var(--np-muted);
+  font-size: 1.7rem;
+  line-height: 1.65;
+}
+
+.template-search__header {
+  padding: 4rem 2rem;
+  border-bottom: 1px solid var(--np-line);
+  background:
+    radial-gradient(circle at 50% 8%, rgba(198, 161, 91, .16), transparent 22rem),
+    var(--np-ivory);
+}
+
+.facets-container,
+.active-facets {
+  color: var(--np-muted);
+}
+
+.drawer__inner,
+.cart-drawer {
+  background: var(--np-soft);
+}
+
+.drawer__heading,
+.cart__empty-text,
+.totals__total {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.cart-drawer .cart-items thead,
+.cart-drawer__footer {
+  border-color: var(--np-line);
+}
+
+.cart-drawer__footer::before {
+  content: "Gift-ready presentation and secure checkout are included with every order.";
+  display: block;
+  margin-bottom: 1.2rem;
+  padding: 1.2rem;
+  border: 1px solid var(--np-line);
+  border-radius: 8px;
+  background: var(--np-ivory);
+  color: var(--np-muted);
+  font-size: 1.3rem;
+  line-height: 1.4;
 }
 
 .accordion {

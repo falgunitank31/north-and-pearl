@@ -13,14 +13,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Shipping Policy Draft",
+            "heading": "Shipping Policy",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>This page is a policy draft template. Production timelines, carrier options, shipping regions, and free-shipping rules must be confirmed before publishing. Personalized items may require production time before transit begins.</p>"
+            "text": "<p>North & Pearl offers free U.S. shipping on all orders. Personalized pieces may require production time before transit begins. Once an order ships, tracking details will be sent to the email used at checkout.</p><p>Shipping timelines can vary by product, carrier, destination, and personalization requirements. Please review product-page notes before ordering a time-sensitive gift.</p>"
           }
         }
       },

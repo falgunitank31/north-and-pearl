@@ -436,6 +436,37 @@ button.shopify-payment-button__button {
   color: var(--np-black);
 }
 
+.card__media .media,
+.collection-card-wrapper .media {
+  background:
+    radial-gradient(circle at 50% 38%, rgba(255, 255, 255, .78), transparent 18rem),
+    linear-gradient(145deg, #fffaf3, var(--np-ivory));
+}
+
+.card__media .media img,
+.collection-card-wrapper .media img {
+  object-fit: contain;
+  padding: clamp(1.8rem, 8vw, 4.8rem);
+}
+
+.product__media.media {
+  border: 1px solid var(--np-line);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 50% 36%, rgba(255, 255, 255, .82), transparent 22rem),
+    linear-gradient(145deg, #fffaf3, var(--np-ivory));
+}
+
+.product__media.media > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: min(76%, 52rem);
+  height: min(76%, 52rem);
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+}
+
 .accordion {
   border-color: var(--np-line);
 }

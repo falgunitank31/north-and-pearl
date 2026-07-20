@@ -8,35 +8,34 @@ Products audited: 54
 
 ## Issue Counts
 
-- generic-title: 19
-- duplicate-title-family: 13
 - low-image-count: 12
+- generic-title: 6
 - claim-review-needed: 5
 
 ## Lowest Scoring Products
 
 | Product | Handle | Score | Issues |
 |---|---|---:|---|
-| North & Pearl Crystal Bracelet | north-pearl-crystal-bracelet | 76 | duplicate-title-family; generic-title |
-| North & Pearl Crystal Bracelet | north-pearl-crystal-bracelet-2183 | 76 | duplicate-title-family; generic-title |
-| North & Pearl Crystal Bracelet | north-pearl-crystal-bracelet-6205 | 76 | duplicate-title-family; generic-title |
-| North & Pearl Crystal Bracelet | north-pearl-crystal-bracelet-1371 | 76 | duplicate-title-family; generic-title |
-| North & Pearl Crystal Bracelet | north-pearl-crystal-bracelet-9725 | 76 | duplicate-title-family; generic-title |
-| North & Pearl Flower Bracelet | north-pearl-flower-bracelet | 76 | duplicate-title-family; generic-title |
-| North & Pearl Flower Bracelet | north-pearl-flower-bracelet-8784 | 76 | duplicate-title-family; generic-title |
-| North & Pearl Flower Bracelet | north-pearl-flower-bracelet-6429 | 76 | duplicate-title-family; generic-title |
-| North & Pearl Heart Necklace | north-pearl-heart-necklace | 76 | duplicate-title-family; generic-title |
-| North & Pearl Heart Necklace | north-pearl-heart-necklace-5936 | 76 | duplicate-title-family; generic-title |
-| North & Pearl Heart Necklace | north-pearl-heart-necklace-4000 | 76 | duplicate-title-family; generic-title |
 | North & Pearl Sculpted Hoop Earrings | north-pearl-sculpted-hoop-earrings | 76 | generic-title; claim-review-needed |
-| North & Pearl Snake Chain Bracelet | north-pearl-snake-chain-bracelet | 76 | duplicate-title-family; generic-title |
-| North & Pearl Snake Chain Bracelet | north-pearl-snake-chain-bracelet-0353 | 76 | duplicate-title-family; generic-title |
 | North & Pearl Birthstone Name Necklace | north-pearl-birthstone-name-necklace | 88 | low-image-count |
-| North & Pearl Chain Bracelet | north-pearl-chain-bracelet | 88 | generic-title |
 | North & Pearl Classic Tennis Bracelet | north-pearl-classic-tennis-bracelet | 88 | low-image-count |
 | North & Pearl Emerald Statement Ring | north-pearl-emerald-statement-ring | 88 | low-image-count |
+| North & Pearl Everyday Hoop Earrings | north-pearl-everyday-hoop-earrings | 88 | generic-title |
 | North & Pearl Flower Nail Bangle | north-pearl-flower-nail-bangle | 88 | claim-review-needed |
+| North & Pearl Garden Flower Bracelet | north-pearl-garden-flower-bracelet | 88 | generic-title |
 | North & Pearl Geometric Drop Earrings | north-pearl-geometric-drop-earrings | 88 | low-image-count |
+| North & Pearl Heart Bangle Bracelet | north-pearl-heart-bangle-bracelet | 88 | low-image-count |
+| North & Pearl Hollow Flower Bangle Set | north-pearl-hollow-flower-bangle-set | 88 | claim-review-needed |
+| North & Pearl Letter Charm Bracelet | north-pearl-letter-charm-bracelet | 88 | low-image-count |
+| North & Pearl Minimal Water Drop Necklace | north-pearl-minimal-water-drop-necklace | 88 | low-image-count |
+| North & Pearl Mixed Charm Bangle | north-pearl-mixed-charm-bangle | 88 | claim-review-needed |
+| North & Pearl Moissanite Gift Ring | north-pearl-moissanite-gift-ring | 88 | low-image-count |
+| North & Pearl Pearl Collarbone Necklace | north-pearl-pearl-collarbone-necklace | 88 | low-image-count |
+| North & Pearl Polished Chain Bracelet | north-pearl-polished-chain-bracelet | 88 | generic-title |
+| North & Pearl Sleek Snake Chain Bracelet | north-pearl-sleek-snake-chain-bracelet | 88 | generic-title |
+| North & Pearl Smooth Snake Chain Bracelet | north-pearl-smooth-snake-chain-bracelet | 88 | generic-title |
+| North & Pearl Square Zircon Jewelry Set | north-pearl-square-zircon-jewelry-set | 88 | low-image-count |
+| North & Pearl Stackable Gold Bracelet | north-pearl-stackable-gold-bracelet | 88 | low-image-count |
 
 ## Next Actions
 

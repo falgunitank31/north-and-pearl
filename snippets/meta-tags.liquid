@@ -4,6 +4,11 @@
   assign og_type = 'website'
   assign og_description = page_description | default: shop.description | default: shop.name
 
+  if request.page_type == 'index'
+    assign og_title = 'North & Pearl | Personalized Jewelry for Meaningful Moments'
+    assign og_description = 'Shop personalized jewelry and gift-ready keepsakes made for names, initials, dates, milestones, mothers, couples, weddings, birthdays, and anniversaries.'
+  endif
+
   if request.page_type == 'product'
     assign og_type = 'product'
   elsif request.page_type == 'article'

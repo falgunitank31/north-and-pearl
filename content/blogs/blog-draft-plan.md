@@ -43,3 +43,13 @@ Angle: Merchandise accessible premium gifts across initial necklaces, bar neckla
 ## 10. Personalized Jewelry for Couples
 
 Angle: Feature names, coordinates, dates, initials, and matching or complementary pieces for anniversaries and relationships.
+
+## Operating Briefs
+
+Detailed SEO/AEO/GEO briefs for the first five guide articles now live in `content/blogs/content-briefs.md`:
+
+- Best Personalized Jewelry Gifts for Her
+- How to Choose a Name Necklace
+- Birthstone Jewelry Gift Guide
+- Jewelry Gifts for Mom
+- Bridesmaid Jewelry Gift Ideas

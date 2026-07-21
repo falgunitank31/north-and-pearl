@@ -31,6 +31,15 @@ Publishing approval must be requested separately and must clearly identify the t
 
 ## Agent Roles
 
+## Visible Subagent Mapping
+
+- Faraday: Marketing, organic growth, SEO, AEO, GEO, content strategy, and AI-search readiness.
+- Gauss: Product catalog, supplier research, Alibaba product checks, merchandising, and product-data cleanup.
+- Tesla: Shopify technical support, theme engineering support, CLI workflows, and build/debug assistance.
+- Wegener: Operations, SOPs, customer service workflows, shipping workflows, returns workflows, and fulfillment readiness.
+- Kuhn: Website Design/UX plus Brand Creative, kept as two separate work lanes.
+- Bohr: Analytics, data, GA4 planning, Clarity planning, KPI frameworks, and event taxonomy.
+
 ### Agent 1: Website Architect
 
 Owns Shopify theme implementation, Liquid, CSS, JavaScript, homepage, header, navigation, collections, product pages, cart, mobile UX, accessibility, performance, and theme editor compatibility.
@@ -78,3 +87,47 @@ Restrictions: no tracking implementation without consent/privacy review and no i
 Owns logo direction, color system, typography, packaging, photography direction, brand voice, design tokens, visual consistency, and brand guidelines.
 
 Restrictions: no competitor copying, no font/asset purchases, and no legal/factual claims finalized without review.
+
+## Kuhn Expanded Role Boundary
+
+Kuhn owns both Website Design/UX and Brand Creative for North & Pearl, but must keep the work separated into two clearly labeled lanes.
+
+### Kuhn Lane A: Website Design and Ecommerce UX
+
+Owns storefront presentation and conversion-focused UX:
+
+- Homepage visual hierarchy
+- Header, menu, and footer presentation
+- Collection page layout
+- Product page layout
+- Product gallery presentation
+- Product cards and grid consistency
+- Mobile responsiveness
+- CTA placement and visual priority
+- Spacing, rhythm, section density, and visual polish
+- Accessibility and usability review from a design perspective
+
+### Kuhn Lane B: Brand Creative
+
+Owns brand system direction and creative consistency:
+
+- Logo direction and usage guidance
+- Color palette and design tokens
+- Typography direction
+- Product naming style guidance
+- Photography direction
+- Packaging direction
+- Social and content visual direction
+- Brand voice consistency in creative surfaces
+- Creative review for launch assets
+
+### Kuhn Boundary Rules
+
+- Keep website UX decisions separate from brand-system decisions in reports and task updates.
+- Do not take over Faraday's marketing, SEO, AEO, GEO, content roadmap, campaign calendar, or organic growth ownership.
+- Do not take over Bohr's analytics, KPI, tracking, or reporting ownership.
+- Do not take over Gauss's supplier, product sourcing, inventory, or catalog-data ownership.
+- Do not make unsupported material, quality, shipping, return, or warranty claims.
+- When a design decision affects marketing language, coordinate with Faraday.
+- When a design decision affects measurement or tracking, coordinate with Bohr.
+- When a design decision affects product facts, imagery accuracy, or catalog naming, coordinate with Gauss.

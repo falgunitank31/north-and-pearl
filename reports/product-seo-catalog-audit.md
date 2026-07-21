@@ -4,28 +4,16 @@ Date: 2026-07-20
 
 Scope: Active Shopify products with vendor `North & Pearl`.
 
-Products audited: 54
+Products audited: 42
 
 ## Issue Counts
 
-- low-image-count: 12
+- No issues detected by this script.
 
 ## Lowest Scoring Products
 
 | Product | Handle | Score | Issues |
 |---|---|---:|---|
-| North & Pearl Birthstone Name Necklace | north-pearl-birthstone-name-necklace | 88 | low-image-count |
-| North & Pearl Classic Tennis Bracelet | north-pearl-classic-tennis-bracelet | 88 | low-image-count |
-| North & Pearl Emerald Statement Ring | north-pearl-emerald-statement-ring | 88 | low-image-count |
-| North & Pearl Geometric Drop Earrings | north-pearl-geometric-drop-earrings | 88 | low-image-count |
-| North & Pearl Heart Bangle Bracelet | north-pearl-heart-bangle-bracelet | 88 | low-image-count |
-| North & Pearl Letter Charm Bracelet | north-pearl-letter-charm-bracelet | 88 | low-image-count |
-| North & Pearl Minimal Water Drop Necklace | north-pearl-minimal-water-drop-necklace | 88 | low-image-count |
-| North & Pearl Moissanite Gift Ring | north-pearl-moissanite-gift-ring | 88 | low-image-count |
-| North & Pearl Pearl Collarbone Necklace | north-pearl-pearl-collarbone-necklace | 88 | low-image-count |
-| North & Pearl Square Zircon Jewelry Set | north-pearl-square-zircon-jewelry-set | 88 | low-image-count |
-| North & Pearl Stackable Gold Bracelet | north-pearl-stackable-gold-bracelet | 88 | low-image-count |
-| North & Pearl Teardrop Birthstone Necklace | north-pearl-teardrop-birthstone-necklace | 88 | low-image-count |
 | North & Pearl Bead Bracelet | north-pearl-bead-bracelet | 100 | None |
 | North & Pearl Bloom Charm Bracelet | north-pearl-bloom-charm-bracelet | 100 | None |
 | North & Pearl Bridal Water Drop Set | north-pearl-bridal-water-drop-set | 100 | None |
@@ -34,10 +22,22 @@ Products audited: 54
 | North & Pearl Crystal Accent Bracelet | north-pearl-crystal-accent-bracelet | 100 | None |
 | North & Pearl Crystal Bead Bracelet | north-pearl-crystal-bead-bracelet | 100 | None |
 | North & Pearl Crystal Gemstone Cuff | north-pearl-crystal-gemstone-cuff | 100 | None |
+| North & Pearl Crystal Halo Bracelet | north-pearl-crystal-halo-bracelet | 100 | None |
+| North & Pearl Crystal Link Bracelet | north-pearl-crystal-link-bracelet | 100 | None |
+| North & Pearl Crystal Pulse Bracelet | north-pearl-crystal-pulse-bracelet | 100 | None |
+| North & Pearl Crystal Row Bracelet | north-pearl-crystal-row-bracelet | 100 | None |
+| North & Pearl Dainty Flower Necklace | north-pearl-dainty-flower-necklace | 100 | None |
+| North & Pearl Double Heart Pendant | north-pearl-double-heart-pendant | 100 | None |
+| North & Pearl Everyday Curve Earrings | north-pearl-everyday-curve-earrings | 100 | None |
+| North & Pearl Floral Accent Bracelet | north-pearl-floral-accent-bracelet | 100 | None |
+| North & Pearl Flower Jewelry Set | north-pearl-flower-jewelry-set | 100 | None |
+| North & Pearl Flower Nail Bangle | north-pearl-flower-nail-bangle | 100 | None |
+| North & Pearl Garden Bloom Bracelet | north-pearl-garden-bloom-bracelet | 100 | None |
+| North & Pearl Gold Bead Stretch Bracelet | north-pearl-gold-bead-stretch-bracelet | 100 | None |
 
 ## Next Actions
 
-1. Expand the 12 one-image products only after exact source listing URLs or image URLs are confirmed.
-2. Prefer at least 3 accurate product images per active product before scaling more traffic.
-3. Keep the single-image products active only if the image accurately represents the product and the page remains purchase-safe.
-4. Continue sourcing documentation for material, finish, sizing, and care facts before adding stronger product claims.
+1. Keep the 12 one-image products drafted until exact Alibaba listings or same-product image sets are verified.
+2. Replace drafted products with new verified Alibaba candidates if exact source recovery is not possible.
+3. Continue enforcing at least 3 accurate images for active products before scaling traffic.
+4. Store Alibaba source IDs, source URLs, source titles, source image URLs, and verification dates on every future product.

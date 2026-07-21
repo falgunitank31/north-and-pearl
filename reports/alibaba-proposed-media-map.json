@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-07-20",
+  "policy": "Do not mutate Shopify from this map unless exact Alibaba listing or same-product image set is later verified. Current entries contain only the existing verified single-image source.",
+  "products": [
+    {
+      "title": "North & Pearl Birthstone Name Necklace",
+      "handle": "north-pearl-birthstone-name-necklace",
+      "status": "PARTIAL_SOURCE_FOUND",
+      "currentVerifiedImageUrls": [
+        "https://s.alicdn.com/@sc04/kf/Ha70708512f184cc38834bb31484131acZ.png"
+      ],
+      "proposedAdditionalImageUrls": [],
+      "recommendedAction": "Do not expand yet; recover exact Alibaba product listing or replace with verified candidate."
+    },
+    {
+      "title": "North & Pearl Classic Tennis Bracelet",
+      "handle": "north-pearl-classic-tennis-bracelet",
+      "status": "PARTIAL_SOURCE_FOUND",
+      "currentVerifiedImageUrls": [
+        "https://s.alicdn.com/@sc04/kf/H316e0d6799a64c4da0ac1938bad05579v.jpg"
+      ],
+      "proposedAdditionalImageUrls": [],
+      "recommendedAction": "Do not expand yet; recover exact Alibaba product listing or replace with verified candidate."
+    },
+    {
+      "title": "North & Pearl Emerald Statement Ring",
+      "handle": "north-pearl-emerald-statement-ring",
+      "status": "PARTIAL_SOURCE_FOUND",
+      "currentVerifiedImageUrls": [
+        "https://s.alicdn.com/@sc04/kf/H84b98c8b24744de3a66d8ac9dfc5bc14Q.jpg"
+      ],
+      "proposedAdditionalImageUrls": [],
+      "recommendedAction": "Do not expand yet; avoid stone/material claims unless supplier documents confirm them."
+    },
+    {
+      "title": "North & Pearl Geometric Drop Earrings",
+      "handle": "north-pearl-geometric-drop-earrings",
+      "status": "PARTIAL_SOURCE_FOUND",
+      "currentVerifiedImageUrls": [
+        "https://s.alicdn.com/@sc04/kf/Haddf3955b3094ad9bc260e6bf1a849d66.jpg"
+      ],
+      "proposedAdditionalImageUrls": [],
+      "recommendedAction": "Do not expand yet; recover exact Alibaba product listing or replace with verified candidate."
+    },
+    {
+      "title": "North & Pearl Heart Bangle Bracelet",
+      "handle": "north-pearl-heart-bangle-bracelet",
+      "status": "PARTIAL_SOURCE_FOUND",
+      "currentVerifiedImageUrls": [
+        "https://s.alicdn.com/@sc04/kf/Hd56e87334c404b7d84c354dcb308d649N.jpg"
+      ],
+      "proposedAdditionalImageUrls": [],
+      "recommendedAction": "Do not expand yet; recover exact Alibaba product listing or replace with verified candidate."
+    },
+    {
+      "title": "North & Pearl Letter Charm Bracelet",
+      "handle": "north-pearl-letter-charm-bracelet",
+      "status": "PARTIAL_SOURCE_FOUND",
+      "currentVerifiedImageUrls": [
+        "https://s.alicdn.com/@sc04/kf/H419e89e8f2894feea05004ed7a73111az.png"
+      ],
+      "proposedAdditionalImageUrls": [],
+      "recommendedAction": "Do not expand yet; current image is verified, but no matching additional image set is verified."
+    },
+    {
+      "title": "North & Pearl Minimal Water Drop Necklace",
+      "handle": "north-pearl-minimal-water-drop-necklace",
+      "status": "PARTIAL_SOURCE_FOUND",
+      "currentVerifiedImageUrls": [
+        "https://s.alicdn.com/@sc04/kf/H2b743cbc422c4c2d8dc5882a5bd868c5R.jpg"
+      ],
+      "proposedAdditionalImageUrls": [],
+      "recommendedAction": "Do not expand yet; recover exact Alibaba product listing or replace with verified candidate."
+    },
+    {
+      "title": "North & Pearl Moissanite Gift Ring",
+      "handle": "north-pearl-moissanite-gift-ring",
+      "status": "PARTIAL_SOURCE_FOUND",
+      "currentVerifiedImageUrls": [
+        "https://s.alicdn.com/@sc04/kf/H1a6a4f9a9a1648348e3102541a9822f2T.jpg"
+      ],
+      "proposedAdditionalImageUrls": [],
+      "recommendedAction": "Do not expand yet; avoid moissanite claims unless supplier documents confirm them."
+    },
+    {
+      "title": "North & Pearl Pearl Collarbone Necklace",
+      "handle": "north-pearl-pearl-collarbone-necklace",
+      "status": "PARTIAL_SOURCE_FOUND",
+      "currentVerifiedImageUrls": [
+        "https://s.alicdn.com/@sc04/kf/Hcd831284a57343479fc0a44bbb3ad2acW.jpg"
+      ],
+      "proposedAdditionalImageUrls": [],
+      "recommendedAction": "Do not expand yet; avoid pearl-material claims unless supplier documents confirm them."
+    },
+    {
+      "title": "North & Pearl Square Zircon Jewelry Set",
+      "handle": "north-pearl-square-zircon-jewelry-set",
+      "status": "PARTIAL_SOURCE_FOUND",
+      "currentVerifiedImageUrls": [
+        "https://s.alicdn.com/@sc04/kf/H57347201ea43439ab63ac5acc67e02d0E.jpg"
+      ],
+      "proposedAdditionalImageUrls": [],
+      "recommendedAction": "Do not expand yet; avoid zircon/material claims unless supplier documents confirm them."
+    },
+    {
+      "title": "North & Pearl Stackable Gold Bracelet",
+      "handle": "north-pearl-stackable-gold-bracelet",
+      "status": "PARTIAL_SOURCE_FOUND",
+      "currentVerifiedImageUrls": [
+        "https://s.alicdn.com/@sc04/kf/H9b306b51a3f142e298997f1681bf3675d.jpg"
+      ],
+      "proposedAdditionalImageUrls": [],
+      "recommendedAction": "Do not expand yet; recover exact Alibaba product listing or replace with verified candidate."
+    },
+    {
+      "title": "North & Pearl Teardrop Birthstone Necklace",
+      "handle": "north-pearl-teardrop-birthstone-necklace",
+      "status": "PARTIAL_SOURCE_FOUND",
+      "currentVerifiedImageUrls": [
+        "https://s.alicdn.com/@sc04/kf/H819cdeb4f8df475197741874653d3c05k.jpg"
+      ],
+      "proposedAdditionalImageUrls": [],
+      "recommendedAction": "Do not expand yet; recover exact Alibaba product listing or replace with verified candidate."
+    }
+  ]
+}

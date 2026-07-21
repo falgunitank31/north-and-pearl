@@ -39,6 +39,10 @@ function list(items) {
   return `<ul>${items.map((item) => `<li>${item}</li>`).join('')}</ul>`;
 }
 
+function link(label, href) {
+  return `<a href="${href}">${label}</a>`;
+}
+
 function guideHtml({ intro, sections, cta }) {
   return [
     paragraphs(intro),
@@ -96,7 +100,7 @@ const guides = [
           ],
         },
       ],
-      cta: 'Start with the Gifts collection, then explore Name Necklaces, Initial Necklaces, Birthstone Jewelry, Mother’s Collection, Wedding & Bridesmaids, and Couple Jewelry to find the most relevant path.',
+      cta: `Start with ${link('Gifts', '/collections/gifts')}, then explore ${link('Name Necklaces', '/collections/name-necklaces')}, ${link('Initial Necklaces', '/collections/initial-necklaces')}, ${link('Birthstone Jewelry', '/collections/birthstone-jewelry')}, ${link('Mother’s Collection', '/collections/mothers-collection')}, ${link('Wedding & Bridesmaids', '/collections/wedding-bridesmaids')}, and ${link('Couple Jewelry', '/collections/couple-jewelry')} to find the most relevant path.`,
     }),
   },
   {
@@ -148,7 +152,7 @@ const guides = [
           ],
         },
       ],
-      cta: 'Explore Name Necklaces, Initial Necklaces, Gifts, Mother’s Collection, and Couple Jewelry for name and initial-inspired gift ideas.',
+      cta: `Explore ${link('Name Necklaces', '/collections/name-necklaces')}, ${link('Initial Necklaces', '/collections/initial-necklaces')}, ${link('Gifts', '/collections/gifts')}, ${link('Mother’s Collection', '/collections/mothers-collection')}, and ${link('Couple Jewelry', '/collections/couple-jewelry')} for name and initial-inspired gift ideas.`,
     }),
   },
   {
@@ -190,7 +194,7 @@ const guides = [
           ],
         },
       ],
-      cta: 'Browse Birthstone Jewelry, Gifts, Mother’s Collection, Rings, and Name Necklaces for birth-month inspired gift paths.',
+      cta: `Browse ${link('Birthstone Jewelry', '/collections/birthstone-jewelry')}, ${link('Gifts', '/collections/gifts')}, ${link('Mother’s Collection', '/collections/mothers-collection')}, ${link('Rings', '/collections/rings')}, and ${link('Name Necklaces', '/collections/name-necklaces')} for birth-month inspired gift paths.`,
     }),
   },
   {
@@ -226,7 +230,7 @@ const guides = [
           ],
         },
       ],
-      cta: 'Start with Mother’s Collection, then explore Gifts, Birthstone Jewelry, Name Necklaces, Initial Necklaces, and Bracelets.',
+      cta: `Start with ${link('Mother’s Collection', '/collections/mothers-collection')}, then explore ${link('Gifts', '/collections/gifts')}, ${link('Birthstone Jewelry', '/collections/birthstone-jewelry')}, ${link('Name Necklaces', '/collections/name-necklaces')}, ${link('Initial Necklaces', '/collections/initial-necklaces')}, and ${link('Bracelets', '/collections/bracelets')}.`,
     }),
   },
   {
@@ -262,7 +266,7 @@ const guides = [
           ],
         },
       ],
-      cta: 'Browse Wedding & Bridesmaids, Gifts, Initial Necklaces, Necklaces, Bracelets, and Earrings for bridal party gift ideas.',
+      cta: `Browse ${link('Wedding & Bridesmaids', '/collections/wedding-bridesmaids')}, ${link('Gifts', '/collections/gifts')}, ${link('Initial Necklaces', '/collections/initial-necklaces')}, ${link('Necklaces', '/collections/necklaces')}, ${link('Bracelets', '/collections/bracelets')}, and ${link('Earrings', '/collections/earrings')} for bridal party gift ideas.`,
     }),
   },
 ];

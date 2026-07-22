@@ -43,6 +43,9 @@
   if media.media_type == 'image'
     assign image_class = 'image-magnify-' | append: section.settings.image_zoom
   endif
+
+  assign np_alt_title = product_title | default: product.title | default: media.alt
+  assign np_media_alt = np_alt_title | append: ' product image ' | append: position
 -%}
 
 {%- capture sizes -%}
@@ -85,6 +88,7 @@
           class: image_class,
           loading: lazy,
           sizes: sizes,
+          alt: np_media_alt,
           widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
       }}
     </div>
@@ -126,6 +130,7 @@
         | image_tag:
           loading: lazy,
           sizes: sizes,
+          alt: np_media_alt,
           widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
       }}
     </button>

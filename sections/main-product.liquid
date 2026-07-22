@@ -78,7 +78,7 @@
       <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col grid--2-col-tablet {% if product.media.size == 0 %}product--np-placeholder{% endif %}">
         <div class="grid__item product__media-wrapper">
           {%- if product.media.size > 0 -%}
-            {% render 'product-media-gallery', variant_images: variant_images %}
+            {% render 'product-media-gallery', product: product, variant_images: variant_images %}
           {%- else -%}
             <div class="np-product-placeholder-hero" aria-label="{{ product.title | escape }} visual placeholder">
               <div class="np-product-placeholder-hero__card">
@@ -710,7 +710,7 @@
         </div>
       </div>
 
-      {% render 'product-media-modal', variant_images: variant_images %}
+      {% render 'product-media-modal', product: product, variant_images: variant_images %}
 
       {% assign popups = section.blocks | where: 'type', 'popup' %}
       {%- for block in popups -%}

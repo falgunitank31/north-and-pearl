@@ -40,13 +40,7 @@
     {% render 'meta-tags' %}
     {% render 'north-pearl-schema' %}
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-14KCZE935H"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-14KCZE935H');
-    </script>
+    <script src="{{ 'north-pearl-ga4.js' | asset_url }}" defer="defer"></script>
 
     <script type="module">
       import * as StandardEvents from 'https://cdn.shopify.com/storefront/standard-events.js';

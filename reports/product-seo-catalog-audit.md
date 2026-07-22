@@ -1,6 +1,6 @@
 # Product SEO Catalog Audit
 
-Date: 2026-07-21
+Date: 2026-07-22
 
 Scope: Active Shopify products with vendor `North & Pearl`.
 
@@ -41,4 +41,4 @@ Products audited: 42
 2. Keep one-image products drafted until exact source listings, image sets, and product facts are verified.
 3. Continue enforcing at least 3 accurate images for active products before scaling traffic.
 4. Store source URLs, source titles, image URLs, and verification dates on every future product.
-5. Do not activate products with unsupported material, stone, allergy, waterproof, tarnish, shipping, review, or warranty claims.
+5. Review claim-sensitive product names and descriptions against supplier documentation before larger traffic pushes.

@@ -232,7 +232,11 @@
             {%- capture thumbnail_id -%}
               Thumbnail-{{ section.id }}-0
             {%- endcapture -%}
-            {%- assign np_featured_thumb_alt = product.title | append: ' product thumbnail ' | append: media_index -%}
+            {%- liquid
+              assign np_featured_thumb_alt = product.title | append: ' product thumbnail ' | append: media_index
+              assign np_featured_thumb_alt_escaped = np_featured_thumb_alt | escape
+              assign np_featured_stored_alt_escaped = featured_media.preview_image.alt | escape
+            -%}
             <button
               class="thumbnail global-media-settings global-media-settings--no-shadow"
               aria-label="{%- if featured_media.media_type == 'image' -%}{{ 'products.product.media.load_image' | t: index: media_index }}{%- elsif featured_media.media_type == 'model' -%}{{ 'products.product.media.load_model' | t: index: media_index }}{%- elsif featured_media.media_type == 'video' or featured_media.media_type == 'external_video' -%}{{ 'products.product.media.load_video' | t: index: media_index }}{%- endif -%}"
@@ -249,6 +253,7 @@
                   widths: '54, 74, 104, 162, 208, 324, 416',
                   id: thumbnail_id,
                   alt: np_featured_thumb_alt
+                | replace: np_featured_stored_alt_escaped, np_featured_thumb_alt_escaped
                 | escape
               }}
             </button>
@@ -290,7 +295,11 @@
               {%- capture thumbnail_id -%}
                 Thumbnail-{{ section.id }}-{{ forloop.index }}
               {%- endcapture -%}
-              {%- assign np_thumb_alt = product.title | append: ' product thumbnail ' | append: media_index -%}
+              {%- liquid
+                assign np_thumb_alt = product.title | append: ' product thumbnail ' | append: media_index
+                assign np_thumb_alt_escaped = np_thumb_alt | escape
+                assign np_stored_alt_escaped = media.preview_image.alt | escape
+              -%}
               <button
                 class="thumbnail global-media-settings global-media-settings--no-shadow"
                 aria-label="{%- if media.media_type == 'image' -%}{{ 'products.product.media.load_image' | t: index: media_index }}{%- elsif media.media_type == 'model' -%}{{ 'products.product.media.load_model' | t: index: media_index }}{%- elsif media.media_type == 'video' or media.media_type == 'external_video' -%}{{ 'products.product.media.load_video' | t: index: media_index }}{%- endif -%}"
@@ -312,6 +321,7 @@
                     widths: '54, 74, 104, 162, 208, 324, 416',
                     id: thumbnail_id,
                     alt: np_thumb_alt
+                  | replace: np_stored_alt_escaped, np_thumb_alt_escaped
                   | escape
                 }}
               </button>

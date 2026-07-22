@@ -46,6 +46,8 @@
 
   assign np_alt_title = product_title | default: product.title | default: media.alt
   assign np_media_alt = np_alt_title | append: ' product image ' | append: position
+  assign np_media_alt_escaped = np_media_alt | escape
+  assign np_stored_alt_escaped = media.preview_image.alt | escape
 -%}
 
 {%- capture sizes -%}
@@ -90,6 +92,7 @@
           sizes: sizes,
           alt: np_media_alt,
           widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
+        | replace: np_stored_alt_escaped, np_media_alt_escaped
       }}
     </div>
     <button
@@ -132,6 +135,7 @@
           sizes: sizes,
           alt: np_media_alt,
           widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
+        | replace: np_stored_alt_escaped, np_media_alt_escaped
       }}
     </button>
     <template>

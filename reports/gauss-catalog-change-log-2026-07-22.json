@@ -1,0 +1,70 @@
+{
+  "date": "2026-07-22",
+  "owner": "Gauss",
+  "cadence": "Wednesday catalog expansion and cleanup",
+  "shopifyMutationsMade": false,
+  "repoChanges": [
+    {
+      "file": "scripts/audit-product-seo-quality.mjs",
+      "change": "Replaced stale hard-coded report date with current run date and restored Gauss current next-action guidance."
+    },
+    {
+      "file": "reports/product-seo-catalog-audit.md",
+      "change": "Corrected generated report date and next actions after the non-mutating audit run."
+    },
+    {
+      "file": "reports/gauss-catalog-market-review-2026-07-22.md",
+      "change": "Added dated catalog, source-risk, market, category balance, and handoff report."
+    }
+  ],
+  "activeCatalog": {
+    "productsAudited": 42,
+    "seoIssueCount": 0,
+    "typeCounts": {
+      "Bracelet": 23,
+      "Necklace": 9,
+      "Earrings": 4,
+      "Ring": 3,
+      "Gift Set": 3
+    }
+  },
+  "draftRiskProducts": {
+    "count": 12,
+    "status": "keep_draft_until_exact_source_or_three_plus_exact_images_verified",
+    "evidenceClass": "PARTIAL_SOURCE_FOUND",
+    "handles": [
+      "north-pearl-birthstone-name-necklace",
+      "north-pearl-classic-tennis-bracelet",
+      "north-pearl-emerald-statement-ring",
+      "north-pearl-geometric-drop-earrings",
+      "north-pearl-heart-bangle-bracelet",
+      "north-pearl-letter-charm-bracelet",
+      "north-pearl-minimal-water-drop-necklace",
+      "north-pearl-moissanite-gift-ring",
+      "north-pearl-pearl-collarbone-necklace",
+      "north-pearl-square-zircon-jewelry-set",
+      "north-pearl-stackable-gold-bracelet",
+      "north-pearl-teardrop-birthstone-necklace"
+    ]
+  },
+  "approvedExpansionPriorities": [
+    "everyday-earrings",
+    "statement-studs",
+    "stackable-minimal-rings",
+    "personalized-necklaces-with-clear-customization-data",
+    "gift-sets-with-visible-components",
+    "shell-marine-motifs-as-seasonal-test"
+  ],
+  "deferredExpansionPriorities": [
+    "generic-bracelets",
+    "mens-jewelry",
+    "gift-box-products-without-operations-review"
+  ],
+  "handoffs": {
+    "Kuhn": "Review claim-sensitive active product names and safer visual descriptor style.",
+    "Faraday": "Align next source shortlist with SEO/category opportunity.",
+    "Tesla": "No current blocker; standby for Shopify CLI/API failures.",
+    "Wegener": "Review gift set or gift box expansion before packaging/returns/support claims.",
+    "Bohr": "Provide category performance data when analytics is available."
+  }
+}

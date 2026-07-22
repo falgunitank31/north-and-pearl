@@ -188,7 +188,7 @@ writeFileSync(
   outputMd,
   `# Product SEO Catalog Audit
 
-Date: 2026-07-20
+Date: ${new Date().toISOString().slice(0, 10)}
 
 Scope: Active Shopify products with vendor \`North & Pearl\`.
 
@@ -206,11 +206,11 @@ ${worstRows.map((row) => `| ${row.title} | ${row.handle} | ${row.score} | ${row.
 
 ## Next Actions
 
-1. Rename duplicate/generic product families with clear visual or occasion descriptors.
-2. Expand products with fewer than 3 accurate images where Alibaba source images are available.
-3. Strengthen thin product descriptions with original gift-focused copy and confirmed product facts only.
-4. Add missing image alt text through product media updates or import workflow.
-5. Keep claim-risk products in review until supplier documentation confirms material/performance claims.
+1. Keep active-product SEO checks in the weekly Gauss QA rhythm.
+2. Keep one-image products drafted until exact source listings, image sets, and product facts are verified.
+3. Continue enforcing at least 3 accurate images for active products before scaling traffic.
+4. Store source URLs, source titles, image URLs, and verification dates on every future product.
+5. Review claim-sensitive product names and descriptions against supplier documentation before larger traffic pushes.
 `,
 );
 

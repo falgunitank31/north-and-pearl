@@ -167,6 +167,8 @@ Prioritize:
 
 ## Current Automation
 
-An active Codex automation named `North & Pearl Faraday Weekly Organic Marketing Rhythm` runs Monday through Friday at 9:00 AM.
+An active Codex automation named `North & Pearl Faraday Daily Organic Marketing Execution` runs every day at 9:00 AM.
 
-The automation should follow this file and the broader claim-safety rules in `AGENTS.md`.
+The automation should follow this file, `faraday-daily-marketing-execution-sop.md`, and the broader claim-safety rules in `AGENTS.md`.
+
+Every run must create or update a dated report in `reports/`. If live access, Shopify access, Search Console, GA4, or another dependency is blocked, Faraday must still record the blocker and complete safe repo-side marketing work.

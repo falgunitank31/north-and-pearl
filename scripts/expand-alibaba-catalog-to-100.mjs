@@ -8,7 +8,7 @@ const onlineStorePublicationId = 'gid://shopify/Publication/331104157880';
 const domain = 'https://www.alibaba.com/search/api/proTextSearch';
 const tempDir = mkdtempSync(join(tmpdir(), 'np-catalog-100-'));
 const cachedAlibabaResponse = '/tmp/np-alibaba-pro-search.json';
-const targetActiveProducts = 100;
+const targetProductsToAdd = 50;
 
 const searches = [
   "jewelry for women",
@@ -57,10 +57,10 @@ const motifWords = [
   ['heart', 'Heart'],
   ['flower', 'Flower'],
   ['clover', 'Clover'],
-  ['pearl', 'Pearl'],
-  ['birthstone', 'Birthstone'],
-  ['zircon', 'Crystal'],
-  ['crystal', 'Crystal'],
+  ['pearl', 'Bead'],
+  ['birthstone', 'Birth-Month'],
+  ['zircon', 'Sparkle'],
+  ['crystal', 'Sparkle'],
   ['water drop', 'Water Drop'],
   ['teardrop', 'Teardrop'],
   ['initial', 'Initial'],
@@ -72,7 +72,7 @@ const motifWords = [
   ['snake', 'Snake Chain'],
   ['tennis', 'Tennis'],
   ['bead', 'Bead'],
-  ['gemstone', 'Gemstone'],
+  ['gemstone', 'Color Accent'],
   ['bar', 'Bar'],
   ['chain', 'Chain'],
   ['shell', 'Shell'],
@@ -329,12 +329,12 @@ const existingCollections = gql(`query ExistingCollections {
 }`).collections.nodes;
 
 const activeCount = existingProducts.filter((product) => product.status === 'ACTIVE').length;
-let slots = Math.max(0, targetActiveProducts - activeCount);
+let slots = targetProductsToAdd;
 const collectionByTitle = new Map(existingCollections.map((collection) => [collection.title, collection]));
 const productByHandle = new Map(existingProducts.map((product) => [product.handle, product]));
 const existingSourceTags = new Set(existingProducts.flatMap((product) => product.tags || []).filter((tag) => tag.startsWith('alibaba-source-')));
 
-console.log(`North & Pearl active product count: ${activeCount}. Open slots to ${targetActiveProducts}: ${slots}.`);
+console.log(`North & Pearl active product count: ${activeCount}. Today's add target: ${slots}.`);
 
 if (slots === 0) process.exit(0);
 
@@ -500,4 +500,4 @@ for (const offer of candidates) {
 }
 
 console.table(createdRows);
-console.log(`Created ${createdRows.length} products. Remaining slots to ${targetActiveProducts}: ${slots}.`);
+console.log(`Created ${createdRows.length} products today. Remaining daily slots: ${slots}.`);

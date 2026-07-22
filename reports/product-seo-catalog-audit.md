@@ -4,7 +4,7 @@ Date: 2026-07-22
 
 Scope: Active Shopify products with vendor `North & Pearl`.
 
-Products audited: 42
+Products audited: 92
 
 ## Issue Counts
 
@@ -15,25 +15,25 @@ Products audited: 42
 | Product | Handle | Score | Issues |
 |---|---|---:|---|
 | North & Pearl Bead Bracelet | north-pearl-bead-bracelet | 100 | None |
+| North & Pearl Bead Earrings | north-pearl-bead-earrings | 100 | None |
+| North & Pearl Bead Jewelry Set | north-pearl-bead-jewelry-set | 100 | None |
+| North & Pearl Block Letter Necklace | north-pearl-letter-necklace | 100 | None |
 | North & Pearl Bloom Charm Bracelet | north-pearl-bloom-charm-bracelet | 100 | None |
 | North & Pearl Bridal Water Drop Set | north-pearl-bridal-water-drop-set | 100 | None |
 | North & Pearl Chunky Bead Bracelet | north-pearl-chunky-pearl-bracelet | 100 | None |
+| North & Pearl Classic Initial Necklace | north-pearl-initial-necklace | 100 | None |
+| North & Pearl Classic Name Necklace | north-pearl-name-necklace | 100 | None |
+| North & Pearl Clover Bracelet | north-pearl-clover-bracelet | 100 | None |
 | North & Pearl Clover Charm Bracelet | north-pearl-clover-charm-bracelet | 100 | None |
+| North & Pearl Clover Earrings | north-pearl-clover-earrings | 100 | None |
 | North & Pearl Color Accent Cuff | north-pearl-crystal-gemstone-cuff | 100 | None |
+| North & Pearl Custom Name Pendant | north-pearl-name-necklace-1832 | 100 | None |
+| North & Pearl Custom Script Pendant | north-pearl-name-necklace-2338 | 100 | None |
+| North & Pearl Dainty Chain Necklace | north-pearl-chain-necklace-4276 | 100 | None |
 | North & Pearl Dainty Flower Necklace | north-pearl-dainty-flower-necklace | 100 | None |
-| North & Pearl Dainty Sparkle Bracelet | north-pearl-zircon-bracelet | 100 | None |
-| North & Pearl Double Heart Pendant | north-pearl-double-heart-pendant | 100 | None |
-| North & Pearl Everyday Curve Earrings | north-pearl-everyday-curve-earrings | 100 | None |
-| North & Pearl Floral Accent Bracelet | north-pearl-floral-accent-bracelet | 100 | None |
-| North & Pearl Flower Jewelry Set | north-pearl-flower-jewelry-set | 100 | None |
-| North & Pearl Flower Nail Bangle | north-pearl-flower-nail-bangle | 100 | None |
-| North & Pearl Garden Bloom Bracelet | north-pearl-garden-bloom-bracelet | 100 | None |
-| North & Pearl Heart Bracelet | north-pearl-heart-bracelet | 100 | None |
-| North & Pearl Heart Charm Necklace | north-pearl-heart-charm-necklace | 100 | None |
-| North & Pearl Heart Drop Necklace | north-pearl-heart-drop-necklace | 100 | None |
-| North & Pearl Heart Earrings | north-pearl-heart-earrings | 100 | None |
-| North & Pearl Heart Keepsake Necklace | north-pearl-heart-keepsake-necklace | 100 | None |
-| North & Pearl Hollow Flower Bangle Set | north-pearl-hollow-flower-bangle-set | 100 | None |
+| North & Pearl Dainty Initial Charm | north-pearl-initial-necklace-6130 | 100 | None |
+| North & Pearl Dainty Letter Pendant | north-pearl-letter-necklace-6404 | 100 | None |
+| North & Pearl Dainty Name Necklace | north-pearl-name-necklace-6687 | 100 | None |
 
 ## Next Actions
 

@@ -25,6 +25,8 @@ Published or refreshed the first five North & Pearl organic gift-guide articles 
 - All five article URLs returned HTTP 200.
 - Each article rendered its H1.
 - Each article included collection links into commercial shopping paths.
+- Added reciprocal guide links to 12 live revenue collection descriptions.
+- Verified guide-link rendering on Gifts, Name Necklaces, Birthstone Jewelry, Mother's Collection, Wedding & Bridesmaids, and Best Sellers.
 - Copy remains claim-safe and avoids unsupported material, allergy, waterproof, tarnish-free, precious-metal, or delivery promises.
 
 ## Business Impact
@@ -37,5 +39,5 @@ Published or refreshed the first five North & Pearl organic gift-guide articles 
 ## Follow-Up
 
 - Add Article schema and FAQ schema where visible FAQ content is present.
-- Add article links into relevant collections and footer/editorial modules.
+- Add article links into footer/editorial modules.
 - Monitor Search Console indexing once Google picks up the sitemap updates.

@@ -254,7 +254,6 @@
                   id: thumbnail_id,
                   alt: np_featured_thumb_alt
                 | replace: np_featured_stored_alt_escaped, np_featured_thumb_alt_escaped
-                | escape
               }}
             </button>
           </li>
@@ -318,11 +317,10 @@
                   | image_tag:
                     loading: 'lazy',
                     sizes: sizes,
-                    widths: '54, 74, 104, 162, 208, 324, 416',
-                    id: thumbnail_id,
-                    alt: np_thumb_alt
-                  | replace: np_stored_alt_escaped, np_thumb_alt_escaped
-                  | escape
+                  widths: '54, 74, 104, 162, 208, 324, 416',
+                  id: thumbnail_id,
+                  alt: np_thumb_alt
+                | replace: np_stored_alt_escaped, np_thumb_alt_escaped
                 }}
               </button>
             </li>

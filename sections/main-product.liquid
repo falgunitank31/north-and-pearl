@@ -75,18 +75,6 @@
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <product-component view-event-payload="{{ product | standard_event_data: 'view', context: 'page' | escape }}">
     <div class="page-width">
-      <nav class="np-product-breadcrumb" aria-label="Breadcrumb">
-        <a href="{{ routes.root_url }}">Home</a>
-        <span aria-hidden="true">/</span>
-        {%- if product.collections.first != blank -%}
-          <a href="{{ product.collections.first.url }}">{{ product.collections.first.title | escape }}</a>
-          <span aria-hidden="true">/</span>
-        {%- else -%}
-          <a href="{{ routes.all_products_collection_url }}">Shop All</a>
-          <span aria-hidden="true">/</span>
-        {%- endif -%}
-        <span>{{ product.title | escape }}</span>
-      </nav>
       <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col grid--2-col-tablet {% if product.media.size == 0 %}product--np-placeholder{% endif %}">
         <div class="grid__item product__media-wrapper">
           {%- if product.media.size > 0 -%}
@@ -109,11 +97,6 @@
             class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
           >
             {%- assign product_form_id = 'product-form-' | append: section.id -%}
-            <div class="np-product-confidence" aria-label="North & Pearl purchase highlights">
-              <span>Gift-ready presentation</span>
-              <span>Quality checked before shipping</span>
-              <span>Free U.S. shipping</span>
-            </div>
 
             {%- for block in section.blocks -%}
               {%- case block.type -%}

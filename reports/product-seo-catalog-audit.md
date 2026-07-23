@@ -4,7 +4,7 @@ Date: 2026-07-23
 
 Scope: Active Shopify products with vendor `North & Pearl`.
 
-Products audited: 77
+Products audited: 70
 
 ## Issue Counts
 

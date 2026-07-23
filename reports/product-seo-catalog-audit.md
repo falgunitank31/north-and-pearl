@@ -8,32 +8,32 @@ Products audited: 92
 
 ## Issue Counts
 
-- No issues detected by this script.
+- claim-review-needed: 12
 
 ## Lowest Scoring Products
 
 | Product | Handle | Score | Issues |
 |---|---|---:|---|
+| North & Pearl Chunky Bead Bracelet | north-pearl-chunky-bead-bracelet | 88 | claim-review-needed |
+| North & Pearl Color Accent Cuff | north-pearl-color-accent-cuff | 88 | claim-review-needed |
+| North & Pearl Iridescent Pendant Necklace | north-pearl-iridescent-pendant-necklace | 88 | claim-review-needed |
+| North & Pearl Linear Sparkle Bracelet | north-pearl-linear-sparkle-bracelet | 88 | claim-review-needed |
+| North & Pearl Smooth Band Ring | north-pearl-smooth-band-ring | 88 | claim-review-needed |
+| North & Pearl Sparkle Accent Bracelet | north-pearl-sparkle-accent-bracelet | 88 | claim-review-needed |
+| North & Pearl Sparkle Bead Bracelet | north-pearl-sparkle-bead-bracelet | 88 | claim-review-needed |
+| North & Pearl Sparkle Halo Bracelet | north-pearl-sparkle-halo-bracelet | 88 | claim-review-needed |
+| North & Pearl Sparkle Link Bracelet | north-pearl-sparkle-link-bracelet | 88 | claim-review-needed |
+| North & Pearl Sparkle Pulse Bracelet | north-pearl-sparkle-pulse-bracelet | 88 | claim-review-needed |
+| North & Pearl Sparkle Row Bracelet | north-pearl-sparkle-row-bracelet | 88 | claim-review-needed |
+| North & Pearl Warm Bead Stretch Bracelet | north-pearl-warm-bead-stretch-bracelet | 88 | claim-review-needed |
 | North & Pearl Bead Bracelet | north-pearl-bead-bracelet | 100 | None |
 | North & Pearl Bead Earrings | north-pearl-bead-earrings | 100 | None |
 | North & Pearl Bead Jewelry Set | north-pearl-bead-jewelry-set | 100 | None |
 | North & Pearl Block Letter Necklace | north-pearl-letter-necklace | 100 | None |
 | North & Pearl Bloom Charm Bracelet | north-pearl-bloom-charm-bracelet | 100 | None |
 | North & Pearl Bridal Water Drop Set | north-pearl-bridal-water-drop-set | 100 | None |
-| North & Pearl Chunky Bead Bracelet | north-pearl-chunky-pearl-bracelet | 100 | None |
 | North & Pearl Classic Initial Necklace | north-pearl-initial-necklace | 100 | None |
 | North & Pearl Classic Name Necklace | north-pearl-name-necklace | 100 | None |
-| North & Pearl Clover Bracelet | north-pearl-clover-bracelet | 100 | None |
-| North & Pearl Clover Charm Bracelet | north-pearl-clover-charm-bracelet | 100 | None |
-| North & Pearl Clover Earrings | north-pearl-clover-earrings | 100 | None |
-| North & Pearl Color Accent Cuff | north-pearl-crystal-gemstone-cuff | 100 | None |
-| North & Pearl Custom Name Pendant | north-pearl-name-necklace-1832 | 100 | None |
-| North & Pearl Custom Script Pendant | north-pearl-name-necklace-2338 | 100 | None |
-| North & Pearl Dainty Chain Necklace | north-pearl-chain-necklace-4276 | 100 | None |
-| North & Pearl Dainty Flower Necklace | north-pearl-dainty-flower-necklace | 100 | None |
-| North & Pearl Dainty Initial Charm | north-pearl-initial-necklace-6130 | 100 | None |
-| North & Pearl Dainty Letter Pendant | north-pearl-letter-necklace-6404 | 100 | None |
-| North & Pearl Dainty Name Necklace | north-pearl-name-necklace-6687 | 100 | None |
 
 ## Next Actions
 

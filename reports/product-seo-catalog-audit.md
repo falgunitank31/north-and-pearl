@@ -4,11 +4,11 @@ Date: 2026-07-23
 
 Scope: Active Shopify products with vendor `North & Pearl`.
 
-Products audited: 92
+Products audited: 77
 
 ## Issue Counts
 
-- claim-review-needed: 12
+- claim-review-needed: 9
 
 ## Lowest Scoring Products
 
@@ -17,10 +17,7 @@ Products audited: 92
 | North & Pearl Chunky Bead Bracelet | north-pearl-chunky-bead-bracelet | 88 | claim-review-needed |
 | North & Pearl Color Accent Cuff | north-pearl-color-accent-cuff | 88 | claim-review-needed |
 | North & Pearl Iridescent Pendant Necklace | north-pearl-iridescent-pendant-necklace | 88 | claim-review-needed |
-| North & Pearl Linear Sparkle Bracelet | north-pearl-linear-sparkle-bracelet | 88 | claim-review-needed |
-| North & Pearl Smooth Band Ring | north-pearl-smooth-band-ring | 88 | claim-review-needed |
 | North & Pearl Sparkle Accent Bracelet | north-pearl-sparkle-accent-bracelet | 88 | claim-review-needed |
-| North & Pearl Sparkle Bead Bracelet | north-pearl-sparkle-bead-bracelet | 88 | claim-review-needed |
 | North & Pearl Sparkle Halo Bracelet | north-pearl-sparkle-halo-bracelet | 88 | claim-review-needed |
 | North & Pearl Sparkle Link Bracelet | north-pearl-sparkle-link-bracelet | 88 | claim-review-needed |
 | North & Pearl Sparkle Pulse Bracelet | north-pearl-sparkle-pulse-bracelet | 88 | claim-review-needed |
@@ -29,11 +26,14 @@ Products audited: 92
 | North & Pearl Bead Bracelet | north-pearl-bead-bracelet | 100 | None |
 | North & Pearl Bead Earrings | north-pearl-bead-earrings | 100 | None |
 | North & Pearl Bead Jewelry Set | north-pearl-bead-jewelry-set | 100 | None |
-| North & Pearl Block Letter Necklace | north-pearl-letter-necklace | 100 | None |
 | North & Pearl Bloom Charm Bracelet | north-pearl-bloom-charm-bracelet | 100 | None |
 | North & Pearl Bridal Water Drop Set | north-pearl-bridal-water-drop-set | 100 | None |
 | North & Pearl Classic Initial Necklace | north-pearl-initial-necklace | 100 | None |
 | North & Pearl Classic Name Necklace | north-pearl-name-necklace | 100 | None |
+| North & Pearl Clover Bracelet | north-pearl-clover-bracelet | 100 | None |
+| North & Pearl Clover Charm Bracelet | north-pearl-clover-charm-bracelet | 100 | None |
+| North & Pearl Clover Earrings | north-pearl-clover-earrings | 100 | None |
+| North & Pearl Custom Name Pendant | north-pearl-name-necklace-1832 | 100 | None |
 
 ## Next Actions
 

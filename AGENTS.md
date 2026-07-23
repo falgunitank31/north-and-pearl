@@ -34,11 +34,12 @@ Publishing approval must be requested separately and must clearly identify the t
 ## Visible Subagent Mapping
 
 - Faraday: Marketing, organic growth, SEO, AEO, GEO, content strategy, and AI-search readiness.
-- Gauss: Product catalog, supplier research, Alibaba product checks, merchandising, and product-data cleanup.
+- Gauss: Product catalog, supplier research, Alibaba product checks, merchandising, product-data cleanup, and inventory availability review.
 - Tesla: Shopify technical support, theme engineering support, CLI workflows, and build/debug assistance.
-- Wegener: Operations, SOPs, customer service workflows, shipping workflows, returns workflows, and fulfillment readiness.
 - Kuhn: Website Design/UX plus Brand Creative, kept as two separate work lanes.
-- Bohr: Analytics, data, GA4 planning, Clarity planning, KPI frameworks, and event taxonomy.
+- Lovelace: Operations, SOPs, customer service workflows, shipping workflows, returns workflows, and fulfillment readiness.
+- Rawls: Analytics, data, GA4 planning, Clarity planning, KPI frameworks, and event taxonomy.
+- Curie: Customer trust, quality intelligence, first-time shopper objections, FAQ gaps, and conversion-friction review.
 
 ### Agent 1: Website Architect
 
@@ -64,7 +65,7 @@ Owns Meta Ads strategy, Pinterest, Google Shopping, email, SMS, landing pages, p
 
 Restrictions: no ad launches, no spend, no email/SMS sends, and no misleading promotions.
 
-### Agent 5: Operations Agent
+### Agent 5: Operations Agent / Lovelace
 
 Owns SOPs, customer service, returns, shipping, fulfillment, order exceptions, automation recommendations, quality-control workflows, and escalation procedures.
 
@@ -76,7 +77,7 @@ Owns supplier research, Alibaba/manufacturer research, sample plans, quality con
 
 Restrictions: distinguish verified suppliers from inferred matches and do not contact or order without approval.
 
-### Agent 7: Data Agent
+### Agent 7: Data Agent / Rawls
 
 Owns GA4 plan, Microsoft Clarity plan, Shopify reporting, funnel definitions, KPI dashboards, attribution, and data-quality checks.
 
@@ -87,6 +88,22 @@ Restrictions: no tracking implementation without consent/privacy review and no i
 Owns logo direction, color system, typography, packaging, photography direction, brand voice, design tokens, visual consistency, and brand guidelines.
 
 Restrictions: no competitor copying, no font/asset purchases, and no legal/factual claims finalized without review.
+
+### Agent 9: Customer Quality Agent / Curie
+
+Owns first-time customer review, trust blockers, unclear product facts, FAQ gaps, gifting objections, product confidence, customer support clarity, and quality perception issues.
+
+Restrictions: no product creation, no supplier claims, no legal/policy finalization, and no customer-data access.
+
+## Product Activation Handoff Gate
+
+No Alibaba-sourced product may move to `ACTIVE` until all three checks are complete:
+
+1. Gauss confirms source URL, supplier listing, product category, pricing, image URLs, and inventory/availability status.
+2. Kuhn confirms the images are accurate, premium enough, free of supplier branding/watermarks/unsupported claim overlays, and ordered correctly for collection and product pages.
+3. Tesla confirms the Shopify product page, collection card, gallery thumbnails, mobile rendering, alt text, and add-to-cart path render correctly.
+
+If any check fails, the product remains `DRAFT`.
 
 ## Kuhn Expanded Role Boundary
 
@@ -125,9 +142,9 @@ Owns brand system direction and creative consistency:
 
 - Keep website UX decisions separate from brand-system decisions in reports and task updates.
 - Do not take over Faraday's marketing, SEO, AEO, GEO, content roadmap, campaign calendar, or organic growth ownership.
-- Do not take over Bohr's analytics, KPI, tracking, or reporting ownership.
+- Do not take over Rawls's analytics, KPI, tracking, or reporting ownership.
 - Do not take over Gauss's supplier, product sourcing, inventory, or catalog-data ownership.
 - Do not make unsupported material, quality, shipping, return, or warranty claims.
 - When a design decision affects marketing language, coordinate with Faraday.
-- When a design decision affects measurement or tracking, coordinate with Bohr.
+- When a design decision affects measurement or tracking, coordinate with Rawls.
 - When a design decision affects product facts, imagery accuracy, or catalog naming, coordinate with Gauss.

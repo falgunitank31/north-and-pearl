@@ -3,9 +3,13 @@
 Owner: Kuhn + Gauss  
 Applies to: Alibaba-sourced products, supplier images, Shopify product media, collection cards, product galleries
 
+Related standard: `reports/kuhn-product-visual-standard-2026-07-23.md`
+
 ## Activation Rule
 
 A product should not be activated unless it has accurate, customer-safe product imagery that matches what North & Pearl expects to ship.
+
+The first image must also pass Kuhn's brand QA gate: it should look like North & Pearl product photography, not supplier marketplace media.
 
 ## Minimum Requirements Before Publishing
 
@@ -13,6 +17,8 @@ A product should not be activated unless it has accurate, customer-safe product 
 - Preferred: 5-6 images for necklaces, bracelets, rings, earrings, and gift sets.
 - Minimum image size: 700 x 700 px.
 - Preferred image size: 1000 x 1000 px or larger.
+- First image must be a clean product-first hero on ivory, soft white, warm stone, or another neutral premium surface.
+- First image must be square-safe for product cards and mobile crops, with no essential details clipped.
 - Images must show the actual product type, finish direction, scale, and visible details.
 - Images must not materially change stone size, color, chain thickness, pendant shape, bracelet width, or finish.
 - Images must not show competitor logos, watermarks, supplier badges, pricing, shipping labels, or marketplace UI.
@@ -33,6 +39,8 @@ A product should not be activated unless it has accurate, customer-safe product 
 - Only one image is available.
 - Image is blurry, pixelated, stretched, or cropped in a way that hides the product.
 - Image contains watermarks or supplier storefront marks.
+- First image is a collage, specification card, text-heavy supplier graphic, foreign-language card, or marketplace-style thumbnail.
+- First image fails on collection cards because the product is too small, clipped, cluttered, dark, or unclear.
 - Product shown differs from the variant being sold.
 - Image implies unsupported material claims such as sterling silver, gold vermeil, solid gold, moissanite, natural gemstone, waterproof, tarnish-free, hypoallergenic, nickel-free, lead-free, or cadmium-free.
 - Image shows certificates, test cards, gift boxes, or packaging that North & Pearl has not confirmed.
@@ -45,6 +53,7 @@ A product should not be activated unless it has accurate, customer-safe product 
 - Avoid supplier product names in alt text.
 - Avoid unsupported material or gemstone terms in image filenames when possible.
 - Keep image order consistent: hero, detail, scale, variants, lifestyle, packaging.
+- Verify the main image renders cleanly as a collection card, mobile product card, search result, and related-product card before activation.
 
 ## Agent Responsibilities
 
@@ -64,5 +73,5 @@ Tesla:
 Faraday:
 - Ensure image alt text supports product clarity without keyword stuffing or unsupported claims.
 
-Wegener:
+Lovelace:
 - Confirm packaging or fulfillment imagery only when operationally true.

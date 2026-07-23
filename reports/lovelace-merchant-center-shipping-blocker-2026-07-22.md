@@ -6,10 +6,11 @@ Issue: Google Merchant Center shows `Missing shipping information` for products.
 
 ## Status
 
-- Merchant Center screenshot shows 42 products affected.
+- Resolved in Google Merchant Center on 2026-07-22.
+- Merchant Center previously showed 42 products affected.
 - Shopify has 92 active products after today's Gauss catalog sprint.
-- This likely means Merchant Center has an older or partially processed product feed.
-- The blocker is account-level shipping setup, not product-page SEO copy.
+- The blocker was account-level shipping setup, not product-page SEO copy.
+- Google may still need 24-72 hours to reprocess product eligibility.
 
 ## Why It Matters
 
@@ -19,9 +20,7 @@ Google requires shipping cost and delivery time information for products shown i
 
 Use account-level shipping in Merchant Center rather than product-level overrides for the first launch catalog.
 
-Owner must confirm the exact values before saving because these settings become customer-facing expectations.
-
-Suggested conservative launch policy, if the owner is willing to honor it:
+Configured conservative launch policy:
 
 - Destination: United States
 - Products: All products
@@ -29,24 +28,21 @@ Suggested conservative launch policy, if the owner is willing to honor it:
 - Shipping cost: Free / $0.00
 - Handling time: 3-7 business days
 - Transit time: 5-10 business days
-- Total displayed delivery estimate: approximately 8-17 business days
+- Total displayed delivery estimate: 8-17 business days
+- Order cutoff timezone: Eastern Standard Time (New York)
 
 Do not configure faster timelines until supplier production, inventory position, fulfillment handoff, and carrier performance are confirmed.
 
-## Owner Action Required
+## Completed Account-Level Setup
 
-In Google Merchant Center:
+Merchant Center now shows the policy as `Complete` under `Shipping policies`.
 
-1. Go to `Products & store`.
-2. Open `Shipping and returns`.
-3. Select `Shipping policies`.
-4. Click `Add shipping policy`.
-5. Choose `Shipping for online products`.
-6. Set country to `United States`.
-7. Apply to `All products`.
-8. Add delivery time and shipping cost.
-9. Save.
-10. Wait 24-72 hours for Google to reprocess product eligibility.
+Next verification window:
+
+1. Wait 24-72 hours for Google to reprocess product eligibility.
+2. Recheck `Products > Needs attention`.
+3. Confirm affected product count decreases or clears.
+4. If the issue remains after reprocessing, inspect product-level feed attributes and destination eligibility.
 
 ## Agent Responsibilities
 
@@ -59,4 +55,3 @@ In Google Merchant Center:
 ## Risk
 
 Do not invent a shipping speed purely to clear Merchant Center. The setting must be something North & Pearl can actually honor.
-

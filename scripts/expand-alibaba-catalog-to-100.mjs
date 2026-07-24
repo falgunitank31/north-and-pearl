@@ -4,11 +4,11 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
 const store = 'q4ydix-w1.myshopify.com';
-const onlineStorePublicationId = 'gid://shopify/Publication/331104157880';
 const domain = 'https://www.alibaba.com/search/api/proTextSearch';
 const tempDir = mkdtempSync(join(tmpdir(), 'np-catalog-100-'));
 const cachedAlibabaResponse = '/tmp/np-alibaba-pro-search.json';
 const targetProductsToAdd = 50;
+const reportPath = 'reports/gauss-next-50-draft-products-2026-07-23.md';
 
 const searches = [
   "jewelry for women",
@@ -412,7 +412,7 @@ for (const offer of candidates) {
         vendor: 'North & Pearl',
         productType: product.type,
         tags: product.tags,
-        status: 'ACTIVE',
+        status: 'DRAFT',
         seo: {
           title: `${product.title} | Jewelry Gifts | North & Pearl`,
           description: product.short,
@@ -470,14 +470,6 @@ for (const offer of candidates) {
     );
   }
 
-  gql(
-    `mutation PublishProduct($id: ID!, $input: [PublicationInput!]!) {
-      publishablePublish(id: $id, input: $input) { userErrors { field message } }
-    }`,
-    { id: shopifyProduct.id, input: [{ publicationId: onlineStorePublicationId }] },
-    true,
-  );
-
   usedHandles.add(handle);
   slots -= 1;
   createdRows.push({
@@ -501,3 +493,29 @@ for (const offer of candidates) {
 
 console.table(createdRows);
 console.log(`Created ${createdRows.length} products today. Remaining daily slots: ${slots}.`);
+
+const reportLines = [
+  '# Gauss Next 50 Draft Product Batch - 2026-07-23',
+  '',
+  'Status: Draft-only catalog expansion. These products are not published to the Online Store or Google sales channels by this script.',
+  '',
+  'Quality gate:',
+  '- Gauss: source listing, category, price, and supplier signal review',
+  '- Kuhn: product imagery and brand presentation approval',
+  '- Tesla: storefront rendering and theme QA',
+  '',
+  '| # | Score | Product | Type | Price | Compare-at | Supplier | MOQ | Source Price | Images | Source ID | Handle |',
+  '|---:|---:|---|---|---:|---:|---|---|---|---:|---|---|',
+  ...createdRows.map((row, index) => (
+    `| ${index + 1} | ${row.score} | ${row.title.replaceAll('|', '-')} | ${row.type} | $${row.price} | $${row.compareAtPrice} | ${(row.supplier || 'Unknown').replaceAll('|', '-')} | ${(row.moq || 'Unknown').replaceAll('|', '-')} | ${(row.sourcePrice || 'Unknown').replaceAll('|', '-')} | ${row.images} | ${row.sourceId} | ${row.handle} |`
+  )),
+  '',
+  'Notes:',
+  '- Material, plating, stone, safety, and durability claims remain unverified unless supplier documents and samples confirm them.',
+  '- Product images are supplier/source-reference images and must be reviewed for accuracy, clarity, and consistency before activation.',
+  '- Draft products should stay unpublished until the visual QA and product-content QA gates are complete.',
+  '',
+];
+
+writeFileSync(reportPath, `${reportLines.join('\n')}\n`);
+console.log(`wrote ${reportPath}`);

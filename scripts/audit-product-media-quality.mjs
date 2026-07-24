@@ -33,23 +33,36 @@ function gql(query, variables = {}) {
   return JSON.parse(readFileSync(outputFile, 'utf8'));
 }
 
-const products = gql(`query ProductMediaAudit {
-  products(first: 100, query: "vendor:'North & Pearl'") {
-    nodes {
-      title
-      handle
-      status
-      media(first: 20) {
-        nodes {
-          id
-          alt
-          mediaContentType
-          preview { image { url width height } }
+const products = [];
+let cursor = null;
+let hasNextPage = true;
+
+while (hasNextPage) {
+  const response = gql(`query ProductMediaAudit($after: String) {
+    products(first: 100, after: $after, query: "vendor:'North & Pearl'") {
+      pageInfo { hasNextPage endCursor }
+      nodes {
+        title
+        handle
+        status
+        media(first: 20) {
+          nodes {
+            id
+            alt
+            mediaContentType
+            preview { image { url width height } }
+          }
         }
       }
     }
-  }
-}`).products.nodes;
+  }`, { after: cursor });
+
+  products.push(...response.products.nodes);
+  hasNextPage = response.products.pageInfo.hasNextPage;
+  cursor = response.products.pageInfo.endCursor;
+}
+
+console.log(`Audited ${products.length} North & Pearl products.`);
 
 const rows = products
   .map((product) => {

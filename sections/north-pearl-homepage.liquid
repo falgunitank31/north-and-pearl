@@ -1,54 +1,118 @@
 {{ 'north-pearl-homepage.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'quick-add.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
 
-<section class="np-home" aria-labelledby="np-home-title">
+{%- liquid
+  assign best_collection = section.settings.best_collection
+  assign new_collection = section.settings.new_collection
+  assign hero_collection = section.settings.hero_collection | default: best_collection
+  assign hero_product = hero_collection.products.first
+  assign hero_image = section.settings.hero_image
+  if hero_image == blank and hero_product.featured_media
+    assign hero_image = hero_product.featured_media
+  endif
+-%}
+
+<section class="np-home np-commerce-home" aria-labelledby="np-home-title">
   <div class="np-hero">
-    <div class="np-hero__content">
-      <p class="np-kicker">{{ section.settings.kicker }}</p>
-      <h1 id="np-home-title">{{ section.settings.heading }}</h1>
-      <p class="np-hero__text">{{ section.settings.text }}</p>
-      <div class="np-actions">
-        <a class="np-button np-button--primary" href="{{ section.settings.primary_link }}">{{ section.settings.primary_label }}</a>
-        <a class="np-button np-button--secondary" href="{{ section.settings.secondary_link }}">{{ section.settings.secondary_label }}</a>
-      </div>
+    <div class="np-hero__media">
+      {%- if hero_image != blank -%}
+        {{
+          hero_image
+          | image_url: width: 1500
+          | image_tag:
+            widths: '375, 550, 750, 950, 1200, 1500',
+            sizes: '(min-width: 990px) 58vw, 100vw',
+            class: 'np-hero__image',
+            alt: section.settings.hero_image_alt,
+            loading: 'eager',
+            fetchpriority: 'high'
+        }}
+      {%- endif -%}
     </div>
-    <div class="np-hero__visual" aria-label="Personalized jewelry illustration">
-      <div class="np-jewelry-card np-jewelry-card--main">
-        <span class="np-chain"></span>
-        <span class="np-pendant">N</span>
-        <p>Custom Name Necklace</p>
+    <div class="np-hero__content">
+      <p class="np-kicker">{{ section.settings.kicker | escape }}</p>
+      <h1 id="np-home-title">{{ section.settings.heading | escape }}</h1>
+      <p class="np-hero__text">{{ section.settings.text | escape }}</p>
+      <div class="np-actions">
+        {%- if section.settings.primary_label != blank and section.settings.primary_link != blank -%}
+          <a class="np-button np-button--primary" href="{{ section.settings.primary_link }}">{{ section.settings.primary_label | escape }}</a>
+        {%- endif -%}
+        {%- if section.settings.secondary_label != blank and section.settings.secondary_link != blank -%}
+          <a class="np-button np-button--secondary" href="{{ section.settings.secondary_link }}">{{ section.settings.secondary_label | escape }}</a>
+        {%- endif -%}
       </div>
-      <div class="np-jewelry-card np-jewelry-card--small">
-        <span class="np-ring"></span>
-        <p>Birthstone-inspired gifts</p>
-      </div>
-      <div class="np-hero__note">Gift-ready pieces for birthdays, anniversaries, mothers, bridesmaids, and everyday love.</div>
     </div>
   </div>
 
   <div class="np-trust" aria-label="Store benefits">
-    <div><strong>Gift-ready</strong><span>Packaging experience</span></div>
-    <div><strong>Personalized</strong><span>Names, initials, dates</span></div>
+    <div><strong>Gift-ready</strong><span>Presented with care</span></div>
+    <div><strong>Personal details</strong><span>Names, initials, dates</span></div>
     <div><strong>Quality checked</strong><span>Reviewed before shipping</span></div>
     <div><strong>Secure checkout</strong><span>Built on Shopify</span></div>
   </div>
 
-  <div class="np-section-heading">
-    <p class="np-kicker">Shop by meaning</p>
-    <h2>Personalized jewelry made for the moment</h2>
-    <p class="np-section-heading__text">Start with best sellers, then choose the story: a name, an initial, a birth-month detail, or a gift made for the occasion.</p>
+  <div class="np-section np-section--categories">
+    <div class="np-section-heading np-section-heading--split">
+      <div>
+        <p class="np-kicker">Shop by category</p>
+        <h2>Find your piece faster.</h2>
+      </div>
+      <p class="np-section-heading__text">Browse the collections customers look for first: necklaces, bracelets, rings, earrings, personalized pieces, and gifts.</p>
+    </div>
+
+    <div class="np-category-grid" role="list">
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'category' -%}
+          {%- liquid
+            assign category_collection = block.settings.collection
+            assign category_image = block.settings.image
+            if category_image == blank and category_collection.products.first.featured_media
+              assign category_image = category_collection.products.first.featured_media
+            endif
+          -%}
+          {%- if category_collection != blank and category_collection.products_count > 0 -%}
+            <a class="np-category-card" href="{{ category_collection.url }}" role="listitem" {{ block.shopify_attributes }}>
+              <span class="np-category-card__image">
+                {%- if category_image != blank -%}
+                  {{
+                    category_image
+                    | image_url: width: 720
+                    | image_tag:
+                      widths: '240, 360, 540, 720',
+                      sizes: '(min-width: 990px) 16vw, (min-width: 640px) 33vw, 48vw',
+                      loading: 'lazy',
+                      alt: category_collection.title
+                  }}
+                {%- endif -%}
+              </span>
+              <span class="np-category-card__content">
+                <strong>{{ block.settings.title | default: category_collection.title | escape }}</strong>
+                {%- if block.settings.text != blank -%}
+                  <small>{{ block.settings.text | escape }}</small>
+                {%- endif -%}
+              </span>
+            </a>
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
   </div>
 
-  {%- assign featured_collection = section.settings.featured_collection -%}
-  {%- if featured_collection != blank and featured_collection.products_count > 0 -%}
-    <div class="np-featured-products page-width" aria-label="{{ featured_collection.title | escape }}">
-      <ul class="grid product-grid grid--2-col-tablet-down grid--4-col-desktop" role="list">
-        {%- for product in featured_collection.products limit: 4 -%}
-          {%- assign lazy_load = false -%}
-          {%- if forloop.index > 2 -%}
-            {%- assign lazy_load = true -%}
-          {%- endif -%}
+  {%- if best_collection != blank and best_collection.products_count > 0 -%}
+    <div class="np-section np-product-section">
+      <div class="np-section-heading np-section-heading--split">
+        <div>
+          <p class="np-kicker">{{ section.settings.best_kicker | escape }}</p>
+          <h2>{{ section.settings.best_heading | escape }}</h2>
+        </div>
+        <a class="np-text-link" href="{{ best_collection.url }}">Shop {{ best_collection.title }}</a>
+      </div>
+      <ul class="np-product-grid grid product-grid grid--2-col-tablet-down grid--4-col-desktop" role="list">
+        {%- for product in best_collection.products limit: section.settings.best_product_limit -%}
           <li class="grid__item">
             {% render 'card-product',
               card_product: product,
@@ -56,152 +120,162 @@
               show_secondary_image: true,
               show_vendor: false,
               show_rating: false,
-              lazy_load: lazy_load,
+              lazy_load: forloop.index > 4,
               section_id: section.id,
-              product_view_context: 'homepage-featured'
+              quick_add: 'standard',
+              product_view_context: 'homepage-best-sellers'
             %}
           </li>
         {%- endfor -%}
       </ul>
-      <div class="np-featured-products__cta">
-        <a class="np-button np-button--secondary" href="{{ featured_collection.url }}">Shop {{ featured_collection.title }}</a>
-      </div>
-    </div>
-  {%- else -%}
-    <div class="np-product-showcase" aria-label="Featured product concepts">
-      <article>
-        <span class="np-product-art np-product-art--name">Ava</span>
-        <p class="np-kicker">Best seller concept</p>
-        <h3>Custom Name Necklace</h3>
-        <p>Personalized with the name, word, or memory they carry closest.</p>
-        <a href="{{ routes.collections_url }}/name-necklaces">Shop name necklaces</a>
-      </article>
-      <article>
-        <span class="np-product-art np-product-art--initial">N</span>
-        <p class="np-kicker">Everyday keepsake</p>
-        <h3>Initial Pendant Necklace</h3>
-        <p>Minimal, meaningful, and made for subtle everyday personalization.</p>
-        <a href="{{ routes.collections_url }}/initial-necklaces">Shop initial jewelry</a>
-      </article>
-      <article>
-        <span class="np-product-art np-product-art--gift">Gift</span>
-        <p class="np-kicker">Gift-ready</p>
-        <h3>Mother's Day Gift Set</h3>
-        <p>A thoughtful concept for family meaning, milestones, and moments.</p>
-        <a href="{{ routes.collections_url }}/mothers-collection">Shop mother's gifts</a>
-      </article>
     </div>
   {%- endif -%}
 
-  <div class="np-category-grid">
-    <a class="np-category-card" href="{{ routes.collections_url }}/name-necklaces">
-      <span>Name Necklaces</span>
-      <p>Turn the name they love into an everyday keepsake.</p>
-    </a>
-    <a class="np-category-card" href="{{ routes.collections_url }}/initial-necklaces">
-      <span>Initial Jewelry</span>
-      <p>Minimal, personal, and easy to wear every day.</p>
-    </a>
-    <a class="np-category-card" href="{{ routes.collections_url }}/birthstone-jewelry">
-      <span>Birthstone Gifts</span>
-      <p>Birth-month inspired details for a more thoughtful gift.</p>
-    </a>
-    <a class="np-category-card" href="{{ routes.collections_url }}/gifts">
-      <span>Gift Edit</span>
-      <p>Birthday, anniversary, bridal, mother, and partner gifts.</p>
-    </a>
-  </div>
-
-  <div class="np-editorial-strip" aria-label="North and Pearl shopping promise">
-    <article>
-      <span>01</span>
-      <h3>Meaning first</h3>
-      <p>Every collection is organized around the reason someone gives jewelry: love, memory, celebration, and everyday connection.</p>
-    </article>
-    <article>
-      <span>02</span>
-      <h3>Clear details</h3>
-      <p>Product pages keep important details easy to scan, with material notes shown only when they are confirmed for that piece.</p>
-    </article>
-    <article>
-      <span>03</span>
-      <h3>Gift-ready feel</h3>
-      <p>Warm presentation, careful product checks, and simple support paths help the gift feel considered from browse to checkout.</p>
-    </article>
-  </div>
-
-  <div class="np-split">
-    <div class="np-split__visual">
-      <div class="np-package">
-        <span>North & Pearl</span>
-        <strong>For your meaningful moment</strong>
+  <div class="np-section np-occasion-section">
+    <div class="np-section-heading np-section-heading--split">
+      <div>
+        <p class="np-kicker">Gift by intent</p>
+        <h2>Make the moment easy to shop.</h2>
       </div>
+      <p class="np-section-heading__text">A focused path for birthdays, mothers, anniversaries, and bridal moments without burying shoppers in copy.</p>
     </div>
-    <div class="np-split__content">
-      <p class="np-kicker">How it works</p>
-      <h2>Choose the piece. Add the meaning. Make it unforgettable.</h2>
-      <ol class="np-steps">
-        <li><strong>Choose your style</strong><span>Start with a necklace, bracelet, ring, earrings, or gift-ready favorite.</span></li>
-        <li><strong>Add the personal detail</strong><span>Use a name, initial, date, coordinate, birth-month detail, or short phrase.</span></li>
-        <li><strong>Gift with intention</strong><span>Send a keepsake made for a person, a memory, or a milestone.</span></li>
-      </ol>
-      <a class="np-button np-button--primary" href="{{ routes.collections_url }}/name-necklaces">Create Yours</a>
-    </div>
-  </div>
-
-  <div class="np-occasion-band">
-    <div>
-      <p class="np-kicker">Gift by occasion</p>
-      <h2>Designed for the days they will remember.</h2>
-    </div>
-    <div class="np-occasion-grid">
-      <a href="{{ routes.collections_url }}/gifts">Birthday Gifts</a>
-      <a href="{{ routes.collections_url }}/mothers-collection">Mother's Collection</a>
-      <a href="{{ routes.collections_url }}/wedding-bridesmaids">Wedding & Bridesmaids</a>
-      <a href="{{ routes.collections_url }}/couple-jewelry">Anniversary Gifts</a>
-    </div>
-  </div>
-
-  <div class="np-proof-grid">
-    <div class="np-proof-card">
-      <p>Meaningful gifts, clear details, and a polished checkout experience.</p>
-      <span>Customer reviews will appear here after verified purchases</span>
-    </div>
-    <div class="np-proof-card">
-      <p>Built for birthdays, anniversaries, bridal moments, mothers, and everyday keepsakes.</p>
-      <span>Gift-focused shopping support</span>
-    </div>
-    <div class="np-proof-card np-proof-card--dark">
-      <p>Carefully presented, thoughtfully personalized, and ready for the moment.</p>
-      <a href="/pages/jewelry-care-guide">Read Jewelry Care</a>
+    <div class="np-occasion-grid" role="list">
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'occasion' -%}
+          {%- liquid
+            assign occasion_collection = block.settings.collection
+            assign occasion_image = block.settings.image
+            if occasion_image == blank and occasion_collection.products.first.featured_media
+              assign occasion_image = occasion_collection.products.first.featured_media
+            endif
+          -%}
+          {%- if occasion_collection != blank and occasion_collection.products_count > 0 -%}
+            <a class="np-occasion-card" href="{{ occasion_collection.url }}" role="listitem" {{ block.shopify_attributes }}>
+              {%- if occasion_image != blank -%}
+                {{
+                  occasion_image
+                  | image_url: width: 900
+                  | image_tag:
+                    widths: '360, 540, 720, 900',
+                    sizes: '(min-width: 990px) 25vw, 50vw',
+                    loading: 'lazy',
+                    alt: block.settings.title
+                }}
+              {%- endif -%}
+              <span>
+                <strong>{{ block.settings.title | default: occasion_collection.title | escape }}</strong>
+                {%- if block.settings.text != blank -%}
+                  <small>{{ block.settings.text | escape }}</small>
+                {%- endif -%}
+              </span>
+            </a>
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
     </div>
   </div>
 
-  <div class="np-guide-grid">
-    <article>
-      <p class="np-kicker">Guide</p>
-      <h3>How to choose a name necklace</h3>
-      <p>Consider name length, daily style, gift timing, and the story behind the piece.</p>
-    </article>
-    <article>
-      <p class="np-kicker">Care</p>
-      <h3>Keep meaningful pieces looking their best</h3>
-      <p>Store separately, avoid harsh chemicals, and follow product-specific care once materials are confirmed.</p>
-    </article>
-    <article>
-      <p class="np-kicker">AI-ready</p>
-      <h3>Clear brand facts for search and assistants</h3>
-      <p>North & Pearl is positioned around personalized jewelry, meaningful gifting, and honest product claims.</p>
-    </article>
+  {%- if new_collection != blank and new_collection.products_count > 0 -%}
+    <div class="np-section np-product-section np-product-section--soft">
+      <div class="np-section-heading np-section-heading--split">
+        <div>
+          <p class="np-kicker">{{ section.settings.new_kicker | escape }}</p>
+          <h2>{{ section.settings.new_heading | escape }}</h2>
+        </div>
+        <a class="np-text-link" href="{{ new_collection.url }}">Shop {{ new_collection.title }}</a>
+      </div>
+      <ul class="np-product-grid grid product-grid grid--2-col-tablet-down grid--4-col-desktop" role="list">
+        {%- for product in new_collection.products limit: section.settings.new_product_limit -%}
+          <li class="grid__item">
+            {% render 'card-product',
+              card_product: product,
+              media_aspect_ratio: 'square',
+              show_secondary_image: true,
+              show_vendor: false,
+              show_rating: false,
+              lazy_load: true,
+              section_id: section.id,
+              quick_add: 'standard',
+              product_view_context: 'homepage-new-arrivals'
+            %}
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  {%- endif -%}
+
+  <div class="np-section np-story">
+    <div class="np-story__media">
+      {%- if section.settings.story_image != blank -%}
+        {{
+          section.settings.story_image
+          | image_url: width: 1000
+          | image_tag:
+            widths: '360, 540, 720, 1000',
+            sizes: '(min-width: 990px) 44vw, 100vw',
+            loading: 'lazy',
+            alt: section.settings.story_heading
+        }}
+      {%- elsif best_collection.products.first.featured_media -%}
+        {{
+          best_collection.products.first.featured_media
+          | image_url: width: 1000
+          | image_tag:
+            widths: '360, 540, 720, 1000',
+            sizes: '(min-width: 990px) 44vw, 100vw',
+            loading: 'lazy',
+            alt: section.settings.story_heading
+        }}
+      {%- endif -%}
+    </div>
+    <div class="np-story__content">
+      <p class="np-kicker">{{ section.settings.story_kicker | escape }}</p>
+      <h2>{{ section.settings.story_heading | escape }}</h2>
+      <p>{{ section.settings.story_text | escape }}</p>
+      {%- if section.settings.story_link != blank -%}
+        <a class="np-button np-button--secondary" href="{{ section.settings.story_link }}">{{ section.settings.story_label | escape }}</a>
+      {%- endif -%}
+    </div>
+  </div>
+
+  <div class="np-section np-steps-section">
+    <div class="np-section-heading">
+      <p class="np-kicker">Personalize in three steps</p>
+      <h2>Choose it. Add meaning. Gift it.</h2>
+    </div>
+    <ol class="np-steps">
+      <li><strong>Choose your piece</strong><span>Start with a necklace, bracelet, ring, earrings, or gift-ready favorite.</span></li>
+      <li><strong>Add your detail</strong><span>Use the product page fields for names, initials, dates, or short notes when available.</span></li>
+      <li><strong>Gift or keep it</strong><span>Review details carefully before checkout so the piece is prepared as requested.</span></li>
+    </ol>
+  </div>
+
+  <div class="np-section np-guide-strip">
+    <a href="/pages/personalized-jewelry-guide">
+      <span>Guide</span>
+      <strong>Personalized Jewelry Guide</strong>
+      <small>How to choose names, initials, and meaningful details.</small>
+    </a>
+    <a href="/pages/jewelry-care-guide">
+      <span>Care</span>
+      <strong>Jewelry Care Guide</strong>
+      <small>Simple care habits for everyday jewelry.</small>
+    </a>
+    <a href="/blogs/news/best-personalized-jewelry-gifts-for-her">
+      <span>Gift ideas</span>
+      <strong>Best Personalized Jewelry Gifts for Her</strong>
+      <small>Shop by recipient, occasion, and budget.</small>
+    </a>
   </div>
 
   <div class="np-newsletter">
     <p class="np-kicker">North & Pearl notes</p>
-    <h2>Gift ideas, care tips, and meaningful new arrivals.</h2>
+    <h2>A little something meaningful.</h2>
+    <p>Receive new collection notes, gift inspiration, and product launch updates.</p>
     {% form 'customer', class: 'np-newsletter__form' %}
       <input type="hidden" name="contact[tags]" value="newsletter">
       <label class="visually-hidden" for="NpNewsletterEmail">Email</label>
-      <input id="NpNewsletterEmail" type="email" name="contact[email]" placeholder="Email address" required>
+      <input id="NpNewsletterEmail" type="email" name="contact[email]" placeholder="Email address" autocomplete="email" required>
       <button type="submit">Join</button>
     {% endform %}
   </div>
@@ -209,32 +283,43 @@
 
 {% schema %}
 {
-  "name": "North & Pearl homepage",
+  "name": "N&P commerce home",
   "tag": "section",
   "class": "section",
   "settings": [
     {
       "type": "text",
       "id": "kicker",
-      "label": "Kicker",
+      "label": "Hero kicker",
       "default": "Crafted for life's meaningful moments"
     },
     {
       "type": "text",
       "id": "heading",
-      "label": "Heading",
-      "default": "Personalized jewelry made to celebrate what matters most."
+      "label": "Hero heading",
+      "default": "Jewelry Made Personal"
     },
     {
       "type": "textarea",
       "id": "text",
-      "label": "Text",
-      "default": "Create timeless, gift-ready pieces for names, initials, dates, milestones, and the people you hold closest."
+      "label": "Hero text",
+      "default": "Meaningful pieces created for names, milestones, and everyday moments."
+    },
+    {
+      "type": "image_picker",
+      "id": "hero_image",
+      "label": "Hero image"
+    },
+    {
+      "type": "text",
+      "id": "hero_image_alt",
+      "label": "Hero image alt text",
+      "default": "North & Pearl jewelry pieces"
     },
     {
       "type": "collection",
-      "id": "featured_collection",
-      "label": "Featured product collection"
+      "id": "hero_collection",
+      "label": "Fallback hero collection"
     },
     {
       "type": "text",
@@ -251,17 +336,165 @@
       "type": "text",
       "id": "secondary_label",
       "label": "Secondary button label",
-      "default": "Create Your Personalized Piece"
+      "default": "Shop Personalized Jewelry"
     },
     {
       "type": "url",
       "id": "secondary_link",
       "label": "Secondary button link"
+    },
+    {
+      "type": "header",
+      "content": "Product grids"
+    },
+    {
+      "type": "collection",
+      "id": "best_collection",
+      "label": "First product grid collection"
+    },
+    {
+      "type": "text",
+      "id": "best_kicker",
+      "label": "First grid kicker",
+      "default": "Best sellers"
+    },
+    {
+      "type": "text",
+      "id": "best_heading",
+      "label": "First grid heading",
+      "default": "Pieces shoppers choose first."
+    },
+    {
+      "type": "range",
+      "id": "best_product_limit",
+      "label": "First grid products",
+      "min": 4,
+      "max": 8,
+      "step": 1,
+      "default": 8
+    },
+    {
+      "type": "collection",
+      "id": "new_collection",
+      "label": "Second product grid collection"
+    },
+    {
+      "type": "text",
+      "id": "new_kicker",
+      "label": "Second grid kicker",
+      "default": "New arrivals"
+    },
+    {
+      "type": "text",
+      "id": "new_heading",
+      "label": "Second grid heading",
+      "default": "Fresh pieces for your jewelry box."
+    },
+    {
+      "type": "range",
+      "id": "new_product_limit",
+      "label": "Second grid products",
+      "min": 4,
+      "max": 8,
+      "step": 1,
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Story"
+    },
+    {
+      "type": "image_picker",
+      "id": "story_image",
+      "label": "Story image"
+    },
+    {
+      "type": "text",
+      "id": "story_kicker",
+      "label": "Story kicker",
+      "default": "Made for the moments you keep"
+    },
+    {
+      "type": "text",
+      "id": "story_heading",
+      "label": "Story heading",
+      "default": "A curated jewelry edit for meaningful gifting."
+    },
+    {
+      "type": "textarea",
+      "id": "story_text",
+      "label": "Story text",
+      "default": "North & Pearl brings together personal, giftable jewelry with a refined shopping experience, clear details, and easy paths to the right piece."
+    },
+    {
+      "type": "text",
+      "id": "story_label",
+      "label": "Story button label",
+      "default": "Our Story"
+    },
+    {
+      "type": "url",
+      "id": "story_link",
+      "label": "Story button link"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "category",
+      "name": "Category card",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Override image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Short text"
+        }
+      ]
+    },
+    {
+      "type": "occasion",
+      "name": "Occasion card",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Override image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Short text"
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "North & Pearl homepage"
+      "name": "North & Pearl commerce home"
     }
   ]
 }

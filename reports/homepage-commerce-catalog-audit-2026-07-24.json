@@ -1,0 +1,342 @@
+{
+  "generatedAt": "2026-07-24T02:23:14.291Z",
+  "productCount": 154,
+  "activeProductCount": 118,
+  "activeProductsWithUsableImages": 118,
+  "activeProductsWithPrices": 118,
+  "activeProductsAvailableForSale": 118,
+  "collectionCount": 17,
+  "populatedCollectionCount": 13,
+  "emptyCollectionCount": 4,
+  "emptyCollections": [
+    "frontpage",
+    "mens-jewelry",
+    "gift-cards",
+    "sale"
+  ],
+  "populatedCollections": [
+    {
+      "title": "Gifts",
+      "handle": "gifts",
+      "productCount": 154,
+      "hasImage": false
+    },
+    {
+      "title": "New Arrivals",
+      "handle": "new-arrivals",
+      "productCount": 122,
+      "hasImage": false
+    },
+    {
+      "title": "Necklaces",
+      "handle": "necklaces",
+      "productCount": 92,
+      "hasImage": false
+    },
+    {
+      "title": "Name Necklaces",
+      "handle": "name-necklaces",
+      "productCount": 65,
+      "hasImage": false
+    },
+    {
+      "title": "Bracelets",
+      "handle": "bracelets",
+      "productCount": 38,
+      "hasImage": false
+    },
+    {
+      "title": "Initial Necklaces",
+      "handle": "initial-necklaces",
+      "productCount": 37,
+      "hasImage": false
+    },
+    {
+      "title": "Mother's Collection",
+      "handle": "mothers-collection",
+      "productCount": 24,
+      "hasImage": false
+    },
+    {
+      "title": "Couple Jewelry",
+      "handle": "couple-jewelry",
+      "productCount": 23,
+      "hasImage": false
+    },
+    {
+      "title": "Wedding & Bridesmaids",
+      "handle": "wedding-bridesmaids",
+      "productCount": 17,
+      "hasImage": false
+    },
+    {
+      "title": "Earrings",
+      "handle": "earrings",
+      "productCount": 13,
+      "hasImage": false
+    },
+    {
+      "title": "Rings",
+      "handle": "rings",
+      "productCount": 9,
+      "hasImage": false
+    },
+    {
+      "title": "Birthstone Jewelry",
+      "handle": "birthstone-jewelry",
+      "productCount": 7,
+      "hasImage": false
+    },
+    {
+      "title": "Best Sellers",
+      "handle": "best-sellers",
+      "productCount": 5,
+      "hasImage": false
+    }
+  ],
+  "sampleActiveProducts": [
+    {
+      "title": "North & Pearl Iridescent Pendant Necklace",
+      "handle": "north-pearl-iridescent-pendant-necklace",
+      "images": 3,
+      "price": "69.0",
+      "compareAtPrice": "89.0",
+      "collections": [
+        "best-sellers",
+        "necklaces",
+        "gifts"
+      ]
+    },
+    {
+      "title": "North & Pearl Initial Shell Necklace",
+      "handle": "north-pearl-initial-shell-necklace",
+      "images": 6,
+      "price": "59.0",
+      "compareAtPrice": "75.0",
+      "collections": [
+        "best-sellers",
+        "necklaces",
+        "initial-necklaces",
+        "gifts"
+      ]
+    },
+    {
+      "title": "North & Pearl Heart Keepsake Necklace",
+      "handle": "north-pearl-heart-keepsake-necklace",
+      "images": 6,
+      "price": "64.0",
+      "compareAtPrice": "84.0",
+      "collections": [
+        "necklaces",
+        "couple-jewelry",
+        "gifts",
+        "mothers-collection"
+      ]
+    },
+    {
+      "title": "North & Pearl Flower Nail Bangle",
+      "handle": "north-pearl-flower-nail-bangle",
+      "images": 6,
+      "price": "59.0",
+      "compareAtPrice": "79.0",
+      "collections": [
+        "best-sellers",
+        "bracelets",
+        "gifts"
+      ]
+    },
+    {
+      "title": "North & Pearl Color Accent Cuff",
+      "handle": "north-pearl-color-accent-cuff",
+      "images": 6,
+      "price": "64.0",
+      "compareAtPrice": "84.0",
+      "collections": [
+        "birthstone-jewelry",
+        "bracelets",
+        "gifts",
+        "mothers-collection"
+      ]
+    },
+    {
+      "title": "North & Pearl Sparkle Accent Bracelet",
+      "handle": "north-pearl-sparkle-accent-bracelet",
+      "images": 6,
+      "price": "49.0",
+      "compareAtPrice": "65.0",
+      "collections": [
+        "bracelets",
+        "gifts"
+      ]
+    },
+    {
+      "title": "North & Pearl Bridal Water Drop Set",
+      "handle": "north-pearl-bridal-water-drop-set",
+      "images": 6,
+      "price": "99.0",
+      "compareAtPrice": "129.0",
+      "collections": [
+        "necklaces",
+        "earrings",
+        "gifts",
+        "wedding-bridesmaids"
+      ]
+    },
+    {
+      "title": "North & Pearl Hollow Flower Bangle Set",
+      "handle": "north-pearl-hollow-flower-bangle-set",
+      "images": 6,
+      "price": "69.0",
+      "compareAtPrice": "89.0",
+      "collections": [
+        "bracelets",
+        "gifts",
+        "mothers-collection"
+      ]
+    },
+    {
+      "title": "North & Pearl Sparkle Pulse Bracelet",
+      "handle": "north-pearl-sparkle-pulse-bracelet",
+      "images": 6,
+      "price": "54.0",
+      "compareAtPrice": "72.0",
+      "collections": [
+        "bracelets",
+        "gifts"
+      ]
+    },
+    {
+      "title": "North & Pearl Mixed Charm Bangle",
+      "handle": "north-pearl-mixed-charm-bangle",
+      "images": 6,
+      "price": "59.0",
+      "compareAtPrice": "79.0",
+      "collections": [
+        "couple-jewelry",
+        "bracelets",
+        "gifts"
+      ]
+    },
+    {
+      "title": "North & Pearl Pink Heart Bow Bracelet",
+      "handle": "north-pearl-pink-heart-bow-bracelet",
+      "images": 6,
+      "price": "49.0",
+      "compareAtPrice": "65.0",
+      "collections": [
+        "bracelets",
+        "gifts",
+        "mothers-collection"
+      ]
+    },
+    {
+      "title": "North & Pearl Dainty Flower Necklace",
+      "handle": "north-pearl-dainty-flower-necklace",
+      "images": 6,
+      "price": "54.0",
+      "compareAtPrice": "72.0",
+      "collections": [
+        "necklaces",
+        "gifts",
+        "mothers-collection"
+      ]
+    },
+    {
+      "title": "North & Pearl Clover Charm Bracelet",
+      "handle": "north-pearl-clover-charm-bracelet",
+      "images": 5,
+      "price": "49.0",
+      "compareAtPrice": "65.0",
+      "collections": [
+        "bracelets",
+        "gifts"
+      ]
+    },
+    {
+      "title": "North & Pearl Twine Band Ring",
+      "handle": "north-pearl-twine-band-ring",
+      "images": 6,
+      "price": "44.0",
+      "compareAtPrice": "58.0",
+      "collections": [
+        "rings",
+        "gifts"
+      ]
+    },
+    {
+      "title": "North & Pearl Warm Bead Stretch Bracelet",
+      "handle": "north-pearl-warm-bead-stretch-bracelet",
+      "images": 6,
+      "price": "44.0",
+      "compareAtPrice": "58.0",
+      "collections": [
+        "bracelets",
+        "gifts"
+      ]
+    },
+    {
+      "title": "North & Pearl Chunky Bead Bracelet",
+      "handle": "north-pearl-chunky-bead-bracelet",
+      "images": 6,
+      "price": "49.0",
+      "compareAtPrice": "65.0",
+      "collections": [
+        "bracelets",
+        "gifts",
+        "wedding-bridesmaids"
+      ]
+    },
+    {
+      "title": "North & Pearl V Water Drop Jewelry Set",
+      "handle": "north-pearl-v-water-drop-jewelry-set",
+      "images": 6,
+      "price": "89.0",
+      "compareAtPrice": "115.0",
+      "collections": [
+        "necklaces",
+        "earrings",
+        "gifts",
+        "wedding-bridesmaids"
+      ]
+    },
+    {
+      "title": "North & Pearl Sleek Flex Bracelet",
+      "handle": "north-pearl-sleek-flex-bracelet",
+      "images": 6,
+      "price": "54.0",
+      "compareAtPrice": "72.0",
+      "collections": [
+        "bracelets",
+        "gifts",
+        "new-arrivals"
+      ]
+    },
+    {
+      "title": "North & Pearl Sweetheart Pendant Necklace",
+      "handle": "north-pearl-sweetheart-pendant-necklace",
+      "images": 6,
+      "price": "59.0",
+      "compareAtPrice": "79.0",
+      "collections": [
+        "necklaces",
+        "couple-jewelry",
+        "gifts",
+        "mothers-collection",
+        "wedding-bridesmaids",
+        "new-arrivals"
+      ]
+    },
+    {
+      "title": "North & Pearl Sparkle Halo Bracelet",
+      "handle": "north-pearl-sparkle-halo-bracelet",
+      "images": 6,
+      "price": "54.0",
+      "compareAtPrice": "72.0",
+      "collections": [
+        "bracelets",
+        "gifts",
+        "new-arrivals"
+      ]
+    }
+  ]
+}

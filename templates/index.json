@@ -4,14 +4,121 @@
       "type": "north-pearl-homepage",
       "settings": {
         "kicker": "Crafted for life's meaningful moments",
-        "heading": "Personalized jewelry made to celebrate what matters most.",
-        "text": "Create timeless, gift-ready pieces for names, initials, dates, milestones, and the people you hold closest.",
-        "featured_collection": "best-sellers",
+        "heading": "Jewelry Made Personal",
+        "text": "Meaningful pieces created for names, milestones, and everyday moments.",
+        "hero_collection": "best-sellers",
         "primary_label": "Shop Best Sellers",
         "primary_link": "shopify://collections/best-sellers",
-        "secondary_label": "Create Your Personalized Piece",
-        "secondary_link": "shopify://collections/name-necklaces"
-      }
+        "secondary_label": "Shop Personalized Jewelry",
+        "secondary_link": "shopify://collections/name-necklaces",
+        "best_collection": "best-sellers",
+        "best_kicker": "Best sellers",
+        "best_heading": "Pieces shoppers choose first.",
+        "best_product_limit": 8,
+        "new_collection": "new-arrivals",
+        "new_kicker": "New arrivals",
+        "new_heading": "Fresh pieces for your jewelry box.",
+        "new_product_limit": 8,
+        "story_kicker": "Made for the moments you keep",
+        "story_heading": "A curated jewelry edit for meaningful gifting.",
+        "story_text": "North & Pearl brings together personal, giftable jewelry with a refined shopping experience, clear details, and easy paths to the right piece.",
+        "story_label": "Our Story",
+        "story_link": "shopify://pages/about"
+      },
+      "blocks": {
+        "category_necklaces": {
+          "type": "category",
+          "settings": {
+            "collection": "necklaces",
+            "title": "Necklaces",
+            "text": "Personal pendants, names, initials, and everyday layers."
+          }
+        },
+        "category_bracelets": {
+          "type": "category",
+          "settings": {
+            "collection": "bracelets",
+            "title": "Bracelets",
+            "text": "Polished details for gifting and daily wear."
+          }
+        },
+        "category_rings": {
+          "type": "category",
+          "settings": {
+            "collection": "rings",
+            "title": "Rings",
+            "text": "Minimal bands and meaningful accents."
+          }
+        },
+        "category_earrings": {
+          "type": "category",
+          "settings": {
+            "collection": "earrings",
+            "title": "Earrings",
+            "text": "Dainty pairs and statement-ready sets."
+          }
+        },
+        "category_personalized": {
+          "type": "category",
+          "settings": {
+            "collection": "name-necklaces",
+            "title": "Personalized",
+            "text": "Names, initials, and custom-inspired details."
+          }
+        },
+        "category_gifts": {
+          "type": "category",
+          "settings": {
+            "collection": "gifts",
+            "title": "Gifts",
+            "text": "Meaningful jewelry by recipient and occasion."
+          }
+        },
+        "occasion_mom": {
+          "type": "occasion",
+          "settings": {
+            "collection": "mothers-collection",
+            "title": "Gifts for Mom",
+            "text": "Warm, meaningful pieces for the person who means so much."
+          }
+        },
+        "occasion_anniversary": {
+          "type": "occasion",
+          "settings": {
+            "collection": "couple-jewelry",
+            "title": "Anniversary Gifts",
+            "text": "Pieces chosen for love, dates, and shared memories."
+          }
+        },
+        "occasion_bridal": {
+          "type": "occasion",
+          "settings": {
+            "collection": "wedding-bridesmaids",
+            "title": "Bridesmaid Gifts",
+            "text": "Polished jewelry for bridal moments and thank-you gifts."
+          }
+        },
+        "occasion_birthstone": {
+          "type": "occasion",
+          "settings": {
+            "collection": "birthstone-jewelry",
+            "title": "Birthstone-Inspired Gifts",
+            "text": "Color-accented details with personal meaning."
+          }
+        }
+      },
+      "block_order": [
+        "category_necklaces",
+        "category_bracelets",
+        "category_rings",
+        "category_earrings",
+        "category_personalized",
+        "category_gifts",
+        "occasion_mom",
+        "occasion_anniversary",
+        "occasion_bridal",
+        "occasion_birthstone"
+      ]
     }
   },
   "order": [

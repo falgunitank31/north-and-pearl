@@ -23,6 +23,20 @@
     {%- else -%}
       <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
+    <div class="np-contact-support" aria-label="Contact support information">
+      <div>
+        <span>Order help</span>
+        <strong>Include your order number when available.</strong>
+      </div>
+      <div>
+        <span>Personalized pieces</span>
+        <strong>Confirm spelling and details before checkout.</strong>
+      </div>
+      <div>
+        <span>Gift questions</span>
+        <strong>Ask about timing before ordering a date-sensitive gift.</strong>
+      </div>
+    </div>
     {%- liquid
       assign contact_form_class = 'isolate'
       if settings.animations_reveal_on_scroll

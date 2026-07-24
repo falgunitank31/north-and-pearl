@@ -6,14 +6,14 @@ Scope: active North & Pearl Shopify products and free Google product listing rea
 
 ## Summary
 
-- Active products audited: 70
-- Ready with identifier caveat: 70
+- Active products audited: 118
+- Ready with identifier caveat: 118
 - Needs review: 0
 - Domain checked for product URLs: `https://northandpearl.com`
 
 ## Issue Counts
 
-- identifier-gap: 70
+- identifier-gap: 118
 
 ## Interpretation
 

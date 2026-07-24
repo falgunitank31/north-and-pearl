@@ -9,8 +9,8 @@
   border-right: 0;
   left: 0;
   overflow-y: auto;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
+  padding-bottom: 1.4rem;
+  padding-top: 1.4rem;
   position: absolute;
   right: 0;
   top: 100%;
@@ -36,7 +36,7 @@
 
 .mega-menu__list {
   display: grid;
-  gap: 1.8rem 4rem;
+  gap: 1rem 2rem;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   list-style: none;
 }
@@ -45,8 +45,8 @@
   color: rgba(var(--color-foreground), 0.75);
   display: block;
   line-height: calc(1 + 0.3 / var(--font-body-scale));
-  padding-bottom: 0.6rem;
-  padding-top: 0.6rem;
+  padding: 0.7rem 1rem;
+  border-radius: 4px;
   text-decoration: none;
   transition: text-decoration var(--duration-short) ease;
   word-wrap: break-word;
@@ -71,7 +71,8 @@
 .mega-menu__link:hover,
 .mega-menu__link--active {
   color: rgb(var(--color-foreground));
-  text-decoration: underline;
+  background: rgba(var(--color-foreground), 0.04);
+  text-decoration: none;
 }
 
 .mega-menu__link--active:hover {
@@ -79,7 +80,11 @@
 }
 
 .mega-menu .mega-menu__list--condensed {
-  display: block;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(14rem, max-content));
+  justify-content: center;
+  max-width: 82rem;
+  margin-inline: auto;
 }
 
 .mega-menu__list--condensed .mega-menu__link {

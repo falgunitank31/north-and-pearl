@@ -82,8 +82,8 @@
   },
   "order": [
     "banner",
-    "shopping_guide",
     "product-grid",
+    "shopping_guide",
     "collection_guidance"
   ]
 }

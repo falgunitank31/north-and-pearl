@@ -121,6 +121,45 @@ h3,
   letter-spacing: .02em;
 }
 
+.mega-menu__content {
+  border-bottom: 1px solid var(--np-line);
+  background: rgba(255, 250, 243, .98);
+  box-shadow: 0 18px 34px rgba(23, 20, 17, .08);
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+
+.mega-menu__list {
+  width: min(100%, 118rem);
+  gap: 1rem 2rem;
+}
+
+.mega-menu .mega-menu__list--condensed {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(14rem, max-content));
+  justify-content: center;
+  gap: .6rem 2rem;
+}
+
+.mega-menu__link {
+  padding: .7rem 1rem;
+  border-radius: 4px;
+  color: var(--np-muted);
+  font-size: 1.35rem;
+  text-decoration: none;
+}
+
+.mega-menu__link:hover,
+.mega-menu__link--active {
+  background: var(--np-ivory);
+  color: var(--np-black);
+  text-decoration: none;
+}
+
+.mega-menu__link--level-2 {
+  font-weight: 600;
+}
+
 .np-brand-nav {
   display: flex;
   justify-content: center;

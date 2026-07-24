@@ -75,9 +75,9 @@ const items = [
   {
     title: 'About',
     type: 'HTTP',
-    url: '/pages/about',
+    url: '/pages/about-north-pearl',
     items: [
-      { title: 'Our Story', type: 'HTTP', url: '/pages/about' },
+      { title: 'Our Story', type: 'HTTP', url: '/pages/about-north-pearl' },
       { title: 'Jewelry Care', type: 'HTTP', url: '/pages/jewelry-care-guide' },
       { title: 'Personalized Jewelry Guide', type: 'HTTP', url: '/pages/personalized-jewelry-guide' },
       { title: 'FAQ', type: 'HTTP', url: '/pages/faq' },

@@ -18,6 +18,12 @@ if (!customElements.get('product-form')) {
       }
 
       onSubmitHandler(evt) {
+        if (!this.form.checkValidity()) {
+          evt.preventDefault();
+          this.form.reportValidity();
+          return;
+        }
+
         evt.preventDefault();
         if (this.submitButton.getAttribute('aria-disabled') === 'true') return;
 

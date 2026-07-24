@@ -966,34 +966,40 @@ summary:focus-visible {
   margin-bottom: 0;
   border-bottom: 1px solid var(--np-line);
   background:
-    radial-gradient(circle at 82% 20%, rgba(198, 161, 91, .16), transparent 22rem),
+    radial-gradient(circle at 84% 16%, rgba(198, 161, 91, .12), transparent 18rem),
     linear-gradient(135deg, #fffaf3, var(--np-ivory));
 }
 
 .collection-hero__inner {
-  min-height: clamp(26rem, 28vw, 38rem);
+  min-height: auto;
   align-items: center;
-  padding-top: clamp(4.8rem, 6vw, 8rem);
-  padding-bottom: clamp(4.8rem, 6vw, 8rem);
+  padding-top: clamp(2.8rem, 4vw, 4.8rem);
+  padding-bottom: clamp(2.4rem, 3.4vw, 4rem);
 }
 
 .collection-hero__title {
-  max-width: 12ch;
-  margin-bottom: 1.6rem;
-  font-size: clamp(3.6rem, 5vw, 6.4rem);
-  line-height: 1;
+  max-width: 18ch;
+  margin-bottom: 1rem;
+  font-size: clamp(3rem, 4vw, 5rem);
+  line-height: 1.04;
 }
 
 .collection-hero__description {
-  max-width: 74rem;
+  display: -webkit-box;
+  max-width: 78rem;
+  max-height: 7.2rem;
+  overflow: hidden;
   color: var(--np-muted);
-  font-size: clamp(1.45rem, 1.05vw, 1.72rem);
-  line-height: 1.62;
+  font-size: clamp(1.35rem, .95vw, 1.55rem);
+  line-height: 1.5;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 .collection-hero__description h2,
 .collection-hero__description h3 {
-  margin-top: 2rem;
+  display: none;
+  margin-top: 1rem;
   margin-bottom: .8rem;
   color: var(--np-black);
   font-size: clamp(2rem, 1.8vw, 2.8rem);
@@ -1011,7 +1017,7 @@ summary:focus-visible {
 }
 
 .main-collection-product-grid .collection {
-  padding-top: .8rem;
+  padding-top: 0;
 }
 
 .main-collection-product-grid .grid {
@@ -1177,7 +1183,7 @@ summary:focus-visible {
   display: flex;
   flex-wrap: wrap;
   gap: .8rem;
-  margin-top: 2.2rem;
+  margin-top: 1.4rem;
 }
 
 .np-collection-quicklinks a {

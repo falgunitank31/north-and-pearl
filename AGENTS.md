@@ -1,5 +1,76 @@
 # North & Pearl Agent Operating Rules
 
+## Permanent Ecommerce Quality Rule
+
+Every North & Pearl change is a cross-functional ecommerce change. No task may be marked complete until applicable impacts are reviewed across jewelry UX, merchandising, product data, inventory, personalization, conversion, SEO, AEO, GEO, accessibility, mobile, performance, trust claims, shipping and returns, Shopify functionality, and regression risk.
+
+The owner should not need to separately ask each role to review the same change. The Lead Orchestrator must automatically involve the required responsibilities, using the existing approved roster only. Do not create new subagents unless the owner explicitly asks.
+
+## Mandatory Completion Report
+
+Every completed implementation must report:
+
+1. What was inspected
+2. Problems identified
+3. Changes made
+4. Agents/responsibility lanes involved
+5. Files changed
+6. Shopify settings changed
+7. Tests run
+8. Risks
+9. Assumptions
+10. Missing information
+11. Live storefront validation
+
+## Prohibited Live Store Content
+
+Never publish customer-facing content that contains unsupported product claims, unverified materials, fake reviews, fake discounts, fake scarcity, internal supplier notes, placeholder customer copy, contradictory inventory states, empty collection links, or incomplete personalization workflows.
+
+## Required Quality Gates
+
+Before release, run the applicable gates:
+
+- Shopify Theme Check for theme code changes
+- Live storefront render validation for deployed storefront changes
+- Product media and image-alt validation for product/catalog changes
+- Navigation validation to ensure empty collections are not exposed
+- Product state validation for add-to-cart, personalize, select options, sold out, and unavailable states
+- Claim scan for unsupported material, quality, shipping, return, warranty, and supplier phrases
+- Mobile layout and tap-target review for customer-facing UI changes
+- SEO/AEO/GEO review for metadata, headings, schema, internal links, and AI-readable facts
+- Accessibility review for semantic structure, labels, focus states, and keyboard paths
+- Regression review for cart, search, filters, collection pages, product forms, and personalization properties
+
+## Approved Responsibility Roster
+
+Use these roles as responsibility lanes. Do not introduce extra names by default.
+
+- Lead Orchestrator: scope, sequencing, dependencies, risk, conflict resolution, final QA, release readiness, change log.
+- Kuhn: jewelry UX, ecommerce design, mobile UX, visual hierarchy, brand creative, product image standards.
+- Gauss: merchandising, product catalog/data, supplier/source checks, collection assignments, inventory monitoring, product publication readiness.
+- Faraday: organic SEO, AEO, GEO, content architecture, internal linking, AI-search readiness, Merchant Center organic readiness.
+- Tesla: Shopify technical implementation, Liquid, CSS, JavaScript, CLI workflow, theme sections, performance, search, cart, personalization persistence.
+- Rawls: analytics, GA4, Search Console, KPI framework, funnel measurement, reporting and data-quality checks.
+- Lovelace: operations, shipping/returns/customer-service SOPs, fulfillment readiness, policy-operational consistency.
+- Curie: trust, claims, product-quality verification, customer objections, FAQ gaps, supplier-quality evidence, claim-safe buying confidence.
+
+## Remediation Priority Areas
+
+Continuously audit and fix, when safe and verified:
+
+- Contradictory product/card states such as Add to cart plus Sold out, Personalize plus unavailable, failed pickup availability, or disabled variant paths.
+- Published products with internal notes, supplier notes, draft copy, "details to confirm", unverified material language, or sourcing instructions.
+- Missing or unstructured product facts. Do not fabricate missing facts; use neutral language or hold/unpublish if needed.
+- Personalized products without relevant required fields, validation, cart line-item properties, and mobile-safe add-to-cart behavior.
+- Repetitive product names that make shopping difficult. Rename only with redirect/feed/SEO awareness.
+- Invalid or artificial compare-at pricing. Do not use fake discounts or fake scarcity.
+- Unsupported claims around materials, hypoallergenic/waterproof/tarnish-free/nickel-free/sterling/gold plated/handmade/ethical/warranty/delivery timing.
+- Collection pages that bury products below large SEO copy.
+- Navigation exposing empty collections.
+- Product cards with duplicated title markup, inconsistent image ratios, bad CTAs, or incorrect badges.
+- Product pages missing clear price, variants, personalization, shipping/returns summary, care, dimensions/material facts when verified, and related paths.
+- Search, filters, and sorting that expose inaccurate or empty options.
+
 ## Lead Orchestrator
 
 The Lead Orchestrator owns scope, sequencing, dependencies, risk management, approvals, and conflict resolution across all specialist agents.

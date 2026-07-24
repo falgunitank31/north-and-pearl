@@ -194,6 +194,14 @@
               {%- if paginate.pages > 1 -%}
                 {% render 'pagination', paginate: paginate, anchor: '' %}
               {%- endif -%}
+
+              {%- if collection.description != blank and paginate.current_page == 1 -%}
+                <section class="np-collection-seo rte" aria-label="{{ collection.title | escape }} buying guide">
+                  <p class="np-collection-seo__kicker">Buying guide</p>
+                  <h2>More about {{ collection.title | escape }}</h2>
+                  {{ collection.description }}
+                </section>
+              {%- endif -%}
             </div>
           {%- endif -%}
         </div>

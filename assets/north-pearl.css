@@ -66,11 +66,11 @@ h3,
   align-items: center;
   column-gap: clamp(1.6rem, 2.4vw, 3.2rem);
   width: min(100%, 192rem);
-  min-height: 8.4rem;
+  min-height: 7.2rem;
 }
 
 .np-header-logo {
-  width: min(21rem, 56vw);
+  width: min(18rem, 54vw);
   height: auto;
 }
 
@@ -124,8 +124,8 @@ h3,
 .np-brand-nav {
   display: flex;
   justify-content: center;
-  gap: 2.2rem;
-  padding: 1.2rem 1.5rem;
+  gap: clamp(1.2rem, 2.2vw, 2.6rem);
+  padding: .9rem 1.5rem;
   border-top: 1px solid rgba(23, 20, 17, .06);
   border-bottom: 1px solid rgba(23, 20, 17, .06);
   background: #fffaf3;
@@ -140,8 +140,9 @@ h3,
 .np-brand-nav a {
   flex: 0 0 auto;
   color: var(--np-black);
-  font-size: 1.2rem;
-  letter-spacing: .08em;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: .1em;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -177,7 +178,7 @@ h3,
 
   .np-header-logo,
   .header__heading-logo {
-    max-width: 18rem;
+    max-width: 16rem;
   }
 
   .header__inline-menu .list-menu--inline {
@@ -186,7 +187,7 @@ h3,
 
   .header__menu-item {
     padding-inline: .42rem;
-    font-size: 1.04rem;
+    font-size: 1rem;
   }
 
   .header__icons {
@@ -734,11 +735,11 @@ summary:focus-visible {
   .np-brand-nav {
     justify-content: flex-start;
     gap: 1.4rem;
-    padding: 1rem 1.6rem;
+    padding: .85rem 1.6rem;
   }
 
   .np-brand-nav a {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
 
   .product-card-wrapper .card > .card__content,
@@ -985,28 +986,15 @@ summary:focus-visible {
 }
 
 .collection-hero__description {
-  display: -webkit-box;
   max-width: 78rem;
-  max-height: 7.2rem;
-  overflow: hidden;
   color: var(--np-muted);
   font-size: clamp(1.35rem, .95vw, 1.55rem);
   line-height: 1.5;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-}
-
-.collection-hero__description h2,
-.collection-hero__description h3 {
-  display: none;
-  margin-top: 1rem;
-  margin-bottom: .8rem;
-  color: var(--np-black);
-  font-size: clamp(2rem, 1.8vw, 2.8rem);
 }
 
 .collection-hero__description p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .collection-hero__image-container {
@@ -1022,6 +1010,46 @@ summary:focus-visible {
 
 .main-collection-product-grid .grid {
   row-gap: clamp(2.4rem, 4vw, 4.8rem);
+}
+
+.np-collection-seo {
+  max-width: 92rem;
+  margin: clamp(4rem, 6vw, 7.2rem) auto 0;
+  padding: clamp(2.4rem, 4vw, 4.8rem);
+  border: 1px solid var(--np-line);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 88% 18%, rgba(198, 161, 91, .12), transparent 18rem),
+    rgba(255, 250, 243, .82);
+}
+
+.np-collection-seo__kicker {
+  margin: 0 0 .9rem;
+  color: var(--np-gold);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.np-collection-seo h2 {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  color: var(--np-black);
+  font-size: clamp(2.6rem, 3vw, 4rem);
+  line-height: 1.08;
+}
+
+.np-collection-seo h3 {
+  color: var(--np-black);
+  font-size: clamp(2rem, 2vw, 2.8rem);
+}
+
+.np-collection-seo p,
+.np-collection-seo li {
+  color: var(--np-muted);
+  font-size: 1.5rem;
+  line-height: 1.68;
 }
 
 .facets-wrapper {
@@ -1042,11 +1070,20 @@ summary:focus-visible {
 }
 
 .template-search__header {
-  padding: 4rem 2rem;
+  padding: clamp(2.8rem, 5vw, 5.2rem) 2rem;
   border-bottom: 1px solid var(--np-line);
   background:
     radial-gradient(circle at 50% 8%, rgba(198, 161, 91, .16), transparent 22rem),
     var(--np-ivory);
+}
+
+.template-search__header h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 5vw, 5rem);
+}
+
+.template-search__search {
+  margin-bottom: 1.8rem;
 }
 
 .facets-container,
@@ -1407,13 +1444,22 @@ summary:focus-visible {
 
   .collection-hero__inner {
     min-height: auto;
-    padding-top: 3.6rem;
-    padding-bottom: 3.6rem;
+    padding-top: 2.6rem;
+    padding-bottom: 2.4rem;
   }
 
   .collection-hero__title {
-    max-width: 13ch;
-    font-size: clamp(3.2rem, 13vw, 5.2rem);
+    max-width: 16ch;
+    font-size: clamp(2.9rem, 11vw, 4.4rem);
+  }
+
+  .collection-hero__description {
+    font-size: 1.35rem;
+  }
+
+  .np-collection-seo {
+    margin-top: 3.2rem;
+    padding: 2rem;
   }
 
   .np-collection-quicklinks {

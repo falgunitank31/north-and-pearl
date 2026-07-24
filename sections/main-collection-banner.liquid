@@ -18,7 +18,12 @@
       </h1>
 
       {%- if section.settings.show_collection_description -%}
-        <div class="collection-hero__description rte">{{ collection.description }}</div>
+        {%- assign collection_intro = collection.description | strip_html | strip | truncate: 180 -%}
+        {%- if collection_intro != blank -%}
+          <div class="collection-hero__description rte">
+            <p>{{ collection_intro }}</p>
+          </div>
+        {%- endif -%}
       {%- endif -%}
 
       <nav class="np-collection-quicklinks" aria-label="Related jewelry collections">

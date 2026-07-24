@@ -1,0 +1,1827 @@
+{
+  "collections": [
+    {
+      "title": "Home page",
+      "handle": "frontpage",
+      "productsCount": 0,
+      "hasSeo": true,
+      "descriptionLength": 163,
+      "issues": []
+    },
+    {
+      "title": "Best Sellers",
+      "handle": "best-sellers",
+      "productsCount": 5,
+      "hasSeo": true,
+      "descriptionLength": 940,
+      "issues": []
+    },
+    {
+      "title": "Necklaces",
+      "handle": "necklaces",
+      "productsCount": 92,
+      "hasSeo": true,
+      "descriptionLength": 752,
+      "issues": []
+    },
+    {
+      "title": "Name Necklaces",
+      "handle": "name-necklaces",
+      "productsCount": 65,
+      "hasSeo": true,
+      "descriptionLength": 633,
+      "issues": []
+    },
+    {
+      "title": "Initial Necklaces",
+      "handle": "initial-necklaces",
+      "productsCount": 37,
+      "hasSeo": true,
+      "descriptionLength": 541,
+      "issues": []
+    },
+    {
+      "title": "Birthstone Jewelry",
+      "handle": "birthstone-jewelry",
+      "productsCount": 7,
+      "hasSeo": true,
+      "descriptionLength": 657,
+      "issues": []
+    },
+    {
+      "title": "Couple Jewelry",
+      "handle": "couple-jewelry",
+      "productsCount": 23,
+      "hasSeo": true,
+      "descriptionLength": 554,
+      "issues": []
+    },
+    {
+      "title": "Bracelets",
+      "handle": "bracelets",
+      "productsCount": 38,
+      "hasSeo": true,
+      "descriptionLength": 604,
+      "issues": []
+    },
+    {
+      "title": "Rings",
+      "handle": "rings",
+      "productsCount": 9,
+      "hasSeo": true,
+      "descriptionLength": 546,
+      "issues": []
+    },
+    {
+      "title": "Earrings",
+      "handle": "earrings",
+      "productsCount": 13,
+      "hasSeo": true,
+      "descriptionLength": 663,
+      "issues": []
+    },
+    {
+      "title": "Gifts",
+      "handle": "gifts",
+      "productsCount": 154,
+      "hasSeo": true,
+      "descriptionLength": 950,
+      "issues": []
+    },
+    {
+      "title": "Mother's Collection",
+      "handle": "mothers-collection",
+      "productsCount": 24,
+      "hasSeo": true,
+      "descriptionLength": 565,
+      "issues": []
+    },
+    {
+      "title": "Wedding & Bridesmaids",
+      "handle": "wedding-bridesmaids",
+      "productsCount": 17,
+      "hasSeo": true,
+      "descriptionLength": 591,
+      "issues": []
+    },
+    {
+      "title": "Men's Jewelry",
+      "handle": "mens-jewelry",
+      "productsCount": 0,
+      "hasSeo": true,
+      "descriptionLength": 154,
+      "issues": []
+    },
+    {
+      "title": "Gift Cards",
+      "handle": "gift-cards",
+      "productsCount": 0,
+      "hasSeo": true,
+      "descriptionLength": 280,
+      "issues": []
+    },
+    {
+      "title": "New Arrivals",
+      "handle": "new-arrivals",
+      "productsCount": 122,
+      "hasSeo": true,
+      "descriptionLength": 183,
+      "issues": []
+    },
+    {
+      "title": "Sale",
+      "handle": "sale",
+      "productsCount": 0,
+      "hasSeo": true,
+      "descriptionLength": 152,
+      "issues": []
+    }
+  ],
+  "products": [
+    {
+      "title": "North & Pearl Iridescent Pendant Necklace",
+      "handle": "north-pearl-iridescent-pendant-necklace",
+      "productType": "Necklace",
+      "price": 69,
+      "compareAt": 89,
+      "discountPercent": 22,
+      "images": 3,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active",
+        "limited-gallery"
+      ]
+    },
+    {
+      "title": "North & Pearl Initial Shell Necklace",
+      "handle": "north-pearl-initial-shell-necklace",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 75,
+      "discountPercent": 21,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Heart Keepsake Necklace",
+      "handle": "north-pearl-heart-keepsake-necklace",
+      "productType": "Necklace",
+      "price": 64,
+      "compareAt": 84,
+      "discountPercent": 24,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Flower Nail Bangle",
+      "handle": "north-pearl-flower-nail-bangle",
+      "productType": "Bracelet",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Color Accent Cuff",
+      "handle": "north-pearl-color-accent-cuff",
+      "productType": "Bracelet",
+      "price": 64,
+      "compareAt": 84,
+      "discountPercent": 24,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sparkle Accent Bracelet",
+      "handle": "north-pearl-sparkle-accent-bracelet",
+      "productType": "Bracelet",
+      "price": 49,
+      "compareAt": 65,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Bridal Water Drop Set",
+      "handle": "north-pearl-bridal-water-drop-set",
+      "productType": "Gift Set",
+      "price": 99,
+      "compareAt": 129,
+      "discountPercent": 23,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Hollow Flower Bangle Set",
+      "handle": "north-pearl-hollow-flower-bangle-set",
+      "productType": "Bracelet",
+      "price": 69,
+      "compareAt": 89,
+      "discountPercent": 22,
+      "images": 6,
+      "minWidth": 1024,
+      "minHeight": 1024,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sparkle Pulse Bracelet",
+      "handle": "north-pearl-sparkle-pulse-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Mixed Charm Bangle",
+      "handle": "north-pearl-mixed-charm-bangle",
+      "productType": "Bracelet",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Pink Heart Bow Bracelet",
+      "handle": "north-pearl-pink-heart-bow-bracelet",
+      "productType": "Bracelet",
+      "price": 49,
+      "compareAt": 65,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1024,
+      "minHeight": 1024,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Dainty Flower Necklace",
+      "handle": "north-pearl-dainty-flower-necklace",
+      "productType": "Necklace",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Clover Charm Bracelet",
+      "handle": "north-pearl-clover-charm-bracelet",
+      "productType": "Bracelet",
+      "price": 49,
+      "compareAt": 65,
+      "discountPercent": 25,
+      "images": 5,
+      "minWidth": 1200,
+      "minHeight": 1200,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Twine Band Ring",
+      "handle": "north-pearl-twine-band-ring",
+      "productType": "Ring",
+      "price": 44,
+      "compareAt": 58,
+      "discountPercent": 24,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Warm Bead Stretch Bracelet",
+      "handle": "north-pearl-warm-bead-stretch-bracelet",
+      "productType": "Bracelet",
+      "price": 44,
+      "compareAt": 58,
+      "discountPercent": 24,
+      "images": 6,
+      "minWidth": 900,
+      "minHeight": 900,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Chunky Bead Bracelet",
+      "handle": "north-pearl-chunky-bead-bracelet",
+      "productType": "Bracelet",
+      "price": 49,
+      "compareAt": 65,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl V Water Drop Jewelry Set",
+      "handle": "north-pearl-v-water-drop-jewelry-set",
+      "productType": "Gift Set",
+      "price": 89,
+      "compareAt": 115,
+      "discountPercent": 23,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sleek Flex Bracelet",
+      "handle": "north-pearl-sleek-flex-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sweetheart Oval Pendant Necklace",
+      "handle": "north-pearl-sweetheart-pendant-necklace",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sparkle Halo Bracelet",
+      "handle": "north-pearl-sparkle-halo-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Modern Statement Ring",
+      "handle": "north-pearl-modern-statement-ring",
+      "productType": "Ring",
+      "price": 49,
+      "compareAt": 65,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Heart Bracelet",
+      "handle": "north-pearl-heart-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1024,
+      "minHeight": 1024,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sparkle Row Bracelet",
+      "handle": "north-pearl-sparkle-row-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Smooth Flex Bracelet",
+      "handle": "north-pearl-smooth-flex-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Bead Bracelet",
+      "handle": "north-pearl-bead-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 900,
+      "minHeight": 900,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sparkle Link Bracelet",
+      "handle": "north-pearl-sparkle-link-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Heart Charm Necklace",
+      "handle": "north-pearl-heart-charm-necklace",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Bloom Charm Bracelet",
+      "handle": "north-pearl-bloom-charm-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1500,
+      "minHeight": 1500,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Heart Earrings",
+      "handle": "north-pearl-heart-earrings",
+      "productType": "Earrings",
+      "price": 39,
+      "compareAt": 55,
+      "discountPercent": 29,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Garden Bloom Bracelet",
+      "handle": "north-pearl-garden-bloom-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 4,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Flower Jewelry Set",
+      "handle": "north-pearl-flower-jewelry-set",
+      "productType": "Gift Set",
+      "price": 89,
+      "compareAt": 115,
+      "discountPercent": 23,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Polished Oval Link Bracelet",
+      "handle": "north-pearl-polished-link-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 4,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Floral Accent Bracelet",
+      "handle": "north-pearl-floral-accent-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1024,
+      "minHeight": 1024,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Modern Drop Earrings",
+      "handle": "north-pearl-modern-drop-earrings",
+      "productType": "Earrings",
+      "price": 39,
+      "compareAt": 55,
+      "discountPercent": 29,
+      "images": 6,
+      "minWidth": 1024,
+      "minHeight": 1024,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Heart Ring",
+      "handle": "north-pearl-heart-ring",
+      "productType": "Ring",
+      "price": 49,
+      "compareAt": 65,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 2000,
+      "minHeight": 2000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Classic Name Necklace",
+      "handle": "north-pearl-name-necklace",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sculpted Heart Pendant",
+      "handle": "north-pearl-heart-necklace",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Heart Jewelry Set",
+      "handle": "north-pearl-heart-jewelry-set",
+      "productType": "Gift Set",
+      "price": 89,
+      "compareAt": 115,
+      "discountPercent": 23,
+      "images": 6,
+      "minWidth": 1200,
+      "minHeight": 1200,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Everyday Oval Link Bracelet",
+      "handle": "north-pearl-signature-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Classic Initial Necklace",
+      "handle": "north-pearl-initial-necklace",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 750,
+      "minHeight": 750,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Script Floating Name Necklace",
+      "handle": "north-pearl-name-necklace-6152",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Framed Initial Necklace",
+      "handle": "north-pearl-initial-necklace-6868",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sparkle Bracelet",
+      "handle": "north-pearl-sparkle-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1200,
+      "minHeight": 1200,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Everyday Script Name Necklace",
+      "handle": "north-pearl-name-necklace-5330",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 750,
+      "minHeight": 750,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Dainty Letter Pendant",
+      "handle": "north-pearl-letter-necklace-6404",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 5,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Polished Name Necklace",
+      "handle": "north-pearl-name-necklace-7262",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Everyday Letter Necklace",
+      "handle": "north-pearl-letter-necklace-0021",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sparkle Drop Necklace",
+      "handle": "north-pearl-sparkle-necklace-2894",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 2000,
+      "minHeight": 2000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sparkle Accent Necklace",
+      "handle": "north-pearl-sparkle-necklace-5629",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Petite Love Pendant",
+      "handle": "north-pearl-heart-necklace-4710",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Custom Name Pendant",
+      "handle": "north-pearl-name-necklace-1832",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 900,
+      "minHeight": 900,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Flower Earrings",
+      "handle": "north-pearl-flower-earrings",
+      "productType": "Earrings",
+      "price": 39,
+      "compareAt": 55,
+      "discountPercent": 29,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Floating Script Name Necklace",
+      "handle": "north-pearl-name-necklace-4075",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Custom Script Pendant",
+      "handle": "north-pearl-name-necklace-2338",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Dainty Initial Charm",
+      "handle": "north-pearl-initial-necklace-6130",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 3,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active",
+        "limited-gallery"
+      ]
+    },
+    {
+      "title": "North & Pearl Clover Earrings",
+      "handle": "north-pearl-clover-earrings",
+      "productType": "Earrings",
+      "price": 39,
+      "compareAt": 55,
+      "discountPercent": 29,
+      "images": 6,
+      "minWidth": 743,
+      "minHeight": 743,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Polished Letter Necklace",
+      "handle": "north-pearl-letter-necklace-9008",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 5,
+      "minWidth": 741,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Clover Bracelet",
+      "handle": "north-pearl-clover-bracelet",
+      "productType": "Bracelet",
+      "price": 69,
+      "compareAt": 89,
+      "discountPercent": 22,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Polished Sparkle Ring",
+      "handle": "north-pearl-sparkle-ring-4269",
+      "productType": "Ring",
+      "price": 49,
+      "compareAt": 65,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Water Drop Jewelry Set",
+      "handle": "north-pearl-water-drop-jewelry-set",
+      "productType": "Gift Set",
+      "price": 89,
+      "compareAt": 115,
+      "discountPercent": 23,
+      "images": 6,
+      "minWidth": 750,
+      "minHeight": 750,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Sweet Heart Keepsake Necklace",
+      "handle": "north-pearl-heart-necklace-1947",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1458,
+      "minHeight": 1458,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Refined Script Name Necklace",
+      "handle": "north-pearl-name-necklace-1996",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 929,
+      "minHeight": 929,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Layered Initial Necklace",
+      "handle": "north-pearl-initial-necklace-1814",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 700,
+      "minHeight": 700,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Oval Link Bracelet",
+      "handle": "north-pearl-chain-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 950,
+      "minHeight": 950,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Bead Earrings",
+      "handle": "north-pearl-bead-earrings",
+      "productType": "Earrings",
+      "price": 39,
+      "compareAt": 55,
+      "discountPercent": 29,
+      "images": 6,
+      "minWidth": 1200,
+      "minHeight": 1200,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Minimal Letter Pendant",
+      "handle": "north-pearl-letter-necklace-4171",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Smooth Layering Bracelet",
+      "handle": "north-pearl-snake-chain-bracelet",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Bead Jewelry Set",
+      "handle": "north-pearl-bead-jewelry-set",
+      "productType": "Gift Set",
+      "price": 89,
+      "compareAt": 115,
+      "discountPercent": 23,
+      "images": 6,
+      "minWidth": 1300,
+      "minHeight": 1300,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Polished Initial Pendant",
+      "handle": "north-pearl-initial-necklace-6010",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 2000,
+      "minHeight": 2000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Giftable Script Name Necklace",
+      "handle": "north-pearl-name-necklace-6429",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 794,
+      "minHeight": 794,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Sculpted Heart Pendant Necklace",
+      "handle": "north-pearl-heart-necklace-7284",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Heirloom Script Name Necklace",
+      "handle": "north-pearl-name-necklace-0389",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sweetheart Drop Pendant Necklace",
+      "handle": "north-pearl-heart-necklace-2260",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 5,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Petite Heart Earrings",
+      "handle": "north-pearl-heart-earrings-5822",
+      "productType": "Earrings",
+      "price": 39,
+      "compareAt": 55,
+      "discountPercent": 29,
+      "images": 5,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Clover Link Bracelet",
+      "handle": "north-pearl-clover-bracelet-1195",
+      "productType": "Bracelet",
+      "price": 69,
+      "compareAt": 89,
+      "discountPercent": 22,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Dainty Letter Tag Necklace",
+      "handle": "north-pearl-letter-necklace-0689",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Keepsake Heart Pendant Necklace",
+      "handle": "north-pearl-heart-necklace-2923",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Beaded Keepsake Bracelet",
+      "handle": "north-pearl-bead-bracelet-0492",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Everyday Classic Name Necklace",
+      "handle": "north-pearl-name-necklace-4242",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 794,
+      "minHeight": 794,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Polished Letter Pendant Necklace",
+      "handle": "north-pearl-letter-necklace-4810",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Framed Initial Pendant Necklace",
+      "handle": "north-pearl-initial-necklace-6142",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Classic Initial Charm Necklace",
+      "handle": "north-pearl-initial-necklace-4829",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 750,
+      "minHeight": 750,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Statement Letter Pendant Necklace",
+      "handle": "north-pearl-letter-necklace-2555",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 5,
+      "minWidth": 794,
+      "minHeight": 794,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Script Classic Name Necklace",
+      "handle": "north-pearl-name-necklace-1616",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 750,
+      "minHeight": 750,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Nameplate Charm Necklace",
+      "handle": "north-pearl-name-necklace-8213",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 4,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Minimal Initial Pendant Necklace",
+      "handle": "north-pearl-initial-necklace-4204",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 4,
+      "minWidth": 901,
+      "minHeight": 901,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Custom Script Name Necklace",
+      "handle": "north-pearl-name-necklace-7562",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Petite Heart Charm Necklace",
+      "handle": "north-pearl-heart-necklace-0474",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 900,
+      "minHeight": 900,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Everyday Letter Charm Necklace",
+      "handle": "north-pearl-letter-necklace-2156",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 5,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Dainty Initial Necklace",
+      "handle": "north-pearl-initial-necklace-8531",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Open Heart Pendant Necklace",
+      "handle": "north-pearl-heart-necklace-3361",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Rounded Heart Pendant Necklace",
+      "handle": "north-pearl-heart-necklace-1404",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 720,
+      "minHeight": 720,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Clover Station Bracelet",
+      "handle": "north-pearl-clover-bracelet-4268",
+      "productType": "Bracelet",
+      "price": 69,
+      "compareAt": 89,
+      "discountPercent": 22,
+      "images": 6,
+      "minWidth": 1080,
+      "minHeight": 1080,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Petite Letter Necklace",
+      "handle": "north-pearl-letter-necklace-1571",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 5,
+      "minWidth": 750,
+      "minHeight": 750,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Floating Nameplate Necklace",
+      "handle": "north-pearl-name-necklace-1956",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Beaded Layering Necklace",
+      "handle": "north-pearl-bead-necklace",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Layered Letter Necklace",
+      "handle": "north-pearl-letter-necklace-1755",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 725,
+      "minHeight": 725,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Slim Letter Pendant Necklace",
+      "handle": "north-pearl-letter-necklace-2210",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Heart Accent Ring",
+      "handle": "north-pearl-heart-ring-7637",
+      "productType": "Ring",
+      "price": 69,
+      "compareAt": 89,
+      "discountPercent": 22,
+      "images": 4,
+      "minWidth": 773,
+      "minHeight": 765,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Giftable Nameplate Necklace",
+      "handle": "north-pearl-name-necklace-8379",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Polished Name Pendant Necklace",
+      "handle": "north-pearl-name-necklace-5921",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 5,
+      "minWidth": 750,
+      "minHeight": 750,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Bloom Pendant Necklace",
+      "handle": "north-pearl-flower-necklace",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 794,
+      "minHeight": 788,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Block Initial Necklace",
+      "handle": "north-pearl-initial-necklace-3226",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Personal Name Necklace",
+      "handle": "north-pearl-name-necklace-7245",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 798,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Fine Script Name Necklace",
+      "handle": "north-pearl-name-necklace-6301",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1200,
+      "minHeight": 1200,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Polished Bead Bracelet",
+      "handle": "north-pearl-bead-bracelet-3656",
+      "productType": "Bracelet",
+      "price": 69,
+      "compareAt": 89,
+      "discountPercent": 22,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Everyday Rounded Link Bracelet",
+      "handle": "north-pearl-signature-bracelet-1724",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 770,
+      "minHeight": 770,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Framed Letter Necklace",
+      "handle": "north-pearl-letter-necklace-3046",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Refined Nameplate Necklace",
+      "handle": "north-pearl-name-necklace-6441",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 756,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Simple Initial Pendant Necklace",
+      "handle": "north-pearl-initial-necklace-2758",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 750,
+      "minHeight": 750,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Modern Name Necklace",
+      "handle": "north-pearl-name-necklace-6376",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Keepsake Name Necklace",
+      "handle": "north-pearl-name-necklace-8628",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 5,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Luxe Name Pendant Necklace",
+      "handle": "north-pearl-name-necklace-0823",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Dainty Name Pendant Necklace",
+      "handle": "north-pearl-name-necklace-5254",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 800,
+      "minHeight": 800,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sparkle Pendant Necklace",
+      "handle": "north-pearl-sparkle-necklace-9390",
+      "productType": "Necklace",
+      "price": 79,
+      "compareAt": 99,
+      "discountPercent": 20,
+      "images": 6,
+      "minWidth": 753,
+      "minHeight": 753,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    },
+    {
+      "title": "North & Pearl Framed Heirloom Letter Necklace",
+      "handle": "north-pearl-letter-necklace-7676",
+      "productType": "Necklace",
+      "price": 59,
+      "compareAt": 79,
+      "discountPercent": 25,
+      "images": 6,
+      "minWidth": 1000,
+      "minHeight": 1000,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Polished Statement Link Bracelet",
+      "handle": "north-pearl-signature-bracelet-6593",
+      "productType": "Bracelet",
+      "price": 54,
+      "compareAt": 72,
+      "discountPercent": 25,
+      "images": 5,
+      "minWidth": 5020,
+      "minHeight": 5020,
+      "issues": [
+        "compare-at-price-active"
+      ]
+    },
+    {
+      "title": "North & Pearl Sweetheart Drop Earrings",
+      "handle": "north-pearl-heart-earrings-5815",
+      "productType": "Earrings",
+      "price": 49,
+      "compareAt": 65,
+      "discountPercent": 25,
+      "images": 4,
+      "minWidth": 750,
+      "minHeight": 750,
+      "issues": [
+        "compare-at-price-active",
+        "image-size-review"
+      ]
+    }
+  ],
+  "issueCounts": {
+    "collections": {},
+    "products": {
+      "compare-at-price-active": 118,
+      "limited-gallery": 2,
+      "image-size-review": 23
+    }
+  }
+}

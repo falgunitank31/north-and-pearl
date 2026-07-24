@@ -41,9 +41,9 @@ function gql(query, variables = {}) {
 async function fetchText(path, options = {}) {
   let lastResult;
 
-  for (let attempt = 0; attempt < 4; attempt += 1) {
+  for (let attempt = 0; attempt < 6; attempt += 1) {
     if (attempt > 0) {
-      await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
+      await new Promise((resolve) => setTimeout(resolve, attempt * 2500));
     }
 
     const response = await fetch(`${domain}${path}`, {
@@ -57,7 +57,7 @@ async function fetchText(path, options = {}) {
     const text = await response.text();
     lastResult = { response, text };
 
-    if (response.status !== 429) {
+    if (response.status !== 429 && response.status !== 503) {
       return lastResult;
     }
   }
@@ -116,7 +116,7 @@ const results = [];
 for (const product of products) {
   const path = `/products/${product.handle}`;
   const { response, text: html } = await fetchText(path);
-  await new Promise((resolve) => setTimeout(resolve, 300));
+  await new Promise((resolve) => setTimeout(resolve, 1000));
   const images = product.media.nodes.filter((media) => media.mediaContentType === 'IMAGE');
   const availableVariant = product.variants.nodes.find((variant) => variant.availableForSale);
   const personalizationLikely = `${product.title} ${product.tags.join(' ')}`.toLowerCase();

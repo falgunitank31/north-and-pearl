@@ -1,0 +1,31 @@
+priority,url,intent,owner_notes
+P0,https://northandpearl.com/,Brand and store discovery,Homepage should be indexed first
+P0,https://northandpearl.com/collections/all,Shop all products,Broad commercial browsing
+P0,https://northandpearl.com/collections/best-sellers,Best sellers,High-conversion collection path
+P0,https://northandpearl.com/collections/gifts,Jewelry gifts,Gift-intent shoppers
+P0,https://northandpearl.com/collections/name-necklaces,Name necklaces,Core personalized jewelry intent
+P0,https://northandpearl.com/collections/initial-necklaces,Initial necklaces,Core personalized jewelry intent
+P0,https://northandpearl.com/collections/birthstone-jewelry,Birthstone jewelry,Gift and personalization intent
+P0,https://northandpearl.com/collections/mothers-collection,Gifts for mom,Occasion and recipient intent
+P0,https://northandpearl.com/collections/wedding-bridesmaids,Wedding and bridesmaid jewelry,Event gifting intent
+P0,https://northandpearl.com/collections/couple-jewelry,Couple jewelry,Relationship gifting intent
+P0,https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her,Gift guide,Supports gifts best sellers and personalized collections
+P0,https://northandpearl.com/blogs/gift-guide/how-to-choose-a-name-necklace,Buying guide,Supports name necklace collection
+P0,https://northandpearl.com/blogs/gift-guide/birthstone-jewelry-gift-guide,Buying guide,Supports birthstone collection
+P0,https://northandpearl.com/blogs/gift-guide/jewelry-gifts-for-mom,Gift guide,Supports Mother's Collection
+P0,https://northandpearl.com/blogs/gift-guide/bridesmaid-jewelry-gift-ideas,Gift guide,Supports Wedding & Bridesmaids collection
+P1,https://northandpearl.com/collections/necklaces,Necklaces,Core category
+P1,https://northandpearl.com/collections/bracelets,Bracelets,Core category
+P1,https://northandpearl.com/collections/rings,Rings,Core category
+P1,https://northandpearl.com/collections/earrings,Earrings,Core category
+P1,https://northandpearl.com/blogs/gift-guide/anniversary-jewelry-gift-guide,Gift guide,Relationship and occasion intent
+P1,https://northandpearl.com/blogs/gift-guide/best-jewelry-gifts-under-100,Gift guide,Price-conscious gift intent
+P1,https://northandpearl.com/blogs/gift-guide/personalized-jewelry-for-couples,Gift guide,Relationship gifting intent
+P1,https://northandpearl.com/blogs/gift-guide/birthday-jewelry-gift-ideas,Gift guide,Birthday gift intent
+P1,https://northandpearl.com/blogs/gift-guide/how-to-layer-necklaces,Styling guide,Supports necklace discovery
+P1,https://northandpearl.com/pages/ai-brand-information,AI brand/entity clarity,Supports GEO and AI retrieval
+P1,https://northandpearl.com/pages/personalized-jewelry-guide,Education,Supports personalization intent
+P1,https://northandpearl.com/pages/jewelry-care-guide,Education,Supports product confidence
+P1,https://northandpearl.com/pages/faq,Trust,Supports pre-purchase questions
+P1,https://northandpearl.com/pages/shipping-policy,Trust,Merchant and customer confidence
+P1,https://northandpearl.com/pages/returns-exchanges,Trust,Merchant and customer confidence

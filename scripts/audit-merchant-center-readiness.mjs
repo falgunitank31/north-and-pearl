@@ -6,8 +6,9 @@ import { dirname, join } from 'node:path';
 const store = 'q4ydix-w1.myshopify.com';
 const domain = 'https://northandpearl.com';
 const tempDir = mkdtempSync(join(tmpdir(), 'np-merchant-readiness-'));
-const outputMd = 'reports/merchant-center-readiness-2026-07-22.md';
-const outputCsv = 'reports/merchant-center-readiness-2026-07-22.csv';
+const today = new Date().toISOString().slice(0, 10);
+const outputMd = `reports/merchant-center-readiness-${today}.md`;
+const outputCsv = `reports/merchant-center-readiness-${today}.csv`;
 
 function gql(query, variables = {}) {
   const queryFile = join(tempDir, `query-${Date.now()}-${Math.random()}.graphql`);
@@ -146,7 +147,7 @@ const needsReview = rows.length - readyCount;
 
 writeFileSync(
   outputMd,
-  `# Merchant Center Readiness Audit - 2026-07-22
+  `# Merchant Center Readiness Audit - ${today}
 
 Owner: Faraday + Rawls + Tesla
 
@@ -194,4 +195,3 @@ console.log(`Ready with identifier caveat: ${readyCount}`);
 console.log(`Needs review: ${needsReview}`);
 console.log(`Wrote ${outputMd}`);
 console.log(`Wrote ${outputCsv}`);
-

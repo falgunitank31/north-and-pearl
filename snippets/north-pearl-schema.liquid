@@ -3,7 +3,9 @@
   assign home_url = request.origin | append: routes.root_url
   assign org_id = home_url | append: '#organization'
   assign brand_id = home_url | append: '#brand'
+  assign website_id = home_url | append: '#website'
   assign ai_brand_url = request.origin | append: '/pages/ai-brand-information'
+  assign search_url_template = request.origin | append: routes.search_url | append: '?q={search_term_string}'
   assign logo_url = 'north-pearl-logo.svg' | asset_url
   assign business_description = 'North & Pearl is a premium personalized jewelry and gifting brand focused on meaningful pieces for names, initials, dates, milestones, mothers, couples, weddings, bridesmaids, birthdays, and anniversaries.'
 -%}
@@ -51,6 +53,27 @@
       "name": "AI Brand Information for North & Pearl"
     },
     "sameAs": []
+  }
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": {{ website_id | json }},
+    "name": "North & Pearl",
+    "url": {{ home_url | json }},
+    "publisher": {
+      "@id": {{ org_id | json }}
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": {{ search_url_template | json }}
+      },
+      "query-input": "required name=search_term_string"
+    }
   }
 </script>
 

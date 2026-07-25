@@ -1,4 +1,5 @@
 :root {
+  /* North & Pearl marketing-readiness storefront polish: 2026-07-25 */
   --np-black: #171411;
   --np-ivory: #f8f2e8;
   --np-soft: #fffaf3;
@@ -329,17 +330,19 @@ summary:focus-visible {
   font-size: 1.48rem;
 }
 
-.product-card-wrapper .price__sale,
-.collection-card-wrapper .price__sale {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: .9rem;
-}
-
 .price {
   color: var(--np-black);
   font-weight: 700;
+}
+
+.product-card-wrapper .price--on-sale .price__regular,
+.collection-card-wrapper .price--on-sale .price__regular {
+  display: block;
+}
+
+.product-card-wrapper .price--on-sale .price__sale,
+.collection-card-wrapper .price--on-sale .price__sale {
+  display: none;
 }
 
 .price--on-sale .price-item--regular {

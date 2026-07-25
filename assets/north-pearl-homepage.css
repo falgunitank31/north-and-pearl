@@ -18,7 +18,8 @@
 }
 
 .np-commerce-home h1 {
-  font-size: clamp(4.4rem, 6.4vw, 8rem);
+  max-width: 9.8ch;
+  font-size: clamp(4.8rem, 6.8vw, 8.8rem);
 }
 
 .np-commerce-home h2 {
@@ -36,14 +37,14 @@
 
 .np-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(34rem, .88fr);
-  min-height: min(74rem, calc(100vh - 8rem));
+  grid-template-columns: minmax(0, 1.18fr) minmax(34rem, .82fr);
+  min-height: min(68rem, calc(100vh - 7rem));
   border-bottom: 1px solid var(--np-home-line);
   background: var(--np-home-ivory);
 }
 
 .np-hero__media {
-  min-height: 56rem;
+  min-height: 52rem;
   background: #f0e2d0;
 }
 
@@ -59,7 +60,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: clamp(4rem, 6vw, 8rem) max(2rem, calc((100vw - 1200px) / 2)) clamp(4rem, 6vw, 8rem) 5rem;
+  padding: clamp(3.6rem, 5vw, 7rem) max(2rem, calc((100vw - 1200px) / 2)) clamp(3.6rem, 5vw, 7rem) clamp(3rem, 5vw, 6rem);
 }
 
 .np-hero__text {
@@ -151,7 +152,7 @@
 .np-newsletter {
   max-width: 1240px;
   margin-inline: auto;
-  padding: 6.4rem 2rem;
+  padding: 5.6rem 2rem;
 }
 
 .np-section--categories {
@@ -195,7 +196,7 @@
 .np-category-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 1.4rem;
+  gap: 1rem;
 }
 
 .np-category-card,
@@ -208,15 +209,16 @@
 .np-category-card {
   position: relative;
   overflow: hidden;
-  min-height: 25rem;
+  min-height: 22rem;
   border: 1px solid var(--np-home-line);
   border-radius: 8px;
   background: var(--np-home-ivory);
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
 }
 
 .np-category-card__image {
   display: block;
-  aspect-ratio: 1 / 1.1;
+  aspect-ratio: 1 / .96;
   background: #f1e5d6;
 }
 
@@ -231,7 +233,7 @@
 
 .np-category-card__content {
   display: block;
-  padding: 1.6rem;
+  padding: 1.35rem;
 }
 
 .np-category-card strong,
@@ -254,7 +256,7 @@
 
 .np-product-section {
   max-width: none;
-  padding-inline: max(2rem, calc((100vw - 1240px) / 2));
+  padding-inline: max(2rem, calc((100vw - 1320px) / 2));
   border-top: 1px solid var(--np-home-line);
 }
 
@@ -275,6 +277,8 @@
   border-radius: 8px;
   background: #fffaf3;
   overflow: hidden;
+  box-shadow: none;
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
 }
 
 .np-commerce-home .card__media {
@@ -282,7 +286,7 @@
 }
 
 .np-commerce-home .card__heading {
-  font-size: 1.7rem;
+  font-size: 1.55rem;
   line-height: 1.22;
 }
 
@@ -292,9 +296,9 @@
 }
 
 .np-commerce-home .quick-add__submit {
-  min-height: 4.4rem;
+  min-height: 4rem;
   border-radius: 4px;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   letter-spacing: .08em;
   text-transform: uppercase;
 }
@@ -306,7 +310,7 @@
 .np-occasion-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.4rem;
+  gap: 1rem;
 }
 
 .np-occasion-card {
@@ -314,6 +318,7 @@
   border: 1px solid var(--np-home-line);
   border-radius: 8px;
   background: #fffaf3;
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
 }
 
 .np-occasion-card img {
@@ -322,7 +327,7 @@
 
 .np-occasion-card span {
   display: block;
-  padding: 1.8rem;
+  padding: 1.55rem;
 }
 
 .np-story {
@@ -484,6 +489,14 @@
   .np-story:hover .np-story__media img {
     transform: scale(1.035);
   }
+
+  .np-category-card:hover,
+  .np-occasion-card:hover,
+  .np-commerce-home .product-card-wrapper:hover .card {
+    border-color: rgba(185, 146, 77, .5);
+    box-shadow: 0 18px 36px rgba(23, 20, 17, .08);
+    transform: translateY(-2px);
+  }
 }
 
 @media screen and (max-width: 989px) {
@@ -498,11 +511,11 @@
   }
 
   .np-hero__media {
-    min-height: 44rem;
+    min-height: 40rem;
   }
 
   .np-hero__content {
-    padding: 4.2rem 2rem 4.8rem;
+    padding: 3.8rem 2rem 4.2rem;
   }
 
   .np-trust,
@@ -520,7 +533,7 @@
 
 @media screen and (max-width: 640px) {
   .np-commerce-home h1 {
-    font-size: 4.3rem;
+    font-size: 4rem;
   }
 
   .np-commerce-home h2 {
@@ -528,7 +541,7 @@
   }
 
   .np-hero__media {
-    min-height: 38rem;
+    min-height: 32rem;
   }
 
   .np-actions,
@@ -567,7 +580,7 @@
 
   .np-section,
   .np-newsletter {
-    padding-block: 4.6rem;
+    padding-block: 4rem;
   }
 
   .np-product-section {

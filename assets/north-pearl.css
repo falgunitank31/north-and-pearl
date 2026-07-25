@@ -66,11 +66,11 @@ h3,
   align-items: center;
   column-gap: clamp(1.6rem, 2.4vw, 3.2rem);
   width: min(100%, 192rem);
-  min-height: 7.2rem;
+  min-height: 6.6rem;
 }
 
 .np-header-logo {
-  width: min(18rem, 54vw);
+  width: min(16.4rem, 52vw);
   height: auto;
 }
 
@@ -119,45 +119,6 @@ h3,
 .list-menu__item,
 .footer-block__details-content .list-menu__item--link {
   letter-spacing: .02em;
-}
-
-.mega-menu__content {
-  border-bottom: 1px solid var(--np-line);
-  background: rgba(255, 250, 243, .98);
-  box-shadow: 0 18px 34px rgba(23, 20, 17, .08);
-  padding-top: 1.4rem;
-  padding-bottom: 1.4rem;
-}
-
-.mega-menu__list {
-  width: min(100%, 118rem);
-  gap: 1rem 2rem;
-}
-
-.mega-menu .mega-menu__list--condensed {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(14rem, max-content));
-  justify-content: center;
-  gap: .6rem 2rem;
-}
-
-.mega-menu__link {
-  padding: .7rem 1rem;
-  border-radius: 4px;
-  color: var(--np-muted);
-  font-size: 1.35rem;
-  text-decoration: none;
-}
-
-.mega-menu__link:hover,
-.mega-menu__link--active {
-  background: var(--np-ivory);
-  color: var(--np-black);
-  text-decoration: none;
-}
-
-.mega-menu__link--level-2 {
-  font-weight: 600;
 }
 
 .np-brand-nav {
@@ -322,7 +283,7 @@ summary:focus-visible {
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
-  padding: 2rem 2.2rem 2.2rem;
+  padding: 1.55rem 1.65rem 1.8rem;
 }
 
 .product-card-wrapper .card > .card__content .card__information,
@@ -333,14 +294,14 @@ summary:focus-visible {
 .product-card-wrapper .card__heading,
 .collection-card-wrapper .card__heading {
   margin: 0 0 1rem;
-  font-size: clamp(1.72rem, 1vw, 2rem);
+  font-size: clamp(1.45rem, .9vw, 1.72rem);
   line-height: 1.22;
 }
 
 .product-card-wrapper .card__heading a,
 .collection-card-wrapper .card__heading a {
   display: -webkit-box;
-  min-height: 5rem;
+  min-height: 4.2rem;
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -362,10 +323,10 @@ summary:focus-visible {
 .product-card-wrapper .price,
 .collection-card-wrapper .price {
   margin-top: auto;
-  padding-top: 1.4rem;
+  padding-top: 1rem;
   align-items: baseline;
   gap: 1rem;
-  font-size: 1.62rem;
+  font-size: 1.48rem;
 }
 
 .product-card-wrapper .price__sale,
@@ -409,20 +370,20 @@ summary:focus-visible {
   display: flex;
   flex-wrap: wrap;
   gap: .6rem;
-  min-height: 3.2rem;
-  margin: 1rem 0 .4rem;
+  min-height: 2.8rem;
+  margin: .7rem 0 .2rem;
 }
 
 .np-card-meta span {
   display: inline-flex;
   align-items: center;
-  min-height: 2.4rem;
-  padding: .3rem .8rem;
+  min-height: 2.1rem;
+  padding: .25rem .7rem;
   border: 1px solid var(--np-line);
   border-radius: 999px;
   background: rgba(248, 242, 232, .72);
   color: var(--np-muted);
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.2;
 }
 
@@ -718,11 +679,11 @@ summary:focus-visible {
 .card__media .media img,
 .collection-card-wrapper .media img {
   object-fit: contain;
-  padding: clamp(1.8rem, 8vw, 4.8rem);
+  padding: clamp(1.2rem, 4vw, 3.2rem);
 }
 
 .product-card-wrapper .card__media .media img {
-  padding: clamp(1.2rem, 4vw, 3.8rem);
+  padding: clamp(.8rem, 2.6vw, 2.4rem);
 }
 
 .card__media {
@@ -969,7 +930,7 @@ summary:focus-visible {
 }
 
 .product__title h1 {
-  font-size: clamp(3.2rem, 4vw, 5.4rem);
+  font-size: clamp(3.4rem, 4.6vw, 6rem);
   line-height: 1.02;
 }
 
@@ -983,11 +944,35 @@ summary:focus-visible {
 
 .product__info-container .price--large {
   margin-top: .8rem;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .product-form__submit {
   box-shadow: 0 12px 28px rgba(23, 20, 17, .12);
+}
+
+.product__info-container {
+  padding: clamp(2rem, 3vw, 3.4rem);
+  border: 1px solid var(--np-line);
+  border-radius: 8px;
+  background: rgba(255, 250, 243, .76);
+}
+
+.product__description {
+  padding: 1.8rem 0;
+  border-top: 1px solid var(--np-line);
+  border-bottom: 1px solid var(--np-line);
+}
+
+.product__description p,
+.product__description li {
+  color: var(--np-muted);
+  font-size: 1.48rem;
+  line-height: 1.68;
+}
+
+.product__accordion {
+  margin-top: 0;
 }
 
 .product__accordion .accordion__title {

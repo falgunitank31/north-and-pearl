@@ -7,6 +7,18 @@
   if request.page_type == 'index'
     assign og_title = 'North & Pearl | Personalized Jewelry for Meaningful Moments'
     assign og_description = 'Shop personalized jewelry and gift-ready keepsakes made for names, initials, dates, milestones, mothers, couples, weddings, birthdays, and anniversaries.'
+  elsif og_url contains '/collections/all'
+    assign og_title = 'Shop All Jewelry | North & Pearl'
+    assign og_description = 'Explore North & Pearl jewelry gifts, personalized necklaces, bracelets, rings, earrings, and meaningful pieces for everyday moments and special occasions.'
+  elsif request.page_type == 'search'
+    assign og_title = 'Search North & Pearl Jewelry'
+    assign og_description = 'Search North & Pearl for personalized jewelry, name necklaces, initial pieces, bracelets, rings, earrings, and meaningful jewelry gifts.'
+  elsif template.name == 'cart' or page_title contains 'Shopping Cart'
+    assign og_title = 'Shopping Cart | North & Pearl'
+    assign og_description = 'Review your North & Pearl jewelry selections, personalization details, quantities, and checkout-ready gift pieces before completing your order.'
+  elsif request.page_type == 'blog' and blog.handle == 'news'
+    assign og_title = 'Jewelry Gift Guides | North & Pearl'
+    assign og_description = 'Read North & Pearl jewelry gift guides, personalization tips, care advice, and occasion-based shopping ideas for meaningful jewelry gifts.'
   endif
 
   if request.page_type == 'product'

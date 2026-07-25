@@ -18,11 +18,30 @@
     {%- liquid
       assign np_home_title = 'North & Pearl | Personalized Jewelry for Meaningful Moments'
       assign np_home_description = 'Shop personalized jewelry and gift-ready keepsakes made for names, initials, dates, milestones, mothers, couples, weddings, birthdays, and anniversaries.'
+      assign np_page_title = page_title
+      assign np_page_description = page_description
+
+      if request.page_type == 'index'
+        assign np_page_title = np_home_title
+        assign np_page_description = np_home_description
+      elsif canonical_url contains '/collections/all'
+        assign np_page_title = 'Shop All Jewelry | North & Pearl'
+        assign np_page_description = 'Explore North & Pearl jewelry gifts, personalized necklaces, bracelets, rings, earrings, and meaningful pieces for everyday moments and special occasions.'
+      elsif request.page_type == 'search'
+        assign np_page_title = 'Search North & Pearl Jewelry'
+        assign np_page_description = 'Search North & Pearl for personalized jewelry, name necklaces, initial pieces, bracelets, rings, earrings, and meaningful jewelry gifts.'
+      elsif request.path == '/cart' or template.name == 'cart' or page_title contains 'Shopping Cart'
+        assign np_page_title = 'Shopping Cart | North & Pearl'
+        assign np_page_description = 'Review your North & Pearl jewelry selections, personalization details, quantities, and checkout-ready gift pieces before completing your order.'
+      elsif request.page_type == 'blog' and blog.handle == 'news'
+        assign np_page_title = 'Jewelry Gift Guides | North & Pearl'
+        assign np_page_description = 'Read North & Pearl jewelry gift guides, personalization tips, care advice, and occasion-based shopping ideas for meaningful jewelry gifts.'
+      endif
     -%}
 
     <title>
-      {%- if request.page_type == 'index' -%}
-        {{ np_home_title }}
+      {%- if np_page_title != page_title -%}
+        {{ np_page_title }}
       {%- else -%}
         {{ page_title }}
         {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
@@ -31,10 +50,12 @@
       {%- endif -%}
     </title>
 
-    {% if request.page_type == 'index' %}
-      <meta name="description" content="{{ np_home_description | escape }}">
-    {% elsif page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
+    {% if np_page_description %}
+      <meta name="description" content="{{ np_page_description | escape }}">
+    {% endif %}
+
+    {% if request.path == '/cart' or template.name == 'cart' %}
+      <meta name="robots" content="noindex,follow">
     {% endif %}
 
     {% render 'meta-tags' %}

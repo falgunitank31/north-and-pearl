@@ -19,6 +19,31 @@
   elsif request.page_type == 'blog' and blog.handle == 'news'
     assign og_title = 'Jewelry Gift Guides | North & Pearl'
     assign og_description = 'Read North & Pearl jewelry gift guides, personalization tips, care advice, and occasion-based shopping ideas for meaningful jewelry gifts.'
+  elsif request.page_type == 'article'
+    case article.handle
+      when 'best-personalized-jewelry-gifts-for-her'
+        assign og_description = 'Find meaningful personalized jewelry gifts for her, including name necklaces, initials, birth-month inspiration, mom gifts, and bridesmaid ideas.'
+      when 'how-to-choose-a-name-necklace'
+        assign og_description = 'Learn how to choose a name necklace by meaning, readability, personalization details, recipient style, and gift occasion.'
+      when 'birthstone-jewelry-gift-guide'
+        assign og_description = 'Explore birthstone-inspired jewelry gift ideas for birthdays, moms, anniversaries, and meaningful milestone moments.'
+      when 'jewelry-gifts-for-mom'
+        assign og_description = 'Shop thoughtful jewelry gift ideas for moms, mother figures, grandmothers, new moms, Mother’s Day, birthdays, and family moments.'
+      when 'bridesmaid-jewelry-gift-ideas'
+        assign og_description = 'Find bridesmaid jewelry gift ideas for bridal parties, maid of honor gifts, wedding thank-you moments, and coordinated keepsakes.'
+      when 'anniversary-jewelry-gift-guide'
+        assign og_description = 'Choose meaningful anniversary jewelry gifts, from hearts and initials to name necklaces, rings, bracelets, and couple-inspired pieces.'
+      when 'best-jewelry-gifts-under-100'
+        assign og_description = 'Browse meaningful jewelry gifts under $100 for birthdays, anniversaries, moms, bridesmaids, partners, and everyday occasions.'
+      when 'personalized-jewelry-for-couples'
+        assign og_description = 'Explore personalized jewelry for couples, including initials, names, hearts, bracelets, rings, and anniversary gift ideas.'
+      when 'birthday-jewelry-gift-ideas'
+        assign og_description = 'Find birthday jewelry gift ideas for her, moms, friends, sisters, partners, and milestone celebrations.'
+      when 'how-to-layer-necklaces'
+        assign og_description = 'Learn how to layer necklaces with initials, name necklaces, pendants, hearts, and everyday jewelry styles.'
+      else
+        assign og_description = article.content | strip_html | strip | truncate: 155
+    endcase
   endif
 
   if request.page_type == 'product'

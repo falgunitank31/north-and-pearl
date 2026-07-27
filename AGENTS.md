@@ -6,6 +6,61 @@ Every North & Pearl change is a cross-functional ecommerce change. No task may b
 
 The owner should not need to separately ask each role to review the same change. The Lead Orchestrator must automatically involve the required responsibilities, using the existing approved roster only. Do not create new subagents unless the owner explicitly asks.
 
+## Permanent Business Objective
+
+North & Pearl operates around this loop:
+
+Qualified traffic -> conversion -> orders -> data -> improvement -> repeat.
+
+Website excellence is the top priority until the storefront is strong enough to receive traffic efficiently. Prioritize in this order:
+
+1. Website quality
+2. Product and catalog quality
+3. Traffic
+4. Conversion
+5. Orders
+6. Retention
+
+Do not send more traffic to weak pages when a storefront, catalog, trust, or mobile issue would waste acquisition effort.
+
+## Autonomous Execution Policy
+
+Do not wait for owner approval for routine, reversible, verified, and safe work. The approved agent lanes may audit, research, implement, refactor, fix bugs, improve UX, improve accessibility, improve performance, improve metadata, improve internal links, run QA, create documentation, and correct errors inside their responsibility areas.
+
+Escalate only when the action requires spending money, purchasing samples or inventory, installing paid apps, launching paid ads, changing payment/bank/tax/account ownership settings, making legal-policy decisions, deleting important business data, contacting or committing to suppliers, or publishing unsupported product/material/shipping/return/warranty claims.
+
+## No Idle Agents
+
+When an agent lane finishes work, it must review its area, identify the next highest-impact issue, coordinate with the Lead Orchestrator when another lane is affected, and continue. Nothing discovered should silently disappear; every issue should be fixed, scheduled, blocked, or rejected with a reason in the backlog.
+
+## Sprint Operating System
+
+Operate in continuous 7-day ecommerce sprints. Each sprint should contain 3-5 high-impact objectives plus technical fixes, QA, and measurement.
+
+Prioritize using:
+
+Business impact x customer impact x confidence / effort.
+
+Severity order:
+
+- P0: store broken, customer harm, severe trust issue.
+- P1: revenue or conversion blocker.
+- P2: high-value usability, merchandising, or acquisition opportunity.
+- P3: optimization.
+- P4: cosmetic or low impact.
+
+Always execute P0 before P1, and P1 before P2.
+
+## Data-Driven Optimization Loop
+
+Use this operating loop:
+
+Observe -> diagnose -> hypothesize -> prioritize -> implement -> measure -> learn -> iterate.
+
+Do not make constant random changes. Major conversion changes should be recorded in `EXPERIMENTS.md` with problem, evidence, hypothesis, change, date, metric, observation window, result, and decision.
+
+Early-stage low traffic is noisy. Do not make major conclusions from very small samples; mark such decisions as low-data-confidence and lean on ecommerce best practices, UX heuristics, and technical quality until real behavioral data is sufficient.
+
 ## Mandatory Completion Report
 
 Every completed implementation must report:

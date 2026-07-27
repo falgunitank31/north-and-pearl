@@ -13,9 +13,22 @@ Push North & Pearl's highest-priority commercial and organic launch URLs through
 - Homepage was previously confirmed indexed in Search Console.
 - Some commercial URLs were previously requested for indexing.
 
-## Execution Attempt
+## Execution Update
 
-Attempted to reopen browser-based Search Console indexing flow from this task. The previous in-app browser tab expired and this turn did not expose a fresh browser object, so the Search Console UI request-indexing clicks could not be completed in this pass.
+Search Console browser access was restored in the Codex in-app browser for the `northandpearl.com` domain property under `falgunitank31@gmail.com`.
+
+Manual URL Inspection results:
+
+| URL | Search Console Result | Action Taken |
+|---|---|---|
+| `https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her` | URL is on Google | Request indexing submitted successfully |
+| `https://northandpearl.com/blogs/gift-guide/how-to-choose-a-name-necklace` | URL is not on Google | Blocked by Google CAPTCHA before the request-indexing action could be completed |
+
+Sitemap status in Search Console:
+
+| Sitemap | Type | Submitted | Last read | Status | Discovered pages |
+|---|---|---|---|---|---:|
+| `https://northandpearl.com/sitemap.xml` | Sitemap index | Jul 27, 2026 | Jul 27, 2026 | Success | 149 |
 
 Important constraint: Google does not provide a general public API to request indexing for standard ecommerce/blog URLs. For normal Shopify pages, the real paths are:
 
@@ -54,17 +67,23 @@ All URLs below returned HTTP 200, had self-referencing canonical URLs, and did n
 
 ## Next UI Action
 
-When Search Console browser control is available:
+Google CAPTCHA blocked the second URL Inspection request. The owner may complete the CAPTCHA manually in Search Console, then the remaining URL Inspection queue can continue.
 
-1. Open `https://search.google.com/search-console?resource_id=sc-domain:northandpearl.com`.
-2. Use URL Inspection for each priority URL above.
-3. If the URL is not indexed or recently changed, click `Request indexing`.
-4. Record each result as:
-   - Indexed
-   - Requested
-   - Blocked
-   - Needs fix
-5. Re-check sitemap status under Sitemaps.
+Remaining priority queue:
+
+1. `https://northandpearl.com/blogs/gift-guide/how-to-choose-a-name-necklace`
+2. `https://northandpearl.com/blogs/gift-guide/birthstone-jewelry-gift-guide`
+3. `https://northandpearl.com/blogs/gift-guide/jewelry-gifts-for-mom`
+4. `https://northandpearl.com/blogs/gift-guide/bridesmaid-jewelry-gift-ideas`
+5. `https://northandpearl.com/blogs/gift-guide/anniversary-jewelry-gift-guide`
+6. `https://northandpearl.com/blogs/gift-guide/best-jewelry-gifts-under-100`
+7. `https://northandpearl.com/blogs/gift-guide/personalized-jewelry-for-couples`
+8. `https://northandpearl.com/blogs/gift-guide/birthday-jewelry-gift-ideas`
+9. `https://northandpearl.com/blogs/gift-guide/how-to-layer-necklaces`
+10. `https://northandpearl.com/collections/gifts`
+11. `https://northandpearl.com/collections/name-necklaces`
+12. `https://northandpearl.com/collections/initial-necklaces`
+13. `https://northandpearl.com/collections/birthstone-jewelry`
 
 ## Risk Notes
 

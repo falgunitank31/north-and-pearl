@@ -1492,3 +1492,60 @@ a.product__text {
     border: none;
   }
 }
+
+.np-mobile-sticky-atc {
+  display: none;
+}
+
+@media screen and (max-width: 749px) {
+  body:has(.np-mobile-sticky-atc) {
+    padding-bottom: 8.8rem;
+  }
+
+  .np-mobile-sticky-atc {
+    align-items: center;
+    background: rgb(var(--color-background));
+    border-top: 0.1rem solid rgba(var(--color-foreground), 0.12);
+    bottom: 0;
+    box-shadow: 0 -1.2rem 2.4rem rgba(var(--color-shadow), 0.1);
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(0, 1fr) auto;
+    left: 0;
+    padding: 1rem 1.5rem calc(1rem + env(safe-area-inset-bottom));
+    position: fixed;
+    right: 0;
+    z-index: 4;
+  }
+
+  .np-mobile-sticky-atc__summary {
+    min-width: 0;
+  }
+
+  .np-mobile-sticky-atc__title,
+  .np-mobile-sticky-atc__price {
+    display: block;
+  }
+
+  .np-mobile-sticky-atc__title {
+    color: rgba(var(--color-foreground), 0.78);
+    font-size: 1.2rem;
+    line-height: 1.25;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .np-mobile-sticky-atc__price {
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin-top: 0.2rem;
+  }
+
+  .np-mobile-sticky-atc__button {
+    min-height: 4.4rem;
+    min-width: 12rem;
+    padding-inline: 1.8rem;
+  }
+}

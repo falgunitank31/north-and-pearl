@@ -749,6 +749,38 @@
       <script type="application/ld+json">
         {{ product | structured_data }}
       </script>
+
+      {%- if product.selected_or_first_available_variant.available -%}
+        <div class="np-mobile-sticky-atc" data-np-mobile-sticky-atc>
+          <div class="np-mobile-sticky-atc__summary">
+            <span class="np-mobile-sticky-atc__title">{{ product.title | escape }}</span>
+            <span class="np-mobile-sticky-atc__price">
+              {{ product.selected_or_first_available_variant.price | money }}
+            </span>
+          </div>
+          <button class="button button--primary np-mobile-sticky-atc__button" type="button" data-np-focus-product-form>
+            Add to cart
+          </button>
+        </div>
+        <script>
+          (() => {
+            const stickyButton = document.querySelector('[data-np-focus-product-form]');
+            if (!stickyButton) return;
+
+            stickyButton.addEventListener('click', () => {
+              const form = document.getElementById({{ product_form_id | json }});
+              const target =
+                form?.querySelector('input[required]:not([type="checkbox"]), select, button[type="submit"]') ||
+                form?.querySelector('button[type="submit"]');
+
+              if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                window.setTimeout(() => target.focus({ preventScroll: true }), 350);
+              }
+            });
+          })();
+        </script>
+      {%- endif -%}
     </div>
   </product-component>
 </product-info>

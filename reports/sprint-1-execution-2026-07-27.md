@@ -25,6 +25,7 @@
 - Reduced collection hero spacing and visible description excerpt.
 - Added styled collection quick links with compact pill treatment.
 - Removed duplicate product-card heading path for products that already have media.
+- Added a mobile sticky add-to-cart assist that scrolls/focuses customers into the real product form instead of bypassing variant or personalization validation.
 - Created the permanent Sprint 1 operating files:
   - `BACKLOG.md`
   - `SPRINT.md`
@@ -50,6 +51,8 @@
 - `assets/component-collection-hero.css`
 - `sections/main-collection-banner.liquid`
 - `snippets/card-product.liquid`
+- `sections/main-product.liquid`
+- `assets/section-main-product.css`
 - `BACKLOG.md`
 - `SPRINT.md`
 - `DECISIONS.md`
@@ -77,6 +80,17 @@
   - Cart: 200, one H1, noindex expected.
   - Search results: 200, one H1, indexable.
 - Broken escaped image markup pattern check: not detected on tested pages.
+- PDP mobile sticky CTA smoke:
+  - Initial Shell Necklace: 200, one H1, sticky CTA present, add-to-cart form present, personalization fields present.
+  - Heart Keepsake Necklace: 200, one H1, sticky CTA present, add-to-cart form present.
+  - Cart: 200, one H1, sticky CTA not present.
+- Merchant Center readiness audit:
+  - 118 active products audited.
+  - 118 ready with identifier caveat.
+  - 0 products needing script-detected review.
+- Product SEO catalog audit:
+  - 118 active products audited.
+  - No script-detected SEO issues.
 
 ## Risks
 

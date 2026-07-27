@@ -34,6 +34,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Validate live desktop/mobile navigation and collection pages.
 - [x] Audit Merchant Center readiness for active products.
 - [x] Audit active product SEO quality.
+- [x] Add mobile sticky add-to-cart assist without bypassing personalization validation.
 - [ ] Continue active product visual QA.
 
 ## Success Criteria

@@ -11,6 +11,7 @@ Start organic marketing execution for North & Pearl without paid spend, fake cla
 - Added guide-to-collection support links to 12 live collections through the approved Shopify CLI/Admin workflow.
 - Verified tested collection pages remain product-first: the product grid appears before the appended guide links.
 - Re-ran active product SEO and media audits before sending more traffic to the catalog.
+- Added claim-safe featured-product links to five high-intent live Gift Guide articles.
 
 ## Live Guide URLs Verified
 
@@ -39,6 +40,16 @@ Start organic marketing execution for North & Pearl without paid spend, fake cla
 - Gifts
 - Mother's Collection
 - Wedding & Bridesmaids
+
+## Guides Updated With Product Links
+
+- Best Personalized Jewelry Gifts for Her: 4 active product links
+- How to Choose a Name Necklace: 3 active product links
+- Jewelry Gifts for Mom: 3 active product links
+- Anniversary Jewelry Gift Guide: 3 active product links
+- Best Jewelry Gifts Under $100: 3 active product links
+
+Validation: all five updated guide URLs returned HTTP 200 and included the `Featured pieces to start with` section after update.
 
 ## Product-First Validation
 
@@ -73,7 +84,7 @@ Result: HTTP 200 on all checked pages. Product grid markup appears before `Helpf
 1. Add the ten guide URLs to Search Console URL inspection/indexing queue when browser access is stable.
 2. Re-check GA4 for `add_to_cart` event receipt after processing delay.
 3. Polish the top 25 active products in the acceptable-temporary image group before pushing heavier traffic.
-4. Add product-specific links from the strongest guides into matching live products once product-image polish is complete.
+4. Expand product-specific guide links to remaining guides only after product-image polish and category fit are confirmed.
 5. Build the first weekly organic baseline only from verified GA4, Search Console, Shopify Analytics, and Merchant Center data.
 
 ## Risk Notes

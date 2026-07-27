@@ -10,6 +10,18 @@
   assign new_collection = section.settings.new_collection
   assign hero_collection = section.settings.hero_collection | default: best_collection
   assign hero_product = hero_collection.products.first
+  assign best_collection_handle = best_collection.handle | default: section.settings.best_collection
+  assign primary_link_string = section.settings.primary_link | append: ''
+  assign best_kicker = section.settings.best_kicker
+  assign best_heading = section.settings.best_heading
+  if best_collection_handle == 'best-sellers' or section.settings.best_kicker == 'Best sellers' or section.settings.best_heading == 'Pieces shoppers choose first.'
+    assign best_kicker = 'Featured edit'
+    assign best_heading = 'Strong pieces to shop first.'
+  endif
+  assign primary_label = section.settings.primary_label
+  if section.settings.primary_label == 'Shop Best Sellers' or primary_link_string contains 'best-sellers'
+    assign primary_label = 'Shop Featured Jewelry'
+  endif
   assign hero_image = section.settings.hero_image
   if hero_image == blank and hero_product.featured_media
     assign hero_image = hero_product.featured_media
@@ -39,7 +51,7 @@
       <p class="np-hero__text">{{ section.settings.text | escape }}</p>
       <div class="np-actions">
         {%- if section.settings.primary_label != blank and section.settings.primary_link != blank -%}
-          <a class="np-button np-button--primary" href="{{ section.settings.primary_link }}">{{ section.settings.primary_label | escape }}</a>
+          <a class="np-button np-button--primary" href="{{ section.settings.primary_link }}">{{ primary_label | escape }}</a>
         {%- endif -%}
         {%- if section.settings.secondary_label != blank and section.settings.secondary_link != blank -%}
           <a class="np-button np-button--secondary" href="{{ section.settings.secondary_link }}">{{ section.settings.secondary_label | escape }}</a>
@@ -106,8 +118,8 @@
     <div class="np-section np-product-section">
       <div class="np-section-heading np-section-heading--split">
         <div>
-          <p class="np-kicker">{{ section.settings.best_kicker | escape }}</p>
-          <h2>{{ section.settings.best_heading | escape }}</h2>
+          <p class="np-kicker">{{ best_kicker | escape }}</p>
+          <h2>{{ best_heading | escape }}</h2>
         </div>
         <a class="np-text-link" href="{{ best_collection.url }}">Shop {{ best_collection.title }}</a>
       </div>

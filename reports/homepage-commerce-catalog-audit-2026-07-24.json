@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T02:23:14.291Z",
+  "generatedAt": "2026-07-27T20:52:43.346Z",
   "productCount": 154,
   "activeProductCount": 118,
   "activeProductsWithUsableImages": 118,
@@ -16,12 +16,6 @@
   ],
   "populatedCollections": [
     {
-      "title": "Gifts",
-      "handle": "gifts",
-      "productCount": 154,
-      "hasImage": false
-    },
-    {
       "title": "New Arrivals",
       "handle": "new-arrivals",
       "productCount": 122,
@@ -37,6 +31,12 @@
       "title": "Name Necklaces",
       "handle": "name-necklaces",
       "productCount": 65,
+      "hasImage": false
+    },
+    {
+      "title": "Gifts",
+      "handle": "gifts",
+      "productCount": 56,
       "hasImage": false
     },
     {
@@ -76,6 +76,12 @@
       "hasImage": false
     },
     {
+      "title": "Best Sellers",
+      "handle": "best-sellers",
+      "productCount": 12,
+      "hasImage": false
+    },
+    {
       "title": "Rings",
       "handle": "rings",
       "productCount": 9,
@@ -85,12 +91,6 @@
       "title": "Birthstone Jewelry",
       "handle": "birthstone-jewelry",
       "productCount": 7,
-      "hasImage": false
-    },
-    {
-      "title": "Best Sellers",
-      "handle": "best-sellers",
-      "productCount": 5,
       "hasImage": false
     }
   ],
@@ -127,6 +127,7 @@
       "price": "64.0",
       "compareAtPrice": "84.0",
       "collections": [
+        "best-sellers",
         "necklaces",
         "couple-jewelry",
         "gifts",
@@ -140,7 +141,6 @@
       "price": "59.0",
       "compareAtPrice": "79.0",
       "collections": [
-        "best-sellers",
         "bracelets",
         "gifts"
       ]
@@ -152,6 +152,7 @@
       "price": "64.0",
       "compareAtPrice": "84.0",
       "collections": [
+        "best-sellers",
         "birthstone-jewelry",
         "bracelets",
         "gifts",
@@ -165,8 +166,7 @@
       "price": "49.0",
       "compareAtPrice": "65.0",
       "collections": [
-        "bracelets",
-        "gifts"
+        "bracelets"
       ]
     },
     {
@@ -189,6 +189,7 @@
       "price": "69.0",
       "compareAtPrice": "89.0",
       "collections": [
+        "best-sellers",
         "bracelets",
         "gifts",
         "mothers-collection"
@@ -201,8 +202,7 @@
       "price": "54.0",
       "compareAtPrice": "72.0",
       "collections": [
-        "bracelets",
-        "gifts"
+        "bracelets"
       ]
     },
     {
@@ -224,6 +224,7 @@
       "price": "49.0",
       "compareAtPrice": "65.0",
       "collections": [
+        "best-sellers",
         "bracelets",
         "gifts",
         "mothers-collection"
@@ -259,8 +260,7 @@
       "price": "44.0",
       "compareAtPrice": "58.0",
       "collections": [
-        "rings",
-        "gifts"
+        "rings"
       ]
     },
     {
@@ -270,8 +270,7 @@
       "price": "44.0",
       "compareAtPrice": "58.0",
       "collections": [
-        "bracelets",
-        "gifts"
+        "bracelets"
       ]
     },
     {
@@ -281,6 +280,7 @@
       "price": "49.0",
       "compareAtPrice": "65.0",
       "collections": [
+        "best-sellers",
         "bracelets",
         "gifts",
         "wedding-bridesmaids"
@@ -307,17 +307,17 @@
       "compareAtPrice": "72.0",
       "collections": [
         "bracelets",
-        "gifts",
         "new-arrivals"
       ]
     },
     {
-      "title": "North & Pearl Sweetheart Pendant Necklace",
+      "title": "North & Pearl Sweetheart Oval Pendant Necklace",
       "handle": "north-pearl-sweetheart-pendant-necklace",
       "images": 6,
       "price": "59.0",
       "compareAtPrice": "79.0",
       "collections": [
+        "best-sellers",
         "necklaces",
         "couple-jewelry",
         "gifts",
@@ -334,7 +334,6 @@
       "compareAtPrice": "72.0",
       "collections": [
         "bracelets",
-        "gifts",
         "new-arrivals"
       ]
     }

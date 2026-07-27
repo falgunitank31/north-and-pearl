@@ -35,7 +35,13 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Audit Merchant Center readiness for active products.
 - [x] Audit active product SEO quality.
 - [x] Add mobile sticky add-to-cart assist without bypassing personalization validation.
-- [ ] Continue active product visual QA.
+- [x] Curate Gifts collection from broad all-product merchandising to a tighter gift-intent edit.
+- [x] Improve global product-card image presentation for active products marked acceptable temporary.
+- [x] Improve homepage merchandising language around curated strongest products.
+- [x] Expand Best Sellers from 5 products to a 12-product curated launch edit.
+- [x] Re-run Merchant Center readiness and product publication audits after merchandising changes.
+- [ ] Search Console indexing requests remain blocked by Google UI/CAPTCHA dependency.
+- [ ] Continue active product source-image replacement where better exact-product originals are available.
 
 ## Success Criteria
 

@@ -679,14 +679,20 @@ summary:focus-visible {
     linear-gradient(145deg, #fffaf3, var(--np-ivory));
 }
 
-.card__media .media img,
-.collection-card-wrapper .media img {
-  object-fit: contain;
-  padding: clamp(1.2rem, 4vw, 3.2rem);
+.product-card-wrapper .card__media .media img,
+.collection-card-wrapper .card__media .media img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  object-fit: cover;
 }
 
 .product-card-wrapper .card__media .media img {
-  padding: clamp(.8rem, 2.6vw, 2.4rem);
+  transform: scale(1.015);
+}
+
+.product-card-wrapper:hover .card__media .media img {
+  transform: scale(1.045);
 }
 
 .card__media {

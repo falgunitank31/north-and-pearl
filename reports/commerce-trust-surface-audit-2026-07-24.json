@@ -11,7 +11,7 @@
     {
       "title": "Best Sellers",
       "handle": "best-sellers",
-      "productsCount": 5,
+      "productsCount": 12,
       "hasSeo": true,
       "descriptionLength": 940,
       "issues": []
@@ -83,7 +83,7 @@
     {
       "title": "Gifts",
       "handle": "gifts",
-      "productsCount": 154,
+      "productsCount": 56,
       "hasSeo": true,
       "descriptionLength": 950,
       "issues": []

@@ -46,10 +46,22 @@ Purpose: keep the organic marketing lane visible and execution-focused.
 
 - Report updated: `reports/faraday-daily-marketing-2026-07-27.md`.
 - Browser-style live checks returned `200` for the homepage, sitemap, robots.txt, Gifts, Name Necklaces, Birthstone Jewelry, the published personalized jewelry gifts guide, AI Brand Information page, and `north-pearl-initial-shell-necklace`.
-- Live customer-facing source checks found canonical URLs and Shopify Google pixel configuration on checked homepage, collection, guide, page, and product URLs. Search Console and GA4 account metrics remain UNKNOWN until Rawls verifies access.
+- Live customer-facing source checks found canonical URLs and Shopify Google pixel configuration on checked homepage, collection, guide, page, and product URLs.
 - Created organic Pinterest draft batch: `content/seo/organic-pinterest-drafts-2026-07-27.md`.
 - Tightened shared collection-guide product-detail language to avoid leaning on unverified production/shipping timing.
-- Next Faraday priorities: verify Search Console ownership/sitemap submission, validate deployed collection guide copy, and expand guide-to-collection reciprocal links where destination pages are live.
+- Updated and verified the ten-article Shopify Gift Guide cluster:
+  - Best Personalized Jewelry Gifts for Her
+  - How to Choose a Name Necklace
+  - Birthstone Jewelry Gift Guide
+  - Jewelry Gifts for Mom
+  - Bridesmaid Jewelry Gift Ideas
+  - Anniversary Jewelry Gift Guide
+  - Best Jewelry Gifts Under $100
+  - Personalized Jewelry for Couples
+  - Birthday Jewelry Gift Ideas
+  - How to Layer Necklaces
+- Rawls verified GA4 access, GA4/Search Console linking, GA4 Realtime receipt, and product `view_item` tracking. `add_to_cart` event receipt needs a delayed recheck.
+- Next Faraday priorities: add live guide URLs to the Search Console inspection queue, expand reciprocal internal links, and use GA4/Search Console data only after verified data exists.
 
 ## Daily Completion Rule
 

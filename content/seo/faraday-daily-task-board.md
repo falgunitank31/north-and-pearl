@@ -61,7 +61,9 @@ Purpose: keep the organic marketing lane visible and execution-focused.
   - Birthday Jewelry Gift Ideas
   - How to Layer Necklaces
 - Rawls verified GA4 access, GA4/Search Console linking, GA4 Realtime receipt, and product `view_item` tracking. `add_to_cart` event receipt needs a delayed recheck.
-- Next Faraday priorities: add live guide URLs to the Search Console inspection queue, expand reciprocal internal links, and use GA4/Search Console data only after verified data exists.
+- Marketing launch execution report created: `reports/faraday-marketing-launch-execution-2026-07-27.md`.
+- Added reciprocal guide links to 12 live collections and verified tested collection pages remain product-first.
+- Next Faraday priorities: add live guide URLs to the Search Console inspection queue, re-check GA4 `add_to_cart`, polish top active product images, and use GA4/Search Console data only after verified data exists.
 
 ## Daily Completion Rule
 

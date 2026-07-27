@@ -39,9 +39,9 @@ const items = [
   {
     title: 'Shop',
     type: 'HTTP',
-    url: '/collections/gifts',
+    url: '/collections/all',
     items: [
-      { title: 'All Jewelry', type: 'HTTP', url: '/collections/gifts' },
+      { title: 'All Jewelry', type: 'HTTP', url: '/collections/all' },
       { title: 'Necklaces', type: 'HTTP', url: '/collections/necklaces' },
       { title: 'Bracelets', type: 'HTTP', url: '/collections/bracelets' },
       { title: 'Rings', type: 'HTTP', url: '/collections/rings' },

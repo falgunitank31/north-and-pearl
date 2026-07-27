@@ -29,9 +29,11 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 
 - [x] Compact desktop mega menu whitespace.
 - [x] Tighten collection hero copy/spacing so products appear sooner.
-- [ ] Run Theme Check.
-- [ ] Push safe theme fixes to Shopify.
-- [ ] Validate live desktop/mobile navigation and collection pages.
+- [x] Run Theme Check.
+- [x] Push safe theme fixes to Shopify.
+- [x] Validate live desktop/mobile navigation and collection pages.
+- [x] Audit Merchant Center readiness for active products.
+- [x] Audit active product SEO quality.
 - [ ] Continue active product visual QA.
 
 ## Success Criteria

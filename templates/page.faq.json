@@ -52,7 +52,7 @@
       "settings": {
         "caption": "FAQ",
         "heading": "Helpful answers before you order",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "scheme-1",

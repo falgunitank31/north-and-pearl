@@ -42,6 +42,15 @@ Purpose: keep the organic marketing lane visible and execution-focused.
 - Created organic Pinterest draft batch: `content/seo/organic-pinterest-drafts-2026-07-24.md`.
 - Next Faraday priorities: confirm remaining guide URLs, map collection-to-guide reciprocal links, verify Pinterest account readiness without publishing, and route active product collection assignments to Gauss before product-specific guide links.
 
+## 2026-07-27 Execution Notes
+
+- Report updated: `reports/faraday-daily-marketing-2026-07-27.md`.
+- Browser-style live checks returned `200` for the homepage, sitemap, robots.txt, Gifts, Name Necklaces, Birthstone Jewelry, the published personalized jewelry gifts guide, AI Brand Information page, and `north-pearl-initial-shell-necklace`.
+- Live customer-facing source checks found canonical URLs and the `north-pearl-ga4.js` asset on checked homepage, collection, guide, page, and product URLs. Search Console and GA4 account metrics remain UNKNOWN until Rawls verifies access.
+- Created organic Pinterest draft batch: `content/seo/organic-pinterest-drafts-2026-07-27.md`.
+- Tightened shared collection-guide product-detail language to avoid leaning on unverified production/shipping timing.
+- Next Faraday priorities: verify Search Console ownership/sitemap submission, validate deployed collection guide copy, and expand guide-to-collection reciprocal links where destination pages are live.
+
 ## Daily Completion Rule
 
 Faraday must leave a dated report in `reports/`. If a live check or API call is blocked, the report must still state what was attempted, what failed, and the next recovery action.

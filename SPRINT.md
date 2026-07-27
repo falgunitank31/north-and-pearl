@@ -40,6 +40,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Improve homepage merchandising language around curated strongest products.
 - [x] Expand Best Sellers from 5 products to a 12-product curated launch edit.
 - [x] Re-run Merchant Center readiness and product publication audits after merchandising changes.
+- [x] Add PDP support links and personalized-product FAQ coverage.
 - [ ] Search Console indexing requests remain blocked by Google UI/CAPTCHA dependency.
 - [ ] Continue active product source-image replacement where better exact-product originals are available.
 

@@ -6,7 +6,7 @@ import { join } from 'node:path';
 const store = 'q4ydix-w1.myshopify.com';
 const domain = 'https://northandpearl.com';
 const tempDir = mkdtempSync(join(tmpdir(), 'np-live-qa-'));
-const reportDate = '2026-07-24';
+const reportDate = new Date().toISOString().slice(0, 10);
 const reportDir = 'reports';
 const reportMdPath = `${reportDir}/live-storefront-qa-${reportDate}.md`;
 const reportCsvPath = `${reportDir}/live-storefront-qa-${reportDate}.csv`;

@@ -15,7 +15,6 @@
 - Monitor Gifts curation after traffic begins; current Gifts collection was narrowed from 154 products to 56 active gift-intent products on July 27, 2026.
 - Replace exact-source imagery for active products still marked acceptable temporary where higher-resolution same-product supplier images are available.
 - Re-score Best Sellers once real Shopify sales, add-to-cart, and product-view data is meaningful; current collection is a curated launch edit.
-- Strengthen internal links between gift guides, collections, and relevant products.
 - Define compare-at pricing policy before using sale messaging in marketing or storefront merchandising.
 
 ## P3

@@ -43,8 +43,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Add PDP support links and personalized-product FAQ coverage.
 - [x] Refresh collection-to-guide and guide-to-product internal links.
 - [x] Document compare-at pricing guardrail to prevent unapproved discount/sale messaging.
+- [x] Create exact-source image replacement queue for active products below the preferred media standard.
 - [ ] Search Console indexing requests remain blocked by Google UI/CAPTCHA dependency.
-- [ ] Continue active product source-image replacement where better exact-product originals are available.
+- [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria
 

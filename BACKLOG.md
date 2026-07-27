@@ -13,7 +13,7 @@
 ## P2
 
 - Monitor Gifts curation after traffic begins; current Gifts collection was narrowed from 154 products to 56 active gift-intent products on July 27, 2026.
-- Replace exact-source imagery for active products still marked acceptable temporary where higher-resolution same-product supplier images are available.
+- Replace exact-source imagery for active products still marked acceptable temporary where higher-resolution same-product supplier images are available and source pages can be accessed without CAPTCHA/protection.
 - Re-score Best Sellers once real Shopify sales, add-to-cart, and product-view data is meaningful; current collection is a curated launch edit.
 
 ## P3
@@ -26,3 +26,4 @@
 ## Blocked / Needs Owner
 
 - Paid tools, ads, supplier contact, inventory/sample purchases, legal policy finalization, and any unverified material claims require owner approval.
+- Alibaba direct product-page fetching for media replacement is currently blocked by protection responses; exact-source media replacement should resume only when source pages are accessible or owner supplies product image URLs.

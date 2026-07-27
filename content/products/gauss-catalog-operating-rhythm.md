@@ -87,7 +87,7 @@ Gauss reviews:
 Output:
 
 - Catalog QA report.
-- Handoff notes for Kuhn, Tesla, Faraday, Wegener, and Bohr.
+- Handoff notes for Kuhn, Tesla, Faraday, Lovelace, and Rawls.
 - Next product priorities.
 
 ## Category Priority
@@ -195,14 +195,14 @@ When:
 - Collection architecture needs expansion or consolidation.
 - Product additions require new internal links.
 
-### Coordinate with Wegener
+### Coordinate with Lovelace
 
 When:
 
 - Product claims affect shipping, returns, care, fulfillment, warranty, customization, or customer support.
 - Product sourcing changes could affect operations.
 
-### Coordinate with Bohr
+### Coordinate with Rawls
 
 When:
 

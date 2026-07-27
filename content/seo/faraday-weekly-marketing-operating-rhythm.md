@@ -14,7 +14,7 @@ North & Pearl marketing should run as a weekly loop:
 4. Distribute.
 5. Feed conversion learnings back to the right agent.
 
-Do not claim traffic, ranking, conversion, or order improvement until Bohr verifies the data source.
+Do not claim traffic, ranking, conversion, or order improvement until Rawls verifies the data source.
 
 ## Weekly Cadence
 
@@ -37,7 +37,7 @@ Faraday reviews:
 Output:
 
 - Weekly organic status note.
-- Measurement gaps for Bohr.
+- Measurement gaps for Rawls.
 - Top 3 opportunities for the week.
 
 ### Tuesday: Improve Existing Pages
@@ -121,8 +121,8 @@ Faraday routes findings:
 - To Kuhn when traffic exists but visual hierarchy, UX, CTA clarity, or product-page presentation may be weak.
 - To Gauss when product names, images, catalog fit, supplier facts, or merchandising block conversion.
 - To Tesla when indexing, rendering, speed, schema, cart, or Shopify technical behavior needs investigation.
-- To Wegener when shipping, returns, support, fulfillment, or customer-service clarity blocks confidence.
-- To Bohr when measurement, attribution, event tracking, or reporting gaps prevent confident decisions.
+- To Lovelace when shipping, returns, support, fulfillment, or customer-service clarity blocks confidence.
+- To Rawls when measurement, attribution, event tracking, or reporting gaps prevent confident decisions.
 
 Output:
 
@@ -140,7 +140,7 @@ At the end of each month, Faraday should complete:
 - Product SEO sampling audit.
 - Pinterest organic review.
 - Internal linking audit.
-- 30-day traffic and order impact review with Bohr.
+- 30-day traffic and order impact review with Rawls.
 - Next month content roadmap.
 
 ## Minimum Weekly Output

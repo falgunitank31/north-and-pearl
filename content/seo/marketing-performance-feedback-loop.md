@@ -8,7 +8,7 @@ Purpose: turn organic marketing activity into measurable traffic, product-discov
 
 ## Measurement Principle
 
-Do not claim traffic, ranking, conversion, or order improvement until Bohr verifies the source data.
+Do not claim traffic, ranking, conversion, or order improvement until Rawls verifies the source data.
 
 Required evidence sources:
 
@@ -53,7 +53,7 @@ Faraday action:
 Coordinate with:
 
 - Kuhn if the page preview or visual presentation feels generic.
-- Bohr to confirm the CTR baseline and date range.
+- Rawls to confirm the CTR baseline and date range.
 
 ### If a guide gets traffic but few product clicks
 
@@ -88,7 +88,7 @@ Coordinate with:
 
 - Gauss for product sorting, product quality, images, naming, and catalog fit.
 - Kuhn for product-card presentation.
-- Bohr for add-to-cart and product-view diagnostics.
+- Rawls for add-to-cart and product-view diagnostics.
 
 ### If product pages get traffic but low add-to-cart
 
@@ -105,7 +105,7 @@ Coordinate with:
 
 - Gauss for product facts, supplier accuracy, image completeness, and product naming.
 - Kuhn for product gallery, CTA visibility, and mobile UX.
-- Wegener if shipping, returns, personalization, or support clarity is causing hesitation.
+- Lovelace if shipping, returns, personalization, or support clarity is causing hesitation.
 
 ### If add-to-cart is healthy but orders are weak
 
@@ -119,10 +119,10 @@ Faraday action:
 
 Coordinate with:
 
-- Wegener for shipping/returns/support language.
+- Lovelace for shipping/returns/support language.
 - Kuhn for cart clarity and trust placement.
 - Tesla for cart or checkout-adjacent technical issues.
-- Bohr for funnel drop-off validation.
+- Rawls for funnel drop-off validation.
 
 ### If a product or collection gets no impressions
 
@@ -140,7 +140,7 @@ Faraday action:
 Coordinate with:
 
 - Tesla for technical crawl/indexing checks.
-- Bohr for Search Console validation.
+- Rawls for Search Console validation.
 
 ## First Organic Feedback Targets
 
@@ -161,10 +161,10 @@ Priority URLs to monitor after the July 2026 guide launch:
 ## Agent Routing
 
 - Faraday owns the marketing diagnosis and organic recommendation.
-- Bohr verifies the data before performance claims are made.
+- Rawls verifies the data before performance claims are made.
 - Kuhn improves visual/UX presentation when marketing pages attract visitors but do not move shoppers forward.
 - Gauss improves catalog/product accuracy when product fit, images, sourcing, naming, or merchandising blocks conversion.
-- Wegener improves operational clarity when shipping, returns, fulfillment, support, or policy uncertainty blocks conversion.
+- Lovelace improves operational clarity when shipping, returns, fulfillment, support, or policy uncertainty blocks conversion.
 - Tesla fixes technical issues that affect indexing, page rendering, performance, cart, or Shopify functionality.
 
 ## Reporting Template
@@ -177,4 +177,4 @@ Use this format in future weekly organic reviews:
 
 ## Current Status
 
-Organic guide content has been published/refreshed, but performance impact is UNKNOWN until analytics and Search Console data are connected and reviewed by Bohr.
+Organic guide content has been published/refreshed, but performance impact is UNKNOWN until analytics and Search Console data are connected and reviewed by Rawls.

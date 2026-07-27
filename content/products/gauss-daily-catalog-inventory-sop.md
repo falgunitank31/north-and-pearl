@@ -37,8 +37,8 @@ Gauss must review the product catalog every day, prepare new product candidates,
    - Kuhn: image quality, product card presentation, brand fit.
    - Tesla: Shopify QA, product templates, cart/add-to-cart behavior.
    - Faraday: SEO titles, metadata, collection alignment, internal linking.
-   - Wegener: shipping, return, material, and fulfillment claim safety.
-   - Bohr: product performance and conversion measurement.
+   - Lovelace: shipping, return, material, and fulfillment claim safety.
+   - Rawls: product performance and conversion measurement.
 
 ## Product Activation Rules
 

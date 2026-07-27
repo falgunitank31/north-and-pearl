@@ -38,7 +38,7 @@ Purpose: keep the organic marketing lane visible and execution-focused.
 
 - Report completed: `reports/faraday-daily-marketing-2026-07-24.md`.
 - Direct `curl -I -L` checks returned `200` for the homepage, sitemap, Gifts, Name Necklaces, Initial Necklaces, Birthstone Jewelry, Mother's Collection, Wedding & Bridesmaids, Couple Jewelry, and the primary personalized jewelry gifts guide.
-- Live homepage source includes Google site verification meta and the `north-pearl-ga4.js` asset; repo asset uses measurement ID `G-14KCZE935H`. Analytics collection and Search Console metrics remain UNKNOWN until Rawls verifies account data.
+- Live homepage source includes Google site verification meta and Shopify Google pixel configuration for `G-14KCZE935H`. Analytics collection and Search Console metrics remain UNKNOWN until Rawls verifies account data.
 - Created organic Pinterest draft batch: `content/seo/organic-pinterest-drafts-2026-07-24.md`.
 - Next Faraday priorities: confirm remaining guide URLs, map collection-to-guide reciprocal links, verify Pinterest account readiness without publishing, and route active product collection assignments to Gauss before product-specific guide links.
 
@@ -46,7 +46,7 @@ Purpose: keep the organic marketing lane visible and execution-focused.
 
 - Report updated: `reports/faraday-daily-marketing-2026-07-27.md`.
 - Browser-style live checks returned `200` for the homepage, sitemap, robots.txt, Gifts, Name Necklaces, Birthstone Jewelry, the published personalized jewelry gifts guide, AI Brand Information page, and `north-pearl-initial-shell-necklace`.
-- Live customer-facing source checks found canonical URLs and the `north-pearl-ga4.js` asset on checked homepage, collection, guide, page, and product URLs. Search Console and GA4 account metrics remain UNKNOWN until Rawls verifies access.
+- Live customer-facing source checks found canonical URLs and Shopify Google pixel configuration on checked homepage, collection, guide, page, and product URLs. Search Console and GA4 account metrics remain UNKNOWN until Rawls verifies access.
 - Created organic Pinterest draft batch: `content/seo/organic-pinterest-drafts-2026-07-27.md`.
 - Tightened shared collection-guide product-detail language to avoid leaning on unverified production/shipping timing.
 - Next Faraday priorities: verify Search Console ownership/sitemap submission, validate deployed collection guide copy, and expand guide-to-collection reciprocal links where destination pages are live.

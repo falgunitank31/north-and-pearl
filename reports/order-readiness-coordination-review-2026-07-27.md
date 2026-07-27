@@ -37,7 +37,7 @@ The main blockers are outside simple theme polish: Search Console has only disco
 2. Lovelace + owner: finalize support email, response window, shipping promise, standard/custom return rules, fulfillment workflow, QC procedure, and support escalation macros.
 3. Faraday + Rawls: re-check Search Console sitemap processing and P0 URL status after Google has time to crawl the newly submitted sitemap and requested URLs.
 4. Gauss + Kuhn: complete human visual/source QA for the two limited-gallery active products first, then the 23 image-size-review products; keep source-risk drafts inactive.
-5. Owner + Faraday + Tesla + Wegener: confirm Merchant Center/Google & YouTube sales channel account state: domain claim, shipping, returns, tax/business identity, feed identifier strategy, and unresolved needs-attention warnings.
+5. Owner + Faraday + Tesla + Lovelace: confirm Merchant Center/Google & YouTube sales channel account state: domain claim, shipping, returns, tax/business identity, feed identifier strategy, and unresolved needs-attention warnings.
 
 ## Agent Handoffs Needed
 

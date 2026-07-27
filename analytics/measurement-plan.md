@@ -58,7 +58,7 @@ Do not invent baseline metrics. Once data sources are verified, record:
 - Kuhn receives UX signals such as high-traffic/low-click or high-view/low-add-to-cart pages.
 - Gauss receives product/category performance and catalog gaps.
 - Tesla receives tracking, rendering, speed, schema, or cart issues.
-- Wegener receives support, shipping, returns, and fulfillment-related customer friction signals.
+- Lovelace receives support, shipping, returns, and fulfillment-related customer friction signals.
 
 ## Consent And Privacy
 

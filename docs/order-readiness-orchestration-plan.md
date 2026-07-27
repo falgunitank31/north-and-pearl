@@ -33,8 +33,8 @@ Must communicate with:
 
 - Gauss when search demand requires products/category coverage.
 - Kuhn when marketing pages get traffic but weak engagement.
-- Bohr for verified traffic, attribution, and conversion data.
-- Wegener when marketing copy touches shipping, returns, fulfillment, or support promises.
+- Rawls for verified traffic, attribution, and conversion data.
+- Lovelace when marketing copy touches shipping, returns, fulfillment, or support promises.
 - Tesla when technical SEO, schema, indexability, or rendering issues appear.
 
 ### Gauss: Product and Catalog Supply
@@ -53,8 +53,8 @@ Must communicate with:
 - Faraday for category/search demand.
 - Kuhn for brand-fit, naming, image presentation, and product-card quality.
 - Tesla for Shopify product sync and technical product-page issues.
-- Wegener for fulfillment, care, returns, or support implications.
-- Bohr for product performance once data exists.
+- Lovelace for fulfillment, care, returns, or support implications.
+- Rawls for product performance once data exists.
 
 ### Kuhn: Design, UX, and Brand Creative
 
@@ -71,9 +71,9 @@ Must communicate with:
 
 - Gauss when product imagery or naming affects brand perception.
 - Faraday when guide/collection pages need better conversion paths.
-- Bohr when UX changes should be measured.
+- Rawls when UX changes should be measured.
 - Tesla when design changes require theme/code work.
-- Wegener when trust copy touches policy or fulfillment.
+- Lovelace when trust copy touches policy or fulfillment.
 
 ### Tesla: Shopify Technical Execution
 
@@ -91,10 +91,10 @@ Must communicate with:
 - Kuhn for design implementation.
 - Faraday for technical SEO/schema/indexing.
 - Gauss for product sync/media/product-template issues.
-- Bohr for tracking implementation requirements.
-- Wegener if operations need Shopify configuration support.
+- Rawls for tracking implementation requirements.
+- Lovelace if operations need Shopify configuration support.
 
-### Wegener: Operations and SOPs
+### Lovelace: Operations and SOPs
 
 Primary output:
 
@@ -111,9 +111,9 @@ Must communicate with:
 - Gauss when product sourcing affects fulfillment or care.
 - Kuhn when trust/support content needs storefront placement.
 - Tesla when operational workflows require Shopify technical support.
-- Bohr when support or fulfillment KPIs need tracking.
+- Rawls when support or fulfillment KPIs need tracking.
 
-### Bohr: Analytics and Data
+### Rawls: Analytics and Data
 
 Primary output:
 
@@ -129,7 +129,7 @@ Must communicate with:
 - Kuhn for UX performance signals.
 - Gauss for product/category performance.
 - Tesla for tracking and technical instrumentation.
-- Wegener for operational/support metrics.
+- Lovelace for operational/support metrics.
 
 ## Cross-Agent Communication Rules
 
@@ -148,7 +148,7 @@ Must communicate with:
 
 - Faraday: marketing measurement/readiness.
 - Gauss: category and market analysis.
-- Bohr: analytics readiness and KPI review.
+- Rawls: analytics readiness and KPI review.
 - Lead Orchestrator: weekly priorities and blockers.
 
 ### Tuesday
@@ -156,7 +156,7 @@ Must communicate with:
 - Faraday: improve current SEO/organic pages.
 - Kuhn: design/UX review of priority collection and product pages.
 - Tesla: technical backlog and QA fixes.
-- Wegener: operations/policy/SOP readiness.
+- Lovelace: operations/policy/SOP readiness.
 
 ### Wednesday
 
@@ -168,15 +168,15 @@ Must communicate with:
 ### Thursday
 
 - Faraday: distribution assets and internal linking.
-- Bohr: measurement instrumentation and reporting setup.
-- Wegener: customer support and fulfillment workflow refinement.
+- Rawls: measurement instrumentation and reporting setup.
+- Lovelace: customer support and fulfillment workflow refinement.
 - Kuhn: conversion design polish based on priority pages.
 
 ### Friday
 
 - Faraday: CRO feedback routing.
 - Gauss: catalog QA and product handoffs.
-- Bohr: weekly data gaps and performance readiness.
+- Rawls: weekly data gaps and performance readiness.
 - Lead Orchestrator: weekly order-readiness review.
 
 ## Next-Month Order Readiness Priorities
@@ -207,7 +207,7 @@ Must communicate with:
 
 ### Priority 4: Measurement
 
-- Bohr must verify analytics readiness.
+- Rawls must verify analytics readiness.
 - Track sessions, landing pages, product views, add-to-cart, checkout starts, and orders.
 - No traffic/order improvement claim is valid until data is verified.
 
@@ -227,8 +227,8 @@ Use this scorecard weekly:
 | Storefront UX | Kuhn/Tesla | Mobile-friendly, premium, no major UX blockers | Pending review |
 | Product catalog | Gauss | Active products accurate, sourced, categorized, image-ready | Pending review |
 | Organic traffic | Faraday | Priority collections/guides live and internally linked | In progress |
-| Analytics | Bohr | Tracking and KPI reporting verified | Pending setup |
-| Operations | Wegener | Shipping, returns, support, fulfillment SOPs ready | Pending setup |
+| Analytics | Rawls | Tracking and KPI reporting verified | Pending setup |
+| Operations | Lovelace | Shipping, returns, support, fulfillment SOPs ready | Pending setup |
 | Technical QA | Tesla | Product/cart/search/theme QA passing | In progress |
 
 ## First Two Weeks Toward Orders

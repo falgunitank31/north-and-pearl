@@ -1,6 +1,6 @@
 # Customer Support Macros
 
-Owner: Wegener  
+Owner: Lovelace  
 Status: Draft for owner review before use
 
 ## Tone Rules

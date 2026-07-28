@@ -16,6 +16,7 @@
 - Revalidated priority collection pages, main menu structure, Merchant readiness, product SEO audit, and full live storefront QA after collection-page changes.
 - Improved reusable product-card styling across merchandising surfaces with refined media wells, cleaner hierarchy, tighter mobile spacing, and restrained highlight chips.
 - Re-ran Theme Check and full live storefront QA after product-card polish; all 208 active product pages passed and cart add passed.
+- Requested Search Console indexing for the homepage and four priority commercial collection URLs; continued requests are waiting on Google reCAPTCHA verification.
 
 ## July 27, 2026
 

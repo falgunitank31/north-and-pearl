@@ -22,7 +22,7 @@
 
 ## P3
 
-- Improve Search Console indexing coverage for priority commercial and guide URLs once the Google UI/CAPTCHA dependency is cleared.
+- Continue Search Console indexing coverage for priority commercial and guide URLs after the owner clears Google reCAPTCHA; homepage, Best Sellers, Gifts, New Arrivals, and Name Necklaces were requested on July 28, 2026.
 - Enrich Faraday baseline with Search Console/GA4/PageSpeed API data once Codex SEO Google credentials are configured.
 - Add more refined collection image standards once final product photography is available; all 13 populated commercial collections currently have representative collection images from live product media.
 - Build repeatable weekly reporting and experiment review cadence.

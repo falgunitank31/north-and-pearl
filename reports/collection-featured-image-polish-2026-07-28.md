@@ -5,8 +5,8 @@ Date: 2026-07-28
 ## Summary
 
 - Agent owners: Lead Orchestrator, Kuhn, Gauss, Faraday, Tesla.
-- Collections targeted: 13
-- Collection images updated: 13
+- Collections targeted: 19
+- Collection images updated: 19
 - Collections skipped: 0
 - Populated targeted collections still missing images after update: 0
 
@@ -25,6 +25,12 @@ Date: 2026-07-28
 - Earrings (`earrings`) -> source product `north-pearl-modern-drop-earrings` (North & Pearl Modern Drop Earrings), image 1024x1024
 - Rings (`rings`) -> source product `north-pearl-twine-band-ring` (North & Pearl Twine Band Ring), image 1200x1200
 - Birthstone Jewelry (`birthstone-jewelry`) -> source product `north-pearl-color-accent-cuff` (North & Pearl Color Accent Cuff), image 1000x1000
+- Personalized Jewelry (`personalized-jewelry`) -> source product `north-pearl-initial-shell-necklace` (North & Pearl Initial Shell Necklace), image 800x800
+- Jewelry Gifts For Her (`jewelry-gifts-for-her`) -> source product `north-pearl-heart-keepsake-necklace` (North & Pearl Heart Keepsake Necklace), image 1000x1000
+- Gifts Under 50 (`gifts-under-50`) -> source product `north-pearl-pink-heart-bow-bracelet` (North & Pearl Pink Heart Bow Bracelet), image 1200x1200
+- Gifts Under 100 (`gifts-under-100`) -> source product `north-pearl-initial-shell-necklace` (North & Pearl Initial Shell Necklace), image 800x800
+- Birthday Jewelry Gifts (`birthday-jewelry-gifts`) -> source product `north-pearl-color-accent-cuff` (North & Pearl Color Accent Cuff), image 1000x1000
+- Anniversary Gifts (`anniversary-gifts`) -> source product `north-pearl-heart-keepsake-necklace` (North & Pearl Heart Keepsake Necklace), image 1000x1000
 
 ## Skipped
 

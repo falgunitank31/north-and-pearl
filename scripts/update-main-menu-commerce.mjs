@@ -51,8 +51,9 @@ const items = [
   {
     title: 'Personalized',
     type: 'HTTP',
-    url: '/collections/name-necklaces',
+    url: '/collections/personalized-jewelry',
     items: [
+      { title: 'Personalized Jewelry', type: 'HTTP', url: '/collections/personalized-jewelry' },
       { title: 'Name Necklaces', type: 'HTTP', url: '/collections/name-necklaces' },
       { title: 'Initial Necklaces', type: 'HTTP', url: '/collections/initial-necklaces' },
       { title: 'Birthstone Jewelry', type: 'HTTP', url: '/collections/birthstone-jewelry' },
@@ -64,9 +65,13 @@ const items = [
     type: 'HTTP',
     url: '/collections/gifts',
     items: [
+      { title: 'Jewelry Gifts for Her', type: 'HTTP', url: '/collections/jewelry-gifts-for-her' },
       { title: 'Gifts for Mom', type: 'HTTP', url: '/collections/mothers-collection' },
-      { title: 'Anniversary Gifts', type: 'HTTP', url: '/collections/couple-jewelry' },
+      { title: 'Anniversary Gifts', type: 'HTTP', url: '/collections/anniversary-gifts' },
+      { title: 'Birthday Gifts', type: 'HTTP', url: '/collections/birthday-jewelry-gifts' },
       { title: 'Bridesmaid Gifts', type: 'HTTP', url: '/collections/wedding-bridesmaids' },
+      { title: 'Gifts Under $50', type: 'HTTP', url: '/collections/gifts-under-50' },
+      { title: 'Gifts Under $100', type: 'HTTP', url: '/collections/gifts-under-100' },
       { title: 'Birthstone-Inspired Gifts', type: 'HTTP', url: '/collections/birthstone-jewelry' },
     ],
   },

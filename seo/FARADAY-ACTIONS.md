@@ -4,6 +4,16 @@ Date: July 27, 2026
 
 ## Completed
 
+- Built six populated buyer-intent commercial collections for traffic and order generation:
+  - `/collections/personalized-jewelry`
+  - `/collections/jewelry-gifts-for-her`
+  - `/collections/gifts-under-50`
+  - `/collections/gifts-under-100`
+  - `/collections/birthday-jewelry-gifts`
+  - `/collections/anniversary-gifts`
+- Added SEO-safe collection descriptions, internal links, FAQ-style visible answer sections, and collection SEO titles/meta descriptions for the buyer-intent pages.
+- Updated main navigation so Personalized and Gifts expose non-empty high-intent paths.
+- Re-ran product SEO and Merchant Center readiness after the collection buildout.
 - Reviewed `AgriciDaniel/codex-seo` installer, manifests, scripts, agents, dependencies, hooks, extensions, and credential behavior.
 - Installed Codex SEO `v1.9.6-codex.5` as Faraday's subordinate toolkit.
 - Repaired the toolkit virtual environment using Codex bundled Python 3.12 after the installer initially detected system Python 3.9.
@@ -25,7 +35,8 @@ Date: July 27, 2026
 
 ## Next Queue
 
-1. Audit and safely shorten long commercial titles/meta descriptions.
-2. Continue image/source-quality work when exact source media can be verified.
-3. Add answer blocks to guide/FAQ/AI brand pages only where useful and claim-safe.
-4. Re-run SEO drift comparison after each meaningful storefront update.
+1. Request Search Console indexing for the six new buyer-intent collection URLs when CAPTCHA/session state allows.
+2. Monitor new collection landing-page performance in GA4/Search Console once data accumulates.
+3. Continue image/source-quality work when exact source media can be verified.
+4. Add or refresh internal links from existing gift-guide articles into the new buyer-intent collections.
+5. Re-run SEO drift comparison after each meaningful storefront update.

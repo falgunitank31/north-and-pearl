@@ -91,7 +91,7 @@ const guides = [
           ],
         },
       ],
-      cta: `Start with ${a('Couple Jewelry', '/collections/couple-jewelry')}, ${a('Gifts', '/collections/gifts')}, ${a('Name Necklaces', '/collections/name-necklaces')}, ${a('Initial Necklaces', '/collections/initial-necklaces')}, ${a('Necklaces', '/collections/necklaces')}, and ${a('Rings', '/collections/rings')}.`,
+      cta: `Start with ${a('Anniversary Gifts', '/collections/anniversary-gifts')}, ${a('Couple Jewelry', '/collections/couple-jewelry')}, ${a('Personalized Jewelry', '/collections/personalized-jewelry')}, ${a('Name Necklaces', '/collections/name-necklaces')}, ${a('Initial Necklaces', '/collections/initial-necklaces')}, and ${a('Rings', '/collections/rings')}.`,
     }),
   },
   {
@@ -124,7 +124,7 @@ const guides = [
           body: ['Choose a piece with clean photos, clear product details, and a style that fits the recipient. A focused, wearable piece often feels more premium than a busy design.'],
         },
       ],
-      cta: `Browse ${a('Gifts', '/collections/gifts')}, ${a('Best Sellers', '/collections/best-sellers')}, ${a('Necklaces', '/collections/necklaces')}, ${a('Bracelets', '/collections/bracelets')}, ${a('Earrings', '/collections/earrings')}, and ${a('Rings', '/collections/rings')}.`,
+      cta: `Browse ${a('Gifts Under $100', '/collections/gifts-under-100')}, ${a('Gifts Under $50', '/collections/gifts-under-50')}, ${a('Jewelry Gifts for Her', '/collections/jewelry-gifts-for-her')}, ${a('Best Sellers', '/collections/best-sellers')}, ${a('Bracelets', '/collections/bracelets')}, ${a('Earrings', '/collections/earrings')}, and ${a('Rings', '/collections/rings')}.`,
     }),
   },
   {
@@ -189,7 +189,7 @@ const guides = [
           body: ['If you are unsure about sizing, choose necklaces, earrings, bracelets, or a gift card rather than a ring. If you are unsure about exact style, choose a clean everyday design instead of something overly specific.'],
         },
       ],
-      cta: `Shop ${a('Gifts', '/collections/gifts')}, ${a('Birthstone Jewelry', '/collections/birthstone-jewelry')}, ${a('Initial Necklaces', '/collections/initial-necklaces')}, ${a('Earrings', '/collections/earrings')}, ${a('Bracelets', '/collections/bracelets')}, and ${a('Rings', '/collections/rings')}.`,
+      cta: `Shop ${a('Birthday Jewelry Gifts', '/collections/birthday-jewelry-gifts')}, ${a('Gifts Under $100', '/collections/gifts-under-100')}, ${a('Birthstone Jewelry', '/collections/birthstone-jewelry')}, ${a('Initial Necklaces', '/collections/initial-necklaces')}, ${a('Earrings', '/collections/earrings')}, ${a('Bracelets', '/collections/bracelets')}, and ${a('Rings', '/collections/rings')}.`,
     }),
   },
   {
@@ -230,7 +230,7 @@ const guides = [
           ],
         },
       ],
-      cta: `Build a stack from ${a('Necklaces', '/collections/necklaces')}, ${a('Name Necklaces', '/collections/name-necklaces')}, ${a('Initial Necklaces', '/collections/initial-necklaces')}, ${a('Gifts', '/collections/gifts')}, and ${a('Best Sellers', '/collections/best-sellers')}.`,
+      cta: `Build a stack from ${a('Personalized Jewelry', '/collections/personalized-jewelry')}, ${a('Necklaces', '/collections/necklaces')}, ${a('Name Necklaces', '/collections/name-necklaces')}, ${a('Initial Necklaces', '/collections/initial-necklaces')}, ${a('Jewelry Gifts for Her', '/collections/jewelry-gifts-for-her')}, and ${a('Best Sellers', '/collections/best-sellers')}.`,
     }),
   },
 ];
@@ -290,4 +290,3 @@ for (const guide of guides) {
 }
 
 console.table(changed);
-

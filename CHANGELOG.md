@@ -22,6 +22,11 @@
 - Revalidated product SEO, Merchant readiness, source-image queue, Theme Check, and full live storefront QA after media/alt polish.
 - Repaired the source/image/catalog mismatch for Alibaba source `1601721496131`: renamed the live product to North & Pearl Personalized Nameplate Necklace, changed product type to Necklace, removed it from Bracelets, added it to Necklaces, refreshed media alt text, and preserved redirects from the old handles.
 - Verified GA4 traffic visibility in the `northandpearl` property: GA4 shows low last-7-days traffic, Direct-only acquisition, and 0 realtime users at inspection time.
+- Created six populated Faraday buyer-intent collections for organic acquisition and order paths: Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts.
+- Updated the main menu to expose the new buyer-intent paths under Personalized and Gifts while keeping empty collections out of navigation.
+- Added representative collection images across all 19 targeted populated commercial collections after the buyer-intent buildout.
+- Refreshed five commercial guide articles so informational traffic has clearer paths into the new buyer-intent product collections.
+- Revalidated product SEO and Merchant Center readiness after the buyer-intent collection buildout.
 
 ## July 27, 2026
 

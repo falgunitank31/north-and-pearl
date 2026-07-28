@@ -91,6 +91,11 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Tested top Alibaba source IDs for exact-source image replacement; automated extraction remains blocked by Alibaba protection pages, so replacement requires rendered browser access, owner-supplied image URLs, supplier assets, or final photography.
 - [x] Resolved one exact-source media blocker by rejecting mismatched bracelet categorization for source `1601721496131`; repaired the live product into a necklace record, removed it from Bracelets, added it to Necklaces, refreshed alt text, and preserved redirects from old handles.
 - [x] Re-ran product SEO, Merchant readiness, source-image opportunity, and Theme Check after the catalog truth repair; 208 active products remain Merchant-ready with identifier caveat, 0 needing review, and Theme Check found no offenses.
+- [x] Faraday created six populated buyer-intent commercial collections for organic acquisition: Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts.
+- [x] Added those buyer-intent collections to the main menu under Personalized and Gifts without exposing empty Men’s Jewelry, Gift Cards, Sale, or Frontpage collections.
+- [x] Added representative collection images to all 19 targeted populated commercial collections after the buyer-intent buildout.
+- [x] Refreshed five commercial gift-guide articles so CTAs now point into the new buyer-intent collection pages.
+- [x] Re-ran product SEO and Merchant Center readiness after the buyer-intent buildout; 208 active products score 100 with 0 detected product SEO issues, and 208 active products remain ready with identifier caveat.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

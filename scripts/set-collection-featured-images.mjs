@@ -22,6 +22,12 @@ const collectionImageMap = {
   earrings: 'north-pearl-modern-drop-earrings',
   rings: 'north-pearl-twine-band-ring',
   'birthstone-jewelry': 'north-pearl-color-accent-cuff',
+  'personalized-jewelry': 'north-pearl-initial-shell-necklace',
+  'jewelry-gifts-for-her': 'north-pearl-heart-keepsake-necklace',
+  'gifts-under-50': 'north-pearl-pink-heart-bow-bracelet',
+  'gifts-under-100': 'north-pearl-initial-shell-necklace',
+  'birthday-jewelry-gifts': 'north-pearl-color-accent-cuff',
+  'anniversary-gifts': 'north-pearl-heart-keepsake-necklace',
 };
 
 function gql(query, variables = {}, allowMutations = false) {

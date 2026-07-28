@@ -4,36 +4,37 @@ Date: 2026-07-28
 
 Scope: Active Shopify products with vendor `North & Pearl`.
 
-Products audited: 118
+Products audited: 208
 
 ## Issue Counts
 
-- No issues detected by this script.
+- duplicate-title-family: 50
+- generic-title: 16
 
 ## Lowest Scoring Products
 
 | Product | Handle | Score | Issues |
 |---|---|---:|---|
-| North & Pearl Bead Bracelet | north-pearl-bead-bracelet | 100 | None |
-| North & Pearl Bead Earrings | north-pearl-bead-earrings | 100 | None |
-| North & Pearl Bead Jewelry Set | north-pearl-bead-jewelry-set | 100 | None |
-| North & Pearl Beaded Keepsake Bracelet | north-pearl-bead-bracelet-0492 | 100 | None |
-| North & Pearl Beaded Layering Necklace | north-pearl-bead-necklace | 100 | None |
-| North & Pearl Block Initial Necklace | north-pearl-initial-necklace-3226 | 100 | None |
-| North & Pearl Bloom Charm Bracelet | north-pearl-bloom-charm-bracelet | 100 | None |
-| North & Pearl Bloom Pendant Necklace | north-pearl-flower-necklace | 100 | None |
-| North & Pearl Bridal Water Drop Set | north-pearl-bridal-water-drop-set | 100 | None |
-| North & Pearl Chunky Bead Bracelet | north-pearl-chunky-bead-bracelet | 100 | None |
-| North & Pearl Classic Initial Charm Necklace | north-pearl-initial-necklace-4829 | 100 | None |
-| North & Pearl Classic Initial Necklace | north-pearl-initial-necklace | 100 | None |
-| North & Pearl Classic Name Necklace | north-pearl-name-necklace | 100 | None |
-| North & Pearl Clover Bracelet | north-pearl-clover-bracelet | 100 | None |
-| North & Pearl Clover Charm Bracelet | north-pearl-clover-charm-bracelet | 100 | None |
-| North & Pearl Clover Earrings | north-pearl-clover-earrings | 100 | None |
-| North & Pearl Clover Link Bracelet | north-pearl-clover-bracelet-1195 | 100 | None |
-| North & Pearl Clover Station Bracelet | north-pearl-clover-bracelet-4268 | 100 | None |
-| North & Pearl Color Accent Cuff | north-pearl-color-accent-cuff | 100 | None |
-| North & Pearl Custom Name Pendant | north-pearl-name-necklace-1832 | 100 | None |
+| North & Pearl Dainty Heart Necklace | north-pearl-heart-necklace-9715 | 76 | duplicate-title-family; generic-title |
+| North & Pearl Dainty Heart Necklace | north-pearl-heart-necklace-3910 | 76 | duplicate-title-family; generic-title |
+| North & Pearl Refined Signature Bracelet | north-pearl-signature-bracelet-9323 | 76 | duplicate-title-family; generic-title |
+| North & Pearl Refined Signature Bracelet | north-pearl-signature-bracelet-6682 | 76 | duplicate-title-family; generic-title |
+| North & Pearl Classic Heart Necklace | north-pearl-heart-necklace-8734 | 88 | generic-title |
+| North & Pearl Classic Initial Necklace | north-pearl-initial-necklace | 88 | duplicate-title-family |
+| North & Pearl Classic Initial Necklace | north-pearl-initial-necklace-5273 | 88 | duplicate-title-family |
+| North & Pearl Classic Letter Necklace | north-pearl-letter-necklace-5796 | 88 | duplicate-title-family |
+| North & Pearl Classic Letter Necklace | north-pearl-letter-necklace-6249 | 88 | duplicate-title-family |
+| North & Pearl Classic Name Necklace | north-pearl-name-necklace | 88 | duplicate-title-family |
+| North & Pearl Classic Name Necklace | north-pearl-name-necklace-7005 | 88 | duplicate-title-family |
+| North & Pearl Classic Name Necklace | north-pearl-name-necklace-5568 | 88 | duplicate-title-family |
+| North & Pearl Dainty Initial Necklace | north-pearl-initial-necklace-8531 | 88 | duplicate-title-family |
+| North & Pearl Dainty Initial Necklace | north-pearl-initial-necklace-7793 | 88 | duplicate-title-family |
+| North & Pearl Dainty Initial Necklace | north-pearl-initial-necklace-0100 | 88 | duplicate-title-family |
+| North & Pearl Dainty Initial Necklace | north-pearl-initial-necklace-2094 | 88 | duplicate-title-family |
+| North & Pearl Dainty Letter Necklace | north-pearl-letter-necklace-0758 | 88 | duplicate-title-family |
+| North & Pearl Dainty Letter Necklace | north-pearl-letter-necklace-8427 | 88 | duplicate-title-family |
+| North & Pearl Everyday Letter Necklace | north-pearl-letter-necklace-0021 | 88 | duplicate-title-family |
+| North & Pearl Everyday Letter Necklace | north-pearl-letter-necklace-4393 | 88 | duplicate-title-family |
 
 ## Next Actions
 

@@ -51,6 +51,15 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Re-run Merchant Center readiness after Faraday fixes; 118 active products ready with identifier caveat, 0 needing review.
 - [x] Revalidate public product meta/body cleanup after Shopify storefront cache refresh; sampled stale product source now clean and 118/118 live storefront QA passed.
 - [x] Suppress PDP compare-at/sale presentation in the theme so universal compare-at data does not create discount-heavy trust issues.
+- [x] Gauss created 100 additional Alibaba-sourced draft products across necklaces, bracelets, rings, earrings, and gift sets.
+- [x] Gauss/Kuhn/Faraday/Curie/Lovelace gate polished the 100-product batch; 90 products passed launch review and 10 stayed held for image, score, or source-price risk.
+- [x] Activated 90 new products to Online Store and Google & YouTube, bringing active catalog from 118 to 208 products.
+- [x] Cleared compare-at prices for the 90-product batch to avoid unapproved sale/discount presentation.
+- [x] Repaired Google Shopping metafields for the 90-product batch.
+- [x] Cleaned active product descriptions/meta to remove internal supplier, Alibaba, candidate, and review-gate language.
+- [x] Re-ran active product claim scan; 208 active products scanned, 0 unsupported/internal claim hits.
+- [x] Re-ran Merchant Center readiness; 208 active products ready with identifier caveat, 0 needing review.
+- [x] Re-ran live storefront QA after catalog expansion and cleanup; 208/208 product pages passed and cart add passed.
 - [ ] Search Console indexing requests remain blocked by Google UI/CAPTCHA dependency.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
@@ -60,5 +69,6 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - Collection pages expose products quickly.
 - Desktop navigation is compact and premium.
 - No unsupported claims introduced.
+- New active products have images, safe copy, SEO metadata, Google channel attributes, and Online Store publication.
 - Theme Check passes or remaining warnings are documented.
 - Live storefront validation passes for affected pages.

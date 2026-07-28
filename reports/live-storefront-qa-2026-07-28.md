@@ -4,8 +4,8 @@ Storefront: https://northandpearl.com
 
 ## Summary
 
-- Active products checked: 118
-- Product pages passed: 118
+- Active products checked: 208
+- Product pages passed: 208
 - Product pages failed: 0
 - Cart add test: PASS
 - Cart test product: North & Pearl Iridescent Pendant Necklace

@@ -5,7 +5,8 @@ import { dirname, join } from 'node:path';
 
 const store = 'q4ydix-w1.myshopify.com';
 const tempDir = mkdtempSync(join(tmpdir(), 'np-public-copy-cleanup-'));
-const reportPath = 'reports/active-product-public-copy-cleanup-2026-07-27.md';
+const runDate = new Date().toISOString().slice(0, 10);
+const reportPath = `reports/active-product-public-copy-cleanup-${runDate}.md`;
 
 function gql(query, variables = {}, allowMutations = false) {
   const queryFile = join(tempDir, `query-${Date.now()}-${Math.random()}.graphql`);
@@ -35,6 +36,10 @@ function gql(query, variables = {}, allowMutations = false) {
 function clean(value = '') {
   return String(value)
     .replace(/<h3>Details to confirm before launch<\/h3><ul>[\s\S]*?<\/ul>/gi, '<h3>Product details</h3><p>Review available options, product imagery, care guidance, and checkout details before ordering.</p>')
+    .replace(/<li>Supplier shown on Alibaba:[\s\S]*?<\/li>/gi, '')
+    .replace(/Supplier shown on Alibaba:[^<\n\r]+/gi, '')
+    .replace(/Visible Alibaba MOQ:[^<\n\r]+/gi, '')
+    .replace(/Visible Alibaba price range:[^<\n\r]+/gi, '')
     .replace(/<li>Internal source reference:[\s\S]*?<\/li>/gi, '')
     .replace(/Internal source reference:[^<\n\r]+/gi, '')
     .replace(/Base material, plating, finish, dimensions, and packaging must be confirmed before stronger product claims are added\./gi, 'Review available options, product imagery, care guidance, and checkout details before ordering.')
@@ -92,14 +97,14 @@ for (const product of products) {
   if (!changedDescription && !changedSeo) continue;
 
   const result = gql(
-    `mutation CleanProductPublicCopy($input: ProductInput!) {
-      productUpdate(input: $input) {
+    `mutation CleanProductPublicCopy($product: ProductUpdateInput!) {
+      productUpdate(product: $product) {
         product { id title handle }
         userErrors { field message }
       }
     }`,
     {
-      input: {
+      product: {
         id: product.id,
         descriptionHtml: nextDescriptionHtml,
         seo: {
@@ -127,7 +132,7 @@ mkdirSync(dirname(reportPath), { recursive: true });
 writeFileSync(reportPath, [
   '# Active Product Public Copy Cleanup',
   '',
-  'Date: 2026-07-27',
+  `Date: ${runDate}`,
   '',
   '## Summary',
   '',

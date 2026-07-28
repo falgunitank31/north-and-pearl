@@ -7,8 +7,9 @@ const store = 'q4ydix-w1.myshopify.com';
 const domain = 'https://www.alibaba.com/search/api/proTextSearch';
 const tempDir = mkdtempSync(join(tmpdir(), 'np-catalog-100-'));
 const cachedAlibabaResponse = '/tmp/np-alibaba-pro-search.json';
-const targetProductsToAdd = 50;
-const reportPath = 'reports/gauss-next-50-draft-products-2026-07-23.md';
+const targetProductsToAdd = Number(process.env.GAUSS_TARGET_PRODUCTS || 100);
+const runDate = new Date().toISOString().slice(0, 10);
+const reportPath = `reports/gauss-next-${targetProductsToAdd}-draft-products-${runDate}.md`;
 
 const searches = [
   "jewelry for women",
@@ -495,7 +496,7 @@ console.table(createdRows);
 console.log(`Created ${createdRows.length} products today. Remaining daily slots: ${slots}.`);
 
 const reportLines = [
-  '# Gauss Next 50 Draft Product Batch - 2026-07-23',
+  `# Gauss Next ${targetProductsToAdd} Draft Product Batch - ${runDate}`,
   '',
   'Status: Draft-only catalog expansion. These products are not published to the Online Store or Google sales channels by this script.',
   '',

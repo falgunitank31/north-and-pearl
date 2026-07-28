@@ -9,6 +9,8 @@
 - Monitor Merchant Center readiness issues that block free listings, including shipping/returns/feed attribute validation.
 - Confirm all customer-facing material, shipping, return, and quality claims remain verified or neutral.
 - Monitor compare-at pricing trust: all active products currently have compare-at data, but live theme checks show no visible sale labels or sale-price blocks on sampled collection/PDP pages.
+- Audit and safely shorten long commercial title tags and meta descriptions identified by the Faraday Codex SEO baseline.
+- Revalidate public product meta/body cleanup after Shopify storefront cache refreshes; direct public Admin API auth for `north-and-pearl.myshopify.com` is currently missing for product record mutation.
 
 ## P2
 
@@ -19,6 +21,7 @@
 ## P3
 
 - Improve Search Console indexing coverage for priority commercial and guide URLs once the Google UI/CAPTCHA dependency is cleared.
+- Enrich Faraday baseline with Search Console/GA4/PageSpeed API data once Codex SEO Google credentials are configured.
 - Add more refined collection image standards once final product photography is available.
 - Build repeatable weekly reporting and experiment review cadence.
 - Expand organic content only where a commercial page and product path exist.
@@ -27,3 +30,4 @@
 
 - Paid tools, ads, supplier contact, inventory/sample purchases, legal policy finalization, and any unverified material claims require owner approval.
 - Alibaba direct product-page fetching for media replacement is currently blocked by protection responses; exact-source media replacement should resume only when source pages are accessible or owner supplies product image URLs.
+- Public store product-record mutation through Shopify CLI is blocked until `shopify store auth --store north-and-pearl.myshopify.com` is completed with Admin API scopes. Theme CLI push remains available.

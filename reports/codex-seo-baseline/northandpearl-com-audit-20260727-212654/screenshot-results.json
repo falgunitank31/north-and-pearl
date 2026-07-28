@@ -1,0 +1,32 @@
+{
+  "screenshots": [
+    {
+      "url": "https://northandpearl.com/",
+      "output": "/Users/yagneshtank/Documents/Codex/north-and-pearl/reports/codex-seo-baseline/northandpearl-com-audit-20260727-212654/screenshots/northandpearl-com-desktop.png",
+      "viewport": "desktop",
+      "success": true,
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/",
+      "output": "/Users/yagneshtank/Documents/Codex/north-and-pearl/reports/codex-seo-baseline/northandpearl-com-audit-20260727-212654/screenshots/northandpearl-com-laptop.png",
+      "viewport": "laptop",
+      "success": true,
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/",
+      "output": "/Users/yagneshtank/Documents/Codex/north-and-pearl/reports/codex-seo-baseline/northandpearl-com-audit-20260727-212654/screenshots/northandpearl-com-tablet.png",
+      "viewport": "tablet",
+      "success": true,
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/",
+      "output": "/Users/yagneshtank/Documents/Codex/north-and-pearl/reports/codex-seo-baseline/northandpearl-com-audit-20260727-212654/screenshots/northandpearl-com-mobile.png",
+      "viewport": "mobile",
+      "success": true,
+      "error": null
+    }
+  ]
+}

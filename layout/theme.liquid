@@ -24,9 +24,22 @@
       if request.page_type == 'index'
         assign np_page_title = np_home_title
         assign np_page_description = np_home_description
+      elsif request.page_type == 'product'
+        assign np_product_title = page_title | split: ' | ' | first
+        assign np_page_title = np_product_title | append: ' | North & Pearl'
+        assign np_page_description = 'Shop ' | append: np_product_title | append: ' from North & Pearl. Review product images, available options, care notes, and checkout details before ordering.'
       elsif canonical_url contains '/collections/all'
         assign np_page_title = 'Shop All Jewelry | North & Pearl'
         assign np_page_description = 'Explore North & Pearl jewelry gifts, personalized necklaces, bracelets, rings, earrings, and meaningful pieces for everyday moments and special occasions.'
+      elsif canonical_url contains '/collections/necklaces'
+        assign np_page_title = 'Necklaces | North & Pearl'
+        assign np_page_description = 'Shop elegant necklaces selected for meaningful gifts, birthdays, anniversaries, mothers, bridesmaids, partners, and everyday styling.'
+      elsif canonical_url contains '/collections/bracelets'
+        assign np_page_title = 'Bracelets | North & Pearl'
+        assign np_page_description = 'Shop bracelets selected for layering, gifting, birthdays, mothers, friends, sisters, bridesmaids, and thoughtful everyday style.'
+      elsif request.path == '/pages/ai-brand-information'
+        assign np_page_title = 'AI Brand Information | North & Pearl'
+        assign np_page_description = 'Official AI-readable brand facts for North & Pearl, including category, audience, product focus, approved positioning, and claim boundaries.'
       elsif request.page_type == 'search'
         assign np_page_title = 'Search North & Pearl Jewelry'
         assign np_page_description = 'Search North & Pearl for personalized jewelry, name necklaces, initial pieces, bracelets, rings, earrings, and meaningful jewelry gifts.'
@@ -62,6 +75,15 @@
             assign np_page_description = article.content | strip_html | strip | truncate: 155
         endcase
       endif
+
+      assign np_page_description = np_page_description | replace: 'Details remain sample-confirmed before launch.', 'Review product images, options, care notes, and checkout details before ordering.'
+      assign np_page_description = np_page_description | replace: 'Exact materials, stones, finish, sizing, and durability details require supplier and sample confirmation before stronger claims are made.', 'Review available details, options, sizing, and care guidance before checkout.'
+      assign np_page_description = np_page_description | replace: 'Exact product composition, finish, sizing, and packaging details should be verified against supplier documentation before stronger claims are made.', 'Review available product details, options, care guidance, and packaging notes before checkout.'
+      assign np_page_description = np_page_description | replace: 'Product composition, finish, sizing, and packaging should be confirmed with supplier documentation and samples before stronger claims are made.', 'Review available product details, options, care guidance, and packaging notes before checkout.'
+      assign np_page_description = np_page_description | replace: 'Materials, stones, plating, finish, sizing, and packaging must be confirmed with supplier documentation and samples before stronger claims are made.', 'Review available product details, options, sizing, care guidance, and packaging notes before checkout.'
+      assign np_page_description = np_page_description | replace: 'supplier and sample confirmation before stronger claims are made', 'review before checkout'
+      assign np_page_description = np_page_description | replace: 'supplier documentation before stronger claims are made', 'review before checkout'
+      assign np_page_description = np_page_description | replace: 'before stronger claims are made', 'before checkout'
     -%}
 
     <title>
@@ -74,7 +96,6 @@
         {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
       {%- endif -%}
     </title>
-
     {% if np_page_description %}
       <meta name="description" content="{{ np_page_description | escape }}">
     {% endif %}

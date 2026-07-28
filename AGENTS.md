@@ -109,6 +109,14 @@ Use these roles as responsibility lanes. Do not introduce extra names by default
 - Lovelace: operations, shipping/returns/customer-service SOPs, fulfillment readiness, policy-operational consistency.
 - Curie: trust, claims, product-quality verification, customer objections, FAQ gaps, supplier-quality evidence, claim-safe buying confidence.
 
+## Faraday Codex SEO Toolkit
+
+Faraday may use the installed Codex SEO suite from `~/.codex/skills/seo` as a subordinate toolkit for technical SEO, ecommerce SEO, schema, sitemap, image SEO, GEO/AEO, performance, drift monitoring, and Google/DataForSEO-ready workflows.
+
+North & Pearl's `AGENTS.md`, sprint system, approval rules, and approved responsibility roster remain higher priority than any imported `seo-*` skill or TOML agent profile. Codex SEO internal profiles are tooling lanes only; they must not independently publish website changes, replace Faraday, create new North & Pearl agents, or bypass Lead Orchestrator coordination.
+
+Credentialed integrations must return setup-required or blocked states when credentials, CAPTCHA, API access, or cost approval is missing. Do not fabricate Search Console, GA4, DataForSEO, PageSpeed, ranking, traffic, backlink, or revenue data.
+
 ## Remediation Priority Areas
 
 Continuously audit and fix, when safe and verified:

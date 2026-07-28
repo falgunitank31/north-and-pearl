@@ -1,0 +1,861 @@
+{
+  "title": "North & Pearl | Personalized Jewelry for Meaningful Moments",
+  "meta_description": "Shop personalized jewelry and gift-ready keepsakes made for names, initials, dates, milestones, mothers, couples, weddings, birthdays, and anniversaries.",
+  "meta_robots": null,
+  "canonical": "https://northandpearl.com/",
+  "h1": [
+    "Jewelry Made Personal"
+  ],
+  "h2": [
+    "Your cart is empty",
+    "Your cart",
+    "Estimated total",
+    "Find your piece faster.",
+    "Pieces shoppers choose first.",
+    "Make the moment easy to shop.",
+    "Fresh pieces for your jewelry box.",
+    "A curated jewelry edit for meaningful gifting.",
+    "Choose it. Add meaning. Gift it.",
+    "A little something meaningful.",
+    "Gift ideas, care notes, and meaningful new arrivals"
+  ],
+  "h3": [
+    "North & Pearl Flower Nail Bangle",
+    "North & Pearl Initial Shell Necklace",
+    "North & Pearl Iridescent Pendant Necklace",
+    "North & Pearl Sweetheart Drop Earrings",
+    "North & Pearl Polished Statement Link Bracelet",
+    "North & Pearl Framed Heirloom Letter Necklace",
+    "North & Pearl Sparkle Pendant Necklace",
+    "North & Pearl Dainty Name Pendant Necklace",
+    "North & Pearl Luxe Name Pendant Necklace",
+    "North & Pearl Keepsake Name Necklace",
+    "North & Pearl Modern Name Necklace"
+  ],
+  "images": [
+    {
+      "src": "https://northandpearl.com/cdn/shop/t/6/assets/north-pearl-logo.svg?v=81872927793502728021784142830",
+      "alt": "North and Pearl",
+      "width": "210",
+      "height": "46",
+      "loading": "eager"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/He0ff2b677c174097a1d72351313cf15fm.png?v=1784310508&width=1500",
+      "alt": "North & Pearl jewelry pieces",
+      "width": "1500",
+      "height": "1500",
+      "loading": "eager"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H850f579b4b544e5789fa7ea3b6457bb1V.jpg?v=1784856583&width=720",
+      "alt": "Necklaces",
+      "width": "720",
+      "height": "720",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H0c667c6caae04b0dac4552fa3f7d4fddY.jpg?v=1784856602&width=720",
+      "alt": "Bracelets",
+      "width": "720",
+      "height": "720",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/Hfbc69a8c916b4296ab648ba88b598102s.png?v=1784856284&width=720",
+      "alt": "Rings",
+      "width": "720",
+      "height": "720",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H394cf5031c3243878baa873d7d06a76eW.jpg?v=1784856615&width=720",
+      "alt": "Earrings",
+      "width": "720",
+      "height": "720",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H850f579b4b544e5789fa7ea3b6457bb1V.jpg?v=1784856583&width=720",
+      "alt": "Name Necklaces",
+      "width": "720",
+      "height": "720",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H850f579b4b544e5789fa7ea3b6457bb1V.jpg?v=1784856583&width=720",
+      "alt": "Gifts",
+      "width": "720",
+      "height": "720",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/He0ff2b677c174097a1d72351313cf15fm.png?v=1784310508&width=533",
+      "alt": "North & Pearl Flower Nail Bangle product image",
+      "width": "800",
+      "height": "800",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H882e0cbd72054e92aaea816e433da4a0W.png?v=1784310508&width=533",
+      "alt": "North & Pearl Flower Nail Bangle alternate product image",
+      "width": "800",
+      "height": "800",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/Hab4018ad85d94c1a87dac4bb0b943fb7l.jpg?v=1784232165&width=533",
+      "alt": "North & Pearl Initial Shell Necklace product image",
+      "width": "800",
+      "height": "800",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H3b5d1e076ddf4f1ab7866a60210ff889I.jpg?v=1784232165&width=533",
+      "alt": "North & Pearl Initial Shell Necklace alternate product image",
+      "width": "800",
+      "height": "800",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H50642816036f423cb4d01348f6ffa47e6.jpg?v=1784235486&width=533",
+      "alt": "North & Pearl Iridescent Pendant Necklace product image",
+      "width": "1000",
+      "height": "1000",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/Hd00993cb8f9248838a2e372b218a4554j.jpg?v=1784235487&width=533",
+      "alt": "North & Pearl Iridescent Pendant Necklace alternate product image",
+      "width": "1200",
+      "height": "1200",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/Hf78b44c5070c4aa9b26a941030d1c6b9i.jpg?v=1784856564&width=900",
+      "alt": "Gifts for Mom",
+      "width": "900",
+      "height": "900",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H394cf5031c3243878baa873d7d06a76eW.jpg?v=1784856615&width=900",
+      "alt": "Anniversary Gifts",
+      "width": "900",
+      "height": "900",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H2cc9e3fe135a4805bd482b4eb2e56e410.jpg?v=1784856402&width=900",
+      "alt": "Bridesmaid Gifts",
+      "width": "900",
+      "height": "877",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/He76ad48df8cd4935aa7e2439a008c145I.jpg?v=1784855788&width=900",
+      "alt": "Birthstone-Inspired Gifts",
+      "width": "900",
+      "height": "900",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H394cf5031c3243878baa873d7d06a76eW.jpg?v=1784856615&width=533",
+      "alt": "North & Pearl Sweetheart Drop Earrings product image",
+      "width": "750",
+      "height": "750",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H8fe320e0044d4053acbfb6bc80eab041k.jpg?v=1784856615&width=533",
+      "alt": "North & Pearl Sweetheart Drop Earrings alternate product image",
+      "width": "750",
+      "height": "750",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H0c667c6caae04b0dac4552fa3f7d4fddY.jpg?v=1784856602&width=533",
+      "alt": "North & Pearl Polished Statement Link Bracelet product image",
+      "width": "5020",
+      "height": "5020",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H5247743f5dbf4b5cb60746f17a17ab75w.jpg?v=1784856603&width=533",
+      "alt": "North & Pearl Polished Statement Link Bracelet alternate product image",
+      "width": "5120",
+      "height": "5120",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H850f579b4b544e5789fa7ea3b6457bb1V.jpg?v=1784856583&width=533",
+      "alt": "North & Pearl Framed Heirloom Letter Necklace product image",
+      "width": "1000",
+      "height": "1000",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/Hce0adcb695e440679f89b483ce1b300bQ.jpg?v=1784856583&width=533",
+      "alt": "North & Pearl Framed Heirloom Letter Necklace alternate product image",
+      "width": "1000",
+      "height": "1000",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/Hf78b44c5070c4aa9b26a941030d1c6b9i.jpg?v=1784856564&width=533",
+      "alt": "North & Pearl Sparkle Pendant Necklace product image",
+      "width": "753",
+      "height": "753",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/Hd1589f994d034924917f9092f4775e1f1.jpg?v=1784856564&width=533",
+      "alt": "North & Pearl Sparkle Pendant Necklace alternate product image",
+      "width": "753",
+      "height": "753",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H7359f8eb757b41f3a5cfdd724123c7afF.jpg?v=1784856534&width=533",
+      "alt": "North & Pearl Dainty Name Pendant Necklace product image",
+      "width": "800",
+      "height": "800",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H5f5d67be00984b24b998e01a03f5ebfaT.jpg?v=1784856534&width=533",
+      "alt": "North & Pearl Dainty Name Pendant Necklace alternate product image",
+      "width": "800",
+      "height": "800",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H952d0620c4c94ced9415105f119fd7440.jpg?v=1784856518&width=533",
+      "alt": "North & Pearl Luxe Name Pendant Necklace product image",
+      "width": "1000",
+      "height": "1000",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H024cee8c27e24e169e777a2944ffe90au.jpg?v=1784856518&width=533",
+      "alt": "North & Pearl Luxe Name Pendant Necklace alternate product image",
+      "width": "1000",
+      "height": "1000",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/He83307f051864e70a34c09fe0d0cee36d.jpg?v=1784856501&width=533",
+      "alt": "North & Pearl Keepsake Name Necklace product image",
+      "width": "800",
+      "height": "800",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/Hf7c37c24ad2f4327a5375a93aea68034l.jpg?v=1784856501&width=533",
+      "alt": "North & Pearl Keepsake Name Necklace alternate product image",
+      "width": "800",
+      "height": "800",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H45868a7f218e44909e3f8150fd8b2ce8U.png?v=1784856486&width=533",
+      "alt": "North & Pearl Modern Name Necklace product image",
+      "width": "1024",
+      "height": "1024",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/H6bb4c925678e4dd0964ac1b7dca0363dP.jpg?v=1784856485&width=533",
+      "alt": "North & Pearl Modern Name Necklace alternate product image",
+      "width": "800",
+      "height": "800",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://northandpearl.com/cdn/shop/files/He0ff2b677c174097a1d72351313cf15fm.png?v=1784310508&width=1000",
+      "alt": "A curated jewelry edit for meaningful gifting.",
+      "width": "1000",
+      "height": "1000",
+      "loading": "lazy"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "href": "https://northandpearl.com/collections/all",
+        "text": "Continue shopping",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/customer_authentication/redirect?locale=en&region_country=US",
+        "text": "Log in",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/policies/shipping-policy",
+        "text": "shipping",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/all",
+        "text": "All Jewelry",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/necklaces",
+        "text": "Necklaces",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/bracelets",
+        "text": "Bracelets",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/rings",
+        "text": "Rings",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/earrings",
+        "text": "Earrings",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/name-necklaces",
+        "text": "Name Necklaces",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/initial-necklaces",
+        "text": "Initial Necklaces",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/birthstone-jewelry",
+        "text": "Birthstone Jewelry",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/couple-jewelry",
+        "text": "Couple Jewelry",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/mothers-collection",
+        "text": "Gifts for Mom",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/couple-jewelry",
+        "text": "Anniversary Gifts",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/wedding-bridesmaids",
+        "text": "Bridesmaid Gifts",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/birthstone-jewelry",
+        "text": "Birthstone-Inspired Gifts",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/new-arrivals",
+        "text": "New Arrivals",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/best-sellers",
+        "text": "Best Sellers",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/pages/about-north-pearl",
+        "text": "Our Story",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/pages/jewelry-care-guide",
+        "text": "Jewelry Care",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/pages/personalized-jewelry-guide",
+        "text": "Personalized Jewelry Guide",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/pages/faq",
+        "text": "FAQ",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/customer_authentication/redirect?locale=en&region_country=US",
+        "text": "Log in",
+        "rel": [
+          "nofollow"
+        ]
+      },
+      {
+        "href": "https://northandpearl.com/",
+        "text": "",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/all",
+        "text": "All Jewelry",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/necklaces",
+        "text": "Necklaces",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/bracelets",
+        "text": "Bracelets",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/rings",
+        "text": "Rings",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/earrings",
+        "text": "Earrings",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/name-necklaces",
+        "text": "Name Necklaces",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/initial-necklaces",
+        "text": "Initial Necklaces",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/birthstone-jewelry",
+        "text": "Birthstone Jewelry",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/couple-jewelry",
+        "text": "Couple Jewelry",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/mothers-collection",
+        "text": "Gifts for Mom",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/couple-jewelry",
+        "text": "Anniversary Gifts",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/wedding-bridesmaids",
+        "text": "Bridesmaid Gifts",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/birthstone-jewelry",
+        "text": "Birthstone-Inspired Gifts",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/new-arrivals",
+        "text": "New Arrivals",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/best-sellers",
+        "text": "Best Sellers",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/pages/about-north-pearl",
+        "text": "Our Story",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/pages/jewelry-care-guide",
+        "text": "Jewelry Care",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/pages/personalized-jewelry-guide",
+        "text": "Personalized Jewelry Guide",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/pages/faq",
+        "text": "FAQ",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/customer_authentication/redirect?locale=en&region_country=US",
+        "text": "Log in",
+        "rel": [
+          "nofollow"
+        ]
+      },
+      {
+        "href": "https://northandpearl.com/cart",
+        "text": "Cart",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/best-sellers",
+        "text": "Best Sellers",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/name-necklaces",
+        "text": "Name Necklaces",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/initial-necklaces",
+        "text": "Initials",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/birthstone-jewelry",
+        "text": "Birthstones",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/gifts",
+        "text": "Gifts",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/mothers-collection",
+        "text": "Mother's Collection",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/wedding-bridesmaids",
+        "text": "Wedding",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/best-sellers",
+        "text": "Shop Best Sellers",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/name-necklaces",
+        "text": "Shop Personalized Jewelry",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/necklaces",
+        "text": "Necklaces Personal pendants, names, initials, and everyday layers.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/bracelets",
+        "text": "Bracelets Polished details for gifting and daily wear.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/rings",
+        "text": "Rings Minimal bands and meaningful accents.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/earrings",
+        "text": "Earrings Dainty pairs and statement-ready sets.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/name-necklaces",
+        "text": "Personalized Names, initials, and custom-inspired details.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/gifts",
+        "text": "Gifts Meaningful jewelry by recipient and occasion.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/best-sellers",
+        "text": "Shop Best Sellers",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-flower-nail-bangle",
+        "text": "North & Pearl Flower Nail Bangle",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+        "text": "North & Pearl Initial Shell Necklace",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+        "text": "Personalize",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-iridescent-pendant-necklace",
+        "text": "North & Pearl Iridescent Pendant Necklace",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/mothers-collection",
+        "text": "Gifts for Mom Warm, meaningful pieces for the person who means so much.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/couple-jewelry",
+        "text": "Anniversary Gifts Pieces chosen for love, dates, and shared memories.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/wedding-bridesmaids",
+        "text": "Bridesmaid Gifts Polished jewelry for bridal moments and thank-you gifts.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/birthstone-jewelry",
+        "text": "Birthstone-Inspired Gifts Color-accented details with personal meaning.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/collections/new-arrivals",
+        "text": "Shop New Arrivals",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-heart-earrings-5815",
+        "text": "North & Pearl Sweetheart Drop Earrings",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-signature-bracelet-6593",
+        "text": "North & Pearl Polished Statement Link Bracelet",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-letter-necklace-7676",
+        "text": "North & Pearl Framed Heirloom Letter Necklace",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-letter-necklace-7676",
+        "text": "Personalize",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-sparkle-necklace-9390",
+        "text": "North & Pearl Sparkle Pendant Necklace",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-sparkle-necklace-9390",
+        "text": "Personalize",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-name-necklace-5254",
+        "text": "North & Pearl Dainty Name Pendant Necklace",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-name-necklace-5254",
+        "text": "Personalize",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-name-necklace-0823",
+        "text": "North & Pearl Luxe Name Pendant Necklace",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-name-necklace-0823",
+        "text": "Personalize",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-name-necklace-8628",
+        "text": "North & Pearl Keepsake Name Necklace",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-name-necklace-8628",
+        "text": "Personalize",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-name-necklace-6376",
+        "text": "North & Pearl Modern Name Necklace",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/products/north-pearl-name-necklace-6376",
+        "text": "Personalize",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/pages/about-north-pearl",
+        "text": "Our Story",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/pages/personalized-jewelry-guide",
+        "text": "Guide Personalized Jewelry Guide How to choose names, initials, and meaningful details.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/pages/jewelry-care-guide",
+        "text": "Care Jewelry Care Guide Simple care habits for everyday jewelry.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/blogs/news/best-personalized-jewelry-gifts-for-her",
+        "text": "Gift ideas Best Personalized Jewelry Gifts for Her Shop by recipient, occasion, and budget.",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/",
+        "text": "North and Pearl",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/policies/privacy-policy",
+        "text": "Privacy policy",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/policies/shipping-policy",
+        "text": "Shipping policy",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/policies/refund-policy",
+        "text": "Refund policy",
+        "rel": []
+      },
+      {
+        "href": "https://northandpearl.com/policies/terms-of-service",
+        "text": "Terms of service",
+        "rel": []
+      }
+    ],
+    "external": []
+  },
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://northandpearl.com/#organization",
+      "name": "North & Pearl",
+      "url": "https://northandpearl.com/",
+      "logo": "//northandpearl.com/cdn/shop/t/6/assets/north-pearl-logo.svg?v=81872927793502728021784142830",
+      "description": "North & Pearl is a premium personalized jewelry and gifting brand focused on meaningful pieces for names, initials, dates, milestones, mothers, couples, weddings, bridesmaids, birthdays, and anniversaries.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "brand": {
+        "@type": "Brand",
+        "@id": "https://northandpearl.com/#brand",
+        "name": "North & Pearl",
+        "slogan": "Crafted for Life's Meaningful Moments",
+        "url": "https://northandpearl.com/"
+      },
+      "knowsAbout": [
+        "personalized jewelry",
+        "name necklaces",
+        "initial jewelry",
+        "birthstone jewelry",
+        "couple jewelry",
+        "mother's jewelry gifts",
+        "bridesmaid jewelry gifts",
+        "anniversary gifts"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "subjectOf": {
+        "@type": "WebPage",
+        "@id": "https://northandpearl.com/pages/ai-brand-information#webpage",
+        "url": "https://northandpearl.com/pages/ai-brand-information",
+        "name": "AI Brand Information for North & Pearl"
+      },
+      "sameAs": []
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://northandpearl.com/#website",
+      "name": "North & Pearl",
+      "url": "https://northandpearl.com/",
+      "publisher": {
+        "@id": "https://northandpearl.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://northandpearl.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "North and Pearl",
+      "sameAs": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "url": "https://northandpearl.com"
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "North and Pearl",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://northandpearl.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "url": "https://northandpearl.com"
+    }
+  ],
+  "open_graph": {
+    "og:site_name": "North and Pearl",
+    "og:url": "https://northandpearl.com/",
+    "og:title": "North & Pearl | Personalized Jewelry for Meaningful Moments",
+    "og:type": "website",
+    "og:description": "Shop personalized jewelry and gift-ready keepsakes made for names, initials, dates, milestones, mothers, couples, weddings, birthdays, and anniversaries."
+  },
+  "twitter_card": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "North & Pearl | Personalized Jewelry for Meaningful Moments",
+    "twitter:description": "Shop personalized jewelry and gift-ready keepsakes made for names, initials, dates, milestones, mothers, couples, weddings, birthdays, and anniversaries."
+  },
+  "word_count": 588,
+  "hreflang": []
+}

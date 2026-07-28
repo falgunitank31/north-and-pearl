@@ -44,6 +44,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Refresh collection-to-guide and guide-to-product internal links.
 - [x] Document compare-at pricing guardrail to prevent unapproved discount/sale messaging.
 - [x] Create exact-source image replacement queue for active products below the preferred media standard.
+- [x] Install and verify Codex SEO as Faraday's subordinate toolkit.
+- [x] Run Faraday Codex SEO baseline for northandpearl.com.
+- [x] Add global WebPage schema from the baseline P1 schema finding.
 - [ ] Search Console indexing requests remain blocked by Google UI/CAPTCHA dependency.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 

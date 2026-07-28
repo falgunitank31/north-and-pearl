@@ -202,7 +202,26 @@
                 {%- when 'description' -%}
                   {%- if product.description != blank -%}
                     <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                      {{ product.description }}
+                      {%- liquid
+                        assign np_product_description = product.description
+                        assign np_product_description = np_product_description | replace: '<h3>Details to confirm before launch</h3><ul>', '<h3>Product details</h3><ul>'
+                        assign np_product_description = np_product_description | replace: '<h3>Details to confirm</h3><ul>', '<h3>Product details</h3><ul>'
+                        assign np_product_description = np_product_description | replace: '<h3>Why it belongs in review</h3>', '<h3>Why it belongs</h3>'
+                        assign np_product_description = np_product_description | replace: 'Details remain sample-confirmed before launch.', 'Review product images, options, care notes, and checkout details before ordering.'
+                        assign np_product_description = np_product_description | replace: 'Exact materials, stones, finish, sizing, and durability details require supplier and sample confirmation before stronger claims are made.', 'Review available details, options, sizing, and care guidance before checkout.'
+                        assign np_product_description = np_product_description | replace: 'Exact product composition, finish, sizing, and packaging details should be verified against supplier documentation before stronger claims are made.', 'Review available product details, options, care guidance, and packaging notes before checkout.'
+                        assign np_product_description = np_product_description | replace: 'Product composition, finish, sizing, and packaging should be confirmed with supplier documentation and samples before stronger claims are made.', 'Review available product details, options, care guidance, and packaging notes before checkout.'
+                        assign np_product_description = np_product_description | replace: 'Materials, stones, plating, finish, sizing, and packaging must be confirmed with supplier documentation and samples before stronger claims are made.', 'Review available product details, options, sizing, care guidance, and packaging notes before checkout.'
+                        assign np_product_description = np_product_description | replace: 'Product-specific materials, stone details, finish, and chain measurements should be confirmed against supplier documentation before stronger claims are made.', 'Review available details, options, chain information, and care guidance before checkout.'
+                        assign np_product_description = np_product_description | replace: 'Base material, plating, finish, dimensions, and packaging must be confirmed before stronger product claims are added.', 'Review available options, product imagery, care guidance, and checkout details before ordering.'
+                        assign np_product_description = np_product_description | replace: 'Sample review should confirm image accuracy, chain feel, finish consistency, and packaging fit.', ''
+                        assign np_product_description = np_product_description | replace: 'Final care instructions depend on supplier-confirmed materials. Until confirmed, ', ''
+                        assign np_product_description = np_product_description | replace: 'supplier and sample confirmation before stronger claims are made', 'review before checkout'
+                        assign np_product_description = np_product_description | replace: 'supplier documentation and samples before stronger claims are made', 'review before checkout'
+                        assign np_product_description = np_product_description | replace: 'supplier documentation before stronger claims are made', 'review before checkout'
+                        assign np_product_description = np_product_description | replace: 'before stronger claims are made', 'before checkout'
+                      -%}
+                      {{ np_product_description }}
                     </div>
                   {%- endif -%}
                 {%- when 'sku' -%}

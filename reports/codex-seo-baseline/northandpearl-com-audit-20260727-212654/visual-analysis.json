@@ -1,0 +1,84 @@
+{
+  "url": "https://northandpearl.com/",
+  "above_fold": {
+    "h1_visible": true,
+    "cta_visible": false,
+    "hero_image": "//northandpearl.com/cdn/shop/files/H3a93f2a7700f44f5b7188e5287f8cf90Q.jpg?v=1784750914&width=1500"
+  },
+  "mobile": {
+    "viewport_meta": true,
+    "horizontal_scroll": false,
+    "touch_targets_ok": false,
+    "undersized_touch_targets": [
+      {
+        "tag": "a",
+        "label": "BEST SELLERS",
+        "width": 74.5,
+        "height": 18
+      },
+      {
+        "tag": "a",
+        "label": "NAME NECKLACES",
+        "width": 92.7,
+        "height": 18
+      },
+      {
+        "tag": "a",
+        "label": "INITIALS",
+        "width": 45.1,
+        "height": 18
+      },
+      {
+        "tag": "a",
+        "label": "BIRTHSTONES",
+        "width": 73.1,
+        "height": 18
+      },
+      {
+        "tag": "a",
+        "label": "GIFTS",
+        "width": 30.3,
+        "height": 18
+      }
+    ]
+  },
+  "layout": {
+    "overlapping_elements": [
+      {
+        "fixed_element": "Cart BEST SELLERS NAME NECKLACES INITIALS BIRTHSTONES GIFTS MOTHER'S COLLECTION ",
+        "covered_element": "SKIP TO CONTENT"
+      }
+    ],
+    "text_overflow": [
+      {
+        "tag": "div",
+        "text": "Cart",
+        "overflow_x": true,
+        "overflow_y": false
+      },
+      {
+        "tag": "span",
+        "text": "Cart",
+        "overflow_x": true,
+        "overflow_y": false
+      },
+      {
+        "tag": "nav",
+        "text": "BEST SELLERS NAME NECKLACES INITIALS BIRTHSTONES GIFTS MOTHER'S COLLECTION WEDDI",
+        "overflow_x": true,
+        "overflow_y": false
+      },
+      {
+        "tag": "h1",
+        "text": "Jewelry Made Personal",
+        "overflow_x": false,
+        "overflow_y": true
+      }
+    ]
+  },
+  "fonts": {
+    "base_size": 15,
+    "readable": false
+  },
+  "error": null
+}

@@ -7,9 +7,22 @@
   if request.page_type == 'index'
     assign og_title = 'North & Pearl | Personalized Jewelry for Meaningful Moments'
     assign og_description = 'Shop personalized jewelry and gift-ready keepsakes made for names, initials, dates, milestones, mothers, couples, weddings, birthdays, and anniversaries.'
+  elsif request.page_type == 'product'
+    assign np_product_title = page_title | split: ' | ' | first
+    assign og_title = np_product_title | append: ' | North & Pearl'
+    assign og_description = 'Shop ' | append: np_product_title | append: ' from North & Pearl. Review product images, available options, care notes, and checkout details before ordering.'
   elsif og_url contains '/collections/all'
     assign og_title = 'Shop All Jewelry | North & Pearl'
     assign og_description = 'Explore North & Pearl jewelry gifts, personalized necklaces, bracelets, rings, earrings, and meaningful pieces for everyday moments and special occasions.'
+  elsif og_url contains '/collections/necklaces'
+    assign og_title = 'Necklaces | North & Pearl'
+    assign og_description = 'Shop elegant necklaces selected for meaningful gifts, birthdays, anniversaries, mothers, bridesmaids, partners, and everyday styling.'
+  elsif og_url contains '/collections/bracelets'
+    assign og_title = 'Bracelets | North & Pearl'
+    assign og_description = 'Shop bracelets selected for layering, gifting, birthdays, mothers, friends, sisters, bridesmaids, and thoughtful everyday style.'
+  elsif request.path == '/pages/ai-brand-information'
+    assign og_title = 'AI Brand Information | North & Pearl'
+    assign og_description = 'Official AI-readable brand facts for North & Pearl, including category, audience, product focus, approved positioning, and claim boundaries.'
   elsif request.page_type == 'search'
     assign og_title = 'Search North & Pearl Jewelry'
     assign og_description = 'Search North & Pearl for personalized jewelry, name necklaces, initial pieces, bracelets, rings, earrings, and meaningful jewelry gifts.'
@@ -53,6 +66,15 @@
   elsif request.page_type == 'password'
     assign og_url = request.origin
   endif
+
+  assign og_description = og_description | replace: 'Details remain sample-confirmed before launch.', 'Review product images, options, care notes, and checkout details before ordering.'
+  assign og_description = og_description | replace: 'Exact materials, stones, finish, sizing, and durability details require supplier and sample confirmation before stronger claims are made.', 'Review available details, options, sizing, and care guidance before checkout.'
+  assign og_description = og_description | replace: 'Exact product composition, finish, sizing, and packaging details should be verified against supplier documentation before stronger claims are made.', 'Review available product details, options, care guidance, and packaging notes before checkout.'
+  assign og_description = og_description | replace: 'Product composition, finish, sizing, and packaging should be confirmed with supplier documentation and samples before stronger claims are made.', 'Review available product details, options, care guidance, and packaging notes before checkout.'
+  assign og_description = og_description | replace: 'Materials, stones, plating, finish, sizing, and packaging must be confirmed with supplier documentation and samples before stronger claims are made.', 'Review available product details, options, sizing, care guidance, and packaging notes before checkout.'
+  assign og_description = og_description | replace: 'supplier and sample confirmation before stronger claims are made', 'review before checkout'
+  assign og_description = og_description | replace: 'supplier documentation before stronger claims are made', 'review before checkout'
+  assign og_description = og_description | replace: 'before stronger claims are made', 'before checkout'
 %}
 
 <meta property="og:site_name" content="{{ shop.name }}">

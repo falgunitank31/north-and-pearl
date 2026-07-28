@@ -1,0 +1,67 @@
+{
+  "cache_type": "audit-scores",
+  "analyzed_at": "2026-07-27T21:27:55Z",
+  "domain": "northandpearl.com",
+  "business_type": "ecommerce",
+  "industry": "retail",
+  "overall_score": 67,
+  "category_scores": {
+    "technical": 82,
+    "content": 50,
+    "on_page": 80,
+    "schema": 92,
+    "performance": 35,
+    "geo": 55,
+    "images": 66
+  },
+  "priority_issues": [
+    {
+      "severity": "critical",
+      "issue": "Content: Author or expert attribution signals are limited or absent in the visible content."
+    },
+    {
+      "severity": "critical",
+      "issue": "Content: No external citations were detected in the visible HTML."
+    },
+    {
+      "severity": "critical",
+      "issue": "Geo: Author/date attribution is weak in the visible content."
+    },
+    {
+      "severity": "critical",
+      "issue": "Geo: No strong 134-167 word self-contained answer block was detected."
+    },
+    {
+      "severity": "critical",
+      "issue": "Geo: Server-rendered content confirmation is weak without technical-cache support."
+    },
+    {
+      "severity": "critical",
+      "issue": "Geo: The page has limited question-based heading structure for AI extraction patterns."
+    },
+    {
+      "severity": "critical",
+      "issue": "Performance: INP is above target at 500ms."
+    },
+    {
+      "severity": "critical",
+      "issue": "Performance: LCP is above target at 2.91s."
+    },
+    {
+      "severity": "critical",
+      "issue": "Performance: Real-user/PageSpeed performance data was unavailable, so the report uses deterministic lab heuristics."
+    },
+    {
+      "severity": "critical",
+      "issue": "Sitemap: 5 sitemap URL(s) have a canonical mismatch."
+    },
+    {
+      "severity": "critical",
+      "issue": "Sitemap: 94 sitemap URL(s) returned a non-200 status."
+    },
+    {
+      "severity": "critical",
+      "issue": "Sitemap: Deprecated sitemap tags like priority/changefreq are present."
+    }
+  ]
+}

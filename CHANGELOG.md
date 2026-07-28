@@ -20,6 +20,7 @@
 - Completed the priority Search Console indexing batch, including the primary gift guide fresh recrawl after correcting the homepage blog URL.
 - Synced media alt text for 93 active products and updated product cards to render Shopify media alt text for cleaner image SEO and accessibility.
 - Revalidated product SEO, Merchant readiness, source-image queue, Theme Check, and full live storefront QA after media/alt polish.
+- Repaired the source/image/catalog mismatch for Alibaba source `1601721496131`: renamed the live product to North & Pearl Personalized Nameplate Necklace, changed product type to Necklace, removed it from Bracelets, added it to Necklaces, refreshed media alt text, and preserved redirects from the old handles.
 
 ## July 27, 2026
 

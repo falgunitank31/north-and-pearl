@@ -89,6 +89,8 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Updated product cards to use Shopify media alt text instead of forcing generic title-only image alt text.
 - [x] Re-ran product SEO, Merchant readiness, source-image opportunity, Theme Check, and full live storefront QA after media/alt polish; 208/208 PDPs passed and cart add passed.
 - [x] Tested top Alibaba source IDs for exact-source image replacement; automated extraction remains blocked by Alibaba protection pages, so replacement requires rendered browser access, owner-supplied image URLs, supplier assets, or final photography.
+- [x] Resolved one exact-source media blocker by rejecting mismatched bracelet categorization for source `1601721496131`; repaired the live product into a necklace record, removed it from Bracelets, added it to Necklaces, refreshed alt text, and preserved redirects from old handles.
+- [x] Re-ran product SEO, Merchant readiness, source-image opportunity, and Theme Check after the catalog truth repair; 208 active products remain Merchant-ready with identifier caveat, 0 needing review, and Theme Check found no offenses.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

@@ -17,7 +17,7 @@
 - Monitor New Arrivals curation after traffic begins; current New Arrivals collection was narrowed from 222 products to 64 active launch-ready products on July 28, 2026.
 - Review the 90-product live expansion by category after 7-14 days of traffic; demote or revise products with weak views/add-to-carts once data is meaningful.
 - Review the 10 held products from the Gauss next-100 batch; only activate if source-price risk, image count, and visual QA issues are resolved.
-- Replace exact-source imagery for active products still marked acceptable temporary where higher-resolution same-product supplier images are available and source pages can be accessed without CAPTCHA/protection; top Alibaba source IDs still returned protection pages with no extractable media on July 28, 2026.
+- Replace exact-source imagery for active products still marked acceptable temporary where higher-resolution same-product supplier images are available and source pages can be accessed without CAPTCHA/protection. If recovered source media reveals a catalog mismatch, repair title/type/collections before any image replacement.
 - Re-score Best Sellers once real Shopify sales, add-to-cart, and product-view data is meaningful; current collection is a curated launch edit.
 
 ## P3
@@ -33,5 +33,5 @@
 ## Blocked / Needs Owner
 
 - Paid tools, ads, supplier contact, inventory/sample purchases, legal policy finalization, and any unverified material claims require owner approval.
-- Alibaba direct product-page fetching for media replacement is currently blocked by protection responses; exact-source media replacement should resume only when source pages render normally in browser, owner supplies product image URLs, supplier provides assets, or final photography is available.
+- Alibaba direct product-page fetching for media replacement is partially blocked by protection responses; exact-source media replacement should resume only when source pages render normally in browser, owner supplies product image URLs, supplier provides assets, or final photography is available. One accessible source (`1601721496131`) exposed that the active product was miscategorized, and the live catalog record has been repaired.
 - Public store product-record mutation through Shopify CLI is blocked until `shopify store auth --store north-and-pearl.myshopify.com` is completed with Admin API scopes. Theme CLI push remains available.

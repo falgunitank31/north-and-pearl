@@ -24,7 +24,7 @@ No media replacement should happen unless the source image is confirmed to be th
 | 7 | North & Pearl Refined Letter Earrings | `north-pearl-letter-earrings` | ACCEPTABLE_TEMP | 4 | 794x787 | alibaba-source-1600452065310 |
 | 8 | North & Pearl Nameplate Charm Necklace | `north-pearl-name-necklace-8213` | ACCEPTABLE_TEMP | 4 | 800x800 | alibaba-source-62121288213 |
 | 9 | North & Pearl Polished Oval Link Bracelet | `north-pearl-polished-link-bracelet` | ACCEPTABLE_TEMP | 4 | 800x800 | alibaba-source-1601273120820 |
-| 10 | North & Pearl Layering Letter Bracelet | `north-pearl-letter-bracelet` | ACCEPTABLE_TEMP | 5 | 720x720 | alibaba-source-1601721496131 |
+| 10 | North & Pearl Personalized Nameplate Necklace | `north-pearl-personalized-nameplate-necklace` | ACCEPTABLE_TEMP | 5 | 720x720 | alibaba-source-1601721496131 |
 | 11 | North & Pearl Polished Letter Necklace | `north-pearl-letter-necklace-9008` | ACCEPTABLE_TEMP | 5 | 741x800 | alibaba-source-60733359008 |
 | 12 | North & Pearl Everyday Bloom Bracelet | `north-pearl-flower-bracelet-6422` | ACCEPTABLE_TEMP | 5 | 750x750 | alibaba-source-1601418486422 |
 | 13 | North & Pearl Petite Letter Necklace | `north-pearl-letter-necklace-1571` | ACCEPTABLE_TEMP | 5 | 750x750 | alibaba-source-62447621571 |

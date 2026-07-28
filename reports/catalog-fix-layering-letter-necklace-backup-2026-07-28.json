@@ -1,0 +1,137 @@
+{
+  "capturedAt": "2026-07-28T17:12:41.765Z",
+  "product": {
+    "id": "gid://shopify/Product/10495781568696",
+    "title": "North & Pearl Layering Letter Bracelet",
+    "handle": "north-pearl-letter-bracelet",
+    "productType": "Bracelet",
+    "status": "ACTIVE",
+    "tags": [
+      "alibaba-source-1601721496131",
+      "alibaba-sourced",
+      "availability-status-visible",
+      "bracelet",
+      "catalog-expanded",
+      "claim-status-unverified",
+      "gauss-next-100",
+      "gauss-next-100-live",
+      "gift-for-her",
+      "launch-review",
+      "letter-style",
+      "name-style",
+      "new-arrival",
+      "personalized",
+      "sample-status-not-ordered",
+      "source-alibaba"
+    ],
+    "seo": {
+      "title": "Layering Letter Bracelet | North & Pearl",
+      "description": "Layering Letter Bracelet from North & Pearl, selected for meaningful gifting, everyday styling, and polished jewelry-box moments."
+    },
+    "descriptionHtml": "<p>Layering Letter Bracelet is a polished bracelet selected for meaningful gifting, everyday styling, and a refined North &amp; Pearl jewelry-box feel.</p><h3>Why you will love it</h3><ul>\n<li>Giftable design with a warm, personal feel.</li>\n<li>Easy to style for everyday outfits, celebrations, and thoughtful moments.</li>\n<li>Works well for birthdays, anniversaries, bridesmaids, friends, family, and self-gifting depending on the style.</li>\n</ul><h3>Gift note</h3><p>Add a jewelry gift box or personal message when you want the moment to feel more considered.</p><h3>Care</h3><p>Store separately, avoid harsh cleaners, and keep dry between wears. Material-specific care guidance will be expanded after item-level documentation is confirmed.</p>",
+    "onlineStoreUrl": "https://northandpearl.com/products/north-pearl-letter-bracelet",
+    "collections": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/658327273656",
+          "title": "Name Necklaces",
+          "handle": "name-necklaces"
+        },
+        {
+          "id": "gid://shopify/Collection/658327306424",
+          "title": "Initial Necklaces",
+          "handle": "initial-necklaces"
+        },
+        {
+          "id": "gid://shopify/Collection/658327404728",
+          "title": "Bracelets",
+          "handle": "bracelets"
+        },
+        {
+          "id": "gid://shopify/Collection/658327666872",
+          "title": "New Arrivals",
+          "handle": "new-arrivals"
+        }
+      ]
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/62328523063480",
+          "alt": "North & Pearl Layering Letter Bracelet product image 1",
+          "mediaContentType": "IMAGE",
+          "preview": {
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H88b485e0f127458a911563100a11ef5dS.jpg?v=1785198222",
+              "width": 830,
+              "height": 830
+            }
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/62328523096248",
+          "alt": "North & Pearl Layering Letter Bracelet product image 2",
+          "mediaContentType": "IMAGE",
+          "preview": {
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H5f0255b5f8c3463f8848ea7a1fbec5459.jpg?v=1785198225",
+              "width": 788,
+              "height": 793
+            }
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/62328523129016",
+          "alt": "North & Pearl Layering Letter Bracelet product image 3",
+          "mediaContentType": "IMAGE",
+          "preview": {
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0969/9331/2952/files/Hdb08c25299cf487f9eebac64c4bcb8b0a.jpg?v=1785198224",
+              "width": 1000,
+              "height": 1000
+            }
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/62328523161784",
+          "alt": "North & Pearl Layering Letter Bracelet product image 4",
+          "mediaContentType": "IMAGE",
+          "preview": {
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H78de799214174e68851fdef02771e90db.jpg?v=1785198222",
+              "width": 800,
+              "height": 800
+            }
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/62328523194552",
+          "alt": "North & Pearl Layering Letter Bracelet product image 5",
+          "mediaContentType": "IMAGE",
+          "preview": {
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H72e9d2f29fd040fca49401205a8a0c99l.jpg?v=1785198221",
+              "width": 720,
+              "height": 720
+            }
+          }
+        }
+      ]
+    }
+  },
+  "intendedFix": {
+    "title": "North & Pearl Layering Name Necklace",
+    "handle": "north-pearl-layering-name-necklace",
+    "productType": "Necklace",
+    "removeFromCollection": {
+      "id": "gid://shopify/Collection/658327404728",
+      "title": "Bracelets",
+      "handle": "bracelets"
+    },
+    "addToCollection": {
+      "id": "gid://shopify/Collection/658327240888",
+      "title": "Necklaces",
+      "handle": "necklaces"
+    }
+  }
+}

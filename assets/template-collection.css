@@ -97,3 +97,105 @@
 .collection__view-all a:not(.link) {
   margin-top: 1rem;
 }
+
+.np-collection-shopbar {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  margin-bottom: 2rem;
+  border: 0.1rem solid rgba(var(--color-foreground), 0.1);
+  border-radius: 0.8rem;
+  background: rgb(var(--color-background));
+  overflow: hidden;
+}
+
+.np-collection-shopbar > div {
+  padding: 1.6rem 1.8rem;
+  border-right: 0.1rem solid rgba(var(--color-foreground), 0.08);
+}
+
+.np-collection-shopbar > div:last-child {
+  border-right: 0;
+}
+
+.np-collection-shopbar__label,
+.np-collection-shopbar strong {
+  display: block;
+}
+
+.np-collection-shopbar__label {
+  margin-bottom: 0.45rem;
+  color: rgba(var(--color-foreground), 0.58);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.np-collection-shopbar strong {
+  color: rgba(var(--color-foreground), 0.9);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.85rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.facets-wrapper.page-width {
+  margin-bottom: 1.6rem;
+}
+
+.product-grid-container .collection.page-width {
+  padding-top: 0;
+}
+
+.np-collection-seo {
+  max-width: 92rem;
+  margin: 5.6rem auto 0;
+  padding: 3rem;
+  border: 0.1rem solid rgba(var(--color-foreground), 0.1);
+  border-radius: 0.8rem;
+  background: rgba(var(--color-foreground), 0.025);
+}
+
+.np-collection-seo__kicker {
+  margin: 0 0 0.8rem;
+  color: #9d7b3f;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.np-empty-recovery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 749px) {
+  .np-collection-shopbar {
+    grid-template-columns: 1fr;
+    margin-bottom: 1.4rem;
+  }
+
+  .np-collection-shopbar > div {
+    padding: 1.35rem 1.5rem;
+    border-right: 0;
+    border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  }
+
+  .np-collection-shopbar > div:last-child {
+    border-bottom: 0;
+  }
+
+  .np-collection-shopbar strong {
+    font-size: 1.65rem;
+  }
+
+  .np-collection-seo {
+    margin-top: 4rem;
+    padding: 2rem;
+  }
+}

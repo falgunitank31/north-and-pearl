@@ -12,6 +12,8 @@
 - Revalidated live storefront QA: 208/208 active product pages passed and add-to-cart passed.
 - Added featured images to all 13 populated commercial collections and updated homepage category/occasion cards to prefer collection imagery.
 - Pushed the homepage collection-image logic to live theme `189441802424` after Theme Check passed with no offenses.
+- Upgraded collection-page UX with stronger editorial hero styling, collection metadata, quicklinks, and a commerce reassurance bar above the product grid.
+- Revalidated priority collection pages, main menu structure, Merchant readiness, product SEO audit, and full live storefront QA after collection-page changes.
 
 ## July 27, 2026
 

@@ -73,6 +73,10 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Re-ran Theme Check after homepage image logic update; 197 files inspected with no offenses found.
 - [x] Pushed homepage collection-image logic to live theme 189441802424.
 - [x] Validated homepage and key collection URLs live; homepage category and occasion cards now render `/cdn/shop/collections/` images.
+- [x] Upgraded collection-page presentation with editorial collection hero styling, collection metadata, and a commerce reassurance bar above product grids.
+- [x] Validated priority collection pages (`gifts`, `new-arrivals`, `name-necklaces`, `necklaces`, `best-sellers`) return 200 and render the new hero/shopbar elements.
+- [x] Re-ran navigation audit; main menu is clean and does not expose currently empty Men’s Jewelry, Gift Cards, or Sale collections.
+- [x] Re-ran full live storefront QA after collection-page upgrade; 208/208 product pages passed and cart add passed.
 - [ ] Search Console indexing requests remain blocked by Google UI/CAPTCHA dependency.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 

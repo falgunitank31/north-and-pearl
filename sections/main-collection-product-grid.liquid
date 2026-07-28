@@ -101,6 +101,42 @@
         </facet-filters-form>
       {%- endif -%}
 
+      {%- if paginate.current_page == 1 -%}
+        <div class="np-collection-shopbar page-width" aria-label="Collection shopping reassurance">
+          <div>
+            <span class="np-collection-shopbar__label">Curated for</span>
+            <strong>
+              {%- case collection.handle -%}
+                {%- when 'gifts' -%}
+                  Meaningful gifting
+                {%- when 'new-arrivals' -%}
+                  Fresh finds
+                {%- when 'name-necklaces' -%}
+                  Personal names
+                {%- when 'initial-necklaces' -%}
+                  Initial moments
+                {%- when 'mothers-collection' -%}
+                  Mother figures
+                {%- when 'wedding-bridesmaids' -%}
+                  Wedding parties
+                {%- when 'couple-jewelry' -%}
+                  Shared stories
+                {%- else -%}
+                  Everyday meaning
+              {%- endcase -%}
+            </strong>
+          </div>
+          <div>
+            <span class="np-collection-shopbar__label">Browse</span>
+            <strong>{{ collection.products_count }} available styles</strong>
+          </div>
+          <div>
+            <span class="np-collection-shopbar__label">Shop with clarity</span>
+            <strong>Details on every product page</strong>
+          </div>
+        </div>
+      {%- endif -%}
+
       <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">
         {{ 'component-facets.css' | asset_url | stylesheet_tag }}
         <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>

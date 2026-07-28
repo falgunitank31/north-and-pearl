@@ -12,6 +12,7 @@
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
   <div class="collection-hero__inner page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     <div class="collection-hero__text-wrapper">
+      <p class="np-collection-eyebrow">North & Pearl edit</p>
       <h1 class="collection-hero__title">
         <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
         {{- collection.title | escape -}}
@@ -25,6 +26,12 @@
           </div>
         {%- endif -%}
       {%- endif -%}
+
+      <div class="np-collection-meta" aria-label="Collection shopping details">
+        <span>{{ collection.products_count }} pieces</span>
+        <span>Gift-focused edit</span>
+        <span>Secure checkout</span>
+      </div>
 
       <nav class="np-collection-quicklinks" aria-label="Related jewelry collections">
         {%- assign quick_links = 'best-sellers|Best Sellers,new-arrivals|New Arrivals,name-necklaces|Name Necklaces,initial-necklaces|Initials,birthstone-jewelry|Birthstones,gifts|Gifts' | split: ',' -%}

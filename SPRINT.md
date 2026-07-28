@@ -96,6 +96,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Added representative collection images to all 19 targeted populated commercial collections after the buyer-intent buildout.
 - [x] Refreshed five commercial gift-guide articles so CTAs now point into the new buyer-intent collection pages.
 - [x] Re-ran product SEO and Merchant Center readiness after the buyer-intent buildout; 208 active products score 100 with 0 detected product SEO issues, and 208 active products remain ready with identifier caveat.
+- [x] Updated homepage and collection guide link sections to send shoppers toward buyer-intent product grids instead of mostly informational pages.
+- [x] Re-ran Theme Check after the Faraday theme link update; 198 files inspected with no offenses found.
+- [x] Pushed the Faraday theme link update to live theme `189441802424`.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

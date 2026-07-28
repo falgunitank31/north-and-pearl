@@ -27,6 +27,7 @@
 - Added representative collection images across all 19 targeted populated commercial collections after the buyer-intent buildout.
 - Refreshed five commercial guide articles so informational traffic has clearer paths into the new buyer-intent product collections.
 - Revalidated product SEO and Merchant Center readiness after the buyer-intent collection buildout.
+- Updated homepage and collection guide links to route shoppers into the new buyer-intent product grids; Theme Check passed and the update was pushed to live theme `189441802424`.
 
 ## July 27, 2026
 

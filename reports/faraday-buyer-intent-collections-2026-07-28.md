@@ -109,4 +109,6 @@ Faraday built commercial, search-intent aligned landing collections using only a
 - Product SEO audit: 208 active products scored 100 with 0 detected product SEO issues.
 - Merchant readiness audit: 208 active products ready with identifier caveat, 0 needing review.
 - Live storefront QA: 208/208 active product pages passed, and cart add passed.
+- Theme Check after homepage/collection guide link update: 198 files inspected, no offenses found.
+- Shopify theme push: live theme `189441802424` updated successfully with the new homepage and collection guide buyer-intent links.
 - Public command-line collection URL sampler: blocked by Shopify 429 rate limiting from this execution environment. This is recorded as an environment validation limitation, not a verified storefront failure.

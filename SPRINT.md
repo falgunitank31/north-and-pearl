@@ -85,6 +85,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Fixed a homepage gift-guide link that pointed to a 404 `/blogs/news/...` path instead of the live `/blogs/gift-guide/...` article.
 - [x] Requested Search Console indexing for AI Brand Information, Bracelets, Rings, and Earrings.
 - [x] Requested fresh Search Console recrawl for the correct gift-guide URL after confirming it is already on Google.
+- [x] Synced media alt text for 93 active products so product images use cleaner catalog-level accessibility and SEO descriptions.
+- [x] Updated product cards to use Shopify media alt text instead of forcing generic title-only image alt text.
+- [x] Re-ran product SEO, Merchant readiness, source-image opportunity, Theme Check, and full live storefront QA after media/alt polish; 208/208 PDPs passed and cart add passed.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

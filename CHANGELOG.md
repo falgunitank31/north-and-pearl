@@ -17,6 +17,9 @@
 - Improved reusable product-card styling across merchandising surfaces with refined media wells, cleaner hierarchy, tighter mobile spacing, and restrained highlight chips.
 - Re-ran Theme Check and full live storefront QA after product-card polish; all 208 active product pages passed and cart add passed.
 - Requested Search Console indexing for the homepage and four priority commercial collection URLs; continued requests are waiting on Google reCAPTCHA verification.
+- Completed the priority Search Console indexing batch, including the primary gift guide fresh recrawl after correcting the homepage blog URL.
+- Synced media alt text for 93 active products and updated product cards to render Shopify media alt text for cleaner image SEO and accessibility.
+- Revalidated product SEO, Merchant readiness, source-image queue, Theme Check, and full live storefront QA after media/alt polish.
 
 ## July 27, 2026
 

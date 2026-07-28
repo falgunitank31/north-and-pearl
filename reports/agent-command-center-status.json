@@ -1,0 +1,122 @@
+{
+  "summary": {
+    "generatedAt": "2026-07-28T21:31:19.128Z",
+    "activeAutomations": 6,
+    "workingToday": 1,
+    "needsUpdate": 5
+  },
+  "agents": [
+    {
+      "name": "Faraday",
+      "lane": "Organic growth",
+      "automationId": "north-pearl-faraday-daily-traffic-and-orders-sprint",
+      "reportPrefix": "faraday-daily-traffic-orders",
+      "expectedHour": 9,
+      "expectedMinute": 30,
+      "owns": "SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.",
+      "automation": {
+        "active": true,
+        "name": "North & Pearl Faraday Daily Traffic And Orders Sprint",
+        "rrule": "FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0",
+        "model": "gpt-5.5",
+        "file": "/Users/yagneshtank/.codex/automations/north-pearl-faraday-daily-traffic-and-orders-sprint/automation.toml"
+      },
+      "status": "Needs Update"
+    },
+    {
+      "name": "Gauss",
+      "lane": "Product and merchandising",
+      "automationId": "north-pearl-gauss-daily-product-catalog-growth",
+      "reportPrefix": "gauss-daily-catalog-growth",
+      "expectedHour": 10,
+      "expectedMinute": 0,
+      "owns": "Daily product additions, category balance, product source traceability, catalog hygiene.",
+      "automation": {
+        "active": true,
+        "name": "North & Pearl Gauss Daily Product Catalog Growth",
+        "rrule": "FREQ=DAILY;BYHOUR=10;BYMINUTE=0;BYSECOND=0",
+        "model": "gpt-5.5",
+        "file": "/Users/yagneshtank/.codex/automations/north-pearl-gauss-daily-product-catalog-growth/automation.toml"
+      },
+      "status": "Needs Update"
+    },
+    {
+      "name": "Tesla",
+      "lane": "Shopify engineering",
+      "automationId": "north-pearl-tesla-daily-storefront-qa",
+      "reportPrefix": "tesla-daily-storefront-qa",
+      "expectedHour": 11,
+      "expectedMinute": 0,
+      "owns": "Theme code, QA, cart, search, mobile, performance, accessibility, Shopify CLI.",
+      "automation": {
+        "active": true,
+        "name": "North & Pearl Tesla Daily Storefront QA",
+        "rrule": "FREQ=DAILY;BYHOUR=11;BYMINUTE=0;BYSECOND=0",
+        "model": "gpt-5.5",
+        "file": "/Users/yagneshtank/.codex/automations/north-pearl-tesla-daily-storefront-qa/automation.toml"
+      },
+      "status": "Needs Update"
+    },
+    {
+      "name": "Rawls",
+      "lane": "Analytics and data",
+      "automationId": "north-pearl-rawls-daily-analytics-watch",
+      "reportPrefix": "rawls-daily-analytics-watch",
+      "expectedHour": 12,
+      "expectedMinute": 0,
+      "owns": "GA4, Search Console, Shopify analytics, KPI measurement, funnel diagnosis.",
+      "automation": {
+        "active": true,
+        "name": "North & Pearl Rawls Daily Analytics Watch",
+        "rrule": "FREQ=DAILY;BYHOUR=12;BYMINUTE=0;BYSECOND=0",
+        "model": "gpt-5.5",
+        "file": "/Users/yagneshtank/.codex/automations/north-pearl-rawls-daily-analytics-watch/automation.toml"
+      },
+      "status": "Needs Update"
+    },
+    {
+      "name": "Lovelace",
+      "lane": "Operations and order sourcing",
+      "automationId": "north-pearl-lovelace-daily-order-source-monitor",
+      "reportPrefix": "lovelace-daily-order-source-monitor",
+      "expectedHour": 13,
+      "expectedMinute": 0,
+      "owns": "Order-source mapping, Alibaba source URLs, fulfillment readiness, shipping/returns safety.",
+      "automation": {
+        "active": true,
+        "name": "North & Pearl Lovelace Daily Order Source Monitor",
+        "rrule": "FREQ=DAILY;BYHOUR=13;BYMINUTE=0;BYSECOND=0",
+        "model": "gpt-5.5",
+        "file": "/Users/yagneshtank/.codex/automations/north-pearl-lovelace-daily-order-source-monitor/automation.toml"
+      },
+      "status": "Needs Update"
+    },
+    {
+      "name": "Lead Orchestrator",
+      "lane": "Ecommerce operating system",
+      "automationId": "north-pearl-lead-daily-ecommerce-coordination",
+      "reportPrefix": "lead-daily-ecommerce-coordination",
+      "expectedHour": 16,
+      "expectedMinute": 0,
+      "owns": "Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.",
+      "automation": {
+        "active": true,
+        "name": "North & Pearl Lead Daily Ecommerce Coordination",
+        "rrule": "FREQ=DAILY;BYHOUR=16;BYMINUTE=0;BYSECOND=0",
+        "model": "gpt-5.5",
+        "file": "/Users/yagneshtank/.codex/automations/north-pearl-lead-daily-ecommerce-coordination/automation.toml"
+      },
+      "latest": {
+        "file": "lead-daily-ecommerce-coordination-2026-07-28.md",
+        "path": "reports/lead-daily-ecommerce-coordination-2026-07-28.md",
+        "mtime": "2026-07-28T20:03:53.285Z"
+      },
+      "todayReport": {
+        "file": "lead-daily-ecommerce-coordination-2026-07-28.md",
+        "path": "reports/lead-daily-ecommerce-coordination-2026-07-28.md",
+        "mtime": "2026-07-28T20:03:53.285Z"
+      },
+      "status": "Working"
+    }
+  ]
+}

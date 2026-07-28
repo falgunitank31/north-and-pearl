@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T03:15:54.932Z",
+  "generatedAt": "2026-07-28T03:33:21.406Z",
   "productCount": 254,
   "activeProductCount": 208,
   "activeProductsWithUsableImages": 208,
@@ -19,79 +19,79 @@
       "title": "Necklaces",
       "handle": "necklaces",
       "productCount": 150,
-      "hasImage": false
+      "hasImage": true
     },
     {
       "title": "Name Necklaces",
       "handle": "name-necklaces",
       "productCount": 111,
-      "hasImage": false
+      "hasImage": true
     },
     {
       "title": "Initial Necklaces",
       "handle": "initial-necklaces",
       "productCount": 76,
-      "hasImage": false
+      "hasImage": true
     },
     {
       "title": "New Arrivals",
       "handle": "new-arrivals",
       "productCount": 64,
-      "hasImage": false
+      "hasImage": true
     },
     {
       "title": "Bracelets",
       "handle": "bracelets",
       "productCount": 57,
-      "hasImage": false
+      "hasImage": true
     },
     {
       "title": "Gifts",
       "handle": "gifts",
       "productCount": 56,
-      "hasImage": false
+      "hasImage": true
     },
     {
       "title": "Mother's Collection",
       "handle": "mothers-collection",
       "productCount": 34,
-      "hasImage": false
+      "hasImage": true
     },
     {
       "title": "Wedding & Bridesmaids",
       "handle": "wedding-bridesmaids",
       "productCount": 33,
-      "hasImage": false
+      "hasImage": true
     },
     {
       "title": "Couple Jewelry",
       "handle": "couple-jewelry",
       "productCount": 28,
-      "hasImage": false
+      "hasImage": true
     },
     {
       "title": "Earrings",
       "handle": "earrings",
       "productCount": 23,
-      "hasImage": false
+      "hasImage": true
     },
     {
       "title": "Rings",
       "handle": "rings",
       "productCount": 15,
-      "hasImage": false
+      "hasImage": true
     },
     {
       "title": "Best Sellers",
       "handle": "best-sellers",
       "productCount": 12,
-      "hasImage": false
+      "hasImage": true
     },
     {
       "title": "Birthstone Jewelry",
       "handle": "birthstone-jewelry",
       "productCount": 8,
-      "hasImage": false
+      "hasImage": true
     }
   ],
   "sampleActiveProducts": [

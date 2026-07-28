@@ -82,6 +82,9 @@
           {%- liquid
             assign category_collection = block.settings.collection
             assign category_image = block.settings.image
+            if category_image == blank and category_collection.featured_image
+              assign category_image = category_collection.featured_image
+            endif
             if category_image == blank and category_collection.products.first.featured_media
               assign category_image = category_collection.products.first.featured_media
             endif
@@ -157,6 +160,9 @@
           {%- liquid
             assign occasion_collection = block.settings.collection
             assign occasion_image = block.settings.image
+            if occasion_image == blank and occasion_collection.featured_image
+              assign occasion_image = occasion_collection.featured_image
+            endif
             if occasion_image == blank and occasion_collection.products.first.featured_media
               assign occasion_image = occasion_collection.products.first.featured_media
             endif

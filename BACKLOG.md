@@ -19,13 +19,12 @@
 - Review the 10 held products from the Gauss next-100 batch; only activate if source-price risk, image count, and visual QA issues are resolved.
 - Replace exact-source imagery for active products still marked acceptable temporary where higher-resolution same-product supplier images are available and source pages can be accessed without CAPTCHA/protection.
 - Re-score Best Sellers once real Shopify sales, add-to-cart, and product-view data is meaningful; current collection is a curated launch edit.
-- Improve collection images for customer-facing collection cards once exact product/category images are chosen; all 13 populated collections currently rely on products rather than collection-level images.
 
 ## P3
 
 - Improve Search Console indexing coverage for priority commercial and guide URLs once the Google UI/CAPTCHA dependency is cleared.
 - Enrich Faraday baseline with Search Console/GA4/PageSpeed API data once Codex SEO Google credentials are configured.
-- Add more refined collection image standards once final product photography is available.
+- Add more refined collection image standards once final product photography is available; all 13 populated commercial collections currently have representative collection images from live product media.
 - Build repeatable weekly reporting and experiment review cadence.
 - Expand organic content only where a commercial page and product path exist.
 - Continue lightweight live title/meta validation in small batches to avoid Shopify 429 rate limiting.

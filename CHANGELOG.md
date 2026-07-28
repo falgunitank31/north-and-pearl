@@ -10,6 +10,8 @@
 - Polished generic active product titles flagged by Faraday's product SEO audit.
 - Revalidated Merchant Center readiness: 208 active products ready with identifier caveat, 0 needing review.
 - Revalidated live storefront QA: 208/208 active product pages passed and add-to-cart passed.
+- Added featured images to all 13 populated commercial collections and updated homepage category/occasion cards to prefer collection imagery.
+- Pushed the homepage collection-image logic to live theme `189441802424` after Theme Check passed with no offenses.
 
 ## July 27, 2026
 

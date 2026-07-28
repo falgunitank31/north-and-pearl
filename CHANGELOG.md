@@ -1,5 +1,16 @@
 # Changelog
 
+## July 28, 2026
+
+- Expanded the live catalog from 118 to 208 active products after Gauss launch-review gating.
+- Curated Gifts from 156 products to 56 active gift-intent products.
+- Curated New Arrivals from 222 products to 64 active launch-ready products.
+- Rebalanced Best Sellers as a 12-product curated launch edit.
+- Removed exact duplicate active product titles across 20 duplicate-title groups.
+- Polished generic active product titles flagged by Faraday's product SEO audit.
+- Revalidated Merchant Center readiness: 208 active products ready with identifier caveat, 0 needing review.
+- Revalidated live storefront QA: 208/208 active product pages passed and add-to-cart passed.
+
 ## July 27, 2026
 
 - Installed Codex SEO `v1.9.6-codex.5` as Faraday's subordinate SEO toolkit without replacing North & Pearl governance.

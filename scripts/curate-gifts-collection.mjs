@@ -5,7 +5,8 @@ import { join } from 'node:path';
 
 const store = 'q4ydix-w1.myshopify.com';
 const tempDir = mkdtempSync(join(tmpdir(), 'np-gifts-curation-'));
-const reportPath = 'reports/gifts-merchandising-curation-2026-07-27.md';
+const today = new Date().toISOString().slice(0, 10);
+const reportPath = `reports/gifts-merchandising-curation-${today}.md`;
 
 const giftCollectionHandle = 'gifts';
 const targetSize = 56;
@@ -151,23 +152,25 @@ const currentIds = new Set(currentGiftProducts.map((product) => product.id));
 const remove = currentGiftProducts.filter((product) => !keepIds.has(product.id));
 const add = keep.filter((product) => !currentIds.has(product.id));
 
-if (remove.length) {
+for (let index = 0; index < remove.length; index += 50) {
+  const chunk = remove.slice(index, index + 50);
   const result = gql(
     `mutation RemoveFromGifts($id: ID!, $productIds: [ID!]!) {
       collectionRemoveProducts(id: $id, productIds: $productIds) { userErrors { field message } }
     }`,
-    { id: giftCollection.id, productIds: remove.map((product) => product.id) },
+    { id: giftCollection.id, productIds: chunk.map((product) => product.id) },
     true,
   ).collectionRemoveProducts;
   if (result.userErrors.length) throw new Error(`Remove errors: ${JSON.stringify(result.userErrors)}`);
 }
 
-if (add.length) {
+for (let index = 0; index < add.length; index += 50) {
+  const chunk = add.slice(index, index + 50);
   const result = gql(
     `mutation AddToGifts($id: ID!, $productIds: [ID!]!) {
       collectionAddProducts(id: $id, productIds: $productIds) { userErrors { field message } }
     }`,
-    { id: giftCollection.id, productIds: add.map((product) => product.id) },
+    { id: giftCollection.id, productIds: chunk.map((product) => product.id) },
     true,
   ).collectionAddProducts;
   const realErrors = result.userErrors.filter((error) => !error.message.includes('already exists'));
@@ -179,7 +182,7 @@ const activeNext = nextGiftProducts.filter((product) => product.status === 'ACTI
 
 const report = `# Gifts Merchandising Curation
 
-Date: 2026-07-27
+Date: ${today}
 
 ## Summary
 

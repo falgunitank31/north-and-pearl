@@ -60,6 +60,14 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Re-ran active product claim scan; 208 active products scanned, 0 unsupported/internal claim hits.
 - [x] Re-ran Merchant Center readiness; 208 active products ready with identifier caveat, 0 needing review.
 - [x] Re-ran live storefront QA after catalog expansion and cleanup; 208/208 product pages passed and cart add passed.
+- [x] Re-curated Gifts after the 100-product expansion; narrowed live Gifts from 156 products to 56 active gift-intent products.
+- [x] Re-curated New Arrivals after the 100-product expansion; narrowed live New Arrivals from 222 products to 64 active launch-ready products.
+- [x] Re-curated Best Sellers after the expansion; maintained 12-product curated launch edit with stronger image/gift relevance.
+- [x] Cleaned exact duplicate active product titles; 20 duplicate-title groups reduced to 0 duplicate active titles.
+- [x] Polished 17 generic active product titles flagged by Faraday's SEO audit.
+- [x] Re-ran product SEO audit; 208 active products now score 100 with 0 detected issues.
+- [x] Re-ran Merchant Center readiness after curation/title polish; 208 active products ready with identifier caveat, 0 needing review.
+- [x] Re-ran live storefront QA after curation/title polish; 208/208 product pages passed and cart add passed.
 - [ ] Search Console indexing requests remain blocked by Google UI/CAPTCHA dependency.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 

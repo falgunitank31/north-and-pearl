@@ -6,10 +6,10 @@ Date: 2026-07-27
 
 - Agent owners: Lead Orchestrator, Gauss, Kuhn, Faraday, Tesla.
 - Collection: Best Sellers (`best-sellers`)
-- Starting products: 5
+- Starting products: 12
 - Target curated products: 12
-- Products removed from collection only: 3
-- Products added to collection: 10
+- Products removed from collection only: 2
+- Products added to collection: 2
 - Products now in collection: 12
 
 ## Important Note
@@ -28,8 +28,8 @@ North & Pearl does not yet have enough verified sales data to treat this as a tr
 8. North & Pearl Flower Jewelry Set (`north-pearl-flower-jewelry-set`) — score 178
 9. North & Pearl Iridescent Pendant Necklace (`north-pearl-iridescent-pendant-necklace`) — score 178
 10. North & Pearl Initial Shell Necklace (`north-pearl-initial-shell-necklace`) — score 165
-11. North & Pearl Heart Bracelet (`north-pearl-heart-bracelet`) — score 92
-12. North & Pearl Heart Ring (`north-pearl-heart-ring`) — score 92
+11. North & Pearl Dainty Heart Necklace (`north-pearl-heart-necklace-9715`) — score 92
+12. North & Pearl Dainty Heart Necklace (`north-pearl-heart-necklace-3910`) — score 92
 
 ## Risk And Rollback
 

@@ -49,6 +49,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Add global WebPage schema from the baseline P1 schema finding.
 - [x] Shorten sampled commercial title/meta snippets for products, core collections, and AI Brand Information through theme-level overrides.
 - [x] Re-run Merchant Center readiness after Faraday fixes; 118 active products ready with identifier caveat, 0 needing review.
+- [x] Revalidate public product meta/body cleanup after Shopify storefront cache refresh; sampled stale product source now clean and 118/118 live storefront QA passed.
 - [ ] Search Console indexing requests remain blocked by Google UI/CAPTCHA dependency.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 

@@ -67,6 +67,18 @@ Purpose: keep the organic marketing lane visible and execution-focused.
 - Verified 15 priority URLs are live, canonical, and indexable by default before Search Console URL Inspection.
 - Next Faraday priorities: add live guide URLs to the Search Console inspection queue, re-check GA4 `add_to_cart`, polish top active product images, and use GA4/Search Console data only after verified data exists.
 
+## 2026-07-28 Execution Notes
+
+- Report created: `reports/faraday-daily-marketing-2026-07-28.md`.
+- Live browser-style checks returned `200` for the homepage, sitemap index, robots.txt, Gifts, Name Necklaces, Initial Necklaces, Birthstone Jewelry, Mother's Collection, Wedding & Bridesmaids, Personalized Jewelry Guide, Jewelry Care Guide, AI Brand Information, and three live product URLs.
+- Product, page, collection, and blog sitemaps were reachable; the product sitemap showed 2026-07-28 `lastmod` values for live product URLs.
+- Live source checks confirmed canonical URLs, meta descriptions, JSON-LD script presence, Google site verification meta, and Shopify Google pixel configuration for `G-14KCZE935H` on sampled priority surfaces.
+- Gifts collection live source includes brand/product descriptive image alt text on product cards.
+- Created organic Pinterest/social draft batch: `content/seo/organic-pinterest-drafts-2026-07-28.md`.
+- Existing uncommitted collection UX/theme work was preserved and not edited by Faraday.
+- Search Console metrics, rankings, URL Inspection results, GA4 revenue, purchase events, newsletter signup attribution, and full organic attribution remain UNKNOWN until Rawls/account-side access confirms them.
+- Next Faraday priorities: re-check GA4 `add_to_cart` and signup events, inspect P0 URLs in Search Console when access is available, continue product image-alt/product-fact QA, and route July 28 drafts to Kuhn for product-forward creative.
+
 ## Daily Completion Rule
 
 Faraday must leave a dated report in `reports/`. If a live check or API call is blocked, the report must still state what was attempted, what failed, and the next recovery action.

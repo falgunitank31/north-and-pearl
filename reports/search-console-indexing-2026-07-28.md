@@ -16,6 +16,10 @@ Search Console URL Inspection was executed for North & Pearl using the verified 
 | `https://northandpearl.com/collections/new-arrivals` | URL is not on Google | Indexing requested |
 | `https://northandpearl.com/collections/name-necklaces` | URL is on Google | Indexing requested |
 | `https://northandpearl.com/collections/necklaces` | URL is not on Google | Indexing requested |
+| `https://northandpearl.com/pages/ai-brand-information` | Batch processed | Indexing requested |
+| `https://northandpearl.com/collections/bracelets` | Batch processed | Indexing requested |
+| `https://northandpearl.com/collections/rings` | Batch processed | Indexing requested |
+| `https://northandpearl.com/collections/earrings` | URL is on Google | Indexing requested |
 
 ## Corrected URL Issue
 
@@ -35,7 +39,7 @@ Validation:
 - Correct `/blogs/gift-guide/...` URL: `200`
 - Correct URL status in Search Console: URL is on Google
 
-## Current Blocker
+## Remaining Optional Recrawl
 
 Google reCAPTCHA appeared while requesting a fresh recrawl for the correct gift-guide URL:
 
@@ -43,12 +47,8 @@ Google reCAPTCHA appeared while requesting a fresh recrawl for the correct gift-
 
 The page is already on Google, so this is a recrawl-priority blocker rather than an indexing eligibility blocker.
 
-## Next URLs After CAPTCHA
+## Remaining URLs
 
-- `https://northandpearl.com/pages/ai-brand-information`
-- `https://northandpearl.com/collections/bracelets`
-- `https://northandpearl.com/collections/rings`
-- `https://northandpearl.com/collections/earrings`
 - `https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her` fresh recrawl after CAPTCHA
 
 ## Notes

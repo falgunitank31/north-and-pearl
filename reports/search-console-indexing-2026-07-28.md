@@ -20,6 +20,7 @@ Search Console URL Inspection was executed for North & Pearl using the verified 
 | `https://northandpearl.com/collections/bracelets` | Batch processed | Indexing requested |
 | `https://northandpearl.com/collections/rings` | Batch processed | Indexing requested |
 | `https://northandpearl.com/collections/earrings` | URL is on Google | Indexing requested |
+| `https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her` | URL is on Google | Fresh recrawl requested |
 
 ## Corrected URL Issue
 
@@ -39,17 +40,17 @@ Validation:
 - Correct `/blogs/gift-guide/...` URL: `200`
 - Correct URL status in Search Console: URL is on Google
 
-## Remaining Optional Recrawl
+## Corrected Gift-Guide Recrawl
 
-Google reCAPTCHA appeared while requesting a fresh recrawl for the correct gift-guide URL:
+The correct gift-guide URL was inspected and confirmed as already on Google:
 
 - `https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her`
 
-The page is already on Google, so this is a recrawl-priority blocker rather than an indexing eligibility blocker.
+Fresh recrawl request was accepted after the homepage link fix.
 
 ## Remaining URLs
 
-- `https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her` fresh recrawl after CAPTCHA
+- None in the current priority Search Console indexing batch.
 
 ## Notes
 

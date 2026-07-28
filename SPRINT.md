@@ -84,7 +84,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Requested Search Console indexing for Necklaces after retrying the cleared CAPTCHA state.
 - [x] Fixed a homepage gift-guide link that pointed to a 404 `/blogs/news/...` path instead of the live `/blogs/gift-guide/...` article.
 - [x] Requested Search Console indexing for AI Brand Information, Bracelets, Rings, and Earrings.
-- [ ] Optional fresh recrawl request for the correct gift-guide URL remains gated by Google reCAPTCHA; the correct URL is already on Google.
+- [x] Requested fresh Search Console recrawl for the correct gift-guide URL after confirming it is already on Google.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

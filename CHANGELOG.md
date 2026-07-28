@@ -14,6 +14,8 @@
 - Pushed the homepage collection-image logic to live theme `189441802424` after Theme Check passed with no offenses.
 - Upgraded collection-page UX with stronger editorial hero styling, collection metadata, quicklinks, and a commerce reassurance bar above the product grid.
 - Revalidated priority collection pages, main menu structure, Merchant readiness, product SEO audit, and full live storefront QA after collection-page changes.
+- Improved reusable product-card styling across merchandising surfaces with refined media wells, cleaner hierarchy, tighter mobile spacing, and restrained highlight chips.
+- Re-ran Theme Check and full live storefront QA after product-card polish; all 208 active product pages passed and cart add passed.
 
 ## July 27, 2026
 

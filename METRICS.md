@@ -34,3 +34,5 @@
 - Commercial organic landing-page baseline: six new buyer-intent collections were created on July 28, 2026. Treat first meaningful evaluation window as 7-14 days after Search Console indexing and GA4 traffic are visible for those URLs.
 - Buyer-intent collection URLs to monitor: `/collections/personalized-jewelry`, `/collections/jewelry-gifts-for-her`, `/collections/gifts-under-50`, `/collections/gifts-under-100`, `/collections/birthday-jewelry-gifts`, `/collections/anniversary-gifts`.
 - Revenue/order baseline: not recorded in this repository yet.
+- Lead order-readiness score: 82/100 as of July 28, 2026. Storefront/catalog/conversion paths are guarded-green; traffic, Merchant Center/account setup, purchase-event verification, and final operations decisions remain gating items.
+- Source-image polish baseline: 115 of 208 active products are below the preferred media standard; 106 have source-reference tags and 9 are missing usable source-reference tags in the latest source-image audit.

@@ -13,6 +13,8 @@
 - Faraday/Rawls must treat traffic generation as the current growth bottleneck: GA4 is receiving data, but the visible last-7-days overview shows Direct-only traffic and no visible organic channel yet.
 - Request Search Console indexing for the six new buyer-intent collections when browser CAPTCHA/session state allows: Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts.
 - Monitor the new buyer-intent collections for impressions, clicks, collection views, product clicks, add-to-cart activity, and revenue once Search Console/GA4 data accumulates.
+- Rawls must verify `add_to_cart`, newsletter signup, checkout-start, and purchase event receipt from account-side reports or an approved test-order workflow before any conversion-performance claim.
+- Lovelace and the owner must finalize shipping, returns, support, fulfillment, and personalized/custom order rules before paid acquisition or stronger operational copy.
 
 ## P2
 
@@ -22,6 +24,7 @@
 - Review the 90-product live expansion by category after 7-14 days of traffic; demote or revise products with weak views/add-to-carts once data is meaningful.
 - Review the 10 held products from the Gauss next-100 batch; only activate if source-price risk, image count, and visual QA issues are resolved.
 - Replace exact-source imagery for active products still marked acceptable temporary where higher-resolution same-product supplier images are available and source pages can be accessed without CAPTCHA/protection. If recovered source media reveals a catalog mismatch, repair title/type/collections before any image replacement.
+- Recover source references for the 9 below-threshold active products missing usable source-reference tags before attempting media replacement.
 - Re-score Best Sellers once real Shopify sales, add-to-cart, and product-view data is meaningful; current collection is a curated launch edit.
 
 ## P3

@@ -99,6 +99,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Updated homepage and collection guide link sections to send shoppers toward buyer-intent product grids instead of mostly informational pages.
 - [x] Re-ran Theme Check after the Faraday theme link update; 198 files inspected with no offenses found.
 - [x] Pushed the Faraday theme link update to live theme `189441802424`.
+- [x] Lead Orchestrator completed the July 28 daily ecommerce coordination pass; current order-readiness score is 82/100 with no verified P0s, P1 focus on measurement, Merchant Center/account setup, Search Console indexing, and operations decisions.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

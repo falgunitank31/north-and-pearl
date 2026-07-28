@@ -81,7 +81,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Re-ran Theme Check after product-card polish; 197 files inspected with no offenses found.
 - [x] Pushed product-card polish to live theme 189441802424 and re-ran live storefront QA; 208/208 product pages passed and cart add passed.
 - [x] Requested Search Console indexing for homepage, Best Sellers, Gifts, New Arrivals, and Name Necklaces.
-- [ ] Continue Search Console indexing after owner completes Google reCAPTCHA on the Necklaces URL inspection request.
+- [x] Requested Search Console indexing for Necklaces after retrying the cleared CAPTCHA state.
+- [x] Fixed a homepage gift-guide link that pointed to a 404 `/blogs/news/...` path instead of the live `/blogs/gift-guide/...` article.
+- [ ] Continue Search Console fresh recrawl request for the correct gift-guide URL after Google reCAPTCHA clears; the correct URL is already on Google.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

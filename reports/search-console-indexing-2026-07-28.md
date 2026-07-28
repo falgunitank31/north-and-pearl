@@ -15,23 +15,41 @@ Search Console URL Inspection was executed for North & Pearl using the verified 
 | `https://northandpearl.com/collections/gifts` | URL is not on Google | Indexing requested |
 | `https://northandpearl.com/collections/new-arrivals` | URL is not on Google | Indexing requested |
 | `https://northandpearl.com/collections/name-necklaces` | URL is on Google | Indexing requested |
+| `https://northandpearl.com/collections/necklaces` | URL is not on Google | Indexing requested |
+
+## Corrected URL Issue
+
+The originally queued URL below returned a live Google Inspection 404 and was rejected:
+
+- `https://northandpearl.com/blogs/news/best-personalized-jewelry-gifts-for-her`
+
+Root cause: homepage linked to `/blogs/news/...` while the live article exists under `/blogs/gift-guide/...`.
+
+Fix applied: homepage link updated to:
+
+- `https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her`
+
+Validation:
+
+- Incorrect `/blogs/news/...` URL: `404`
+- Correct `/blogs/gift-guide/...` URL: `200`
+- Correct URL status in Search Console: URL is on Google
 
 ## Current Blocker
 
-Google reCAPTCHA appeared during the request for:
+Google reCAPTCHA appeared while requesting a fresh recrawl for the correct gift-guide URL:
 
-- `https://northandpearl.com/collections/necklaces`
+- `https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her`
 
-The browser is open on the Search Console URL Inspection screen for owner verification.
+The page is already on Google, so this is a recrawl-priority blocker rather than an indexing eligibility blocker.
 
 ## Next URLs After CAPTCHA
 
-- `https://northandpearl.com/collections/necklaces`
 - `https://northandpearl.com/pages/ai-brand-information`
 - `https://northandpearl.com/collections/bracelets`
 - `https://northandpearl.com/collections/rings`
 - `https://northandpearl.com/collections/earrings`
-- `https://northandpearl.com/blogs/news/best-personalized-jewelry-gifts-for-her`
+- `https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her` fresh recrawl after CAPTCHA
 
 ## Notes
 

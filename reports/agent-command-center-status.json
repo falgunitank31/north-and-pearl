@@ -1,122 +1,168 @@
 {
   "summary": {
-    "generatedAt": "2026-07-28T21:31:19.128Z",
-    "activeAutomations": 6,
-    "workingToday": 1,
-    "needsUpdate": 5
+    "generatedAt": "2026-07-29T17:41:59.820Z",
+    "sameThreadAutomationActive": true,
+    "activeAutomations": 1,
+    "workingToday": 5,
+    "needsUpdate": 0
   },
   "agents": [
     {
       "name": "Faraday",
       "lane": "Organic growth",
-      "automationId": "north-pearl-faraday-daily-traffic-and-orders-sprint",
-      "reportPrefix": "faraday-daily-traffic-orders",
-      "expectedHour": 9,
-      "expectedMinute": 30,
+      "reportPrefixes": [
+        "faraday-daily-traffic-orders",
+        "faraday-daily-marketing",
+        "faraday-traffic-visibility-check",
+        "faraday-buyer-intent-collections"
+      ],
       "owns": "SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.",
-      "automation": {
-        "active": true,
-        "name": "North & Pearl Faraday Daily Traffic And Orders Sprint",
-        "rrule": "FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0",
-        "model": "gpt-5.5",
-        "file": "/Users/yagneshtank/.codex/automations/north-pearl-faraday-daily-traffic-and-orders-sprint/automation.toml"
+      "latest": {
+        "file": "faraday-daily-traffic-orders-2026-07-29.md",
+        "path": "reports/faraday-daily-traffic-orders-2026-07-29.md",
+        "mtime": "2026-07-29T17:35:31.540Z"
       },
-      "status": "Needs Update"
+      "todayReport": {
+        "file": "faraday-daily-traffic-orders-2026-07-29.md",
+        "path": "reports/faraday-daily-traffic-orders-2026-07-29.md",
+        "mtime": "2026-07-29T17:35:31.540Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Gauss",
       "lane": "Product and merchandising",
-      "automationId": "north-pearl-gauss-daily-product-catalog-growth",
-      "reportPrefix": "gauss-daily-catalog-growth",
-      "expectedHour": 10,
-      "expectedMinute": 0,
+      "reportPrefixes": [
+        "gauss-daily-catalog-growth",
+        "gauss-next-100",
+        "gauss-market-category-review",
+        "gauss-catalog-qa"
+      ],
       "owns": "Daily product additions, category balance, product source traceability, catalog hygiene.",
-      "automation": {
-        "active": true,
-        "name": "North & Pearl Gauss Daily Product Catalog Growth",
-        "rrule": "FREQ=DAILY;BYHOUR=10;BYMINUTE=0;BYSECOND=0",
-        "model": "gpt-5.5",
-        "file": "/Users/yagneshtank/.codex/automations/north-pearl-gauss-daily-product-catalog-growth/automation.toml"
+      "latest": {
+        "file": "gauss-daily-catalog-growth-2026-07-29.md",
+        "path": "reports/gauss-daily-catalog-growth-2026-07-29.md",
+        "mtime": "2026-07-29T17:38:40.036Z"
       },
-      "status": "Needs Update"
+      "todayReport": {
+        "file": "gauss-daily-catalog-growth-2026-07-29.md",
+        "path": "reports/gauss-daily-catalog-growth-2026-07-29.md",
+        "mtime": "2026-07-29T17:38:40.036Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Tesla",
       "lane": "Shopify engineering",
-      "automationId": "north-pearl-tesla-daily-storefront-qa",
-      "reportPrefix": "tesla-daily-storefront-qa",
-      "expectedHour": 11,
-      "expectedMinute": 0,
+      "reportPrefixes": [
+        "tesla-daily-storefront-qa",
+        "tesla-storefront-qa",
+        "live-storefront-qa"
+      ],
       "owns": "Theme code, QA, cart, search, mobile, performance, accessibility, Shopify CLI.",
-      "automation": {
-        "active": true,
-        "name": "North & Pearl Tesla Daily Storefront QA",
-        "rrule": "FREQ=DAILY;BYHOUR=11;BYMINUTE=0;BYSECOND=0",
-        "model": "gpt-5.5",
-        "file": "/Users/yagneshtank/.codex/automations/north-pearl-tesla-daily-storefront-qa/automation.toml"
+      "latest": {
+        "file": "live-storefront-qa-2026-07-29.md",
+        "path": "reports/live-storefront-qa-2026-07-29.md",
+        "mtime": "2026-07-29T17:37:47.893Z"
       },
-      "status": "Needs Update"
+      "todayReport": {
+        "file": "live-storefront-qa-2026-07-29.md",
+        "path": "reports/live-storefront-qa-2026-07-29.md",
+        "mtime": "2026-07-29T17:37:47.893Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Rawls",
       "lane": "Analytics and data",
-      "automationId": "north-pearl-rawls-daily-analytics-watch",
-      "reportPrefix": "rawls-daily-analytics-watch",
-      "expectedHour": 12,
-      "expectedMinute": 0,
+      "reportPrefixes": [
+        "rawls-daily-analytics-watch",
+        "rawls-measurement-readiness",
+        "organic-measurement-qa"
+      ],
       "owns": "GA4, Search Console, Shopify analytics, KPI measurement, funnel diagnosis.",
-      "automation": {
-        "active": true,
-        "name": "North & Pearl Rawls Daily Analytics Watch",
-        "rrule": "FREQ=DAILY;BYHOUR=12;BYMINUTE=0;BYSECOND=0",
-        "model": "gpt-5.5",
-        "file": "/Users/yagneshtank/.codex/automations/north-pearl-rawls-daily-analytics-watch/automation.toml"
+      "latest": {
+        "file": "rawls-daily-analytics-watch-2026-07-29.md",
+        "path": "reports/rawls-daily-analytics-watch-2026-07-29.md",
+        "mtime": "2026-07-29T17:34:00.796Z"
       },
-      "status": "Needs Update"
+      "todayReport": {
+        "file": "rawls-daily-analytics-watch-2026-07-29.md",
+        "path": "reports/rawls-daily-analytics-watch-2026-07-29.md",
+        "mtime": "2026-07-29T17:34:00.796Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Lovelace",
       "lane": "Operations and order sourcing",
-      "automationId": "north-pearl-lovelace-daily-order-source-monitor",
-      "reportPrefix": "lovelace-daily-order-source-monitor",
-      "expectedHour": 13,
-      "expectedMinute": 0,
+      "reportPrefixes": [
+        "lovelace-daily-order-source-monitor",
+        "lovelace-merchant-center-shipping-blocker",
+        "operations-readiness-audit"
+      ],
       "owns": "Order-source mapping, Alibaba source URLs, fulfillment readiness, shipping/returns safety.",
-      "automation": {
-        "active": true,
-        "name": "North & Pearl Lovelace Daily Order Source Monitor",
-        "rrule": "FREQ=DAILY;BYHOUR=13;BYMINUTE=0;BYSECOND=0",
-        "model": "gpt-5.5",
-        "file": "/Users/yagneshtank/.codex/automations/north-pearl-lovelace-daily-order-source-monitor/automation.toml"
+      "latest": {
+        "file": "lovelace-daily-order-source-monitor-2026-07-29.md",
+        "path": "reports/lovelace-daily-order-source-monitor-2026-07-29.md",
+        "mtime": "2026-07-29T17:34:58.893Z"
       },
-      "status": "Needs Update"
+      "todayReport": {
+        "file": "lovelace-daily-order-source-monitor-2026-07-29.md",
+        "path": "reports/lovelace-daily-order-source-monitor-2026-07-29.md",
+        "mtime": "2026-07-29T17:34:58.893Z"
+      },
+      "status": "Updated Today"
+    },
+    {
+      "name": "Kuhn",
+      "lane": "Ecommerce design and brand",
+      "reportPrefixes": [
+        "kuhn-daily-design-qa",
+        "kuhn-product-visual-standard",
+        "homepage-commerce-redesign",
+        "world-class-ecommerce-remediation"
+      ],
+      "owns": "Premium jewelry UX, visual QA, product imagery presentation, homepage/collection/PDP polish.",
+      "latest": {
+        "file": "world-class-ecommerce-remediation-2026-07-24.md",
+        "path": "reports/world-class-ecommerce-remediation-2026-07-24.md",
+        "mtime": "2026-07-24T13:07:14.127Z"
+      },
+      "status": "Waiting In Thread"
+    },
+    {
+      "name": "Curie",
+      "lane": "Supplier and claim safety",
+      "reportPrefixes": [
+        "curie-daily-source-claim-safety",
+        "source-image-opportunities",
+        "alibaba-source-media-access",
+        "source-media-blocker-repair"
+      ],
+      "owns": "Supplier/source evidence, Alibaba traceability, claim safety, product-quality risk.",
+      "latest": {
+        "file": "source-image-opportunities-2026-07-27.md",
+        "path": "reports/source-image-opportunities-2026-07-27.md",
+        "mtime": "2026-07-28T20:02:36.346Z"
+      },
+      "status": "Waiting In Thread"
     },
     {
       "name": "Lead Orchestrator",
       "lane": "Ecommerce operating system",
-      "automationId": "north-pearl-lead-daily-ecommerce-coordination",
-      "reportPrefix": "lead-daily-ecommerce-coordination",
-      "expectedHour": 16,
-      "expectedMinute": 0,
+      "reportPrefixes": [
+        "lead-daily-ecommerce-coordination",
+        "lead-orchestrator-daily-execution",
+        "daily-orchestration-sprint"
+      ],
       "owns": "Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.",
-      "automation": {
-        "active": true,
-        "name": "North & Pearl Lead Daily Ecommerce Coordination",
-        "rrule": "FREQ=DAILY;BYHOUR=16;BYMINUTE=0;BYSECOND=0",
-        "model": "gpt-5.5",
-        "file": "/Users/yagneshtank/.codex/automations/north-pearl-lead-daily-ecommerce-coordination/automation.toml"
-      },
       "latest": {
         "file": "lead-daily-ecommerce-coordination-2026-07-28.md",
         "path": "reports/lead-daily-ecommerce-coordination-2026-07-28.md",
         "mtime": "2026-07-28T20:03:53.285Z"
       },
-      "todayReport": {
-        "file": "lead-daily-ecommerce-coordination-2026-07-28.md",
-        "path": "reports/lead-daily-ecommerce-coordination-2026-07-28.md",
-        "mtime": "2026-07-28T20:03:53.285Z"
-      },
-      "status": "Working"
+      "status": "Waiting In Thread"
     }
   ]
 }

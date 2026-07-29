@@ -85,9 +85,9 @@
       font-size: 13px;
       border: 1px solid currentColor;
     }
-    .working { color: var(--green); background: #eef8f2; }
-    .scheduled-today, .no-report-yet { color: var(--amber); background: #fff7e5; }
-    .needs-update, .not-scheduled { color: var(--red); background: #fff0ef; }
+    .updated-today { color: var(--green); background: #eef8f2; }
+    .waiting-in-thread { color: var(--amber); background: #fff7e5; }
+    .no-report-yet, .not-scheduled { color: var(--red); background: #fff0ef; }
     dl { display: grid; gap: 6px; margin: 0; }
     dt { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
     dd { margin: 0 0 8px; }
@@ -105,13 +105,13 @@
     <header>
       <div class="kicker">North & Pearl</div>
       <h1>Agent Command Center</h1>
-      <p class="sub">Daily operating view for the North & Pearl ecommerce team. Status is based on active Codex automations and whether each lane has produced today’s expected report.</p>
+      <p class="sub">Daily operating view for the North & Pearl ecommerce team. Agents now run as responsibility lanes inside the same thread through one heartbeat, so this dashboard tracks lane evidence without creating separate Codex chats.</p>
     </header>
 
     <section class="stats" aria-label="Agent status summary">
-      <div class="stat"><strong>6</strong><span>Active scheduled agents</span></div>
-      <div class="stat"><strong>1</strong><span>Reported today</span></div>
-      <div class="stat"><strong>5</strong><span>Need update</span></div>
+      <div class="stat"><strong>1</strong><span>Same-thread heartbeat</span></div>
+      <div class="stat"><strong>5</strong><span>Lanes updated today</span></div>
+      <div class="stat"><strong>0</strong><span>Lanes with no report yet</span></div>
     </section>
 
     <section class="grid" aria-label="Agent lanes">
@@ -124,15 +124,15 @@
           <dl>
             <dt>Owns</dt>
             <dd>SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.</dd>
-            <dt>Schedule</dt>
-            <dd>FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0</dd>
+            <dt>Operating Mode</dt>
+            <dd>Same-thread heartbeat: FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0</dd>
             <dt>Latest Report</dt>
-            <dd><span class="small">No report found yet.</span></dd>
-            <dt>Automation</dt>
-            <dd class="small">North &amp; Pearl Faraday Daily Traffic And Orders Sprint</dd>
+            <dd><a href="../reports/faraday-daily-traffic-orders-2026-07-29.md">faraday-daily-traffic-orders-2026-07-29.md</a></dd>
+            <dt>Thread Rule</dt>
+            <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status needs-update">Needs Update</span>
+            <span class="status updated-today">Updated Today</span>
           </div>
         </article>
       
@@ -144,15 +144,15 @@
           <dl>
             <dt>Owns</dt>
             <dd>Daily product additions, category balance, product source traceability, catalog hygiene.</dd>
-            <dt>Schedule</dt>
-            <dd>FREQ=DAILY;BYHOUR=10;BYMINUTE=0;BYSECOND=0</dd>
+            <dt>Operating Mode</dt>
+            <dd>Same-thread heartbeat: FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0</dd>
             <dt>Latest Report</dt>
-            <dd><span class="small">No report found yet.</span></dd>
-            <dt>Automation</dt>
-            <dd class="small">North &amp; Pearl Gauss Daily Product Catalog Growth</dd>
+            <dd><a href="../reports/gauss-daily-catalog-growth-2026-07-29.md">gauss-daily-catalog-growth-2026-07-29.md</a></dd>
+            <dt>Thread Rule</dt>
+            <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status needs-update">Needs Update</span>
+            <span class="status updated-today">Updated Today</span>
           </div>
         </article>
       
@@ -164,15 +164,15 @@
           <dl>
             <dt>Owns</dt>
             <dd>Theme code, QA, cart, search, mobile, performance, accessibility, Shopify CLI.</dd>
-            <dt>Schedule</dt>
-            <dd>FREQ=DAILY;BYHOUR=11;BYMINUTE=0;BYSECOND=0</dd>
+            <dt>Operating Mode</dt>
+            <dd>Same-thread heartbeat: FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0</dd>
             <dt>Latest Report</dt>
-            <dd><span class="small">No report found yet.</span></dd>
-            <dt>Automation</dt>
-            <dd class="small">North &amp; Pearl Tesla Daily Storefront QA</dd>
+            <dd><a href="../reports/live-storefront-qa-2026-07-29.md">live-storefront-qa-2026-07-29.md</a></dd>
+            <dt>Thread Rule</dt>
+            <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status needs-update">Needs Update</span>
+            <span class="status updated-today">Updated Today</span>
           </div>
         </article>
       
@@ -184,15 +184,15 @@
           <dl>
             <dt>Owns</dt>
             <dd>GA4, Search Console, Shopify analytics, KPI measurement, funnel diagnosis.</dd>
-            <dt>Schedule</dt>
-            <dd>FREQ=DAILY;BYHOUR=12;BYMINUTE=0;BYSECOND=0</dd>
+            <dt>Operating Mode</dt>
+            <dd>Same-thread heartbeat: FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0</dd>
             <dt>Latest Report</dt>
-            <dd><span class="small">No report found yet.</span></dd>
-            <dt>Automation</dt>
-            <dd class="small">North &amp; Pearl Rawls Daily Analytics Watch</dd>
+            <dd><a href="../reports/rawls-daily-analytics-watch-2026-07-29.md">rawls-daily-analytics-watch-2026-07-29.md</a></dd>
+            <dt>Thread Rule</dt>
+            <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status needs-update">Needs Update</span>
+            <span class="status updated-today">Updated Today</span>
           </div>
         </article>
       
@@ -204,15 +204,55 @@
           <dl>
             <dt>Owns</dt>
             <dd>Order-source mapping, Alibaba source URLs, fulfillment readiness, shipping/returns safety.</dd>
-            <dt>Schedule</dt>
-            <dd>FREQ=DAILY;BYHOUR=13;BYMINUTE=0;BYSECOND=0</dd>
+            <dt>Operating Mode</dt>
+            <dd>Same-thread heartbeat: FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0</dd>
             <dt>Latest Report</dt>
-            <dd><span class="small">No report found yet.</span></dd>
-            <dt>Automation</dt>
-            <dd class="small">North &amp; Pearl Lovelace Daily Order Source Monitor</dd>
+            <dd><a href="../reports/lovelace-daily-order-source-monitor-2026-07-29.md">lovelace-daily-order-source-monitor-2026-07-29.md</a></dd>
+            <dt>Thread Rule</dt>
+            <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status needs-update">Needs Update</span>
+            <span class="status updated-today">Updated Today</span>
+          </div>
+        </article>
+      
+        <article class="card">
+          <div>
+            <h2 class="agent-name">Kuhn</h2>
+            <div class="lane">Ecommerce design and brand</div>
+          </div>
+          <dl>
+            <dt>Owns</dt>
+            <dd>Premium jewelry UX, visual QA, product imagery presentation, homepage/collection/PDP polish.</dd>
+            <dt>Operating Mode</dt>
+            <dd>Same-thread heartbeat: FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0</dd>
+            <dt>Latest Report</dt>
+            <dd><a href="../reports/world-class-ecommerce-remediation-2026-07-24.md">world-class-ecommerce-remediation-2026-07-24.md</a></dd>
+            <dt>Thread Rule</dt>
+            <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
+          </dl>
+          <div>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
+          </div>
+        </article>
+      
+        <article class="card">
+          <div>
+            <h2 class="agent-name">Curie</h2>
+            <div class="lane">Supplier and claim safety</div>
+          </div>
+          <dl>
+            <dt>Owns</dt>
+            <dd>Supplier/source evidence, Alibaba traceability, claim safety, product-quality risk.</dd>
+            <dt>Operating Mode</dt>
+            <dd>Same-thread heartbeat: FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0</dd>
+            <dt>Latest Report</dt>
+            <dd><a href="../reports/source-image-opportunities-2026-07-27.md">source-image-opportunities-2026-07-27.md</a></dd>
+            <dt>Thread Rule</dt>
+            <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
+          </dl>
+          <div>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
@@ -224,22 +264,22 @@
           <dl>
             <dt>Owns</dt>
             <dd>Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.</dd>
-            <dt>Schedule</dt>
-            <dd>FREQ=DAILY;BYHOUR=16;BYMINUTE=0;BYSECOND=0</dd>
+            <dt>Operating Mode</dt>
+            <dd>Same-thread heartbeat: FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0</dd>
             <dt>Latest Report</dt>
             <dd><a href="../reports/lead-daily-ecommerce-coordination-2026-07-28.md">lead-daily-ecommerce-coordination-2026-07-28.md</a></dd>
-            <dt>Automation</dt>
-            <dd class="small">North &amp; Pearl Lead Daily Ecommerce Coordination</dd>
+            <dt>Thread Rule</dt>
+            <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status working">Working</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
     </section>
 
     <footer>
-      Generated at 2026-07-28T21:31:19.128Z. Open this file after scheduled runs or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
+      Generated at 2026-07-29T17:41:59.820Z. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
     </footer>
   </main>
 </body>

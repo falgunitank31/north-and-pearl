@@ -4,60 +4,55 @@ import { join } from 'node:path';
 const automationRoot = '/Users/yagneshtank/.codex/automations';
 const now = new Date();
 const today = now.toISOString().slice(0, 10);
+const sameThreadAutomationId = 'north-pearl-same-thread-daily-agent-run';
 
 const agents = [
   {
     name: 'Faraday',
     lane: 'Organic growth',
-    automationId: 'north-pearl-faraday-daily-traffic-and-orders-sprint',
-    reportPrefix: 'faraday-daily-traffic-orders',
-    expectedHour: 9,
-    expectedMinute: 30,
+    reportPrefixes: ['faraday-daily-traffic-orders', 'faraday-daily-marketing', 'faraday-traffic-visibility-check', 'faraday-buyer-intent-collections'],
     owns: 'SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.',
   },
   {
     name: 'Gauss',
     lane: 'Product and merchandising',
-    automationId: 'north-pearl-gauss-daily-product-catalog-growth',
-    reportPrefix: 'gauss-daily-catalog-growth',
-    expectedHour: 10,
-    expectedMinute: 0,
+    reportPrefixes: ['gauss-daily-catalog-growth', 'gauss-next-100', 'gauss-market-category-review', 'gauss-catalog-qa'],
     owns: 'Daily product additions, category balance, product source traceability, catalog hygiene.',
   },
   {
     name: 'Tesla',
     lane: 'Shopify engineering',
-    automationId: 'north-pearl-tesla-daily-storefront-qa',
-    reportPrefix: 'tesla-daily-storefront-qa',
-    expectedHour: 11,
-    expectedMinute: 0,
+    reportPrefixes: ['tesla-daily-storefront-qa', 'tesla-storefront-qa', 'live-storefront-qa'],
     owns: 'Theme code, QA, cart, search, mobile, performance, accessibility, Shopify CLI.',
   },
   {
     name: 'Rawls',
     lane: 'Analytics and data',
-    automationId: 'north-pearl-rawls-daily-analytics-watch',
-    reportPrefix: 'rawls-daily-analytics-watch',
-    expectedHour: 12,
-    expectedMinute: 0,
+    reportPrefixes: ['rawls-daily-analytics-watch', 'rawls-measurement-readiness', 'organic-measurement-qa'],
     owns: 'GA4, Search Console, Shopify analytics, KPI measurement, funnel diagnosis.',
   },
   {
     name: 'Lovelace',
     lane: 'Operations and order sourcing',
-    automationId: 'north-pearl-lovelace-daily-order-source-monitor',
-    reportPrefix: 'lovelace-daily-order-source-monitor',
-    expectedHour: 13,
-    expectedMinute: 0,
+    reportPrefixes: ['lovelace-daily-order-source-monitor', 'lovelace-merchant-center-shipping-blocker', 'operations-readiness-audit'],
     owns: 'Order-source mapping, Alibaba source URLs, fulfillment readiness, shipping/returns safety.',
+  },
+  {
+    name: 'Kuhn',
+    lane: 'Ecommerce design and brand',
+    reportPrefixes: ['kuhn-daily-design-qa', 'kuhn-product-visual-standard', 'homepage-commerce-redesign', 'world-class-ecommerce-remediation'],
+    owns: 'Premium jewelry UX, visual QA, product imagery presentation, homepage/collection/PDP polish.',
+  },
+  {
+    name: 'Curie',
+    lane: 'Supplier and claim safety',
+    reportPrefixes: ['curie-daily-source-claim-safety', 'source-image-opportunities', 'alibaba-source-media-access', 'source-media-blocker-repair'],
+    owns: 'Supplier/source evidence, Alibaba traceability, claim safety, product-quality risk.',
   },
   {
     name: 'Lead Orchestrator',
     lane: 'Ecommerce operating system',
-    automationId: 'north-pearl-lead-daily-ecommerce-coordination',
-    reportPrefix: 'lead-daily-ecommerce-coordination',
-    expectedHour: 16,
-    expectedMinute: 0,
+    reportPrefixes: ['lead-daily-ecommerce-coordination', 'lead-orchestrator-daily-execution', 'daily-orchestration-sprint'],
     owns: 'Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.',
   },
 ];
@@ -67,12 +62,13 @@ function parseTomlValue(text, key) {
   return match?.[1] || '';
 }
 
-function readAutomation(agent) {
-  const file = join(automationRoot, agent.automationId, 'automation.toml');
+function readAutomationById(automationId) {
+  const file = join(automationRoot, automationId, 'automation.toml');
   if (!existsSync(file)) return { active: false, file };
   const text = readFileSync(file, 'utf8');
   return {
     active: parseTomlValue(text, 'status') === 'ACTIVE',
+    kind: parseTomlValue(text, 'kind'),
     name: parseTomlValue(text, 'name'),
     rrule: parseTomlValue(text, 'rrule'),
     model: parseTomlValue(text, 'model'),
@@ -80,10 +76,10 @@ function readAutomation(agent) {
   };
 }
 
-function reportFiles(prefix) {
+function reportFiles(prefixes) {
   if (!existsSync('reports')) return [];
   return readdirSync('reports')
-    .filter((file) => file.startsWith(prefix) && file.endsWith('.md'))
+    .filter((file) => prefixes.some((prefix) => file.startsWith(prefix)) && file.endsWith('.md'))
     .map((file) => {
       const path = join('reports', file);
       const stats = statSync(path);
@@ -92,17 +88,10 @@ function reportFiles(prefix) {
     .sort((a, b) => b.mtime - a.mtime);
 }
 
-function isPastExpected(agent) {
-  const expected = new Date(now);
-  expected.setHours(agent.expectedHour, agent.expectedMinute, 0, 0);
-  return now > expected;
-}
-
-function statusFor(agent, automation, latest, todayReport) {
-  if (!automation.active) return 'Not Scheduled';
-  if (todayReport) return 'Working';
-  if (isPastExpected(agent)) return 'Needs Update';
-  if (latest) return 'Scheduled Today';
+function statusFor(sameThreadAutomation, latest, todayReport) {
+  if (!sameThreadAutomation.active) return 'Not Scheduled';
+  if (todayReport) return 'Updated Today';
+  if (latest) return 'Waiting In Thread';
   return 'No Report Yet';
 }
 
@@ -118,15 +107,15 @@ function esc(value = '') {
     .replaceAll('"', '&quot;');
 }
 
+const sameThreadAutomation = readAutomationById(sameThreadAutomationId);
+
 const rows = agents.map((agent) => {
-  const automation = readAutomation(agent);
-  const reports = reportFiles(agent.reportPrefix);
+  const reports = reportFiles(agent.reportPrefixes);
   const latest = reports[0];
   const todayReport = reports.find((report) => report.file.includes(today));
-  const status = statusFor(agent, automation, latest, todayReport);
+  const status = statusFor(sameThreadAutomation, latest, todayReport);
   return {
     ...agent,
-    automation,
     latest,
     todayReport,
     status,
@@ -135,9 +124,10 @@ const rows = agents.map((agent) => {
 
 const summary = {
   generatedAt: now.toISOString(),
-  activeAutomations: rows.filter((row) => row.automation.active).length,
-  workingToday: rows.filter((row) => row.status === 'Working').length,
-  needsUpdate: rows.filter((row) => row.status === 'Needs Update').length,
+  sameThreadAutomationActive: sameThreadAutomation.active,
+  activeAutomations: sameThreadAutomation.active ? 1 : 0,
+  workingToday: rows.filter((row) => row.status === 'Updated Today').length,
+  needsUpdate: rows.filter((row) => row.status === 'No Report Yet').length,
 };
 
 const html = `<!doctype html>
@@ -227,9 +217,9 @@ const html = `<!doctype html>
       font-size: 13px;
       border: 1px solid currentColor;
     }
-    .working { color: var(--green); background: #eef8f2; }
-    .scheduled-today, .no-report-yet { color: var(--amber); background: #fff7e5; }
-    .needs-update, .not-scheduled { color: var(--red); background: #fff0ef; }
+    .updated-today { color: var(--green); background: #eef8f2; }
+    .waiting-in-thread { color: var(--amber); background: #fff7e5; }
+    .no-report-yet, .not-scheduled { color: var(--red); background: #fff0ef; }
     dl { display: grid; gap: 6px; margin: 0; }
     dt { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
     dd { margin: 0 0 8px; }
@@ -247,13 +237,13 @@ const html = `<!doctype html>
     <header>
       <div class="kicker">North & Pearl</div>
       <h1>Agent Command Center</h1>
-      <p class="sub">Daily operating view for the North & Pearl ecommerce team. Status is based on active Codex automations and whether each lane has produced today’s expected report.</p>
+      <p class="sub">Daily operating view for the North & Pearl ecommerce team. Agents now run as responsibility lanes inside the same thread through one heartbeat, so this dashboard tracks lane evidence without creating separate Codex chats.</p>
     </header>
 
     <section class="stats" aria-label="Agent status summary">
-      <div class="stat"><strong>${summary.activeAutomations}</strong><span>Active scheduled agents</span></div>
-      <div class="stat"><strong>${summary.workingToday}</strong><span>Reported today</span></div>
-      <div class="stat"><strong>${summary.needsUpdate}</strong><span>Need update</span></div>
+      <div class="stat"><strong>${summary.activeAutomations}</strong><span>Same-thread heartbeat</span></div>
+      <div class="stat"><strong>${summary.workingToday}</strong><span>Lanes updated today</span></div>
+      <div class="stat"><strong>${summary.needsUpdate}</strong><span>Lanes with no report yet</span></div>
     </section>
 
     <section class="grid" aria-label="Agent lanes">
@@ -266,12 +256,12 @@ const html = `<!doctype html>
           <dl>
             <dt>Owns</dt>
             <dd>${esc(row.owns)}</dd>
-            <dt>Schedule</dt>
-            <dd>${esc(row.automation.rrule || 'No active schedule')}</dd>
+            <dt>Operating Mode</dt>
+            <dd>${sameThreadAutomation.active ? `Same-thread heartbeat: ${esc(sameThreadAutomation.rrule)}` : 'No same-thread heartbeat is active'}</dd>
             <dt>Latest Report</dt>
             <dd>${row.latest ? `<a href="../${esc(row.latest.path)}">${esc(row.latest.file)}</a>` : '<span class="small">No report found yet.</span>'}</dd>
-            <dt>Automation</dt>
-            <dd class="small">${esc(row.automation.name || row.automationId)}</dd>
+            <dt>Thread Rule</dt>
+            <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
             <span class="status ${statusClass(row.status)}">${esc(row.status)}</span>
@@ -281,7 +271,7 @@ const html = `<!doctype html>
     </section>
 
     <footer>
-      Generated at ${esc(summary.generatedAt)}. Open this file after scheduled runs or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
+      Generated at ${esc(summary.generatedAt)}. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
     </footer>
   </main>
 </body>
@@ -299,13 +289,13 @@ Generated: ${summary.generatedAt}
 
 ## Summary
 
-- Active scheduled agents: ${summary.activeAutomations}
-- Reported today: ${summary.workingToday}
-- Need update: ${summary.needsUpdate}
+- Same-thread heartbeat active: ${summary.sameThreadAutomationActive ? 'yes' : 'no'}
+- Lanes updated today: ${summary.workingToday}
+- Lanes with no report yet: ${summary.needsUpdate}
 
 ## Agents
 
-${rows.map((row) => `- ${row.name}: ${row.status}; latest report: ${row.latest ? row.latest.path : 'none yet'}; schedule: ${row.automation.rrule || 'not scheduled'}`).join('\n')}
+${rows.map((row) => `- ${row.name}: ${row.status}; latest report: ${row.latest ? row.latest.path : 'none yet'}; operating mode: same-thread heartbeat`).join('\n')}
 
 ## UI
 
@@ -317,6 +307,6 @@ console.table(rows.map((row) => ({
   agent: row.name,
   status: row.status,
   report: row.latest?.file || 'none',
-  active: row.automation.active,
+  sameThreadHeartbeat: sameThreadAutomation.active,
 })));
 console.log('Dashboard: docs/agent-command-center.html');

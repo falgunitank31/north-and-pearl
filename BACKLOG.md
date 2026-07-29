@@ -11,7 +11,7 @@
 - Monitor compare-at pricing trust: all active products currently have compare-at data, but live theme checks show no visible sale labels or sale-price blocks on sampled collection/PDP pages.
 - Continue daily Gauss catalog hygiene now that the active catalog is 208 products: watch product image quality, duplicate naming, low-quality source imagery, channel readiness, and curated collection size.
 - Faraday/Rawls must treat traffic generation as the current growth bottleneck: GA4 is receiving data, but the visible last-7-days overview shows Direct-only traffic and no visible organic channel yet.
-- Google API access remains unconfigured locally; Faraday/Rawls need OAuth/service-account/API setup or an account-side GA4/Search Console export before live traffic increase can be calculated.
+- Google API access remains unconfigured locally; Faraday/Rawls need `/Users/yagneshtank/.config/codex-seo/google-api.json` with API key plus OAuth/service-account access, or an account-side GA4/Search Console export, before live traffic increase can be calculated.
 - Request Search Console indexing for the six new buyer-intent collections when browser CAPTCHA/session state allows: Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts.
 - Monitor the new buyer-intent collections for impressions, clicks, collection views, product clicks, add-to-cart activity, and revenue once Search Console/GA4 data accumulates.
 - Rawls must verify `add_to_cart`, newsletter signup, checkout-start, and purchase event receipt from account-side reports or an approved test-order workflow before any conversion-performance claim.
@@ -26,7 +26,7 @@
 - Review the 90-product live expansion by category after 7-14 days of traffic; demote or revise products with weak views/add-to-carts once data is meaningful.
 - Review the 10 held products from the Gauss next-100 batch; only activate if source-price risk, image count, and visual QA issues are resolved.
 - Replace exact-source imagery for active products still marked acceptable temporary where higher-resolution same-product supplier images are available and source pages can be accessed without CAPTCHA/protection. If recovered source media reveals a catalog mismatch, repair title/type/collections before any image replacement.
-- Recover source references for the 9 below-threshold active products missing usable source-reference tags before attempting media replacement.
+- Recover source references for the 9 below-threshold active products missing usable source-reference tags before attempting media replacement; current queue is `reports/source-reference-recovery-2026-07-29.md` with 5 recoverable IDs needing confirmation and 4 exact Alibaba URLs required.
 - Improve the 115 active products below preferred media standard as exact-source assets become available; current PDP QA passes, but image quality remains below premium target.
 - Re-score Best Sellers once real Shopify sales, add-to-cart, and product-view data is meaningful; current collection is a curated launch edit.
 
@@ -44,5 +44,4 @@
 
 - Paid tools, ads, supplier contact, inventory/sample purchases, legal policy finalization, and any unverified material claims require owner approval.
 - Alibaba direct product-page fetching for media replacement is partially blocked by protection responses; exact-source media replacement should resume only when source pages render normally in browser, owner supplies product image URLs, supplier provides assets, or final photography is available. One accessible source (`1601721496131`) exposed that the active product was miscategorized, and the live catalog record has been repaired.
-- Public store product-record mutation through Shopify CLI is blocked until `shopify store auth --store north-and-pearl.myshopify.com` is completed with Admin API scopes. Theme CLI push remains available.
 - Shopify order-source monitoring is unblocked as of July 29, 2026; safe recent-orders query returned `ORDER_ACCESS_OK` with 0 visible orders.

@@ -11,13 +11,13 @@ const agents = [
   {
     name: 'Faraday',
     lane: 'Organic growth',
-    reportPrefixes: ['faraday-daily-traffic-orders', 'faraday-daily-marketing', 'faraday-traffic-visibility-check', 'faraday-buyer-intent-collections'],
+    reportPrefixes: ['faraday-daily-traffic-orders', 'faraday-daily-marketing', 'faraday-traffic-visibility-check', 'faraday-buyer-intent-collections', 'google-api-access-blocker'],
     owns: 'SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.',
   },
   {
     name: 'Gauss',
     lane: 'Product and merchandising',
-    reportPrefixes: ['gauss-daily-catalog-growth', 'gauss-next-100', 'gauss-market-category-review', 'gauss-catalog-qa'],
+    reportPrefixes: ['gauss-daily-catalog-growth', 'gauss-next-100', 'gauss-market-category-review', 'gauss-catalog-qa', 'source-reference-recovery'],
     owns: 'Daily product additions, category balance, product source traceability, catalog hygiene.',
   },
   {
@@ -47,7 +47,7 @@ const agents = [
   {
     name: 'Curie',
     lane: 'Supplier and claim safety',
-    reportPrefixes: ['curie-daily-source-claim-safety', 'source-image-opportunities', 'alibaba-source-media-access', 'source-media-blocker-repair'],
+    reportPrefixes: ['curie-daily-source-claim-safety', 'source-reference-recovery', 'source-image-opportunities', 'alibaba-source-media-access', 'source-media-blocker-repair'],
     owns: 'Supplier/source evidence, Alibaba traceability, claim safety, product-quality risk.',
   },
   {
@@ -138,7 +138,7 @@ const blockers = [
     severity: 'Blocked',
     title: 'Google API access is not configured locally',
     impact: 'Traffic increase, GA4 event trends, Search Console clicks, indexing, and query data cannot be calculated through the local SEO toolkit.',
-    next: 'Configure OAuth/service account/API key access or use an account-side GA4/Search Console export.',
+    next: 'Create /Users/yagneshtank/.config/codex-seo/google-api.json with an API key plus OAuth/service-account access, or provide account-side GA4/Search Console exports.',
   },
   {
     owner: 'Lovelace',
@@ -152,7 +152,7 @@ const blockers = [
     severity: 'Needs Work',
     title: '115 active products remain below preferred media standard',
     impact: 'Storefront QA passes, but product imagery is not yet at the premium visual bar for a world-class jewelry brand.',
-    next: 'Improve exact-source or final photography, starting with products receiving traffic and the 9 products missing usable source tags.',
+    next: 'Work reports/source-reference-recovery-2026-07-29.md first: 5 recoverable source IDs need exact-match confirmation and 4 products need exact Alibaba URLs.',
   },
 ];
 

@@ -29,6 +29,8 @@ The Search Console API returned a 403 permission error for:
 
 `sc-domain:northandpearl.com`
 
+The service account can authenticate to Search Console, but `sites.list` returns zero visible properties. This confirms the missing step is Search Console property access, not local credentials.
+
 Add this service account email in Google Search Console:
 
 `north-pearl-seo-analytics@north-and-pearl.iam.gserviceaccount.com`
@@ -40,14 +42,11 @@ Required access:
 
 ### GA4
 
-The GA4 API client works, but the config still has placeholder property ID:
+GA4 property ID is configured:
 
-`properties/GA4_PROPERTY_ID`
+`properties/546565745`
 
-Required owner input:
-
-- Numeric GA4 property ID for the North & Pearl GA4 property.
-- Add `north-pearl-seo-analytics@north-and-pearl.iam.gserviceaccount.com` to GA4 Property Access Management as Viewer or Analyst.
+GA4 API access works. Current organic reports return zero rows, which matches the low/Direct-only traffic baseline already visible in GA4.
 
 ## Validation Commands
 

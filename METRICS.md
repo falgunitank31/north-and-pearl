@@ -37,6 +37,7 @@
 - Lead order-readiness score: 82/100 as of July 28, 2026. Storefront/catalog/conversion paths are guarded-green; traffic, Merchant Center/account setup, purchase-event verification, and final operations decisions remain gating items.
 - Source-image polish baseline: 115 of 208 active products are below the preferred media standard; 106 have source-reference tags and 9 are missing usable source-reference tags in the latest source-image audit.
 - Google API baseline: Codex SEO Tier 0 is configured locally as of July 29, 2026. PageSpeed Insights works. CrUX origin queries for `https://northandpearl.com` returned no public phone or desktop field data, indicating insufficient real Chrome-user traffic for CrUX reporting.
+- Google API access update: GA4 Data API works for property `properties/546565745` as of July 29, 2026, but organic reports currently return zero rows. Search Console API authenticates, but the service account sees zero Search Console properties until it is added inside Search Console Users and permissions.
 
 ## Rawls Daily Watch - July 29, 2026
 

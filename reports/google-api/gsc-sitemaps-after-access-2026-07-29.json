@@ -1,0 +1,5 @@
+{
+  "property": "sc-domain:northandpearl.com",
+  "sitemaps": [],
+  "error": "Error listing sitemaps: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/sc-domain%3Anorthandpearl.com/sitemaps?alt=json returned \"User does not have sufficient permission for site 'sc-domain:northandpearl.com'. See also: https://support.google.com/webmasters/answer/2451999.\". Details: \"[{'message': \"User does not have sufficient permission for site 'sc-domain:northandpearl.com'. See also: https://support.google.com/webmasters/answer/2451999.\", 'domain': 'global', 'reason': 'forbidden'}]\">"
+}

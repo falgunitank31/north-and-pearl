@@ -1,5 +1,9 @@
 # Changelog
 
+## July 29, 2026
+
+- Added the Lead Traffic and Orders Summary to separate verified performance facts from assumptions: latest verified GA4 baseline remains 23 sessions, 9 users, Direct-only acquisition, 394 events, and 0 key events; no traffic increase, order count, revenue, conversion rate, or AOV can be claimed from the current project records.
+
 ## July 28, 2026
 
 - Expanded the live catalog from 118 to 208 active products after Gauss launch-review gating.

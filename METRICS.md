@@ -48,3 +48,4 @@
 - Buyer-intent collection impressions/clicks/CTR are UNKNOWN. The six buyer-intent collections were created on July 28, 2026 and need Search Console/GA4 data after indexing and traffic accumulation.
 - Storefront/catalog readiness remains verified from repository audits: 208/208 active product pages passed live QA on July 28, 2026; cart add passed on July 28, 2026; the July 29, 2026 Merchant Center readiness report shows 208 active products ready with identifier caveat and 0 products needing review.
 - Today's report: `reports/rawls-daily-analytics-watch-2026-07-29.md`.
+- Owner-facing traffic/orders summary: `reports/lead-traffic-orders-summary-2026-07-29.md`.

@@ -1,7 +1,8 @@
-import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
+import { copyFileSync, cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const automationRoot = '/Users/yagneshtank/.codex/automations';
+const localExportRoot = '/tmp/north-pearl-command-center-root';
 const now = new Date();
 const today = now.toISOString().slice(0, 10);
 const sameThreadAutomationId = 'north-pearl-same-thread-daily-agent-run';
@@ -475,6 +476,13 @@ Open \`docs/agent-command-center.html\` to view the local dashboard.
 `;
 
 writeFileSync(`reports/agent-command-center-${today}.md`, textReport);
+
+rmSync(localExportRoot, { recursive: true, force: true });
+mkdirSync(join(localExportRoot, 'docs'), { recursive: true });
+mkdirSync(join(localExportRoot, 'reports'), { recursive: true });
+copyFileSync('docs/agent-command-center.html', join(localExportRoot, 'docs', 'agent-command-center.html'));
+cpSync('reports', join(localExportRoot, 'reports'), { recursive: true });
+
 console.table(rows.map((row) => ({
   agent: row.name,
   status: row.status,

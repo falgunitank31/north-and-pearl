@@ -67,6 +67,16 @@ The image-quality blocker is now visible in the dashboard. Storefront QA passes,
 
 ## Local Server
 
+The persistent local server is managed by a macOS LaunchAgent:
+
+`/Users/yagneshtank/Library/LaunchAgents/com.northandpearl.commandcenter.plist`
+
+The LaunchAgent serves an exported copy from:
+
+`/tmp/north-pearl-command-center-root`
+
+This avoids macOS privacy restrictions that blocked the LaunchAgent from serving directly from the `Documents` repository folder.
+
 PID file:
 
 `/tmp/north-pearl-command-center.pid`
@@ -77,4 +87,8 @@ Log file:
 
 To stop the local server:
 
-`kill $(cat /tmp/north-pearl-command-center.pid)`
+`launchctl bootout gui/$(id -u) /Users/yagneshtank/Library/LaunchAgents/com.northandpearl.commandcenter.plist`
+
+To regenerate the dashboard and hosted copy:
+
+`node scripts/generate-agent-command-center.mjs`

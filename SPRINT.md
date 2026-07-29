@@ -117,6 +117,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Installed the Google service-account JSON locally and verified Codex SEO Tier 2 credential readiness.
 - [x] Verified Search Console API access after account-side permission was added; `sc-domain:northandpearl.com` is visible with Full permission.
 - [x] Pulled the first Search Console API baseline: 1 impression, 0 clicks, clean sitemap status, and priority URL inspection identifying three indexed URLs and four newer URLs not fully indexed yet.
+- [x] Strengthened internal links from indexed collection pages into Gifts Under $50 and the weekly gift guide; Theme Check passed and the update was pushed live.
 - [x] Ran Google PageSpeed baseline on the homepage, Name Necklaces collection, and Initial Shell Necklace PDP; identified PDP mobile LCP/performance as the P1 issue.
 - [x] Optimized live PDP product-media loading with high-priority first image, async decoding, and smaller responsive source candidates; Theme Check passed and live HTML validation confirmed the deployment.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.

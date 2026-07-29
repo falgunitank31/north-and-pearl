@@ -57,7 +57,7 @@ Priority URLs inspected:
 ## Immediate Actions
 
 - Keep homepage, Name Necklaces, and Best Sellers as indexed anchors for internal linking.
-- Strengthen internal links from indexed pages into newer buyer-intent collections and priority PDPs.
+- Strengthen internal links from indexed pages into newer buyer-intent collections and priority PDPs. Completed first pass: indexed collection guide pages now link to Gifts Under $50 and the weekly gift guide.
 - Monitor the unknown buyer-intent pages daily until Google crawls them.
 - Do not rely on the Indexing API for normal ecommerce pages; Google's Indexing API is officially intended for JobPosting and BroadcastEvent/VideoObject use cases.
 

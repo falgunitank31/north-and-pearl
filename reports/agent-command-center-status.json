@@ -1,11 +1,35 @@
 {
   "summary": {
-    "generatedAt": "2026-07-29T18:32:03.090Z",
+    "generatedAt": "2026-07-29T18:36:00.456Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
     "workingToday": 8,
-    "needsUpdate": 0
+    "needsUpdate": 0,
+    "resting": 0
   },
+  "blockers": [
+    {
+      "owner": "Rawls + Faraday",
+      "severity": "Blocked",
+      "title": "Google API access is not configured locally",
+      "impact": "Traffic increase, GA4 event trends, Search Console clicks, indexing, and query data cannot be calculated through the local SEO toolkit.",
+      "next": "Configure OAuth/service account/API key access or use an account-side GA4/Search Console export."
+    },
+    {
+      "owner": "Lovelace",
+      "severity": "Blocked",
+      "title": "Shopify order read access is denied",
+      "impact": "New orders cannot be detected from this runtime, and ordered products cannot be mapped automatically to Alibaba source URLs.",
+      "next": "Restore safe `read_orders` scope, keeping future queries limited to order reference and line-item/source data."
+    },
+    {
+      "owner": "Gauss + Curie + Kuhn",
+      "severity": "Needs Work",
+      "title": "115 active products remain below preferred media standard",
+      "impact": "Storefront QA passes, but product imagery is not yet at the premium visual bar for a world-class jewelry brand.",
+      "next": "Improve exact-source or final photography, starting with products receiving traffic and the 9 products missing usable source tags."
+    }
+  ],
   "agents": [
     {
       "name": "Faraday",

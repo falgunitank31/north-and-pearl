@@ -128,7 +128,32 @@ const summary = {
   activeAutomations: sameThreadAutomation.active ? 1 : 0,
   workingToday: rows.filter((row) => row.status === 'Updated Today').length,
   needsUpdate: rows.filter((row) => row.status === 'No Report Yet').length,
+  resting: rows.filter((row) => row.status !== 'Updated Today').length,
 };
+
+const blockers = [
+  {
+    owner: 'Rawls + Faraday',
+    severity: 'Blocked',
+    title: 'Google API access is not configured locally',
+    impact: 'Traffic increase, GA4 event trends, Search Console clicks, indexing, and query data cannot be calculated through the local SEO toolkit.',
+    next: 'Configure OAuth/service account/API key access or use an account-side GA4/Search Console export.',
+  },
+  {
+    owner: 'Lovelace',
+    severity: 'Blocked',
+    title: 'Shopify order read access is denied',
+    impact: 'New orders cannot be detected from this runtime, and ordered products cannot be mapped automatically to Alibaba source URLs.',
+    next: 'Restore safe `read_orders` scope, keeping future queries limited to order reference and line-item/source data.',
+  },
+  {
+    owner: 'Gauss + Curie + Kuhn',
+    severity: 'Needs Work',
+    title: '115 active products remain below preferred media standard',
+    impact: 'Storefront QA passes, but product imagery is not yet at the premium visual bar for a world-class jewelry brand.',
+    next: 'Improve exact-source or final photography, starting with products receiving traffic and the 9 products missing usable source tags.',
+  },
+];
 
 const html = `<!doctype html>
 <html lang="en">
@@ -148,6 +173,7 @@ const html = `<!doctype html>
       --green: #0f7a4b;
       --amber: #9a6200;
       --red: #a8342d;
+      --blue: #315f87;
     }
     * { box-sizing: border-box; }
     body {
@@ -178,13 +204,13 @@ const html = `<!doctype html>
       letter-spacing: -.02em;
     }
     .sub { color: var(--muted); max-width: 760px; margin: 0; }
-    .stats {
+    .stats, .toolbar {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 14px;
       margin: 24px 0;
     }
-    .stat, .card {
+    .stat, .card, .panel {
       background: var(--paper);
       border: 1px solid var(--line);
       border-radius: 10px;
@@ -193,6 +219,68 @@ const html = `<!doctype html>
     .stat { padding: 18px; }
     .stat strong { display: block; font-size: 30px; line-height: 1; }
     .stat span { color: var(--muted); font-size: 13px; }
+    .toolbar {
+      grid-template-columns: 1fr auto auto auto auto;
+      align-items: center;
+    }
+    .search {
+      width: 100%;
+      min-height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+      color: var(--ink);
+      padding: 0 16px;
+      font: inherit;
+    }
+    .filter {
+      min-height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+      color: var(--ink);
+      padding: 0 15px;
+      font: inherit;
+      cursor: pointer;
+    }
+    .filter[aria-pressed="true"] {
+      background: var(--ink);
+      color: var(--paper);
+      border-color: var(--ink);
+    }
+    .panel {
+      padding: 18px;
+      margin: 0 0 18px;
+    }
+    .panel h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 26px;
+      margin: 0 0 12px;
+    }
+    .blockers {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .blocker {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fffaf1;
+    }
+    .blocker strong { display: block; margin-bottom: 5px; }
+    .pill {
+      display: inline-flex;
+      border-radius: 999px;
+      padding: 4px 9px;
+      margin-bottom: 10px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    .pill.blocked { color: var(--red); background: #fff0ef; }
+    .pill.needs-work { color: var(--amber); background: #fff7e5; }
     .grid { display: grid; gap: 14px; }
     .card {
       display: grid;
@@ -200,6 +288,13 @@ const html = `<!doctype html>
       gap: 18px;
       padding: 18px;
       align-items: start;
+      transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+    }
+    .card:hover,
+    .card:focus-within {
+      border-color: rgba(185, 145, 79, .65);
+      box-shadow: 0 16px 36px rgba(30, 20, 10, .08);
+      transform: translateY(-1px);
     }
     .agent-name {
       font-family: Georgia, "Times New Roman", serif;
@@ -220,14 +315,23 @@ const html = `<!doctype html>
     .updated-today { color: var(--green); background: #eef8f2; }
     .waiting-in-thread { color: var(--amber); background: #fff7e5; }
     .no-report-yet, .not-scheduled { color: var(--red); background: #fff0ef; }
+    .agent-state {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .working { color: var(--green); }
+    .resting { color: var(--amber); }
+    .blocked-text { color: var(--red); }
     dl { display: grid; gap: 6px; margin: 0; }
     dt { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
     dd { margin: 0 0 8px; }
     a { color: var(--ink); text-decoration-color: var(--gold); text-underline-offset: 3px; }
     .small { color: var(--muted); font-size: 13px; }
     footer { margin-top: 26px; color: var(--muted); font-size: 13px; }
-    @media (max-width: 820px) {
-      .stats, .card { grid-template-columns: 1fr; }
+    .hidden { display: none !important; }
+    @media (max-width: 980px) {
+      .stats, .toolbar, .blockers, .card { grid-template-columns: 1fr; }
       .status { justify-content: flex-start; }
     }
   </style>
@@ -243,15 +347,40 @@ const html = `<!doctype html>
     <section class="stats" aria-label="Agent status summary">
       <div class="stat"><strong>${summary.activeAutomations}</strong><span>Same-thread heartbeat</span></div>
       <div class="stat"><strong>${summary.workingToday}</strong><span>Lanes updated today</span></div>
+      <div class="stat"><strong>${summary.resting}</strong><span>Lanes resting</span></div>
       <div class="stat"><strong>${summary.needsUpdate}</strong><span>Lanes with no report yet</span></div>
+    </section>
+
+    <section class="toolbar" aria-label="Dashboard filters">
+      <input class="search" id="agent-search" type="search" placeholder="Search agents, ownership, reports, blockers..." aria-label="Search agents">
+      <button class="filter" type="button" data-filter="all" aria-pressed="true">All</button>
+      <button class="filter" type="button" data-filter="working" aria-pressed="false">Working</button>
+      <button class="filter" type="button" data-filter="resting" aria-pressed="false">Resting</button>
+      <button class="filter" type="button" data-filter="blocked" aria-pressed="false">Blocked</button>
+    </section>
+
+    <section class="panel" aria-label="Current blockers">
+      <h2>Current Blockers</h2>
+      <div class="blockers">
+        ${blockers.map((blocker) => `
+          <div class="blocker" data-blocker-owner="${esc(blocker.owner)}">
+            <span class="pill ${statusClass(blocker.severity)}">${esc(blocker.severity)}</span>
+            <strong>${esc(blocker.title)}</strong>
+            <p class="small">${esc(blocker.impact)}</p>
+            <p class="small"><strong>Next:</strong> ${esc(blocker.next)}</p>
+            <p class="small"><strong>Owner:</strong> ${esc(blocker.owner)}</p>
+          </div>
+        `).join('')}
+      </div>
     </section>
 
     <section class="grid" aria-label="Agent lanes">
       ${rows.map((row) => `
-        <article class="card">
+        <article class="card" data-agent="${esc(row.name)}" data-state="${row.status === 'Updated Today' ? 'working' : 'resting'}" data-search="${esc([row.name, row.lane, row.owns, row.latest?.file || '', row.status].join(' ').toLowerCase())}">
           <div>
             <h2 class="agent-name">${esc(row.name)}</h2>
             <div class="lane">${esc(row.lane)}</div>
+            <div class="agent-state ${row.status === 'Updated Today' ? 'working' : 'resting'}">${row.status === 'Updated Today' ? 'Working today' : 'Resting until next heartbeat'}</div>
           </div>
           <dl>
             <dt>Owns</dt>
@@ -274,6 +403,44 @@ const html = `<!doctype html>
       Generated at ${esc(summary.generatedAt)}. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
     </footer>
   </main>
+  <script>
+    const search = document.querySelector('#agent-search');
+    const filters = [...document.querySelectorAll('.filter')];
+    const cards = [...document.querySelectorAll('.card[data-agent]')];
+    const blockers = [...document.querySelectorAll('.blocker')];
+    let activeFilter = 'all';
+
+    function normalize(value) {
+      return String(value || '').toLowerCase().trim();
+    }
+
+    function applyFilters() {
+      const q = normalize(search.value);
+      const blockedOwners = blockers.map((blocker) => normalize(blocker.dataset.blockerOwner));
+
+      cards.forEach((card) => {
+        const state = card.dataset.state;
+        const agent = normalize(card.dataset.agent);
+        const matchesSearch = !q || card.dataset.search.includes(q);
+        const matchesFilter =
+          activeFilter === 'all' ||
+          activeFilter === state ||
+          (activeFilter === 'blocked' && blockedOwners.some((owner) => owner.includes(agent) || owner.includes(agent.split(' ')[0])));
+
+        card.classList.toggle('hidden', !(matchesSearch && matchesFilter));
+      });
+    }
+
+    filters.forEach((button) => {
+      button.addEventListener('click', () => {
+        activeFilter = button.dataset.filter;
+        filters.forEach((item) => item.setAttribute('aria-pressed', item === button ? 'true' : 'false'));
+        applyFilters();
+      });
+    });
+
+    search.addEventListener('input', applyFilters);
+  </script>
 </body>
 </html>
 `;
@@ -281,7 +448,7 @@ const html = `<!doctype html>
 mkdirSync('docs', { recursive: true });
 mkdirSync('reports', { recursive: true });
 writeFileSync('docs/agent-command-center.html', html);
-writeFileSync('reports/agent-command-center-status.json', JSON.stringify({ summary, agents: rows }, null, 2));
+writeFileSync('reports/agent-command-center-status.json', JSON.stringify({ summary, blockers, agents: rows }, null, 2));
 
 const textReport = `# Agent Command Center
 
@@ -291,7 +458,12 @@ Generated: ${summary.generatedAt}
 
 - Same-thread heartbeat active: ${summary.sameThreadAutomationActive ? 'yes' : 'no'}
 - Lanes updated today: ${summary.workingToday}
+- Lanes resting: ${summary.resting}
 - Lanes with no report yet: ${summary.needsUpdate}
+
+## Blockers
+
+${blockers.map((blocker) => `- ${blocker.severity}: ${blocker.title}; owner: ${blocker.owner}; next: ${blocker.next}`).join('\n')}
 
 ## Agents
 

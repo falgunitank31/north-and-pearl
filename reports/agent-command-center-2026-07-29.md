@@ -1,12 +1,19 @@
 # Agent Command Center
 
-Generated: 2026-07-29T18:32:03.090Z
+Generated: 2026-07-29T18:36:00.456Z
 
 ## Summary
 
 - Same-thread heartbeat active: yes
 - Lanes updated today: 8
+- Lanes resting: 0
 - Lanes with no report yet: 0
+
+## Blockers
+
+- Blocked: Google API access is not configured locally; owner: Rawls + Faraday; next: Configure OAuth/service account/API key access or use an account-side GA4/Search Console export.
+- Blocked: Shopify order read access is denied; owner: Lovelace; next: Restore safe `read_orders` scope, keeping future queries limited to order reference and line-item/source data.
+- Needs Work: 115 active products remain below preferred media standard; owner: Gauss + Curie + Kuhn; next: Improve exact-source or final photography, starting with products receiving traffic and the 9 products missing usable source tags.
 
 ## Agents
 

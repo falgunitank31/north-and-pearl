@@ -101,6 +101,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Pushed the Faraday theme link update to live theme `189441802424`.
 - [x] Lead Orchestrator completed the July 28 daily ecommerce coordination pass; current order-readiness score is 82/100 with no verified P0s, P1 focus on measurement, Merchant Center/account setup, Search Console indexing, and operations decisions.
 - [x] Published the July 29 traffic/orders owner summary: no verified traffic increase can be claimed yet; latest verified GA4 baseline remains 23 sessions, 9 users, Direct-only, 0 key events, with Shopify order/revenue visibility blocked or unavailable in project records.
+- [x] Executed the July 29 urgent-task pass: Google API access remains unconfigured, safe Shopify order-read access remains blocked, product SEO and Merchant readiness remain green, Theme Check passed, menu audit passed, and live storefront QA passed 208/208 PDPs with cart add passing after hardening the QA retry logic.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

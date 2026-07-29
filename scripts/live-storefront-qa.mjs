@@ -40,26 +40,35 @@ function gql(query, variables = {}) {
 
 async function fetchText(path, options = {}) {
   let lastResult;
+  let lastError;
 
   for (let attempt = 0; attempt < 6; attempt += 1) {
     if (attempt > 0) {
       await new Promise((resolve) => setTimeout(resolve, attempt * 2500));
     }
 
-    const response = await fetch(`${domain}${path}`, {
-      redirect: 'follow',
-      headers: {
-        'user-agent': 'NorthPearlLiveQA/1.0',
-        ...options.headers,
-      },
-      ...options,
-    });
-    const text = await response.text();
-    lastResult = { response, text };
+    try {
+      const response = await fetch(`${domain}${path}`, {
+        redirect: 'follow',
+        headers: {
+          'user-agent': 'NorthPearlLiveQA/1.0',
+          ...options.headers,
+        },
+        ...options,
+      });
+      const text = await response.text();
+      lastResult = { response, text };
 
-    if (response.status !== 429 && response.status !== 503) {
-      return lastResult;
+      if (response.status !== 429 && response.status !== 503) {
+        return lastResult;
+      }
+    } catch (error) {
+      lastError = error;
     }
+  }
+
+  if (!lastResult && lastError) {
+    throw lastError;
   }
 
   return lastResult;

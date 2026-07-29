@@ -11,6 +11,7 @@
 - Monitor compare-at pricing trust: all active products currently have compare-at data, but live theme checks show no visible sale labels or sale-price blocks on sampled collection/PDP pages.
 - Continue daily Gauss catalog hygiene now that the active catalog is 208 products: watch product image quality, duplicate naming, low-quality source imagery, channel readiness, and curated collection size.
 - Faraday/Rawls must treat traffic generation as the current growth bottleneck: GA4 is receiving data, but the visible last-7-days overview shows Direct-only traffic and no visible organic channel yet.
+- Google API access remains unconfigured locally; Faraday/Rawls need OAuth/service-account/API setup or an account-side GA4/Search Console export before live traffic increase can be calculated.
 - Request Search Console indexing for the six new buyer-intent collections when browser CAPTCHA/session state allows: Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts.
 - Monitor the new buyer-intent collections for impressions, clicks, collection views, product clicks, add-to-cart activity, and revenue once Search Console/GA4 data accumulates.
 - Rawls must verify `add_to_cart`, newsletter signup, checkout-start, and purchase event receipt from account-side reports or an approved test-order workflow before any conversion-performance claim.
@@ -26,6 +27,7 @@
 - Review the 10 held products from the Gauss next-100 batch; only activate if source-price risk, image count, and visual QA issues are resolved.
 - Replace exact-source imagery for active products still marked acceptable temporary where higher-resolution same-product supplier images are available and source pages can be accessed without CAPTCHA/protection. If recovered source media reveals a catalog mismatch, repair title/type/collections before any image replacement.
 - Recover source references for the 9 below-threshold active products missing usable source-reference tags before attempting media replacement.
+- Improve the 115 active products below preferred media standard as exact-source assets become available; current PDP QA passes, but image quality remains below premium target.
 - Re-score Best Sellers once real Shopify sales, add-to-cart, and product-view data is meaningful; current collection is a curated launch edit.
 
 ## P3

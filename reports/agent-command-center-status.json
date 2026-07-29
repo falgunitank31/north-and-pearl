@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-07-29T17:41:59.820Z",
+    "generatedAt": "2026-07-29T18:32:03.090Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
-    "workingToday": 5,
+    "workingToday": 8,
     "needsUpdate": 0
   },
   "agents": [
@@ -63,12 +63,12 @@
       "latest": {
         "file": "live-storefront-qa-2026-07-29.md",
         "path": "reports/live-storefront-qa-2026-07-29.md",
-        "mtime": "2026-07-29T17:37:47.893Z"
+        "mtime": "2026-07-29T18:30:00.682Z"
       },
       "todayReport": {
         "file": "live-storefront-qa-2026-07-29.md",
         "path": "reports/live-storefront-qa-2026-07-29.md",
-        "mtime": "2026-07-29T17:37:47.893Z"
+        "mtime": "2026-07-29T18:30:00.682Z"
       },
       "status": "Updated Today"
     },
@@ -125,11 +125,16 @@
       ],
       "owns": "Premium jewelry UX, visual QA, product imagery presentation, homepage/collection/PDP polish.",
       "latest": {
-        "file": "world-class-ecommerce-remediation-2026-07-24.md",
-        "path": "reports/world-class-ecommerce-remediation-2026-07-24.md",
-        "mtime": "2026-07-24T13:07:14.127Z"
+        "file": "kuhn-daily-design-qa-2026-07-29.md",
+        "path": "reports/kuhn-daily-design-qa-2026-07-29.md",
+        "mtime": "2026-07-29T18:31:40.775Z"
       },
-      "status": "Waiting In Thread"
+      "todayReport": {
+        "file": "kuhn-daily-design-qa-2026-07-29.md",
+        "path": "reports/kuhn-daily-design-qa-2026-07-29.md",
+        "mtime": "2026-07-29T18:31:40.775Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Curie",
@@ -142,27 +147,39 @@
       ],
       "owns": "Supplier/source evidence, Alibaba traceability, claim safety, product-quality risk.",
       "latest": {
-        "file": "source-image-opportunities-2026-07-27.md",
-        "path": "reports/source-image-opportunities-2026-07-27.md",
-        "mtime": "2026-07-28T20:02:36.346Z"
+        "file": "curie-daily-source-claim-safety-2026-07-29.md",
+        "path": "reports/curie-daily-source-claim-safety-2026-07-29.md",
+        "mtime": "2026-07-29T18:31:54.906Z"
       },
-      "status": "Waiting In Thread"
+      "todayReport": {
+        "file": "curie-daily-source-claim-safety-2026-07-29.md",
+        "path": "reports/curie-daily-source-claim-safety-2026-07-29.md",
+        "mtime": "2026-07-29T18:31:54.906Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Lead Orchestrator",
       "lane": "Ecommerce operating system",
       "reportPrefixes": [
+        "lead-urgent-task-execution",
+        "lead-traffic-orders-summary",
         "lead-daily-ecommerce-coordination",
         "lead-orchestrator-daily-execution",
         "daily-orchestration-sprint"
       ],
       "owns": "Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.",
       "latest": {
-        "file": "lead-daily-ecommerce-coordination-2026-07-28.md",
-        "path": "reports/lead-daily-ecommerce-coordination-2026-07-28.md",
-        "mtime": "2026-07-28T20:03:53.285Z"
+        "file": "lead-urgent-task-execution-2026-07-29.md",
+        "path": "reports/lead-urgent-task-execution-2026-07-29.md",
+        "mtime": "2026-07-29T18:30:24.343Z"
       },
-      "status": "Waiting In Thread"
+      "todayReport": {
+        "file": "lead-urgent-task-execution-2026-07-29.md",
+        "path": "reports/lead-urgent-task-execution-2026-07-29.md",
+        "mtime": "2026-07-29T18:30:24.343Z"
+      },
+      "status": "Updated Today"
     }
   ]
 }

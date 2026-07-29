@@ -52,7 +52,7 @@ const agents = [
   {
     name: 'Lead Orchestrator',
     lane: 'Ecommerce operating system',
-    reportPrefixes: ['lead-daily-ecommerce-coordination', 'lead-orchestrator-daily-execution', 'daily-orchestration-sprint'],
+    reportPrefixes: ['lead-urgent-task-execution', 'lead-traffic-orders-summary', 'lead-daily-ecommerce-coordination', 'lead-orchestrator-daily-execution', 'daily-orchestration-sprint'],
     owns: 'Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.',
   },
 ];

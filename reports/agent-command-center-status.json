@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-07-29T19:18:42.152Z",
+    "generatedAt": "2026-07-29T19:27:55.137Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
     "workingToday": 8,
@@ -35,6 +35,7 @@
       "name": "Faraday",
       "lane": "Organic growth",
       "reportPrefixes": [
+        "faraday-qualified-traffic-execution",
         "faraday-daily-traffic-orders",
         "faraday-daily-marketing",
         "faraday-traffic-visibility-check",
@@ -43,14 +44,14 @@
       ],
       "owns": "SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.",
       "latest": {
-        "file": "google-api-access-blocker-2026-07-29.md",
-        "path": "reports/google-api-access-blocker-2026-07-29.md",
-        "mtime": "2026-07-29T19:06:24.487Z"
+        "file": "faraday-qualified-traffic-execution-2026-07-29.md",
+        "path": "reports/faraday-qualified-traffic-execution-2026-07-29.md",
+        "mtime": "2026-07-29T19:26:46.845Z"
       },
       "todayReport": {
-        "file": "google-api-access-blocker-2026-07-29.md",
-        "path": "reports/google-api-access-blocker-2026-07-29.md",
-        "mtime": "2026-07-29T19:06:24.487Z"
+        "file": "faraday-qualified-traffic-execution-2026-07-29.md",
+        "path": "reports/faraday-qualified-traffic-execution-2026-07-29.md",
+        "mtime": "2026-07-29T19:26:46.845Z"
       },
       "status": "Updated Today"
     },

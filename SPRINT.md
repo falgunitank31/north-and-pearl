@@ -111,6 +111,8 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Added homepage buyer-intent shortcuts for Featured Jewelry, Jewelry Gifts for Her, Gifts Under $50, and Personalized Jewelry to reduce cold-shopper decision friction.
 - [x] Added collection hero fast-shopping paths for Featured Jewelry, Gifts for Her, and Gifts Under $100 so direct collection visitors can pivot toward higher-intent buying paths.
 - [x] Pushed the order-growth buyer-path update to live theme `189441802424`; Theme Check passed with no offenses and live sampled homepage/collection pages render the new blocks.
+- [x] Published the Faraday high-intent gift guide `Meaningful Jewelry Gifts to Shop This Week` and created a UTM-tagged qualified traffic post kit for organic social, short video captions, and warm-audience sharing.
+- [x] Validated the new gift guide and UTM buyer-intent collection links live; priority links return 200 and collection links render product grids.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

@@ -19,6 +19,27 @@ The Codex SEO Google auth check returned:
 
 No Google API key, OAuth token, service account path, GA4 property ID, or Search Console property is currently configured in the local Codex SEO config path.
 
+## Local Prep Completed
+
+Created secure local config directory:
+
+`/Users/yagneshtank/.config/codex-seo`
+
+Created non-secret example config:
+
+`/Users/yagneshtank/.config/codex-seo/google-api.example.json`
+
+Created project verifier:
+
+`scripts/verify-google-access.mjs`
+
+Current verifier result:
+
+- Config directory exists
+- Example config exists
+- Real config does not exist yet
+- Toolkit status remains `BLOCKED`
+
 ## Required Local Config
 
 Expected config file:
@@ -67,7 +88,7 @@ Do not paste API keys or service-account JSON into chat.
 Rawls/Faraday should retry:
 
 ```bash
-python3 /Users/yagneshtank/.codex/skills/seo/scripts/google_auth.py --check --json
+node scripts/verify-google-access.mjs
 ```
 
 after the local config file exists.

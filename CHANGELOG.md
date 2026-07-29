@@ -8,6 +8,7 @@
 - Upgraded the Agent Command Center into an interactive local dashboard with search, working/resting/blocked filters, blocker cards, and persistent generator support; verified at `http://localhost:8787/docs/agent-command-center.html`.
 - Restored Shopify order-read access through CLI store auth; safe non-PII recent-orders query now returns `ORDER_ACCESS_OK` with 0 visible orders.
 - Verified the remaining Google blocker is local credential configuration, not Shopify: Codex SEO still has no local API key, OAuth token, service-account path, GA4 property ID, or Search Console property configured.
+- Prepared the local Google access scaffold: secure config directory, non-secret example file, and `scripts/verify-google-access.mjs` verifier.
 - Added a repeatable source-reference recovery queue for active catalog blockers: 208 active products checked, 115 below preferred media standard, 9 below-preferred products missing usable source-reference tags, 5 recoverable IDs needing exact-match confirmation, and 4 exact Alibaba URLs required.
 - Refreshed the Agent Command Center so the blocker cards and agent report evidence show today's Google/source recovery state.
 

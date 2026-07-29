@@ -36,3 +36,15 @@
 - Revenue/order baseline: not recorded in this repository yet.
 - Lead order-readiness score: 82/100 as of July 28, 2026. Storefront/catalog/conversion paths are guarded-green; traffic, Merchant Center/account setup, purchase-event verification, and final operations decisions remain gating items.
 - Source-image polish baseline: 115 of 208 active products are below the preferred media standard; 106 have source-reference tags and 9 are missing usable source-reference tags in the latest source-image audit.
+
+## Rawls Daily Watch - July 29, 2026
+
+- Data confidence: LOW DATA CONFIDENCE for performance outcomes. The latest visible GA4 baseline is small, and Shopify order/revenue data is not accessible in this repository.
+- Traffic/order goal status: UNKNOWN. There is not enough verified traffic, purchase, revenue, or AOV data to judge next-month order momentum.
+- Latest verified GA4 traffic baseline remains the July 28, 2026 visible Home overview: 9 active users, 9 new users, 23 sessions, 394 events, and 0 key events over the visible last-7-days view.
+- Latest verified acquisition baseline remains Direct only: `(direct) / (none)` for first user and session source/medium. Organic traffic is not visible yet in the GA4 Home overview.
+- Latest verified page/event signals remain low sample size: homepage 72 views, Name Necklaces collection 23 views, Initial Shell Necklace PDP 19 views, Gifts collection 18 views, Checkout 5 views, and 20 visible `view_item` events.
+- Shopify Analytics sessions, product views, collection views, add-to-cart, checkout starts, purchases, revenue, conversion rate, and AOV are UNKNOWN until a verified Shopify Analytics export or UI review is available.
+- Buyer-intent collection impressions/clicks/CTR are UNKNOWN. The six buyer-intent collections were created on July 28, 2026 and need Search Console/GA4 data after indexing and traffic accumulation.
+- Storefront/catalog readiness remains verified from repository audits: 208/208 active product pages passed live QA on July 28, 2026; cart add passed on July 28, 2026; the July 29, 2026 Merchant Center readiness report shows 208 active products ready with identifier caveat and 0 products needing review.
+- Today's report: `reports/rawls-daily-analytics-watch-2026-07-29.md`.

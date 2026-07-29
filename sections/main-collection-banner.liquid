@@ -43,6 +43,21 @@
           {%- endif -%}
         {%- endfor -%}
       </nav>
+
+      <div class="np-collection-starter" aria-label="Fast shopping paths">
+        <a href="{{ routes.collections_url }}/best-sellers">
+          <span>Start fast</span>
+          <strong>Featured Jewelry</strong>
+        </a>
+        <a href="{{ routes.collections_url }}/jewelry-gifts-for-her">
+          <span>For gifting</span>
+          <strong>Gifts for Her</strong>
+        </a>
+        <a href="{{ routes.collections_url }}/gifts-under-100">
+          <span>Budget-friendly</span>
+          <strong>Under $100</strong>
+        </a>
+      </div>
     </div>
 
     {%- if section.settings.show_collection_image and collection.image -%}

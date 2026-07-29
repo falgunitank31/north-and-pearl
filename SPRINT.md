@@ -108,6 +108,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Prepared the local Google API config path with secure permissions and a non-secret example at `/Users/yagneshtank/.config/codex-seo/google-api.example.json`; added `scripts/verify-google-access.mjs` so Rawls/Faraday can instantly re-check once the real credential exists.
 - [x] Created the live Shopify source-reference recovery queue: 208 active products checked, 115 below preferred media standard, 9 below-preferred products missing usable source-reference tags, 5 with recoverable source IDs requiring exact-match confirmation, and 4 requiring exact Alibaba URL recovery.
 - [x] Refreshed the Agent Command Center so Faraday, Gauss, and Curie show today's blocker reports and the blocker cards reflect the current order/Google/source state.
+- [x] Added homepage buyer-intent shortcuts for Featured Jewelry, Jewelry Gifts for Her, Gifts Under $50, and Personalized Jewelry to reduce cold-shopper decision friction.
+- [x] Added collection hero fast-shopping paths for Featured Jewelry, Gifts for Her, and Gifts Under $100 so direct collection visitors can pivot toward higher-intent buying paths.
+- [x] Pushed the order-growth buyer-path update to live theme `189441802424`; Theme Check passed with no offenses and live sampled homepage/collection pages render the new blocks.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

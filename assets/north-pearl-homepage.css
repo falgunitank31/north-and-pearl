@@ -148,6 +148,69 @@
   font-size: 1.25rem;
 }
 
+.np-shop-starter {
+  display: grid;
+  grid-template-columns: minmax(24rem, .42fr) minmax(0, 1fr);
+  gap: 1.2rem;
+  align-items: stretch;
+  padding: 1.4rem max(2rem, calc((100vw - 1320px) / 2));
+  border-bottom: 1px solid var(--np-home-line);
+  background: #fffaf3;
+}
+
+.np-shop-starter__intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.8rem 2rem;
+  border: 1px solid var(--np-home-line);
+  border-radius: 8px;
+  background: var(--np-home-ivory);
+}
+
+.np-shop-starter__intro .np-kicker {
+  margin-bottom: .7rem;
+}
+
+.np-shop-starter__intro h2 {
+  font-size: clamp(2.4rem, 2.7vw, 3.6rem);
+}
+
+.np-shop-starter__links {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .9rem;
+}
+
+.np-shop-starter__links a {
+  display: flex;
+  min-height: 10rem;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.6rem;
+  border: 1px solid var(--np-home-line);
+  border-radius: 8px;
+  background: #fffdf8;
+  color: var(--np-home-black);
+  text-decoration: none;
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+
+.np-shop-starter__links span {
+  color: var(--np-home-gold);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.np-shop-starter__links strong {
+  margin-top: 1.4rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.95rem;
+  line-height: 1.08;
+}
+
 .np-section,
 .np-newsletter {
   max-width: 1240px;
@@ -471,6 +534,7 @@
 .np-category-card:focus-visible,
 .np-occasion-card:focus-visible,
 .np-guide-strip a:focus-visible,
+.np-shop-starter__links a:focus-visible,
 .np-button:focus-visible,
 .np-text-link:focus-visible {
   outline: .2rem solid var(--np-home-gold);
@@ -492,6 +556,7 @@
 
   .np-category-card:hover,
   .np-occasion-card:hover,
+  .np-shop-starter__links a:hover,
   .np-commerce-home .product-card-wrapper:hover .card {
     border-color: rgba(185, 146, 77, .5);
     box-shadow: 0 18px 36px rgba(23, 20, 17, .08);
@@ -502,6 +567,7 @@
 @media screen and (max-width: 989px) {
   .np-hero,
   .np-story,
+  .np-shop-starter,
   .np-section-heading--split {
     grid-template-columns: 1fr;
   }
@@ -518,6 +584,14 @@
     padding: 3.8rem 2rem 4.2rem;
   }
 
+  .np-shop-starter {
+    padding: 1.2rem 2rem;
+  }
+
+  .np-shop-starter__links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .np-trust,
   .np-category-grid,
   .np-occasion-grid,
@@ -528,6 +602,16 @@
 
   .np-text-link {
     justify-self: start;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .np-shop-starter__links {
+    grid-template-columns: 1fr;
+  }
+
+  .np-shop-starter__links a {
+    min-height: 8.4rem;
   }
 }
 

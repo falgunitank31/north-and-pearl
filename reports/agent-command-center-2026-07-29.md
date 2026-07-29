@@ -1,6 +1,6 @@
 # Agent Command Center
 
-Generated: 2026-07-29T19:06:35.080Z
+Generated: 2026-07-29T19:18:42.152Z
 
 ## Summary
 
@@ -24,7 +24,7 @@ Generated: 2026-07-29T19:06:35.080Z
 - Lovelace: Updated Today; latest report: reports/lovelace-order-access-restored-2026-07-29.md; operating mode: same-thread heartbeat
 - Kuhn: Updated Today; latest report: reports/kuhn-daily-design-qa-2026-07-29.md; operating mode: same-thread heartbeat
 - Curie: Updated Today; latest report: reports/source-reference-recovery-2026-07-29.md; operating mode: same-thread heartbeat
-- Lead Orchestrator: Updated Today; latest report: reports/lead-urgent-task-execution-2026-07-29.md; operating mode: same-thread heartbeat
+- Lead Orchestrator: Updated Today; latest report: reports/order-growth-execution-2026-07-29.md; operating mode: same-thread heartbeat
 
 ## UI
 

@@ -11,6 +11,7 @@
 - Prepared the local Google access scaffold: secure config directory, non-secret example file, and `scripts/verify-google-access.mjs` verifier.
 - Added a repeatable source-reference recovery queue for active catalog blockers: 208 active products checked, 115 below preferred media standard, 9 below-preferred products missing usable source-reference tags, 5 recoverable IDs needing exact-match confirmation, and 4 exact Alibaba URLs required.
 - Refreshed the Agent Command Center so the blocker cards and agent report evidence show today's Google/source recovery state.
+- Added order-growth buyer-intent shortcuts to the homepage and collection heroes, then pushed the safe theme update to live theme `189441802424` after Theme Check passed.
 
 ## July 28, 2026
 

@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-07-29T19:06:35.080Z",
+    "generatedAt": "2026-07-29T19:18:42.152Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
     "workingToday": 8,
@@ -89,12 +89,12 @@
       "latest": {
         "file": "live-storefront-qa-2026-07-29.md",
         "path": "reports/live-storefront-qa-2026-07-29.md",
-        "mtime": "2026-07-29T18:30:00.682Z"
+        "mtime": "2026-07-29T19:17:33.056Z"
       },
       "todayReport": {
         "file": "live-storefront-qa-2026-07-29.md",
         "path": "reports/live-storefront-qa-2026-07-29.md",
-        "mtime": "2026-07-29T18:30:00.682Z"
+        "mtime": "2026-07-29T19:17:33.056Z"
       },
       "status": "Updated Today"
     },
@@ -190,6 +190,7 @@
       "name": "Lead Orchestrator",
       "lane": "Ecommerce operating system",
       "reportPrefixes": [
+        "order-growth-execution",
         "lead-urgent-task-execution",
         "lead-traffic-orders-summary",
         "lead-daily-ecommerce-coordination",
@@ -198,14 +199,14 @@
       ],
       "owns": "Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.",
       "latest": {
-        "file": "lead-urgent-task-execution-2026-07-29.md",
-        "path": "reports/lead-urgent-task-execution-2026-07-29.md",
-        "mtime": "2026-07-29T18:30:24.343Z"
+        "file": "order-growth-execution-2026-07-29.md",
+        "path": "reports/order-growth-execution-2026-07-29.md",
+        "mtime": "2026-07-29T19:18:31.530Z"
       },
       "todayReport": {
-        "file": "lead-urgent-task-execution-2026-07-29.md",
-        "path": "reports/lead-urgent-task-execution-2026-07-29.md",
-        "mtime": "2026-07-29T18:30:24.343Z"
+        "file": "order-growth-execution-2026-07-29.md",
+        "path": "reports/order-growth-execution-2026-07-29.md",
+        "mtime": "2026-07-29T19:18:31.530Z"
       },
       "status": "Updated Today"
     }

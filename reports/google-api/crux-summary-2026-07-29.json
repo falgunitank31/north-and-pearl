@@ -1,0 +1,14 @@
+[
+  {
+    "file": "crux-origin-phone-2026-07-29.json",
+    "ok": false,
+    "code": 404,
+    "message": "chrome ux report data not found"
+  },
+  {
+    "file": "crux-origin-desktop-2026-07-29.json",
+    "ok": false,
+    "code": 404,
+    "message": "chrome ux report data not found"
+  }
+]

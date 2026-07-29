@@ -34,6 +34,12 @@ Verified scores:
 - Initial Shell PDP mobile before fix: Performance 66, Accessibility 92, SEO 100, LCP 9.2s.
 - Name Necklaces mobile PageSpeed returned a transient Lighthouse error.
 
+## CrUX Field Data
+
+- CrUX origin query for `https://northandpearl.com` on phone returned `chrome ux report data not found`.
+- CrUX origin query for `https://northandpearl.com` on desktop returned `chrome ux report data not found`.
+- Interpretation: Google does not yet have enough public Chrome-user field data for the origin. Rawls should use PageSpeed lab data until traffic grows enough for CrUX reporting.
+
 ## Change Implemented
 
 Tesla updated `snippets/product-thumbnail.liquid` so the first visible PDP media image:

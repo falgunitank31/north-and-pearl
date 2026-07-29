@@ -1,0 +1,20 @@
+{
+  "site": "sc-domain:northandpearl.com",
+  "results": [
+    {
+      "sitemap": "https://northandpearl.com/sitemap.xml",
+      "submitted": true,
+      "error": null
+    },
+    {
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml",
+      "submitted": true,
+      "error": null
+    },
+    {
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml",
+      "submitted": true,
+      "error": null
+    }
+  ]
+}

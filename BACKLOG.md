@@ -12,7 +12,7 @@
 - Continue daily Gauss catalog hygiene now that the active catalog is 208 products: watch product image quality, duplicate naming, low-quality source imagery, channel readiness, and curated collection size.
 - Faraday/Rawls must treat traffic generation as the current growth bottleneck: GA4 is receiving data, but the visible last-7-days overview shows Direct-only traffic and no visible organic channel yet.
 - Google API key, service-account JSON, Search Console, and GA4 property `properties/546565745` are configured and verified. Current bottleneck is traffic/indexing maturity: Search Console shows only 1 impression and 0 clicks in the initial API baseline.
-- Request Search Console indexing for the six new buyer-intent collections when browser CAPTCHA/session state allows: Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts.
+- Monitor Search Console indexing for the six new buyer-intent collections after sitemap resubmission: Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts.
 - Strengthen internal discovery into pages currently unknown or not indexed by Google: Jewelry Gifts for Her, Gifts Under $50, the new gift guide, and Initial Shell Necklace PDP.
 - Monitor the new buyer-intent collections for impressions, clicks, collection views, product clicks, add-to-cart activity, and revenue once Search Console/GA4 data accumulates.
 - Rawls must verify `add_to_cart`, newsletter signup, checkout-start, and purchase event receipt from account-side reports or an approved test-order workflow before any conversion-performance claim.

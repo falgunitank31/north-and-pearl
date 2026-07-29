@@ -1,0 +1,17 @@
+{
+  "property": "sc-domain:northandpearl.com",
+  "rows": [],
+  "totals": {
+    "clicks": 0,
+    "impressions": 0,
+    "ctr": 0,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 0,
+  "error": "Permission denied for property 'sc-domain:northandpearl.com'. Ensure the service account email is added as a user in Google Search Console > Settings > Users and permissions.",
+  "date_range": {
+    "start": "2026-07-01",
+    "end": "2026-07-26"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "property": "properties/GA4_PROPERTY_ID",
+  "report": "organic_traffic",
+  "date_range": {
+    "start": "2026-07-01",
+    "end": "2026-07-28"
+  },
+  "totals": {},
+  "daily_data": [],
+  "top_pages": [],
+  "quota_tokens_used": null,
+  "error": "GA4 API error: 400 Invalid property ID: GA4_PROPERTY_ID. A numeric Property ID is required. To learn more about Property ID, see https://developers.google.com/analytics/devguides/reporting/data/v1/property-id."
+}

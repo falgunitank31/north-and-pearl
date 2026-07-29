@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-07-29T18:39:10.628Z",
+    "generatedAt": "2026-07-29T18:56:04.365Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
     "workingToday": 8,
@@ -17,10 +17,10 @@
     },
     {
       "owner": "Lovelace",
-      "severity": "Blocked",
-      "title": "Shopify order read access is denied",
-      "impact": "New orders cannot be detected from this runtime, and ordered products cannot be mapped automatically to Alibaba source URLs.",
-      "next": "Restore safe `read_orders` scope, keeping future queries limited to order reference and line-item/source data."
+      "severity": "Resolved",
+      "title": "Shopify order read access is restored",
+      "impact": "Safe non-PII order monitoring can now detect recent orders and map ordered products to source tags when orders exist.",
+      "next": "Continue daily order-source monitoring; current safe query shows 0 visible orders."
     },
     {
       "owner": "Gauss + Curie + Kuhn",
@@ -121,20 +121,21 @@
       "name": "Lovelace",
       "lane": "Operations and order sourcing",
       "reportPrefixes": [
+        "lovelace-order-access-restored",
         "lovelace-daily-order-source-monitor",
         "lovelace-merchant-center-shipping-blocker",
         "operations-readiness-audit"
       ],
       "owns": "Order-source mapping, Alibaba source URLs, fulfillment readiness, shipping/returns safety.",
       "latest": {
-        "file": "lovelace-daily-order-source-monitor-2026-07-29.md",
-        "path": "reports/lovelace-daily-order-source-monitor-2026-07-29.md",
-        "mtime": "2026-07-29T17:34:58.893Z"
+        "file": "lovelace-order-access-restored-2026-07-29.md",
+        "path": "reports/lovelace-order-access-restored-2026-07-29.md",
+        "mtime": "2026-07-29T18:55:05.977Z"
       },
       "todayReport": {
-        "file": "lovelace-daily-order-source-monitor-2026-07-29.md",
-        "path": "reports/lovelace-daily-order-source-monitor-2026-07-29.md",
-        "mtime": "2026-07-29T17:34:58.893Z"
+        "file": "lovelace-order-access-restored-2026-07-29.md",
+        "path": "reports/lovelace-order-access-restored-2026-07-29.md",
+        "mtime": "2026-07-29T18:55:05.977Z"
       },
       "status": "Updated Today"
     },

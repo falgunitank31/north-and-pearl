@@ -35,7 +35,7 @@ const agents = [
   {
     name: 'Lovelace',
     lane: 'Operations and order sourcing',
-    reportPrefixes: ['lovelace-daily-order-source-monitor', 'lovelace-merchant-center-shipping-blocker', 'operations-readiness-audit'],
+    reportPrefixes: ['lovelace-order-access-restored', 'lovelace-daily-order-source-monitor', 'lovelace-merchant-center-shipping-blocker', 'operations-readiness-audit'],
     owns: 'Order-source mapping, Alibaba source URLs, fulfillment readiness, shipping/returns safety.',
   },
   {
@@ -142,10 +142,10 @@ const blockers = [
   },
   {
     owner: 'Lovelace',
-    severity: 'Blocked',
-    title: 'Shopify order read access is denied',
-    impact: 'New orders cannot be detected from this runtime, and ordered products cannot be mapped automatically to Alibaba source URLs.',
-    next: 'Restore safe `read_orders` scope, keeping future queries limited to order reference and line-item/source data.',
+    severity: 'Resolved',
+    title: 'Shopify order read access is restored',
+    impact: 'Safe non-PII order monitoring can now detect recent orders and map ordered products to source tags when orders exist.',
+    next: 'Continue daily order-source monitoring; current safe query shows 0 visible orders.',
   },
   {
     owner: 'Gauss + Curie + Kuhn',
@@ -282,6 +282,7 @@ const html = `<!doctype html>
     }
     .pill.blocked { color: var(--red); background: #fff0ef; }
     .pill.needs-work { color: var(--amber); background: #fff7e5; }
+    .pill.resolved { color: var(--green); background: #eef8f2; }
     .grid { display: grid; gap: 14px; }
     .card {
       display: grid;

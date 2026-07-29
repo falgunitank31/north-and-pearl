@@ -6,6 +6,7 @@
 - Completed an urgent execution pass across Rawls, Lovelace, Faraday, Gauss, Kuhn, and Tesla: product SEO remains 208/208 clean, Merchant readiness remains 208/208 ready with identifier caveat, Theme Check passed with no offenses, main menu audit passed, safe order-read scope is still blocked, and Google API access is still unconfigured locally.
 - Hardened `scripts/live-storefront-qa.mjs` so transient fetch/network failures retry instead of crashing full-catalog QA, then re-ran live QA successfully: 208/208 product pages passed and cart add passed.
 - Upgraded the Agent Command Center into an interactive local dashboard with search, working/resting/blocked filters, blocker cards, and persistent generator support; verified at `http://localhost:8787/docs/agent-command-center.html`.
+- Restored Shopify order-read access through CLI store auth; safe non-PII recent-orders query now returns `ORDER_ACCESS_OK` with 0 visible orders.
 
 ## July 28, 2026
 

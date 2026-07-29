@@ -45,4 +45,4 @@
 - Paid tools, ads, supplier contact, inventory/sample purchases, legal policy finalization, and any unverified material claims require owner approval.
 - Alibaba direct product-page fetching for media replacement is partially blocked by protection responses; exact-source media replacement should resume only when source pages render normally in browser, owner supplies product image URLs, supplier provides assets, or final photography is available. One accessible source (`1601721496131`) exposed that the active product was miscategorized, and the live catalog record has been repaired.
 - Public store product-record mutation through Shopify CLI is blocked until `shopify store auth --store north-and-pearl.myshopify.com` is completed with Admin API scopes. Theme CLI push remains available.
-- Shopify order-source monitoring is blocked until safe order-read scope is available; latest safe order query returned `Access denied for orders field`.
+- Shopify order-source monitoring is unblocked as of July 29, 2026; safe recent-orders query returned `ORDER_ACCESS_OK` with 0 visible orders.

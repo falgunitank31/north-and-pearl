@@ -103,6 +103,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Published the July 29 traffic/orders owner summary: no verified traffic increase can be claimed yet; latest verified GA4 baseline remains 23 sessions, 9 users, Direct-only, 0 key events, with Shopify order/revenue visibility blocked or unavailable in project records.
 - [x] Executed the July 29 urgent-task pass: Google API access remains unconfigured, safe Shopify order-read access remains blocked, product SEO and Merchant readiness remain green, Theme Check passed, menu audit passed, and live storefront QA passed 208/208 PDPs with cart add passing after hardening the QA retry logic.
 - [x] Upgraded the Agent Command Center into an interactive local dashboard with search, working/resting/blocked filters, current blocker cards, and same-thread agent status evidence; local server verified at `http://localhost:8787/docs/agent-command-center.html`.
+- [x] Restored Shopify order-read access through CLI store auth; safe recent-orders query now returns `ORDER_ACCESS_OK` with 0 visible orders and no customer/payment data requested.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

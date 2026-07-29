@@ -46,6 +46,10 @@
 
   assign np_alt_title = product_title | default: product.title | default: media.alt
   assign np_media_alt = np_alt_title | append: ' product image ' | append: position
+  assign np_fetchpriority = 'auto'
+  if lazy_load == false
+    assign np_fetchpriority = 'high'
+  endif
 -%}
 
 {%- capture sizes -%}
@@ -83,13 +87,15 @@
     <div class="product__media media media--transparent">
       {{
         media.preview_image
-        | image_url: width: 1946
+        | image_url: width: 1346
         | image_tag:
           class: image_class,
           loading: lazy,
+          fetchpriority: np_fetchpriority,
+          decoding: 'async',
           sizes: sizes,
           alt: np_media_alt,
-          widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
+          widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346'
       }}
     </div>
     <button
@@ -126,12 +132,14 @@
       </span>
       {{
         media.preview_image
-        | image_url: width: 1946
+        | image_url: width: 1346
         | image_tag:
           loading: lazy,
+          fetchpriority: np_fetchpriority,
+          decoding: 'async',
           sizes: sizes,
           alt: np_media_alt,
-          widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
+          widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346'
       }}
     </button>
     <template>

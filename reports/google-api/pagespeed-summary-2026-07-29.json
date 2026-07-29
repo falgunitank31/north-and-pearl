@@ -1,0 +1,84 @@
+[
+  {
+    "file": "pagespeed-collection-name-necklaces-desktop-2026-07-29.json",
+    "ok": true,
+    "url": "https://northandpearl.com/collections/name-necklaces",
+    "strategy": "desktop",
+    "performance": 95,
+    "accessibility": 97,
+    "seo": 100,
+    "lcp": "0.8 s",
+    "cls": "0.005",
+    "tbt": "170 ms",
+    "speedIndex": "0.7 s"
+  },
+  {
+    "file": "pagespeed-collection-name-necklaces-mobile-2026-07-29.json",
+    "ok": false,
+    "error": "Lighthouse returned error: Something went wrong."
+  },
+  {
+    "file": "pagespeed-home-desktop-2026-07-29.json",
+    "ok": true,
+    "url": "https://northandpearl.com/",
+    "strategy": "desktop",
+    "performance": 100,
+    "accessibility": 97,
+    "seo": 100,
+    "lcp": "0.7 s",
+    "cls": "0",
+    "tbt": "60 ms",
+    "speedIndex": "0.9 s"
+  },
+  {
+    "file": "pagespeed-home-mobile-2026-07-29.json",
+    "ok": true,
+    "url": "https://northandpearl.com/",
+    "strategy": "mobile",
+    "performance": 90,
+    "accessibility": 97,
+    "seo": 100,
+    "lcp": "3.5 s",
+    "cls": "0.001",
+    "tbt": "10 ms",
+    "speedIndex": "2.4 s"
+  },
+  {
+    "file": "pagespeed-product-initial-shell-desktop-2026-07-29.json",
+    "ok": true,
+    "url": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+    "strategy": "desktop",
+    "performance": 98,
+    "accessibility": 92,
+    "seo": 100,
+    "lcp": "1.1 s",
+    "cls": "0.006",
+    "tbt": "50 ms",
+    "speedIndex": "0.9 s"
+  },
+  {
+    "file": "pagespeed-product-initial-shell-mobile-2026-07-29.json",
+    "ok": true,
+    "url": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+    "strategy": "mobile",
+    "performance": 66,
+    "accessibility": 92,
+    "seo": 100,
+    "lcp": "9.2 s",
+    "cls": "0.001",
+    "tbt": "130 ms",
+    "speedIndex": "4.7 s"
+  },
+  {
+    "file": "pagespeed-summary-2026-07-29.json",
+    "ok": true,
+    "strategy": "desktop",
+    "performance": 0,
+    "accessibility": 0,
+    "seo": 0,
+    "lcp": null,
+    "cls": null,
+    "tbt": null,
+    "speedIndex": null
+  }
+]

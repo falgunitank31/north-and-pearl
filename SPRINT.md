@@ -113,6 +113,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Pushed the order-growth buyer-path update to live theme `189441802424`; Theme Check passed with no offenses and live sampled homepage/collection pages render the new blocks.
 - [x] Published the Faraday high-intent gift guide `Meaningful Jewelry Gifts to Shop This Week` and created a UTM-tagged qualified traffic post kit for organic social, short video captions, and warm-audience sharing.
 - [x] Validated the new gift guide and UTM buyer-intent collection links live; priority links return 200 and collection links render product grids.
+- [x] Configured local Google API key access for Codex SEO Tier 0; PageSpeed Insights, CrUX, and CrUX History are available.
+- [x] Ran Google PageSpeed baseline on the homepage, Name Necklaces collection, and Initial Shell Necklace PDP; identified PDP mobile LCP/performance as the P1 issue.
+- [x] Optimized live PDP product-media loading with high-priority first image, async decoding, and smaller responsive source candidates; Theme Check passed and live HTML validation confirmed the deployment.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

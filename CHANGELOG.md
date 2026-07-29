@@ -2,6 +2,9 @@
 
 ## July 29, 2026
 
+- Configured the local Google SEO API key for Codex SEO Tier 0 access; PageSpeed Insights, CrUX, and CrUX History are now available, while Search Console and GA4 still require service-account access.
+- Captured Google PageSpeed baselines for the homepage, Name Necklaces collection, and Initial Shell Necklace PDP; the main P1 finding was product-page mobile LCP/performance.
+- Optimized PDP media loading by prioritizing the first product image and reducing max responsive image candidates from 1946px to 1346px, then pushed the fix live after Theme Check passed.
 - Added the Lead Traffic and Orders Summary to separate verified performance facts from assumptions: latest verified GA4 baseline remains 23 sessions, 9 users, Direct-only acquisition, 394 events, and 0 key events; no traffic increase, order count, revenue, conversion rate, or AOV can be claimed from the current project records.
 - Completed an urgent execution pass across Rawls, Lovelace, Faraday, Gauss, Kuhn, and Tesla: product SEO remains 208/208 clean, Merchant readiness remains 208/208 ready with identifier caveat, Theme Check passed with no offenses, main menu audit passed, safe order-read scope is still blocked, and Google API access is still unconfigured locally.
 - Hardened `scripts/live-storefront-qa.mjs` so transient fetch/network failures retry instead of crashing full-catalog QA, then re-ran live QA successfully: 208/208 product pages passed and cart add passed.

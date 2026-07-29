@@ -11,7 +11,7 @@
 - Monitor compare-at pricing trust: all active products currently have compare-at data, but live theme checks show no visible sale labels or sale-price blocks on sampled collection/PDP pages.
 - Continue daily Gauss catalog hygiene now that the active catalog is 208 products: watch product image quality, duplicate naming, low-quality source imagery, channel readiness, and curated collection size.
 - Faraday/Rawls must treat traffic generation as the current growth bottleneck: GA4 is receiving data, but the visible last-7-days overview shows Direct-only traffic and no visible organic channel yet.
-- Google API access remains unconfigured locally; the secure directory and non-secret example now exist, but Faraday/Rawls still need `/Users/yagneshtank/.config/codex-seo/google-api.json` with API key plus OAuth/service-account access, or an account-side GA4/Search Console export, before live traffic increase can be calculated.
+- Google API key access is configured locally for Codex SEO Tier 0; Faraday/Rawls can use PageSpeed Insights, CrUX, and CrUX History, but Search Console, URL Inspection, Indexing API, and GA4 still need `/Users/yagneshtank/.config/codex-seo/google-service-account.json` plus account-side access.
 - Request Search Console indexing for the six new buyer-intent collections when browser CAPTCHA/session state allows: Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts.
 - Monitor the new buyer-intent collections for impressions, clicks, collection views, product clicks, add-to-cart activity, and revenue once Search Console/GA4 data accumulates.
 - Rawls must verify `add_to_cart`, newsletter signup, checkout-start, and purchase event receipt from account-side reports or an approved test-order workflow before any conversion-performance claim.
@@ -34,6 +34,7 @@
 
 - Monitor Search Console coverage after the July 28, 2026 priority indexing batch; homepage, Best Sellers, Gifts, New Arrivals, Name Necklaces, Necklaces, AI Brand Information, Bracelets, Rings, Earrings, and the primary gift guide were requested.
 - Enrich Faraday baseline with Search Console/GA4/PageSpeed API data once Codex SEO Google credentials are configured.
+- Re-run product-page mobile PageSpeed for `north-pearl-initial-shell-necklace`; the immediate post-fix API retry timed out after the live HTML confirmed the image-priority deployment.
 - Add more refined collection image standards once final product photography is available; all 13 populated commercial collections currently have representative collection images from live product media.
 - Build repeatable weekly reporting and experiment review cadence.
 - Expand organic content only where a commercial page and product path exist.

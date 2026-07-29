@@ -38,6 +38,7 @@
 - Source-image polish baseline: 115 of 208 active products are below the preferred media standard; 106 have source-reference tags and 9 are missing usable source-reference tags in the latest source-image audit.
 - Google API baseline: Codex SEO Tier 0 is configured locally as of July 29, 2026. PageSpeed Insights works. CrUX origin queries for `https://northandpearl.com` returned no public phone or desktop field data, indicating insufficient real Chrome-user traffic for CrUX reporting.
 - Google API access update: GA4 Data API works for property `properties/546565745` as of July 29, 2026, but organic reports currently return zero rows. Search Console API authenticates, but the service account sees zero Search Console properties until it is added inside Search Console Users and permissions.
+- Search Console API baseline after access: property `sc-domain:northandpearl.com` is visible with `siteFullUser` permission. Last 28-day API report shows 1 impression, 0 clicks, 0% CTR, and no quick wins yet. Priority URL inspection shows homepage, Name Necklaces, and Best Sellers indexed; Jewelry Gifts for Her, Gifts Under $50, the new gift guide, and Initial Shell Necklace are not fully indexed yet.
 
 ## Rawls Daily Watch - July 29, 2026
 

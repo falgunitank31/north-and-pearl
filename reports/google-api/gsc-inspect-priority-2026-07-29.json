@@ -1,0 +1,230 @@
+{
+  "property": "sc-domain:northandpearl.com",
+  "total": 7,
+  "results": [
+    {
+      "url": "https://northandpearl.com/",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-07-28T14:14:53Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "http://northandpearl.com/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/",
+        "user_canonical": "https://northandpearl.com/",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/name-necklaces",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-07-28T14:20:57Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/name-necklaces",
+        "user_canonical": "https://northandpearl.com/collections/name-necklaces",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/best-sellers",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-07-28T14:16:32Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/best-sellers",
+        "user_canonical": "https://northandpearl.com/collections/best-sellers",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/jewelry-gifts-for-her",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/gifts-under-50",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    }
+  ],
+  "summary": {
+    "pass": 3,
+    "fail": 0,
+    "neutral": 4,
+    "error": 0
+  },
+  "error": null
+}

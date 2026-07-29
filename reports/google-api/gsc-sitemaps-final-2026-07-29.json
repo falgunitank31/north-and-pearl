@@ -1,0 +1,27 @@
+{
+  "property": "sc-domain:northandpearl.com",
+  "sitemaps": [
+    {
+      "path": "https://northandpearl.com/sitemap.xml",
+      "last_submitted": "2026-07-27T14:57:38.556Z",
+      "is_pending": false,
+      "is_index": true,
+      "type": null,
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "149",
+          "indexed": "0"
+        },
+        {
+          "type": "image",
+          "submitted": "118",
+          "indexed": "0"
+        }
+      ]
+    }
+  ],
+  "error": null
+}

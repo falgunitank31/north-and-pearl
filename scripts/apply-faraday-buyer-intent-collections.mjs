@@ -350,6 +350,40 @@ const existingCollections = gql(
 ).collections.nodes;
 const collectionByHandle = new Map(existingCollections.map((collection) => [collection.handle, collection]));
 
+const publications = gql(
+  `query Publications {
+    publications(first: 50) {
+      nodes { id name }
+    }
+  }`,
+).publications.nodes;
+const commercialPublications = publications.filter((publication) =>
+  ['Online Store', 'Google & YouTube'].includes(publication.name),
+);
+
+function publishCommercialCollection(collection) {
+  if (!commercialPublications.length) return [];
+
+  const result = gql(
+    `mutation PublishCollection($id: ID!, $input: [PublicationInput!]!) {
+      publishablePublish(id: $id, input: $input) {
+        userErrors { field message }
+      }
+    }`,
+    {
+      id: collection.id,
+      input: commercialPublications.map((publication) => ({ publicationId: publication.id })),
+    },
+    true,
+  ).publishablePublish;
+
+  if (result.userErrors.length) {
+    throw new Error(`${collection.handle} publish: ${JSON.stringify(result.userErrors)}`);
+  }
+
+  return commercialPublications.map((publication) => publication.name);
+}
+
 async function getCollectionProducts(collectionId) {
   const collectionProducts = [];
   let cursor = null;
@@ -454,6 +488,7 @@ for (const plan of collectionPlans) {
   }
 
   const finalProducts = await getCollectionProducts(collection.id);
+  const publishedTo = publishCommercialCollection(collection);
   results.push({
     handle: plan.handle,
     action: collectionByHandle.has(plan.handle) ? 'updated' : 'created',
@@ -461,6 +496,7 @@ for (const plan of collectionPlans) {
     removed: remove.length,
     added: add.length,
     finalCount: finalProducts.length,
+    publishedTo,
     topProducts: scored.slice(0, 10).map((product) => `${product.title} (${product.handle})`),
   });
 }
@@ -478,7 +514,7 @@ Faraday built commercial, search-intent aligned landing collections using only a
 ${results
   .map((result) => {
     if (result.action === 'skipped') return `- ${result.handle}: skipped — ${result.reason}`;
-    return `- ${result.handle}: ${result.action}; selected ${result.selected}; added ${result.added}; removed ${result.removed}; final products ${result.finalCount}`;
+    return `- ${result.handle}: ${result.action}; selected ${result.selected}; added ${result.added}; removed ${result.removed}; final products ${result.finalCount}; published to ${result.publishedTo.join(', ') || 'no publication targets found'}`;
   })
   .join('\n')}
 

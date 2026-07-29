@@ -34,7 +34,7 @@
       </div>
 
       <nav class="np-collection-quicklinks" aria-label="Related jewelry collections">
-        {%- assign quick_links = 'best-sellers|Best Sellers,new-arrivals|New Arrivals,name-necklaces|Name Necklaces,initial-necklaces|Initials,birthstone-jewelry|Birthstones,gifts|Gifts' | split: ',' -%}
+        {%- assign quick_links = 'personalized-jewelry|Personalized Jewelry,jewelry-gifts-for-her|Gifts for Her,gifts-under-50|Under $50,gifts-under-100|Under $100,birthday-jewelry-gifts|Birthday Gifts,anniversary-gifts|Anniversary Gifts,best-sellers|Best Sellers,name-necklaces|Name Necklaces,initial-necklaces|Initials,gifts|Gifts' | split: ',' -%}
         {%- for quick_link in quick_links -%}
           {%- assign quick_parts = quick_link | split: '|' -%}
           {%- assign quick_collection = collections[quick_parts[0]] -%}

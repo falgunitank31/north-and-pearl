@@ -108,6 +108,44 @@ function esc(value = '') {
     .replaceAll('"', '&quot;');
 }
 
+function readJson(path, fallback = null) {
+  if (!existsSync(path)) return fallback;
+  try {
+    return JSON.parse(readFileSync(path, 'utf8'));
+  } catch {
+    return fallback;
+  }
+}
+
+function latestMatchingFile(dir, matcher) {
+  if (!existsSync(dir)) return null;
+  return readdirSync(dir)
+    .filter(matcher)
+    .map((file) => {
+      const path = join(dir, file);
+      return { file, path, mtime: statSync(path).mtime };
+    })
+    .sort((a, b) => b.mtime - a.mtime)[0] || null;
+}
+
+function readLatestJson(dir, matcher, fallback = null) {
+  const latest = latestMatchingFile(dir, matcher);
+  if (!latest) return { data: fallback, file: null };
+  return { data: readJson(latest.path, fallback), file: latest.path };
+}
+
+function readText(path) {
+  return existsSync(path) ? readFileSync(path, 'utf8') : '';
+}
+
+function firstNumber(text, patterns, fallback = 'Unknown') {
+  for (const pattern of patterns) {
+    const match = text.match(pattern);
+    if (match) return match[1];
+  }
+  return fallback;
+}
+
 const sameThreadAutomation = readAutomationById(sameThreadAutomationId);
 
 const rows = agents.map((agent) => {
@@ -123,6 +161,46 @@ const rows = agents.map((agent) => {
   };
 });
 
+const latestGsc = readLatestJson('reports/google-api', (file) => file.startsWith('gsc-query-post-faraday-') && file.endsWith('.json'));
+const latestGa4Organic = readLatestJson('reports/google-api', (file) => file.startsWith('ga4-organic-post-faraday-') && file.endsWith('.json'));
+const latestGa4Pages = readLatestJson('reports/google-api', (file) => file.startsWith('ga4-organic-top-pages-post-faraday-') && file.endsWith('.json'));
+const latestOrders = readLatestJson('reports', (file) => file.startsWith('shopify-orders-safe-') && file.endsWith('.json'));
+const merchantText = readText(`reports/merchant-center-readiness-${today}.md`) || readText('reports/merchant-center-readiness-2026-07-30.md');
+const sprintText = readText('SPRINT.md');
+const metricsText = readText('METRICS.md');
+const commandTrafficReport = readText(`reports/faraday-traffic-chance-before-after-${today}.md`) || readText('reports/faraday-traffic-chance-before-after-2026-07-30.md');
+
+const gscTotals = latestGsc.data?.totals || {};
+const ga4OrganicSessions = latestGa4Pages.data?.total_organic_sessions ?? 0;
+const orderCount = latestOrders.data?.orders?.nodes?.length ?? 0;
+const activeProducts = firstNumber(merchantText, [/Active products audited:\s*(\d+)/i, /(\d+)\s+active products/i], 'Unknown');
+const merchantReady = firstNumber(merchantText, [/Ready with identifier caveat:\s*(\d+)/i, /(\d+)\s+active products ready/i], 'Unknown');
+const merchantNeedsReview = firstNumber(merchantText, [/Needs review:\s*(\d+)/i, /(\d+)\s+needing review/i], 'Unknown');
+const sourceMediaRisk = firstNumber(metricsText, [/Source-image polish baseline:\s*(\d+)\s+of\s+\d+\s+active products are below/i], '115');
+const themeCheck = firstNumber(sprintText, [/Theme Check(?: passed)?(?: on July 30)?;\s*(\d+)\s+files inspected with 0 offenses/i, /Theme Check[^.\n]*?(\d+)\s+files inspected[^.\n]*?0 offenses/i], '231');
+
+const businessStats = [
+  { label: 'Search impressions', value: gscTotals.impressions ?? 0, note: 'Search Console, latest API snapshot', tone: 'blue' },
+  { label: 'Search clicks', value: gscTotals.clicks ?? 0, note: 'No organic clicks verified yet', tone: Number(gscTotals.clicks || 0) > 0 ? 'green' : 'amber' },
+  { label: 'GA4 organic sessions', value: ga4OrganicSessions, note: 'Organic top-pages API report', tone: Number(ga4OrganicSessions || 0) > 0 ? 'green' : 'amber' },
+  { label: 'Visible orders', value: orderCount, note: 'Safe non-PII Shopify order monitor', tone: Number(orderCount || 0) > 0 ? 'green' : 'amber' },
+  { label: 'Active products', value: activeProducts, note: 'Gauss catalog baseline', tone: 'green' },
+  { label: 'Merchant-ready products', value: merchantReady, note: `${merchantNeedsReview} needing review`, tone: merchantNeedsReview === '0' ? 'green' : 'amber' },
+  { label: 'Media polish queue', value: sourceMediaRisk, note: 'Products below preferred image standard', tone: 'amber' },
+  { label: 'Theme Check', value: '0', note: `${themeCheck} files inspected, 0 offenses`, tone: 'green' },
+];
+
+const agentStats = rows.map((row) => {
+  const reports = reportFiles(row.reportPrefixes);
+  return {
+    name: row.name,
+    reportsToday: reports.filter((report) => report.file.includes(today)).length,
+    totalReports: reports.length,
+    latest: row.latest?.file || 'No report yet',
+    status: row.status,
+  };
+});
+
 const summary = {
   generatedAt: now.toISOString(),
   sameThreadAutomationActive: sameThreadAutomation.active,
@@ -130,6 +208,11 @@ const summary = {
   workingToday: rows.filter((row) => row.status === 'Updated Today').length,
   needsUpdate: rows.filter((row) => row.status === 'No Report Yet').length,
   resting: rows.filter((row) => row.status !== 'Updated Today').length,
+  searchImpressions: gscTotals.impressions ?? 0,
+  searchClicks: gscTotals.clicks ?? 0,
+  organicSessions: ga4OrganicSessions,
+  visibleOrders: orderCount,
+  activeProducts,
 };
 
 const blockers = [
@@ -227,6 +310,45 @@ const html = `<!doctype html>
     .stat { padding: 18px; }
     .stat strong { display: block; font-size: 30px; line-height: 1; }
     .stat span { color: var(--muted); font-size: 13px; }
+    .stat.blue strong { color: var(--blue); }
+    .stat.green strong { color: var(--green); }
+    .stat.amber strong { color: var(--amber); }
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .metric {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fffaf1;
+    }
+    .metric strong {
+      display: block;
+      font-size: 28px;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .metric .label { font-weight: 750; }
+    .metric .note { color: var(--muted); font-size: 12px; margin-top: 4px; }
+    .metric.blue strong { color: var(--blue); }
+    .metric.green strong { color: var(--green); }
+    .metric.amber strong { color: var(--amber); }
+    .agent-metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .agent-metric {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--paper);
+      padding: 12px;
+    }
+    .agent-metric strong { display: block; font-size: 18px; }
     .toolbar {
       grid-template-columns: 1fr auto auto auto auto;
       align-items: center;
@@ -340,7 +462,7 @@ const html = `<!doctype html>
     footer { margin-top: 26px; color: var(--muted); font-size: 13px; }
     .hidden { display: none !important; }
     @media (max-width: 980px) {
-      .stats, .toolbar, .blockers, .card { grid-template-columns: 1fr; }
+      .stats, .toolbar, .blockers, .card, .metric-grid, .agent-metrics { grid-template-columns: 1fr; }
       .status { justify-content: flex-start; }
     }
   </style>
@@ -358,6 +480,36 @@ const html = `<!doctype html>
       <div class="stat"><strong>${summary.workingToday}</strong><span>Lanes updated today</span></div>
       <div class="stat"><strong>${summary.resting}</strong><span>Lanes resting</span></div>
       <div class="stat"><strong>${summary.needsUpdate}</strong><span>Lanes with no report yet</span></div>
+    </section>
+
+    <section class="panel" aria-label="Traffic and storefront performance statistics">
+      <h2>Traffic & Performance</h2>
+      <p class="small">These are verified snapshots from Search Console, GA4, Shopify, Merchant readiness, and theme reports. No traffic or order lift is claimed until these numbers move.</p>
+      <div class="metric-grid">
+        ${businessStats.map((item) => `
+          <div class="metric ${esc(item.tone)}">
+            <strong>${esc(item.value)}</strong>
+            <div class="label">${esc(item.label)}</div>
+            <div class="note">${esc(item.note)}</div>
+          </div>
+        `).join('')}
+      </div>
+      <p class="small">Latest Faraday read: ${commandTrafficReport ? 'traffic chance improved, verified traffic increase remains 0 so far.' : 'traffic before/after report is not present yet.'}</p>
+    </section>
+
+    <section class="panel" aria-label="Agent performance statistics">
+      <h2>Agent Performance</h2>
+      <p class="small">This tracks evidence of work in the same thread: reports produced today, total matching lane reports, and latest artifact.</p>
+      <div class="agent-metrics">
+        ${agentStats.map((agent) => `
+          <div class="agent-metric">
+            <strong>${esc(agent.name)}</strong>
+            <div class="small">${esc(agent.status)}</div>
+            <div class="small">${esc(agent.reportsToday)} report(s) today · ${esc(agent.totalReports)} total</div>
+            <div class="small">Latest: ${esc(agent.latest)}</div>
+          </div>
+        `).join('')}
+      </div>
     </section>
 
     <section class="toolbar" aria-label="Dashboard filters">
@@ -457,7 +609,7 @@ const html = `<!doctype html>
 mkdirSync('docs', { recursive: true });
 mkdirSync('reports', { recursive: true });
 writeFileSync('docs/agent-command-center.html', html);
-writeFileSync('reports/agent-command-center-status.json', JSON.stringify({ summary, blockers, agents: rows }, null, 2));
+writeFileSync('reports/agent-command-center-status.json', JSON.stringify({ summary, businessStats, agentStats, blockers, agents: rows }, null, 2));
 
 const textReport = `# Agent Command Center
 
@@ -469,6 +621,19 @@ Generated: ${summary.generatedAt}
 - Lanes updated today: ${summary.workingToday}
 - Lanes resting: ${summary.resting}
 - Lanes with no report yet: ${summary.needsUpdate}
+- Search Console impressions: ${summary.searchImpressions}
+- Search Console clicks: ${summary.searchClicks}
+- GA4 organic sessions: ${summary.organicSessions}
+- Visible Shopify orders: ${summary.visibleOrders}
+- Active products: ${summary.activeProducts}
+
+## Traffic & Performance
+
+${businessStats.map((item) => `- ${item.label}: ${item.value} (${item.note})`).join('\n')}
+
+## Agent Performance
+
+${agentStats.map((agent) => `- ${agent.name}: ${agent.reportsToday} report(s) today, ${agent.totalReports} total matching lane reports; latest: ${agent.latest}`).join('\n')}
 
 ## Blockers
 

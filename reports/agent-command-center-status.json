@@ -1,12 +1,125 @@
 {
   "summary": {
-    "generatedAt": "2026-07-30T16:34:44.972Z",
+    "generatedAt": "2026-07-30T19:55:53.553Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
     "workingToday": 8,
     "needsUpdate": 0,
-    "resting": 0
+    "resting": 0,
+    "searchImpressions": 1,
+    "searchClicks": 0,
+    "organicSessions": 0,
+    "visibleOrders": 0,
+    "activeProducts": "208"
   },
+  "businessStats": [
+    {
+      "label": "Search impressions",
+      "value": 1,
+      "note": "Search Console, latest API snapshot",
+      "tone": "blue"
+    },
+    {
+      "label": "Search clicks",
+      "value": 0,
+      "note": "No organic clicks verified yet",
+      "tone": "amber"
+    },
+    {
+      "label": "GA4 organic sessions",
+      "value": 0,
+      "note": "Organic top-pages API report",
+      "tone": "amber"
+    },
+    {
+      "label": "Visible orders",
+      "value": 0,
+      "note": "Safe non-PII Shopify order monitor",
+      "tone": "amber"
+    },
+    {
+      "label": "Active products",
+      "value": "208",
+      "note": "Gauss catalog baseline",
+      "tone": "green"
+    },
+    {
+      "label": "Merchant-ready products",
+      "value": "208",
+      "note": "0 needing review",
+      "tone": "green"
+    },
+    {
+      "label": "Media polish queue",
+      "value": "115",
+      "note": "Products below preferred image standard",
+      "tone": "amber"
+    },
+    {
+      "label": "Theme Check",
+      "value": "0",
+      "note": "228 files inspected, 0 offenses",
+      "tone": "green"
+    }
+  ],
+  "agentStats": [
+    {
+      "name": "Faraday",
+      "reportsToday": 2,
+      "totalReports": 12,
+      "latest": "faraday-qualified-traffic-execution-2026-07-30.md",
+      "status": "Updated Today"
+    },
+    {
+      "name": "Gauss",
+      "reportsToday": 1,
+      "totalReports": 8,
+      "latest": "gauss-daily-catalog-growth-2026-07-30.md",
+      "status": "Updated Today"
+    },
+    {
+      "name": "Tesla",
+      "reportsToday": 1,
+      "totalReports": 8,
+      "latest": "tesla-daily-storefront-qa-2026-07-30.md",
+      "status": "Updated Today"
+    },
+    {
+      "name": "Rawls",
+      "reportsToday": 1,
+      "totalReports": 4,
+      "latest": "rawls-daily-analytics-watch-2026-07-30.md",
+      "status": "Updated Today"
+    },
+    {
+      "name": "Lovelace",
+      "reportsToday": 1,
+      "totalReports": 5,
+      "latest": "lovelace-daily-order-source-monitor-2026-07-30.md",
+      "status": "Updated Today"
+    },
+    {
+      "name": "Kuhn",
+      "reportsToday": 1,
+      "totalReports": 5,
+      "latest": "kuhn-daily-design-qa-2026-07-30.md",
+      "status": "Updated Today"
+    },
+    {
+      "name": "Curie",
+      "reportsToday": 1,
+      "totalReports": 6,
+      "latest": "curie-daily-source-claim-safety-2026-07-30.md",
+      "status": "Updated Today"
+    },
+    {
+      "name": "Lead Orchestrator",
+      "reportsToday": 1,
+      "totalReports": 7,
+      "latest": "lead-orchestrator-daily-execution-2026-07-30.md",
+      "status": "Updated Today"
+    }
+  ],
   "blockers": [
     {
       "owner": "Rawls + Faraday",

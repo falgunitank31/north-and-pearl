@@ -1,6 +1,6 @@
 # Agent Command Center
 
-Generated: 2026-07-30T16:34:44.972Z
+Generated: 2026-07-30T19:55:53.553Z
 
 ## Summary
 
@@ -8,6 +8,33 @@ Generated: 2026-07-30T16:34:44.972Z
 - Lanes updated today: 8
 - Lanes resting: 0
 - Lanes with no report yet: 0
+- Search Console impressions: 1
+- Search Console clicks: 0
+- GA4 organic sessions: 0
+- Visible Shopify orders: 0
+- Active products: 208
+
+## Traffic & Performance
+
+- Search impressions: 1 (Search Console, latest API snapshot)
+- Search clicks: 0 (No organic clicks verified yet)
+- GA4 organic sessions: 0 (Organic top-pages API report)
+- Visible orders: 0 (Safe non-PII Shopify order monitor)
+- Active products: 208 (Gauss catalog baseline)
+- Merchant-ready products: 208 (0 needing review)
+- Media polish queue: 115 (Products below preferred image standard)
+- Theme Check: 0 (228 files inspected, 0 offenses)
+
+## Agent Performance
+
+- Faraday: 2 report(s) today, 12 total matching lane reports; latest: faraday-qualified-traffic-execution-2026-07-30.md
+- Gauss: 1 report(s) today, 8 total matching lane reports; latest: gauss-daily-catalog-growth-2026-07-30.md
+- Tesla: 1 report(s) today, 8 total matching lane reports; latest: tesla-daily-storefront-qa-2026-07-30.md
+- Rawls: 1 report(s) today, 4 total matching lane reports; latest: rawls-daily-analytics-watch-2026-07-30.md
+- Lovelace: 1 report(s) today, 5 total matching lane reports; latest: lovelace-daily-order-source-monitor-2026-07-30.md
+- Kuhn: 1 report(s) today, 5 total matching lane reports; latest: kuhn-daily-design-qa-2026-07-30.md
+- Curie: 1 report(s) today, 6 total matching lane reports; latest: curie-daily-source-claim-safety-2026-07-30.md
+- Lead Orchestrator: 1 report(s) today, 7 total matching lane reports; latest: lead-orchestrator-daily-execution-2026-07-30.md
 
 ## Blockers
 

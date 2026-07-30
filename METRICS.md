@@ -46,6 +46,7 @@
 - July 30 Commercial Gift Traffic Sprint: UTM campaign `order_growth_july_2026` created for warm-audience and organic social pushes. Rawls should monitor GA4 campaign traffic, guide landing-page engagement, collection views, product views, add-to-cart, checkout starts, and orders.
 - July 30 Faraday traffic-change check after the commercial sprint: verified increase is 0 so far. Search Console remains 1 impression and 0 clicks; GA4 organic and organic top-page reports return 0 rows. Traffic probability improved through better commercial links and UTM-ready distribution assets, but measurable traffic still depends on Google indexing or external sharing. Report: `reports/faraday-traffic-chance-before-after-2026-07-30.md`.
 - July 30 order-growth activation kit: `content/seo/order-growth-7-day-activation-kit-2026-07-30.md` provides the immediate 7-day tracked campaign links, daily post copy, short-video scripts, and warm-audience outreach message for qualified visitor generation.
+- July 30 operating pass update: Google API Tier 2 remains ready; Search Console remains 1 impression and 0 clicks; GA4 organic remains 0 sessions; sitemaps have 0 errors and 0 warnings but remain pending; seven priority buyer-intent URLs are unknown to Google and Initial Shell Necklace is discovered/currently not indexed; Shopify safe orders remain 0 visible orders; Theme Check found 0 offenses across 234 files; targeted live QA returned 200 for homepage, key collections, PDP, guide, cart, and search.
 
 ## Rawls Daily Watch - July 29, 2026
 

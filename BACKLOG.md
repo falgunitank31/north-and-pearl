@@ -16,6 +16,7 @@
 - Strengthen internal discovery into pages currently unknown or not indexed by Google: Jewelry Gifts for Her, Gifts Under $50, the new gift guide, and Initial Shell Necklace PDP.
 - Monitor the new buyer-intent collections for impressions, clicks, collection views, product clicks, add-to-cart activity, and revenue once Search Console/GA4 data accumulates.
 - Re-run targeted live storefront QA after the temporary Shopify 429 rate-limit window clears; July 30 Theme Check and Admin/API checks passed, but live HTTP validation was rate-limited after full-catalog QA began.
+- Avoid full-catalog live storefront crawling during the current Shopify throttle window; use targeted URL QA until repeated full crawls stop hanging.
 - Rawls must verify `add_to_cart`, newsletter signup, checkout-start, and purchase event receipt from account-side reports or an approved test-order workflow before any conversion-performance claim.
 - Rawls/Faraday must capture a fresh comparable GA4 and Search Console snapshot before reporting any traffic increase; latest verified baseline remains July 28 with 23 sessions, 9 users, Direct-only acquisition, and 0 key events.
 - Faraday/Rawls must monitor the new `order_growth_july_2026` activation kit daily for UTM sessions, landing-page engagement, product views, add-to-cart, checkout starts, and purchases; no measurable traffic increase is verified yet.

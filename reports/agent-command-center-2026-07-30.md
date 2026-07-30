@@ -1,6 +1,6 @@
 # Agent Command Center
 
-Generated: 2026-07-30T19:55:53.553Z
+Generated: 2026-07-30T20:26:05.157Z
 
 ## Summary
 
@@ -33,8 +33,8 @@ Generated: 2026-07-30T19:55:53.553Z
 - Rawls: 1 report(s) today, 4 total matching lane reports; latest: rawls-daily-analytics-watch-2026-07-30.md
 - Lovelace: 1 report(s) today, 5 total matching lane reports; latest: lovelace-daily-order-source-monitor-2026-07-30.md
 - Kuhn: 1 report(s) today, 5 total matching lane reports; latest: kuhn-daily-design-qa-2026-07-30.md
-- Curie: 1 report(s) today, 6 total matching lane reports; latest: curie-daily-source-claim-safety-2026-07-30.md
-- Lead Orchestrator: 1 report(s) today, 7 total matching lane reports; latest: lead-orchestrator-daily-execution-2026-07-30.md
+- Curie: 1 report(s) today, 6 total matching lane reports; latest: source-image-opportunities-2026-07-27.md
+- Lead Orchestrator: 2 report(s) today, 8 total matching lane reports; latest: lead-orchestrator-operating-pass-2026-07-30.md
 
 ## Blockers
 
@@ -51,8 +51,8 @@ Generated: 2026-07-30T19:55:53.553Z
 - Rawls: Updated Today; latest report: reports/rawls-daily-analytics-watch-2026-07-30.md; operating mode: same-thread heartbeat
 - Lovelace: Updated Today; latest report: reports/lovelace-daily-order-source-monitor-2026-07-30.md; operating mode: same-thread heartbeat
 - Kuhn: Updated Today; latest report: reports/kuhn-daily-design-qa-2026-07-30.md; operating mode: same-thread heartbeat
-- Curie: Updated Today; latest report: reports/curie-daily-source-claim-safety-2026-07-30.md; operating mode: same-thread heartbeat
-- Lead Orchestrator: Updated Today; latest report: reports/lead-orchestrator-daily-execution-2026-07-30.md; operating mode: same-thread heartbeat
+- Curie: Updated Today; latest report: reports/source-image-opportunities-2026-07-27.md; operating mode: same-thread heartbeat
+- Lead Orchestrator: Updated Today; latest report: reports/lead-orchestrator-operating-pass-2026-07-30.md; operating mode: same-thread heartbeat
 
 ## UI
 

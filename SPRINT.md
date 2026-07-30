@@ -136,6 +136,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Published Faraday's traffic-change reality check after the sprint: verified increase is 0 so far, Search Console remains 1 impression/0 clicks, GA4 organic remains 0 rows, and the near-term path is external UTM distribution plus daily monitoring.
 - [x] Created the 7-day order-growth activation kit with tracked links, daily post copy, short-video scripts, warm-audience outreach, and Rawls measurement rules for `order_growth_july_2026`.
 - [x] Continued today's execution pass across all lanes: Google/API monitor refreshed, URL Inspection refreshed, product SEO and Merchant readiness revalidated, Theme Check passed with 234 files and 0 offenses, targeted live QA passed sampled URLs, and Command Center stats were updated.
+- [x] Submitted the Shopify product sitemap and root sitemap to Search Console through API; product sitemap includes 209 URLs and currently shows 0 errors and 0 warnings while pending.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

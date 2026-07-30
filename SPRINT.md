@@ -133,6 +133,8 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Re-ran Theme Check on July 30; 228 files inspected with 0 offenses.
 - [x] Live storefront QA was temporarily rate-limited by Shopify `429` responses after a full-catalog crawl attempt; targeted revalidation is queued after the rate-limit window clears.
 - [x] Executed Faraday Commercial Gift Traffic Sprint: updated 10 live Shopify Gift Guide articles, added direct product links to 7 commercial guides, generated the July 30 UTM organic traffic post kit, verified guide records through Admin API, and ran Theme Check with 231 files inspected and 0 offenses.
+- [x] Published Faraday's traffic-change reality check after the sprint: verified increase is 0 so far, Search Console remains 1 impression/0 clicks, GA4 organic remains 0 rows, and the near-term path is external UTM distribution plus daily monitoring.
+- [x] Created the 7-day order-growth activation kit with tracked links, daily post copy, short-video scripts, warm-audience outreach, and Rawls measurement rules for `order_growth_july_2026`.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

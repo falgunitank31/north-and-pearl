@@ -44,6 +44,8 @@
 - July 30 order-source monitor: Shopify safe order query returned `ORDER_ACCESS_OK` with 0 visible orders and no customer PII requested.
 - July 30 storefront/catalog monitor: product SEO audit remains 208/208 clean, Merchant readiness remains 208 active products ready with identifier caveat and 0 needing review, Theme Check passed with 228 files inspected and 0 offenses. Live HTTP QA was temporarily rate-limited by Shopify after a full-catalog crawl attempt.
 - July 30 Commercial Gift Traffic Sprint: UTM campaign `order_growth_july_2026` created for warm-audience and organic social pushes. Rawls should monitor GA4 campaign traffic, guide landing-page engagement, collection views, product views, add-to-cart, checkout starts, and orders.
+- July 30 Faraday traffic-change check after the commercial sprint: verified increase is 0 so far. Search Console remains 1 impression and 0 clicks; GA4 organic and organic top-page reports return 0 rows. Traffic probability improved through better commercial links and UTM-ready distribution assets, but measurable traffic still depends on Google indexing or external sharing. Report: `reports/faraday-traffic-chance-before-after-2026-07-30.md`.
+- July 30 order-growth activation kit: `content/seo/order-growth-7-day-activation-kit-2026-07-30.md` provides the immediate 7-day tracked campaign links, daily post copy, short-video scripts, and warm-audience outreach message for qualified visitor generation.
 
 ## Rawls Daily Watch - July 29, 2026
 

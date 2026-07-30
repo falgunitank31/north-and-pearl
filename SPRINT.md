@@ -132,6 +132,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Re-ran product SEO and Merchant Center readiness on July 30; 208 active products remain clean and Merchant-ready with identifier caveat, 0 needing review.
 - [x] Re-ran Theme Check on July 30; 228 files inspected with 0 offenses.
 - [x] Live storefront QA was temporarily rate-limited by Shopify `429` responses after a full-catalog crawl attempt; targeted revalidation is queued after the rate-limit window clears.
+- [x] Executed Faraday Commercial Gift Traffic Sprint: updated 10 live Shopify Gift Guide articles, added direct product links to 7 commercial guides, generated the July 30 UTM organic traffic post kit, verified guide records through Admin API, and ran Theme Check with 231 files inspected and 0 offenses.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

@@ -78,6 +78,16 @@ const guideProducts = {
     { title: 'North & Pearl Polished Oval Link Bracelet', handle: 'north-pearl-polished-link-bracelet' },
     { title: 'North & Pearl Sweetheart Drop Earrings', handle: 'north-pearl-heart-earrings-5815' },
   ],
+  'birthday-jewelry-gift-ideas': [
+    { title: 'North & Pearl Initial Shell Necklace', handle: 'north-pearl-initial-shell-necklace' },
+    { title: 'North & Pearl Petite Sparkle Earrings', handle: 'north-pearl-sparkle-earrings' },
+    { title: 'North & Pearl Sweetheart Oval Pendant Necklace', handle: 'north-pearl-sweetheart-pendant-necklace' },
+  ],
+  'meaningful-jewelry-gifts-to-shop-this-week': [
+    { title: 'North & Pearl Initial Shell Necklace', handle: 'north-pearl-initial-shell-necklace' },
+    { title: 'North & Pearl Heart Keepsake Necklace', handle: 'north-pearl-heart-keepsake-necklace' },
+    { title: 'North & Pearl Polished Oval Link Bracelet', handle: 'north-pearl-polished-link-bracelet' },
+  ],
 };
 
 const productHandles = [...new Set(Object.values(guideProducts).flat().map((product) => product.handle))];

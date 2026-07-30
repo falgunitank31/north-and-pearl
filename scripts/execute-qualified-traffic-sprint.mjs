@@ -4,7 +4,7 @@ import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 
 const store = 'q4ydix-w1.myshopify.com';
-const date = '2026-07-29';
+const date = new Date().toISOString().slice(0, 10);
 const tempDir = mkdtempSync(join(tmpdir(), 'np-qualified-traffic-'));
 const reportPath = `reports/faraday-qualified-traffic-execution-${date}.md`;
 const kitPath = `content/seo/qualified-traffic-posts-${date}.md`;

@@ -125,6 +125,13 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Added Faraday's daily API-backed monitoring into the existing same-thread automation; no new task/chat was created.
 - [x] Re-ran July 30 Faraday/Rawls API checks: Google Tier 2 access is ready, Search Console still shows 1 impression and 0 clicks, GA4 organic returns 0 rows, and priority buyer-intent URLs remain neutral/not fully indexed.
 - [x] Refreshed the Agent Command Center generator so Google access is shown as resolved and the active growth blocker is indexing/traffic maturity.
+- [x] Completed the July 30 same-thread daily operating pass across Faraday, Rawls, Gauss, Tesla, Lovelace, Kuhn, and Curie.
+- [x] Checked Search Console sitemaps on July 30; root, collection, and blog sitemaps have 0 errors and 0 warnings.
+- [x] Checked GA4 organic and organic top pages on July 30; both reports returned 0 rows.
+- [x] Checked Shopify safe order-source access on July 30; `ORDER_ACCESS_OK` with 0 visible orders and no customer PII requested.
+- [x] Re-ran product SEO and Merchant Center readiness on July 30; 208 active products remain clean and Merchant-ready with identifier caveat, 0 needing review.
+- [x] Re-ran Theme Check on July 30; 228 files inspected with 0 offenses.
+- [x] Live storefront QA was temporarily rate-limited by Shopify `429` responses after a full-catalog crawl attempt; targeted revalidation is queued after the rate-limit window clears.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

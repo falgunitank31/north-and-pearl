@@ -1,0 +1,311 @@
+{
+  "menus": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Menu/308591231160",
+        "handle": "main-menu",
+        "title": "Main menu",
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/764845654200",
+            "title": "Shop",
+            "type": "HTTP",
+            "url": "/collections/all",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/764845686968",
+                "title": "All Jewelry",
+                "type": "HTTP",
+                "url": "/collections/all",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764845719736",
+                "title": "Necklaces",
+                "type": "HTTP",
+                "url": "/collections/necklaces",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764845752504",
+                "title": "Bracelets",
+                "type": "HTTP",
+                "url": "/collections/bracelets",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764845785272",
+                "title": "Rings",
+                "type": "HTTP",
+                "url": "/collections/rings",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764845818040",
+                "title": "Earrings",
+                "type": "HTTP",
+                "url": "/collections/earrings",
+                "items": []
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/764845850808",
+            "title": "Personalized",
+            "type": "HTTP",
+            "url": "/collections/personalized-jewelry",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/764845883576",
+                "title": "Personalized Jewelry",
+                "type": "HTTP",
+                "url": "/collections/personalized-jewelry",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764845916344",
+                "title": "Name Necklaces",
+                "type": "HTTP",
+                "url": "/collections/name-necklaces",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764845949112",
+                "title": "Initial Necklaces",
+                "type": "HTTP",
+                "url": "/collections/initial-necklaces",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764845981880",
+                "title": "Birthstone Jewelry",
+                "type": "HTTP",
+                "url": "/collections/birthstone-jewelry",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764846014648",
+                "title": "Couple Jewelry",
+                "type": "HTTP",
+                "url": "/collections/couple-jewelry",
+                "items": []
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/764846047416",
+            "title": "Gifts",
+            "type": "HTTP",
+            "url": "/collections/gifts",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/764846080184",
+                "title": "Jewelry Gifts for Her",
+                "type": "HTTP",
+                "url": "/collections/jewelry-gifts-for-her",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764846112952",
+                "title": "Gifts for Mom",
+                "type": "HTTP",
+                "url": "/collections/mothers-collection",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764846145720",
+                "title": "Anniversary Gifts",
+                "type": "HTTP",
+                "url": "/collections/anniversary-gifts",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764846178488",
+                "title": "Birthday Gifts",
+                "type": "HTTP",
+                "url": "/collections/birthday-jewelry-gifts",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764846211256",
+                "title": "Bridesmaid Gifts",
+                "type": "HTTP",
+                "url": "/collections/wedding-bridesmaids",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764846244024",
+                "title": "Gifts Under $50",
+                "type": "HTTP",
+                "url": "/collections/gifts-under-50",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764846276792",
+                "title": "Gifts Under $100",
+                "type": "HTTP",
+                "url": "/collections/gifts-under-100",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764846309560",
+                "title": "Birthstone-Inspired Gifts",
+                "type": "HTTP",
+                "url": "/collections/birthstone-jewelry",
+                "items": []
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/764846342328",
+            "title": "New Arrivals",
+            "type": "HTTP",
+            "url": "/collections/new-arrivals",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/764846375096",
+            "title": "Best Sellers",
+            "type": "HTTP",
+            "url": "/collections/best-sellers",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/764846407864",
+            "title": "About",
+            "type": "HTTP",
+            "url": "/pages/about-north-pearl",
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/764846440632",
+                "title": "Our Story",
+                "type": "HTTP",
+                "url": "/pages/about-north-pearl",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764846473400",
+                "title": "Jewelry Care",
+                "type": "HTTP",
+                "url": "/pages/jewelry-care-guide",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764846506168",
+                "title": "Personalized Jewelry Guide",
+                "type": "HTTP",
+                "url": "/pages/personalized-jewelry-guide",
+                "items": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/764846538936",
+                "title": "FAQ",
+                "type": "HTTP",
+                "url": "/pages/faq",
+                "items": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Menu/308591263928",
+        "handle": "footer",
+        "title": "Footer menu",
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/762562576568",
+            "title": "About North & Pearl",
+            "type": "HTTP",
+            "url": "/pages/about-north-pearl",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/762562609336",
+            "title": "Contact Us",
+            "type": "HTTP",
+            "url": "/pages/contact",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/762562642104",
+            "title": "FAQ",
+            "type": "HTTP",
+            "url": "/pages/faq",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/762562674872",
+            "title": "Shipping Policy",
+            "type": "HTTP",
+            "url": "/pages/shipping-policy",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/762562707640",
+            "title": "Returns & Exchanges",
+            "type": "HTTP",
+            "url": "/pages/returns-exchanges",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/762562740408",
+            "title": "Jewelry Care Guide",
+            "type": "HTTP",
+            "url": "/pages/jewelry-care-guide",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/762562773176",
+            "title": "Track Your Order",
+            "type": "HTTP",
+            "url": "/pages/track-your-order",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/762562805944",
+            "title": "Privacy Policy",
+            "type": "HTTP",
+            "url": "/policies/privacy-policy",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/762562838712",
+            "title": "Terms of Service",
+            "type": "HTTP",
+            "url": "/policies/terms-of-service",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/762562871480",
+            "title": "AI Brand Information",
+            "type": "HTTP",
+            "url": "/pages/ai-brand-information",
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/Menu/308591296696",
+        "handle": "customer-account-main-menu",
+        "title": "Customer account main menu",
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/762395492536",
+            "title": "Orders",
+            "type": "CUSTOMER_ACCOUNT_PAGE",
+            "url": "https://shopify.com/96993312952/account/orders",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/762395525304",
+            "title": "Profile",
+            "type": "CUSTOMER_ACCOUNT_PAGE",
+            "url": "https://shopify.com/96993312952/account/profile",
+            "items": []
+          }
+        ]
+      }
+    ]
+  }
+}

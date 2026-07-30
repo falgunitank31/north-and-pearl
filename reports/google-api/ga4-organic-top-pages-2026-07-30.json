@@ -1,18 +1,17 @@
 {
   "property": "properties/546565745",
-  "report": "organic_traffic",
+  "report": "top_organic_pages",
   "date_range": {
     "start": "2026-07-02",
     "end": "2026-07-29"
   },
-  "totals": {},
-  "daily_data": [],
-  "top_pages": [],
+  "pages": [],
+  "total_organic_sessions": 0,
   "quota_tokens_used": {
     "daily_consumed": 1,
-    "daily_remaining": 199996,
+    "daily_remaining": 199997,
     "hourly_consumed": 1,
-    "hourly_remaining": 39996
+    "hourly_remaining": 39997
   },
   "error": null
 }

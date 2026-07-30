@@ -15,6 +15,7 @@
 - Monitor Search Console indexing for the six new buyer-intent collections after sitemap resubmission: Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts. July 30 inspection still shows priority buyer-intent URLs neutral/not fully indexed.
 - Strengthen internal discovery into pages currently unknown or not indexed by Google: Jewelry Gifts for Her, Gifts Under $50, the new gift guide, and Initial Shell Necklace PDP.
 - Monitor the new buyer-intent collections for impressions, clicks, collection views, product clicks, add-to-cart activity, and revenue once Search Console/GA4 data accumulates.
+- Re-run targeted live storefront QA after the temporary Shopify 429 rate-limit window clears; July 30 Theme Check and Admin/API checks passed, but live HTTP validation was rate-limited after full-catalog QA began.
 - Rawls must verify `add_to_cart`, newsletter signup, checkout-start, and purchase event receipt from account-side reports or an approved test-order workflow before any conversion-performance claim.
 - Rawls/Faraday must capture a fresh comparable GA4 and Search Console snapshot before reporting any traffic increase; latest verified baseline remains July 28 with 23 sessions, 9 users, Direct-only acquisition, and 0 key events.
 - Lovelace and the owner must finalize shipping, returns, support, fulfillment, and personalized/custom order rules before paid acquisition or stronger operational copy.
@@ -34,7 +35,7 @@
 ## P3
 
 - Monitor Search Console coverage after the July 28, 2026 priority indexing batch; homepage, Best Sellers, Gifts, New Arrivals, Name Necklaces, Necklaces, AI Brand Information, Bracelets, Rings, Earrings, and the primary gift guide were requested.
-- Enrich Faraday baseline with Search Console/GA4/PageSpeed API data once Codex SEO Google credentials are configured.
+- Continue enriching Faraday/Rawls baselines with Search Console, GA4, and PageSpeed API data now that Codex SEO Google credentials are configured.
 - Re-run product-page mobile PageSpeed for `north-pearl-initial-shell-necklace`; the immediate post-fix API retry timed out after the live HTML confirmed the image-priority deployment.
 - Add more refined collection image standards once final product photography is available; all 13 populated commercial collections currently have representative collection images from live product media.
 - Build repeatable weekly reporting and experiment review cadence.

@@ -15,12 +15,14 @@ Analytics access is operational through local service-account credentials.
 Source files:
 
 - `reports/google-api/ga4-organic-2026-07-30.json`
+- `reports/google-api/ga4-organic-top-pages-2026-07-30.json`
 - `reports/google-api/gsc-query-2026-07-30.json`
 - `reports/google-api/gsc-inspect-priority-2026-07-30.json`
 
 Verified today:
 
 - GA4 organic report returned 0 rows.
+- GA4 organic top pages returned 0 rows.
 - Search Console returned 1 impression, 0 clicks, and 0% CTR.
 - Priority buyer-intent URLs are not yet fully indexed.
 

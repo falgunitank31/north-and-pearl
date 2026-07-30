@@ -1,0 +1,10 @@
+Wrote reports/commerce-trust-surface-audit-2026-07-24.md
+Wrote reports/commerce-trust-surface-audit-2026-07-24.json
+{
+  "collections": {},
+  "products": {
+    "compare-at-price-active": 118,
+    "limited-gallery": 2,
+    "image-size-review": 37
+  }
+}

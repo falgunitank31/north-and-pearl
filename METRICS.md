@@ -40,6 +40,9 @@
 - Google API access update: GA4 Data API works for property `properties/546565745` as of July 29, 2026, but organic reports currently return zero rows. Search Console API authenticates, but the service account sees zero Search Console properties until it is added inside Search Console Users and permissions.
 - Search Console API baseline after access: property `sc-domain:northandpearl.com` is visible with `siteFullUser` permission. Last 28-day API report shows 1 impression, 0 clicks, 0% CTR, and no quick wins yet. Priority URL inspection shows homepage, Name Necklaces, and Best Sellers indexed; Jewelry Gifts for Her, Gifts Under $50, the new gift guide, and Initial Shell Necklace are not fully indexed yet.
 - July 30 API monitor: Codex SEO Tier 2 remains ready. Search Console still shows 1 impression, 0 clicks, 0% CTR for the `north pearl` query and homepage row. GA4 organic report returns 0 rows. Priority buyer-intent URLs inspected on July 30 remain neutral/not fully indexed, so the current growth bottleneck is Google discovery and traffic maturity rather than measurement access.
+- July 30 sitemap monitor: root, collection, and blog sitemaps all show 0 errors and 0 warnings in Search Console API.
+- July 30 order-source monitor: Shopify safe order query returned `ORDER_ACCESS_OK` with 0 visible orders and no customer PII requested.
+- July 30 storefront/catalog monitor: product SEO audit remains 208/208 clean, Merchant readiness remains 208 active products ready with identifier caveat and 0 needing review, Theme Check passed with 228 files inspected and 0 offenses. Live HTTP QA was temporarily rate-limited by Shopify after a full-catalog crawl attempt.
 
 ## Rawls Daily Watch - July 29, 2026
 

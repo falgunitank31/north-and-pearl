@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Collections audited: 17
-- Active products audited: 118
+- Collections audited: 23
+- Active products audited: 208
 - Collections with issues: 0
-- Products with trust-surface issues: 118
+- Products with trust-surface issues: 132
 
 ## Collection Issue Counts
 
@@ -15,7 +15,7 @@
 
 - compare-at-price-active: 118
 - limited-gallery: 2
-- image-size-review: 23
+- image-size-review: 37
 
 ## Collections Needing Review
 
@@ -38,9 +38,9 @@
 | North & Pearl Minimal Initial Pendant Necklace | north-pearl-initial-necklace-4204 | 59 | 79 | 25% | 4 | 901x901 | compare-at-price-active |
 | North & Pearl Polished Oval Link Bracelet | north-pearl-polished-link-bracelet | 54 | 72 | 25% | 4 | 800x800 | compare-at-price-active |
 | North & Pearl Sweetheart Drop Earrings | north-pearl-heart-earrings-5815 | 49 | 65 | 25% | 4 | 750x750 | compare-at-price-active; image-size-review |
+| North & Pearl Charm Keepsake Name Necklace | north-pearl-name-necklace-8628 | 59 | 79 | 25% | 5 | 800x800 | compare-at-price-active |
 | North & Pearl Clover Charm Bracelet | north-pearl-clover-charm-bracelet | 49 | 65 | 25% | 5 | 1200x1200 | compare-at-price-active |
 | North & Pearl Everyday Letter Charm Necklace | north-pearl-letter-necklace-2156 | 59 | 79 | 25% | 5 | 800x800 | compare-at-price-active |
-| North & Pearl Keepsake Name Necklace | north-pearl-name-necklace-8628 | 59 | 79 | 25% | 5 | 800x800 | compare-at-price-active |
 | North & Pearl Petite Letter Necklace | north-pearl-letter-necklace-1571 | 59 | 79 | 25% | 5 | 750x750 | compare-at-price-active; image-size-review |
 | North & Pearl Polished Letter Necklace | north-pearl-letter-necklace-9008 | 59 | 79 | 25% | 5 | 741x800 | compare-at-price-active; image-size-review |
 | North & Pearl Polished Statement Link Bracelet | north-pearl-signature-bracelet-6593 | 54 | 72 | 25% | 5 | 5020x5020 | compare-at-price-active |
@@ -55,7 +55,6 @@
 | North & Pearl Classic Name Necklace | north-pearl-name-necklace | 59 | 79 | 25% | 6 | 1000x1000 | compare-at-price-active |
 | North & Pearl Custom Name Pendant | north-pearl-name-necklace-1832 | 59 | 79 | 25% | 6 | 900x900 | compare-at-price-active |
 | North & Pearl Dainty Flower Necklace | north-pearl-dainty-flower-necklace | 54 | 72 | 25% | 6 | 800x800 | compare-at-price-active |
-| North & Pearl Dainty Initial Necklace | north-pearl-initial-necklace-8531 | 59 | 79 | 25% | 6 | 800x800 | compare-at-price-active |
 | North & Pearl Dainty Letter Tag Necklace | north-pearl-letter-necklace-0689 | 59 | 79 | 25% | 6 | 800x800 | compare-at-price-active |
 | North & Pearl Dainty Name Pendant Necklace | north-pearl-name-necklace-5254 | 59 | 79 | 25% | 6 | 800x800 | compare-at-price-active |
 | North & Pearl Everyday Oval Link Bracelet | north-pearl-signature-bracelet | 54 | 72 | 25% | 6 | 1000x1000 | compare-at-price-active |
@@ -73,6 +72,7 @@
 | North & Pearl Heart Charm Necklace | north-pearl-heart-charm-necklace | 59 | 79 | 25% | 6 | 800x800 | compare-at-price-active |
 | North & Pearl Heart Ring | north-pearl-heart-ring | 49 | 65 | 25% | 6 | 2000x2000 | compare-at-price-active |
 | North & Pearl Layered Letter Necklace | north-pearl-letter-necklace-1755 | 59 | 79 | 25% | 6 | 725x725 | compare-at-price-active; image-size-review |
+| North & Pearl Layering Dainty Initial Necklace | north-pearl-initial-necklace-8531 | 59 | 79 | 25% | 6 | 800x800 | compare-at-price-active |
 | North & Pearl Mixed Charm Bangle | north-pearl-mixed-charm-bangle | 59 | 79 | 25% | 6 | 800x800 | compare-at-price-active |
 | North & Pearl Modern Name Necklace | north-pearl-name-necklace-6376 | 59 | 79 | 25% | 6 | 800x800 | compare-at-price-active |
 | North & Pearl Modern Statement Ring | north-pearl-modern-statement-ring | 49 | 65 | 25% | 6 | 1000x1000 | compare-at-price-active |

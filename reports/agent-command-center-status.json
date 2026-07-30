@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generatedAt": "2026-07-30T14:02:03.573Z",
+    "generatedAt": "2026-07-30T14:44:36.078Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
-    "workingToday": 3,
+    "workingToday": 8,
     "needsUpdate": 0,
-    "resting": 5
+    "resting": 0
   },
   "blockers": [
     {
@@ -53,12 +53,12 @@
       "latest": {
         "file": "faraday-daily-traffic-orders-2026-07-30.md",
         "path": "reports/faraday-daily-traffic-orders-2026-07-30.md",
-        "mtime": "2026-07-30T13:58:41.717Z"
+        "mtime": "2026-07-30T14:40:52.301Z"
       },
       "todayReport": {
         "file": "faraday-daily-traffic-orders-2026-07-30.md",
         "path": "reports/faraday-daily-traffic-orders-2026-07-30.md",
-        "mtime": "2026-07-30T13:58:41.717Z"
+        "mtime": "2026-07-30T14:40:52.301Z"
       },
       "status": "Updated Today"
     },
@@ -74,11 +74,16 @@
       ],
       "owns": "Daily product additions, category balance, product source traceability, catalog hygiene.",
       "latest": {
-        "file": "source-reference-recovery-2026-07-29.md",
-        "path": "reports/source-reference-recovery-2026-07-29.md",
-        "mtime": "2026-07-29T18:59:58.591Z"
+        "file": "gauss-daily-catalog-growth-2026-07-30.md",
+        "path": "reports/gauss-daily-catalog-growth-2026-07-30.md",
+        "mtime": "2026-07-30T14:41:05.129Z"
       },
-      "status": "Waiting In Thread"
+      "todayReport": {
+        "file": "gauss-daily-catalog-growth-2026-07-30.md",
+        "path": "reports/gauss-daily-catalog-growth-2026-07-30.md",
+        "mtime": "2026-07-30T14:41:05.129Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Tesla",
@@ -90,11 +95,16 @@
       ],
       "owns": "Theme code, QA, cart, search, mobile, performance, accessibility, Shopify CLI.",
       "latest": {
-        "file": "live-storefront-qa-2026-07-29.md",
-        "path": "reports/live-storefront-qa-2026-07-29.md",
-        "mtime": "2026-07-29T19:17:33.056Z"
+        "file": "tesla-daily-storefront-qa-2026-07-30.md",
+        "path": "reports/tesla-daily-storefront-qa-2026-07-30.md",
+        "mtime": "2026-07-30T14:41:17.850Z"
       },
-      "status": "Waiting In Thread"
+      "todayReport": {
+        "file": "tesla-daily-storefront-qa-2026-07-30.md",
+        "path": "reports/tesla-daily-storefront-qa-2026-07-30.md",
+        "mtime": "2026-07-30T14:41:17.850Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Rawls",
@@ -108,12 +118,12 @@
       "latest": {
         "file": "rawls-daily-analytics-watch-2026-07-30.md",
         "path": "reports/rawls-daily-analytics-watch-2026-07-30.md",
-        "mtime": "2026-07-30T14:01:26.799Z"
+        "mtime": "2026-07-30T14:42:05.652Z"
       },
       "todayReport": {
         "file": "rawls-daily-analytics-watch-2026-07-30.md",
         "path": "reports/rawls-daily-analytics-watch-2026-07-30.md",
-        "mtime": "2026-07-30T14:01:26.799Z"
+        "mtime": "2026-07-30T14:42:05.652Z"
       },
       "status": "Updated Today"
     },
@@ -128,11 +138,16 @@
       ],
       "owns": "Order-source mapping, Alibaba source URLs, fulfillment readiness, shipping/returns safety.",
       "latest": {
-        "file": "lovelace-order-access-restored-2026-07-29.md",
-        "path": "reports/lovelace-order-access-restored-2026-07-29.md",
-        "mtime": "2026-07-29T18:55:05.977Z"
+        "file": "lovelace-daily-order-source-monitor-2026-07-30.md",
+        "path": "reports/lovelace-daily-order-source-monitor-2026-07-30.md",
+        "mtime": "2026-07-30T14:41:30.610Z"
       },
-      "status": "Waiting In Thread"
+      "todayReport": {
+        "file": "lovelace-daily-order-source-monitor-2026-07-30.md",
+        "path": "reports/lovelace-daily-order-source-monitor-2026-07-30.md",
+        "mtime": "2026-07-30T14:41:30.610Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Kuhn",
@@ -145,11 +160,16 @@
       ],
       "owns": "Premium jewelry UX, visual QA, product imagery presentation, homepage/collection/PDP polish.",
       "latest": {
-        "file": "kuhn-daily-design-qa-2026-07-29.md",
-        "path": "reports/kuhn-daily-design-qa-2026-07-29.md",
-        "mtime": "2026-07-29T18:31:40.775Z"
+        "file": "kuhn-daily-design-qa-2026-07-30.md",
+        "path": "reports/kuhn-daily-design-qa-2026-07-30.md",
+        "mtime": "2026-07-30T14:41:42.868Z"
       },
-      "status": "Waiting In Thread"
+      "todayReport": {
+        "file": "kuhn-daily-design-qa-2026-07-30.md",
+        "path": "reports/kuhn-daily-design-qa-2026-07-30.md",
+        "mtime": "2026-07-30T14:41:42.868Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Curie",
@@ -163,11 +183,16 @@
       ],
       "owns": "Supplier/source evidence, Alibaba traceability, claim safety, product-quality risk.",
       "latest": {
-        "file": "source-reference-recovery-2026-07-29.md",
-        "path": "reports/source-reference-recovery-2026-07-29.md",
-        "mtime": "2026-07-29T18:59:58.591Z"
+        "file": "curie-daily-source-claim-safety-2026-07-30.md",
+        "path": "reports/curie-daily-source-claim-safety-2026-07-30.md",
+        "mtime": "2026-07-30T14:41:54.659Z"
       },
-      "status": "Waiting In Thread"
+      "todayReport": {
+        "file": "curie-daily-source-claim-safety-2026-07-30.md",
+        "path": "reports/curie-daily-source-claim-safety-2026-07-30.md",
+        "mtime": "2026-07-30T14:41:54.659Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Lead Orchestrator",
@@ -184,12 +209,12 @@
       "latest": {
         "file": "lead-orchestrator-daily-execution-2026-07-30.md",
         "path": "reports/lead-orchestrator-daily-execution-2026-07-30.md",
-        "mtime": "2026-07-30T14:01:49.405Z"
+        "mtime": "2026-07-30T14:44:24.084Z"
       },
       "todayReport": {
         "file": "lead-orchestrator-daily-execution-2026-07-30.md",
         "path": "reports/lead-orchestrator-daily-execution-2026-07-30.md",
-        "mtime": "2026-07-30T14:01:49.405Z"
+        "mtime": "2026-07-30T14:44:24.084Z"
       },
       "status": "Updated Today"
     }

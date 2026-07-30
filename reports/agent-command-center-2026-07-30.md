@@ -1,12 +1,12 @@
 # Agent Command Center
 
-Generated: 2026-07-30T13:59:46.502Z
+Generated: 2026-07-30T14:02:03.573Z
 
 ## Summary
 
 - Same-thread heartbeat active: yes
-- Lanes updated today: 1
-- Lanes resting: 7
+- Lanes updated today: 3
+- Lanes resting: 5
 - Lanes with no report yet: 0
 
 ## Blockers
@@ -21,11 +21,11 @@ Generated: 2026-07-30T13:59:46.502Z
 - Faraday: Updated Today; latest report: reports/faraday-daily-traffic-orders-2026-07-30.md; operating mode: same-thread heartbeat
 - Gauss: Waiting In Thread; latest report: reports/source-reference-recovery-2026-07-29.md; operating mode: same-thread heartbeat
 - Tesla: Waiting In Thread; latest report: reports/live-storefront-qa-2026-07-29.md; operating mode: same-thread heartbeat
-- Rawls: Waiting In Thread; latest report: reports/rawls-daily-analytics-watch-2026-07-29.md; operating mode: same-thread heartbeat
+- Rawls: Updated Today; latest report: reports/rawls-daily-analytics-watch-2026-07-30.md; operating mode: same-thread heartbeat
 - Lovelace: Waiting In Thread; latest report: reports/lovelace-order-access-restored-2026-07-29.md; operating mode: same-thread heartbeat
 - Kuhn: Waiting In Thread; latest report: reports/kuhn-daily-design-qa-2026-07-29.md; operating mode: same-thread heartbeat
 - Curie: Waiting In Thread; latest report: reports/source-reference-recovery-2026-07-29.md; operating mode: same-thread heartbeat
-- Lead Orchestrator: Waiting In Thread; latest report: reports/order-growth-execution-2026-07-29.md; operating mode: same-thread heartbeat
+- Lead Orchestrator: Updated Today; latest report: reports/lead-orchestrator-daily-execution-2026-07-30.md; operating mode: same-thread heartbeat
 
 ## UI
 

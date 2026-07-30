@@ -21,6 +21,7 @@
 - Rawls must verify `add_to_cart`, newsletter signup, checkout-start, and purchase event receipt from account-side reports or an approved test-order workflow before any conversion-performance claim.
 - Rawls/Faraday must capture a fresh comparable GA4 and Search Console snapshot before reporting any traffic increase; latest verified baseline remains July 28 with 23 sessions, 9 users, Direct-only acquisition, and 0 key events.
 - Faraday/Rawls must monitor the new `order_growth_july_2026` activation kit daily for UTM sessions, landing-page engagement, product views, add-to-cart, checkout starts, and purchases; no measurable traffic increase is verified yet.
+- Monitor Faraday commercial guide links after future content updates; July 30 Admin API validation confirms the weekly gift guide, Under $100 guide, Anniversary guide, and Birthday guide each contain 3 direct product links.
 - Lovelace and the owner must finalize shipping, returns, support, fulfillment, and personalized/custom order rules before paid acquisition or stronger operational copy.
 
 ## P2

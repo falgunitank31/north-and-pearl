@@ -48,6 +48,7 @@
 - July 30 order-growth activation kit: `content/seo/order-growth-7-day-activation-kit-2026-07-30.md` provides the immediate 7-day tracked campaign links, daily post copy, short-video scripts, and warm-audience outreach message for qualified visitor generation.
 - July 30 operating pass update: Google API Tier 2 remains ready; Search Console remains 1 impression and 0 clicks; GA4 organic remains 0 sessions; sitemaps have 0 errors and 0 warnings but remain pending; seven priority buyer-intent URLs are unknown to Google and Initial Shell Necklace is discovered/currently not indexed; Shopify safe orders remain 0 visible orders; Theme Check found 0 offenses across 234 files; targeted live QA returned 200 for homepage, key collections, PDP, guide, cart, and search.
 - July 30 product sitemap submission: Faraday submitted the Shopify product sitemap and root sitemap through Search Console API. Product sitemap contains 209 URLs, is pending, and shows 0 errors / 0 warnings after submission. Report: `reports/faraday-product-sitemap-submission-2026-07-30.md`.
+- July 30 guide-link validation: Shopify Admin API confirms the weekly gift guide and three high-intent commercial guides each contain 3 direct product links after the traffic-sprint publish fix. Public HTTP storefront validation is temporarily limited by Shopify 429 throttling, so Admin API content validation is the current source of truth for this check.
 
 ## Rawls Daily Watch - July 29, 2026
 

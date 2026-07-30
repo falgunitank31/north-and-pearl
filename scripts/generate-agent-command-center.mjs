@@ -135,10 +135,17 @@ const summary = {
 const blockers = [
   {
     owner: 'Rawls + Faraday',
-    severity: 'Blocked',
-    title: 'Google API access is not configured locally',
-    impact: 'Traffic increase, GA4 event trends, Search Console clicks, indexing, and query data cannot be calculated through the local SEO toolkit.',
-    next: 'Create /Users/yagneshtank/.config/codex-seo/google-api.json with an API key plus OAuth/service-account access, or provide account-side GA4/Search Console exports.',
+    severity: 'Resolved',
+    title: 'Google API, Search Console, and GA4 access are configured',
+    impact: 'Faraday and Rawls can now run API-backed Search Console, URL Inspection, sitemap, PageSpeed, CrUX, and GA4 organic reports from local credentials.',
+    next: 'Continue daily monitoring; current growth blocker is indexing and traffic maturity, not access.',
+  },
+  {
+    owner: 'Faraday',
+    severity: 'Needs Work',
+    title: 'Buyer-intent pages are still early in Google discovery',
+    impact: 'Search Console currently shows 1 impression and 0 clicks, and priority buyer-intent URLs remain unknown to Google or not fully indexed yet.',
+    next: 'Use the same-thread daily Faraday monitor to recheck indexing, preserve sitemap submission, and strengthen internal links from indexed pages into commercial paths.',
   },
   {
     owner: 'Lovelace',

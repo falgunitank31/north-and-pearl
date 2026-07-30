@@ -122,6 +122,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Confirmed buyer-intent collections and the weekly guide are present in Shopify XML sitemaps, then resubmitted root, collection, and blog sitemaps through Search Console API.
 - [x] Ran Google PageSpeed baseline on the homepage, Name Necklaces collection, and Initial Shell Necklace PDP; identified PDP mobile LCP/performance as the P1 issue.
 - [x] Optimized live PDP product-media loading with high-priority first image, async decoding, and smaller responsive source candidates; Theme Check passed and live HTML validation confirmed the deployment.
+- [x] Added Faraday's daily API-backed monitoring into the existing same-thread automation; no new task/chat was created.
+- [x] Re-ran July 30 Faraday/Rawls API checks: Google Tier 2 access is ready, Search Console still shows 1 impression and 0 clicks, GA4 organic returns 0 rows, and priority buyer-intent URLs remain neutral/not fully indexed.
+- [x] Refreshed the Agent Command Center generator so Google access is shown as resolved and the active growth blocker is indexing/traffic maturity.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

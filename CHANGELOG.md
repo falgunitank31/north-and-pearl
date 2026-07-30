@@ -1,5 +1,13 @@
 # Changelog
 
+## July 30, 2026
+
+- Verified Codex SEO Google access remains ready at Tier 2 with PageSpeed Insights, CrUX, CrUX History, Search Console, URL Inspection, sitemaps, and GA4 organic reporting available.
+- Pulled a fresh Faraday Search Console baseline: 1 impression, 0 clicks, 0% CTR, and no quick-win queries yet.
+- Pulled a fresh Rawls GA4 organic API report; organic traffic still returns 0 rows, so no traffic increase or order momentum can be claimed yet.
+- Re-inspected eight priority buyer-intent URLs in Search Console; the newer commercial collections, weekly gift guide, and Initial Shell Necklace PDP remain neutral/not fully indexed.
+- Updated the Agent Command Center generator so Google access is shown as resolved and the current blocker is correctly labeled as indexing/traffic maturity.
+
 ## July 29, 2026
 
 - Configured the local Google SEO API key for Codex SEO Tier 0 access; PageSpeed Insights, CrUX, and CrUX History are now available, while Search Console and GA4 still require service-account access.

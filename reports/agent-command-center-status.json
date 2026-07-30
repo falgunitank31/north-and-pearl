@@ -1,19 +1,26 @@
 {
   "summary": {
-    "generatedAt": "2026-07-29T20:08:27.290Z",
+    "generatedAt": "2026-07-30T13:59:46.502Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
-    "workingToday": 8,
+    "workingToday": 1,
     "needsUpdate": 0,
-    "resting": 0
+    "resting": 7
   },
   "blockers": [
     {
       "owner": "Rawls + Faraday",
-      "severity": "Blocked",
-      "title": "Google API access is not configured locally",
-      "impact": "Traffic increase, GA4 event trends, Search Console clicks, indexing, and query data cannot be calculated through the local SEO toolkit.",
-      "next": "Create /Users/yagneshtank/.config/codex-seo/google-api.json with an API key plus OAuth/service-account access, or provide account-side GA4/Search Console exports."
+      "severity": "Resolved",
+      "title": "Google API, Search Console, and GA4 access are configured",
+      "impact": "Faraday and Rawls can now run API-backed Search Console, URL Inspection, sitemap, PageSpeed, CrUX, and GA4 organic reports from local credentials.",
+      "next": "Continue daily monitoring; current growth blocker is indexing and traffic maturity, not access."
+    },
+    {
+      "owner": "Faraday",
+      "severity": "Needs Work",
+      "title": "Buyer-intent pages are still early in Google discovery",
+      "impact": "Search Console currently shows 1 impression and 0 clicks, and priority buyer-intent URLs remain unknown to Google or not fully indexed yet.",
+      "next": "Use the same-thread daily Faraday monitor to recheck indexing, preserve sitemap submission, and strengthen internal links from indexed pages into commercial paths."
     },
     {
       "owner": "Lovelace",
@@ -44,14 +51,14 @@
       ],
       "owns": "SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.",
       "latest": {
-        "file": "faraday-qualified-traffic-execution-2026-07-29.md",
-        "path": "reports/faraday-qualified-traffic-execution-2026-07-29.md",
-        "mtime": "2026-07-29T19:26:46.845Z"
+        "file": "faraday-daily-traffic-orders-2026-07-30.md",
+        "path": "reports/faraday-daily-traffic-orders-2026-07-30.md",
+        "mtime": "2026-07-30T13:58:41.717Z"
       },
       "todayReport": {
-        "file": "faraday-qualified-traffic-execution-2026-07-29.md",
-        "path": "reports/faraday-qualified-traffic-execution-2026-07-29.md",
-        "mtime": "2026-07-29T19:26:46.845Z"
+        "file": "faraday-daily-traffic-orders-2026-07-30.md",
+        "path": "reports/faraday-daily-traffic-orders-2026-07-30.md",
+        "mtime": "2026-07-30T13:58:41.717Z"
       },
       "status": "Updated Today"
     },
@@ -71,12 +78,7 @@
         "path": "reports/source-reference-recovery-2026-07-29.md",
         "mtime": "2026-07-29T18:59:58.591Z"
       },
-      "todayReport": {
-        "file": "source-reference-recovery-2026-07-29.md",
-        "path": "reports/source-reference-recovery-2026-07-29.md",
-        "mtime": "2026-07-29T18:59:58.591Z"
-      },
-      "status": "Updated Today"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Tesla",
@@ -92,12 +94,7 @@
         "path": "reports/live-storefront-qa-2026-07-29.md",
         "mtime": "2026-07-29T19:17:33.056Z"
       },
-      "todayReport": {
-        "file": "live-storefront-qa-2026-07-29.md",
-        "path": "reports/live-storefront-qa-2026-07-29.md",
-        "mtime": "2026-07-29T19:17:33.056Z"
-      },
-      "status": "Updated Today"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Rawls",
@@ -113,12 +110,7 @@
         "path": "reports/rawls-daily-analytics-watch-2026-07-29.md",
         "mtime": "2026-07-29T17:34:00.796Z"
       },
-      "todayReport": {
-        "file": "rawls-daily-analytics-watch-2026-07-29.md",
-        "path": "reports/rawls-daily-analytics-watch-2026-07-29.md",
-        "mtime": "2026-07-29T17:34:00.796Z"
-      },
-      "status": "Updated Today"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Lovelace",
@@ -135,12 +127,7 @@
         "path": "reports/lovelace-order-access-restored-2026-07-29.md",
         "mtime": "2026-07-29T18:55:05.977Z"
       },
-      "todayReport": {
-        "file": "lovelace-order-access-restored-2026-07-29.md",
-        "path": "reports/lovelace-order-access-restored-2026-07-29.md",
-        "mtime": "2026-07-29T18:55:05.977Z"
-      },
-      "status": "Updated Today"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Kuhn",
@@ -157,12 +144,7 @@
         "path": "reports/kuhn-daily-design-qa-2026-07-29.md",
         "mtime": "2026-07-29T18:31:40.775Z"
       },
-      "todayReport": {
-        "file": "kuhn-daily-design-qa-2026-07-29.md",
-        "path": "reports/kuhn-daily-design-qa-2026-07-29.md",
-        "mtime": "2026-07-29T18:31:40.775Z"
-      },
-      "status": "Updated Today"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Curie",
@@ -180,12 +162,7 @@
         "path": "reports/source-reference-recovery-2026-07-29.md",
         "mtime": "2026-07-29T18:59:58.591Z"
       },
-      "todayReport": {
-        "file": "source-reference-recovery-2026-07-29.md",
-        "path": "reports/source-reference-recovery-2026-07-29.md",
-        "mtime": "2026-07-29T18:59:58.591Z"
-      },
-      "status": "Updated Today"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Lead Orchestrator",
@@ -204,12 +181,7 @@
         "path": "reports/order-growth-execution-2026-07-29.md",
         "mtime": "2026-07-29T19:18:31.530Z"
       },
-      "todayReport": {
-        "file": "order-growth-execution-2026-07-29.md",
-        "path": "reports/order-growth-execution-2026-07-29.md",
-        "mtime": "2026-07-29T19:18:31.530Z"
-      },
-      "status": "Updated Today"
+      "status": "Waiting In Thread"
     }
   ]
 }

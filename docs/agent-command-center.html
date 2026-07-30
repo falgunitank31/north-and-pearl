@@ -190,8 +190,8 @@
 
     <section class="stats" aria-label="Agent status summary">
       <div class="stat"><strong>1</strong><span>Same-thread heartbeat</span></div>
-      <div class="stat"><strong>8</strong><span>Lanes updated today</span></div>
-      <div class="stat"><strong>0</strong><span>Lanes resting</span></div>
+      <div class="stat"><strong>1</strong><span>Lanes updated today</span></div>
+      <div class="stat"><strong>7</strong><span>Lanes resting</span></div>
       <div class="stat"><strong>0</strong><span>Lanes with no report yet</span></div>
     </section>
 
@@ -208,11 +208,19 @@
       <div class="blockers">
         
           <div class="blocker" data-blocker-owner="Rawls + Faraday">
-            <span class="pill blocked">Blocked</span>
-            <strong>Google API access is not configured locally</strong>
-            <p class="small">Traffic increase, GA4 event trends, Search Console clicks, indexing, and query data cannot be calculated through the local SEO toolkit.</p>
-            <p class="small"><strong>Next:</strong> Create /Users/yagneshtank/.config/codex-seo/google-api.json with an API key plus OAuth/service-account access, or provide account-side GA4/Search Console exports.</p>
+            <span class="pill resolved">Resolved</span>
+            <strong>Google API, Search Console, and GA4 access are configured</strong>
+            <p class="small">Faraday and Rawls can now run API-backed Search Console, URL Inspection, sitemap, PageSpeed, CrUX, and GA4 organic reports from local credentials.</p>
+            <p class="small"><strong>Next:</strong> Continue daily monitoring; current growth blocker is indexing and traffic maturity, not access.</p>
             <p class="small"><strong>Owner:</strong> Rawls + Faraday</p>
+          </div>
+        
+          <div class="blocker" data-blocker-owner="Faraday">
+            <span class="pill needs-work">Needs Work</span>
+            <strong>Buyer-intent pages are still early in Google discovery</strong>
+            <p class="small">Search Console currently shows 1 impression and 0 clicks, and priority buyer-intent URLs remain unknown to Google or not fully indexed yet.</p>
+            <p class="small"><strong>Next:</strong> Use the same-thread daily Faraday monitor to recheck indexing, preserve sitemap submission, and strengthen internal links from indexed pages into commercial paths.</p>
+            <p class="small"><strong>Owner:</strong> Faraday</p>
           </div>
         
           <div class="blocker" data-blocker-owner="Lovelace">
@@ -236,7 +244,7 @@
 
     <section class="grid" aria-label="Agent lanes">
       
-        <article class="card" data-agent="Faraday" data-state="working" data-search="faraday organic growth seo, aeo, geo, search console, buyer-intent pages, organic traffic and conversion paths. faraday-qualified-traffic-execution-2026-07-29.md updated today">
+        <article class="card" data-agent="Faraday" data-state="working" data-search="faraday organic growth seo, aeo, geo, search console, buyer-intent pages, organic traffic and conversion paths. faraday-daily-traffic-orders-2026-07-30.md updated today">
           <div>
             <h2 class="agent-name">Faraday</h2>
             <div class="lane">Organic growth</div>
@@ -248,7 +256,7 @@
             <dt>Operating Mode</dt>
             <dd>Same-thread heartbeat: FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0</dd>
             <dt>Latest Report</dt>
-            <dd><a href="../reports/faraday-qualified-traffic-execution-2026-07-29.md">faraday-qualified-traffic-execution-2026-07-29.md</a></dd>
+            <dd><a href="../reports/faraday-daily-traffic-orders-2026-07-30.md">faraday-daily-traffic-orders-2026-07-30.md</a></dd>
             <dt>Thread Rule</dt>
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
@@ -257,11 +265,11 @@
           </div>
         </article>
       
-        <article class="card" data-agent="Gauss" data-state="working" data-search="gauss product and merchandising daily product additions, category balance, product source traceability, catalog hygiene. source-reference-recovery-2026-07-29.md updated today">
+        <article class="card" data-agent="Gauss" data-state="resting" data-search="gauss product and merchandising daily product additions, category balance, product source traceability, catalog hygiene. source-reference-recovery-2026-07-29.md waiting in thread">
           <div>
             <h2 class="agent-name">Gauss</h2>
             <div class="lane">Product and merchandising</div>
-            <div class="agent-state working">Working today</div>
+            <div class="agent-state resting">Resting until next heartbeat</div>
           </div>
           <dl>
             <dt>Owns</dt>
@@ -274,15 +282,15 @@
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status updated-today">Updated Today</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Tesla" data-state="working" data-search="tesla shopify engineering theme code, qa, cart, search, mobile, performance, accessibility, shopify cli. live-storefront-qa-2026-07-29.md updated today">
+        <article class="card" data-agent="Tesla" data-state="resting" data-search="tesla shopify engineering theme code, qa, cart, search, mobile, performance, accessibility, shopify cli. live-storefront-qa-2026-07-29.md waiting in thread">
           <div>
             <h2 class="agent-name">Tesla</h2>
             <div class="lane">Shopify engineering</div>
-            <div class="agent-state working">Working today</div>
+            <div class="agent-state resting">Resting until next heartbeat</div>
           </div>
           <dl>
             <dt>Owns</dt>
@@ -295,15 +303,15 @@
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status updated-today">Updated Today</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Rawls" data-state="working" data-search="rawls analytics and data ga4, search console, shopify analytics, kpi measurement, funnel diagnosis. rawls-daily-analytics-watch-2026-07-29.md updated today">
+        <article class="card" data-agent="Rawls" data-state="resting" data-search="rawls analytics and data ga4, search console, shopify analytics, kpi measurement, funnel diagnosis. rawls-daily-analytics-watch-2026-07-29.md waiting in thread">
           <div>
             <h2 class="agent-name">Rawls</h2>
             <div class="lane">Analytics and data</div>
-            <div class="agent-state working">Working today</div>
+            <div class="agent-state resting">Resting until next heartbeat</div>
           </div>
           <dl>
             <dt>Owns</dt>
@@ -316,15 +324,15 @@
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status updated-today">Updated Today</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Lovelace" data-state="working" data-search="lovelace operations and order sourcing order-source mapping, alibaba source urls, fulfillment readiness, shipping/returns safety. lovelace-order-access-restored-2026-07-29.md updated today">
+        <article class="card" data-agent="Lovelace" data-state="resting" data-search="lovelace operations and order sourcing order-source mapping, alibaba source urls, fulfillment readiness, shipping/returns safety. lovelace-order-access-restored-2026-07-29.md waiting in thread">
           <div>
             <h2 class="agent-name">Lovelace</h2>
             <div class="lane">Operations and order sourcing</div>
-            <div class="agent-state working">Working today</div>
+            <div class="agent-state resting">Resting until next heartbeat</div>
           </div>
           <dl>
             <dt>Owns</dt>
@@ -337,15 +345,15 @@
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status updated-today">Updated Today</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Kuhn" data-state="working" data-search="kuhn ecommerce design and brand premium jewelry ux, visual qa, product imagery presentation, homepage/collection/pdp polish. kuhn-daily-design-qa-2026-07-29.md updated today">
+        <article class="card" data-agent="Kuhn" data-state="resting" data-search="kuhn ecommerce design and brand premium jewelry ux, visual qa, product imagery presentation, homepage/collection/pdp polish. kuhn-daily-design-qa-2026-07-29.md waiting in thread">
           <div>
             <h2 class="agent-name">Kuhn</h2>
             <div class="lane">Ecommerce design and brand</div>
-            <div class="agent-state working">Working today</div>
+            <div class="agent-state resting">Resting until next heartbeat</div>
           </div>
           <dl>
             <dt>Owns</dt>
@@ -358,15 +366,15 @@
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status updated-today">Updated Today</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Curie" data-state="working" data-search="curie supplier and claim safety supplier/source evidence, alibaba traceability, claim safety, product-quality risk. source-reference-recovery-2026-07-29.md updated today">
+        <article class="card" data-agent="Curie" data-state="resting" data-search="curie supplier and claim safety supplier/source evidence, alibaba traceability, claim safety, product-quality risk. source-reference-recovery-2026-07-29.md waiting in thread">
           <div>
             <h2 class="agent-name">Curie</h2>
             <div class="lane">Supplier and claim safety</div>
-            <div class="agent-state working">Working today</div>
+            <div class="agent-state resting">Resting until next heartbeat</div>
           </div>
           <dl>
             <dt>Owns</dt>
@@ -379,15 +387,15 @@
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status updated-today">Updated Today</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Lead Orchestrator" data-state="working" data-search="lead orchestrator ecommerce operating system prioritization, cross-agent coordination, sprint/backlog, risk, qa, next-month order readiness. order-growth-execution-2026-07-29.md updated today">
+        <article class="card" data-agent="Lead Orchestrator" data-state="resting" data-search="lead orchestrator ecommerce operating system prioritization, cross-agent coordination, sprint/backlog, risk, qa, next-month order readiness. order-growth-execution-2026-07-29.md waiting in thread">
           <div>
             <h2 class="agent-name">Lead Orchestrator</h2>
             <div class="lane">Ecommerce operating system</div>
-            <div class="agent-state working">Working today</div>
+            <div class="agent-state resting">Resting until next heartbeat</div>
           </div>
           <dl>
             <dt>Owns</dt>
@@ -400,14 +408,14 @@
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status updated-today">Updated Today</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
     </section>
 
     <footer>
-      Generated at 2026-07-29T20:08:27.290Z. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
+      Generated at 2026-07-30T13:59:46.502Z. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
     </footer>
   </main>
   <script>

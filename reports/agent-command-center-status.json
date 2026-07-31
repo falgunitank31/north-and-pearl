@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-07-31T02:31:14.598Z",
+    "generatedAt": "2026-07-31T13:09:11.346Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
     "workingToday": 1,
@@ -203,7 +203,7 @@
         "pareto-sales-baseline",
         "pareto-commercial-review"
       ],
-      "owns": "Sales strategy, offer architecture, conversion opportunities, AOV, competitive sales intelligence.",
+      "owns": "Sales strategy, competitive intelligence, market monitoring, offers, promotions, bundles, AOV, conversion opportunities, commercial merchandising, forecasting, revenue growth.",
       "latest": {
         "file": "pareto-sales-execution-2026-07-31.md",
         "path": "reports/pareto-sales-execution-2026-07-31.md",

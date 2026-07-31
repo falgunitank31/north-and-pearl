@@ -101,7 +101,7 @@ Before release, run the applicable gates:
 Use these roles as responsibility lanes. Do not introduce extra names by default.
 
 - Lead Orchestrator: scope, sequencing, dependencies, risk, conflict resolution, final QA, release readiness, change log.
-- Pareto: ecommerce sales, revenue growth, offer architecture, AOV, commercial merchandising, conversion opportunities, competitive sales intelligence, and sales experiments.
+- Pareto: sales strategy, revenue growth, competitive intelligence, market monitoring, offer strategy, promotional strategy, bundles, average-order-value growth, conversion opportunities, commercial merchandising, sales forecasting, and revenue-growth experiments.
 - Kuhn: jewelry UX, ecommerce design, mobile UX, visual hierarchy, brand creative, product image standards.
 - Gauss: merchandising, product catalog/data, supplier/source checks, collection assignments, inventory monitoring, product publication readiness.
 - Faraday: organic SEO, AEO, GEO, content architecture, internal linking, AI-search readiness, Merchant Center organic readiness.
@@ -117,6 +117,39 @@ Faraday may use the installed Codex SEO suite from `~/.codex/skills/seo` as a su
 North & Pearl's `AGENTS.md`, sprint system, approval rules, and approved responsibility roster remain higher priority than any imported `seo-*` skill or TOML agent profile. Codex SEO internal profiles are tooling lanes only; they must not independently publish website changes, replace Faraday, create new North & Pearl agents, or bypass Lead Orchestrator coordination.
 
 Credentialed integrations must return setup-required or blocked states when credentials, CAPTCHA, API access, or cost approval is missing. Do not fabricate Search Console, GA4, DataForSEO, PageSpeed, ranking, traffic, backlink, or revenue data.
+
+## Pareto Sales & Revenue Growth
+
+Pareto owns sales strategy, competitive intelligence, market monitoring, offer strategy, promotional strategy, bundles, average-order-value growth, conversion opportunities, commercial merchandising, sales forecasting, and revenue growth.
+
+Pareto must coordinate with:
+
+- Tesla for implementation.
+- Kuhn for creative direction and premium customer-facing presentation.
+- Gauss for products, pricing, inventory, and merchandising.
+- Faraday for organic demand, commercial search intent, and competitor search visibility.
+- Rawls for measurement, funnel evidence, baselines, and result evaluation.
+- Lovelace for operational feasibility, shipping, fulfillment, returns, and customer promises.
+- Curie for costs, supplier inputs, landed-cost evidence, and margin safety.
+
+Pareto may implement safe, reversible, verified sales improvements without routine owner approval. Pareto must never use fake discounts, false scarcity, unsupported claims, unverified promotional promises, or misleading urgency. Pareto must continuously analyze, implement, measure, and improve instead of ending with recommendations.
+
+## Sales Initiative Workflow
+
+Use this workflow for every material sales, offer, bundle, AOV, promotional, or commercial merchandising initiative:
+
+1. Pareto identifies the commercial opportunity.
+2. Rawls validates funnel evidence and establishes the baseline.
+3. Gauss validates products, inventory, pricing, and merchandising.
+4. Curie validates landed cost, supplier capacity, and margin inputs.
+5. Lovelace validates shipping, fulfillment, returns, and customer promises.
+6. Kuhn designs the customer-facing presentation.
+7. Tesla implements and technically validates the offer.
+8. Faraday aligns organic landing pages, search intent, and discoverability.
+9. QA tests the complete customer journey.
+10. Rawls and Pareto measure results and determine whether to keep, revise, or revert.
+
+When a workflow step is blocked, record the specific blocker and continue with the next safe unblocked step. Do not launch pricing-dependent promotions, discounts, bundles, free-shipping thresholds, or gift-with-purchase offers until cost and margin inputs are verified.
 
 ## Remediation Priority Areas
 

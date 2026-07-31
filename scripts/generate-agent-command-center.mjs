@@ -24,7 +24,7 @@ const agents = [
     name: 'Pareto',
     lane: 'Sales and revenue growth',
     reportPrefixes: ['pareto-sales-execution', 'pareto-sales-baseline', 'pareto-commercial-review'],
-    owns: 'Sales strategy, offer architecture, conversion opportunities, AOV, competitive sales intelligence.',
+    owns: 'Sales strategy, competitive intelligence, market monitoring, offers, promotions, bundles, AOV, conversion opportunities, commercial merchandising, forecasting, revenue growth.',
   },
   {
     name: 'Tesla',

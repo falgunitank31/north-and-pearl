@@ -141,6 +141,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Audited active product purchasability after owner inventory concern; Shopify Admin API confirms 208/208 active products have at least one `availableForSale` variant, with quantity hidden because inventory tracking is disabled.
 - [x] Added Pareto sales/revenue lane to governance, created sales operating files, corrected homepage personalized-intent routing to the populated Personalized Jewelry collection, and improved empty-cart drawer recovery into buyer-intent gift/personalized collections.
 - [x] Created the Jewelry Gift Sets collection with 11 active gift-set products and added it to homepage/cart discovery as a non-discount AOV path.
+- [x] Added Jewelry Gift Sets to the live Gifts navigation menu for desktop and mobile discovery.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

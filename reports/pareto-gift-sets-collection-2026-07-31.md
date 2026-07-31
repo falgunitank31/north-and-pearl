@@ -10,6 +10,7 @@ Owner: Pareto with Gauss, Kuhn, Faraday, Curie, Lovelace, Tesla, and Rawls align
 - Added products: 11
 - Removed products: 0
 - Published to: Online Store, Google & YouTube
+- Added to the main Gifts navigation menu for desktop and mobile shoppers.
 
 ## Commercial Reason
 

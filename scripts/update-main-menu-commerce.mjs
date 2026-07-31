@@ -66,6 +66,7 @@ const items = [
     url: '/collections/gifts',
     items: [
       { title: 'Jewelry Gifts for Her', type: 'HTTP', url: '/collections/jewelry-gifts-for-her' },
+      { title: 'Jewelry Gift Sets', type: 'HTTP', url: '/collections/jewelry-gift-sets' },
       { title: 'Gifts for Mom', type: 'HTTP', url: '/collections/mothers-collection' },
       { title: 'Anniversary Gifts', type: 'HTTP', url: '/collections/anniversary-gifts' },
       { title: 'Birthday Gifts', type: 'HTTP', url: '/collections/birthday-jewelry-gifts' },

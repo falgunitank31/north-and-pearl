@@ -13,6 +13,7 @@ Owner: Pareto.
 - Gifts Under $50 collection.
 - Gifts Under $100 collection.
 - Personalized Jewelry collection.
+- Jewelry Gift Sets collection.
 - Anniversary Gifts collection.
 - Birthday Jewelry Gifts collection.
 - Meaningful Jewelry Gifts to Shop This Week guide.

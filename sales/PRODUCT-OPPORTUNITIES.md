@@ -5,6 +5,7 @@ Owner: Pareto with Gauss and Curie.
 ## Current Commercial Product Paths
 
 - Personalized Jewelry: 72 products.
+- Jewelry Gift Sets: 11 products.
 - Gifts Under $50: 40 products.
 - Gifts Under $100: 80 products.
 - Jewelry Gifts for Her: 64 products.
@@ -12,10 +13,11 @@ Owner: Pareto with Gauss and Curie.
 
 ## Near-Term Product Opportunities
 
-1. Necklace + earring pairing concepts for gifting.
-2. Bridesmaid quantity-buying concept, blocked from discounting until margin is known.
-3. Gift-ready edit for under-$100 shoppers.
-4. Personalized starter edit for initial, name, and heart styles.
+1. Jewelry Gift Sets collection for shoppers who want a complete gift path.
+2. Necklace + earring pairing concepts for gifting.
+3. Bridesmaid quantity-buying concept, blocked from discounting until margin is known.
+4. Gift-ready edit for under-$100 shoppers.
+5. Personalized starter edit for initial, name, and heart styles.
 
 ## Blockers
 

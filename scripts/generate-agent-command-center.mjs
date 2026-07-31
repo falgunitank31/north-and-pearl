@@ -21,6 +21,12 @@ const agents = [
     owns: 'Daily product additions, category balance, product source traceability, catalog hygiene.',
   },
   {
+    name: 'Pareto',
+    lane: 'Sales and revenue growth',
+    reportPrefixes: ['pareto-sales-execution', 'pareto-sales-baseline', 'pareto-commercial-review'],
+    owns: 'Sales strategy, offer architecture, conversion opportunities, AOV, competitive sales intelligence.',
+  },
+  {
     name: 'Tesla',
     lane: 'Shopify engineering',
     reportPrefixes: ['tesla-daily-storefront-qa', 'tesla-storefront-qa', 'live-storefront-qa'],

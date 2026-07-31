@@ -10,7 +10,7 @@
         "primary_label": "Shop Featured Jewelry",
         "primary_link": "shopify://collections/best-sellers",
         "secondary_label": "Shop Personalized Jewelry",
-        "secondary_link": "shopify://collections/name-necklaces",
+        "secondary_link": "shopify://collections/personalized-jewelry",
         "best_collection": "best-sellers",
         "best_kicker": "Featured edit",
         "best_heading": "Strong pieces to shop first.",
@@ -61,7 +61,7 @@
         "category_personalized": {
           "type": "category",
           "settings": {
-            "collection": "name-necklaces",
+            "collection": "personalized-jewelry",
             "title": "Personalized",
             "text": "Names, initials, and custom-inspired details."
           }

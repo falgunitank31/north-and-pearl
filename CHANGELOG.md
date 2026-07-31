@@ -4,6 +4,7 @@
 
 - Audited active Shopify product purchasability through Admin API variant availability: 208 active products checked, 208 products have at least one `availableForSale` variant, and 0 products are blocked from purchase by inventory availability.
 - Confirmed quantity is not visible because active product variants have inventory tracking disabled; products remain sellable even with admin/display quantity at 0.
+- Added Pareto as the sales/revenue-growth responsibility lane, created the sales operating system files, corrected homepage personalized-intent routing, improved empty-cart drawer recovery into buyer-intent collections, and documented discount/margin guardrails.
 
 ## July 30, 2026
 

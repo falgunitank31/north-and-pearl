@@ -652,6 +652,16 @@ summary:focus-visible {
   justify-content: center;
 }
 
+.np-empty-recovery--drawer {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.np-empty-recovery--drawer .underlined-link {
+  align-self: center;
+  margin-top: .2rem;
+}
+
 .np-search-recovery {
   max-width: 78rem;
   margin: 2.4rem auto 0;

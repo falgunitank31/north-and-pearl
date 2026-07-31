@@ -24,6 +24,7 @@
 ## Current Baseline Status
 
 - July 31 purchasability check: Shopify Admin API audited 208 active products and confirmed 208/208 have at least one `availableForSale` variant. Quantity is not visible because inventory tracking is disabled on active variants; positive tracked inventory is 0, but purchase availability is not blocked.
+- July 31 Pareto baseline: active products remain sellable, Shopify sampled unit costs are missing, discount API access is blocked by missing `read_discounts`, and safe sales work is limited to non-discount merchandising, routing, cart recovery, and offer planning until margin guardrails exist.
 - Search Console sitemap: submitted and successful as of July 27, 2026.
 - Sitemap discovered pages: 149.
 - GA4 tag: `G-14KCZE935H`.

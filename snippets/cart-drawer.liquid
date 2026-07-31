@@ -42,9 +42,11 @@
                   {{- 'icon-close.svg' | inline_asset_content -}}
                 </span>
               </button>
-              <a href="{{ routes.all_products_collection_url }}" class="button">
-                {{ 'general.continue_shopping' | t }}
-              </a>
+              <div class="np-empty-recovery np-empty-recovery--drawer">
+                <a href="{{ routes.collections_url }}/jewelry-gifts-for-her" class="button">Shop Gifts for Her</a>
+                <a href="{{ routes.collections_url }}/gifts-under-100" class="button button--secondary">Gifts Under $100</a>
+                <a href="{{ routes.collections_url }}/personalized-jewelry" class="underlined-link">Browse personalized jewelry</a>
+              </div>
 
               {%- if shop.customer_accounts_enabled and customer == null -%}
                 <p class="cart__login-title h3">{{ 'sections.cart.login.title' | t }}</p>

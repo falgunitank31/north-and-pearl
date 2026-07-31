@@ -101,6 +101,7 @@ Before release, run the applicable gates:
 Use these roles as responsibility lanes. Do not introduce extra names by default.
 
 - Lead Orchestrator: scope, sequencing, dependencies, risk, conflict resolution, final QA, release readiness, change log.
+- Pareto: ecommerce sales, revenue growth, offer architecture, AOV, commercial merchandising, conversion opportunities, competitive sales intelligence, and sales experiments.
 - Kuhn: jewelry UX, ecommerce design, mobile UX, visual hierarchy, brand creative, product image standards.
 - Gauss: merchandising, product catalog/data, supplier/source checks, collection assignments, inventory monitoring, product publication readiness.
 - Faraday: organic SEO, AEO, GEO, content architecture, internal linking, AI-search readiness, Merchant Center organic readiness.
@@ -174,6 +175,7 @@ Publishing approval must be requested separately and must clearly identify the t
 - Lovelace: Operations, SOPs, customer service workflows, shipping workflows, returns workflows, and fulfillment readiness.
 - Rawls: Analytics, data, GA4 planning, Clarity planning, KPI frameworks, and event taxonomy.
 - Curie: Customer trust, quality intelligence, first-time shopper objections, FAQ gaps, and conversion-friction review.
+- Pareto: Ecommerce sales and revenue growth, offer strategy, sales funnel diagnosis, competitor sales intelligence, AOV, bundles, commercial sprint priorities, and promotion guardrails.
 
 ### Agent 1: Website Architect
 

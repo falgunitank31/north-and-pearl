@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-07-31T02:00:27.644Z",
+    "generatedAt": "2026-07-31T02:20:43.312Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
-    "workingToday": 0,
+    "workingToday": 1,
     "needsUpdate": 0,
     "resting": 8,
     "searchImpressions": 1,
@@ -76,6 +76,13 @@
       "totalReports": 8,
       "latest": "gauss-daily-catalog-growth-2026-07-30.md",
       "status": "Waiting In Thread"
+    },
+    {
+      "name": "Pareto",
+      "reportsToday": 1,
+      "totalReports": 1,
+      "latest": "pareto-sales-execution-2026-07-31.md",
+      "status": "Updated Today"
     },
     {
       "name": "Tesla",
@@ -187,6 +194,27 @@
         "mtime": "2026-07-30T14:41:05.129Z"
       },
       "status": "Waiting In Thread"
+    },
+    {
+      "name": "Pareto",
+      "lane": "Sales and revenue growth",
+      "reportPrefixes": [
+        "pareto-sales-execution",
+        "pareto-sales-baseline",
+        "pareto-commercial-review"
+      ],
+      "owns": "Sales strategy, offer architecture, conversion opportunities, AOV, competitive sales intelligence.",
+      "latest": {
+        "file": "pareto-sales-execution-2026-07-31.md",
+        "path": "reports/pareto-sales-execution-2026-07-31.md",
+        "mtime": "2026-07-31T02:20:32.783Z"
+      },
+      "todayReport": {
+        "file": "pareto-sales-execution-2026-07-31.md",
+        "path": "reports/pareto-sales-execution-2026-07-31.md",
+        "mtime": "2026-07-31T02:20:32.783Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Tesla",

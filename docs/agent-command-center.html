@@ -229,7 +229,7 @@
 
     <section class="stats" aria-label="Agent status summary">
       <div class="stat"><strong>1</strong><span>Same-thread heartbeat</span></div>
-      <div class="stat"><strong>0</strong><span>Lanes updated today</span></div>
+      <div class="stat"><strong>1</strong><span>Lanes updated today</span></div>
       <div class="stat"><strong>8</strong><span>Lanes resting</span></div>
       <div class="stat"><strong>0</strong><span>Lanes with no report yet</span></div>
     </section>
@@ -308,6 +308,13 @@
             <div class="small">Waiting In Thread</div>
             <div class="small">0 report(s) today · 8 total</div>
             <div class="small">Latest: gauss-daily-catalog-growth-2026-07-30.md</div>
+          </div>
+        
+          <div class="agent-metric">
+            <strong>Pareto</strong>
+            <div class="small">Updated Today</div>
+            <div class="small">1 report(s) today · 1 total</div>
+            <div class="small">Latest: pareto-sales-execution-2026-07-31.md</div>
           </div>
         
           <div class="agent-metric">
@@ -446,6 +453,27 @@
           </div>
         </article>
       
+        <article class="card" data-agent="Pareto" data-state="working" data-search="pareto sales and revenue growth sales strategy, offer architecture, conversion opportunities, aov, competitive sales intelligence. pareto-sales-execution-2026-07-31.md updated today">
+          <div>
+            <h2 class="agent-name">Pareto</h2>
+            <div class="lane">Sales and revenue growth</div>
+            <div class="agent-state working">Working today</div>
+          </div>
+          <dl>
+            <dt>Owns</dt>
+            <dd>Sales strategy, offer architecture, conversion opportunities, AOV, competitive sales intelligence.</dd>
+            <dt>Operating Mode</dt>
+            <dd>Same-thread heartbeat: FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0</dd>
+            <dt>Latest Report</dt>
+            <dd><a href="../reports/pareto-sales-execution-2026-07-31.md">pareto-sales-execution-2026-07-31.md</a></dd>
+            <dt>Thread Rule</dt>
+            <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
+          </dl>
+          <div>
+            <span class="status updated-today">Updated Today</span>
+          </div>
+        </article>
+      
         <article class="card" data-agent="Tesla" data-state="resting" data-search="tesla shopify engineering theme code, qa, cart, search, mobile, performance, accessibility, shopify cli. tesla-daily-storefront-qa-2026-07-30.md waiting in thread">
           <div>
             <h2 class="agent-name">Tesla</h2>
@@ -575,7 +603,7 @@
     </section>
 
     <footer>
-      Generated at 2026-07-31T02:00:27.644Z. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
+      Generated at 2026-07-31T02:20:43.312Z. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
     </footer>
   </main>
   <script>

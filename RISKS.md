@@ -19,6 +19,8 @@
 - Buyer-intent organic pages are now live, but performance should not be judged until Search Console indexing and GA4/Shopify traffic data are visible for those exact URLs.
 - Purchase-event measurement is not verified yet; use an approved test order or real order before treating revenue attribution as reliable.
 - A large media-polish queue remains: 115 active products are below the preferred image standard, and 9 of those need source-reference recovery before exact-source replacement.
+- Shopify product cost data is missing, so discounts, bundle pricing, free-shipping threshold changes, and gift-with-purchase offers could create unknown or negative margin if launched prematurely.
+- Shopify Discount API access is currently blocked by missing `read_discounts`, so active discount state cannot be verified through the API yet.
 
 ## Controls
 

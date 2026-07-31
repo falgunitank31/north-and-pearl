@@ -1,12 +1,12 @@
 # Agent Command Center
 
-Generated: 2026-07-31T13:09:11.346Z
+Generated: 2026-07-31T14:41:16.531Z
 
 ## Summary
 
 - Same-thread heartbeat active: yes
-- Lanes updated today: 1
-- Lanes resting: 8
+- Lanes updated today: 3
+- Lanes resting: 6
 - Lanes with no report yet: 0
 - Search Console impressions: 1
 - Search Console clicks: 0
@@ -27,7 +27,7 @@ Generated: 2026-07-31T13:09:11.346Z
 
 ## Agent Performance
 
-- Faraday: 0 report(s) today, 12 total matching lane reports; latest: faraday-qualified-traffic-execution-2026-07-30.md
+- Faraday: 1 report(s) today, 13 total matching lane reports; latest: faraday-daily-monitor-2026-07-31.md
 - Gauss: 0 report(s) today, 8 total matching lane reports; latest: gauss-daily-catalog-growth-2026-07-30.md
 - Pareto: 1 report(s) today, 1 total matching lane reports; latest: pareto-sales-execution-2026-07-31.md
 - Tesla: 0 report(s) today, 8 total matching lane reports; latest: tesla-daily-storefront-qa-2026-07-30.md
@@ -35,7 +35,7 @@ Generated: 2026-07-31T13:09:11.346Z
 - Lovelace: 0 report(s) today, 5 total matching lane reports; latest: lovelace-daily-order-source-monitor-2026-07-30.md
 - Kuhn: 0 report(s) today, 5 total matching lane reports; latest: kuhn-daily-design-qa-2026-07-30.md
 - Curie: 0 report(s) today, 6 total matching lane reports; latest: source-image-opportunities-2026-07-27.md
-- Lead Orchestrator: 0 report(s) today, 8 total matching lane reports; latest: lead-orchestrator-operating-pass-2026-07-30.md
+- Lead Orchestrator: 1 report(s) today, 9 total matching lane reports; latest: lead-orchestrator-operating-pass-2026-07-31.md
 
 ## Blockers
 
@@ -46,7 +46,7 @@ Generated: 2026-07-31T13:09:11.346Z
 
 ## Agents
 
-- Faraday: Waiting In Thread; latest report: reports/faraday-qualified-traffic-execution-2026-07-30.md; operating mode: same-thread heartbeat
+- Faraday: Updated Today; latest report: reports/faraday-daily-monitor-2026-07-31.md; operating mode: same-thread heartbeat
 - Gauss: Waiting In Thread; latest report: reports/gauss-daily-catalog-growth-2026-07-30.md; operating mode: same-thread heartbeat
 - Pareto: Updated Today; latest report: reports/pareto-sales-execution-2026-07-31.md; operating mode: same-thread heartbeat
 - Tesla: Waiting In Thread; latest report: reports/tesla-daily-storefront-qa-2026-07-30.md; operating mode: same-thread heartbeat
@@ -54,7 +54,7 @@ Generated: 2026-07-31T13:09:11.346Z
 - Lovelace: Waiting In Thread; latest report: reports/lovelace-daily-order-source-monitor-2026-07-30.md; operating mode: same-thread heartbeat
 - Kuhn: Waiting In Thread; latest report: reports/kuhn-daily-design-qa-2026-07-30.md; operating mode: same-thread heartbeat
 - Curie: Waiting In Thread; latest report: reports/source-image-opportunities-2026-07-27.md; operating mode: same-thread heartbeat
-- Lead Orchestrator: Waiting In Thread; latest report: reports/lead-orchestrator-operating-pass-2026-07-30.md; operating mode: same-thread heartbeat
+- Lead Orchestrator: Updated Today; latest report: reports/lead-orchestrator-operating-pass-2026-07-31.md; operating mode: same-thread heartbeat
 
 ## UI
 

@@ -1,0 +1,63 @@
+{
+  "property": "sc-domain:northandpearl.com",
+  "sitemaps": [
+    {
+      "path": "https://northandpearl.com/sitemap_blogs_1.xml",
+      "last_submitted": "2026-07-31T14:38:18.527Z",
+      "is_pending": true,
+      "is_index": false,
+      "type": "sitemap",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "14",
+          "indexed": "0"
+        }
+      ]
+    },
+    {
+      "path": "https://northandpearl.com/sitemap_collections_1.xml",
+      "last_submitted": "2026-07-31T14:38:18.446Z",
+      "is_pending": true,
+      "is_index": false,
+      "type": null,
+      "warnings": "0",
+      "errors": "0",
+      "contents": []
+    },
+    {
+      "path": "https://northandpearl.com/sitemap.xml",
+      "last_submitted": "2026-07-31T14:38:18.266Z",
+      "is_pending": true,
+      "is_index": true,
+      "type": null,
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "150",
+          "indexed": "0"
+        },
+        {
+          "type": "image",
+          "submitted": "118",
+          "indexed": "0"
+        }
+      ]
+    },
+    {
+      "path": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512",
+      "last_submitted": "2026-07-30T20:28:59.678Z",
+      "is_pending": true,
+      "is_index": false,
+      "type": null,
+      "warnings": "0",
+      "errors": "0",
+      "contents": []
+    }
+  ],
+  "error": null
+}

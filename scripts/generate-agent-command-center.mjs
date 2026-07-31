@@ -11,7 +11,7 @@ const agents = [
   {
     name: 'Faraday',
     lane: 'Organic growth',
-    reportPrefixes: ['faraday-qualified-traffic-execution', 'faraday-daily-traffic-orders', 'faraday-daily-marketing', 'faraday-traffic-visibility-check', 'faraday-buyer-intent-collections', 'google-api-access-blocker'],
+    reportPrefixes: ['faraday-daily-monitor', 'faraday-qualified-traffic-execution', 'faraday-daily-traffic-orders', 'faraday-daily-marketing', 'faraday-traffic-visibility-check', 'faraday-buyer-intent-collections', 'google-api-access-blocker'],
     owns: 'SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.',
   },
   {

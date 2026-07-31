@@ -1,0 +1,30 @@
+{
+  "property": "sc-domain:northandpearl.com",
+  "rows": [
+    {
+      "keys": [
+        "north pearl",
+        "https://northandpearl.com/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4,
+      "query": "north pearl",
+      "page": "https://northandpearl.com/"
+    }
+  ],
+  "totals": {
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0.0,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 1,
+  "error": null,
+  "date_range": {
+    "start": "2026-07-03",
+    "end": "2026-07-28"
+  }
+}

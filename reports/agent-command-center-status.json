@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generatedAt": "2026-07-31T13:09:11.346Z",
+    "generatedAt": "2026-07-31T14:41:16.531Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
-    "workingToday": 1,
+    "workingToday": 3,
     "needsUpdate": 0,
-    "resting": 8,
+    "resting": 6,
     "searchImpressions": 1,
     "searchClicks": 0,
     "organicSessions": 0,
@@ -65,10 +65,10 @@
   "agentStats": [
     {
       "name": "Faraday",
-      "reportsToday": 0,
-      "totalReports": 12,
-      "latest": "faraday-qualified-traffic-execution-2026-07-30.md",
-      "status": "Waiting In Thread"
+      "reportsToday": 1,
+      "totalReports": 13,
+      "latest": "faraday-daily-monitor-2026-07-31.md",
+      "status": "Updated Today"
     },
     {
       "name": "Gauss",
@@ -121,10 +121,10 @@
     },
     {
       "name": "Lead Orchestrator",
-      "reportsToday": 0,
-      "totalReports": 8,
-      "latest": "lead-orchestrator-operating-pass-2026-07-30.md",
-      "status": "Waiting In Thread"
+      "reportsToday": 1,
+      "totalReports": 9,
+      "latest": "lead-orchestrator-operating-pass-2026-07-31.md",
+      "status": "Updated Today"
     }
   ],
   "blockers": [
@@ -162,6 +162,7 @@
       "name": "Faraday",
       "lane": "Organic growth",
       "reportPrefixes": [
+        "faraday-daily-monitor",
         "faraday-qualified-traffic-execution",
         "faraday-daily-traffic-orders",
         "faraday-daily-marketing",
@@ -171,11 +172,16 @@
       ],
       "owns": "SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.",
       "latest": {
-        "file": "faraday-qualified-traffic-execution-2026-07-30.md",
-        "path": "reports/faraday-qualified-traffic-execution-2026-07-30.md",
-        "mtime": "2026-07-30T21:00:32.171Z"
+        "file": "faraday-daily-monitor-2026-07-31.md",
+        "path": "reports/faraday-daily-monitor-2026-07-31.md",
+        "mtime": "2026-07-31T14:38:48.011Z"
       },
-      "status": "Waiting In Thread"
+      "todayReport": {
+        "file": "faraday-daily-monitor-2026-07-31.md",
+        "path": "reports/faraday-daily-monitor-2026-07-31.md",
+        "mtime": "2026-07-31T14:38:48.011Z"
+      },
+      "status": "Updated Today"
     },
     {
       "name": "Gauss",
@@ -314,11 +320,16 @@
       ],
       "owns": "Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.",
       "latest": {
-        "file": "lead-orchestrator-operating-pass-2026-07-30.md",
-        "path": "reports/lead-orchestrator-operating-pass-2026-07-30.md",
-        "mtime": "2026-07-30T20:25:05.043Z"
+        "file": "lead-orchestrator-operating-pass-2026-07-31.md",
+        "path": "reports/lead-orchestrator-operating-pass-2026-07-31.md",
+        "mtime": "2026-07-31T14:39:12.317Z"
       },
-      "status": "Waiting In Thread"
+      "todayReport": {
+        "file": "lead-orchestrator-operating-pass-2026-07-31.md",
+        "path": "reports/lead-orchestrator-operating-pass-2026-07-31.md",
+        "mtime": "2026-07-31T14:39:12.317Z"
+      },
+      "status": "Updated Today"
     }
   ]
 }

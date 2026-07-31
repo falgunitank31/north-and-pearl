@@ -144,6 +144,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Added Jewelry Gift Sets to the live Gifts navigation menu for desktop and mobile discovery.
 - [x] Ran the July 31 same-thread daily monitor: Search Console, sitemap status, URL Inspection, GA4 organic, product SEO, Merchant readiness, safe order read, Theme Check, command center regeneration, and live storefront HTTP samples.
 - [x] Submitted root, collection, and blog sitemaps through Search Console API on July 31; current status shows 0 errors and 0 warnings.
+- [x] Strengthened internal links into buyer-intent collections from PDP support, guide links, and collection guide surfaces; added collection-specific social descriptions for six monitored collection URLs.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

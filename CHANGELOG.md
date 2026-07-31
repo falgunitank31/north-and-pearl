@@ -8,6 +8,7 @@
 - Created and published the Jewelry Gift Sets collection with 11 active gift-set products, then added it to homepage and empty-cart discovery as a non-discount AOV path.
 - Added Jewelry Gift Sets to the main Gifts navigation through Shopify Online Store navigation to improve AOV-oriented gift discovery.
 - Ran the July 31 same-thread daily monitor: Google Tier 2 access confirmed, Search Console shows 1 impression / 0 clicks, GA4 organic shows 0 sessions, URL Inspection shows Initial Shell Necklace indexed and the monitored buyer-intent collections still unknown, root/collection/blog sitemaps were submitted through Search Console API, safe Shopify order query shows 0 visible orders, product SEO and Merchant readiness audits remain clean, and Theme Check passed with 0 offenses.
+- Strengthened buyer-intent internal linking from PDP support, guide-link, and collection-guide surfaces; added collection-specific social descriptions for the monitored commercial collections, then pushed the safe theme update live after Theme Check passed.
 
 ## July 30, 2026
 

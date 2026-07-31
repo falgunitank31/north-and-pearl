@@ -53,6 +53,7 @@
 - July 31 daily monitor: Google access is Tier 2; Search Console shows 1 impression, 0 clicks, and 0% CTR for 2026-07-03 to 2026-07-28; GA4 organic shows 0 sessions and 0 organic top pages for 2026-07-03 to 2026-07-30; safe Shopify order query shows 0 visible orders.
 - July 31 URL Inspection: Initial Shell Necklace is indexed; weekly gift guide is discovered/currently not indexed; Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts are unknown to Google. No robots/canonical/mobile error was detected in the retrieved URL Inspection data.
 - July 31 sitemap action: root, collection, and blog sitemaps were submitted through Search Console API; current sitemap status shows 0 errors and 0 warnings, with root/product/collection sitemaps pending.
+- July 31 indexing-support action: buyer-intent internal links were strengthened from PDP support, guide-link, and collection-guide surfaces. This is a crawl/discovery support action, not evidence that rankings, traffic, or indexing improved yet.
 - July 30 guide-link validation: Shopify Admin API confirms the weekly gift guide and three high-intent commercial guides each contain 3 direct product links after the traffic-sprint publish fix. Public HTTP storefront validation is temporarily limited by Shopify 429 throttling, so Admin API content validation is the current source of truth for this check.
 
 ## Rawls Daily Watch - July 29, 2026

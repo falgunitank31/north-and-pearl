@@ -138,6 +138,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Continued today's execution pass across all lanes: Google/API monitor refreshed, URL Inspection refreshed, product SEO and Merchant readiness revalidated, Theme Check passed with 234 files and 0 offenses, targeted live QA passed sampled URLs, and Command Center stats were updated.
 - [x] Submitted the Shopify product sitemap and root sitemap to Search Console through API; product sitemap includes 209 URLs and currently shows 0 errors and 0 warnings while pending.
 - [x] Fixed Faraday's weekly gift guide publish path so `Meaningful Jewelry Gifts to Shop This Week` keeps direct product links after traffic-sprint updates; Admin API validation confirms 3 product links on the weekly guide and 3 product links each on key commercial guides.
+- [x] Audited active product purchasability after owner inventory concern; Shopify Admin API confirms 208/208 active products have at least one `availableForSale` variant, with quantity hidden because inventory tracking is disabled.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

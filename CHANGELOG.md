@@ -1,5 +1,10 @@
 # Changelog
 
+## July 31, 2026
+
+- Audited active Shopify product purchasability through Admin API variant availability: 208 active products checked, 208 products have at least one `availableForSale` variant, and 0 products are blocked from purchase by inventory availability.
+- Confirmed quantity is not visible because active product variants have inventory tracking disabled; products remain sellable even with admin/display quantity at 0.
+
 ## July 30, 2026
 
 - Verified Codex SEO Google access remains ready at Tier 2 with PageSpeed Insights, CrUX, CrUX History, Search Console, URL Inspection, sitemaps, and GA4 organic reporting available.

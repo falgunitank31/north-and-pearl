@@ -1,0 +1,58 @@
+{
+  "tier": {
+    "tier": 2,
+    "description": "Full (API key + Service Account + GA4)",
+    "capabilities": [
+      "PageSpeed Insights",
+      "CrUX",
+      "CrUX History",
+      "Search Console",
+      "URL Inspection",
+      "Sitemaps",
+      "Indexing API",
+      "GA4 Organic Traffic"
+    ],
+    "missing": null
+  },
+  "services": {
+    "psi": {
+      "available": true,
+      "method": "api_key",
+      "service": "PageSpeed Insights v5",
+      "error": null
+    },
+    "crux": {
+      "available": true,
+      "method": "api_key",
+      "service": "Chrome UX Report (CrUX) API",
+      "error": null
+    },
+    "crux_history": {
+      "available": true,
+      "method": "api_key",
+      "service": "CrUX History API",
+      "error": null
+    },
+    "gsc": {
+      "available": true,
+      "method": "service_account",
+      "service": "Google Search Console API",
+      "error": null,
+      "client_email": "north-pearl-seo-analytics@north-and-pearl.iam.gserviceaccount.com"
+    },
+    "indexing": {
+      "available": true,
+      "method": "service_account",
+      "service": "Google Indexing API v3",
+      "error": null,
+      "client_email": "north-pearl-seo-analytics@north-and-pearl.iam.gserviceaccount.com"
+    },
+    "ga4": {
+      "available": true,
+      "method": "service_account",
+      "service": "GA4 Data API v1beta",
+      "error": null,
+      "client_email": "north-pearl-seo-analytics@north-and-pearl.iam.gserviceaccount.com"
+    }
+  }
+}

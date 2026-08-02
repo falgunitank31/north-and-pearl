@@ -1,0 +1,66 @@
+{
+  "property": "sc-domain:northandpearl.com",
+  "rows": [
+    {
+      "keys": [
+        "birthstone gifts for mom not jewelry",
+        "https://northandpearl.com/collections/birthstone-jewelry"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 63,
+      "query": "birthstone gifts for mom not jewelry",
+      "page": "https://northandpearl.com/collections/birthstone-jewelry"
+    },
+    {
+      "keys": [
+        "north pearl",
+        "http://northandpearl.com/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5,
+      "query": "north pearl",
+      "page": "http://northandpearl.com/"
+    },
+    {
+      "keys": [
+        "north pearl",
+        "https://northandpearl.com/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4,
+      "query": "north pearl",
+      "page": "https://northandpearl.com/"
+    },
+    {
+      "keys": [
+        "pearl necklace with name",
+        "https://northandpearl.com/collections/name-necklaces"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 44,
+      "query": "pearl necklace with name",
+      "page": "https://northandpearl.com/collections/name-necklaces"
+    }
+  ],
+  "totals": {
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0.0,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 4,
+  "error": null,
+  "date_range": {
+    "start": "2026-07-05",
+    "end": "2026-07-30"
+  }
+}

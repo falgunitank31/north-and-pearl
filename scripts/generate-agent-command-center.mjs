@@ -167,9 +167,9 @@ const rows = agents.map((agent) => {
   };
 });
 
-const latestGsc = readLatestJson('reports/google-api', (file) => (file.startsWith('gsc-query-latest-') || file.startsWith('gsc-query-post-faraday-')) && file.endsWith('.json'));
-const latestGa4Organic = readLatestJson('reports/google-api', (file) => (file.startsWith('ga4-organic-latest-') || file.startsWith('ga4-organic-post-faraday-')) && file.endsWith('.json'));
-const latestGa4Pages = readLatestJson('reports/google-api', (file) => (file.startsWith('ga4-organic-top-pages-latest-') || file.startsWith('ga4-organic-top-pages-post-faraday-')) && file.endsWith('.json'));
+const latestGsc = readLatestJson('reports/google-api', (file) => file.startsWith('gsc-query-') && file.endsWith('.json') && !file.includes('after-access') && !file.includes('final'));
+const latestGa4Organic = readLatestJson('reports/google-api', (file) => file.startsWith('ga4-organic-') && !file.startsWith('ga4-organic-top-pages-') && file.endsWith('.json'));
+const latestGa4Pages = readLatestJson('reports/google-api', (file) => file.startsWith('ga4-organic-top-pages-') && file.endsWith('.json'));
 const latestOrders = readLatestJson('reports', (file) => file.startsWith('shopify-orders-safe-') && file.endsWith('.json'));
 const merchantText = readText(`reports/merchant-center-readiness-${today}.md`) || readText('reports/merchant-center-readiness-2026-07-30.md');
 const sprintText = readText('SPRINT.md');

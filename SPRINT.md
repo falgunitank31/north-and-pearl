@@ -43,6 +43,12 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Add PDP support links and personalized-product FAQ coverage.
 - [x] Refresh collection-to-guide and guide-to-product internal links.
 - [x] Document compare-at pricing guardrail to prevent unapproved discount/sale messaging.
+- [x] Run August 2 same-thread operating pass across Faraday, Gauss, Tesla, Rawls, Lovelace, Kuhn, Curie, Pareto, and Lead Orchestrator.
+- [x] Pull August 2 Search Console, URL Inspection, sitemap, and GA4 organic reports.
+- [x] Resubmit root, collection, blog, and product sitemaps through Search Console API.
+- [x] Add and push a footer discovery rail linking to six buyer-intent collections and the weekly gift guide.
+- [x] Verify all footer discovery links are present in live homepage HTML and the monitored URLs return 200.
+- [x] Re-run Theme Check after the footer discovery update; 260 files inspected with 0 offenses.
 - [x] Create exact-source image replacement queue for active products below the preferred media standard.
 - [x] Install and verify Codex SEO as Faraday's subordinate toolkit.
 - [x] Run Faraday Codex SEO baseline for northandpearl.com.

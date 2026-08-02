@@ -23,6 +23,13 @@
 
 ## Current Baseline Status
 
+- August 2 daily monitor: Search Console shows 5 impressions, 0 clicks, and 0% CTR for 2026-07-05 to 2026-07-30. This is an increase from the prior 1-impression baseline, but there is still no verified organic traffic or order lift.
+- August 2 GA4 organic monitor: 0 organic sessions and 0 organic top pages for 2026-07-05 to 2026-08-01.
+- August 2 URL Inspection: Initial Shell Necklace is indexed; the weekly gift guide is discovered/currently not indexed; Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts are still unknown to Google. No URL Inspection blocked/error status was detected.
+- August 2 sitemap action: root, collection, blog, and product sitemaps were resubmitted through Search Console API; all submissions succeeded.
+- August 2 indexing-support action: added a live footer discovery rail linking to six buyer-intent collections and the weekly gift guide; live homepage HTML confirms all seven links are present.
+- August 2 order-source monitor: safe Shopify order query succeeded and returned 0 visible orders.
+- August 2 storefront/catalog monitor: product SEO audit remains clean, Merchant readiness remains 208/208 active products ready with identifier caveat and 0 needing review, Theme Check passed with 260 files inspected and 0 offenses, and targeted live URL checks returned 200.
 - July 31 purchasability check: Shopify Admin API audited 208 active products and confirmed 208/208 have at least one `availableForSale` variant. Quantity is not visible because inventory tracking is disabled on active variants; positive tracked inventory is 0, but purchase availability is not blocked.
 - July 31 Pareto baseline: active products remain sellable, Shopify sampled unit costs are missing, discount API access is blocked by missing `read_discounts`, and safe sales work is limited to non-discount merchandising, routing, cart recovery, and offer planning until margin guardrails exist.
 - Search Console sitemap: submitted and successful as of July 27, 2026.

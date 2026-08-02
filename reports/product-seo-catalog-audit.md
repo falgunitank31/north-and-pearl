@@ -1,6 +1,6 @@
 # Product SEO Catalog Audit
 
-Date: 2026-07-31
+Date: 2026-08-02
 
 Scope: Active Shopify products with vendor `North & Pearl`.
 

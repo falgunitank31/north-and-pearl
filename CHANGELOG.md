@@ -1,5 +1,13 @@
 # Changelog
 
+## August 2, 2026
+
+- Ran the August 2 same-thread operating pass: Search Console now shows 5 impressions / 0 clicks, GA4 organic remains 0 sessions, Initial Shell Necklace is indexed, the weekly gift guide is discovered/currently not indexed, and six buyer-intent collections remain unknown to Google.
+- Resubmitted root, collection, blog, and product sitemaps through Search Console API; all four submissions succeeded.
+- Added a restrained footer discovery rail linking to Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, Anniversary Gifts, and the weekly gift guide; pushed the change live to theme `189441802424`.
+- Validated all seven new homepage/footer crawl links in live HTML and confirmed monitored priority URLs return 200.
+- Re-ran Theme Check with 260 files inspected and 0 offenses, product SEO audit clean, Merchant readiness 208/208 active products ready with identifier caveat, and safe order-source monitor showing 0 visible orders.
+
 ## July 31, 2026
 
 - Audited active Shopify product purchasability through Admin API variant availability: 208 active products checked, 208 products have at least one `availableForSale` variant, and 0 products are blocked from purchase by inventory availability.

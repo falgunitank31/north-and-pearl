@@ -17,6 +17,7 @@
 - Completed first internal-linking response to the July 31 URL Inspection status: PDP support, guide links, and collection guide now point more clearly into the monitored commercial collections. Next action is daily URL Inspection monitoring for discovery movement.
 - Completed second internal-linking response on August 2: added a live footer discovery rail for the six unknown buyer-intent collections and weekly gift guide, then verified all seven links are present in homepage HTML.
 - Completed third internal-linking response on August 2: expanded the homepage starter rail with Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts; live homepage HTML confirms the links are present.
+- Completed fourth internal-linking response on August 2: expanded collection hero fast-shopping cards from three to five paths by adding Birthday Gifts and Anniversary Gifts, keeping product grids above long guide content while improving crawl/customer discovery.
 - Monitor Search Console product sitemap processing after the July 30 API submission; current product sitemap state is pending with 0 errors and 0 warnings.
 - Strengthen internal discovery into pages currently unknown or not indexed by Google: Jewelry Gifts for Her, Gifts Under $50, the new gift guide, and Initial Shell Necklace PDP.
 - Monitor the new buyer-intent collections for impressions, clicks, collection views, product clicks, add-to-cart activity, and revenue once Search Console/GA4 data accumulates.
@@ -39,6 +40,7 @@
 - Review the 10 held products from the Gauss next-100 batch; only activate if source-price risk, image count, and visual QA issues are resolved.
 - Replace exact-source imagery for active products still marked acceptable temporary where higher-resolution same-product supplier images are available and source pages can be accessed without CAPTCHA/protection. If recovered source media reveals a catalog mismatch, repair title/type/collections before any image replacement.
 - Recover source references for the 8 below-threshold active products still missing usable source-reference tags before attempting media replacement; current queue is `reports/source-reference-recovery-2026-07-29.md` with 5 recoverable IDs needing confirmation and 3 exact Alibaba URLs required after Initial Shell Necklace source traceability was restored.
+- Five recoverable Alibaba source IDs remain blocked by Alibaba protection pages as of August 2; do not add source tags until exact product pages can be verified. See `reports/source-traceability-blocker-2026-08-02.md`.
 - Improve the 115 active products below preferred media standard as exact-source assets become available; current PDP QA passes, but image quality remains below premium target.
 - Re-score Best Sellers once real Shopify sales, add-to-cart, and product-view data is meaningful; current collection is a curated launch edit.
 

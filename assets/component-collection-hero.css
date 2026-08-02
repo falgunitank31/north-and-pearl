@@ -162,10 +162,10 @@
 
 .np-collection-starter {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(12.8rem, 1fr));
   gap: 0.8rem;
   margin-top: 1.8rem;
-  max-width: 68rem;
+  max-width: 84rem;
 }
 
 .np-collection-starter a {

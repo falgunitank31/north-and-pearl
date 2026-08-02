@@ -9,6 +9,8 @@
 - Re-ran Theme Check with 260 files inspected and 0 offenses, product SEO audit clean, Merchant readiness 208/208 active products ready with identifier caveat, and safe order-source monitor showing 0 visible orders.
 - Expanded the homepage starter rail with Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts, pushed the change live, and verified the new links in production HTML.
 - Added internal source traceability tags to Initial Shell Necklace from the owner-supplied Alibaba source ID `1600468137956`; source-reference recovery now shows 8 below-preferred products missing source tags and 3 exact-source URLs still required.
+- Expanded collection hero starter cards to include Birthday Gifts and Anniversary Gifts as additional high-intent shopping paths, while preserving the shortened product-first collection template.
+- Documented the Alibaba source-traceability blocker for five candidate source IDs that cannot be safely confirmed while Alibaba returns protection pages.
 
 ## July 31, 2026
 

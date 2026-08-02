@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-02T17:06:55.714Z",
+    "generatedAt": "2026-08-02T21:50:55.979Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
     "workingToday": 9,
@@ -74,7 +74,7 @@
       "name": "Gauss",
       "reportsToday": 1,
       "totalReports": 9,
-      "latest": "gauss-daily-catalog-growth-2026-08-02.md",
+      "latest": "source-reference-recovery-2026-07-29.md",
       "status": "Updated Today"
     },
     {
@@ -116,7 +116,7 @@
       "name": "Curie",
       "reportsToday": 1,
       "totalReports": 7,
-      "latest": "curie-daily-source-claim-safety-2026-08-02.md",
+      "latest": "source-reference-recovery-2026-07-29.md",
       "status": "Updated Today"
     },
     {
@@ -195,9 +195,9 @@
       ],
       "owns": "Daily product additions, category balance, product source traceability, catalog hygiene.",
       "latest": {
-        "file": "gauss-daily-catalog-growth-2026-08-02.md",
-        "path": "reports/gauss-daily-catalog-growth-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.135Z"
+        "file": "source-reference-recovery-2026-07-29.md",
+        "path": "reports/source-reference-recovery-2026-07-29.md",
+        "mtime": "2026-08-02T21:49:44.979Z"
       },
       "todayReport": {
         "file": "gauss-daily-catalog-growth-2026-08-02.md",
@@ -325,9 +325,9 @@
       ],
       "owns": "Supplier/source evidence, Alibaba traceability, claim safety, product-quality risk.",
       "latest": {
-        "file": "curie-daily-source-claim-safety-2026-08-02.md",
-        "path": "reports/curie-daily-source-claim-safety-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.137Z"
+        "file": "source-reference-recovery-2026-07-29.md",
+        "path": "reports/source-reference-recovery-2026-07-29.md",
+        "mtime": "2026-08-02T21:49:44.979Z"
       },
       "todayReport": {
         "file": "curie-daily-source-claim-safety-2026-08-02.md",

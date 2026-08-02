@@ -1,6 +1,6 @@
 # Agent Command Center
 
-Generated: 2026-08-02T17:06:55.714Z
+Generated: 2026-08-02T21:50:55.979Z
 
 ## Summary
 
@@ -28,13 +28,13 @@ Generated: 2026-08-02T17:06:55.714Z
 ## Agent Performance
 
 - Faraday: 1 report(s) today, 14 total matching lane reports; latest: faraday-daily-monitor-2026-08-02.md
-- Gauss: 1 report(s) today, 9 total matching lane reports; latest: gauss-daily-catalog-growth-2026-08-02.md
+- Gauss: 1 report(s) today, 9 total matching lane reports; latest: source-reference-recovery-2026-07-29.md
 - Pareto: 1 report(s) today, 2 total matching lane reports; latest: pareto-sales-execution-2026-08-02.md
 - Tesla: 1 report(s) today, 9 total matching lane reports; latest: tesla-daily-storefront-qa-2026-08-02.md
 - Rawls: 1 report(s) today, 5 total matching lane reports; latest: rawls-daily-analytics-watch-2026-08-02.md
 - Lovelace: 1 report(s) today, 6 total matching lane reports; latest: lovelace-daily-order-source-monitor-2026-08-02.md
 - Kuhn: 1 report(s) today, 6 total matching lane reports; latest: kuhn-daily-design-qa-2026-08-02.md
-- Curie: 1 report(s) today, 7 total matching lane reports; latest: curie-daily-source-claim-safety-2026-08-02.md
+- Curie: 1 report(s) today, 7 total matching lane reports; latest: source-reference-recovery-2026-07-29.md
 - Lead Orchestrator: 1 report(s) today, 10 total matching lane reports; latest: lead-orchestrator-operating-pass-2026-08-02.md
 
 ## Blockers
@@ -47,13 +47,13 @@ Generated: 2026-08-02T17:06:55.714Z
 ## Agents
 
 - Faraday: Updated Today; latest report: reports/faraday-daily-monitor-2026-08-02.md; operating mode: same-thread heartbeat
-- Gauss: Updated Today; latest report: reports/gauss-daily-catalog-growth-2026-08-02.md; operating mode: same-thread heartbeat
+- Gauss: Updated Today; latest report: reports/source-reference-recovery-2026-07-29.md; operating mode: same-thread heartbeat
 - Pareto: Updated Today; latest report: reports/pareto-sales-execution-2026-08-02.md; operating mode: same-thread heartbeat
 - Tesla: Updated Today; latest report: reports/tesla-daily-storefront-qa-2026-08-02.md; operating mode: same-thread heartbeat
 - Rawls: Updated Today; latest report: reports/rawls-daily-analytics-watch-2026-08-02.md; operating mode: same-thread heartbeat
 - Lovelace: Updated Today; latest report: reports/lovelace-daily-order-source-monitor-2026-08-02.md; operating mode: same-thread heartbeat
 - Kuhn: Updated Today; latest report: reports/kuhn-daily-design-qa-2026-08-02.md; operating mode: same-thread heartbeat
-- Curie: Updated Today; latest report: reports/curie-daily-source-claim-safety-2026-08-02.md; operating mode: same-thread heartbeat
+- Curie: Updated Today; latest report: reports/source-reference-recovery-2026-07-29.md; operating mode: same-thread heartbeat
 - Lead Orchestrator: Updated Today; latest report: reports/lead-orchestrator-operating-pass-2026-08-02.md; operating mode: same-thread heartbeat
 
 ## UI

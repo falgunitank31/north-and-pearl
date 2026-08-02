@@ -49,6 +49,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Add and push a footer discovery rail linking to six buyer-intent collections and the weekly gift guide.
 - [x] Verify all footer discovery links are present in live homepage HTML and the monitored URLs return 200.
 - [x] Re-run Theme Check after the footer discovery update; 260 files inspected with 0 offenses.
+- [x] Expand the homepage starter rail with Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts to improve customer and crawler discovery.
+- [x] Add internal source traceability tags to Initial Shell Necklace using the owner-supplied Alibaba URL/source ID; no customer-facing supplier copy was published.
+- [x] Re-run source-reference recovery: below-preferred products missing source tags dropped from 9 to 8, exact-source URLs required dropped from 4 to 3, and active products missing any source tag dropped from 17 to 16.
 - [x] Create exact-source image replacement queue for active products below the preferred media standard.
 - [x] Install and verify Codex SEO as Faraday's subordinate toolkit.
 - [x] Run Faraday Codex SEO baseline for northandpearl.com.

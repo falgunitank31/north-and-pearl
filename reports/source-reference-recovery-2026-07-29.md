@@ -7,10 +7,10 @@ Purpose: identify active products that need stronger Alibaba/source traceability
 
 - Active products checked: 208
 - Active products below preferred media standard: 115
-- Below-preferred products missing usable source-reference tags: 9
+- Below-preferred products missing usable source-reference tags: 8
 - Missing-source products with a recoverable repo source ID: 5
-- Missing-source products requiring exact Alibaba URL/source recovery: 4
-- Active products missing any source-reference tag: 17
+- Missing-source products requiring exact Alibaba URL/source recovery: 3
+- Active products missing any source-reference tag: 16
 
 ## Decision
 
@@ -31,7 +31,6 @@ Do not add source tags or replace product media until the exact same Alibaba lis
 | Product | Handle | Media | Current Action |
 |---|---|---|---|
 | North & Pearl Iridescent Pendant Necklace | `north-pearl-iridescent-pendant-necklace` | ACCEPTABLE_TEMP, 3 images, 1000x1000 min | Recover exact Alibaba URL/source ID or replace with a verified sourced product before fulfillment. |
-| North & Pearl Initial Shell Necklace | `north-pearl-initial-shell-necklace` | ACCEPTABLE_TEMP, 6 images, 800x800 min | Recover exact Alibaba URL/source ID or replace with a verified sourced product before fulfillment. |
 | North & Pearl Sparkle Accent Bracelet | `north-pearl-sparkle-accent-bracelet` | ACCEPTABLE_TEMP, 6 images, 800x800 min | Recover exact Alibaba URL/source ID or replace with a verified sourced product before fulfillment. |
 | North & Pearl Bridal Water Drop Set | `north-pearl-bridal-water-drop-set` | ACCEPTABLE_TEMP, 6 images, 800x800 min | Recover exact Alibaba URL/source ID or replace with a verified sourced product before fulfillment. |
 

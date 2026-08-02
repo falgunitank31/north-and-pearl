@@ -1,6 +1,5 @@
 title,handle,productType,mediaScore,images,minWidth,minHeight,sourceStatus,recoveredSourceId,sourceTags,sourceUrlTags,url
 "North & Pearl Iridescent Pendant Necklace","north-pearl-iridescent-pendant-necklace","Necklace","ACCEPTABLE_TEMP","3","1000","1000","EXACT_SOURCE_URL_REQUIRED","","","","https://northandpearl.com/products/north-pearl-iridescent-pendant-necklace"
-"North & Pearl Initial Shell Necklace","north-pearl-initial-shell-necklace","Necklace","ACCEPTABLE_TEMP","6","800","800","EXACT_SOURCE_URL_REQUIRED","","","","https://northandpearl.com/products/north-pearl-initial-shell-necklace"
 "North & Pearl Heart Keepsake Necklace","north-pearl-heart-keepsake-necklace","Necklace","GOOD","6","1000","1000","EXACT_SOURCE_URL_REQUIRED","","","","https://northandpearl.com/products/north-pearl-heart-keepsake-necklace"
 "North & Pearl Flower Nail Bangle","north-pearl-flower-nail-bangle","Bracelet","ACCEPTABLE_TEMP","6","800","800","RECOVERABLE_ID_NEEDS_CONFIRMATION","1601234622131","","","https://northandpearl.com/products/north-pearl-flower-nail-bangle"
 "North & Pearl Color Accent Cuff","north-pearl-color-accent-cuff","Bracelet","GOOD","6","1000","1000","EXACT_SOURCE_URL_REQUIRED","","","","https://northandpearl.com/products/north-pearl-color-accent-cuff"

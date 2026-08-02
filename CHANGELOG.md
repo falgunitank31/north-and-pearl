@@ -7,6 +7,8 @@
 - Added a restrained footer discovery rail linking to Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, Anniversary Gifts, and the weekly gift guide; pushed the change live to theme `189441802424`.
 - Validated all seven new homepage/footer crawl links in live HTML and confirmed monitored priority URLs return 200.
 - Re-ran Theme Check with 260 files inspected and 0 offenses, product SEO audit clean, Merchant readiness 208/208 active products ready with identifier caveat, and safe order-source monitor showing 0 visible orders.
+- Expanded the homepage starter rail with Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts, pushed the change live, and verified the new links in production HTML.
+- Added internal source traceability tags to Initial Shell Necklace from the owner-supplied Alibaba source ID `1600468137956`; source-reference recovery now shows 8 below-preferred products missing source tags and 3 exact-source URLs still required.
 
 ## July 31, 2026
 

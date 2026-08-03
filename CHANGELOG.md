@@ -1,5 +1,17 @@
 # Changelog
 
+## August 3, 2026
+
+- Ran the August 3 same-thread operating pass across Faraday, Rawls, Gauss, Tesla, Lovelace, Kuhn, and Curie.
+- Verified Google SEO toolkit Tier 2 access remains ready.
+- Pulled Search Console performance: 5 impressions, 0 clicks, 0% CTR, and 0 quick wins for 2026-07-06 to 2026-07-31.
+- Re-inspected eight priority buyer-intent URLs; all are now Submitted and indexed.
+- Fixed a Search Console sitemap issue by deleting the bad non-parameterized collection sitemap submission and submitting the correct Shopify collection sitemap URL.
+- Verified the corrected collection sitemap shows 0 errors and 0 warnings.
+- Pulled GA4 organic reports; organic sessions and organic top pages remain 0 rows.
+- Re-ran product SEO, Merchant readiness, source traceability, menu audit, Theme Check, safe order monitoring, and full live storefront QA.
+- Verified live storefront QA passed 208/208 product pages and cart add passed.
+
 ## August 2, 2026
 
 - Ran the August 2 same-thread operating pass: Search Console now shows 5 impressions / 0 clicks, GA4 organic remains 0 sessions, Initial Shell Necklace is indexed, the weekly gift guide is discovered/currently not indexed, and six buyer-intent collections remain unknown to Google.

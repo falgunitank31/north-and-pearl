@@ -23,6 +23,11 @@
 
 ## Current Baseline Status
 
+- August 3 daily monitor: Search Console shows 5 impressions, 0 clicks, and 0% CTR for 2026-07-06 to 2026-07-31. GA4 organic remains 0 sessions and 0 organic top pages for 2026-07-06 to 2026-08-02.
+- August 3 URL Inspection: all eight monitored URLs are now Submitted and indexed: Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, Anniversary Gifts, weekly gift guide, and Initial Shell Necklace.
+- August 3 sitemap fix: removed the incorrect non-parameterized collection sitemap submission that returned 400, then submitted the correct Shopify collection sitemap URL with 24 web URLs and 19 image URLs. The correct collection sitemap now shows 0 errors and 0 warnings.
+- August 3 order-source monitor: safe Shopify order query succeeded and returned 0 visible orders.
+- August 3 storefront/catalog monitor: product SEO remains clean, Merchant readiness remains 208/208 active products ready with identifier caveat and 0 needing review, Theme Check passed with 260 files inspected and 0 offenses, live storefront QA passed 208/208 product pages, and cart add passed.
 - August 2 daily monitor: Search Console shows 5 impressions, 0 clicks, and 0% CTR for 2026-07-05 to 2026-07-30. This is an increase from the prior 1-impression baseline, but there is still no verified organic traffic or order lift.
 - August 2 GA4 organic monitor: 0 organic sessions and 0 organic top pages for 2026-07-05 to 2026-08-01.
 - August 2 URL Inspection: Initial Shell Necklace is indexed; the weekly gift guide is discovered/currently not indexed; Personalized Jewelry, Jewelry Gifts for Her, Gifts Under $50, Gifts Under $100, Birthday Jewelry Gifts, and Anniversary Gifts are still unknown to Google. No URL Inspection blocked/error status was detected.

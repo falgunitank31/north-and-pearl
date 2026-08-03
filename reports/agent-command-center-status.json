@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-02T21:59:59.289Z",
+    "generatedAt": "2026-08-03T13:40:53.031Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
     "workingToday": 9,
@@ -66,64 +66,64 @@
     {
       "name": "Faraday",
       "reportsToday": 1,
-      "totalReports": 14,
-      "latest": "faraday-daily-monitor-2026-08-02.md",
+      "totalReports": 15,
+      "latest": "faraday-daily-monitor-2026-08-03.md",
       "status": "Updated Today"
     },
     {
       "name": "Gauss",
       "reportsToday": 1,
-      "totalReports": 9,
-      "latest": "source-reference-recovery-2026-07-29.md",
+      "totalReports": 10,
+      "latest": "gauss-daily-catalog-growth-2026-08-03.md",
       "status": "Updated Today"
     },
     {
       "name": "Pareto",
       "reportsToday": 1,
-      "totalReports": 2,
-      "latest": "pareto-sales-execution-2026-08-02.md",
+      "totalReports": 3,
+      "latest": "pareto-sales-execution-2026-08-03.md",
       "status": "Updated Today"
     },
     {
       "name": "Tesla",
-      "reportsToday": 1,
-      "totalReports": 9,
-      "latest": "tesla-daily-storefront-qa-2026-08-02.md",
+      "reportsToday": 2,
+      "totalReports": 11,
+      "latest": "tesla-daily-storefront-qa-2026-08-03.md",
       "status": "Updated Today"
     },
     {
       "name": "Rawls",
       "reportsToday": 1,
-      "totalReports": 5,
-      "latest": "rawls-daily-analytics-watch-2026-08-02.md",
+      "totalReports": 6,
+      "latest": "rawls-daily-analytics-watch-2026-08-03.md",
       "status": "Updated Today"
     },
     {
       "name": "Lovelace",
       "reportsToday": 1,
-      "totalReports": 6,
-      "latest": "lovelace-daily-order-source-monitor-2026-08-02.md",
+      "totalReports": 7,
+      "latest": "lovelace-daily-order-source-monitor-2026-08-03.md",
       "status": "Updated Today"
     },
     {
       "name": "Kuhn",
       "reportsToday": 1,
-      "totalReports": 6,
-      "latest": "kuhn-daily-design-qa-2026-08-02.md",
+      "totalReports": 7,
+      "latest": "kuhn-daily-design-qa-2026-08-03.md",
       "status": "Updated Today"
     },
     {
       "name": "Curie",
       "reportsToday": 1,
-      "totalReports": 7,
-      "latest": "source-reference-recovery-2026-07-29.md",
+      "totalReports": 8,
+      "latest": "curie-daily-source-claim-safety-2026-08-03.md",
       "status": "Updated Today"
     },
     {
       "name": "Lead Orchestrator",
       "reportsToday": 1,
-      "totalReports": 10,
-      "latest": "lead-orchestrator-operating-pass-2026-08-02.md",
+      "totalReports": 11,
+      "latest": "lead-orchestrator-operating-pass-2026-08-03.md",
       "status": "Updated Today"
     }
   ],
@@ -172,14 +172,14 @@
       ],
       "owns": "SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.",
       "latest": {
-        "file": "faraday-daily-monitor-2026-08-02.md",
-        "path": "reports/faraday-daily-monitor-2026-08-02.md",
-        "mtime": "2026-08-02T17:05:01.405Z"
+        "file": "faraday-daily-monitor-2026-08-03.md",
+        "path": "reports/faraday-daily-monitor-2026-08-03.md",
+        "mtime": "2026-08-03T13:39:30.954Z"
       },
       "todayReport": {
-        "file": "faraday-daily-monitor-2026-08-02.md",
-        "path": "reports/faraday-daily-monitor-2026-08-02.md",
-        "mtime": "2026-08-02T17:05:01.405Z"
+        "file": "faraday-daily-monitor-2026-08-03.md",
+        "path": "reports/faraday-daily-monitor-2026-08-03.md",
+        "mtime": "2026-08-03T13:39:30.954Z"
       },
       "status": "Updated Today"
     },
@@ -195,14 +195,14 @@
       ],
       "owns": "Daily product additions, category balance, product source traceability, catalog hygiene.",
       "latest": {
-        "file": "source-reference-recovery-2026-07-29.md",
-        "path": "reports/source-reference-recovery-2026-07-29.md",
-        "mtime": "2026-08-02T21:49:44.979Z"
+        "file": "gauss-daily-catalog-growth-2026-08-03.md",
+        "path": "reports/gauss-daily-catalog-growth-2026-08-03.md",
+        "mtime": "2026-08-03T13:40:11.482Z"
       },
       "todayReport": {
-        "file": "gauss-daily-catalog-growth-2026-08-02.md",
-        "path": "reports/gauss-daily-catalog-growth-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.135Z"
+        "file": "gauss-daily-catalog-growth-2026-08-03.md",
+        "path": "reports/gauss-daily-catalog-growth-2026-08-03.md",
+        "mtime": "2026-08-03T13:40:11.482Z"
       },
       "status": "Updated Today"
     },
@@ -216,14 +216,14 @@
       ],
       "owns": "Sales strategy, competitive intelligence, market monitoring, offers, promotions, bundles, AOV, conversion opportunities, commercial merchandising, forecasting, revenue growth.",
       "latest": {
-        "file": "pareto-sales-execution-2026-08-02.md",
-        "path": "reports/pareto-sales-execution-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.138Z"
+        "file": "pareto-sales-execution-2026-08-03.md",
+        "path": "reports/pareto-sales-execution-2026-08-03.md",
+        "mtime": "2026-08-03T13:40:40.526Z"
       },
       "todayReport": {
-        "file": "pareto-sales-execution-2026-08-02.md",
-        "path": "reports/pareto-sales-execution-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.138Z"
+        "file": "pareto-sales-execution-2026-08-03.md",
+        "path": "reports/pareto-sales-execution-2026-08-03.md",
+        "mtime": "2026-08-03T13:40:40.526Z"
       },
       "status": "Updated Today"
     },
@@ -237,14 +237,14 @@
       ],
       "owns": "Theme code, QA, cart, search, mobile, performance, accessibility, Shopify CLI.",
       "latest": {
-        "file": "tesla-daily-storefront-qa-2026-08-02.md",
-        "path": "reports/tesla-daily-storefront-qa-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.136Z"
+        "file": "tesla-daily-storefront-qa-2026-08-03.md",
+        "path": "reports/tesla-daily-storefront-qa-2026-08-03.md",
+        "mtime": "2026-08-03T13:39:30.955Z"
       },
       "todayReport": {
-        "file": "tesla-daily-storefront-qa-2026-08-02.md",
-        "path": "reports/tesla-daily-storefront-qa-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.136Z"
+        "file": "tesla-daily-storefront-qa-2026-08-03.md",
+        "path": "reports/tesla-daily-storefront-qa-2026-08-03.md",
+        "mtime": "2026-08-03T13:39:30.955Z"
       },
       "status": "Updated Today"
     },
@@ -258,14 +258,14 @@
       ],
       "owns": "GA4, Search Console, Shopify analytics, KPI measurement, funnel diagnosis.",
       "latest": {
-        "file": "rawls-daily-analytics-watch-2026-08-02.md",
-        "path": "reports/rawls-daily-analytics-watch-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.136Z"
+        "file": "rawls-daily-analytics-watch-2026-08-03.md",
+        "path": "reports/rawls-daily-analytics-watch-2026-08-03.md",
+        "mtime": "2026-08-03T13:39:30.954Z"
       },
       "todayReport": {
-        "file": "rawls-daily-analytics-watch-2026-08-02.md",
-        "path": "reports/rawls-daily-analytics-watch-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.136Z"
+        "file": "rawls-daily-analytics-watch-2026-08-03.md",
+        "path": "reports/rawls-daily-analytics-watch-2026-08-03.md",
+        "mtime": "2026-08-03T13:39:30.954Z"
       },
       "status": "Updated Today"
     },
@@ -280,14 +280,14 @@
       ],
       "owns": "Order-source mapping, Alibaba source URLs, fulfillment readiness, shipping/returns safety.",
       "latest": {
-        "file": "lovelace-daily-order-source-monitor-2026-08-02.md",
-        "path": "reports/lovelace-daily-order-source-monitor-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.136Z"
+        "file": "lovelace-daily-order-source-monitor-2026-08-03.md",
+        "path": "reports/lovelace-daily-order-source-monitor-2026-08-03.md",
+        "mtime": "2026-08-03T13:39:30.954Z"
       },
       "todayReport": {
-        "file": "lovelace-daily-order-source-monitor-2026-08-02.md",
-        "path": "reports/lovelace-daily-order-source-monitor-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.136Z"
+        "file": "lovelace-daily-order-source-monitor-2026-08-03.md",
+        "path": "reports/lovelace-daily-order-source-monitor-2026-08-03.md",
+        "mtime": "2026-08-03T13:39:30.954Z"
       },
       "status": "Updated Today"
     },
@@ -302,14 +302,14 @@
       ],
       "owns": "Premium jewelry UX, visual QA, product imagery presentation, homepage/collection/PDP polish.",
       "latest": {
-        "file": "kuhn-daily-design-qa-2026-08-02.md",
-        "path": "reports/kuhn-daily-design-qa-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.137Z"
+        "file": "kuhn-daily-design-qa-2026-08-03.md",
+        "path": "reports/kuhn-daily-design-qa-2026-08-03.md",
+        "mtime": "2026-08-03T13:40:11.483Z"
       },
       "todayReport": {
-        "file": "kuhn-daily-design-qa-2026-08-02.md",
-        "path": "reports/kuhn-daily-design-qa-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.137Z"
+        "file": "kuhn-daily-design-qa-2026-08-03.md",
+        "path": "reports/kuhn-daily-design-qa-2026-08-03.md",
+        "mtime": "2026-08-03T13:40:11.483Z"
       },
       "status": "Updated Today"
     },
@@ -325,14 +325,14 @@
       ],
       "owns": "Supplier/source evidence, Alibaba traceability, claim safety, product-quality risk.",
       "latest": {
-        "file": "source-reference-recovery-2026-07-29.md",
-        "path": "reports/source-reference-recovery-2026-07-29.md",
-        "mtime": "2026-08-02T21:49:44.979Z"
+        "file": "curie-daily-source-claim-safety-2026-08-03.md",
+        "path": "reports/curie-daily-source-claim-safety-2026-08-03.md",
+        "mtime": "2026-08-03T13:40:11.483Z"
       },
       "todayReport": {
-        "file": "curie-daily-source-claim-safety-2026-08-02.md",
-        "path": "reports/curie-daily-source-claim-safety-2026-08-02.md",
-        "mtime": "2026-08-02T17:06:46.137Z"
+        "file": "curie-daily-source-claim-safety-2026-08-03.md",
+        "path": "reports/curie-daily-source-claim-safety-2026-08-03.md",
+        "mtime": "2026-08-03T13:40:11.483Z"
       },
       "status": "Updated Today"
     },
@@ -350,14 +350,14 @@
       ],
       "owns": "Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.",
       "latest": {
-        "file": "lead-orchestrator-operating-pass-2026-08-02.md",
-        "path": "reports/lead-orchestrator-operating-pass-2026-08-02.md",
-        "mtime": "2026-08-02T17:05:01.407Z"
+        "file": "lead-orchestrator-operating-pass-2026-08-03.md",
+        "path": "reports/lead-orchestrator-operating-pass-2026-08-03.md",
+        "mtime": "2026-08-03T13:39:30.955Z"
       },
       "todayReport": {
-        "file": "lead-orchestrator-operating-pass-2026-08-02.md",
-        "path": "reports/lead-orchestrator-operating-pass-2026-08-02.md",
-        "mtime": "2026-08-02T17:05:01.407Z"
+        "file": "lead-orchestrator-operating-pass-2026-08-03.md",
+        "path": "reports/lead-orchestrator-operating-pass-2026-08-03.md",
+        "mtime": "2026-08-03T13:39:30.955Z"
       },
       "status": "Updated Today"
     }

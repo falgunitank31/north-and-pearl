@@ -156,6 +156,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Strengthened internal links into buyer-intent collections from PDP support, guide links, and collection guide surfaces; added collection-specific social descriptions for six monitored collection URLs.
 - [x] Expanded collection hero fast-shopping cards to include Birthday Gifts and Anniversary Gifts, then made the starter grid responsive for five high-intent paths without adding long pre-product copy.
 - [x] Documented the August 2 source-traceability blocker for five recoverable Alibaba candidate IDs that cannot be safely confirmed while Alibaba serves protection pages.
+- [x] Ran the August 3 same-thread operating pass: Search Console, sitemap status, URL Inspection, GA4 organic, product SEO, Merchant readiness, source traceability, menu audit, safe order read, Theme Check, full live storefront QA, and command center evidence.
+- [x] Fixed the Search Console collection sitemap submission by replacing the bad non-parameterized URL with the correct Shopify parameterized collection sitemap; current corrected collection sitemap status is 0 errors and 0 warnings.
+- [x] Confirmed all eight monitored buyer-intent URLs are now submitted and indexed in Google URL Inspection.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

@@ -11,6 +11,8 @@
 - Pulled GA4 organic reports; organic sessions and organic top pages remain 0 rows.
 - Re-ran product SEO, Merchant readiness, source traceability, menu audit, Theme Check, safe order monitoring, and full live storefront QA.
 - Verified live storefront QA passed 208/208 product pages and cart add passed.
+- Applied Search Console signal-based collection copy improvements to Name Necklaces and Birthstone Jewelry, using claim-safe `pearl-style` and `birthstone-inspired` wording.
+- Validated the updated live collection pages return 200, preserve product-first layout, include internal commercial/guide links, and avoid unsupported material claims.
 
 ## August 2, 2026
 

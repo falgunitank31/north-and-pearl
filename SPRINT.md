@@ -159,6 +159,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Ran the August 3 same-thread operating pass: Search Console, sitemap status, URL Inspection, GA4 organic, product SEO, Merchant readiness, source traceability, menu audit, safe order read, Theme Check, full live storefront QA, and command center evidence.
 - [x] Fixed the Search Console collection sitemap submission by replacing the bad non-parameterized URL with the correct Shopify parameterized collection sitemap; current corrected collection sitemap status is 0 errors and 0 warnings.
 - [x] Confirmed all eight monitored buyer-intent URLs are now submitted and indexed in Google URL Inspection.
+- [x] Used verified Search Console query/page rows to improve Name Necklaces and Birthstone Jewelry collection SEO/content with safe wording and stronger commercial internal links.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

@@ -1,6 +1,6 @@
 # Agent Command Center
 
-Generated: 2026-08-03T14:49:49.372Z
+Generated: 2026-08-03T17:01:08.489Z
 
 ## Summary
 
@@ -27,7 +27,7 @@ Generated: 2026-08-03T14:49:49.372Z
 
 ## Agent Performance
 
-- Faraday: 1 report(s) today, 15 total matching lane reports; latest: faraday-daily-monitor-2026-08-03.md
+- Faraday: 2 report(s) today, 16 total matching lane reports; latest: faraday-indexed-page-marketing-push-2026-08-03.md
 - Gauss: 1 report(s) today, 10 total matching lane reports; latest: gauss-daily-catalog-growth-2026-08-03.md
 - Pareto: 1 report(s) today, 3 total matching lane reports; latest: pareto-sales-execution-2026-08-03.md
 - Tesla: 2 report(s) today, 11 total matching lane reports; latest: tesla-daily-storefront-qa-2026-08-03.md
@@ -46,7 +46,7 @@ Generated: 2026-08-03T14:49:49.372Z
 
 ## Agents
 
-- Faraday: Updated Today; latest report: reports/faraday-daily-monitor-2026-08-03.md; operating mode: same-thread heartbeat
+- Faraday: Updated Today; latest report: reports/faraday-indexed-page-marketing-push-2026-08-03.md; operating mode: same-thread heartbeat
 - Gauss: Updated Today; latest report: reports/gauss-daily-catalog-growth-2026-08-03.md; operating mode: same-thread heartbeat
 - Pareto: Updated Today; latest report: reports/pareto-sales-execution-2026-08-03.md; operating mode: same-thread heartbeat
 - Tesla: Updated Today; latest report: reports/tesla-daily-storefront-qa-2026-08-03.md; operating mode: same-thread heartbeat

@@ -13,6 +13,7 @@
 - Verified live storefront QA passed 208/208 product pages and cart add passed.
 - Applied Search Console signal-based collection copy improvements to Name Necklaces and Birthstone Jewelry, using claim-safe `pearl-style` and `birthstone-inspired` wording.
 - Validated the updated live collection pages return 200, preserve product-first layout, include internal commercial/guide links, and avoid unsupported material claims.
+- Executed Faraday's indexed-page marketing push: published three buyer-intent Gift Guide posts, created campaign `indexed_page_push_august_2026`, generated tracked external-push copy, resubmitted root/blog sitemaps, pulled fresh GSC/GA4 monitoring snapshots, and validated all new post URLs return 200.
 
 ## August 2, 2026
 

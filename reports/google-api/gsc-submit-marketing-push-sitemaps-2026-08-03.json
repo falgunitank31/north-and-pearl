@@ -1,0 +1,13 @@
+{
+  "property": "sc-domain:northandpearl.com",
+  "results": [
+    {
+      "sitemap": "https://northandpearl.com/sitemap.xml",
+      "status": "submitted"
+    },
+    {
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml",
+      "status": "submitted"
+    }
+  ]
+}

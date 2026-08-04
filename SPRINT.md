@@ -166,6 +166,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 - [x] Executed Pareto/Faraday first-order activation pass: switched active tracked campaign to `order_growth_august_2026`, regenerated the qualified traffic post kit, refreshed the live weekly gift guide, created the 72-hour first-order activation kit, and pulled fresh GSC/GA4 snapshots showing the bottleneck remains qualified traffic volume, not storefront purchasability.
+- [x] Fixed Merchant Center Product structured-data warnings by adding controlled PDP `offers.shippingDetails` and `offers.hasMerchantReturnPolicy` JSON-LD without inventing delivery times or return windows; Theme Check passed and live PDP schema validation confirmed both fields are present.
 ## Success Criteria
 
 - No known P0 issues.

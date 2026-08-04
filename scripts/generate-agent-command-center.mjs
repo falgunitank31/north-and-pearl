@@ -29,7 +29,7 @@ const agents = [
   {
     name: 'Tesla',
     lane: 'Shopify engineering',
-    reportPrefixes: ['tesla-daily-storefront-qa', 'tesla-storefront-qa', 'live-storefront-qa'],
+    reportPrefixes: ['merchant-center-product-schema-fix', 'tesla-daily-storefront-qa', 'tesla-storefront-qa', 'live-storefront-qa'],
     owns: 'Theme code, QA, cart, search, mobile, performance, accessibility, Shopify CLI.',
   },
   {

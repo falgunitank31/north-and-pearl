@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-04T15:27:49.894Z",
+    "generatedAt": "2026-08-04T15:32:06.733Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
     "workingToday": 9,
@@ -86,9 +86,9 @@
     },
     {
       "name": "Tesla",
-      "reportsToday": 2,
-      "totalReports": 13,
-      "latest": "tesla-daily-storefront-qa-2026-08-04.md",
+      "reportsToday": 3,
+      "totalReports": 14,
+      "latest": "merchant-center-product-schema-fix-2026-08-04.md",
       "status": "Updated Today"
     },
     {
@@ -233,20 +233,21 @@
       "name": "Tesla",
       "lane": "Shopify engineering",
       "reportPrefixes": [
+        "merchant-center-product-schema-fix",
         "tesla-daily-storefront-qa",
         "tesla-storefront-qa",
         "live-storefront-qa"
       ],
       "owns": "Theme code, QA, cart, search, mobile, performance, accessibility, Shopify CLI.",
       "latest": {
-        "file": "tesla-daily-storefront-qa-2026-08-04.md",
-        "path": "reports/tesla-daily-storefront-qa-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.015Z"
+        "file": "merchant-center-product-schema-fix-2026-08-04.md",
+        "path": "reports/merchant-center-product-schema-fix-2026-08-04.md",
+        "mtime": "2026-08-04T15:31:20.608Z"
       },
       "todayReport": {
-        "file": "tesla-daily-storefront-qa-2026-08-04.md",
-        "path": "reports/tesla-daily-storefront-qa-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.015Z"
+        "file": "merchant-center-product-schema-fix-2026-08-04.md",
+        "path": "reports/merchant-center-product-schema-fix-2026-08-04.md",
+        "mtime": "2026-08-04T15:31:20.608Z"
       },
       "status": "Updated Today"
     },

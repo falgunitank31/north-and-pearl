@@ -766,8 +766,67 @@
         <script src="{{ 'product-model.js' | asset_url }}" defer></script>
       {%- endif -%}
 
+      {%- liquid
+        assign np_schema_variant = product.selected_or_first_available_variant
+        assign np_schema_price = np_schema_variant.price | divided_by: 100.0
+        assign np_schema_image = product.featured_media.preview_image | default: product.featured_image
+        assign np_schema_description = product.description | strip_html | strip | truncate: 500
+        assign np_schema_sku = np_schema_variant.sku | default: np_schema_variant.id
+        assign np_shipping_policy_url = request.origin | append: '/pages/shipping-policy'
+        assign np_return_policy_url = request.origin | append: '/pages/returns-exchanges'
+      -%}
       <script type="application/ld+json">
-        {{ product | structured_data }}
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "@id": {{ canonical_url | append: '#product' | json }},
+          "name": {{ product.title | json }},
+          "url": {{ canonical_url | json }},
+          {%- if np_schema_description != blank -%}
+            "description": {{ np_schema_description | json }},
+          {%- endif -%}
+          {%- if np_schema_image -%}
+            "image": [
+              {{ np_schema_image | image_url: width: 1200 | prepend: 'https:' | json }}
+            ],
+          {%- endif -%}
+          "brand": {
+            "@type": "Brand",
+            "name": "North & Pearl"
+          },
+          "sku": {{ np_schema_sku | json }},
+          "offers": {
+            "@type": "Offer",
+            "url": {{ canonical_url | json }},
+            "priceCurrency": {{ cart.currency.iso_code | default: shop.currency | json }},
+            "price": {{ np_schema_price | json }},
+            "availability": "https://schema.org/{% if np_schema_variant.available %}InStock{% else %}OutOfStock{% endif %}",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": {
+              "@type": "Organization",
+              "name": "North & Pearl"
+            },
+            "shippingDetails": {
+              "@type": "OfferShippingDetails",
+              "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "US"
+              },
+              "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": "0.00",
+                "currency": {{ cart.currency.iso_code | default: shop.currency | json }}
+              },
+              "shippingSettingsLink": {{ np_shipping_policy_url | json }}
+            },
+            "hasMerchantReturnPolicy": {
+              "@type": "MerchantReturnPolicy",
+              "applicableCountry": "US",
+              "returnPolicyCategory": "https://schema.org/MerchantReturnUnspecified",
+              "merchantReturnLink": {{ np_return_policy_url | json }}
+            }
+          }
+        }
       </script>
 
       {%- if product.selected_or_first_available_variant.available -%}

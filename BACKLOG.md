@@ -37,6 +37,7 @@
 - Lovelace and the owner must finalize shipping, returns, support, fulfillment, and personalized/custom order rules before paid acquisition or stronger operational copy.
 
 - Pareto/Faraday must monitor campaign `order_growth_august_2026` after the 72-hour first-order activation kit is distributed: sessions, landing-page engagement, product views, add-to-cart, checkout starts, purchases, and source quality.
+- Monitor Merchant Center reprocessing for the August 4 Product schema fix; warnings for missing `shippingDetails` and `hasMerchantReturnPolicy` should clear after Google recrawls affected product URLs.
 ## P2
 
 - Monitor Gifts curation after traffic begins; current Gifts collection was narrowed from 156 products to 56 active gift-intent products on July 28, 2026.

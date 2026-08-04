@@ -132,3 +132,4 @@
 
 - Added permanent cross-functional ecommerce quality rules for North & Pearl.
 - Added standards and audit/report scaffolding for product publication, claims, merchandising, personalization, mobile UX, SEO/AEO/GEO, AI brand information, release validation, and remediation governance.
+- August 4, 2026: Ran Faraday full indexation sprint inventory, inspected 59 priority URLs, added live footer discovery links for pending URLs, resubmitted Shopify sitemaps, and documented that Google indexing cannot be forced for ordinary ecommerce pages.

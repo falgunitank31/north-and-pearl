@@ -1,0 +1,1317 @@
+{
+  "total": 261,
+  "by_sitemap": {
+    "https://northandpearl.com/sitemap_agentic_discovery.xml": 1,
+    "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512": 209,
+    "https://northandpearl.com/sitemap_pages_1.xml?from=167011549368&to=167050543288": 10,
+    "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168": 24,
+    "https://northandpearl.com/sitemap_blogs_1.xml": 17
+  },
+  "urls": [
+    {
+      "url": "https://northandpearl.com/agents.md",
+      "lastmod": null,
+      "sitemap": "https://northandpearl.com/sitemap_agentic_discovery.xml"
+    },
+    {
+      "url": "https://northandpearl.com/",
+      "lastmod": null,
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-iridescent-pendant-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-keepsake-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-flower-nail-bangle",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-color-accent-cuff",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-accent-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bridal-water-drop-set",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-hollow-flower-bangle-set",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-pulse-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-mixed-charm-bangle",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-pink-heart-bow-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-dainty-flower-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-clover-charm-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-twine-band-ring",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-warm-bead-stretch-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-chunky-bead-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-v-water-drop-jewelry-set",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sleek-flex-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sweetheart-pendant-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-halo-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-modern-statement-ring",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-row-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-smooth-flex-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bead-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-link-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-charm-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bloom-charm-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-earrings",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-garden-bloom-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-flower-jewelry-set",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-polished-link-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-floral-accent-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-modern-drop-earrings",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-ring",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-jewelry-set",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-6152",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-6868",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-5330",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-6404",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-7262",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-0021",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-necklace-2894",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-necklace-5629",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace-4710",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-1832",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-flower-earrings",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-4075",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-2338",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-6130",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-clover-earrings",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-9008",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-clover-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-ring-4269",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-water-drop-jewelry-set",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace-1947",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-1996",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-1814",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-chain-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bead-earrings",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-4171",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-snake-chain-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bead-jewelry-set",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-6010",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-6429",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace-7284",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-0389",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace-2260",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-earrings-5822",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-clover-bracelet-1195",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-0689",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace-2923",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bead-bracelet-0492",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-4242",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-4810",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-6142",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-4829",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-2555",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-1616",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-8213",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-4204",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-7562",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace-0474",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-2156",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-8531",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace-3361",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace-1404",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-clover-bracelet-4268",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-1571",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-1956",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bead-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-1755",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-2210",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-ring-7637",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-8379",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-5921",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-flower-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-3226",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-7245",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-6301",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bead-bracelet-3656",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-bracelet-1724",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-3046",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-6441",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-2758",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-6376",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-8628",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-0823",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-5254",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-necklace-9390",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-7676",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-bracelet-6593",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-earrings-5815",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-bracelet-6794",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-7793",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace-2948",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-ring",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-flower-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-tennis-bracelet",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-necklace-3170",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-4625",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-4975",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-0100",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-6240",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-6153",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-5572",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-9635",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace-8734",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-snake-chain-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-bracelet-0305",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace-9715",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-8053",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-jewelry-set",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-earrings",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-2765",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-personalized-nameplate-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-9014",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-8045",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-0758",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-1309",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-1495",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-8099",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-jewelry-set-0376",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-1355",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-ring-6187",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-8309",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-flower-necklace-7949",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bead-necklace-6379",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-6292",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-7005",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-flower-bracelet-0924",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-4393",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-necklace-3910",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-6999",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-1608",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-bracelet-3594",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-3437",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-ring-0279",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-stud-earrings",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-necklace-1704",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-necklace-7976",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-flower-bracelet-6422",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-4358",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-5796",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-earrings-6570",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-necklace-2786",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-8427",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-earrings",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-9838",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-9804",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-7036",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-clover-bracelet-1367",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-bracelet-9323",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-earrings-8738",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-2094",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-necklace-8214",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bead-earrings-1559",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-bracelet-5859",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-0020",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-bracelet-2159",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-3983",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-flower-bracelet-8870",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-bracelet-8272",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-earrings",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-3299",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-ring",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-necklace-6249",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-clover-jewelry-set",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-clover-bracelet-5386",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-clover-necklace",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-flower-earrings-5632",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-bracelet-4295",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-8559",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-ring-7015",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-name-necklace-5568",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-bracelet-6682",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-earrings-6915",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-clover-bracelet-7425",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-jewelry-set",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-signature-jewelry-set-8616",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-bracelet-8259",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-letter-earrings-5006",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-necklace-5273",
+      "lastmod": "2026-08-04T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512"
+    },
+    {
+      "url": "https://northandpearl.com/pages/contact",
+      "lastmod": "2026-07-21T16:52:25-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_pages_1.xml?from=167011549368&to=167050543288"
+    },
+    {
+      "url": "https://northandpearl.com/pages/data-sharing-opt-out",
+      "lastmod": "2026-07-14T21:50:56-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_pages_1.xml?from=167011549368&to=167050543288"
+    },
+    {
+      "url": "https://northandpearl.com/pages/about-north-pearl",
+      "lastmod": "2026-07-15T14:31:54-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_pages_1.xml?from=167011549368&to=167050543288"
+    },
+    {
+      "url": "https://northandpearl.com/pages/faq",
+      "lastmod": "2026-07-21T16:52:17-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_pages_1.xml?from=167011549368&to=167050543288"
+    },
+    {
+      "url": "https://northandpearl.com/pages/jewelry-care-guide",
+      "lastmod": "2026-07-15T14:32:00-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_pages_1.xml?from=167011549368&to=167050543288"
+    },
+    {
+      "url": "https://northandpearl.com/pages/personalized-jewelry-guide",
+      "lastmod": "2026-07-15T14:32:03-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_pages_1.xml?from=167011549368&to=167050543288"
+    },
+    {
+      "url": "https://northandpearl.com/pages/ai-brand-information",
+      "lastmod": "2026-07-15T14:32:05-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_pages_1.xml?from=167011549368&to=167050543288"
+    },
+    {
+      "url": "https://northandpearl.com/pages/shipping-policy",
+      "lastmod": "2026-07-21T16:52:19-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_pages_1.xml?from=167011549368&to=167050543288"
+    },
+    {
+      "url": "https://northandpearl.com/pages/returns-exchanges",
+      "lastmod": "2026-07-21T16:52:22-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_pages_1.xml?from=167011549368&to=167050543288"
+    },
+    {
+      "url": "https://northandpearl.com/pages/track-your-order",
+      "lastmod": "2026-07-21T16:52:28-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_pages_1.xml?from=167011549368&to=167050543288"
+    },
+    {
+      "url": "https://northandpearl.com/collections/frontpage",
+      "lastmod": "2026-07-21T17:23:11-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/best-sellers",
+      "lastmod": "2026-07-27T23:28:41-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/necklaces",
+      "lastmod": "2026-07-28T13:14:58-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/name-necklaces",
+      "lastmod": "2026-08-03T10:49:11-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/initial-necklaces",
+      "lastmod": "2026-07-28T13:14:58-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/birthstone-jewelry",
+      "lastmod": "2026-07-27T23:29:08-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/couple-jewelry",
+      "lastmod": "2026-07-27T23:28:59-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/bracelets",
+      "lastmod": "2026-07-28T13:12:46-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/rings",
+      "lastmod": "2026-07-27T23:29:05-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/earrings",
+      "lastmod": "2026-07-27T23:29:02-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/gifts",
+      "lastmod": "2026-07-27T23:28:51-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/mothers-collection",
+      "lastmod": "2026-07-27T23:28:54-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/wedding-bridesmaids",
+      "lastmod": "2026-07-27T23:28:57-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/mens-jewelry",
+      "lastmod": "2026-07-22T11:47:45-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/gift-cards",
+      "lastmod": "2026-07-22T11:47:49-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/new-arrivals",
+      "lastmod": "2026-07-28T13:14:58-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/sale",
+      "lastmod": "2026-07-22T11:47:52-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/personalized-jewelry",
+      "lastmod": "2026-07-29T13:33:27-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/jewelry-gifts-for-her",
+      "lastmod": "2026-07-29T13:33:30-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/gifts-under-50",
+      "lastmod": "2026-07-29T13:33:33-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/gifts-under-100",
+      "lastmod": "2026-07-29T13:33:36-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/birthday-jewelry-gifts",
+      "lastmod": "2026-07-29T13:33:39-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/anniversary-gifts",
+      "lastmod": "2026-07-29T13:33:43-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/collections/jewelry-gift-sets",
+      "lastmod": "2026-07-30T22:23:53-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/news",
+      "lastmod": "2026-07-14T21:50:54-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide",
+      "lastmod": "2026-08-04T09:41:20-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her",
+      "lastmod": "2026-07-30T12:14:24-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/how-to-choose-a-name-necklace",
+      "lastmod": "2026-07-30T12:14:26-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/birthstone-jewelry-gift-guide",
+      "lastmod": "2026-07-21T16:10:09-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/bridesmaid-jewelry-gift-ideas",
+      "lastmod": "2026-07-21T16:10:15-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/personalized-jewelry-for-mothers-day",
+      "lastmod": "2026-07-15T17:04:20-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/jewelry-gifts-for-mom",
+      "lastmod": "2026-07-30T12:14:29-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/anniversary-jewelry-gift-guide",
+      "lastmod": "2026-07-30T16:58:02-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/best-jewelry-gifts-under-100",
+      "lastmod": "2026-07-30T16:58:05-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/personalized-jewelry-for-couples",
+      "lastmod": "2026-07-22T17:52:49-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/birthday-jewelry-gift-ideas",
+      "lastmod": "2026-07-30T16:58:08-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/how-to-layer-necklaces",
+      "lastmod": "2026-07-28T14:29:32-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week",
+      "lastmod": "2026-07-30T17:00:30-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/best-name-necklace-gifts-for-her",
+      "lastmod": "2026-08-04T09:41:14-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/birthstone-inspired-jewelry-gifts-for-mom",
+      "lastmod": "2026-08-04T09:41:17-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/jewelry-gifts-under-100",
+      "lastmod": "2026-08-04T09:41:20-04:00",
+      "sitemap": "https://northandpearl.com/sitemap_blogs_1.xml"
+    }
+  ]
+}

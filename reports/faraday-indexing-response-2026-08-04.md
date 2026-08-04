@@ -71,3 +71,22 @@ The product URL Inspection report still shows stale Merchant listing warnings fo
 - Add more indexed-page links into the two pending guides when contextually useful.
 - Improve SERP/SXO targeting for the guide titles and meta descriptions if they remain unindexed after several crawls.
 - Build external authority and first-party distribution so Google sees demand and referring signals beyond the sitemap.
+
+## August 4 Full Indexation Sprint
+
+- Built full Shopify sitemap inventory: 261 URLs total.
+  - 209 product sitemap URLs.
+  - 24 collection URLs.
+  - 17 blog URLs.
+  - 10 page URLs.
+  - 1 agentic discovery URL.
+- Ran priority URL Inspection for 59 commercial/support URLs.
+  - Submitted and indexed: 36.
+  - Discovered - currently not indexed: 8.
+  - URL is unknown to Google: 15.
+  - Verified crawl/index blockers: 0 in inspected priority set.
+- Resubmitted root, blog, product, and collection sitemaps through Search Console API.
+- Added live footer discovery links to strengthen crawl paths for pending pages, support pages, and guide URLs.
+- Live homepage validation confirms the new links render.
+
+Indexing caveat: Google does not provide an API to force ordinary Shopify ecommerce pages into the index. The safe path is sitemap submission, internal-link strengthening, stronger unique content, external discovery, and repeated URL Inspection monitoring.

@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-04T15:32:06.733Z",
+    "generatedAt": "2026-08-04T20:49:22.284Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
     "workingToday": 9,
@@ -65,9 +65,9 @@
   "agentStats": [
     {
       "name": "Faraday",
-      "reportsToday": 3,
-      "totalReports": 19,
-      "latest": "faraday-qualified-traffic-execution-2026-08-04.md",
+      "reportsToday": 4,
+      "totalReports": 20,
+      "latest": "faraday-indexing-response-2026-08-04.md",
       "status": "Updated Today"
     },
     {
@@ -162,6 +162,7 @@
       "name": "Faraday",
       "lane": "Organic growth",
       "reportPrefixes": [
+        "faraday-indexing-response",
         "faraday-daily-monitor",
         "faraday-indexed-page-marketing-push",
         "faraday-qualified-traffic-execution",
@@ -173,14 +174,14 @@
       ],
       "owns": "SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.",
       "latest": {
-        "file": "faraday-qualified-traffic-execution-2026-08-04.md",
-        "path": "reports/faraday-qualified-traffic-execution-2026-08-04.md",
-        "mtime": "2026-08-04T15:25:52.091Z"
+        "file": "faraday-indexing-response-2026-08-04.md",
+        "path": "reports/faraday-indexing-response-2026-08-04.md",
+        "mtime": "2026-08-04T20:48:52.500Z"
       },
       "todayReport": {
-        "file": "faraday-qualified-traffic-execution-2026-08-04.md",
-        "path": "reports/faraday-qualified-traffic-execution-2026-08-04.md",
-        "mtime": "2026-08-04T15:25:52.091Z"
+        "file": "faraday-indexing-response-2026-08-04.md",
+        "path": "reports/faraday-indexing-response-2026-08-04.md",
+        "mtime": "2026-08-04T20:48:52.500Z"
       },
       "status": "Updated Today"
     },

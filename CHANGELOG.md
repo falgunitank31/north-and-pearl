@@ -1,4 +1,5 @@
 - August 4, 2026: Fixed Product JSON-LD offer schema for Merchant Center by adding safe shipping and return-policy fields to PDP structured data.
+- August 4, 2026: Responded to Search Console `Crawled - currently not indexed` evidence; re-inspected 11 priority URLs, confirmed 9 indexed and 2 newer guides discovered/not indexed, resubmitted root/blog/product/collection sitemaps, refreshed the buyer-intent guide cluster, and documented the Faraday indexing response.
 - August 4, 2026: Executed Pareto/Faraday first-order activation pass, updated the active UTM campaign to `order_growth_august_2026`, regenerated the qualified traffic kit, refreshed the weekly gift guide, and created the 72-hour activation kit.
 # Changelog
 

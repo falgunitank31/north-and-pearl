@@ -104,7 +104,7 @@ Use these roles as responsibility lanes. Do not introduce extra names by default
 - Pareto: sales strategy, revenue growth, competitive intelligence, market monitoring, offer strategy, promotional strategy, bundles, average-order-value growth, conversion opportunities, commercial merchandising, sales forecasting, and revenue-growth experiments.
 - Kuhn: jewelry UX, ecommerce design, mobile UX, visual hierarchy, brand creative, product image standards.
 - Gauss: merchandising, product catalog/data, supplier/source checks, collection assignments, inventory monitoring, product publication readiness.
-- Faraday: organic SEO, AEO, GEO, content architecture, internal linking, AI-search readiness, Merchant Center organic readiness.
+- Faraday: organic SEO, AEO, GEO, content architecture, internal linking, AI-search readiness, Merchant Center organic readiness, SERP-based keyword clustering, SXO/search-experience optimization, backlink and brand-authority systems, competitor visibility analysis, Bing Webmaster and IndexNow readiness, SEO drift monitoring, image SEO, E-E-A-T/editorial trust systems, AI visibility tracking, and Core Web Vitals trend monitoring.
 - Tesla: Shopify technical implementation, Liquid, CSS, JavaScript, CLI workflow, theme sections, performance, search, cart, personalization persistence.
 - Rawls: analytics, GA4, Search Console, KPI framework, funnel measurement, reporting and data-quality checks.
 - Lovelace: operations, shipping/returns/customer-service SOPs, fulfillment readiness, policy-operational consistency.
@@ -117,6 +117,19 @@ Faraday may use the installed Codex SEO suite from `~/.codex/skills/seo` as a su
 North & Pearl's `AGENTS.md`, sprint system, approval rules, and approved responsibility roster remain higher priority than any imported `seo-*` skill or TOML agent profile. Codex SEO internal profiles are tooling lanes only; they must not independently publish website changes, replace Faraday, create new North & Pearl agents, or bypass Lead Orchestrator coordination.
 
 Credentialed integrations must return setup-required or blocked states when credentials, CAPTCHA, API access, or cost approval is missing. Do not fabricate Search Console, GA4, DataForSEO, PageSpeed, ranking, traffic, backlink, or revenue data.
+
+Faraday's expanded organic growth responsibilities include:
+
+1. SERP-based keyword clustering for commercial and support content so collections, guides, and product pages avoid cannibalization and follow real search-intent groupings.
+2. SXO/search-experience optimization that works backward from Google results to match page type, shopper intent, content depth, trust signals, and conversion paths.
+3. Backlink and brand-authority systems, including backlink baselines, competitor backlink gaps, safe outreach/citation targets, and brand mention opportunities.
+4. Competitor visibility analysis using verified tools or live SERP evidence to identify product, keyword, content, and marketplace gaps without copying competitors.
+5. Bing Webmaster and IndexNow readiness for Bing, Copilot, and non-Google discovery, while respecting Shopify and search-engine rules.
+6. SEO drift monitoring for titles, meta descriptions, headings, canonical tags, schema, internal links, indexability, and performance after meaningful site changes.
+7. Image SEO systems covering product-image alt text, image quality, dimensions, file-size risk, visual-search readiness, and image SERP opportunities.
+8. E-E-A-T and editorial trust systems, including author/editorial standards, last-updated practices, evidence requirements, content quality scoring, and freshness reviews.
+9. AI visibility tracking across AI Overviews, ChatGPT, Gemini, Perplexity, Bing Copilot, and similar discovery surfaces when measurable tools or verified manual checks are available.
+10. Core Web Vitals trend monitoring using PageSpeed, CrUX, CrUX History, LCP subparts, and recurring page-speed checks for priority commercial pages.
 
 ## Pareto Sales & Revenue Growth
 
@@ -201,7 +214,7 @@ Publishing approval must be requested separately and must clearly identify the t
 
 ## Visible Subagent Mapping
 
-- Faraday: Marketing, organic growth, SEO, AEO, GEO, content strategy, and AI-search readiness.
+- Faraday: Marketing, organic growth, SEO, AEO, GEO, content strategy, AI-search readiness, SERP clustering, SXO, backlinks/authority, competitor visibility, Bing/IndexNow, SEO drift, image SEO, E-E-A-T/editorial trust, AI visibility tracking, and Core Web Vitals trends.
 - Gauss: Product catalog, supplier research, Alibaba product checks, merchandising, product-data cleanup, and inventory availability review.
 - Tesla: Shopify technical support, theme engineering support, CLI workflows, and build/debug assistance.
 - Kuhn: Website Design/UX plus Brand Creative, kept as two separate work lanes.

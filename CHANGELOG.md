@@ -1,3 +1,4 @@
+- August 4, 2026: Executed Pareto/Faraday first-order activation pass, updated the active UTM campaign to `order_growth_august_2026`, regenerated the qualified traffic kit, refreshed the weekly gift guide, and created the 72-hour activation kit.
 # Changelog
 
 ## August 4, 2026

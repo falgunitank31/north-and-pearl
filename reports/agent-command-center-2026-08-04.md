@@ -1,6 +1,6 @@
 # Agent Command Center
 
-Generated: 2026-08-04T15:18:48.416Z
+Generated: 2026-08-04T15:27:49.894Z
 
 ## Summary
 
@@ -29,7 +29,7 @@ Generated: 2026-08-04T15:18:48.416Z
 
 - Faraday: 3 report(s) today, 19 total matching lane reports; latest: faraday-qualified-traffic-execution-2026-08-04.md
 - Gauss: 1 report(s) today, 11 total matching lane reports; latest: gauss-daily-catalog-growth-2026-08-04.md
-- Pareto: 1 report(s) today, 4 total matching lane reports; latest: pareto-sales-execution-2026-08-04.md
+- Pareto: 2 report(s) today, 5 total matching lane reports; latest: pareto-faraday-first-order-activation-2026-08-04.md
 - Tesla: 2 report(s) today, 13 total matching lane reports; latest: tesla-daily-storefront-qa-2026-08-04.md
 - Rawls: 1 report(s) today, 7 total matching lane reports; latest: rawls-daily-analytics-watch-2026-08-04.md
 - Lovelace: 1 report(s) today, 8 total matching lane reports; latest: lovelace-daily-order-source-monitor-2026-08-04.md
@@ -48,7 +48,7 @@ Generated: 2026-08-04T15:18:48.416Z
 
 - Faraday: Updated Today; latest report: reports/faraday-qualified-traffic-execution-2026-08-04.md; operating mode: same-thread heartbeat
 - Gauss: Updated Today; latest report: reports/gauss-daily-catalog-growth-2026-08-04.md; operating mode: same-thread heartbeat
-- Pareto: Updated Today; latest report: reports/pareto-sales-execution-2026-08-04.md; operating mode: same-thread heartbeat
+- Pareto: Updated Today; latest report: reports/pareto-faraday-first-order-activation-2026-08-04.md; operating mode: same-thread heartbeat
 - Tesla: Updated Today; latest report: reports/tesla-daily-storefront-qa-2026-08-04.md; operating mode: same-thread heartbeat
 - Rawls: Updated Today; latest report: reports/rawls-daily-analytics-watch-2026-08-04.md; operating mode: same-thread heartbeat
 - Lovelace: Updated Today; latest report: reports/lovelace-daily-order-source-monitor-2026-08-04.md; operating mode: same-thread heartbeat

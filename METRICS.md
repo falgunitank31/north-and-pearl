@@ -23,6 +23,7 @@
 
 ## Current Baseline Status
 
+- August 4 first-order activation pass: fresh Search Console snapshot remains 6 impressions and 0 clicks; GA4 organic remains 0 sessions. Active campaign switched to `order_growth_august_2026`; the 72-hour activation kit was created for qualified visitor distribution.
 - August 4 daily monitor: Search Console shows 6 impressions, 0 clicks, and 0% CTR for 2026-07-07 to 2026-08-01. GA4 organic remains 0 sessions and 0 organic top pages for 2026-07-07 to 2026-08-03. Safe Shopify order monitor returned 0 visible orders.
 - August 4 URL Inspection: 9 of 11 monitored URLs are submitted and indexed. The two August 3 buyer-intent posts `Birthstone-Inspired Jewelry Gifts for Mom` and `Jewelry Gifts Under $100` are discovered/currently not indexed; no URL is unknown to Google after the retry. Faraday added cross-links among the three buyer-intent posts and the weekly gift guide, then resubmitted root/blog sitemaps.
 - August 4 storefront/catalog monitor: Merchant readiness remains 208/208 active products ready with identifier caveat and 0 needing review. Theme Check passed with 272 files inspected and 0 offenses. Live storefront QA passed 208/208 product pages and cart add passed.

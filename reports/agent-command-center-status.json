@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-04T15:18:48.416Z",
+    "generatedAt": "2026-08-04T15:27:49.894Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
     "workingToday": 9,
@@ -79,9 +79,9 @@
     },
     {
       "name": "Pareto",
-      "reportsToday": 1,
-      "totalReports": 4,
-      "latest": "pareto-sales-execution-2026-08-04.md",
+      "reportsToday": 2,
+      "totalReports": 5,
+      "latest": "pareto-faraday-first-order-activation-2026-08-04.md",
       "status": "Updated Today"
     },
     {
@@ -175,12 +175,12 @@
       "latest": {
         "file": "faraday-qualified-traffic-execution-2026-08-04.md",
         "path": "reports/faraday-qualified-traffic-execution-2026-08-04.md",
-        "mtime": "2026-08-04T15:16:50.558Z"
+        "mtime": "2026-08-04T15:25:52.091Z"
       },
       "todayReport": {
         "file": "faraday-qualified-traffic-execution-2026-08-04.md",
         "path": "reports/faraday-qualified-traffic-execution-2026-08-04.md",
-        "mtime": "2026-08-04T15:16:50.558Z"
+        "mtime": "2026-08-04T15:25:52.091Z"
       },
       "status": "Updated Today"
     },
@@ -211,20 +211,21 @@
       "name": "Pareto",
       "lane": "Sales and revenue growth",
       "reportPrefixes": [
+        "pareto-faraday-first-order-activation",
         "pareto-sales-execution",
         "pareto-sales-baseline",
         "pareto-commercial-review"
       ],
       "owns": "Sales strategy, competitive intelligence, market monitoring, offers, promotions, bundles, AOV, conversion opportunities, commercial merchandising, forecasting, revenue growth.",
       "latest": {
-        "file": "pareto-sales-execution-2026-08-04.md",
-        "path": "reports/pareto-sales-execution-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.015Z"
+        "file": "pareto-faraday-first-order-activation-2026-08-04.md",
+        "path": "reports/pareto-faraday-first-order-activation-2026-08-04.md",
+        "mtime": "2026-08-04T15:27:02.493Z"
       },
       "todayReport": {
-        "file": "pareto-sales-execution-2026-08-04.md",
-        "path": "reports/pareto-sales-execution-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.015Z"
+        "file": "pareto-faraday-first-order-activation-2026-08-04.md",
+        "path": "reports/pareto-faraday-first-order-activation-2026-08-04.md",
+        "mtime": "2026-08-04T15:27:02.493Z"
       },
       "status": "Updated Today"
     },

@@ -149,7 +149,7 @@ if (articleResult.userErrors?.length) {
 
 const article = articleResult.article;
 const articleUrl = `https://northandpearl.com/blogs/gift-guide/${handle}`;
-const campaign = 'order_growth_july_2026';
+const campaign = 'order_growth_august_2026';
 const socialPosts = [
   {
     channel: 'Instagram/Facebook',
@@ -180,6 +180,18 @@ const socialPosts = [
     title: 'Warm audience message',
     copy: 'I launched North & Pearl, a jewelry store focused on meaningful, giftable pieces. If you need a birthday, anniversary, or personalized gift, start here:',
     link: utm('https://northandpearl.com/collections/jewelry-gifts-for-her', campaign, 'warm_share'),
+  },
+  {
+    channel: 'Google Business / personal network / community post',
+    title: 'Meaningful gifts under $100',
+    copy: 'North & Pearl has a new under-$100 jewelry gift edit for birthdays, anniversaries, and thoughtful everyday gifting. Start here if you want something polished and easy to shop:',
+    link: utm('https://northandpearl.com/collections/gifts-under-100', campaign, 'gifts_under_100_post'),
+  },
+  {
+    channel: 'Email or direct message',
+    title: 'First look message',
+    copy: 'I would love your honest first impression of North & Pearl. The store is focused on meaningful jewelry gifts, and this is the fastest place to start browsing:',
+    link: utm('https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week', campaign, 'first_look_message'),
   },
 ];
 

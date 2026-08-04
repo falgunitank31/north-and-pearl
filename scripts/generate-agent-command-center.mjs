@@ -23,7 +23,7 @@ const agents = [
   {
     name: 'Pareto',
     lane: 'Sales and revenue growth',
-    reportPrefixes: ['pareto-sales-execution', 'pareto-sales-baseline', 'pareto-commercial-review'],
+    reportPrefixes: ['pareto-faraday-first-order-activation', 'pareto-sales-execution', 'pareto-sales-baseline', 'pareto-commercial-review'],
     owns: 'Sales strategy, competitive intelligence, market monitoring, offers, promotions, bundles, AOV, conversion opportunities, commercial merchandising, forecasting, revenue growth.',
   },
   {

@@ -7,7 +7,7 @@ Owner: Faraday with Lead Orchestrator, Kuhn, Gauss, Tesla, and Rawls alignment.
 - Updated Shopify gift-guide article: Meaningful Jewelry Gifts to Shop This Week
 - Article URL: https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week
 - Created ready-to-post traffic kit: `content/seo/qualified-traffic-posts-2026-08-04.md`
-- Created UTM campaign: `order_growth_july_2026`
+- Created UTM campaign: `order_growth_august_2026`
 
 ## Target Buyer-Intent URLs
 

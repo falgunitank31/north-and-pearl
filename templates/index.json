@@ -6,14 +6,14 @@
         "kicker": "Crafted for life's meaningful moments",
         "heading": "Jewelry Made Personal",
         "text": "Meaningful pieces created for names, milestones, and everyday moments.",
-        "hero_collection": "best-sellers",
-        "primary_label": "Shop Featured Jewelry",
-        "primary_link": "shopify://collections/best-sellers",
-        "secondary_label": "Shop Personalized Jewelry",
-        "secondary_link": "shopify://collections/personalized-jewelry",
-        "best_collection": "best-sellers",
-        "best_kicker": "Featured edit",
-        "best_heading": "Strong pieces to shop first.",
+        "hero_collection": "gifts-under-100",
+        "primary_label": "Shop Gifts Under $100",
+        "primary_link": "shopify://collections/gifts-under-100",
+        "secondary_label": "Shop Gifts for Her",
+        "secondary_link": "shopify://collections/jewelry-gifts-for-her",
+        "best_collection": "gifts-under-100",
+        "best_kicker": "Gift edit under $100",
+        "best_heading": "Easy jewelry gifts to shop now.",
         "best_product_limit": 8,
         "new_collection": "new-arrivals",
         "new_kicker": "New arrivals",
@@ -22,8 +22,8 @@
         "story_kicker": "Made for the moments you keep",
         "story_heading": "A curated jewelry edit for meaningful gifting.",
         "story_text": "North & Pearl brings together personal, giftable jewelry with a refined shopping experience, clear details, and easy paths to the right piece.",
-        "story_label": "Our Story",
-        "story_link": "shopify://pages/about-north-pearl"
+        "story_label": "Read the Gift Guide",
+        "story_link": "/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week"
       },
       "blocks": {
         "category_necklaces": {
@@ -85,9 +85,17 @@
         "occasion_anniversary": {
           "type": "occasion",
           "settings": {
-            "collection": "couple-jewelry",
+            "collection": "anniversary-gifts",
             "title": "Anniversary Gifts",
             "text": "Pieces chosen for love, dates, and shared memories."
+          }
+        },
+        "occasion_under100": {
+          "type": "occasion",
+          "settings": {
+            "collection": "gifts-under-100",
+            "title": "Gifts Under $100",
+            "text": "A polished gift path when you want something meaningful and accessible."
           }
         },
         "occasion_bridal": {
@@ -116,6 +124,7 @@
         "category_gifts",
         "occasion_mom",
         "occasion_anniversary",
+        "occasion_under100",
         "occasion_bridal",
         "occasion_birthstone"
       ]

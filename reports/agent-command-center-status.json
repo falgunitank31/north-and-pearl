@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-04T13:44:11.147Z",
+    "generatedAt": "2026-08-04T15:18:48.416Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
     "workingToday": 9,
@@ -65,9 +65,9 @@
   "agentStats": [
     {
       "name": "Faraday",
-      "reportsToday": 2,
-      "totalReports": 18,
-      "latest": "faraday-daily-monitor-2026-08-04.md",
+      "reportsToday": 3,
+      "totalReports": 19,
+      "latest": "faraday-qualified-traffic-execution-2026-08-04.md",
       "status": "Updated Today"
     },
     {
@@ -173,14 +173,14 @@
       ],
       "owns": "SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.",
       "latest": {
-        "file": "faraday-daily-monitor-2026-08-04.md",
-        "path": "reports/faraday-daily-monitor-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.014Z"
+        "file": "faraday-qualified-traffic-execution-2026-08-04.md",
+        "path": "reports/faraday-qualified-traffic-execution-2026-08-04.md",
+        "mtime": "2026-08-04T15:16:50.558Z"
       },
       "todayReport": {
-        "file": "faraday-daily-monitor-2026-08-04.md",
-        "path": "reports/faraday-daily-monitor-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.014Z"
+        "file": "faraday-qualified-traffic-execution-2026-08-04.md",
+        "path": "reports/faraday-qualified-traffic-execution-2026-08-04.md",
+        "mtime": "2026-08-04T15:16:50.558Z"
       },
       "status": "Updated Today"
     },

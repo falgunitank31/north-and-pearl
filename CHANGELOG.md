@@ -9,6 +9,7 @@
 - Added related-guide cross-links among the three August 3 buyer-intent posts and the weekly gift guide, then resubmitted root/blog sitemaps through Search Console API.
 - Re-ran product SEO, Merchant readiness, source-image queue, menu audit, Theme Check, safe order monitoring, and full live storefront QA.
 - Verified Theme Check passed with 272 files inspected and 0 offenses; live storefront QA passed 208/208 product pages and cart add passed.
+- Responded to the no-orders state by shifting the live homepage toward first-order commercial paths: Gifts Under $100, Jewelry Gifts for Her, Anniversary Gifts, and the weekly gift guide. Theme Check passed with 274 files inspected and 0 offenses, then the homepage JSON was pushed to live theme `189441802424`.
 
 ## August 3, 2026
 

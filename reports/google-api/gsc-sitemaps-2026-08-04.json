@@ -1,0 +1,85 @@
+{
+  "property": "sc-domain:northandpearl.com",
+  "sitemaps": [
+    {
+      "path": "https://northandpearl.com/sitemap_blogs_1.xml",
+      "last_submitted": "2026-08-03T16:59:16.081Z",
+      "is_pending": false,
+      "is_index": false,
+      "type": "sitemap",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "17",
+          "indexed": "0"
+        }
+      ]
+    },
+    {
+      "path": "https://northandpearl.com/sitemap.xml",
+      "last_submitted": "2026-08-03T16:59:15.853Z",
+      "is_pending": false,
+      "is_index": true,
+      "type": null,
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "251",
+          "indexed": "0"
+        },
+        {
+          "type": "image",
+          "submitted": "227",
+          "indexed": "0"
+        }
+      ]
+    },
+    {
+      "path": "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=659239338168",
+      "last_submitted": "2026-08-03T13:34:43.742Z",
+      "is_pending": false,
+      "is_index": false,
+      "type": "sitemap",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "24",
+          "indexed": "0"
+        },
+        {
+          "type": "image",
+          "submitted": "19",
+          "indexed": "0"
+        }
+      ]
+    },
+    {
+      "path": "https://northandpearl.com/sitemap_products_1.xml?from=10481785372856&to=10495792611512",
+      "last_submitted": "2026-08-02T17:01:33.146Z",
+      "is_pending": false,
+      "is_index": false,
+      "type": "sitemap",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "209",
+          "indexed": "0"
+        },
+        {
+          "type": "image",
+          "submitted": "208",
+          "indexed": "0"
+        }
+      ]
+    }
+  ],
+  "error": null
+}

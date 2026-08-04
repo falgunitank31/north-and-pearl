@@ -161,6 +161,8 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Confirmed all eight monitored buyer-intent URLs are now submitted and indexed in Google URL Inspection.
 - [x] Used verified Search Console query/page rows to improve Name Necklaces and Birthstone Jewelry collection SEO/content with safe wording and stronger commercial internal links.
 - [x] Executed Faraday's indexed-page marketing push: created three live buyer-intent Gift Guide posts, created UTM campaign `indexed_page_push_august_2026`, generated tracked external-push copy, resubmitted root/blog sitemaps, pulled fresh Search Console/GA4 snapshots, and validated the new post URLs live.
+- [x] Ran the August 4 same-thread operating pass: Search Console, sitemap status, URL Inspection, GA4 organic, safe order read, product SEO, Merchant readiness, source-image queue, menu audit, Theme Check, full live storefront QA, and command center evidence.
+- [x] Strengthened August 3 buyer-intent guide discoverability by adding related-guide cross-links among the three new posts and the weekly gift guide, then resubmitted root/blog sitemaps.
 - [ ] Active product source-image replacement is blocked where Alibaba direct listing fetch returns anti-bot/protection responses; continue when exact source pages are accessible.
 
 ## Success Criteria

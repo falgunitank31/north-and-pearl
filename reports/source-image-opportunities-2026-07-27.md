@@ -4,8 +4,8 @@
 
 - Active products audited: 208
 - Products below preferred media standard: 115
-- Products with source-reference tags: 106
-- Products missing source-reference tags: 9
+- Products with source-reference tags: 107
+- Products missing source-reference tags: 8
 
 ## Decision
 
@@ -65,4 +65,4 @@ No media replacement should happen unless the source image is confirmed to be th
 
 ## Blockers
 
-- 9 below-threshold products do not expose usable source URL tags in Shopify, so exact-source replacement is blocked until source URLs are recovered from catalog records or owner-supplied Alibaba links.
+- 8 below-threshold products do not expose usable source URL tags in Shopify, so exact-source replacement is blocked until source URLs are recovered from catalog records or owner-supplied Alibaba links.

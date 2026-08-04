@@ -47,7 +47,24 @@ function a(label, href) {
   return `<a href="${href}">${label}</a>`;
 }
 
-function html({ intro, sections, cta }) {
+const relatedGuides = [
+  { title: 'Best Name Necklace Gifts for Her', handle: 'best-name-necklace-gifts-for-her' },
+  { title: 'Birthstone-Inspired Jewelry Gifts for Mom', handle: 'birthstone-inspired-jewelry-gifts-for-mom' },
+  { title: 'Jewelry Gifts Under $100', handle: 'jewelry-gifts-under-100' },
+  { title: 'Meaningful Jewelry Gifts to Shop This Week', handle: 'meaningful-jewelry-gifts-to-shop-this-week' },
+];
+
+function relatedGuideLinks(currentHandle) {
+  const links = relatedGuides
+    .filter((guide) => guide.handle !== currentHandle)
+    .map((guide) => `<li><a href="/blogs/gift-guide/${guide.handle}">${guide.title}</a></li>`);
+  return [
+    '<h2>Related North & Pearl gift guides</h2>',
+    `<ul>${links.join('')}</ul>`,
+  ].join('\n');
+}
+
+function html({ intro, sections, cta, handle }) {
   return [
     p(intro),
     ...sections.map((section) => [
@@ -57,6 +74,7 @@ function html({ intro, sections, cta }) {
     ].join('\n')),
     '<h2>Shop the edit</h2>',
     p([cta]),
+    relatedGuideLinks(handle),
   ].join('\n');
 }
 
@@ -77,6 +95,7 @@ const articles = [
     summary: 'A buyer-intent guide to choosing name necklace gifts for partners, moms, bridesmaids, friends, and meaningful moments.',
     tags: ['name necklaces', 'gifts for her', 'personalized jewelry', 'commercial guide'],
     body: html({
+      handle: 'best-name-necklace-gifts-for-her',
       intro: [
         'A name necklace gift works because it feels specific. It can celebrate her name, a child, a partner, a family detail, or a short word that carries meaning.',
         'Use this guide when you want a personal jewelry gift without overcomplicating the choice.',
@@ -115,6 +134,7 @@ const articles = [
     summary: 'A claim-safe buying guide for birth-month inspired jewelry gifts for moms, grandmothers, new moms, and family milestones.',
     tags: ['birthstone jewelry', 'gifts for mom', 'mother gifts', 'commercial guide'],
     body: html({
+      handle: 'birthstone-inspired-jewelry-gifts-for-mom',
       intro: [
         'Birthstone-inspired jewelry can make a gift feel connected to family, children, birthdays, and meaningful months. For moms, that personal layer often matters more than a large design.',
         'North & Pearl keeps product claims conservative, so use this guide for gift direction and each product page for confirmed details.',
@@ -153,6 +173,7 @@ const articles = [
     summary: 'A commercial gift guide for polished jewelry gifts under $100, including necklaces, bracelets, rings, earrings, and personalized styles.',
     tags: ['gifts under 100', 'jewelry gifts', 'gifts for her', 'commercial guide'],
     body: html({
+      handle: 'jewelry-gifts-under-100',
       intro: [
         'A jewelry gift under $100 can still feel thoughtful, polished, and personal when the design fits the recipient. The key is choosing a clear gift path rather than scrolling through everything.',
         'Use this guide when you want a meaningful North & Pearl gift at an accessible price point.',

@@ -1,0 +1,491 @@
+{
+  "property": "sc-domain:northandpearl.com",
+  "total": 11,
+  "results": [
+    {
+      "url": "https://northandpearl.com/collections/personalized-jewelry",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T01:50:42Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/name-necklaces?page=5",
+          "https://northandpearl.com/policies/shipping-policy"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/personalized-jewelry",
+        "user_canonical": "https://northandpearl.com/collections/personalized-jewelry",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/jewelry-gifts-for-her",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T08:44:43Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-initial-necklace-6868",
+          "https://northandpearl.com/collections/gifts-under-100?page=3"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/jewelry-gifts-for-her",
+        "user_canonical": "https://northandpearl.com/collections/jewelry-gifts-for-her",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/gifts-under-50",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T02:22:51Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/name-necklaces?page=5",
+          "https://northandpearl.com/collections/rings"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/gifts-under-50",
+        "user_canonical": "https://northandpearl.com/collections/gifts-under-50",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/gifts-under-100",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T09:58:30Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-sparkle-necklace-2786",
+          "https://northandpearl.com/collections/gifts-under-50",
+          "https://northandpearl.com/pages/personalized-jewelry-guide"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/gifts-under-100",
+        "user_canonical": "https://northandpearl.com/collections/gifts-under-100",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/birthday-jewelry-gifts",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T10:12:02Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-sparkle-necklace-2786",
+          "https://northandpearl.com/collections/anniversary-gifts"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/birthday-jewelry-gifts",
+        "user_canonical": "https://northandpearl.com/collections/birthday-jewelry-gifts",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/anniversary-gifts",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T05:50:01Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/name-necklaces?page=5",
+          "https://northandpearl.com/collections/jewelry-gifts-for-her"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/anniversary-gifts",
+        "user_canonical": "https://northandpearl.com/collections/anniversary-gifts",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T09:05:48Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/name-necklaces?page=5",
+          "https://northandpearl.com/collections/mothers-collection"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week",
+        "user_canonical": "https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-07-30T21:12:13Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+        "user_canonical": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Product snippets",
+            "items": [
+              {
+                "name": "North &amp; Pearl Initial Shell Necklace",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"review\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Missing field \"aggregateRating\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Merchant listings",
+            "items": [
+              {
+                "name": "North &amp; Pearl Initial Shell Necklace",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"shippingDetails\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Missing field \"hasMerchantReturnPolicy\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/best-name-necklace-gifts-for-her",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T23:16:39Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/sitemap_blogs_1.xml"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/blogs/gift-guide/best-name-necklace-gifts-for-her",
+        "user_canonical": "https://northandpearl.com/blogs/gift-guide/best-name-necklace-gifts-for-her",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/birthstone-inspired-jewelry-gifts-for-mom",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/jewelry-gifts-under-100",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": [
+          "https://northandpearl.com/sitemap_blogs_1.xml"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    }
+  ],
+  "summary": {
+    "pass": 9,
+    "fail": 0,
+    "neutral": 2,
+    "error": 0
+  },
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "property": "546565745",
+  "report": "top_organic_pages",
+  "date_range": {
+    "start": "2026-07-07",
+    "end": "2026-08-03"
+  },
+  "pages": [],
+  "total_organic_sessions": 0,
+  "quota_tokens_used": {
+    "daily_consumed": 1,
+    "daily_remaining": 199998,
+    "hourly_consumed": 1,
+    "hourly_remaining": 39998
+  },
+  "error": null
+}

@@ -1,5 +1,15 @@
 # Changelog
 
+## August 4, 2026
+
+- Ran the August 4 same-thread operating pass across Faraday, Rawls, Gauss, Tesla, Lovelace, Kuhn, Curie, Pareto, and Lead Orchestrator.
+- Pulled Search Console performance: 6 impressions, 0 clicks, 0% CTR, and 5 query/page rows for 2026-07-07 to 2026-08-01.
+- Pulled GA4 organic reports; organic sessions and organic top pages remain 0 rows for 2026-07-07 to 2026-08-03.
+- Re-inspected 11 priority URLs. Nine are submitted and indexed; the two new buyer-intent posts `Birthstone-Inspired Jewelry Gifts for Mom` and `Jewelry Gifts Under $100` are discovered/currently not indexed.
+- Added related-guide cross-links among the three August 3 buyer-intent posts and the weekly gift guide, then resubmitted root/blog sitemaps through Search Console API.
+- Re-ran product SEO, Merchant readiness, source-image queue, menu audit, Theme Check, safe order monitoring, and full live storefront QA.
+- Verified Theme Check passed with 272 files inspected and 0 offenses; live storefront QA passed 208/208 product pages and cart add passed.
+
 ## August 3, 2026
 
 - Ran the August 3 same-thread operating pass across Faraday, Rawls, Gauss, Tesla, Lovelace, Kuhn, and Curie.

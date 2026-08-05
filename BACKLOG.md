@@ -33,6 +33,7 @@
 - Faraday/Rawls must monitor the new `order_growth_july_2026` activation kit daily for UTM sessions, landing-page engagement, product views, add-to-cart, checkout starts, and purchases; no measurable traffic increase is verified yet.
 - Monitor Faraday commercial guide links after future content updates; July 30 Admin API validation confirms the weekly gift guide, Under $100 guide, Anniversary guide, and Birthday guide each contain 3 direct product links.
 - Pareto/Gauss/Curie must collect verified cost, landed cost, packaging cost, shipping subsidy, and minimum margin rules before launching any discount, bundle pricing, gift-with-purchase, or free-shipping threshold change.
+- August 5 guardrail completed: offer launch status is explicitly `BLOCKED_FOR_COST_DATA`; only non-discount merchandising/cross-sell presentation may proceed until product-level economics and operational impacts are verified.
 - Pareto/Rawls must monitor the July 31 personalized-routing and empty-cart-recovery changes for collection views, product views, add-to-cart, checkout starts, and orders once traffic exists.
 - Lovelace and the owner must finalize shipping, returns, support, fulfillment, and personalized/custom order rules before paid acquisition or stronger operational copy.
 
@@ -55,6 +56,8 @@
 - Improve the 115 active products below preferred media standard as exact-source assets become available; current PDP QA passes, but image quality remains below premium target.
 - Re-score Best Sellers once real Shopify sales, add-to-cart, and product-view data is meaningful; current collection is a curated launch edit.
 - Continue product-record copy differentiation product-by-product as supplier facts are verified; current theme layer adds safer type-aware positioning but does not replace final product-specific brand copy.
+- August 5 product-copy gate completed: safe differentiation is limited to verified product type, visible style, gifting context, and neutral positioning; material, plating, stone, allergy, durability, sizing, production, and supplier claims remain blocked until product-by-product source evidence is verified.
+- Monitor the new honest PDP review surface after traffic begins; real review/rating output remains dependent on verified Shopify review metafields or an approved review app, and Product schema must not include fake `review` or `aggregateRating` data.
 
 ## P3
 

@@ -1,0 +1,111 @@
+.np-reviews {
+  padding: 4.8rem 0;
+}
+
+.np-reviews__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(30rem, 1.08fr);
+  gap: 3.2rem;
+  align-items: stretch;
+}
+
+.np-reviews__copy,
+.np-reviews__panel {
+  border: 0.1rem solid rgba(var(--color-foreground), 0.11);
+  border-radius: 1.2rem;
+  background: rgba(var(--color-background), 0.76);
+}
+
+.np-reviews__copy {
+  padding: 3.2rem;
+}
+
+.np-reviews__panel {
+  padding: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.8rem;
+}
+
+.np-reviews__kicker {
+  margin: 0 0 1rem;
+  color: rgba(var(--color-foreground), 0.62);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.np-reviews__title {
+  margin: 0;
+  max-width: 68rem;
+}
+
+.np-reviews__text {
+  max-width: 64rem;
+  margin: 1.6rem 0 0;
+  color: rgba(var(--color-foreground), 0.72);
+}
+
+.np-reviews__rating {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.np-reviews__rating-value,
+.np-reviews__empty-heading {
+  font-family: var(--font-heading-family);
+  font-size: clamp(2.4rem, 3vw, 3.6rem);
+  line-height: 1.08;
+}
+
+.np-reviews__rating-count,
+.np-reviews__empty-text {
+  color: rgba(var(--color-foreground), 0.7);
+}
+
+.np-reviews__empty-heading,
+.np-reviews__empty-text {
+  margin: 0;
+}
+
+.np-reviews__checks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.np-reviews__checks span {
+  border: 0.1rem solid rgba(var(--color-foreground), 0.11);
+  border-radius: 999px;
+  padding: 0.7rem 1rem;
+  color: rgba(var(--color-foreground), 0.72);
+  font-size: 1.2rem;
+}
+
+.np-reviews__link {
+  width: fit-content;
+  color: rgb(var(--color-foreground));
+  font-weight: 700;
+  text-underline-offset: 0.35rem;
+}
+
+@media screen and (max-width: 749px) {
+  .np-reviews {
+    padding: 3.2rem 0;
+  }
+
+  .np-reviews__inner {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+
+  .np-reviews__copy,
+  .np-reviews__panel {
+    padding: 2.2rem;
+    border-radius: 1rem;
+  }
+}

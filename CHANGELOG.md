@@ -8,6 +8,9 @@
 - Fixed the live Birthstone Jewelry collection hero image by rendering a stable Shopify CDN product image for that collection-specific hero instead of the stale collection-image record.
 - Validated the production Birthstone Jewelry page now renders the replacement hero image URL and the transformed image endpoint returns HTTP 200.
 - Theme Check passed with 279 files inspected and 0 offenses before deployment.
+- Tightened Pareto commercial guardrails so discounts, bundles, thresholds, savings claims, and gift-with-purchase offers are blocked until product-level cost/margin evidence is verified.
+- Added a product-copy differentiation gate that permits only verified style/gift-positioning copy while keeping supplier/material/performance claims blocked product by product.
+- Added an honest product-review section to standard and personalized PDP templates without fabricating ratings, testimonials, review schema, or aggregateRating data.
 
 ## August 4, 2026
 

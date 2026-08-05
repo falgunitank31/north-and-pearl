@@ -170,6 +170,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Executed the August 5 indexing-phase priority pass: audited product SEO/readiness, Merchant readiness, GSC sitemap status, GA4 organic status, and 50 priority URL Inspection records.
 - [x] Added a live homepage Featured Pieces rail that links to priority product URLs needing stronger discovery, then validated the live homepage contains those product links.
 - [x] Created the August 5 indexing dashboard and CSV with Tier/INDEX_READY/status/next-action fields for the priority commercial URL set.
+- [x] Locked bundle/discount/threshold/gift-with-purchase offers behind verified cost and margin guardrails; current offer launch status is `BLOCKED_FOR_COST_DATA`.
+- [x] Added a product-copy differentiation gate so product-record rewrites stay unique but do not invent supplier, material, stone, allergy, durability, sizing, or fulfillment claims.
+- [x] Added honest customer-review sections to standard and personalized product templates; no fake ratings, testimonials, `review`, or `aggregateRating` schema was added.
 ## Success Criteria
 
 - No known P0 issues.

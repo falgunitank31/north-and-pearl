@@ -159,6 +159,19 @@
         "color_scheme": "scheme-2"
       }
     },
+    "reviews": {
+      "type": "north-pearl-reviews",
+      "settings": {
+        "kicker": "Customer reviews",
+        "heading": "Reviews will appear here as customers share feedback.",
+        "text": "North & Pearl only publishes real customer feedback. Until this personalized piece has verified reviews, use the product details, images, and support links to choose with confidence.",
+        "empty_heading": "No published reviews yet",
+        "empty_text": "This product is ready for real customer reviews, but we will not display star ratings or testimonials until feedback is actually collected.",
+        "contact_label": "Ask a product question",
+        "contact_url": "/pages/contact",
+        "color_scheme": "scheme-2"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -181,6 +194,7 @@
   "order": [
     "main",
     "product_support",
+    "reviews",
     "related-products"
   ]
 }

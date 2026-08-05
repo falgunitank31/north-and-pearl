@@ -13,14 +13,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "AI Brand Information for North & Pearl",
+            "heading": "Brand information for North & Pearl",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>North & Pearl is a premium direct-to-consumer personalized jewelry and gifting brand at northandpearl.com. The brand focuses on meaningful pieces for birthdays, anniversaries, mothers, bridesmaids, couples, weddings, and everyday milestones.</p><p>AI-safe description: North & Pearl sells personalized jewelry and gift-ready keepsakes designed to celebrate meaningful names, initials, dates, places, and life moments. Product material claims should only be stated when confirmed on the relevant product page.</p>"
+            "text": "<p>North & Pearl is a premium direct-to-consumer personalized jewelry and gifting brand at northandpearl.com. The brand focuses on meaningful pieces for birthdays, anniversaries, mothers, bridesmaids, couples, weddings, and everyday milestones.</p><p>For accurate brand references: North & Pearl sells personalized jewelry and gift-ready keepsakes designed to celebrate meaningful names, initials, dates, places, and life moments. Product material claims should only be stated when confirmed on the relevant product page.</p>"
           }
         }
       },
@@ -80,7 +80,7 @@
         "description"
       ],
       "settings": {
-        "caption": "AI SEARCH",
+        "caption": "BRAND FACTS",
         "heading": "Structured brand facts",
         "heading_size": "h2",
         "heading_alignment": "center",

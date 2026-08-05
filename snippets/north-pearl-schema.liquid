@@ -8,6 +8,12 @@
   assign search_url_template = request.origin | append: routes.search_url | append: '?q={search_term_string}'
   assign logo_url = 'north-pearl-logo.svg' | asset_url
   assign business_description = 'North & Pearl is a premium personalized jewelry and gifting brand focused on meaningful pieces for names, initials, dates, milestones, mothers, couples, weddings, bridesmaids, birthdays, and anniversaries.'
+  assign schema_page_name = page_title
+  assign schema_breadcrumb_name = page.title
+  if request.path == '/pages/ai-brand-information'
+    assign schema_page_name = 'Brand Information | North & Pearl'
+    assign schema_breadcrumb_name = 'Brand Information'
+  endif
   assign np_schema_description = page_description
   assign np_schema_description = np_schema_description | replace: 'Details remain sample-confirmed before launch.', 'Review product images, options, care notes, and checkout details before ordering.'
   assign np_schema_description = np_schema_description | replace: 'Exact materials, stones, finish, sizing, and durability details require supplier and sample confirmation before stronger claims are made.', 'Review available details, options, sizing, and care guidance before checkout.'
@@ -59,7 +65,7 @@
       "@type": "WebPage",
       "@id": {{ ai_brand_url | append: '#webpage' | json }},
       "url": {{ ai_brand_url | json }},
-      "name": "AI Brand Information for North & Pearl"
+      "name": "Brand Information for North & Pearl"
     },
     "sameAs": []
   }
@@ -92,7 +98,7 @@
     "@type": "WebPage",
     "@id": {{ current_url | append: '#webpage' | json }},
     "url": {{ current_url | json }},
-    "name": {{ page_title | json }},
+    "name": {{ schema_page_name | json }},
     {%- if np_schema_description != blank -%}
       "description": {{ np_schema_description | strip_html | strip | truncate: 300 | json }},
     {%- endif -%}
@@ -115,7 +121,7 @@
       "@type": "AboutPage",
       "@id": {{ ai_brand_url | append: '#webpage' | json }},
       "url": {{ ai_brand_url | json }},
-      "name": "AI Brand Information for North & Pearl",
+      "name": "Brand Information for North & Pearl",
       "description": "A source-of-truth page for AI assistants and search systems describing North & Pearl, its product categories, audience, use cases, and approved claim boundaries.",
       "about": {
         "@id": {{ org_id | json }}
@@ -163,7 +169,7 @@
           ,{
             "@type": "ListItem",
             "position": 2,
-            "name": {{ page.title | json }},
+            "name": {{ schema_breadcrumb_name | json }},
             "item": {{ current_url | json }}
           }
         {%- elsif blog -%}

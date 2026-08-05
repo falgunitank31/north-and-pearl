@@ -16,10 +16,14 @@
 
 {%- liquid
   assign page_label = template.suffix | default: page.handle
+  assign display_page_title = page.title
   assign editorial_pages = 'about,faq,contact,jewelry-care-guide,personalized-jewelry-guide,ai-brand-information,shipping-policy,returns-exchanges,track-your-order'
   assign is_north_pearl_page = false
   if editorial_pages contains page_label
     assign is_north_pearl_page = true
+  endif
+  if page_label == 'ai-brand-information'
+    assign display_page_title = 'Brand Information'
   endif
 -%}
 
@@ -27,7 +31,7 @@
   <div class="np-editorial-page__hero">
     <p class="np-editorial-page__kicker">North &amp; Pearl</p>
     <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-      {{ page.title | escape }}
+      {{ display_page_title | escape }}
     </h1>
   </div>
 

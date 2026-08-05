@@ -11,6 +11,7 @@
 - Tightened Pareto commercial guardrails so discounts, bundles, thresholds, savings claims, and gift-with-purchase offers are blocked until product-level cost/margin evidence is verified.
 - Added a product-copy differentiation gate that permits only verified style/gift-positioning copy while keeping supplier/material/performance claims blocked product by product.
 - Added an honest product-review section to standard and personalized PDP templates without fabricating ratings, testimonials, review schema, or aggregateRating data.
+- Enriched all 208 active Shopify product records with Merchant Center-friendly customer details: style/use case, gifting context, option review guidance, image review guidance, care guidance, price context, and before-order checks. Product SEO audit remains 208/208 clean, Merchant readiness remains 208 ready / 0 needing review, and claim-sensitive scan returned no risky rows.
 
 ## August 4, 2026
 

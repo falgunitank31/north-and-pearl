@@ -173,6 +173,8 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Locked bundle/discount/threshold/gift-with-purchase offers behind verified cost and margin guardrails; current offer launch status is `BLOCKED_FOR_COST_DATA`.
 - [x] Added a product-copy differentiation gate so product-record rewrites stay unique but do not invent supplier, material, stone, allergy, durability, sizing, or fulfillment claims.
 - [x] Added honest customer-review sections to standard and personalized product templates; no fake ratings, testimonials, `review`, or `aggregateRating` schema was added.
+- [x] Responded to Google Merchant Center's product-description quality warning by enriching all 208 active product records with longer, customer-useful, claim-safe descriptions and updated SEO descriptions.
+- [x] Re-ran product SEO, Merchant readiness, and claim-sensitive product scans after enrichment; active catalog remains 208/208 clean and Merchant-ready with 0 needing review.
 ## Success Criteria
 
 - No known P0 issues.

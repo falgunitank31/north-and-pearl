@@ -113,6 +113,30 @@
             "title": "Birthstone-Inspired Gifts",
             "text": "Color-accented details with personal meaning."
           }
+        },
+        "occasion_birthday": {
+          "type": "occasion",
+          "settings": {
+            "collection": "birthday-jewelry-gifts",
+            "title": "Birthday Gifts",
+            "text": "Initials, hearts, and colorful details for thoughtful birthday moments."
+          }
+        },
+        "occasion_gifts_for_her": {
+          "type": "occasion",
+          "settings": {
+            "collection": "jewelry-gifts-for-her",
+            "title": "Gifts for Her",
+            "text": "A focused edit for partners, sisters, friends, and everyday appreciation."
+          }
+        },
+        "occasion_under50": {
+          "type": "occasion",
+          "settings": {
+            "collection": "gifts-under-50",
+            "title": "Gifts Under $50",
+            "text": "Smaller meaningful pieces when you want an accessible gift path."
+          }
         }
       },
       "block_order": [
@@ -126,7 +150,10 @@
         "occasion_anniversary",
         "occasion_under100",
         "occasion_bridal",
-        "occasion_birthstone"
+        "occasion_birthstone",
+        "occasion_birthday",
+        "occasion_gifts_for_her",
+        "occasion_under50"
       ]
     }
   },

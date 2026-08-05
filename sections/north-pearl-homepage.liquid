@@ -4,6 +4,23 @@
 {{ 'quick-add.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+<style>
+  .np-commerce-home .np-occasion-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  @media screen and (max-width: 989px) {
+    .np-commerce-home .np-occasion-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .np-commerce-home .np-occasion-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
 
 {%- liquid
   assign best_collection = section.settings.best_collection

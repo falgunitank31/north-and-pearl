@@ -3,6 +3,12 @@
 - August 4, 2026: Executed Pareto/Faraday first-order activation pass, updated the active UTM campaign to `order_growth_august_2026`, regenerated the qualified traffic kit, refreshed the weekly gift guide, and created the 72-hour activation kit.
 # Changelog
 
+## August 5, 2026
+
+- Fixed the live Birthstone Jewelry collection hero image by rendering a stable Shopify CDN product image for that collection-specific hero instead of the stale collection-image record.
+- Validated the production Birthstone Jewelry page now renders the replacement hero image URL and the transformed image endpoint returns HTTP 200.
+- Theme Check passed with 279 files inspected and 0 offenses before deployment.
+
 ## August 4, 2026
 
 - Ran the August 4 same-thread operating pass across Faraday, Rawls, Gauss, Tesla, Lovelace, Kuhn, Curie, Pareto, and Lead Orchestrator.

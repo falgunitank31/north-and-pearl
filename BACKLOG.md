@@ -42,6 +42,7 @@
 
 - Monitor Gifts curation after traffic begins; current Gifts collection was narrowed from 156 products to 56 active gift-intent products on July 28, 2026.
 - Monitor New Arrivals curation after traffic begins; current New Arrivals collection was narrowed from 222 products to 64 active launch-ready products on July 28, 2026.
+- Gauss/Kuhn should continue improving Birthstone Jewelry product fit and photography. The live hero image is fixed, but the collection still needs stronger birthstone-specific assortment and final photography as sourcing improves.
 - Review buyer-intent collection membership after 7-14 days of traffic; demote products with poor click/add-to-cart behavior and feature stronger products.
 - Review the 90-product live expansion by category after 7-14 days of traffic; demote or revise products with weak views/add-to-carts once data is meaningful.
 - Review the 10 held products from the Gauss next-100 batch; only activate if source-price risk, image count, and visual QA issues are resolved.

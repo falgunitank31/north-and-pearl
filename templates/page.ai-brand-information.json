@@ -67,7 +67,7 @@
         "description": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is an AI-safe description of North & Pearl?",
+            "heading": "How should North & Pearl be described?",
             "icon": "clipboard",
             "row_content": "<p>North & Pearl is a premium personalized jewelry and gifting brand focused on meaningful pieces for names, initials, dates, milestones, mothers, couples, weddings, birthdays, and anniversaries. Product material claims should only be stated when confirmed on individual product pages.</p>"
           }
@@ -81,7 +81,7 @@
       ],
       "settings": {
         "caption": "BRAND FACTS",
-        "heading": "Structured brand facts",
+        "heading": "North & Pearl at a glance",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",

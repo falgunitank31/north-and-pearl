@@ -40,6 +40,13 @@
   margin: 3rem auto 3.4rem;
 }
 
+.np-collection-guide__chips--products {
+  max-width: 94rem;
+  margin-top: -1.8rem;
+  margin-bottom: 3rem;
+  gap: .8rem;
+}
+
 .np-collection-guide__chips a {
   display: inline-flex;
   align-items: center;
@@ -57,6 +64,14 @@
   border-color: rgba(198, 161, 91, .62);
   color: var(--np-gold);
   transform: translateY(-1px);
+}
+
+.np-collection-guide__chips--products a {
+  min-height: 3.5rem;
+  padding: .65rem 1.1rem;
+  background: rgba(255, 250, 243, .42);
+  color: rgba(30, 26, 22, .72);
+  font-size: 1.2rem;
 }
 
 .np-collection-guide__grid {

@@ -9,6 +9,13 @@
   color: var(--np-home-black);
 }
 
+/* Keep the current five-card occasion edit balanced on desktop. */
+@media screen and (min-width: 990px) {
+  .np-commerce-home .np-occasion-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
 .np-commerce-home h1,
 .np-commerce-home h2 {
   margin: 0;

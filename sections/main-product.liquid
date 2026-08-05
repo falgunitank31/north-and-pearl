@@ -53,6 +53,41 @@
     <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
 
+  {%- liquid
+    assign np_product_title_downcase = product.title | downcase
+    assign np_product_collection_handle = 'gifts'
+    assign np_product_collection_label = 'Gift-ready jewelry'
+    assign np_product_detail_label = 'meaningful detail'
+    assign np_product_faq_subject = 'this piece'
+
+    if np_product_title_downcase contains 'necklace' or product.type == 'Necklaces'
+      assign np_product_collection_handle = 'necklaces'
+      assign np_product_collection_label = 'Necklaces'
+      assign np_product_detail_label = 'chain, pendant, and length details'
+      assign np_product_faq_subject = 'this necklace'
+    elsif np_product_title_downcase contains 'bracelet' or np_product_title_downcase contains 'bangle' or product.type == 'Bracelets'
+      assign np_product_collection_handle = 'bracelets'
+      assign np_product_collection_label = 'Bracelets'
+      assign np_product_detail_label = 'fit, charm, and closure details'
+      assign np_product_faq_subject = 'this bracelet'
+    elsif np_product_title_downcase contains 'ring' or product.type == 'Rings'
+      assign np_product_collection_handle = 'rings'
+      assign np_product_collection_label = 'Rings'
+      assign np_product_detail_label = 'size, band, and stone details'
+      assign np_product_faq_subject = 'this ring'
+    elsif np_product_title_downcase contains 'earring' or product.type == 'Earrings'
+      assign np_product_collection_handle = 'earrings'
+      assign np_product_collection_label = 'Earrings'
+      assign np_product_detail_label = 'pairing, scale, and styling details'
+      assign np_product_faq_subject = 'these earrings'
+    endif
+
+    assign np_is_personalized = false
+    if np_product_title_downcase contains 'name' or np_product_title_downcase contains 'initial' or np_product_title_downcase contains 'personal' or np_product_title_downcase contains 'engraved' or np_product_title_downcase contains 'birthstone' or product.tags contains 'Personalized'
+      assign np_is_personalized = true
+    endif
+  -%}
+
   {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
   {%- if first_3d_model -%}
     {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
@@ -149,6 +184,26 @@
                       {{ form | payment_terms }}
                     {%- endform -%}
                   </div>
+                  <div class="np-pdp-confidence" aria-label="Shopping confidence details">
+                    <div class="np-pdp-confidence__item">
+                      <strong>Best for</strong>
+                      <span>
+                        {%- if np_is_personalized -%}
+                          Personal details, keepsakes, and thoughtful gifting.
+                        {%- else -%}
+                          Easy gifting, everyday styling, and meaningful moments.
+                        {%- endif -%}
+                      </span>
+                    </div>
+                    <div class="np-pdp-confidence__item">
+                      <strong>Before you add to cart</strong>
+                      <span>Review {{ np_product_detail_label }}, selected options, and product photos.</span>
+                    </div>
+                    <div class="np-pdp-confidence__item">
+                      <strong>Gift reassurance</strong>
+                      <span>Use the gift and support details below before ordering for a date-sensitive moment.</span>
+                    </div>
+                  </div>
                 {%- when 'inventory' -%}
                   <p
                     class="product__inventory{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
@@ -224,6 +279,16 @@
                       -%}
                       {{ np_product_description }}
                     </div>
+                    <div class="np-product-link-rail quick-add-hidden" aria-label="Related shopping paths">
+                      <a href="{{ routes.collections_url }}/{{ np_product_collection_handle }}">More {{ np_product_collection_label }}</a>
+                      {%- if np_is_personalized -%}
+                        <a href="{{ routes.collections_url }}/personalized-jewelry">Personalized Jewelry</a>
+                        <a href="/pages/personalized-jewelry-guide">Personalization Guide</a>
+                      {%- endif -%}
+                      <a href="{{ routes.collections_url }}/jewelry-gifts-for-her">Gifts for Her</a>
+                      <a href="{{ routes.collections_url }}/gifts-under-100">Gifts Under $100</a>
+                      <a href="/pages/jewelry-care-guide">Jewelry Care</a>
+                    </div>
                   {%- endif -%}
                 {%- when 'sku' -%}
                   <p
@@ -251,6 +316,12 @@
                       </summary>
                       <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                         {{ block.settings.content }}
+                        {%- if block.settings.heading contains 'Questions before gifting' -%}
+                          <h3>Is {{ np_product_faq_subject }} a good gift?</h3>
+                          <p>Yes, when the style, finish, and product photos match the recipient's taste. For personalized items, confirm spelling and selected options carefully before checkout.</p>
+                          <h3>What should I check before ordering?</h3>
+                          <p>Review the available product images, variant options, personalization fields when shown, care guidance, and shipping or return details before placing a time-sensitive order.</p>
+                        {%- endif -%}
                         {{ block.settings.page.content }}
                       </div>
                     </details>

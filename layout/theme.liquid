@@ -107,6 +107,16 @@
     {% render 'meta-tags' %}
     {% render 'north-pearl-schema' %}
 
+    {%- if request.page_type == 'index' -%}
+      <style>
+        @media screen and (min-width: 990px) {
+          .np-commerce-home .np-occasion-grid {
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+          }
+        }
+      </style>
+    {%- endif -%}
+
     <script type="module">
       import * as StandardEvents from 'https://cdn.shopify.com/storefront/standard-events.js';
 

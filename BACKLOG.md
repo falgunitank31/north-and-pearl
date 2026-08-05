@@ -38,6 +38,8 @@
 
 - Pareto/Faraday must monitor campaign `order_growth_august_2026` after the 72-hour first-order activation kit is distributed: sessions, landing-page engagement, product views, add-to-cart, checkout starts, purchases, and source quality.
 - Monitor Merchant Center reprocessing for the August 4 Product schema fix; warnings for missing `shippingDetails` and `hasMerchantReturnPolicy` should clear after Google recrawls affected product URLs.
+- August 5 indexing-phase watch: re-inspect the 50-url commercial priority set after Google crawls the new homepage Featured Pieces rail. Current URL Inspection split is 27 indexed, 2 discovered/not indexed, 1 crawled/not indexed, and 20 unknown to Google. Next action is internal-link/page-quality strengthening, not broad URL churn.
+- Faraday/Gauss/Pareto must keep the strongest 30-50 commercial URLs stable while indexing matures. Avoid changing handles, titles, collection URLs, or promotional framing unless a page is unsafe, unavailable, misleading, or genuinely weak.
 ## P2
 
 - Monitor Gifts curation after traffic begins; current Gifts collection was narrowed from 156 products to 56 active gift-intent products on July 28, 2026.

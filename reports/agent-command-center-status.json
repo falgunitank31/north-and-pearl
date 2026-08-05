@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generatedAt": "2026-08-04T21:05:11.567Z",
-    "sameThreadAutomationActive": true,
-    "activeAutomations": 1,
-    "workingToday": 9,
+    "generatedAt": "2026-08-05T01:47:48.579Z",
+    "sameThreadAutomationActive": false,
+    "activeAutomations": 0,
+    "workingToday": 0,
     "needsUpdate": 0,
-    "resting": 0,
+    "resting": 9,
     "searchImpressions": 6,
     "searchClicks": 0,
     "organicSessions": 0,
@@ -65,66 +65,66 @@
   "agentStats": [
     {
       "name": "Faraday",
-      "reportsToday": 4,
-      "totalReports": 20,
-      "latest": "faraday-indexing-response-2026-08-04.md",
-      "status": "Updated Today"
+      "reportsToday": 1,
+      "totalReports": 21,
+      "latest": "indexing-phase-dashboard-2026-08-05.md",
+      "status": "Not Scheduled"
     },
     {
       "name": "Gauss",
-      "reportsToday": 1,
+      "reportsToday": 0,
       "totalReports": 11,
       "latest": "gauss-daily-catalog-growth-2026-08-04.md",
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Pareto",
-      "reportsToday": 2,
+      "reportsToday": 0,
       "totalReports": 5,
       "latest": "pareto-faraday-first-order-activation-2026-08-04.md",
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Tesla",
-      "reportsToday": 3,
+      "reportsToday": 0,
       "totalReports": 14,
       "latest": "merchant-center-product-schema-fix-2026-08-04.md",
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Rawls",
       "reportsToday": 1,
-      "totalReports": 7,
-      "latest": "rawls-daily-analytics-watch-2026-08-04.md",
-      "status": "Updated Today"
+      "totalReports": 8,
+      "latest": "indexing-phase-dashboard-2026-08-05.md",
+      "status": "Not Scheduled"
     },
     {
       "name": "Lovelace",
-      "reportsToday": 1,
+      "reportsToday": 0,
       "totalReports": 8,
       "latest": "lovelace-daily-order-source-monitor-2026-08-04.md",
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Kuhn",
-      "reportsToday": 1,
+      "reportsToday": 0,
       "totalReports": 8,
       "latest": "kuhn-daily-design-qa-2026-08-04.md",
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Curie",
-      "reportsToday": 1,
+      "reportsToday": 0,
       "totalReports": 9,
       "latest": "curie-daily-source-claim-safety-2026-08-04.md",
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Lead Orchestrator",
-      "reportsToday": 1,
+      "reportsToday": 0,
       "totalReports": 12,
       "latest": "lead-orchestrator-operating-pass-2026-08-04.md",
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     }
   ],
   "blockers": [
@@ -162,7 +162,9 @@
       "name": "Faraday",
       "lane": "Organic growth",
       "reportPrefixes": [
+        "indexing-phase-dashboard",
         "faraday-indexing-response",
+        "faraday-indexing-tier1-inspection",
         "faraday-daily-monitor",
         "faraday-indexed-page-marketing-push",
         "faraday-qualified-traffic-execution",
@@ -174,16 +176,16 @@
       ],
       "owns": "SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.",
       "latest": {
-        "file": "faraday-indexing-response-2026-08-04.md",
-        "path": "reports/faraday-indexing-response-2026-08-04.md",
-        "mtime": "2026-08-04T21:05:11.428Z"
+        "file": "indexing-phase-dashboard-2026-08-05.md",
+        "path": "reports/indexing-phase-dashboard-2026-08-05.md",
+        "mtime": "2026-08-05T01:45:47.368Z"
       },
       "todayReport": {
-        "file": "faraday-indexing-response-2026-08-04.md",
-        "path": "reports/faraday-indexing-response-2026-08-04.md",
-        "mtime": "2026-08-04T21:05:11.428Z"
+        "file": "indexing-phase-dashboard-2026-08-05.md",
+        "path": "reports/indexing-phase-dashboard-2026-08-05.md",
+        "mtime": "2026-08-05T01:45:47.368Z"
       },
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Gauss",
@@ -201,12 +203,7 @@
         "path": "reports/gauss-daily-catalog-growth-2026-08-04.md",
         "mtime": "2026-08-04T13:43:00.015Z"
       },
-      "todayReport": {
-        "file": "gauss-daily-catalog-growth-2026-08-04.md",
-        "path": "reports/gauss-daily-catalog-growth-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.015Z"
-      },
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Pareto",
@@ -223,12 +220,7 @@
         "path": "reports/pareto-faraday-first-order-activation-2026-08-04.md",
         "mtime": "2026-08-04T15:27:02.493Z"
       },
-      "todayReport": {
-        "file": "pareto-faraday-first-order-activation-2026-08-04.md",
-        "path": "reports/pareto-faraday-first-order-activation-2026-08-04.md",
-        "mtime": "2026-08-04T15:27:02.493Z"
-      },
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Tesla",
@@ -245,33 +237,29 @@
         "path": "reports/merchant-center-product-schema-fix-2026-08-04.md",
         "mtime": "2026-08-04T15:31:20.608Z"
       },
-      "todayReport": {
-        "file": "merchant-center-product-schema-fix-2026-08-04.md",
-        "path": "reports/merchant-center-product-schema-fix-2026-08-04.md",
-        "mtime": "2026-08-04T15:31:20.608Z"
-      },
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Rawls",
       "lane": "Analytics and data",
       "reportPrefixes": [
+        "indexing-phase-dashboard",
         "rawls-daily-analytics-watch",
         "rawls-measurement-readiness",
         "organic-measurement-qa"
       ],
       "owns": "GA4, Search Console, Shopify analytics, KPI measurement, funnel diagnosis.",
       "latest": {
-        "file": "rawls-daily-analytics-watch-2026-08-04.md",
-        "path": "reports/rawls-daily-analytics-watch-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.014Z"
+        "file": "indexing-phase-dashboard-2026-08-05.md",
+        "path": "reports/indexing-phase-dashboard-2026-08-05.md",
+        "mtime": "2026-08-05T01:45:47.368Z"
       },
       "todayReport": {
-        "file": "rawls-daily-analytics-watch-2026-08-04.md",
-        "path": "reports/rawls-daily-analytics-watch-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.014Z"
+        "file": "indexing-phase-dashboard-2026-08-05.md",
+        "path": "reports/indexing-phase-dashboard-2026-08-05.md",
+        "mtime": "2026-08-05T01:45:47.368Z"
       },
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Lovelace",
@@ -288,12 +276,7 @@
         "path": "reports/lovelace-daily-order-source-monitor-2026-08-04.md",
         "mtime": "2026-08-04T13:43:00.014Z"
       },
-      "todayReport": {
-        "file": "lovelace-daily-order-source-monitor-2026-08-04.md",
-        "path": "reports/lovelace-daily-order-source-monitor-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.014Z"
-      },
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Kuhn",
@@ -310,12 +293,7 @@
         "path": "reports/kuhn-daily-design-qa-2026-08-04.md",
         "mtime": "2026-08-04T13:43:00.015Z"
       },
-      "todayReport": {
-        "file": "kuhn-daily-design-qa-2026-08-04.md",
-        "path": "reports/kuhn-daily-design-qa-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.015Z"
-      },
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Curie",
@@ -333,12 +311,7 @@
         "path": "reports/curie-daily-source-claim-safety-2026-08-04.md",
         "mtime": "2026-08-04T13:43:00.015Z"
       },
-      "todayReport": {
-        "file": "curie-daily-source-claim-safety-2026-08-04.md",
-        "path": "reports/curie-daily-source-claim-safety-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.015Z"
-      },
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     },
     {
       "name": "Lead Orchestrator",
@@ -358,12 +331,7 @@
         "path": "reports/lead-orchestrator-operating-pass-2026-08-04.md",
         "mtime": "2026-08-04T13:43:00.015Z"
       },
-      "todayReport": {
-        "file": "lead-orchestrator-operating-pass-2026-08-04.md",
-        "path": "reports/lead-orchestrator-operating-pass-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.015Z"
-      },
-      "status": "Updated Today"
+      "status": "Not Scheduled"
     }
   ]
 }

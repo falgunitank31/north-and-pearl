@@ -111,3 +111,22 @@
 - Live homepage validation confirms the new links render.
 
 Indexing caveat: Google does not provide an API to force ordinary Shopify ecommerce pages into the index. The safe path is sitemap submission, internal-link strengthening, stronger unique content, external discovery, and repeated URL Inspection monitoring.
+
+## August 5 Indexing-Phase Dashboard
+
+- Google API access remains Tier 2: Search Console, URL Inspection, sitemaps, and GA4 organic reporting are available.
+- GSC sitemap status: root sitemap successfully processed with 251 submitted web URLs and 227 submitted image URLs; current sitemap counters still show 0 indexed, 0 errors, and 0 warnings.
+- Priority URL Inspection batch: 50 commercial URLs inspected.
+  - Submitted and indexed: 27.
+  - Discovered - currently not indexed: 2.
+  - Crawled - currently not indexed: 1.
+  - URL is unknown to Google: 20.
+- Key interpretation: primary commercial collections are mostly indexed; product-level discovery is the current weakness, especially product URLs with 0 referring URLs reported by URL Inspection.
+- Product readiness: 208 active products passed the product SEO/image audit; Merchant readiness remains 208 active products ready with identifier caveat and 0 needing review.
+- Search Console performance for the current 28-day API window: 6 impressions, 0 clicks, 0% CTR.
+- GA4 organic for the current 28-day API window: 0 organic sessions and 0 top organic pages.
+- Live indexing-support change: homepage now contains a compact Featured Pieces rail linking directly to priority product URLs that were unknown/discovered/crawled-not-indexed in URL Inspection.
+- Reports:
+  - `reports/indexing-phase-dashboard-2026-08-05.md`
+  - `reports/indexing-phase-url-dashboard-2026-08-05.csv`
+  - `reports/faraday-indexing-tier1-inspection-2026-08-05.json`

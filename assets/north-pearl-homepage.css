@@ -482,6 +482,57 @@
   line-height: 1.1;
 }
 
+.np-index-edit {
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--np-home-line);
+}
+
+.np-index-edit__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.np-index-edit__card {
+  overflow: hidden;
+  border: 1px solid var(--np-home-line);
+  border-radius: 8px;
+  background: #fffaf3;
+  color: var(--np-home-black);
+  text-decoration: none;
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+
+.np-index-edit__card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #f3e8d9;
+  object-fit: cover;
+}
+
+.np-index-edit__card span {
+  display: block;
+  padding: 1.25rem;
+}
+
+.np-index-edit__card strong,
+.np-index-edit__card small {
+  display: block;
+}
+
+.np-index-edit__card strong {
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.np-index-edit__card small {
+  margin-top: .55rem;
+  color: var(--np-home-muted);
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+
 .np-newsletter {
   padding-top: 5.6rem;
   padding-bottom: 7rem;
@@ -534,6 +585,7 @@
 .np-category-card:focus-visible,
 .np-occasion-card:focus-visible,
 .np-guide-strip a:focus-visible,
+.np-index-edit__card:focus-visible,
 .np-shop-starter__links a:focus-visible,
 .np-button:focus-visible,
 .np-text-link:focus-visible {
@@ -556,6 +608,7 @@
 
   .np-category-card:hover,
   .np-occasion-card:hover,
+  .np-index-edit__card:hover,
   .np-shop-starter__links a:hover,
   .np-commerce-home .product-card-wrapper:hover .card {
     border-color: rgba(185, 146, 77, .5);
@@ -596,6 +649,7 @@
   .np-category-grid,
   .np-occasion-grid,
   .np-steps,
+  .np-index-edit__grid,
   .np-guide-strip {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -650,6 +704,7 @@
   .np-category-grid,
   .np-occasion-grid,
   .np-steps,
+  .np-index-edit__grid,
   .np-guide-strip {
     grid-template-columns: 1fr;
   }

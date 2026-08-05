@@ -11,7 +11,7 @@ const agents = [
   {
     name: 'Faraday',
     lane: 'Organic growth',
-    reportPrefixes: ['faraday-indexing-response', 'faraday-daily-monitor', 'faraday-indexed-page-marketing-push', 'faraday-qualified-traffic-execution', 'faraday-daily-traffic-orders', 'faraday-daily-marketing', 'faraday-traffic-visibility-check', 'faraday-buyer-intent-collections', 'google-api-access-blocker'],
+    reportPrefixes: ['indexing-phase-dashboard', 'faraday-indexing-response', 'faraday-indexing-tier1-inspection', 'faraday-daily-monitor', 'faraday-indexed-page-marketing-push', 'faraday-qualified-traffic-execution', 'faraday-daily-traffic-orders', 'faraday-daily-marketing', 'faraday-traffic-visibility-check', 'faraday-buyer-intent-collections', 'google-api-access-blocker'],
     owns: 'SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.',
   },
   {
@@ -35,7 +35,7 @@ const agents = [
   {
     name: 'Rawls',
     lane: 'Analytics and data',
-    reportPrefixes: ['rawls-daily-analytics-watch', 'rawls-measurement-readiness', 'organic-measurement-qa'],
+    reportPrefixes: ['indexing-phase-dashboard', 'rawls-daily-analytics-watch', 'rawls-measurement-readiness', 'organic-measurement-qa'],
     owns: 'GA4, Search Console, Shopify analytics, KPI measurement, funnel diagnosis.',
   },
   {

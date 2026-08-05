@@ -1,0 +1,2073 @@
+{
+  "property": "sc-domain:northandpearl.com",
+  "total": 50,
+  "results": [
+    {
+      "url": "https://northandpearl.com/",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-02T21:44:22Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-sparkle-necklace-2786",
+          "http://northandpearl.com/",
+          "https://northandpearl.com/collections/rings"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/",
+        "user_canonical": "https://northandpearl.com/",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/personalized-jewelry",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T01:50:42Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/name-necklaces?page=5",
+          "https://northandpearl.com/policies/shipping-policy"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/personalized-jewelry",
+        "user_canonical": "https://northandpearl.com/collections/personalized-jewelry",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/name-necklaces",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T10:17:11Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-heart-necklace-7284",
+          "https://northandpearl.com/policies/terms-of-service"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/name-necklaces",
+        "user_canonical": "https://northandpearl.com/collections/name-necklaces",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/initial-necklaces",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-initial-necklace-6868",
+          "https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week",
+          "https://northandpearl.com/collections/mothers-collection"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/birthstone-jewelry",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T09:08:18Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/gifts-under-50",
+          "https://northandpearl.com/collections/personalized-jewelry"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/birthstone-jewelry",
+        "user_canonical": "https://northandpearl.com/collections/birthstone-jewelry",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/jewelry-gifts-for-her",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T08:44:43Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-initial-necklace-6868",
+          "https://northandpearl.com/collections/gifts-under-100?page=3"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/jewelry-gifts-for-her",
+        "user_canonical": "https://northandpearl.com/collections/jewelry-gifts-for-her",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/gifts-under-50",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T02:22:51Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/name-necklaces?page=5",
+          "https://northandpearl.com/collections/rings"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/gifts-under-50",
+        "user_canonical": "https://northandpearl.com/collections/gifts-under-50",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/gifts-under-100",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T09:58:30Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-sparkle-necklace-2786",
+          "https://northandpearl.com/collections/gifts-under-50",
+          "https://northandpearl.com/pages/personalized-jewelry-guide"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/gifts-under-100",
+        "user_canonical": "https://northandpearl.com/collections/gifts-under-100",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/birthday-jewelry-gifts",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T10:12:02Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-sparkle-necklace-2786",
+          "https://northandpearl.com/collections/anniversary-gifts"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/birthday-jewelry-gifts",
+        "user_canonical": "https://northandpearl.com/collections/birthday-jewelry-gifts",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/anniversary-gifts",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T05:50:01Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/name-necklaces?page=5",
+          "https://northandpearl.com/collections/jewelry-gifts-for-her"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/anniversary-gifts",
+        "user_canonical": "https://northandpearl.com/collections/anniversary-gifts",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/best-sellers",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T02:47:48Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/gifts-under-50",
+          "https://northandpearl.com/pages/personalized-jewelry-guide",
+          "https://northandpearl.com/policies/refund-policy"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/best-sellers",
+        "user_canonical": "https://northandpearl.com/collections/best-sellers",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/new-arrivals",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T03:02:14Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-initial-necklace-6868",
+          "https://northandpearl.com/collections/gifts-under-100"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/new-arrivals",
+        "user_canonical": "https://northandpearl.com/collections/new-arrivals",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/necklaces",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T05:25:01Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-sparkle-necklace-2786",
+          "https://northandpearl.com/products/north-pearl-sweetheart-pendant-necklace",
+          "https://northandpearl.com/policies/refund-policy"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/necklaces",
+        "user_canonical": "https://northandpearl.com/collections/necklaces",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/bracelets",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T13:34:14Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/name-necklaces?page=5",
+          "https://northandpearl.com/sitemap_collections_1.xml?from=658300240056&to=658327699640"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/bracelets",
+        "user_canonical": "https://northandpearl.com/collections/bracelets",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/rings",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T09:36:09Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-sparkle-necklace-2786",
+          "https://northandpearl.com/collections/wedding-bridesmaids",
+          "https://northandpearl.com/pages/personalized-jewelry-guide"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/rings",
+        "user_canonical": "https://northandpearl.com/collections/rings",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/earrings",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T04:34:58Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-heart-necklace-7284",
+          "https://northandpearl.com/collections/gifts-under-50"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/earrings",
+        "user_canonical": "https://northandpearl.com/collections/earrings",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/gifts",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T02:04:27Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/products/north-pearl-sparkle-necklace-2786",
+          "https://northandpearl.com/collections/gifts-under-100"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/gifts",
+        "user_canonical": "https://northandpearl.com/collections/gifts",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/mothers-collection",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T04:13:33Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/gifts-under-50",
+          "https://northandpearl.com/policies/shipping-policy"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/mothers-collection",
+        "user_canonical": "https://northandpearl.com/collections/mothers-collection",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/collections/wedding-bridesmaids",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T01:06:00Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/gifts-under-50",
+          "https://northandpearl.com/collections/gifts-under-100"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/collections/wedding-bridesmaids",
+        "user_canonical": "https://northandpearl.com/collections/wedding-bridesmaids",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T09:05:48Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/name-necklaces?page=5",
+          "https://northandpearl.com/collections/mothers-collection"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week",
+        "user_canonical": "https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-04T23:34:34Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+        "user_canonical": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Product snippets",
+            "items": [
+              {
+                "name": "North &amp; Pearl Initial Shell Necklace",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"review\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Missing field \"aggregateRating\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Merchant listings",
+            "items": [
+              {
+                "name": "North &amp; Pearl Initial Shell Necklace",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"deliveryTime\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Invalid enum value in field \"returnPolicyCategory\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-iridescent-pendant-necklace",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-04T23:59:31Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/birthday-jewelry-gifts",
+          "https://northandpearl.com/collections/best-sellers"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/products/north-pearl-iridescent-pendant-necklace",
+        "user_canonical": "https://northandpearl.com/products/north-pearl-iridescent-pendant-necklace",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Product snippets",
+            "items": [
+              {
+                "name": "North &amp; Pearl Iridescent Pendant Necklace",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"review\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Missing field \"aggregateRating\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Merchant listings",
+            "items": [
+              {
+                "name": "North &amp; Pearl Iridescent Pendant Necklace",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"deliveryTime\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Invalid enum value in field \"returnPolicyCategory\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-keepsake-necklace",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-flower-nail-bangle",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-color-accent-cuff",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-04T18:57:13Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/products/north-pearl-color-accent-cuff",
+        "user_canonical": "https://northandpearl.com/products/north-pearl-color-accent-cuff",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Product snippets",
+            "items": [
+              {
+                "name": "North &amp; Pearl Color Accent Cuff",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"review\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Missing field \"aggregateRating\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Merchant listings",
+            "items": [
+              {
+                "name": "North &amp; Pearl Color Accent Cuff",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"deliveryTime\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Invalid enum value in field \"returnPolicyCategory\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-accent-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Crawled - currently not indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-05T00:16:23Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/products/north-pearl-sparkle-accent-bracelet",
+        "user_canonical": "https://northandpearl.com/products/north-pearl-sparkle-accent-bracelet",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bridal-water-drop-set",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-04T23:17:22Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/blogs/gift-guide/best-personalized-jewelry-gifts-for-her",
+          "https://northandpearl.com/products/north-pearl-bridal-water-drop-set?variant=53774031618232&country=US&currency=USD"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/products/north-pearl-bridal-water-drop-set",
+        "user_canonical": "https://northandpearl.com/products/north-pearl-bridal-water-drop-set",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Product snippets",
+            "items": [
+              {
+                "name": "North &amp; Pearl Bridal Water Drop Set",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"review\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Missing field \"aggregateRating\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Merchant listings",
+            "items": [
+              {
+                "name": "North &amp; Pearl Bridal Water Drop Set",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"deliveryTime\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Invalid enum value in field \"returnPolicyCategory\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-hollow-flower-bangle-set",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-04T23:30:19Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/all?page=4",
+          "https://northandpearl.com/collections/best-sellers"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/products/north-pearl-hollow-flower-bangle-set",
+        "user_canonical": "https://northandpearl.com/products/north-pearl-hollow-flower-bangle-set",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Product snippets",
+            "items": [
+              {
+                "name": "North &amp; Pearl Hollow Flower Bangle Set",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"review\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Missing field \"aggregateRating\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Merchant listings",
+            "items": [
+              {
+                "name": "North &amp; Pearl Hollow Flower Bangle Set",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"deliveryTime\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Invalid enum value in field \"returnPolicyCategory\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-pink-heart-bow-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-dainty-flower-necklace",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-clover-charm-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-personalized-nameplate-necklace",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-twine-band-ring",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-water-drop-jewelry-set",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-pulse-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-04T23:13:08Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/products/north-pearl-sparkle-pulse-bracelet",
+        "user_canonical": "https://northandpearl.com/products/north-pearl-sparkle-pulse-bracelet",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Product snippets",
+            "items": [
+              {
+                "name": "North &amp; Pearl Sparkle Pulse Bracelet",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"review\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Missing field \"aggregateRating\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Merchant listings",
+            "items": [
+              {
+                "name": "North &amp; Pearl Sparkle Pulse Bracelet",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"deliveryTime\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Invalid enum value in field \"returnPolicyCategory\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-mixed-charm-bangle",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-warm-bead-stretch-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-chunky-bead-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-v-water-drop-jewelry-set",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sleek-flex-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sweetheart-pendant-necklace",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-05T00:41:41Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/blogs/gift-guide/birthday-jewelry-gift-ideas",
+          "https://northandpearl.com/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/products/north-pearl-sweetheart-pendant-necklace",
+        "user_canonical": "https://northandpearl.com/products/north-pearl-sweetheart-pendant-necklace",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Product snippets",
+            "items": [
+              {
+                "name": "North &amp; Pearl Sweetheart Oval Pendant Necklace",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"review\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Missing field \"aggregateRating\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Merchant listings",
+            "items": [
+              {
+                "name": "North &amp; Pearl Sweetheart Oval Pendant Necklace",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"deliveryTime\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Invalid enum value in field \"returnPolicyCategory\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-halo-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-modern-statement-ring",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-03T09:21:10Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://northandpearl.com/collections/gifts-under-50"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://northandpearl.com/products/north-pearl-modern-statement-ring",
+        "user_canonical": "https://northandpearl.com/products/north-pearl-modern-statement-ring",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Product snippets",
+            "items": [
+              {
+                "name": "North &amp; Pearl Modern Statement Ring",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"review\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Missing field \"aggregateRating\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Merchant listings",
+            "items": [
+              {
+                "name": "North &amp; Pearl Modern Statement Ring",
+                "issues": [
+                  {
+                    "issueMessage": "Missing field \"shippingDetails\"",
+                    "severity": "WARNING"
+                  },
+                  {
+                    "issueMessage": "Missing field \"hasMerchantReturnPolicy\"",
+                    "severity": "WARNING"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-row-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-smooth-flex-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bead-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-sparkle-link-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-heart-charm-necklace",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://northandpearl.com/products/north-pearl-bloom-charm-bracelet",
+      "property": "sc-domain:northandpearl.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    }
+  ],
+  "summary": {
+    "pass": 27,
+    "fail": 0,
+    "neutral": 23,
+    "error": 0
+  },
+  "error": null
+}

@@ -333,6 +333,45 @@
     </a>
   </div>
 
+  {%- liquid
+    assign np_featured_product_handles = 'north-pearl-heart-keepsake-necklace,north-pearl-flower-nail-bangle,north-pearl-personalized-nameplate-necklace,north-pearl-sparkle-accent-bracelet,north-pearl-dainty-flower-necklace,north-pearl-clover-charm-bracelet,north-pearl-twine-band-ring,north-pearl-water-drop-jewelry-set' | split: ','
+  -%}
+  <div class="np-section np-index-edit" aria-labelledby="np-index-edit-title">
+    <div class="np-section-heading np-section-heading--split">
+      <div>
+        <p class="np-kicker">Featured pieces</p>
+        <h2 id="np-index-edit-title">Pieces to explore next.</h2>
+      </div>
+      <p class="np-section-heading__text">A focused path into giftable necklaces, bracelets, rings, and sets that helps shoppers continue from inspiration into product discovery.</p>
+    </div>
+    <div class="np-index-edit__grid" role="list">
+      {%- for np_handle in np_featured_product_handles -%}
+        {%- liquid
+          assign np_product = all_products[np_handle]
+        -%}
+        {%- if np_product != blank and np_product.available -%}
+          <a class="np-index-edit__card" href="{{ np_product.url }}" role="listitem">
+            {%- if np_product.featured_media -%}
+              {{
+                np_product.featured_media
+                | image_url: width: 420
+                | image_tag:
+                  widths: '180, 260, 360, 420',
+                  sizes: '(min-width: 990px) 12vw, (min-width: 640px) 24vw, 42vw',
+                  loading: 'lazy',
+                  alt: np_product.featured_media.alt | default: np_product.title
+              }}
+            {%- endif -%}
+            <span>
+              <strong>{{ np_product.title | escape }}</strong>
+              <small>{{ np_product.price | money }}</small>
+            </span>
+          </a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+
   <div class="np-newsletter">
     <p class="np-kicker">North & Pearl notes</p>
     <h2>A little something meaningful.</h2>

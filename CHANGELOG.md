@@ -12,6 +12,7 @@
 - Added a product-copy differentiation gate that permits only verified style/gift-positioning copy while keeping supplier/material/performance claims blocked product by product.
 - Added an honest product-review section to standard and personalized PDP templates without fabricating ratings, testimonials, review schema, or aggregateRating data.
 - Enriched all 208 active Shopify product records with Merchant Center-friendly customer details: style/use case, gifting context, option review guidance, image review guidance, care guidance, price context, and before-order checks. Product SEO audit remains 208/208 clean, Merchant readiness remains 208 ready / 0 needing review, and claim-sensitive scan returned no risky rows.
+- Added compact internal-link blocks to 10 priority product pages Google had not fully indexed yet, linking each page to 3 related active products and 3 relevant indexed collection paths.
 
 ## August 4, 2026
 

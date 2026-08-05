@@ -43,6 +43,7 @@
 - Faraday/Gauss/Pareto must keep the strongest 30-50 commercial URLs stable while indexing matures. Avoid changing handles, titles, collection URLs, or promotional framing unless a page is unsafe, unavailable, misleading, or genuinely weak.
 - Monitor the August 5 conversion-depth pass for PDP engagement once traffic exists: product views, add-to-cart rate, internal-link clicks where measurable, and organic discovery movement for priority products.
 - Monitor Google Merchant Center reprocessing after the August 5 product-record description enrichment. Shopify Admin confirms 208 active product records were updated; public storefront cache may lag on sampled pages, but Admin/feed source data is corrected.
+- Re-inspect the 10 priority product URLs strengthened on August 5 after Google recrawls: heart keepsake necklace, flower nail bangle, pink heart bow bracelet, dainty flower necklace, clover charm bracelet, personalized nameplate necklace, twine band ring, water drop jewelry set, mixed charm bangle, and sparkle accent bracelet.
 ## P2
 
 - Monitor Gifts curation after traffic begins; current Gifts collection was narrowed from 156 products to 56 active gift-intent products on July 28, 2026.
@@ -59,6 +60,7 @@
 - Continue product-record copy differentiation product-by-product as supplier facts are verified; current theme layer adds safer type-aware positioning but does not replace final product-specific brand copy.
 - August 5 product-copy gate completed: safe differentiation is limited to verified product type, visible style, gifting context, and neutral positioning; material, plating, stone, allergy, durability, sizing, production, and supplier claims remain blocked until product-by-product source evidence is verified.
 - August 5 Merchant description enrichment completed for all active product records; next differentiation layer should use supplier/product-specific evidence rather than broad template copy.
+- August 5 priority product internal-link pass completed for 10 active product pages; continue this pattern only for index-worthy products with usable images, available variants, and clear category fit.
 - Monitor the new honest PDP review surface after traffic begins; real review/rating output remains dependent on verified Shopify review metafields or an approved review app, and Product schema must not include fake `review` or `aggregateRating` data.
 
 ## P3

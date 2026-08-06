@@ -3,6 +3,10 @@
 - August 4, 2026: Executed Pareto/Faraday first-order activation pass, updated the active UTM campaign to `order_growth_august_2026`, regenerated the qualified traffic kit, refreshed the weekly gift guide, and created the 72-hour activation kit.
 # Changelog
 
+## August 6, 2026
+
+- Ran the monitor-only indexing-phase commerce QA pass: 18 priority collections audited clean, 208 active product pages passed live storefront QA, cart add test passed, Merchant readiness remained 208 ready / 0 needing review, and no GSC reindexing actions were performed.
+
 ## August 5, 2026
 
 - Fixed the live Birthstone Jewelry collection hero image by rendering a stable Shopify CDN product image for that collection-specific hero instead of the stale collection-image record.

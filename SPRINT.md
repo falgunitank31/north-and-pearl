@@ -176,6 +176,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Responded to Google Merchant Center's product-description quality warning by enriching all 208 active product records with longer, customer-useful, claim-safe descriptions and updated SEO descriptions.
 - [x] Re-ran product SEO, Merchant readiness, and claim-sensitive product scans after enrichment; active catalog remains 208/208 clean and Merchant-ready with 0 needing review.
 - [x] Strengthened internal links for 10 priority product pages that were unknown, discovered/not-indexed, or crawled/not-indexed in the August 5 GSC dashboard.
+- [x] Ran August 6 monitor-only commerce QA while GSC indexing stabilizes: product SEO, Merchant readiness, product media, priority collection quality, full live PDP QA, and cart add test.
 ## Success Criteria
 
 - No known P0 issues.

@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-05T20:34:51.331Z",
+    "generatedAt": "2026-08-06T13:03:29.994Z",
     "sameThreadAutomationActive": false,
     "activeAutomations": 0,
     "workingToday": 0,
@@ -65,7 +65,7 @@
   "agentStats": [
     {
       "name": "Faraday",
-      "reportsToday": 1,
+      "reportsToday": 0,
       "totalReports": 21,
       "latest": "indexing-phase-dashboard-2026-08-05.md",
       "status": "Not Scheduled"
@@ -86,14 +86,14 @@
     },
     {
       "name": "Tesla",
-      "reportsToday": 0,
-      "totalReports": 14,
-      "latest": "merchant-center-product-schema-fix-2026-08-04.md",
+      "reportsToday": 1,
+      "totalReports": 15,
+      "latest": "live-storefront-qa-2026-08-06.md",
       "status": "Not Scheduled"
     },
     {
       "name": "Rawls",
-      "reportsToday": 1,
+      "reportsToday": 0,
       "totalReports": 8,
       "latest": "indexing-phase-dashboard-2026-08-05.md",
       "status": "Not Scheduled"
@@ -180,11 +180,6 @@
         "path": "reports/indexing-phase-dashboard-2026-08-05.md",
         "mtime": "2026-08-05T01:45:47.368Z"
       },
-      "todayReport": {
-        "file": "indexing-phase-dashboard-2026-08-05.md",
-        "path": "reports/indexing-phase-dashboard-2026-08-05.md",
-        "mtime": "2026-08-05T01:45:47.368Z"
-      },
       "status": "Not Scheduled"
     },
     {
@@ -233,9 +228,14 @@
       ],
       "owns": "Theme code, QA, cart, search, mobile, performance, accessibility, Shopify CLI.",
       "latest": {
-        "file": "merchant-center-product-schema-fix-2026-08-04.md",
-        "path": "reports/merchant-center-product-schema-fix-2026-08-04.md",
-        "mtime": "2026-08-04T15:31:20.608Z"
+        "file": "live-storefront-qa-2026-08-06.md",
+        "path": "reports/live-storefront-qa-2026-08-06.md",
+        "mtime": "2026-08-06T13:02:15.130Z"
+      },
+      "todayReport": {
+        "file": "live-storefront-qa-2026-08-06.md",
+        "path": "reports/live-storefront-qa-2026-08-06.md",
+        "mtime": "2026-08-06T13:02:15.130Z"
       },
       "status": "Not Scheduled"
     },
@@ -250,11 +250,6 @@
       ],
       "owns": "GA4, Search Console, Shopify analytics, KPI measurement, funnel diagnosis.",
       "latest": {
-        "file": "indexing-phase-dashboard-2026-08-05.md",
-        "path": "reports/indexing-phase-dashboard-2026-08-05.md",
-        "mtime": "2026-08-05T01:45:47.368Z"
-      },
-      "todayReport": {
         "file": "indexing-phase-dashboard-2026-08-05.md",
         "path": "reports/indexing-phase-dashboard-2026-08-05.md",
         "mtime": "2026-08-05T01:45:47.368Z"

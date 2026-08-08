@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T20:25:55Z",
+  "generated_at": "2026-08-08T20:35:50Z",
   "property": "properties/546565745",
   "date_range": {
     "start": "2026-08-08",
@@ -21,8 +21,8 @@
   "error": null,
   "quota": {
     "daily_consumed": 1,
-    "daily_remaining": 199949,
+    "daily_remaining": 199942,
     "hourly_consumed": 1,
-    "hourly_remaining": 39977
+    "hourly_remaining": 39970
   }
 }

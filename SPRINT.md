@@ -30,7 +30,8 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Register the official DataForSEO local MCP workflow in Codex through a secure wrapper that keeps credentials outside the repository.
 - [x] Configure DataForSEO cost controls with threshold mode, `$0.10` approval threshold, `$2.00` daily limit, and 0 current spend.
 - [x] Validate DataForSEO MCP fails closed when credentials are absent; no paid API calls were made.
-- [ ] Add DataForSEO API credentials securely, restart/reload Codex MCP tools, run one low-cost connection test, then execute the North & Pearl Organic Market Opportunity Baseline.
+- [x] Add DataForSEO API credentials securely and verify DataForSEO authentication without printing credentials.
+- [ ] Restart/reload Codex MCP tools, run one low-cost DataForSEO MCP connection test, then execute the North & Pearl Organic Market Opportunity Baseline.
 - [x] Compact desktop mega menu whitespace.
 - [x] Tighten collection hero copy/spacing so products appear sooner.
 - [x] Run Theme Check.

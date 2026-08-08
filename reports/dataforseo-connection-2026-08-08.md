@@ -2,9 +2,9 @@
 
 ## Status
 
-`DATAFORSEO_CONNECTION = BLOCKED_PENDING_CREDENTIALS`
+`DATAFORSEO_CONNECTION = AUTH_OK_RELOAD_REQUIRED`
 
-The official local DataForSEO MCP workflow is prepared for North & Pearl, but live connectivity cannot be validated until API credentials are added securely.
+The official local DataForSEO MCP workflow is prepared for North & Pearl and the supplied API credentials authenticated successfully against DataForSEO. The MCP server starts successfully, but this Codex session needs a reload/restart before the DataForSEO MCP tools are exposed to the agent runtime.
 
 ## What Was Configured
 
@@ -28,7 +28,7 @@ No credentials were written to:
 - `BACKLOG.md`.
 - Chat output.
 
-The current environment does not contain `DATAFORSEO_USERNAME` or `DATAFORSEO_PASSWORD`.
+The secure local environment file now contains `DATAFORSEO_USERNAME` and `DATAFORSEO_PASSWORD` with owner-only file permissions. Credential values are intentionally not documented.
 
 ## Cost Controls
 
@@ -48,20 +48,13 @@ Validation performed:
 - Codex config includes one DataForSEO MCP entry.
 - Field config exists.
 - Missing-credential behavior returns a nonzero exit and a clear setup-required message.
-- No DataForSEO API call was made.
+- DataForSEO authentication endpoint returned success.
+- MCP wrapper startup test passed and reached a running state.
+- No paid DataForSEO research/keyword/SERP call was made.
 
 ## Next Step
 
-Add the DataForSEO API credentials securely, then restart/reload Codex so the MCP tools become available:
-
-```bash
-cp ~/.config/codex-seo/dataforseo.env.example ~/.config/codex-seo/dataforseo.env
-chmod 600 ~/.config/codex-seo/dataforseo.env
-```
-
-Then edit `~/.config/codex-seo/dataforseo.env` with the DataForSEO API login and API password.
-
-After reload, Faraday should run one low-cost connection test, log the cost, and begin the North & Pearl Organic Market Opportunity Baseline.
+Reload/restart Codex so the newly registered DataForSEO MCP server appears in the available MCP tools. After reload, Faraday should run one low-cost connection test, log the cost, and begin the North & Pearl Organic Market Opportunity Baseline.
 
 ## First DataForSEO Project Queue
 

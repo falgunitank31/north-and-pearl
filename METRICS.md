@@ -136,3 +136,15 @@ Indexing caveat: Google does not provide an API to force ordinary Shopify ecomme
   - `reports/indexing-phase-dashboard-2026-08-05.md`
   - `reports/indexing-phase-url-dashboard-2026-08-05.csv`
   - `reports/faraday-indexing-tier1-inspection-2026-08-05.json`
+
+## August 8 Blog Content / Keyword Baseline
+
+- Blog sitemap URLs analyzed: 17.
+- Article URLs analyzed: 15.
+- Keyword targets checked with DataForSEO: 49.
+- DataForSEO cost for this blog pass: $0.06; total logged spend for August 8 is $0.20 against the $2.00 daily cap.
+- Highest-volume checked keyword opportunities include `charm bracelet`, `initial necklace`, `birthstone necklace`, `name necklace`, `personalized jewelry for mom`, `heart necklace`, `custom name necklace`, `birthstone jewelry`, `personalized necklace`, and `engraved necklace`.
+- Blog content bottlenecks: weak product links in multiple articles, duplicate under-$100 gift-guide intent, thin/medium-depth article sections, and missing detected Article/BlogPosting schema in the live page audit.
+- Evidence files:
+  - `reports/dataforseo-blog-content-analysis-2026-08-08.md`
+  - `reports/dataforseo-blog-content-analysis-2026-08-08.json`

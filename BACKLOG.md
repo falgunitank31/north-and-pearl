@@ -47,6 +47,7 @@
 - Monitor Google Merchant Center reprocessing after the August 5 product-record description enrichment. Shopify Admin confirms 208 active product records were updated; public storefront cache may lag on sampled pages, but Admin/feed source data is corrected.
 - Re-inspect the 10 priority product URLs strengthened on August 5 after Google recrawls: heart keepsake necklace, flower nail bangle, pink heart bow bracelet, dainty flower necklace, clover charm bracelet, personalized nameplate necklace, twine band ring, water drop jewelry set, mixed charm bangle, and sparkle accent bracelet.
 - Continue monitor-only GSC posture until indexing stabilizes; do not request manual reindexing or submit individual URLs. Keep improving customer-facing quality only.
+- August 8 DataForSEO blog analysis: existing blog pages need stronger commercial routing. P1 action is to add intentional in-article product and collection links to weak guides, resolve duplicate under-$100 intent, and validate Article/BlogPosting schema coverage.
 ## P2
 
 - Monitor Gifts curation after traffic begins; current Gifts collection was narrowed from 156 products to 56 active gift-intent products on July 28, 2026.
@@ -66,6 +67,7 @@
 - August 5 priority product internal-link pass completed for 10 active product pages; continue this pattern only for index-worthy products with usable images, available variants, and clear category fit.
 - August 6 priority collection/product QA completed cleanly; next safe work is merchandising refinement or source/cost guardrail completion, not indexing actions.
 - Monitor the new honest PDP review surface after traffic begins; real review/rating output remains dependent on verified Shopify review metafields or an approved review app, and Product schema must not include fake `review` or `aggregateRating` data.
+- Blog content depth queue: several articles are 450-600 words and need buyer-decision blocks, concise FAQs, and clearer article-specific headings before additional blog volume is prioritized.
 
 ## P3
 

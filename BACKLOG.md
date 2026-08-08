@@ -35,7 +35,7 @@
 - Pareto/Gauss/Curie must collect verified cost, landed cost, packaging cost, shipping subsidy, and minimum margin rules before launching any discount, bundle pricing, gift-with-purchase, or free-shipping threshold change.
 - August 5 guardrail completed: offer launch status is explicitly `BLOCKED_FOR_COST_DATA`; only non-discount merchandising/cross-sell presentation may proceed until product-level economics and operational impacts are verified.
 - Pareto/Rawls must monitor the July 31 personalized-routing and empty-cart-recovery changes for collection views, product views, add-to-cart, checkout starts, and orders once traffic exists.
-- Lovelace and the owner must finalize shipping, returns, support, fulfillment, and personalized/custom order rules before paid acquisition or stronger operational copy.
+- Lovelace and the owner must finalize shipping, support, fulfillment, and broader personalized/custom order rules before paid acquisition or stronger operational copy. A conservative launch Return Policy was added on August 8, 2026, but final legal review is still recommended.
 
 - Pareto/Faraday must monitor campaign `order_growth_august_2026` after the 72-hour first-order activation kit is distributed: sessions, landing-page engagement, product views, add-to-cart, checkout starts, purchases, and source quality.
 - Monitor Merchant Center reprocessing for the August 4 Product schema fix; warnings for missing `shippingDetails` and `hasMerchantReturnPolicy` should clear after Google recrawls affected product URLs.

@@ -3,6 +3,10 @@
 - August 4, 2026: Executed Pareto/Faraday first-order activation pass, updated the active UTM campaign to `order_growth_august_2026`, regenerated the qualified traffic kit, refreshed the weekly gift guide, and created the 72-hour activation kit.
 # Changelog
 
+## August 8, 2026
+
+- Added a conservative customer-facing Return Policy to Shopify's native `REFUND_POLICY`, aligned `/pages/returns-exchanges`, updated the live Returns & Exchanges template section, and verified both live policy surfaces render the 14-day standard-item return language. Theme Check passed with 281 files inspected and 0 offenses.
+
 ## August 6, 2026
 
 - Ran the monitor-only indexing-phase commerce QA pass: 18 priority collections audited clean, 208 active product pages passed live storefront QA, cart add test passed, Merchant readiness remained 208 ready / 0 needing review, and no GSC reindexing actions were performed.

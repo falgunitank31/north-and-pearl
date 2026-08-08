@@ -6,6 +6,7 @@
 ## August 8, 2026
 
 - Added a lightweight GA4 ecommerce event bridge for `view_item`, `add_to_cart`, and `begin_checkout` tracking without loading a duplicate GA4 script; live PDP validation confirmed product analytics payload output.
+- Extended the GA4 ecommerce bridge with `select_item` tracking for product-link clicks and added product-click progress to the Agent Command Center order-goal dashboard.
 - Removed the stale homepage occasion-grid 5-column override and repushed the homepage CSS; live asset validation confirmed the balanced 4-column grid rule.
 - Refreshed Faraday's August 8 qualified-traffic kit for `order_growth_august_2026`, updated the live weekly gift guide, pulled fresh Search Console evidence showing 32 impressions and 0 clicks, and optimized Birthday Jewelry Gifts around the strongest current non-brand query cluster.
 - Registered the official DataForSEO local MCP workflow for North & Pearl using a secure local wrapper at `~/.codex/bin/dataforseo-mcp.sh`; credentials remain outside the repository and are expected through `DATAFORSEO_USERNAME` and `DATAFORSEO_PASSWORD`.

@@ -218,6 +218,7 @@ function percentage(current, target) {
 
 const currentGoalProgress = {
   qualified_visitors: Number(latestGoalFunnel.data?.totals?.sessions ?? ga4OrganicSessions ?? 0),
+  product_clicks: Number(latestGoalFunnel.data?.totals?.select_item ?? 0),
   product_views: Number(latestGoalFunnel.data?.totals?.view_item ?? 0),
   add_to_carts: Number(latestGoalFunnel.data?.totals?.add_to_cart ?? 0),
   checkout_starts: Number(latestGoalFunnel.data?.totals?.begin_checkout ?? 0),
@@ -228,6 +229,7 @@ const goalCards = (orderGoals.goals || []).map((goal) => ({
   ...goal,
   progress: {
     qualified_visitors: percentage(currentGoalProgress.qualified_visitors, goal.targets?.qualified_visitors),
+    product_clicks: percentage(currentGoalProgress.product_clicks, goal.targets?.product_views),
     product_views: percentage(currentGoalProgress.product_views, goal.targets?.product_views),
     add_to_carts: percentage(currentGoalProgress.add_to_carts, goal.targets?.add_to_carts),
     checkout_starts: percentage(currentGoalProgress.checkout_starts, goal.targets?.checkout_starts),
@@ -581,16 +583,17 @@ const html = `<!doctype html>
             <h3>${esc(goal.name)}</h3>
             <div class="goal-meta">${esc(goal.start_date)} to ${esc(goal.target_date)} · Owner: ${esc(goal.owner)}</div>
             ${[
-              ['Qualified visitors', 'qualified_visitors'],
-              ['Product views', 'product_views'],
-              ['Add to carts', 'add_to_carts'],
-              ['Checkout starts', 'checkout_starts'],
-              ['Orders', 'orders'],
-            ].map(([label, key]) => `
+              ['Qualified visitors', 'qualified_visitors', 'qualified_visitors'],
+              ['Product clicks', 'product_clicks', 'product_views'],
+              ['Product views', 'product_views', 'product_views'],
+              ['Add to carts', 'add_to_carts', 'add_to_carts'],
+              ['Checkout starts', 'checkout_starts', 'checkout_starts'],
+              ['Orders', 'orders', 'orders'],
+            ].map(([label, key, targetKey]) => `
               <div class="goal-row">
                 <span>${esc(label)}</span>
                 <div class="goal-bar" aria-label="${esc(label)} progress"><span style="width:${esc(goal.progress[key])}%"></span></div>
-                <span>${esc(currentGoalProgress[key])}/${esc(goal.targets?.[key] || 0)}</span>
+                <span>${esc(currentGoalProgress[key])}/${esc(goal.targets?.[targetKey] || 0)}</span>
               </div>
             `).join('')}
             <p class="small">${esc(goal.strategy)}</p>
@@ -735,7 +738,7 @@ ${businessStats.map((item) => `- ${item.label}: ${item.value} (${item.note})`).j
 
 ## Order Goals
 
-${goalCards.map((goal) => `- ${goal.name}: ${goal.start_date} to ${goal.target_date}; targets: ${goal.targets.orders} orders, ${goal.targets.qualified_visitors} qualified visitors, ${goal.targets.product_views} product views, ${goal.targets.add_to_carts} add-to-carts, ${goal.targets.checkout_starts} checkout starts; current verified progress: ${currentGoalProgress.orders} orders, ${currentGoalProgress.qualified_visitors} sessions/qualified visitors, ${currentGoalProgress.product_views} product views, ${currentGoalProgress.add_to_carts} add-to-carts, ${currentGoalProgress.checkout_starts} checkout starts.`).join('\n')}
+${goalCards.map((goal) => `- ${goal.name}: ${goal.start_date} to ${goal.target_date}; targets: ${goal.targets.orders} orders, ${goal.targets.qualified_visitors} qualified visitors, ${goal.targets.product_views} product views, ${goal.targets.add_to_carts} add-to-carts, ${goal.targets.checkout_starts} checkout starts; current verified progress: ${currentGoalProgress.orders} orders, ${currentGoalProgress.qualified_visitors} sessions/qualified visitors, ${currentGoalProgress.product_clicks} product clicks, ${currentGoalProgress.product_views} product views, ${currentGoalProgress.add_to_carts} add-to-carts, ${currentGoalProgress.checkout_starts} checkout starts.`).join('\n')}
 
 ## Agent Performance
 

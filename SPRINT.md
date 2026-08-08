@@ -202,6 +202,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Faraday refreshed the August 8 qualified-traffic kit and live weekly gift guide for campaign `order_growth_august_2026`.
 - [x] Faraday/Rawls pulled fresh Search Console evidence: 32 impressions, 0 clicks, 15 query/page rows, and 6/6 checked order-goal priority URLs indexed with canonical matches.
 - [x] Faraday optimized the Birthday Jewelry Gifts collection from the strongest current GSC non-brand signal cluster, adding claim-safe birthday necklace copy, internal links, and updated SEO metadata.
+- [x] Tesla/Rawls added GA4 `select_item` product-click tracking and surfaced product clicks in the Agent Command Center so the first-order funnel can separate product-link clicks from PDP views.
 - [ ] Faraday/Kuhn next blog implementation batch: improve thin/weak article sections with concise buyer-decision blocks, keeping products and collections as the conversion path and avoiding unsupported material or delivery claims.
 ## Success Criteria
 

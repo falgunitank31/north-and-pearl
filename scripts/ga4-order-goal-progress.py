@@ -36,7 +36,7 @@ except Exception as exc:  # pragma: no cover - script dependency guard
     sys.exit(1)
 
 
-FUNNEL_EVENTS = ["view_item", "add_to_cart", "begin_checkout", "purchase"]
+FUNNEL_EVENTS = ["select_item", "view_item", "add_to_cart", "begin_checkout", "purchase"]
 
 
 def parse_args():
@@ -90,6 +90,7 @@ def main():
             "screen_page_views": 0,
             "event_count": 0,
             "purchase_revenue": 0.0,
+            "select_item": 0,
             "view_item": 0,
             "add_to_cart": 0,
             "begin_checkout": 0,

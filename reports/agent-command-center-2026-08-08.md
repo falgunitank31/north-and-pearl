@@ -1,6 +1,6 @@
 # Agent Command Center
 
-Generated: 2026-08-08T19:33:02.813Z
+Generated: 2026-08-08T19:40:23.740Z
 
 ## Summary
 
@@ -27,8 +27,8 @@ Generated: 2026-08-08T19:33:02.813Z
 
 ## Order Goals
 
-- 7-Day First-Order Push: 2026-08-08 to 2026-08-15; targets: 1 orders, 300 qualified visitors, 30 product views, 5 add-to-carts, 1 checkout starts; current verified progress: 0 orders, 2 sessions/qualified visitors, 0 product views, 0 add-to-carts, 0 checkout starts.
-- 30-Day Order Traction: 2026-08-08 to 2026-09-07; targets: 10 orders, 1500 qualified visitors, 200 product views, 30 add-to-carts, 15 checkout starts; current verified progress: 0 orders, 2 sessions/qualified visitors, 0 product views, 0 add-to-carts, 0 checkout starts.
+- 7-Day First-Order Push: 2026-08-08 to 2026-08-15; targets: 1 orders, 300 qualified visitors, 30 product views, 5 add-to-carts, 1 checkout starts; current verified progress: 0 orders, 2 sessions/qualified visitors, 0 product clicks, 0 product views, 0 add-to-carts, 0 checkout starts.
+- 30-Day Order Traction: 2026-08-08 to 2026-09-07; targets: 10 orders, 1500 qualified visitors, 200 product views, 30 add-to-carts, 15 checkout starts; current verified progress: 0 orders, 2 sessions/qualified visitors, 0 product clicks, 0 product views, 0 add-to-carts, 0 checkout starts.
 
 ## Agent Performance
 

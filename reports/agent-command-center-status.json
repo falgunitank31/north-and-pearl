@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-08T19:33:02.813Z",
+    "generatedAt": "2026-08-08T19:40:23.740Z",
     "sameThreadAutomationActive": false,
     "activeAutomations": 0,
     "workingToday": 0,
@@ -159,6 +159,7 @@
   ],
   "currentGoalProgress": {
     "qualified_visitors": 2,
+    "product_clicks": 0,
     "product_views": 0,
     "add_to_carts": 0,
     "checkout_starts": 0,
@@ -190,6 +191,7 @@
       "strategy": "Drive qualified traffic into commercial gift and personalized-jewelry paths, verify product/cart readiness, and monitor daily funnel movement without fake discounts or unsupported claims.",
       "progress": {
         "qualified_visitors": 1,
+        "product_clicks": 0,
         "product_views": 0,
         "add_to_carts": 0,
         "checkout_starts": 0,
@@ -223,6 +225,7 @@
       "strategy": "Build a repeatable traffic-to-order loop through organic search readiness, buyer-intent pages, commercial merchandising, qualified visitor distribution, product trust, and daily funnel measurement.",
       "progress": {
         "qualified_visitors": 0,
+        "product_clicks": 0,
         "product_views": 0,
         "add_to_carts": 0,
         "checkout_starts": 0,

@@ -32,6 +32,22 @@
     };
   }
 
+  function readProductLinkPayload(link) {
+    if (!link) return null;
+
+    var title =
+      link.getAttribute('aria-label') ||
+      link.querySelector('strong, .card__heading, .full-unstyled-link')?.textContent ||
+      link.textContent ||
+      'North & Pearl jewelry';
+
+    return {
+      item_id: link.pathname || link.getAttribute('href') || '',
+      item_name: title.replace(/\s+/g, ' ').trim(),
+      item_category: 'Product click',
+    };
+  }
+
   function sendProductView() {
     var product = readProductPayload();
     if (!product) return;
@@ -86,8 +102,24 @@
     });
   }
 
+  function bindProductClicks() {
+    document.addEventListener('click', function (event) {
+      var productLink = event.target.closest('a[href*="/products/"]');
+      if (!productLink) return;
+
+      var item = readProductLinkPayload(productLink);
+      if (!item || !item.item_id) return;
+
+      sendGa4Event('select_item', {
+        item_list_name: productLink.closest('[aria-labelledby]')?.getAttribute('aria-labelledby') || document.title,
+        items: [item],
+      });
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     sendProductView();
+    bindProductClicks();
     bindAddToCart();
     bindBeginCheckout();
   }, { once: true });

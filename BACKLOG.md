@@ -6,6 +6,8 @@
 
 ## P1
 
+- DataForSEO MCP is registered in the local Codex config through the secure wrapper `~/.codex/bin/dataforseo-mcp.sh`, but live validation is blocked until `DATAFORSEO_USERNAME` and `DATAFORSEO_PASSWORD` API credentials are added to the secure local environment or `~/.config/codex-seo/dataforseo.env`. Do not put credentials in the repository or chat.
+- Once DataForSEO credentials are available and Codex is restarted/reloaded, Faraday must run a minimal low-cost connection validation, log cost, then create the North & Pearl Organic Market Opportunity Baseline for the U.S. jewelry market.
 - Monitor Merchant Center readiness issues that block free listings, including shipping/returns/feed attribute validation.
 - Confirm all customer-facing material, shipping, return, and quality claims remain verified or neutral.
 - Monitor compare-at pricing trust: all active products currently have compare-at data, but live theme checks show no visible sale labels or sale-price blocks on sampled collection/PDP pages.
@@ -78,6 +80,7 @@
 
 ## Blocked / Needs Owner
 
+- DataForSEO live market-data validation is blocked by missing API credentials in the current environment. MCP registration, field config, wrapper, and cost limits are prepared; no API calls have been made.
 - Paid tools, ads, supplier contact, inventory/sample purchases, legal policy finalization, and any unverified material claims require owner approval.
 - Alibaba direct product-page fetching for media replacement is partially blocked by protection responses; exact-source media replacement should resume only when source pages render normally in browser, owner supplies product image URLs, supplier provides assets, or final photography is available. One accessible source (`1601721496131`) exposed that the active product was miscategorized, and the live catalog record has been repaired.
 - Shopify order-source monitoring is unblocked as of July 29, 2026; safe recent-orders query returned `ORDER_ACCESS_OK` with 0 visible orders.

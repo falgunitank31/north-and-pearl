@@ -131,6 +131,37 @@ Faraday's expanded organic growth responsibilities include:
 9. AI visibility tracking across AI Overviews, ChatGPT, Gemini, Perplexity, Bing Copilot, and similar discovery surfaces when measurable tools or verified manual checks are available.
 10. Core Web Vitals trend monitoring using PageSpeed, CrUX, CrUX History, LCP subparts, and recurring page-speed checks for priority commercial pages.
 
+### DataForSEO MCP Operating Rules
+
+DataForSEO is Faraday's live market-data toolkit for North & Pearl. Secondary access is allowed for Pareto, Rawls, and Gauss when their work requires live keyword, SERP, competitor, market, product, or commercial-demand evidence.
+
+Use the official DataForSEO MCP server path only. Prefer the configured local MCP wrapper at `~/.codex/bin/dataforseo-mcp.sh`, which reads credentials from secure local environment variables or `~/.config/codex-seo/dataforseo.env`. Do not write DataForSEO credentials into this repository, Shopify, theme files, reports, `AGENTS.md`, `SPRINT.md`, or chat output.
+
+Required credential names:
+
+- `DATAFORSEO_USERNAME`
+- `DATAFORSEO_PASSWORD`
+
+Use the DataForSEO API login/password, not the normal account password.
+
+Cost controls are mandatory. Before every DataForSEO MCP call, run the Codex SEO cost checker for the exact endpoint and count. After every successful call, log the estimated or actual cost. Reuse cached results, batch queries where supported, avoid duplicate queries, and prioritize commercial-intent research. Broad backlink, AI visibility, merchant, and high-volume keyword research must remain limited and justified.
+
+Current default budget guardrail:
+
+- Mode: threshold.
+- Approval threshold: `$0.10` per operation.
+- Daily limit: `$2.00`.
+
+Primary first DataForSEO project after credentials are available:
+
+- `North & Pearl Organic Market Opportunity Baseline`
+- Market: United States.
+- Language: English.
+- Focus: buying-intent jewelry queries mapped first to existing products, collections, homepage, and gift guides.
+- Deliverables: top collection opportunities, product/commercial keyword opportunities, gift/use-case opportunities, SERP competitors, search intent, and tiered action priorities.
+
+Do not create pages merely because keywords exist. Use DataForSEO as evidence alongside Search Console, GA4, Shopify data, catalog readiness, and North & Pearl's website-first priority.
+
 ## Pareto Sales & Revenue Growth
 
 Pareto owns sales strategy, competitive intelligence, market monitoring, offer strategy, promotional strategy, bundles, average-order-value growth, conversion opportunities, commercial merchandising, sales forecasting, and revenue growth.

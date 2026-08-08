@@ -5,6 +5,10 @@
 
 ## August 8, 2026
 
+- Registered the official DataForSEO local MCP workflow for North & Pearl using a secure local wrapper at `~/.codex/bin/dataforseo-mcp.sh`; credentials remain outside the repository and are expected through `DATAFORSEO_USERNAME` and `DATAFORSEO_PASSWORD`.
+- Installed/verified the DataForSEO field config for Codex SEO and configured cost controls in threshold mode with a `$0.10` approval threshold, `$2.00` daily limit, and 0 current spend.
+- Validated that DataForSEO MCP fails closed when API credentials are missing; no paid DataForSEO API calls were made.
+- Added DataForSEO ownership, cost-control, and baseline-research rules to the agent operating system and sprint/backlog/metrics records.
 - Added a conservative customer-facing Return Policy to Shopify's native `REFUND_POLICY`, aligned `/pages/returns-exchanges`, updated the live Returns & Exchanges template section, and verified both live policy surfaces render the 14-day standard-item return language. Theme Check passed with 281 files inspected and 0 offenses.
 
 ## August 6, 2026

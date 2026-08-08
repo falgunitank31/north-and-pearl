@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generatedAt": "2026-08-08T20:24:39.467Z",
+    "generatedAt": "2026-08-08T20:30:39.561Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
-    "workingToday": 1,
+    "workingToday": 2,
     "needsUpdate": 0,
-    "resting": 8,
+    "resting": 7,
     "searchImpressions": 32,
     "searchClicks": 0,
     "organicSessions": 0,
@@ -121,10 +121,10 @@
     },
     {
       "name": "Lead Orchestrator",
-      "reportsToday": 0,
-      "totalReports": 12,
-      "latest": "lead-orchestrator-operating-pass-2026-08-04.md",
-      "status": "Waiting In Thread"
+      "reportsToday": 1,
+      "totalReports": 13,
+      "latest": "daily-order-goal-2026-08-08.md",
+      "status": "Updated Today"
     }
   ],
   "blockers": [
@@ -420,6 +420,7 @@
       "name": "Lead Orchestrator",
       "lane": "Ecommerce operating system",
       "reportPrefixes": [
+        "daily-order-goal",
         "order-growth-execution",
         "lead-urgent-task-execution",
         "lead-traffic-orders-summary",
@@ -430,11 +431,16 @@
       ],
       "owns": "Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.",
       "latest": {
-        "file": "lead-orchestrator-operating-pass-2026-08-04.md",
-        "path": "reports/lead-orchestrator-operating-pass-2026-08-04.md",
-        "mtime": "2026-08-04T13:43:00.015Z"
+        "file": "daily-order-goal-2026-08-08.md",
+        "path": "reports/daily-order-goal-2026-08-08.md",
+        "mtime": "2026-08-08T20:30:04.391Z"
       },
-      "status": "Waiting In Thread"
+      "todayReport": {
+        "file": "daily-order-goal-2026-08-08.md",
+        "path": "reports/daily-order-goal-2026-08-08.md",
+        "mtime": "2026-08-08T20:30:04.391Z"
+      },
+      "status": "Updated Today"
     }
   ]
 }

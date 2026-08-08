@@ -59,7 +59,7 @@ const agents = [
   {
     name: 'Lead Orchestrator',
     lane: 'Ecommerce operating system',
-    reportPrefixes: ['order-growth-execution', 'lead-urgent-task-execution', 'lead-traffic-orders-summary', 'lead-daily-ecommerce-coordination', 'lead-orchestrator-daily-execution', 'lead-orchestrator-operating-pass', 'daily-orchestration-sprint'],
+    reportPrefixes: ['daily-order-goal', 'order-growth-execution', 'lead-urgent-task-execution', 'lead-traffic-orders-summary', 'lead-daily-ecommerce-coordination', 'lead-orchestrator-daily-execution', 'lead-orchestrator-operating-pass', 'daily-orchestration-sprint'],
     owns: 'Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.',
   },
 ];
@@ -181,7 +181,7 @@ const commandTrafficReport = readText(`reports/faraday-traffic-chance-before-aft
 
 const gscTotals = latestGsc.data?.totals || {};
 const ga4OrganicSessions = latestGa4Pages.data?.total_organic_sessions ?? 0;
-const orderCount = latestOrders.data?.orders?.nodes?.length ?? 0;
+const orderCount = latestOrders.data?.ordersVisible ?? latestOrders.data?.orders?.nodes?.length ?? 0;
 const activeProducts = firstNumber(merchantText, [/Active products audited:\s*(\d+)/i, /(\d+)\s+active products/i], 'Unknown');
 const merchantReady = firstNumber(merchantText, [/Ready with identifier caveat:\s*(\d+)/i, /(\d+)\s+active products ready/i], 'Unknown');
 const merchantNeedsReview = firstNumber(merchantText, [/Needs review:\s*(\d+)/i, /(\d+)\s+needing review/i], 'Unknown');

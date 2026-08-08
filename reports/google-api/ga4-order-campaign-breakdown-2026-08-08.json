@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-08T20:16:14Z",
+  "generated_at": "2026-08-08T20:25:55Z",
   "property": "properties/546565745",
   "date_range": {
     "start": "2026-08-08",
-    "end": "today"
+    "end": "2026-08-08"
   },
   "highlight_campaign": "order_growth_august_2026",
   "breakdowns": {
@@ -61,8 +61,8 @@
   "error": null,
   "quota": {
     "daily_consumed": 2,
-    "daily_remaining": 199950,
+    "daily_remaining": 199943,
     "hourly_consumed": 2,
-    "hourly_remaining": 39978
+    "hourly_remaining": 39971
   }
 }

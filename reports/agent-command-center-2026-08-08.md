@@ -1,12 +1,12 @@
 # Agent Command Center
 
-Generated: 2026-08-08T20:24:39.467Z
+Generated: 2026-08-08T20:30:39.561Z
 
 ## Summary
 
 - Same-thread heartbeat active: yes
-- Lanes updated today: 1
-- Lanes resting: 8
+- Lanes updated today: 2
+- Lanes resting: 7
 - Lanes with no report yet: 0
 - Search Console impressions: 32
 - Search Console clicks: 0
@@ -42,7 +42,7 @@ Generated: 2026-08-08T20:24:39.467Z
 - Lovelace: 0 report(s) today, 8 total matching lane reports; latest: lovelace-daily-order-source-monitor-2026-08-04.md
 - Kuhn: 0 report(s) today, 8 total matching lane reports; latest: kuhn-daily-design-qa-2026-08-04.md
 - Curie: 0 report(s) today, 9 total matching lane reports; latest: curie-daily-source-claim-safety-2026-08-04.md
-- Lead Orchestrator: 0 report(s) today, 12 total matching lane reports; latest: lead-orchestrator-operating-pass-2026-08-04.md
+- Lead Orchestrator: 1 report(s) today, 13 total matching lane reports; latest: daily-order-goal-2026-08-08.md
 
 ## Blockers
 
@@ -61,7 +61,7 @@ Generated: 2026-08-08T20:24:39.467Z
 - Lovelace: Waiting In Thread; latest report: reports/lovelace-daily-order-source-monitor-2026-08-04.md; operating mode: same-thread heartbeat
 - Kuhn: Waiting In Thread; latest report: reports/kuhn-daily-design-qa-2026-08-04.md; operating mode: same-thread heartbeat
 - Curie: Waiting In Thread; latest report: reports/curie-daily-source-claim-safety-2026-08-04.md; operating mode: same-thread heartbeat
-- Lead Orchestrator: Waiting In Thread; latest report: reports/lead-orchestrator-operating-pass-2026-08-04.md; operating mode: same-thread heartbeat
+- Lead Orchestrator: Updated Today; latest report: reports/daily-order-goal-2026-08-08.md; operating mode: same-thread heartbeat
 
 ## UI
 

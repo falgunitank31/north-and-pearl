@@ -9,10 +9,10 @@
   color: var(--np-home-black);
 }
 
-/* Keep the current five-card occasion edit balanced on desktop. */
+/* Keep the current occasion edit balanced as merchandising grows. */
 @media screen and (min-width: 990px) {
   .np-commerce-home .np-occasion-grid {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
@@ -379,7 +379,7 @@
 
 .np-occasion-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
 }
 

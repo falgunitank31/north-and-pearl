@@ -40,7 +40,7 @@
 - Lovelace and the owner must finalize shipping, support, fulfillment, and broader personalized/custom order rules before paid acquisition or stronger operational copy. A conservative launch Return Policy was added on August 8, 2026, but final legal review is still recommended.
 
 - Pareto/Faraday must monitor campaign `order_growth_august_2026` after the 72-hour first-order activation kit is distributed: sessions, landing-page engagement, product views, add-to-cart, checkout starts, purchases, and source quality.
-- Monitor Merchant Center reprocessing for the August 4 Product schema fix; warnings for missing `shippingDetails` and `hasMerchantReturnPolicy` should clear after Google recrawls affected product URLs.
+- Monitor Merchant Center/GSC reprocessing for the August 8 Product schema fix; prior warnings for missing `deliveryTime` and invalid `returnPolicyCategory` should clear after Google recrawls affected product URLs or after GSC Validate Fix completes.
 - August 5 indexing-phase watch: re-inspect the 50-url commercial priority set after Google crawls the new homepage Featured Pieces rail. Current URL Inspection split is 27 indexed, 2 discovered/not indexed, 1 crawled/not indexed, and 20 unknown to Google. Next action is internal-link/page-quality strengthening, not broad URL churn.
 - Faraday/Gauss/Pareto must keep the strongest 30-50 commercial URLs stable while indexing matures. Avoid changing handles, titles, collection URLs, or promotional framing unless a page is unsafe, unavailable, misleading, or genuinely weak.
 - Monitor the August 5 conversion-depth pass for PDP engagement once traffic exists: product views, add-to-cart rate, internal-link clicks where measurable, and organic discovery movement for priority products.

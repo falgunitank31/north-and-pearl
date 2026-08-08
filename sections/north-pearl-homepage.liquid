@@ -121,6 +121,39 @@
     </div>
   </nav>
 
+  {%- if best_collection != blank and best_collection.products_count > 0 -%}
+    <div class="np-section np-index-edit" aria-labelledby="np-product-entry-title">
+      <div class="np-section-heading np-section-heading--split">
+        <div>
+          <p class="np-kicker">Ready to choose</p>
+          <h2 id="np-product-entry-title">Shop a piece now.</h2>
+        </div>
+        <a class="np-text-link" href="{{ best_collection.url }}">View the full edit</a>
+      </div>
+      <div class="np-index-edit__grid" role="list">
+        {%- for product in best_collection.products limit: 4 -%}
+          {%- if product.featured_media -%}
+            <a class="np-index-edit__card" href="{{ product.url }}" role="listitem">
+              {{
+                product.featured_media
+                | image_url: width: 720
+                | image_tag:
+                  widths: '240, 360, 540, 720',
+                  sizes: '(min-width: 990px) 24vw, (min-width: 640px) 45vw, 92vw',
+                  loading: 'lazy',
+                  alt: product.featured_media.alt | default: product.title
+              }}
+              <span>
+                <strong>{{ product.title | escape }}</strong>
+                <small>{{ product.price | money }}</small>
+              </span>
+            </a>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  {%- endif -%}
+
   <div class="np-section np-section--categories">
     <div class="np-section-heading np-section-heading--split">
       <div>

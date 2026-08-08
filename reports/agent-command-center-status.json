@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-06T13:03:29.994Z",
+    "generatedAt": "2026-08-08T18:47:15.701Z",
     "sameThreadAutomationActive": false,
     "activeAutomations": 0,
     "workingToday": 0,
@@ -86,7 +86,7 @@
     },
     {
       "name": "Tesla",
-      "reportsToday": 1,
+      "reportsToday": 0,
       "totalReports": 15,
       "latest": "live-storefront-qa-2026-08-06.md",
       "status": "Not Scheduled"
@@ -155,6 +155,72 @@
       "title": "115 active products remain below preferred media standard",
       "impact": "Storefront QA passes, but product imagery is not yet at the premium visual bar for a world-class jewelry brand.",
       "next": "Work reports/source-reference-recovery-2026-07-29.md first: 5 recoverable source IDs need exact-match confirmation and 4 products need exact Alibaba URLs."
+    }
+  ],
+  "orderGoals": [
+    {
+      "id": "first_order_7_day_push",
+      "name": "7-Day First-Order Push",
+      "start_date": "2026-08-08",
+      "target_date": "2026-08-15",
+      "targets": {
+        "qualified_visitors": 300,
+        "product_views": 30,
+        "add_to_carts": 5,
+        "checkout_starts": 1,
+        "orders": 1
+      },
+      "primary_metric": "orders",
+      "owner": "Pareto",
+      "supporting_lanes": [
+        "Faraday",
+        "Gauss",
+        "Kuhn",
+        "Tesla",
+        "Rawls",
+        "Lovelace"
+      ],
+      "strategy": "Drive qualified traffic into commercial gift and personalized-jewelry paths, verify product/cart readiness, and monitor daily funnel movement without fake discounts or unsupported claims.",
+      "progress": {
+        "qualified_visitors": 0,
+        "product_views": 0,
+        "add_to_carts": 0,
+        "checkout_starts": 0,
+        "orders": 0
+      }
+    },
+    {
+      "id": "thirty_day_order_traction",
+      "name": "30-Day Order Traction",
+      "start_date": "2026-08-08",
+      "target_date": "2026-09-07",
+      "targets": {
+        "qualified_visitors": 1500,
+        "product_views": 200,
+        "add_to_carts": 30,
+        "checkout_starts": 15,
+        "orders": 10
+      },
+      "primary_metric": "orders",
+      "owner": "Lead Orchestrator",
+      "supporting_lanes": [
+        "Pareto",
+        "Faraday",
+        "Rawls",
+        "Gauss",
+        "Kuhn",
+        "Tesla",
+        "Lovelace",
+        "Curie"
+      ],
+      "strategy": "Build a repeatable traffic-to-order loop through organic search readiness, buyer-intent pages, commercial merchandising, qualified visitor distribution, product trust, and daily funnel measurement.",
+      "progress": {
+        "qualified_visitors": 0,
+        "product_views": 0,
+        "add_to_carts": 0,
+        "checkout_starts": 0,
+        "orders": 0
+      }
     }
   ],
   "agents": [
@@ -228,11 +294,6 @@
       ],
       "owns": "Theme code, QA, cart, search, mobile, performance, accessibility, Shopify CLI.",
       "latest": {
-        "file": "live-storefront-qa-2026-08-06.md",
-        "path": "reports/live-storefront-qa-2026-08-06.md",
-        "mtime": "2026-08-06T13:02:15.130Z"
-      },
-      "todayReport": {
         "file": "live-storefront-qa-2026-08-06.md",
         "path": "reports/live-storefront-qa-2026-08-06.md",
         "mtime": "2026-08-06T13:02:15.130Z"

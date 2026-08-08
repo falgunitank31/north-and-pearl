@@ -171,6 +171,7 @@ const latestGsc = readLatestJson('reports/google-api', (file) => file.startsWith
 const latestGa4Organic = readLatestJson('reports/google-api', (file) => file.startsWith('ga4-organic-') && !file.startsWith('ga4-organic-top-pages-') && file.endsWith('.json'));
 const latestGa4Pages = readLatestJson('reports/google-api', (file) => file.startsWith('ga4-organic-top-pages-') && file.endsWith('.json'));
 const latestOrders = readLatestJson('reports', (file) => file.startsWith('shopify-orders-safe-') && file.endsWith('.json'));
+const orderGoals = readJson('sales/order-goals.json', { goals: [], baseline: {} });
 const merchantText = readText(`reports/merchant-center-readiness-${today}.md`) || readText('reports/merchant-center-readiness-2026-07-30.md');
 const sprintText = readText('SPRINT.md');
 const metricsText = readText('METRICS.md');
@@ -206,6 +207,32 @@ const agentStats = rows.map((row) => {
     status: row.status,
   };
 });
+
+function percentage(current, target) {
+  const currentNumber = Number(current || 0);
+  const targetNumber = Number(target || 0);
+  if (!targetNumber) return 0;
+  return Math.max(0, Math.min(100, Math.round((currentNumber / targetNumber) * 100)));
+}
+
+const currentGoalProgress = {
+  qualified_visitors: Number(ga4OrganicSessions || 0),
+  product_views: 0,
+  add_to_carts: 0,
+  checkout_starts: 0,
+  orders: Number(orderCount || 0),
+};
+
+const goalCards = (orderGoals.goals || []).map((goal) => ({
+  ...goal,
+  progress: {
+    qualified_visitors: percentage(currentGoalProgress.qualified_visitors, goal.targets?.qualified_visitors),
+    product_views: percentage(currentGoalProgress.product_views, goal.targets?.product_views),
+    add_to_carts: percentage(currentGoalProgress.add_to_carts, goal.targets?.add_to_carts),
+    checkout_starts: percentage(currentGoalProgress.checkout_starts, goal.targets?.checkout_starts),
+    orders: percentage(currentGoalProgress.orders, goal.targets?.orders),
+  },
+}));
 
 const summary = {
   generatedAt: now.toISOString(),
@@ -342,6 +369,47 @@ const html = `<!doctype html>
     .metric.blue strong { color: var(--blue); }
     .metric.green strong { color: var(--green); }
     .metric.amber strong { color: var(--amber); }
+    .goal-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 12px;
+    }
+    .goal-card {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fffaf1;
+      padding: 16px;
+    }
+    .goal-card h3 {
+      margin: 0 0 6px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 24px;
+    }
+    .goal-meta {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+    .goal-row {
+      display: grid;
+      grid-template-columns: 150px 1fr 88px;
+      gap: 10px;
+      align-items: center;
+      margin: 9px 0;
+      font-size: 13px;
+    }
+    .goal-bar {
+      height: 8px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #eee2d0;
+    }
+    .goal-bar span {
+      display: block;
+      height: 100%;
+      background: var(--gold);
+    }
     .agent-metrics {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -468,7 +536,7 @@ const html = `<!doctype html>
     footer { margin-top: 26px; color: var(--muted); font-size: 13px; }
     .hidden { display: none !important; }
     @media (max-width: 980px) {
-      .stats, .toolbar, .blockers, .card, .metric-grid, .agent-metrics { grid-template-columns: 1fr; }
+      .stats, .toolbar, .blockers, .card, .metric-grid, .agent-metrics, .goal-grid { grid-template-columns: 1fr; }
       .status { justify-content: flex-start; }
     }
   </style>
@@ -501,6 +569,33 @@ const html = `<!doctype html>
         `).join('')}
       </div>
       <p class="small">Latest Faraday read: ${commandTrafficReport ? 'traffic chance improved, verified traffic increase remains 0 so far.' : 'traffic before/after report is not present yet.'}</p>
+    </section>
+
+    <section class="panel" aria-label="Order goals">
+      <h2>Order Goals</h2>
+      <p class="small">Baseline date: ${esc(orderGoals.created_at || 'Not set')}. Progress uses verified available data only. Product views, add-to-carts, and checkout starts are held at 0 here until a reliable Shopify/GA4 funnel source is pulled into this dashboard.</p>
+      <div class="goal-grid">
+        ${goalCards.map((goal) => `
+          <div class="goal-card">
+            <h3>${esc(goal.name)}</h3>
+            <div class="goal-meta">${esc(goal.start_date)} to ${esc(goal.target_date)} · Owner: ${esc(goal.owner)}</div>
+            ${[
+              ['Qualified visitors', 'qualified_visitors'],
+              ['Product views', 'product_views'],
+              ['Add to carts', 'add_to_carts'],
+              ['Checkout starts', 'checkout_starts'],
+              ['Orders', 'orders'],
+            ].map(([label, key]) => `
+              <div class="goal-row">
+                <span>${esc(label)}</span>
+                <div class="goal-bar" aria-label="${esc(label)} progress"><span style="width:${esc(goal.progress[key])}%"></span></div>
+                <span>${esc(currentGoalProgress[key])}/${esc(goal.targets?.[key] || 0)}</span>
+              </div>
+            `).join('')}
+            <p class="small">${esc(goal.strategy)}</p>
+          </div>
+        `).join('')}
+      </div>
     </section>
 
     <section class="panel" aria-label="Agent performance statistics">
@@ -615,7 +710,7 @@ const html = `<!doctype html>
 mkdirSync('docs', { recursive: true });
 mkdirSync('reports', { recursive: true });
 writeFileSync('docs/agent-command-center.html', html);
-writeFileSync('reports/agent-command-center-status.json', JSON.stringify({ summary, businessStats, agentStats, blockers, agents: rows }, null, 2));
+writeFileSync('reports/agent-command-center-status.json', JSON.stringify({ summary, businessStats, agentStats, blockers, orderGoals: goalCards, agents: rows }, null, 2));
 
 const textReport = `# Agent Command Center
 
@@ -636,6 +731,10 @@ Generated: ${summary.generatedAt}
 ## Traffic & Performance
 
 ${businessStats.map((item) => `- ${item.label}: ${item.value} (${item.note})`).join('\n')}
+
+## Order Goals
+
+${goalCards.map((goal) => `- ${goal.name}: ${goal.start_date} to ${goal.target_date}; targets: ${goal.targets.orders} orders, ${goal.targets.qualified_visitors} qualified visitors, ${goal.targets.product_views} product views, ${goal.targets.add_to_carts} add-to-carts, ${goal.targets.checkout_starts} checkout starts; current verified progress: ${currentGoalProgress.orders} orders, ${currentGoalProgress.qualified_visitors} organic sessions/qualified visitors currently tracked in dashboard.`).join('\n')}
 
 ## Agent Performance
 

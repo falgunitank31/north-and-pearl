@@ -88,6 +88,47 @@
     .metric.blue strong { color: var(--blue); }
     .metric.green strong { color: var(--green); }
     .metric.amber strong { color: var(--amber); }
+    .goal-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 12px;
+    }
+    .goal-card {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fffaf1;
+      padding: 16px;
+    }
+    .goal-card h3 {
+      margin: 0 0 6px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 24px;
+    }
+    .goal-meta {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+    .goal-row {
+      display: grid;
+      grid-template-columns: 150px 1fr 88px;
+      gap: 10px;
+      align-items: center;
+      margin: 9px 0;
+      font-size: 13px;
+    }
+    .goal-bar {
+      height: 8px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #eee2d0;
+    }
+    .goal-bar span {
+      display: block;
+      height: 100%;
+      background: var(--gold);
+    }
     .agent-metrics {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -214,7 +255,7 @@
     footer { margin-top: 26px; color: var(--muted); font-size: 13px; }
     .hidden { display: none !important; }
     @media (max-width: 980px) {
-      .stats, .toolbar, .blockers, .card, .metric-grid, .agent-metrics { grid-template-columns: 1fr; }
+      .stats, .toolbar, .blockers, .card, .metric-grid, .agent-metrics, .goal-grid { grid-template-columns: 1fr; }
       .status { justify-content: flex-start; }
     }
   </style>
@@ -291,6 +332,88 @@
       <p class="small">Latest Faraday read: traffic chance improved, verified traffic increase remains 0 so far.</p>
     </section>
 
+    <section class="panel" aria-label="Order goals">
+      <h2>Order Goals</h2>
+      <p class="small">Baseline date: 2026-08-08. Progress uses verified available data only. Product views, add-to-carts, and checkout starts are held at 0 here until a reliable Shopify/GA4 funnel source is pulled into this dashboard.</p>
+      <div class="goal-grid">
+        
+          <div class="goal-card">
+            <h3>7-Day First-Order Push</h3>
+            <div class="goal-meta">2026-08-08 to 2026-08-15 · Owner: Pareto</div>
+            
+              <div class="goal-row">
+                <span>Qualified visitors</span>
+                <div class="goal-bar" aria-label="Qualified visitors progress"><span style="width:0%"></span></div>
+                <span>0/300</span>
+              </div>
+            
+              <div class="goal-row">
+                <span>Product views</span>
+                <div class="goal-bar" aria-label="Product views progress"><span style="width:0%"></span></div>
+                <span>0/30</span>
+              </div>
+            
+              <div class="goal-row">
+                <span>Add to carts</span>
+                <div class="goal-bar" aria-label="Add to carts progress"><span style="width:0%"></span></div>
+                <span>0/5</span>
+              </div>
+            
+              <div class="goal-row">
+                <span>Checkout starts</span>
+                <div class="goal-bar" aria-label="Checkout starts progress"><span style="width:0%"></span></div>
+                <span>0/1</span>
+              </div>
+            
+              <div class="goal-row">
+                <span>Orders</span>
+                <div class="goal-bar" aria-label="Orders progress"><span style="width:0%"></span></div>
+                <span>0/1</span>
+              </div>
+            
+            <p class="small">Drive qualified traffic into commercial gift and personalized-jewelry paths, verify product/cart readiness, and monitor daily funnel movement without fake discounts or unsupported claims.</p>
+          </div>
+        
+          <div class="goal-card">
+            <h3>30-Day Order Traction</h3>
+            <div class="goal-meta">2026-08-08 to 2026-09-07 · Owner: Lead Orchestrator</div>
+            
+              <div class="goal-row">
+                <span>Qualified visitors</span>
+                <div class="goal-bar" aria-label="Qualified visitors progress"><span style="width:0%"></span></div>
+                <span>0/1500</span>
+              </div>
+            
+              <div class="goal-row">
+                <span>Product views</span>
+                <div class="goal-bar" aria-label="Product views progress"><span style="width:0%"></span></div>
+                <span>0/200</span>
+              </div>
+            
+              <div class="goal-row">
+                <span>Add to carts</span>
+                <div class="goal-bar" aria-label="Add to carts progress"><span style="width:0%"></span></div>
+                <span>0/30</span>
+              </div>
+            
+              <div class="goal-row">
+                <span>Checkout starts</span>
+                <div class="goal-bar" aria-label="Checkout starts progress"><span style="width:0%"></span></div>
+                <span>0/15</span>
+              </div>
+            
+              <div class="goal-row">
+                <span>Orders</span>
+                <div class="goal-bar" aria-label="Orders progress"><span style="width:0%"></span></div>
+                <span>0/10</span>
+              </div>
+            
+            <p class="small">Build a repeatable traffic-to-order loop through organic search readiness, buyer-intent pages, commercial merchandising, qualified visitor distribution, product trust, and daily funnel measurement.</p>
+          </div>
+        
+      </div>
+    </section>
+
     <section class="panel" aria-label="Agent performance statistics">
       <h2>Agent Performance</h2>
       <p class="small">This tracks evidence of work in the same thread: reports produced today, total matching lane reports, and latest artifact.</p>
@@ -320,7 +443,7 @@
           <div class="agent-metric">
             <strong>Tesla</strong>
             <div class="small">Not Scheduled</div>
-            <div class="small">1 report(s) today · 15 total</div>
+            <div class="small">0 report(s) today · 15 total</div>
             <div class="small">Latest: live-storefront-qa-2026-08-06.md</div>
           </div>
         
@@ -603,7 +726,7 @@
     </section>
 
     <footer>
-      Generated at 2026-08-06T13:03:29.994Z. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
+      Generated at 2026-08-08T18:47:15.701Z. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
     </footer>
   </main>
   <script>

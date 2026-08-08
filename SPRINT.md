@@ -206,6 +206,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Kuhn/Gauss/Pareto/Tesla diversified the first homepage product-entry rail so the "Shop a piece now" section starts with a necklace, bracelet, ring, and earrings path instead of a repetitive heart-necklace sequence.
 - [x] Tesla/Kuhn/Pareto added homepage hero "Popular picks" PDP links to target the current 0 product-click funnel gap; remote theme files confirm deployment, while immediate public storefront HTML checks were still cached.
 - [x] Tesla/Kuhn/Pareto added a "View piece" cue to homepage product-entry cards; remote theme files confirm deployment, while immediate public storefront HTML checks remain partially cached.
+- [x] Faraday/Pareto/Tesla upgraded the indexed weekly gift guide with a `Shop this guide` order-path section through the Shopify Admin API; Admin verification confirms the section is saved, while immediate public HTML still showed older cached article content.
 - [ ] Faraday/Kuhn next blog implementation batch: improve thin/weak article sections with concise buyer-decision blocks, keeping products and collections as the conversion path and avoiding unsupported material or delivery claims.
 ## Success Criteria
 

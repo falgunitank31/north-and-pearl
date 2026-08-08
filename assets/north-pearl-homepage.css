@@ -85,6 +85,44 @@
   margin-top: 3rem;
 }
 
+.np-hero-picks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.np-hero-picks span,
+.np-hero-picks a {
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+
+.np-hero-picks span {
+  color: var(--np-home-muted);
+  text-transform: uppercase;
+}
+
+.np-hero-picks a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 3.8rem;
+  padding: 0 1.2rem;
+  border: 1px solid var(--np-home-line);
+  border-radius: 999px;
+  background: rgba(255, 250, 243, .72);
+  color: var(--np-home-black);
+  text-decoration: none;
+  transition: border-color .18s ease, background-color .18s ease;
+}
+
+.np-hero-picks a:hover {
+  border-color: var(--np-home-gold);
+  background: #fffaf3;
+}
+
 .np-button {
   display: inline-flex;
   align-items: center;

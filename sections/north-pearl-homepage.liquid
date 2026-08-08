@@ -56,6 +56,29 @@
           <a class="np-button np-button--secondary" href="{{ section.settings.secondary_link }}">{{ section.settings.secondary_label | escape }}</a>
         {%- endif -%}
       </div>
+      <div class="np-hero-picks" aria-label="Quick product picks">
+        <span>Popular picks</span>
+        {%- liquid
+          assign hero_pick_handles = 'necklaces,bracelets,rings' | split: ','
+        -%}
+        {%- for collection_handle in hero_pick_handles -%}
+          {%- liquid
+            assign hero_pick_collection = blank
+            case collection_handle
+              when 'necklaces'
+                assign hero_pick_collection = collections.necklaces
+              when 'bracelets'
+                assign hero_pick_collection = collections.bracelets
+              when 'rings'
+                assign hero_pick_collection = collections.rings
+            endcase
+            assign hero_pick_product = hero_pick_collection.products.first
+          -%}
+          {%- if hero_pick_product != blank -%}
+            <a href="{{ hero_pick_product.url }}">{{ hero_pick_product.title | escape }}</a>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
     </div>
   </div>
 

@@ -178,3 +178,4 @@
 - August 8, 2026: Upgraded the indexed weekly Gift Guide article with a `Shop this guide` order-path section containing 4 product links, 4 buyer-intent collection links, and a concise claim-safe buyer checklist; Shopify Admin API verification confirms the saved body contains the new section.
 - August 8, 2026: Added an order-goal pace report script and generated the first pace report showing the daily qualified-visitor, product-click, product-view, cart, checkout, and order pace required to hit the 7-day and 30-day targets.
 - August 8, 2026: Created a 7-day no-spend first-order distribution plan with day-by-day warm-audience/social actions, UTM-tracked links, copy blocks, and Rawls measurement rules for campaign `order_growth_august_2026`.
+- August 8, 2026: Added GA4 campaign/source/content attribution reporting for the first-order campaign and confirmed `order_growth_august_2026` currently has 0 verified sessions.

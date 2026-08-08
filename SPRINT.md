@@ -209,6 +209,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Faraday/Pareto/Tesla upgraded the indexed weekly gift guide with a `Shop this guide` order-path section through the Shopify Admin API; Admin verification confirms the section is saved, while immediate public HTML still showed older cached article content.
 - [x] Rawls/Pareto added a daily order-goal pace report so the 7-day and 30-day targets show needed qualified visitors, product clicks, product views, carts, checkouts, and orders per remaining day.
 - [x] Faraday/Pareto created the 7-day no-spend distribution plan with tracked links, daily warm-audience/social actions, and measurement rules needed to pursue the first-order target.
+- [x] Rawls added GA4 campaign/source/content attribution for `order_growth_august_2026`; the first verified report shows 0 campaign sessions so far.
 - [ ] Faraday/Kuhn next blog implementation batch: improve thin/weak article sections with concise buyer-decision blocks, keeping products and collections as the conversion path and avoiding unsupported material or delivery claims.
 ## Success Criteria
 

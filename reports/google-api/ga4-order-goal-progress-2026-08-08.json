@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-08-08T18:50:49Z",
+  "property": "properties/546565745",
+  "date_range": {
+    "start": "2026-08-08",
+    "end": "2026-08-08"
+  },
+  "totals": {
+    "sessions": 1,
+    "users": 1,
+    "screen_page_views": 1,
+    "event_count": 4,
+    "purchase_revenue": 0.0,
+    "view_item": 0,
+    "add_to_cart": 0,
+    "begin_checkout": 0,
+    "purchase": 0
+  },
+  "events": [],
+  "error": null,
+  "quota": {
+    "daily_consumed": 1,
+    "daily_remaining": 199997,
+    "hourly_consumed": 1,
+    "hourly_remaining": 39997
+  }
+}

@@ -170,6 +170,7 @@ const rows = agents.map((agent) => {
 const latestGsc = readLatestJson('reports/google-api', (file) => file.startsWith('gsc-query-') && file.endsWith('.json') && !file.includes('after-access') && !file.includes('final'));
 const latestGa4Organic = readLatestJson('reports/google-api', (file) => file.startsWith('ga4-organic-') && !file.startsWith('ga4-organic-top-pages-') && file.endsWith('.json'));
 const latestGa4Pages = readLatestJson('reports/google-api', (file) => file.startsWith('ga4-organic-top-pages-') && file.endsWith('.json'));
+const latestGoalFunnel = readLatestJson('reports/google-api', (file) => file.startsWith('ga4-order-goal-progress-') && file.endsWith('.json'));
 const latestOrders = readLatestJson('reports', (file) => file.startsWith('shopify-orders-safe-') && file.endsWith('.json'));
 const orderGoals = readJson('sales/order-goals.json', { goals: [], baseline: {} });
 const merchantText = readText(`reports/merchant-center-readiness-${today}.md`) || readText('reports/merchant-center-readiness-2026-07-30.md');
@@ -216,11 +217,11 @@ function percentage(current, target) {
 }
 
 const currentGoalProgress = {
-  qualified_visitors: Number(ga4OrganicSessions || 0),
-  product_views: 0,
-  add_to_carts: 0,
-  checkout_starts: 0,
-  orders: Number(orderCount || 0),
+  qualified_visitors: Number(latestGoalFunnel.data?.totals?.sessions ?? ga4OrganicSessions ?? 0),
+  product_views: Number(latestGoalFunnel.data?.totals?.view_item ?? 0),
+  add_to_carts: Number(latestGoalFunnel.data?.totals?.add_to_cart ?? 0),
+  checkout_starts: Number(latestGoalFunnel.data?.totals?.begin_checkout ?? 0),
+  orders: Number(latestGoalFunnel.data?.totals?.purchase ?? orderCount ?? 0),
 };
 
 const goalCards = (orderGoals.goals || []).map((goal) => ({
@@ -573,7 +574,7 @@ const html = `<!doctype html>
 
     <section class="panel" aria-label="Order goals">
       <h2>Order Goals</h2>
-      <p class="small">Baseline date: ${esc(orderGoals.created_at || 'Not set')}. Progress uses verified available data only. Product views, add-to-carts, and checkout starts are held at 0 here until a reliable Shopify/GA4 funnel source is pulled into this dashboard.</p>
+      <p class="small">Baseline date: ${esc(orderGoals.created_at || 'Not set')}. Progress uses verified available data only. Funnel source: ${latestGoalFunnel.file ? esc(latestGoalFunnel.file) : 'not available yet'}.</p>
       <div class="goal-grid">
         ${goalCards.map((goal) => `
           <div class="goal-card">
@@ -710,7 +711,7 @@ const html = `<!doctype html>
 mkdirSync('docs', { recursive: true });
 mkdirSync('reports', { recursive: true });
 writeFileSync('docs/agent-command-center.html', html);
-writeFileSync('reports/agent-command-center-status.json', JSON.stringify({ summary, businessStats, agentStats, blockers, orderGoals: goalCards, agents: rows }, null, 2));
+writeFileSync('reports/agent-command-center-status.json', JSON.stringify({ summary, businessStats, agentStats, blockers, currentGoalProgress, orderGoals: goalCards, agents: rows }, null, 2));
 
 const textReport = `# Agent Command Center
 
@@ -734,7 +735,7 @@ ${businessStats.map((item) => `- ${item.label}: ${item.value} (${item.note})`).j
 
 ## Order Goals
 
-${goalCards.map((goal) => `- ${goal.name}: ${goal.start_date} to ${goal.target_date}; targets: ${goal.targets.orders} orders, ${goal.targets.qualified_visitors} qualified visitors, ${goal.targets.product_views} product views, ${goal.targets.add_to_carts} add-to-carts, ${goal.targets.checkout_starts} checkout starts; current verified progress: ${currentGoalProgress.orders} orders, ${currentGoalProgress.qualified_visitors} organic sessions/qualified visitors currently tracked in dashboard.`).join('\n')}
+${goalCards.map((goal) => `- ${goal.name}: ${goal.start_date} to ${goal.target_date}; targets: ${goal.targets.orders} orders, ${goal.targets.qualified_visitors} qualified visitors, ${goal.targets.product_views} product views, ${goal.targets.add_to_carts} add-to-carts, ${goal.targets.checkout_starts} checkout starts; current verified progress: ${currentGoalProgress.orders} orders, ${currentGoalProgress.qualified_visitors} sessions/qualified visitors, ${currentGoalProgress.product_views} product views, ${currentGoalProgress.add_to_carts} add-to-carts, ${currentGoalProgress.checkout_starts} checkout starts.`).join('\n')}
 
 ## Agent Performance
 

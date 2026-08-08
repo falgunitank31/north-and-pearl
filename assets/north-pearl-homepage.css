@@ -562,7 +562,8 @@
 }
 
 .np-index-edit__card strong,
-.np-index-edit__card small {
+.np-index-edit__card small,
+.np-index-edit__card em {
   display: block;
 }
 
@@ -576,6 +577,16 @@
   color: var(--np-home-muted);
   font-weight: 700;
   letter-spacing: .04em;
+}
+
+.np-index-edit__card em {
+  margin-top: 1rem;
+  color: var(--np-home-gold);
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
 }
 
 .np-newsletter {

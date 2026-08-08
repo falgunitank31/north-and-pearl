@@ -5,7 +5,7 @@ Owner: Lead Orchestrator with Rawls, Pareto, Faraday, Kuhn, Tesla, and Gauss.
 ## Verified Current Progress
 
 - Source: `reports/google-api/ga4-order-goal-progress-2026-08-08.json`
-- Generated: 2026-08-08T20:11:40Z
+- Generated: 2026-08-08T20:15:09Z
 - Sessions / qualified visitors: 2
 - Product clicks: 0
 - Product views: 0
@@ -14,6 +14,22 @@ Owner: Lead Orchestrator with Rawls, Pareto, Faraday, Kuhn, Tesla, and Gauss.
 - Orders: 0
 
 ## Pace Needed
+
+### Daily Operating Goal
+
+- Cadence: daily
+- Owner: Lead Orchestrator
+- Success rule: A day is successful if it produces at least 50 qualified sessions or meaningful downstream movement: 7 product clicks/views, 1 add-to-cart, 1 checkout start, or 1 order.
+- Operating rule: Run one daily execution block, measure once, document the result, and stop. Do not continuously change the site during the same day unless a P0/P1 issue appears.
+
+| Metric | Today | Daily Target | Progress |
+| --- | ---: | ---: | ---: |
+| Qualified visitors | 2 | 50 | 4% |
+| Product clicks | 0 | 7 | 0% |
+| Product views | 0 | 7 | 0% |
+| Add-to-carts | 0 | 1 | 0% |
+| Checkout starts | 0 | 1 | 0% |
+| Orders | 0 | 0 | 0% |
 
 ### 7-Day First-Order Push
 

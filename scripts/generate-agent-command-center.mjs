@@ -5,7 +5,7 @@ const automationRoot = '/Users/yagneshtank/.codex/automations';
 const localExportRoot = '/tmp/north-pearl-command-center-root';
 const now = new Date();
 const today = now.toISOString().slice(0, 10);
-const sameThreadAutomationId = 'north-pearl-same-thread-daily-agent-run';
+const sameThreadAutomationId = 'north-pearl-daily-order-goal-check';
 
 const agents = [
   {
@@ -95,8 +95,8 @@ function reportFiles(prefixes) {
     .sort((a, b) => b.mtime - a.mtime);
 }
 
-function statusFor(sameThreadAutomation, latest, todayReport) {
-  if (!sameThreadAutomation.active) return 'Not Scheduled';
+function statusFor(dailyCadenceActive, latest, todayReport) {
+  if (!dailyCadenceActive) return 'Not Scheduled';
   if (todayReport) return 'Updated Today';
   if (latest) return 'Waiting In Thread';
   return 'No Report Yet';
@@ -153,12 +153,14 @@ function firstNumber(text, patterns, fallback = 'Unknown') {
 }
 
 const sameThreadAutomation = readAutomationById(sameThreadAutomationId);
+const orderGoals = readJson('sales/order-goals.json', { goals: [], baseline: {} });
+const dailyCadenceActive = sameThreadAutomation.active || Boolean(orderGoals.daily_operating_goal);
 
 const rows = agents.map((agent) => {
   const reports = reportFiles(agent.reportPrefixes);
   const latest = reports[0];
   const todayReport = reports.find((report) => report.file.includes(today));
-  const status = statusFor(sameThreadAutomation, latest, todayReport);
+  const status = statusFor(dailyCadenceActive, latest, todayReport);
   return {
     ...agent,
     latest,
@@ -172,7 +174,6 @@ const latestGa4Organic = readLatestJson('reports/google-api', (file) => file.sta
 const latestGa4Pages = readLatestJson('reports/google-api', (file) => file.startsWith('ga4-organic-top-pages-') && file.endsWith('.json'));
 const latestGoalFunnel = readLatestJson('reports/google-api', (file) => file.startsWith('ga4-order-goal-progress-') && file.endsWith('.json'));
 const latestOrders = readLatestJson('reports', (file) => file.startsWith('shopify-orders-safe-') && file.endsWith('.json'));
-const orderGoals = readJson('sales/order-goals.json', { goals: [], baseline: {} });
 const merchantText = readText(`reports/merchant-center-readiness-${today}.md`) || readText('reports/merchant-center-readiness-2026-07-30.md');
 const sprintText = readText('SPRINT.md');
 const metricsText = readText('METRICS.md');
@@ -237,10 +238,22 @@ const goalCards = (orderGoals.goals || []).map((goal) => ({
   },
 }));
 
+const dailyOperatingGoal = orderGoals.daily_operating_goal
+  ? {
+      ...orderGoals.daily_operating_goal,
+      progress: Object.fromEntries(
+        Object.entries(orderGoals.daily_operating_goal.targets || {}).map(([key, target]) => [
+          key,
+          percentage(currentGoalProgress[key], target),
+        ])
+      ),
+    }
+  : null;
+
 const summary = {
   generatedAt: now.toISOString(),
-  sameThreadAutomationActive: sameThreadAutomation.active,
-  activeAutomations: sameThreadAutomation.active ? 1 : 0,
+  sameThreadAutomationActive: dailyCadenceActive,
+  activeAutomations: dailyCadenceActive ? 1 : 0,
   workingToday: rows.filter((row) => row.status === 'Updated Today').length,
   needsUpdate: rows.filter((row) => row.status === 'No Report Yet').length,
   resting: rows.filter((row) => row.status !== 'Updated Today').length,
@@ -577,6 +590,28 @@ const html = `<!doctype html>
     <section class="panel" aria-label="Order goals">
       <h2>Order Goals</h2>
       <p class="small">Baseline date: ${esc(orderGoals.created_at || 'Not set')}. Progress uses verified available data only. Funnel source: ${latestGoalFunnel.file ? esc(latestGoalFunnel.file) : 'not available yet'}.</p>
+      ${dailyOperatingGoal ? `
+        <div class="goal-card">
+          <h3>${esc(dailyOperatingGoal.name)}</h3>
+          <div class="goal-meta">Cadence: ${esc(dailyOperatingGoal.cadence)} · Owner: ${esc(dailyOperatingGoal.owner)}</div>
+          ${[
+            ['Qualified visitors', 'qualified_visitors'],
+            ['Product clicks', 'product_clicks'],
+            ['Product views', 'product_views'],
+            ['Add to carts', 'add_to_carts'],
+            ['Checkout starts', 'checkout_starts'],
+            ['Orders', 'orders'],
+          ].map(([label, key]) => `
+            <div class="goal-row">
+              <span>${esc(label)}</span>
+              <div class="goal-bar" aria-label="${esc(label)} daily progress"><span style="width:${esc(dailyOperatingGoal.progress[key] || 0)}%"></span></div>
+              <span>${esc(currentGoalProgress[key])}/${esc(dailyOperatingGoal.targets?.[key] || 0)}</span>
+            </div>
+          `).join('')}
+          <p class="small"><strong>Success rule:</strong> ${esc(dailyOperatingGoal.success_rule)}</p>
+          <p class="small"><strong>Operating rule:</strong> ${esc(dailyOperatingGoal.operating_rule)}</p>
+        </div>
+      ` : ''}
       <div class="goal-grid">
         ${goalCards.map((goal) => `
           <div class="goal-card">
@@ -652,7 +687,7 @@ const html = `<!doctype html>
             <dt>Owns</dt>
             <dd>${esc(row.owns)}</dd>
             <dt>Operating Mode</dt>
-            <dd>${sameThreadAutomation.active ? `Same-thread heartbeat: ${esc(sameThreadAutomation.rrule)}` : 'No same-thread heartbeat is active'}</dd>
+            <dd>${dailyCadenceActive ? `Daily goal cadence: ${esc(sameThreadAutomation.rrule || orderGoals.daily_operating_goal?.cadence || 'daily')}` : 'No daily goal cadence is active'}</dd>
             <dt>Latest Report</dt>
             <dd>${row.latest ? `<a href="../${esc(row.latest.path)}">${esc(row.latest.file)}</a>` : '<span class="small">No report found yet.</span>'}</dd>
             <dt>Thread Rule</dt>
@@ -714,7 +749,7 @@ const html = `<!doctype html>
 mkdirSync('docs', { recursive: true });
 mkdirSync('reports', { recursive: true });
 writeFileSync('docs/agent-command-center.html', html);
-writeFileSync('reports/agent-command-center-status.json', JSON.stringify({ summary, businessStats, agentStats, blockers, currentGoalProgress, orderGoals: goalCards, agents: rows }, null, 2));
+writeFileSync('reports/agent-command-center-status.json', JSON.stringify({ summary, businessStats, agentStats, blockers, currentGoalProgress, dailyOperatingGoal, orderGoals: goalCards, agents: rows }, null, 2));
 
 const textReport = `# Agent Command Center
 
@@ -737,6 +772,8 @@ Generated: ${summary.generatedAt}
 ${businessStats.map((item) => `- ${item.label}: ${item.value} (${item.note})`).join('\n')}
 
 ## Order Goals
+
+${dailyOperatingGoal ? `- ${dailyOperatingGoal.name}: daily targets are ${dailyOperatingGoal.targets.qualified_visitors} qualified visitors, ${dailyOperatingGoal.targets.product_clicks} product clicks, ${dailyOperatingGoal.targets.product_views} product views, ${dailyOperatingGoal.targets.add_to_carts} add-to-carts, ${dailyOperatingGoal.targets.checkout_starts} checkout start, and ${dailyOperatingGoal.targets.orders} required daily orders. Current verified progress: ${currentGoalProgress.qualified_visitors} sessions/qualified visitors, ${currentGoalProgress.product_clicks} product clicks, ${currentGoalProgress.product_views} product views, ${currentGoalProgress.add_to_carts} add-to-carts, ${currentGoalProgress.checkout_starts} checkout starts, ${currentGoalProgress.orders} orders.` : '- Daily operating goal: not configured.'}
 
 ${goalCards.map((goal) => `- ${goal.name}: ${goal.start_date} to ${goal.target_date}; targets: ${goal.targets.orders} orders, ${goal.targets.qualified_visitors} qualified visitors, ${goal.targets.product_views} product views, ${goal.targets.add_to_carts} add-to-carts, ${goal.targets.checkout_starts} checkout starts; current verified progress: ${currentGoalProgress.orders} orders, ${currentGoalProgress.qualified_visitors} sessions/qualified visitors, ${currentGoalProgress.product_clicks} product clicks, ${currentGoalProgress.product_views} product views, ${currentGoalProgress.add_to_carts} add-to-carts, ${currentGoalProgress.checkout_starts} checkout starts.`).join('\n')}
 
@@ -769,6 +806,6 @@ console.table(rows.map((row) => ({
   agent: row.name,
   status: row.status,
   report: row.latest?.file || 'none',
-  sameThreadHeartbeat: sameThreadAutomation.active,
+  sameThreadHeartbeat: dailyCadenceActive,
 })));
 console.log('Dashboard: docs/agent-command-center.html');

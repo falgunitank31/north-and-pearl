@@ -1,12 +1,12 @@
 # Agent Command Center
 
-Generated: 2026-08-08T20:16:38.728Z
+Generated: 2026-08-08T20:24:39.467Z
 
 ## Summary
 
-- Same-thread heartbeat active: no
-- Lanes updated today: 0
-- Lanes resting: 9
+- Same-thread heartbeat active: yes
+- Lanes updated today: 1
+- Lanes resting: 8
 - Lanes with no report yet: 0
 - Search Console impressions: 32
 - Search Console clicks: 0
@@ -26,6 +26,8 @@ Generated: 2026-08-08T20:16:38.728Z
 - Theme Check: 0 (228 files inspected, 0 offenses)
 
 ## Order Goals
+
+- Daily Order Progress Goal: daily targets are 50 qualified visitors, 7 product clicks, 7 product views, 1 add-to-carts, 1 checkout start, and 0 required daily orders. Current verified progress: 2 sessions/qualified visitors, 0 product clicks, 0 product views, 0 add-to-carts, 0 checkout starts, 0 orders.
 
 - 7-Day First-Order Push: 2026-08-08 to 2026-08-15; targets: 1 orders, 300 qualified visitors, 30 product views, 5 add-to-carts, 1 checkout starts; current verified progress: 0 orders, 2 sessions/qualified visitors, 0 product clicks, 0 product views, 0 add-to-carts, 0 checkout starts.
 - 30-Day Order Traction: 2026-08-08 to 2026-09-07; targets: 10 orders, 1500 qualified visitors, 200 product views, 30 add-to-carts, 15 checkout starts; current verified progress: 0 orders, 2 sessions/qualified visitors, 0 product clicks, 0 product views, 0 add-to-carts, 0 checkout starts.
@@ -51,15 +53,15 @@ Generated: 2026-08-08T20:16:38.728Z
 
 ## Agents
 
-- Faraday: Not Scheduled; latest report: reports/faraday-qualified-traffic-execution-2026-08-08.md; operating mode: same-thread heartbeat
-- Gauss: Not Scheduled; latest report: reports/gauss-daily-catalog-growth-2026-08-04.md; operating mode: same-thread heartbeat
-- Pareto: Not Scheduled; latest report: reports/pareto-faraday-first-order-activation-2026-08-04.md; operating mode: same-thread heartbeat
-- Tesla: Not Scheduled; latest report: reports/live-storefront-qa-2026-08-06.md; operating mode: same-thread heartbeat
-- Rawls: Not Scheduled; latest report: reports/indexing-phase-dashboard-2026-08-05.md; operating mode: same-thread heartbeat
-- Lovelace: Not Scheduled; latest report: reports/lovelace-daily-order-source-monitor-2026-08-04.md; operating mode: same-thread heartbeat
-- Kuhn: Not Scheduled; latest report: reports/kuhn-daily-design-qa-2026-08-04.md; operating mode: same-thread heartbeat
-- Curie: Not Scheduled; latest report: reports/curie-daily-source-claim-safety-2026-08-04.md; operating mode: same-thread heartbeat
-- Lead Orchestrator: Not Scheduled; latest report: reports/lead-orchestrator-operating-pass-2026-08-04.md; operating mode: same-thread heartbeat
+- Faraday: Updated Today; latest report: reports/faraday-qualified-traffic-execution-2026-08-08.md; operating mode: same-thread heartbeat
+- Gauss: Waiting In Thread; latest report: reports/gauss-daily-catalog-growth-2026-08-04.md; operating mode: same-thread heartbeat
+- Pareto: Waiting In Thread; latest report: reports/pareto-faraday-first-order-activation-2026-08-04.md; operating mode: same-thread heartbeat
+- Tesla: Waiting In Thread; latest report: reports/live-storefront-qa-2026-08-06.md; operating mode: same-thread heartbeat
+- Rawls: Waiting In Thread; latest report: reports/indexing-phase-dashboard-2026-08-05.md; operating mode: same-thread heartbeat
+- Lovelace: Waiting In Thread; latest report: reports/lovelace-daily-order-source-monitor-2026-08-04.md; operating mode: same-thread heartbeat
+- Kuhn: Waiting In Thread; latest report: reports/kuhn-daily-design-qa-2026-08-04.md; operating mode: same-thread heartbeat
+- Curie: Waiting In Thread; latest report: reports/curie-daily-source-claim-safety-2026-08-04.md; operating mode: same-thread heartbeat
+- Lead Orchestrator: Waiting In Thread; latest report: reports/lead-orchestrator-operating-pass-2026-08-04.md; operating mode: same-thread heartbeat
 
 ## UI
 

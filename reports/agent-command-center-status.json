@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generatedAt": "2026-08-08T20:16:38.728Z",
-    "sameThreadAutomationActive": false,
-    "activeAutomations": 0,
-    "workingToday": 0,
+    "generatedAt": "2026-08-08T20:24:39.467Z",
+    "sameThreadAutomationActive": true,
+    "activeAutomations": 1,
+    "workingToday": 1,
     "needsUpdate": 0,
-    "resting": 9,
+    "resting": 8,
     "searchImpressions": 32,
     "searchClicks": 0,
     "organicSessions": 0,
@@ -68,63 +68,63 @@
       "reportsToday": 1,
       "totalReports": 22,
       "latest": "faraday-qualified-traffic-execution-2026-08-08.md",
-      "status": "Not Scheduled"
+      "status": "Updated Today"
     },
     {
       "name": "Gauss",
       "reportsToday": 0,
       "totalReports": 11,
       "latest": "gauss-daily-catalog-growth-2026-08-04.md",
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Pareto",
       "reportsToday": 0,
       "totalReports": 5,
       "latest": "pareto-faraday-first-order-activation-2026-08-04.md",
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Tesla",
       "reportsToday": 0,
       "totalReports": 15,
       "latest": "live-storefront-qa-2026-08-06.md",
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Rawls",
       "reportsToday": 0,
       "totalReports": 8,
       "latest": "indexing-phase-dashboard-2026-08-05.md",
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Lovelace",
       "reportsToday": 0,
       "totalReports": 8,
       "latest": "lovelace-daily-order-source-monitor-2026-08-04.md",
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Kuhn",
       "reportsToday": 0,
       "totalReports": 8,
       "latest": "kuhn-daily-design-qa-2026-08-04.md",
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Curie",
       "reportsToday": 0,
       "totalReports": 9,
       "latest": "curie-daily-source-claim-safety-2026-08-04.md",
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Lead Orchestrator",
       "reportsToday": 0,
       "totalReports": 12,
       "latest": "lead-orchestrator-operating-pass-2026-08-04.md",
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     }
   ],
   "blockers": [
@@ -164,6 +164,38 @@
     "add_to_carts": 0,
     "checkout_starts": 0,
     "orders": 0
+  },
+  "dailyOperatingGoal": {
+    "id": "daily_order_progress_goal",
+    "name": "Daily Order Progress Goal",
+    "cadence": "daily",
+    "owner": "Lead Orchestrator",
+    "supporting_lanes": [
+      "Pareto",
+      "Faraday",
+      "Rawls",
+      "Kuhn",
+      "Gauss",
+      "Tesla"
+    ],
+    "targets": {
+      "qualified_visitors": 50,
+      "product_clicks": 7,
+      "product_views": 7,
+      "add_to_carts": 1,
+      "checkout_starts": 1,
+      "orders": 0
+    },
+    "success_rule": "A day is successful if it produces at least 50 qualified sessions or meaningful downstream movement: 7 product clicks/views, 1 add-to-cart, 1 checkout start, or 1 order.",
+    "operating_rule": "Run one daily execution block, measure once, document the result, and stop. Do not continuously change the site during the same day unless a P0/P1 issue appears.",
+    "progress": {
+      "qualified_visitors": 4,
+      "product_clicks": 0,
+      "product_views": 0,
+      "add_to_carts": 0,
+      "checkout_starts": 0,
+      "orders": 0
+    }
   },
   "orderGoals": [
     {
@@ -261,7 +293,7 @@
         "path": "reports/faraday-qualified-traffic-execution-2026-08-08.md",
         "mtime": "2026-08-08T19:25:50.934Z"
       },
-      "status": "Not Scheduled"
+      "status": "Updated Today"
     },
     {
       "name": "Gauss",
@@ -279,7 +311,7 @@
         "path": "reports/gauss-daily-catalog-growth-2026-08-04.md",
         "mtime": "2026-08-04T13:43:00.015Z"
       },
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Pareto",
@@ -296,7 +328,7 @@
         "path": "reports/pareto-faraday-first-order-activation-2026-08-04.md",
         "mtime": "2026-08-04T15:27:02.493Z"
       },
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Tesla",
@@ -313,7 +345,7 @@
         "path": "reports/live-storefront-qa-2026-08-06.md",
         "mtime": "2026-08-06T13:02:15.130Z"
       },
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Rawls",
@@ -330,7 +362,7 @@
         "path": "reports/indexing-phase-dashboard-2026-08-05.md",
         "mtime": "2026-08-05T01:45:47.368Z"
       },
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Lovelace",
@@ -347,7 +379,7 @@
         "path": "reports/lovelace-daily-order-source-monitor-2026-08-04.md",
         "mtime": "2026-08-04T13:43:00.014Z"
       },
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Kuhn",
@@ -364,7 +396,7 @@
         "path": "reports/kuhn-daily-design-qa-2026-08-04.md",
         "mtime": "2026-08-04T13:43:00.015Z"
       },
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Curie",
@@ -382,7 +414,7 @@
         "path": "reports/curie-daily-source-claim-safety-2026-08-04.md",
         "mtime": "2026-08-04T13:43:00.015Z"
       },
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     },
     {
       "name": "Lead Orchestrator",
@@ -402,7 +434,7 @@
         "path": "reports/lead-orchestrator-operating-pass-2026-08-04.md",
         "mtime": "2026-08-04T13:43:00.015Z"
       },
-      "status": "Not Scheduled"
+      "status": "Waiting In Thread"
     }
   ]
 }

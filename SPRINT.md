@@ -46,6 +46,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Improve global product-card image presentation for active products marked acceptable temporary.
 - [x] Improve homepage merchandising language around curated strongest products.
 - [x] Add a lightweight GA4 ecommerce event bridge for PDP views, add-to-cart actions, and checkout starts so the 7-day and 30-day order goals can track funnel progress beyond sessions.
+- [x] Convert the order-growth operating model from continuous work into a daily goal cadence with one daily execution block, measurable daily targets, and a stop rule unless P0/P1 issues appear.
 - [x] Remove stale homepage occasion-grid CSS override and repush homepage CSS so "Make the moment easy to shop" keeps the balanced 4-column layout instead of reverting to awkward whitespace.
 - [x] Expand Best Sellers from 5 products to a 12-product curated launch edit.
 - [x] Re-run Merchant Center readiness and product publication audits after merchandising changes.

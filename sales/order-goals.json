@@ -6,6 +6,23 @@
     "ga4_organic_sessions": 0,
     "note": "Baseline uses verified project records as of August 8, 2026. Orders, Search Console clicks, and GA4 organic sessions remain at zero in the latest recorded snapshots."
   },
+  "daily_operating_goal": {
+    "id": "daily_order_progress_goal",
+    "name": "Daily Order Progress Goal",
+    "cadence": "daily",
+    "owner": "Lead Orchestrator",
+    "supporting_lanes": ["Pareto", "Faraday", "Rawls", "Kuhn", "Gauss", "Tesla"],
+    "targets": {
+      "qualified_visitors": 50,
+      "product_clicks": 7,
+      "product_views": 7,
+      "add_to_carts": 1,
+      "checkout_starts": 1,
+      "orders": 0
+    },
+    "success_rule": "A day is successful if it produces at least 50 qualified sessions or meaningful downstream movement: 7 product clicks/views, 1 add-to-cart, 1 checkout start, or 1 order.",
+    "operating_rule": "Run one daily execution block, measure once, document the result, and stop. Do not continuously change the site during the same day unless a P0/P1 issue appears."
+  },
   "goals": [
     {
       "id": "first_order_7_day_push",

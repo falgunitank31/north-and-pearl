@@ -58,6 +58,35 @@ const lines = [
   '',
 ];
 
+if (goals.daily_operating_goal?.targets) {
+  const dailyGoal = goals.daily_operating_goal;
+  lines.push('### Daily Operating Goal');
+  lines.push('');
+  lines.push(`- Cadence: ${dailyGoal.cadence}`);
+  lines.push(`- Owner: ${dailyGoal.owner}`);
+  lines.push(`- Success rule: ${dailyGoal.success_rule}`);
+  lines.push(`- Operating rule: ${dailyGoal.operating_rule}`);
+  lines.push('');
+  lines.push('| Metric | Today | Daily Target | Progress |');
+  lines.push('| --- | ---: | ---: | ---: |');
+
+  const dailyMetrics = [
+    ['Qualified visitors', 'qualified_visitors'],
+    ['Product clicks', 'product_clicks'],
+    ['Product views', 'product_views'],
+    ['Add-to-carts', 'add_to_carts'],
+    ['Checkout starts', 'checkout_starts'],
+    ['Orders', 'orders'],
+  ];
+
+  for (const [label, key] of dailyMetrics) {
+    const target = dailyGoal.targets?.[key] || 0;
+    const value = current[key] || 0;
+    lines.push(`| ${label} | ${value} | ${target} | ${pct(value, target)} |`);
+  }
+  lines.push('');
+}
+
 for (const goal of goals.goals || []) {
   const daysRemaining = Math.max(1, daysBetween(today, goal.target_date));
   lines.push(`### ${goal.name}`);

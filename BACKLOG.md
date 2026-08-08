@@ -6,6 +6,7 @@
 
 ## P1
 
+- Daily order-goal cadence is now active: run one focused daily execution block, measure sessions/product clicks/product views/add-to-carts/checkouts/orders, update the Agent Command Center, then stop unless a P0/P1 issue appears.
 - DataForSEO MCP is registered in the local Codex config through the secure wrapper `~/.codex/bin/dataforseo-mcp.sh`; API credentials are stored in the secure local env file and authentication is verified. Reload/restart Codex so the DataForSEO MCP tools become available, then Faraday must run a minimal low-cost connection validation, log cost, and create the North & Pearl Organic Market Opportunity Baseline for the U.S. jewelry market.
 - DataForSEO content analysis completed on August 8, 2026. Next Faraday/Tesla/Kuhn implementation batch: sharpen collection copy and visible FAQ/buying guidance for Name Necklaces, Initial Necklaces, Personalized Jewelry, Jewelry Gifts for Her, Birthstone Jewelry, Gifts Under $50, Gifts Under $100, Birthday Gifts, and Anniversary Gifts. Keep products above long copy and avoid unsupported material/gemstone claims.
 - Monitor Merchant Center readiness issues that block free listings, including shipping/returns/feed attribute validation.

@@ -269,9 +269,9 @@
     </header>
 
     <section class="stats" aria-label="Agent status summary">
-      <div class="stat"><strong>0</strong><span>Same-thread heartbeat</span></div>
-      <div class="stat"><strong>0</strong><span>Lanes updated today</span></div>
-      <div class="stat"><strong>9</strong><span>Lanes resting</span></div>
+      <div class="stat"><strong>1</strong><span>Same-thread heartbeat</span></div>
+      <div class="stat"><strong>1</strong><span>Lanes updated today</span></div>
+      <div class="stat"><strong>8</strong><span>Lanes resting</span></div>
       <div class="stat"><strong>0</strong><span>Lanes with no report yet</span></div>
     </section>
 
@@ -335,6 +335,51 @@
     <section class="panel" aria-label="Order goals">
       <h2>Order Goals</h2>
       <p class="small">Baseline date: 2026-08-08. Progress uses verified available data only. Funnel source: reports/google-api/ga4-order-goal-progress-2026-08-08.json.</p>
+      
+        <div class="goal-card">
+          <h3>Daily Order Progress Goal</h3>
+          <div class="goal-meta">Cadence: daily · Owner: Lead Orchestrator</div>
+          
+            <div class="goal-row">
+              <span>Qualified visitors</span>
+              <div class="goal-bar" aria-label="Qualified visitors daily progress"><span style="width:4%"></span></div>
+              <span>2/50</span>
+            </div>
+          
+            <div class="goal-row">
+              <span>Product clicks</span>
+              <div class="goal-bar" aria-label="Product clicks daily progress"><span style="width:0%"></span></div>
+              <span>0/7</span>
+            </div>
+          
+            <div class="goal-row">
+              <span>Product views</span>
+              <div class="goal-bar" aria-label="Product views daily progress"><span style="width:0%"></span></div>
+              <span>0/7</span>
+            </div>
+          
+            <div class="goal-row">
+              <span>Add to carts</span>
+              <div class="goal-bar" aria-label="Add to carts daily progress"><span style="width:0%"></span></div>
+              <span>0/1</span>
+            </div>
+          
+            <div class="goal-row">
+              <span>Checkout starts</span>
+              <div class="goal-bar" aria-label="Checkout starts daily progress"><span style="width:0%"></span></div>
+              <span>0/1</span>
+            </div>
+          
+            <div class="goal-row">
+              <span>Orders</span>
+              <div class="goal-bar" aria-label="Orders daily progress"><span style="width:0%"></span></div>
+              <span>0/0</span>
+            </div>
+          
+          <p class="small"><strong>Success rule:</strong> A day is successful if it produces at least 50 qualified sessions or meaningful downstream movement: 7 product clicks/views, 1 add-to-cart, 1 checkout start, or 1 order.</p>
+          <p class="small"><strong>Operating rule:</strong> Run one daily execution block, measure once, document the result, and stop. Do not continuously change the site during the same day unless a P0/P1 issue appears.</p>
+        </div>
+      
       <div class="goal-grid">
         
           <div class="goal-card">
@@ -433,63 +478,63 @@
         
           <div class="agent-metric">
             <strong>Faraday</strong>
-            <div class="small">Not Scheduled</div>
+            <div class="small">Updated Today</div>
             <div class="small">1 report(s) today · 22 total</div>
             <div class="small">Latest: faraday-qualified-traffic-execution-2026-08-08.md</div>
           </div>
         
           <div class="agent-metric">
             <strong>Gauss</strong>
-            <div class="small">Not Scheduled</div>
+            <div class="small">Waiting In Thread</div>
             <div class="small">0 report(s) today · 11 total</div>
             <div class="small">Latest: gauss-daily-catalog-growth-2026-08-04.md</div>
           </div>
         
           <div class="agent-metric">
             <strong>Pareto</strong>
-            <div class="small">Not Scheduled</div>
+            <div class="small">Waiting In Thread</div>
             <div class="small">0 report(s) today · 5 total</div>
             <div class="small">Latest: pareto-faraday-first-order-activation-2026-08-04.md</div>
           </div>
         
           <div class="agent-metric">
             <strong>Tesla</strong>
-            <div class="small">Not Scheduled</div>
+            <div class="small">Waiting In Thread</div>
             <div class="small">0 report(s) today · 15 total</div>
             <div class="small">Latest: live-storefront-qa-2026-08-06.md</div>
           </div>
         
           <div class="agent-metric">
             <strong>Rawls</strong>
-            <div class="small">Not Scheduled</div>
+            <div class="small">Waiting In Thread</div>
             <div class="small">0 report(s) today · 8 total</div>
             <div class="small">Latest: indexing-phase-dashboard-2026-08-05.md</div>
           </div>
         
           <div class="agent-metric">
             <strong>Lovelace</strong>
-            <div class="small">Not Scheduled</div>
+            <div class="small">Waiting In Thread</div>
             <div class="small">0 report(s) today · 8 total</div>
             <div class="small">Latest: lovelace-daily-order-source-monitor-2026-08-04.md</div>
           </div>
         
           <div class="agent-metric">
             <strong>Kuhn</strong>
-            <div class="small">Not Scheduled</div>
+            <div class="small">Waiting In Thread</div>
             <div class="small">0 report(s) today · 8 total</div>
             <div class="small">Latest: kuhn-daily-design-qa-2026-08-04.md</div>
           </div>
         
           <div class="agent-metric">
             <strong>Curie</strong>
-            <div class="small">Not Scheduled</div>
+            <div class="small">Waiting In Thread</div>
             <div class="small">0 report(s) today · 9 total</div>
             <div class="small">Latest: curie-daily-source-claim-safety-2026-08-04.md</div>
           </div>
         
           <div class="agent-metric">
             <strong>Lead Orchestrator</strong>
-            <div class="small">Not Scheduled</div>
+            <div class="small">Waiting In Thread</div>
             <div class="small">0 report(s) today · 12 total</div>
             <div class="small">Latest: lead-orchestrator-operating-pass-2026-08-04.md</div>
           </div>
@@ -546,28 +591,28 @@
 
     <section class="grid" aria-label="Agent lanes">
       
-        <article class="card" data-agent="Faraday" data-state="resting" data-search="faraday organic growth seo, aeo, geo, search console, buyer-intent pages, organic traffic and conversion paths. faraday-qualified-traffic-execution-2026-08-08.md not scheduled">
+        <article class="card" data-agent="Faraday" data-state="working" data-search="faraday organic growth seo, aeo, geo, search console, buyer-intent pages, organic traffic and conversion paths. faraday-qualified-traffic-execution-2026-08-08.md updated today">
           <div>
             <h2 class="agent-name">Faraday</h2>
             <div class="lane">Organic growth</div>
-            <div class="agent-state resting">Resting until next heartbeat</div>
+            <div class="agent-state working">Working today</div>
           </div>
           <dl>
             <dt>Owns</dt>
             <dd>SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.</dd>
             <dt>Operating Mode</dt>
-            <dd>No same-thread heartbeat is active</dd>
+            <dd>Daily goal cadence: RRULE:FREQ=DAILY</dd>
             <dt>Latest Report</dt>
             <dd><a href="../reports/faraday-qualified-traffic-execution-2026-08-08.md">faraday-qualified-traffic-execution-2026-08-08.md</a></dd>
             <dt>Thread Rule</dt>
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status not-scheduled">Not Scheduled</span>
+            <span class="status updated-today">Updated Today</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Gauss" data-state="resting" data-search="gauss product and merchandising daily product additions, category balance, product source traceability, catalog hygiene. gauss-daily-catalog-growth-2026-08-04.md not scheduled">
+        <article class="card" data-agent="Gauss" data-state="resting" data-search="gauss product and merchandising daily product additions, category balance, product source traceability, catalog hygiene. gauss-daily-catalog-growth-2026-08-04.md waiting in thread">
           <div>
             <h2 class="agent-name">Gauss</h2>
             <div class="lane">Product and merchandising</div>
@@ -577,18 +622,18 @@
             <dt>Owns</dt>
             <dd>Daily product additions, category balance, product source traceability, catalog hygiene.</dd>
             <dt>Operating Mode</dt>
-            <dd>No same-thread heartbeat is active</dd>
+            <dd>Daily goal cadence: RRULE:FREQ=DAILY</dd>
             <dt>Latest Report</dt>
             <dd><a href="../reports/gauss-daily-catalog-growth-2026-08-04.md">gauss-daily-catalog-growth-2026-08-04.md</a></dd>
             <dt>Thread Rule</dt>
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status not-scheduled">Not Scheduled</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Pareto" data-state="resting" data-search="pareto sales and revenue growth sales strategy, competitive intelligence, market monitoring, offers, promotions, bundles, aov, conversion opportunities, commercial merchandising, forecasting, revenue growth. pareto-faraday-first-order-activation-2026-08-04.md not scheduled">
+        <article class="card" data-agent="Pareto" data-state="resting" data-search="pareto sales and revenue growth sales strategy, competitive intelligence, market monitoring, offers, promotions, bundles, aov, conversion opportunities, commercial merchandising, forecasting, revenue growth. pareto-faraday-first-order-activation-2026-08-04.md waiting in thread">
           <div>
             <h2 class="agent-name">Pareto</h2>
             <div class="lane">Sales and revenue growth</div>
@@ -598,18 +643,18 @@
             <dt>Owns</dt>
             <dd>Sales strategy, competitive intelligence, market monitoring, offers, promotions, bundles, AOV, conversion opportunities, commercial merchandising, forecasting, revenue growth.</dd>
             <dt>Operating Mode</dt>
-            <dd>No same-thread heartbeat is active</dd>
+            <dd>Daily goal cadence: RRULE:FREQ=DAILY</dd>
             <dt>Latest Report</dt>
             <dd><a href="../reports/pareto-faraday-first-order-activation-2026-08-04.md">pareto-faraday-first-order-activation-2026-08-04.md</a></dd>
             <dt>Thread Rule</dt>
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status not-scheduled">Not Scheduled</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Tesla" data-state="resting" data-search="tesla shopify engineering theme code, qa, cart, search, mobile, performance, accessibility, shopify cli. live-storefront-qa-2026-08-06.md not scheduled">
+        <article class="card" data-agent="Tesla" data-state="resting" data-search="tesla shopify engineering theme code, qa, cart, search, mobile, performance, accessibility, shopify cli. live-storefront-qa-2026-08-06.md waiting in thread">
           <div>
             <h2 class="agent-name">Tesla</h2>
             <div class="lane">Shopify engineering</div>
@@ -619,18 +664,18 @@
             <dt>Owns</dt>
             <dd>Theme code, QA, cart, search, mobile, performance, accessibility, Shopify CLI.</dd>
             <dt>Operating Mode</dt>
-            <dd>No same-thread heartbeat is active</dd>
+            <dd>Daily goal cadence: RRULE:FREQ=DAILY</dd>
             <dt>Latest Report</dt>
             <dd><a href="../reports/live-storefront-qa-2026-08-06.md">live-storefront-qa-2026-08-06.md</a></dd>
             <dt>Thread Rule</dt>
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status not-scheduled">Not Scheduled</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Rawls" data-state="resting" data-search="rawls analytics and data ga4, search console, shopify analytics, kpi measurement, funnel diagnosis. indexing-phase-dashboard-2026-08-05.md not scheduled">
+        <article class="card" data-agent="Rawls" data-state="resting" data-search="rawls analytics and data ga4, search console, shopify analytics, kpi measurement, funnel diagnosis. indexing-phase-dashboard-2026-08-05.md waiting in thread">
           <div>
             <h2 class="agent-name">Rawls</h2>
             <div class="lane">Analytics and data</div>
@@ -640,18 +685,18 @@
             <dt>Owns</dt>
             <dd>GA4, Search Console, Shopify analytics, KPI measurement, funnel diagnosis.</dd>
             <dt>Operating Mode</dt>
-            <dd>No same-thread heartbeat is active</dd>
+            <dd>Daily goal cadence: RRULE:FREQ=DAILY</dd>
             <dt>Latest Report</dt>
             <dd><a href="../reports/indexing-phase-dashboard-2026-08-05.md">indexing-phase-dashboard-2026-08-05.md</a></dd>
             <dt>Thread Rule</dt>
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status not-scheduled">Not Scheduled</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Lovelace" data-state="resting" data-search="lovelace operations and order sourcing order-source mapping, alibaba source urls, fulfillment readiness, shipping/returns safety. lovelace-daily-order-source-monitor-2026-08-04.md not scheduled">
+        <article class="card" data-agent="Lovelace" data-state="resting" data-search="lovelace operations and order sourcing order-source mapping, alibaba source urls, fulfillment readiness, shipping/returns safety. lovelace-daily-order-source-monitor-2026-08-04.md waiting in thread">
           <div>
             <h2 class="agent-name">Lovelace</h2>
             <div class="lane">Operations and order sourcing</div>
@@ -661,18 +706,18 @@
             <dt>Owns</dt>
             <dd>Order-source mapping, Alibaba source URLs, fulfillment readiness, shipping/returns safety.</dd>
             <dt>Operating Mode</dt>
-            <dd>No same-thread heartbeat is active</dd>
+            <dd>Daily goal cadence: RRULE:FREQ=DAILY</dd>
             <dt>Latest Report</dt>
             <dd><a href="../reports/lovelace-daily-order-source-monitor-2026-08-04.md">lovelace-daily-order-source-monitor-2026-08-04.md</a></dd>
             <dt>Thread Rule</dt>
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status not-scheduled">Not Scheduled</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Kuhn" data-state="resting" data-search="kuhn ecommerce design and brand premium jewelry ux, visual qa, product imagery presentation, homepage/collection/pdp polish. kuhn-daily-design-qa-2026-08-04.md not scheduled">
+        <article class="card" data-agent="Kuhn" data-state="resting" data-search="kuhn ecommerce design and brand premium jewelry ux, visual qa, product imagery presentation, homepage/collection/pdp polish. kuhn-daily-design-qa-2026-08-04.md waiting in thread">
           <div>
             <h2 class="agent-name">Kuhn</h2>
             <div class="lane">Ecommerce design and brand</div>
@@ -682,18 +727,18 @@
             <dt>Owns</dt>
             <dd>Premium jewelry UX, visual QA, product imagery presentation, homepage/collection/PDP polish.</dd>
             <dt>Operating Mode</dt>
-            <dd>No same-thread heartbeat is active</dd>
+            <dd>Daily goal cadence: RRULE:FREQ=DAILY</dd>
             <dt>Latest Report</dt>
             <dd><a href="../reports/kuhn-daily-design-qa-2026-08-04.md">kuhn-daily-design-qa-2026-08-04.md</a></dd>
             <dt>Thread Rule</dt>
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status not-scheduled">Not Scheduled</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Curie" data-state="resting" data-search="curie supplier and claim safety supplier/source evidence, alibaba traceability, claim safety, product-quality risk. curie-daily-source-claim-safety-2026-08-04.md not scheduled">
+        <article class="card" data-agent="Curie" data-state="resting" data-search="curie supplier and claim safety supplier/source evidence, alibaba traceability, claim safety, product-quality risk. curie-daily-source-claim-safety-2026-08-04.md waiting in thread">
           <div>
             <h2 class="agent-name">Curie</h2>
             <div class="lane">Supplier and claim safety</div>
@@ -703,18 +748,18 @@
             <dt>Owns</dt>
             <dd>Supplier/source evidence, Alibaba traceability, claim safety, product-quality risk.</dd>
             <dt>Operating Mode</dt>
-            <dd>No same-thread heartbeat is active</dd>
+            <dd>Daily goal cadence: RRULE:FREQ=DAILY</dd>
             <dt>Latest Report</dt>
             <dd><a href="../reports/curie-daily-source-claim-safety-2026-08-04.md">curie-daily-source-claim-safety-2026-08-04.md</a></dd>
             <dt>Thread Rule</dt>
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status not-scheduled">Not Scheduled</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
-        <article class="card" data-agent="Lead Orchestrator" data-state="resting" data-search="lead orchestrator ecommerce operating system prioritization, cross-agent coordination, sprint/backlog, risk, qa, next-month order readiness. lead-orchestrator-operating-pass-2026-08-04.md not scheduled">
+        <article class="card" data-agent="Lead Orchestrator" data-state="resting" data-search="lead orchestrator ecommerce operating system prioritization, cross-agent coordination, sprint/backlog, risk, qa, next-month order readiness. lead-orchestrator-operating-pass-2026-08-04.md waiting in thread">
           <div>
             <h2 class="agent-name">Lead Orchestrator</h2>
             <div class="lane">Ecommerce operating system</div>
@@ -724,21 +769,21 @@
             <dt>Owns</dt>
             <dd>Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.</dd>
             <dt>Operating Mode</dt>
-            <dd>No same-thread heartbeat is active</dd>
+            <dd>Daily goal cadence: RRULE:FREQ=DAILY</dd>
             <dt>Latest Report</dt>
             <dd><a href="../reports/lead-orchestrator-operating-pass-2026-08-04.md">lead-orchestrator-operating-pass-2026-08-04.md</a></dd>
             <dt>Thread Rule</dt>
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status not-scheduled">Not Scheduled</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
     </section>
 
     <footer>
-      Generated at 2026-08-08T20:16:38.728Z. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
+      Generated at 2026-08-08T20:24:39.467Z. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
     </footer>
   </main>
   <script>

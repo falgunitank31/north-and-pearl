@@ -7,6 +7,7 @@
 
 - Added a daily operating-goal layer to the order-growth system, surfaced it in the Agent Command Center and pace report, and created a daily heartbeat automation so the team runs one focused daily block instead of continuous churn.
 - Executed the August 8 daily order-goal block: refreshed GA4 funnel, Search Console, sitemap, safe Shopify order, Merchant readiness, sampled storefront, and Theme Check evidence; no P0/P1 fixes were indicated.
+- Added a reusable daily order-goal report generator and removed the hardcoded August 8 GA4 dependency from the pace report so future daily checks can roll forward automatically.
 - Added a lightweight GA4 ecommerce event bridge for `view_item`, `add_to_cart`, and `begin_checkout` tracking without loading a duplicate GA4 script; live PDP validation confirmed product analytics payload output.
 - Extended the GA4 ecommerce bridge with `select_item` tracking for product-link clicks and added product-click progress to the Agent Command Center order-goal dashboard.
 - Removed the stale homepage occasion-grid 5-column override and repushed the homepage CSS; live asset validation confirmed the balanced 4-column grid rule.

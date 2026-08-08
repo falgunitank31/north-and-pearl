@@ -1,12 +1,29 @@
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, statSync, writeFileSync, mkdirSync } from 'node:fs';
+import { join } from 'node:path';
 
 const today = new Date().toISOString().slice(0, 10);
 const goalsPath = 'sales/order-goals.json';
-const progressPath = 'reports/google-api/ga4-order-goal-progress-2026-08-08.json';
+const datedProgressPath = `reports/google-api/ga4-order-goal-progress-${today}.json`;
 const reportPath = `reports/order-goal-pace-${today}.md`;
 
 function readJson(path) {
   return JSON.parse(readFileSync(path, 'utf8'));
+}
+
+function latestGoalProgressPath() {
+  if (existsSync(datedProgressPath)) return datedProgressPath;
+  const dir = 'reports/google-api';
+  if (!existsSync(dir)) return datedProgressPath;
+
+  const latest = readdirSync(dir)
+    .filter((file) => file.startsWith('ga4-order-goal-progress-') && file.endsWith('.json'))
+    .map((file) => {
+      const path = join(dir, file);
+      return { path, mtime: statSync(path).mtime };
+    })
+    .sort((a, b) => b.mtime - a.mtime)[0];
+
+  return latest?.path || datedProgressPath;
 }
 
 function daysBetween(start, end) {
@@ -26,6 +43,7 @@ function pct(current, target) {
 }
 
 const goals = readJson(goalsPath);
+const progressPath = latestGoalProgressPath();
 const progress = readJson(progressPath);
 const totals = progress.totals || {};
 

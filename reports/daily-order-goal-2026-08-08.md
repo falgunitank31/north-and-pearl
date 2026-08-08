@@ -4,9 +4,7 @@ Owner: Lead Orchestrator
 
 ## Operating Change
 
-North & Pearl is moving from continuous execution mode to a daily operating goal.
-
-The team should run one focused daily execution block, measure verified progress, document results, and stop unless a P0/P1 customer-harming issue appears.
+North & Pearl is operating with one focused daily order-goal block, followed by measurement and a stop unless a P0/P1 customer-harming issue appears.
 
 ## Daily Targets
 
@@ -39,6 +37,8 @@ A day is successful if it produces at least 50 qualified sessions or meaningful 
 - Latest verified add-to-carts: 0
 - Latest verified checkout starts: 0
 - Latest verified orders: 0
+- Campaign source: `reports/google-api/ga4-order-campaign-breakdown-2026-08-08.json`
+- Latest verified `order_growth_august_2026` campaign sessions: 0
 - Search Console source: `reports/google-api/gsc-query-order-goal-2026-08-08-latest.json`
 - Latest verified Search Console impressions: 32
 - Latest verified Search Console clicks: 0
@@ -49,14 +49,11 @@ A day is successful if it produces at least 50 qualified sessions or meaningful 
 - Latest safe order access: `ORDER_ACCESS_OK`, 0 visible orders, no customer PII requested.
 - Merchant readiness source: `reports/merchant-center-readiness-2026-08-08.md`
 - Latest Merchant readiness: 208 active products ready with identifier caveat, 0 needing review.
-- Storefront sample: homepage, Gifts Under $100, Jewelry Gifts for Her, Name Necklaces, Initial Shell Necklace PDP, and weekly gift guide all returned HTTP 200.
-- Theme Check: passed with 292 files inspected and 0 offenses.
+- Storefront sample: Homepage, Gifts Under $100, Jewelry Gifts for Her, Name Necklaces, Initial Shell Necklace PDP, Weekly gift guide should be checked during the daily block.
 
 ## Daily Result
 
 Daily goal was not met yet. The verified bottleneck remains qualified traffic and product-entry engagement, not checkout, order access, Merchant readiness, or an obvious P0/P1 storefront failure.
-
-No additional live design, product, pricing, URL, or offer changes were made during this daily block because the current data does not justify more same-day churn.
 
 ## Stop Rule
 

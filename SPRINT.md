@@ -31,7 +31,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Configure DataForSEO cost controls with threshold mode, `$0.10` approval threshold, `$2.00` daily limit, and 0 current spend.
 - [x] Validate DataForSEO MCP fails closed when credentials are absent; no paid API calls were made.
 - [x] Add DataForSEO API credentials securely and verify DataForSEO authentication without printing credentials.
-- [ ] Restart/reload Codex MCP tools, run one low-cost DataForSEO MCP connection test, then execute the North & Pearl Organic Market Opportunity Baseline.
+- [x] Execute a focused DataForSEO content analysis for North & Pearl's commercial jewelry pages using live keyword volume, SERP, and intent data.
+- [ ] Implement the DataForSEO P1 content edit batch: Name Necklaces, Initial Necklaces, Personalized Jewelry, Jewelry Gifts for Her, Birthstone Jewelry, and gift/price-intent collection buying guidance.
+- [ ] Restart/reload Codex MCP tools when convenient so future DataForSEO work can use the MCP tool surface directly instead of direct authenticated API calls.
 - [x] Compact desktop mega menu whitespace.
 - [x] Tighten collection hero copy/spacing so products appear sooner.
 - [x] Run Theme Check.

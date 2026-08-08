@@ -10,6 +10,7 @@
 - Validated that DataForSEO MCP fails closed when API credentials are missing; no paid DataForSEO API calls were made.
 - Added DataForSEO ownership, cost-control, and baseline-research rules to the agent operating system and sprint/backlog/metrics records.
 - Stored DataForSEO API credentials in the secure local env file, verified API authentication successfully, and confirmed the MCP wrapper starts; Codex must be reloaded/restarted before the new MCP tools appear in-session.
+- Ran the first focused DataForSEO content analysis for North & Pearl using live U.S. keyword volume, SERP samples, and page checks; saved the report and queued collection/PDP content edits around name necklaces, initial necklaces, personalized jewelry, jewelry gifts for her, birthstone jewelry, and price-intent gift pages.
 - Added a conservative customer-facing Return Policy to Shopify's native `REFUND_POLICY`, aligned `/pages/returns-exchanges`, updated the live Returns & Exchanges template section, and verified both live policy surfaces render the 14-day standard-item return language. Theme Check passed with 281 files inspected and 0 offenses.
 
 ## August 6, 2026

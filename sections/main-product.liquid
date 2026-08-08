@@ -108,6 +108,16 @@
   {%- endif -%}
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
+  {%- assign np_analytics_variant = product.selected_or_first_available_variant -%}
+  <script type="application/json" data-np-product-analytics>
+    {
+      "item_id": {{ np_analytics_variant.id | json }},
+      "item_name": {{ product.title | json }},
+      "item_variant": {{ np_analytics_variant.title | json }},
+      "price": {{ np_analytics_variant.price | divided_by: 100.0 | json }},
+      "currency": {{ cart.currency.iso_code | default: shop.currency | json }}
+    }
+  </script>
   <product-component view-event-payload="{{ product | standard_event_data: 'view', context: 'page' | escape }}">
     <div class="page-width">
       <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col grid--2-col-tablet {% if product.media.size == 0 %}product--np-placeholder{% endif %}">

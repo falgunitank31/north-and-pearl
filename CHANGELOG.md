@@ -5,6 +5,8 @@
 
 ## August 8, 2026
 
+- Added a lightweight GA4 ecommerce event bridge for `view_item`, `add_to_cart`, and `begin_checkout` tracking without loading a duplicate GA4 script; live PDP validation confirmed product analytics payload output.
+- Removed the stale homepage occasion-grid 5-column override and repushed the homepage CSS; live asset validation confirmed the balanced 4-column grid rule.
 - Registered the official DataForSEO local MCP workflow for North & Pearl using a secure local wrapper at `~/.codex/bin/dataforseo-mcp.sh`; credentials remain outside the repository and are expected through `DATAFORSEO_USERNAME` and `DATAFORSEO_PASSWORD`.
 - Installed/verified the DataForSEO field config for Codex SEO and configured cost controls in threshold mode with a `$0.10` approval threshold, `$2.00` daily limit, and 0 current spend.
 - Validated that DataForSEO MCP fails closed when API credentials are missing; no paid DataForSEO API calls were made.

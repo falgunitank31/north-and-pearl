@@ -165,14 +165,16 @@ Indexing caveat: Google does not provide an API to force ordinary Shopify ecomme
 - GA4 property checked: `properties/546565745`.
 - Goal window checked: August 8, 2026 to August 8, 2026.
 - Current verified progress: 1 session, 1 user, 1 pageview, 4 events, 0 product views, 0 add-to-carts, 0 checkout starts, 0 purchases, and $0 purchase revenue.
+- Latest refreshed progress: 2 sessions, 1 user, 1 pageview, 6 events, 0 product views, 0 add-to-carts, 0 checkout starts, 0 purchases, and $0 purchase revenue.
 - Active funnel diagnosis: the first measurable gap is session-to-product-view, not cart or checkout abandonment yet.
-- Implemented response: homepage direct-product rail, gift-guide direct-product rail, and homepage occasion-grid polish to make product and collection paths more obvious.
+- Implemented response: homepage direct-product rail, gift-guide direct-product rail, collection-hero direct-product strips, and homepage occasion-grid polish to make product and collection paths more obvious.
 - Latest live validation: homepage returns HTTP 200, renders 8 occasion cards, contains the "Shop a piece now" product rail, and serves the new 4-column desktop occasion grid CSS.
 - Evidence files:
   - `reports/google-api/ga4-order-goal-progress-2026-08-08.json`
   - `reports/order-goal-product-entry-improvement-2026-08-08.md`
   - `reports/order-goal-guide-product-entry-improvement-2026-08-08.md`
   - `reports/order-goal-homepage-occasion-grid-polish-2026-08-08.md`
+  - `reports/order-goal-collection-product-jump-2026-08-08.md`
 
 ## August 8 Guide-to-Product Routing Batch
 

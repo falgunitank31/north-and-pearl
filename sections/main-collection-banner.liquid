@@ -68,6 +68,37 @@
           <strong>Anniversary Gifts</strong>
         </a>
       </div>
+
+      {%- if collection.products_count > 0 -%}
+        <div class="np-collection-product-jump" aria-label="Start with products in this collection">
+          <p>Start with these pieces</p>
+          <div>
+            {%- assign np_product_jump_count = 0 -%}
+            {%- for product in collection.products limit: 6 -%}
+              {%- if product.available and product.featured_media and np_product_jump_count < 3 -%}
+                {%- assign np_product_jump_count = np_product_jump_count | plus: 1 -%}
+                <a href="{{ product.url }}">
+                  <span class="np-collection-product-jump__image">
+                    {{
+                      product.featured_media
+                      | image_url: width: 120
+                      | image_tag:
+                        widths: '80, 120',
+                        sizes: '56px',
+                        loading: 'lazy',
+                        alt: product.featured_media.alt | default: product.title
+                    }}
+                  </span>
+                  <span class="np-collection-product-jump__text">
+                    <strong>{{ product.title | escape }}</strong>
+                    <small>{{ product.price | money }}</small>
+                  </span>
+                </a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      {%- endif -%}
     </div>
 
     {%- if section.settings.show_collection_image and collection_hero_image -%}

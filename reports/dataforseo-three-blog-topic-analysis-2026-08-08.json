@@ -1,0 +1,398 @@
+{
+  "date": "2026-08-08",
+  "keyword_metrics": [
+    {
+      "keyword": "charm bracelet",
+      "search_volume": 110000,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 0.49,
+      "high_top_of_page_bid": 1.87
+    },
+    {
+      "keyword": "personalized charm bracelet",
+      "search_volume": 60500,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 0.69,
+      "high_top_of_page_bid": 2.3
+    },
+    {
+      "keyword": "initial necklace",
+      "search_volume": 40500,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 0.82,
+      "high_top_of_page_bid": 2.4
+    },
+    {
+      "keyword": "birthstone necklace",
+      "search_volume": 33100,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 1.16,
+      "high_top_of_page_bid": 5.59
+    },
+    {
+      "keyword": "gold charm bracelet",
+      "search_volume": 18100,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 0.48,
+      "high_top_of_page_bid": 1.79
+    },
+    {
+      "keyword": "birthstone necklace for mom",
+      "search_volume": 12100,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 1.17,
+      "high_top_of_page_bid": 6.18
+    },
+    {
+      "keyword": "custom initial necklace",
+      "search_volume": 1600,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 1.06,
+      "high_top_of_page_bid": 3.43
+    },
+    {
+      "keyword": "charm bracelet gift",
+      "search_volume": 20,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 1.42,
+      "high_top_of_page_bid": 4.49
+    },
+    {
+      "keyword": "birthstone jewelry gifts",
+      "search_volume": 20,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 1.18,
+      "high_top_of_page_bid": 4.43
+    },
+    {
+      "keyword": "initial necklace gift",
+      "search_volume": 10,
+      "competition": "LOW",
+      "competition_index": 0,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null
+    },
+    {
+      "keyword": "birthstone necklace gift",
+      "search_volume": 0,
+      "competition": null,
+      "competition_index": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null
+    },
+    {
+      "keyword": "how to choose an initial necklace",
+      "search_volume": 0,
+      "competition": null,
+      "competition_index": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null
+    }
+  ],
+  "serps": {
+    "charm bracelet": [
+      {
+        "type": "organic",
+        "rank_group": 1,
+        "title": "Design Your Own Charm Bracelet",
+        "url": "https://blushandbliss.co/products/design-your-own-charm-bracelet?srsltid=AfmBOoq03qjgJDRuAwsZ38ySfSgCQX86dVm4W6HHP3NQa3FKPXyq__s2",
+        "description": "A charm bracelet built your way. Choose your chain, select up to 11 charms, and decide their order \u2014 we'll assemble it exactly how you design it. Personal,\u00a0... Read more",
+        "domain": "blushandbliss.co"
+      },
+      {
+        "type": "organic",
+        "rank_group": 2,
+        "title": "Charm Bracelets for Women | Personalized Styling",
+        "url": "https://us.pandora.net/en/bracelets/charm-bracelets/?srsltid=AfmBOoqbu_iHKR3ICq3FIO5N4wag8a0tBef6fQkJRJ5-EmcIXMKPOIeb",
+        "description": "Our charm bracelets for women come in various designs, from snake chains to charm bangles. , whether a 14k rose gold-plated or sterling silver charm bracelet.",
+        "domain": "us.pandora.net"
+      },
+      {
+        "type": "organic",
+        "rank_group": 3,
+        "title": "Create Your Own",
+        "url": "https://johnwind.com/pages/charm-collection?srsltid=AfmBOorL1ETZSCIgocmNPJRvE_zWEJCfqlauPt_7wtzcjUIsyDSOpw4a",
+        "description": "Signature Charm Bracelet. Comes with 15 charms and chain bracelet. Regular price From $218.00. Read more",
+        "domain": "johnwind.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 4,
+        "title": "14k Gold Charm Bracelets - Shop Starter ...",
+        "url": "https://charmco.com/collections/categories-bracelets-chains-bracelets?srsltid=AfmBOorAlzrTJvk3lyePTaZ8BaoB11i9FdfmIxuQGGpxo0eyi8GYzjqE",
+        "description": "Start your story with a 14k gold charm bracelet. From classic link chains to modern bangles, find the perfect foundation to build a unique collection.",
+        "domain": "charmco.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 5,
+        "title": "CHARM BRACELETS",
+        "url": "https://charmit.com/collections/bracelets?srsltid=AfmBOoplLa6OWkffB3yKtnBi-q_CZLIgqBbLXDLE2oeFRdS2UXRZwSAJ",
+        "description": "CHARM IT! accessories are custom created to fit our CHARM IT! charms. The first step to building an amazing charm bracelet? Picking the bracelet of course!",
+        "domain": "charmit.com"
+      },
+      {
+        "type": "people_also_ask",
+        "rank_group": 1,
+        "title": null,
+        "url": null,
+        "description": null,
+        "domain": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 6,
+        "title": "Charms | Meaningful Add-Ons for Bracelets",
+        "url": "https://www.littlewordsproject.com/collections/charms-by-little-words-project?srsltid=AfmBOorPBpHjaJndms9uEQ5mSOmBUz638gzNXGhUSV4z0n0uvrpk2Jfl",
+        "description": "Personalize your bracelet with our collection of charms. Each charm is designed to add meaning, inspiration, and a unique touch to your Little Words Project\u00a0...",
+        "domain": "www.littlewordsproject.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 7,
+        "title": "The Easiest Charm Bracelet You'll Ever Make | Beadalon",
+        "url": "https://www.facebook.com/Beadalon/videos/the-easiest-charm-bracelet-youll-ever-make/1032742303051654/",
+        "description": "Charm bracelet in minutes \u2014 no clasps, no measuring, no maths. \u2728 Memory wire does the work for you, so you just thread, charm, and finish.",
+        "domain": "www.facebook.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 8,
+        "title": "Charm Bracelets - Brighton",
+        "url": "https://www.brighton.com/collections/charm-bracelets?srsltid=AfmBOor2_3SSdT4KHKzfu-9Q7FYs9EH3V6zKnTXkDaeR4P6m90Zx9QGH",
+        "description": "Shop Brighton charm bracelets with mix and match charms, beads, and amulets for meaningful personal style.",
+        "domain": "www.brighton.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 9,
+        "title": "Charm Bracelets | Build Your Charm Bracelet in Silver & Gold",
+        "url": "https://jetsetcandy.com/collections/charm-bracelets?srsltid=AfmBOorR0i9r_3tijnHZ3SQsLWqDmrbHeWUQW6J9RyhWEkIEvAMa5-he",
+        "description": "Our Infinity Charm Bracelet comes in 925 Sterling Silver, Gold Vermeil, and Solid 14k Gold. The Slim Infinity Charm Bracelet is available exclusively in 14k\u00a0... Read more",
+        "domain": "jetsetcandy.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 10,
+        "title": "How to Make a Simple Charm Bracelet",
+        "url": "https://www.youtube.com/watch?v=JGgxMgqNJuo",
+        "description": null,
+        "domain": "www.youtube.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 11,
+        "title": "Charm Bracelets for Girls & Women",
+        "url": "https://www.jamesavery.com/bracelets/charm-bracelets?srsltid=AfmBOooqOt1BjfUnqhsuu-7KyHVsAW7NiUXVSF92wgtMQDTa3FQOdoi5",
+        "description": "Shop for charm bracelets for both girls and women at James Avery. Discover beautifully crafted gold and silver bracelets for your charms.",
+        "domain": "www.jamesavery.com"
+      }
+    ],
+    "initial necklace": [
+      {
+        "type": "organic",
+        "rank_group": 1,
+        "title": "Personalized Initial Necklaces & Letter Pendants",
+        "url": "https://www.onecklace.com/initial-necklaces/?srsltid=AfmBOopKbfLwCDQTt2R-jiDXjhlHLnKEnrL1ZWWkJspBCChr1OI75Iwq",
+        "description": "Initial necklaces are personalized jewelry pieces featuring a single letter or multiple initials used to represent identity and personal sentiment.",
+        "domain": "www.onecklace.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 2,
+        "title": "Initial Necklaces",
+        "url": "https://mintandlily.com/collections/initial-necklaces?srsltid=AfmBOopQ3Gp137R4VaZb8EkzwRfv6r1YIuo0qJyd0EYLztTCcYmMoB9k",
+        "description": "Add a personal touch with Mint & Lily's Initial Necklaces Collection. Discover beautifully crafted necklaces featuring custom initials,\u00a0...",
+        "domain": "mintandlily.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 3,
+        "title": "Initial & Letter Jewelry Collection",
+        "url": "https://caitlynminimalist.com/collections/initial?srsltid=AfmBOooMB1ezfl6-Ns2ESPxgu_7OYZ9nB_ATYz2vqXBlyS3iq_7tI_7n",
+        "description": "From personalized necklaces & bracelets to charms and pendants, our custom initial jewelry makes the perfect meaningful gift for birthdays, anniversaries,\u00a0...",
+        "domain": "caitlynminimalist.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 4,
+        "title": "Initial Jewelry",
+        "url": "https://www.kendrascott.com/jewelry/initial-jewelry/?srsltid=AfmBOopLMSI8hTKTme7M14-_lnaTH9vDWvNdPhDc7ZDa43-gkMeMjzHO",
+        "description": "Shop personalized letter necklaces and initial jewelry for a unique, meaningful touch. Our collection of initial necklaces is perfect for any occasion.",
+        "domain": "www.kendrascott.com"
+      },
+      {
+        "type": "people_also_ask",
+        "rank_group": 1,
+        "title": null,
+        "url": null,
+        "description": null,
+        "domain": null
+      },
+      {
+        "type": "organic",
+        "rank_group": 5,
+        "title": "Initial Necklaces | Custom Letter Charm ...",
+        "url": "https://us.pandora.net/en/necklaces/initial-necklaces/?srsltid=AfmBOoqsnVdMs7nzSzqJsIKGlugEp9-6S5sTvRND443gVHG54uDTmE0l",
+        "description": "Create your own Pandora initial necklace with letter charms or design a custom initial necklace with engravable pendants.",
+        "domain": "us.pandora.net"
+      },
+      {
+        "type": "organic",
+        "rank_group": 6,
+        "title": "Initials Pendants | Initial Charms| Handcrafted in the USA",
+        "url": "https://www.factorydirectjewelry.com/categories/pendants-necklaces/initials-collection.html?srsltid=AfmBOoovicOdN2JU2uYOt3M45GADjKSADeZ6-_iMdbLO2x9BX50Pyrhc",
+        "description": "Every piece is solid gold or solid sterling silver all the way through. No plating, no filling, no shortcuts. The metal is the same from the surface to the core\u00a0... Read more",
+        "domain": "www.factorydirectjewelry.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 7,
+        "title": "Personalized Initial Necklaces",
+        "url": "https://brookandyork.com/collections/initial-necklaces?srsltid=AfmBOoo4xiKO0h-0KJ7-8rLuyumdZQEK9ye9_9WsxZa6jeTFsROPdBU0",
+        "description": "Explore luxe initial necklaces at Brook and York. From custom letter pendants to engraved initials, shop elevated personalized jewelry made to be treasured.",
+        "domain": "brookandyork.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 8,
+        "title": "Initial Necklaces, Letter Jewelry",
+        "url": "https://uncommonjames.com/collections/initials?srsltid=AfmBOoopIjqiizk1iHjpAN2uMFEZoilNv8i5GWZQTOLJzc8I48fvfe_R",
+        "description": "Effortlessly Personalize Your Look With Initial Jewelry From Uncommon James. These Silver And Gold Initial Necklaces Will Easily Layer.",
+        "domain": "uncommonjames.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 9,
+        "title": "Affordable Letter and Initial Jewelry",
+        "url": "https://www.kayoutlet.com/personalized/popular-styles/personalized-initial-and-number-jewelry/c/8000000321",
+        "description": "Explore discounted letter and initial jewelry at Kay Outlet. Shop custom letter necklaces, rings, bracelets and more with your initials and letters.",
+        "domain": "www.kayoutlet.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 10,
+        "title": "Custom Name & Initial Jewelry, Necklaces & Rings",
+        "url": "https://www.baublebar.com/collections/name-initial-jewelry?srsltid=AfmBOorNniy-0XGRLiNwrYmFm1azOwlIl3dOyNbBNGCXZ-7nlJMKLh-r",
+        "description": "Shop personalized jewelry at BaubleBar, featuring initial earrings, nameplate necklace pendants & more. Enjoy free UPS shipping over $75 & free returns.",
+        "domain": "www.baublebar.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 11,
+        "title": "Custom Initial Necklaces",
+        "url": "https://thevintagepearl.com/initial-necklace/?srsltid=AfmBOooBHsGjD6A_2dL8EOERaQQDqIqR6pD7CijeccMQTvT8qcPA9wiQ",
+        "description": "Initial Necklaces are the perfect way to personalize your look. Wear your own initial or initial of a person close to you. Customize with letters from A-Z.",
+        "domain": "thevintagepearl.com"
+      }
+    ],
+    "birthstone necklace": [
+      {
+        "type": "organic",
+        "rank_group": 1,
+        "title": "Birthstone Necklaces",
+        "url": "https://mintandlily.com/collections/birthstone-necklaces?srsltid=AfmBOoqzqiws9YyWOoU8rRDetWJ46QlKJrVo0QhMkxXgiOph41-0Moic",
+        "description": "A dainty heart-shaped birthstone necklace on a gold-plated chain with a lobster. Dainty Birthstone Heart Necklace. $29. Gold\u00a0... Read more",
+        "domain": "mintandlily.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 2,
+        "title": "Gold Birthstone Necklaces Collection",
+        "url": "https://eternate.com/collections/birthstone-necklaces?srsltid=AfmBOoowC4EXE636FQUn8eV-eBuwBeqi4XpznTdiggAfW9kdzyQ-jr5e",
+        "description": "All available in gold, rose, and silver, our 14k gold birthstone necklaces are highly customizable. Choose your birthstone or the birthstones of loved ones",
+        "domain": "eternate.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 3,
+        "title": "Maya Brenner Birthstone Necklace for Women",
+        "url": "https://mayabrenner.com/collections/birthstone-necklaces-1",
+        "description": "Shop handmade unique pieces for yourself or as a gift to your loved ones. Explore birthstone necklaces crafted from high-quality 14k gold.",
+        "domain": "mayabrenner.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 4,
+        "title": "Birthstone Necklace | Custom and Personalized",
+        "url": "https://www.littleskystone.com/collections/birthstone-necklaces?srsltid=AfmBOor8Vjl4EHrgZSAPWaAEQlAXpEdS7ErOFukcNC4nUc-XZResnkUj",
+        "description": "Shop a wide variety of birthstone necklaces, from classic birthstone pendants to customized birthstone initials. They are meaningful gifts for any occasion!",
+        "domain": "www.littleskystone.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 5,
+        "title": "Shop Birthstone Jewelry by Month",
+        "url": "https://www.jared.com/birthstone-jewelry-by-month?srsltid=AfmBOoqFh05GJG2SI8WqOQ7eCGDaEqxgd8H4BNrwOazHigKCT7k1Nqgy",
+        "description": "Celebrate your next birthday with a special gift from Jared, like a birthstone necklace or ring. Birthstone jewelry is an elegant and personal present.",
+        "domain": "www.jared.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 6,
+        "title": "Birthstone Jewelry",
+        "url": "https://www.kendrascott.com/jewelry/birthstones/?srsltid=AfmBOorTbDq4GMNbZUPBWt4v4Nn7uIW416lOzYdUwmvLS6lNegwqHdgz",
+        "description": "No matter which month you were born, make your birthstone a part of your signature look with our selection of earrings, necklaces, charms, and more. Read more",
+        "domain": "www.kendrascott.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 7,
+        "title": "Birthstone Jewelry | Birth Month Gemstones",
+        "url": "https://caitlynminimalist.com/collections/birthstones?srsltid=AfmBOop1z1Nss1KO5DfRz3VogCNGNLiOYRoj3-HVTsBAvCpfMz1cMY2J",
+        "description": "Browse our selection of custom Birthstone Jewelry. Shop birthstone necklaces, earrings, rings, and bracelets in 18K Gold & Silver. Enjoy free U.S. Shipping.",
+        "domain": "caitlynminimalist.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 8,
+        "title": "Personalized Birthstone Jewelry",
+        "url": "https://brookandyork.com/collections/birthstone-jewelry?srsltid=AfmBOoopYrf4h4BJzXN1zyJrnOhbLKe5UmaVscVl0pnaeSpOtYK7TL2W",
+        "description": "Discover custom birthstone jewelry designed to celebrate her story. A meaningful, personalized gift for mom\u2014featuring necklaces, bracelets, and more.",
+        "domain": "brookandyork.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 9,
+        "title": "Mens Birthstone & Family Pendants",
+        "url": "https://vincerocollective.com/collections/mens-birthstone-pendants",
+        "description": "Mens Birthstone & Family Pendants. Give the dads in your life a meaningful way to carry their family close to their heart every day. Read more",
+        "domain": "vincerocollective.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 10,
+        "title": "Build a Birthstone Necklace",
+        "url": "https://llumejewelry.com/products/birthstone-necklace?srsltid=AfmBOopeMq0XlNcvlIMd1TFLRQSfPHCOwCY52vYDSaDRxu-TpFg1akk8",
+        "description": "The Build a Birthstone Necklace by LLUME Jewelry features a delicate gold chain with small oval links against a white background, offering a minimal, elegant\u00a0...",
+        "domain": "llumejewelry.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 11,
+        "title": "Birthstone Necklaces",
+        "url": "https://www.monicavinader.com/us/shop/birthstone-necklaces?srsltid=AfmBOopnsuO2XcQAcFY3KgKZqnJm0udK8g4pa4OTl67gNh6us_AvMTNc",
+        "description": "A birthstone necklace makes a meaningful gift for those you love most. Shop gemstone pendant & beaded necklaces online now. 5 year warranty.",
+        "domain": "www.monicavinader.com"
+      },
+      {
+        "type": "organic",
+        "rank_group": 12,
+        "title": "Birthstone Necklaces",
+        "url": "https://gelindiamond.com/collections/birthstone-necklaces?srsltid=AfmBOorsxtVNeLcMX4VmihEHs6alH_CcIs-KVDPZ_Xx23pmVnWYshc1V",
+        "description": "Discover the captivating allure of our Birthstone Necklaces collection, exquisitely crafted in radiant 14k gold. Every necklace boasts a distinct gemstone\u00a0...",
+        "domain": "gelindiamond.com"
+      }
+    ]
+  },
+  "cost_estimate_usd": 0.066
+}

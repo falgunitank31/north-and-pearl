@@ -148,3 +148,8 @@ Indexing caveat: Google does not provide an API to force ordinary Shopify ecomme
 - Evidence files:
   - `reports/dataforseo-blog-content-analysis-2026-08-08.md`
   - `reports/dataforseo-blog-content-analysis-2026-08-08.json`
+- Follow-up publication: 3 new DataForSEO-selected Gift Guide articles were published on August 8, 2026.
+  - `https://northandpearl.com/blogs/gift-guide/charm-bracelet-guide`
+  - `https://northandpearl.com/blogs/gift-guide/initial-necklace-guide`
+  - `https://northandpearl.com/blogs/gift-guide/birthstone-necklace-guide`
+  - Additional DataForSEO cost for topic/SERP validation: $0.066; total logged spend for August 8 after publication: $0.266.

@@ -1,48 +1,77 @@
 {{ 'north-pearl-guide-links.css' | asset_url | stylesheet_tag }}
 
+{%- liquid
+  assign featured_collection = section.settings.featured_collection | default: collections['gifts-under-100']
+-%}
+
 <section class="np-guide-links color-{{ section.settings.color_scheme }}">
   <div class="page-width np-guide-links__inner">
     <div>
       <p class="np-guide-links__kicker">{{ section.settings.kicker }}</p>
       <h2>{{ section.settings.heading }}</h2>
     </div>
-    <div class="np-guide-links__grid">
-      <a href="{{ routes.collections_url }}/gifts">
-        <span>Shop Gifts</span>
-        <p>Find pieces by occasion, recipient, and meaningful moment.</p>
-      </a>
-      <a href="{{ routes.collections_url }}/personalized-jewelry">
-        <span>Personalized Jewelry</span>
-        <p>Shop name, initial, heart, and meaning-led pieces in one focused edit.</p>
-      </a>
-      <a href="{{ routes.collections_url }}/jewelry-gifts-for-her">
-        <span>Jewelry Gifts for Her</span>
-        <p>Browse a focused edit for birthdays, anniversaries, and everyday appreciation.</p>
-      </a>
-      <a href="{{ routes.collections_url }}/gifts-under-100">
-        <span>Gifts Under $100</span>
-        <p>Shop accessible jewelry gift paths with product grids first.</p>
-      </a>
-      <a href="{{ routes.collections_url }}/gifts-under-50">
-        <span>Gifts Under $50</span>
-        <p>Find polished smaller gifts that still feel personal.</p>
-      </a>
-      <a href="{{ routes.collections_url }}/name-necklaces">
-        <span>Name Necklaces</span>
-        <p>Start with the most personal everyday keepsake.</p>
-      </a>
-      <a href="{{ routes.collections_url }}/birthday-jewelry-gifts">
-        <span>Birthday Jewelry Gifts</span>
-        <p>Choose initials, birth-month inspiration, hearts, and everyday styles.</p>
-      </a>
-      <a href="{{ routes.collections_url }}/anniversary-gifts">
-        <span>Anniversary Gifts</span>
-        <p>Shop heart, name, initial, ring, bracelet, and couple-inspired pieces.</p>
-      </a>
-      <a href="{{ routes.root_url }}blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week">
-        <span>Weekly Gift Guide</span>
-        <p>Use a short editorial path into the strongest gift collections and featured pieces.</p>
-      </a>
+    <div class="np-guide-links__commerce">
+      {%- if featured_collection != blank and featured_collection.products_count > 0 -%}
+        <div class="np-guide-links__products" aria-label="Featured jewelry to shop from this guide">
+          {%- for product in featured_collection.products limit: 4 -%}
+            {%- if product.featured_media -%}
+              <a class="np-guide-product" href="{{ product.url }}">
+                {{
+                  product.featured_media
+                  | image_url: width: 520
+                  | image_tag:
+                    widths: '220, 360, 520',
+                    sizes: '(min-width: 990px) 13vw, (min-width: 640px) 42vw, 90vw',
+                    loading: 'lazy',
+                    alt: product.featured_media.alt | default: product.title
+                }}
+                <span>
+                  <strong>{{ product.title | escape }}</strong>
+                  <small>{{ product.price | money }}</small>
+                </span>
+              </a>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+      <div class="np-guide-links__grid">
+        <a href="{{ routes.collections_url }}/gifts">
+          <span>Shop Gifts</span>
+          <p>Find pieces by occasion, recipient, and meaningful moment.</p>
+        </a>
+        <a href="{{ routes.collections_url }}/personalized-jewelry">
+          <span>Personalized Jewelry</span>
+          <p>Shop name, initial, heart, and meaning-led pieces in one focused edit.</p>
+        </a>
+        <a href="{{ routes.collections_url }}/jewelry-gifts-for-her">
+          <span>Jewelry Gifts for Her</span>
+          <p>Browse a focused edit for birthdays, anniversaries, and everyday appreciation.</p>
+        </a>
+        <a href="{{ routes.collections_url }}/gifts-under-100">
+          <span>Gifts Under $100</span>
+          <p>Shop accessible jewelry gift paths with product grids first.</p>
+        </a>
+        <a href="{{ routes.collections_url }}/gifts-under-50">
+          <span>Gifts Under $50</span>
+          <p>Find polished smaller gifts that still feel personal.</p>
+        </a>
+        <a href="{{ routes.collections_url }}/name-necklaces">
+          <span>Name Necklaces</span>
+          <p>Start with the most personal everyday keepsake.</p>
+        </a>
+        <a href="{{ routes.collections_url }}/birthday-jewelry-gifts">
+          <span>Birthday Jewelry Gifts</span>
+          <p>Choose initials, birth-month inspiration, hearts, and everyday styles.</p>
+        </a>
+        <a href="{{ routes.collections_url }}/anniversary-gifts">
+          <span>Anniversary Gifts</span>
+          <p>Shop heart, name, initial, ring, bracelet, and couple-inspired pieces.</p>
+        </a>
+        <a href="{{ routes.root_url }}blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week">
+          <span>Weekly Gift Guide</span>
+          <p>Use a short editorial path into the strongest gift collections and featured pieces.</p>
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -70,6 +99,11 @@
       "id": "color_scheme",
       "label": "Color scheme",
       "default": "scheme-2"
+    },
+    {
+      "type": "collection",
+      "id": "featured_collection",
+      "label": "Featured products collection"
     }
   ],
   "presets": [

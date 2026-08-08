@@ -50,7 +50,7 @@
 - Monitor Google Merchant Center reprocessing after the August 5 product-record description enrichment. Shopify Admin confirms 208 active product records were updated; public storefront cache may lag on sampled pages, but Admin/feed source data is corrected.
 - Re-inspect the 10 priority product URLs strengthened on August 5 after Google recrawls: heart keepsake necklace, flower nail bangle, pink heart bow bracelet, dainty flower necklace, clover charm bracelet, personalized nameplate necklace, twine band ring, water drop jewelry set, mixed charm bangle, and sparkle accent bracelet.
 - Continue monitor-only GSC posture until indexing stabilizes; do not request manual reindexing or submit individual URLs. Keep improving customer-facing quality only.
-- August 8 DataForSEO blog analysis: existing blog pages need stronger commercial routing. P1 action is to add intentional in-article product and collection links to weak guides, resolve duplicate under-$100 intent, and validate Article/BlogPosting schema coverage.
+- August 8 DataForSEO blog analysis: weak-guide commercial routing was improved on 7 existing guides with live product links, collection links, and buyer checklists. Remaining P1 actions are to resolve duplicate under-$100 intent, improve article depth/FAQ quality where thin, and validate Article/BlogPosting schema coverage from live rendered pages.
 - August 8 DataForSEO three-blog publication completed: monitor `charm-bracelet-guide`, `initial-necklace-guide`, and `birthstone-necklace-guide` for Search Console discovery/impressions without manual reindexing until the indexing pause is lifted.
 ## P2
 

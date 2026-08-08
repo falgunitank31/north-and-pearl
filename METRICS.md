@@ -173,3 +173,12 @@ Indexing caveat: Google does not provide an API to force ordinary Shopify ecomme
   - `reports/order-goal-product-entry-improvement-2026-08-08.md`
   - `reports/order-goal-guide-product-entry-improvement-2026-08-08.md`
   - `reports/order-goal-homepage-occasion-grid-polish-2026-08-08.md`
+
+## August 8 Guide-to-Product Routing Batch
+
+- DataForSEO/Faraday finding addressed: multiple Gift Guide articles had weak commercial routing and needed more direct product links.
+- Shopify Admin API updated 7 existing Gift Guide articles with "Shop this guide" sections.
+- Live validation: all 7 updated URLs returned HTTP 200 and contained the new shopping section.
+- Each updated guide now contains direct product links and collection links so article traffic has a clearer path into product views.
+- Theme Check after the update: 286 files inspected, 0 offenses.
+- Evidence file: `reports/faraday-weak-guide-commercial-routing-2026-08-08.md`.

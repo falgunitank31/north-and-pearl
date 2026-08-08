@@ -1,12 +1,12 @@
 {
   "summary": {
-    "generatedAt": "2026-08-08T19:22:59.969Z",
+    "generatedAt": "2026-08-08T19:33:02.813Z",
     "sameThreadAutomationActive": false,
     "activeAutomations": 0,
     "workingToday": 0,
     "needsUpdate": 0,
     "resting": 9,
-    "searchImpressions": 6,
+    "searchImpressions": 32,
     "searchClicks": 0,
     "organicSessions": 0,
     "visibleOrders": 0,
@@ -15,7 +15,7 @@
   "businessStats": [
     {
       "label": "Search impressions",
-      "value": 6,
+      "value": 32,
       "note": "Search Console, latest API snapshot",
       "tone": "blue"
     },
@@ -65,9 +65,9 @@
   "agentStats": [
     {
       "name": "Faraday",
-      "reportsToday": 0,
-      "totalReports": 21,
-      "latest": "indexing-phase-dashboard-2026-08-05.md",
+      "reportsToday": 1,
+      "totalReports": 22,
+      "latest": "faraday-qualified-traffic-execution-2026-08-08.md",
       "status": "Not Scheduled"
     },
     {
@@ -249,9 +249,14 @@
       ],
       "owns": "SEO, AEO, GEO, Search Console, buyer-intent pages, organic traffic and conversion paths.",
       "latest": {
-        "file": "indexing-phase-dashboard-2026-08-05.md",
-        "path": "reports/indexing-phase-dashboard-2026-08-05.md",
-        "mtime": "2026-08-05T01:45:47.368Z"
+        "file": "faraday-qualified-traffic-execution-2026-08-08.md",
+        "path": "reports/faraday-qualified-traffic-execution-2026-08-08.md",
+        "mtime": "2026-08-08T19:25:50.934Z"
+      },
+      "todayReport": {
+        "file": "faraday-qualified-traffic-execution-2026-08-08.md",
+        "path": "reports/faraday-qualified-traffic-execution-2026-08-08.md",
+        "mtime": "2026-08-08T19:25:50.934Z"
       },
       "status": "Not Scheduled"
     },

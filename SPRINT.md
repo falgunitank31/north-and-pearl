@@ -199,6 +199,9 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [ ] Pareto/Faraday/Kuhn next conversion task: monitor whether homepage, guide, and collection direct-product paths increase product views; if `view_item` remains 0 after more sessions, audit event instrumentation and PDP click tracking.
 - [ ] Pareto/Rawls/Faraday daily goal tracking: update verified sessions, product views, add-to-carts, checkout starts, orders, Search Console clicks, and GA4 organic sessions against the 7-day and 30-day targets.
 - [x] Faraday/Tesla completed the weak commercial guide product-link batch: Birthstone Jewelry Gift Guide, Bridesmaid Jewelry Gift Ideas, Personalized Jewelry for Mother's Day, Personalized Jewelry for Couples, Best Name Necklace Gifts for Her, Jewelry Gifts Under $100, and How to Layer Necklaces now include "Shop this guide" sections with live product and collection links.
+- [x] Faraday refreshed the August 8 qualified-traffic kit and live weekly gift guide for campaign `order_growth_august_2026`.
+- [x] Faraday/Rawls pulled fresh Search Console evidence: 32 impressions, 0 clicks, 15 query/page rows, and 6/6 checked order-goal priority URLs indexed with canonical matches.
+- [x] Faraday optimized the Birthday Jewelry Gifts collection from the strongest current GSC non-brand signal cluster, adding claim-safe birthday necklace copy, internal links, and updated SEO metadata.
 - [ ] Faraday/Kuhn next blog implementation batch: improve thin/weak article sections with concise buyer-decision blocks, keeping products and collections as the conversion path and avoiding unsupported material or delivery claims.
 ## Success Criteria
 

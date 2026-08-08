@@ -1,6 +1,6 @@
 # Agent Command Center
 
-Generated: 2026-08-08T19:22:59.969Z
+Generated: 2026-08-08T19:33:02.813Z
 
 ## Summary
 
@@ -8,7 +8,7 @@ Generated: 2026-08-08T19:22:59.969Z
 - Lanes updated today: 0
 - Lanes resting: 9
 - Lanes with no report yet: 0
-- Search Console impressions: 6
+- Search Console impressions: 32
 - Search Console clicks: 0
 - GA4 organic sessions: 0
 - Visible Shopify orders: 0
@@ -16,7 +16,7 @@ Generated: 2026-08-08T19:22:59.969Z
 
 ## Traffic & Performance
 
-- Search impressions: 6 (Search Console, latest API snapshot)
+- Search impressions: 32 (Search Console, latest API snapshot)
 - Search clicks: 0 (No organic clicks verified yet)
 - GA4 organic sessions: 0 (Organic top-pages API report)
 - Visible orders: 0 (Safe non-PII Shopify order monitor)
@@ -32,7 +32,7 @@ Generated: 2026-08-08T19:22:59.969Z
 
 ## Agent Performance
 
-- Faraday: 0 report(s) today, 21 total matching lane reports; latest: indexing-phase-dashboard-2026-08-05.md
+- Faraday: 1 report(s) today, 22 total matching lane reports; latest: faraday-qualified-traffic-execution-2026-08-08.md
 - Gauss: 0 report(s) today, 11 total matching lane reports; latest: gauss-daily-catalog-growth-2026-08-04.md
 - Pareto: 0 report(s) today, 5 total matching lane reports; latest: pareto-faraday-first-order-activation-2026-08-04.md
 - Tesla: 0 report(s) today, 15 total matching lane reports; latest: live-storefront-qa-2026-08-06.md
@@ -51,7 +51,7 @@ Generated: 2026-08-08T19:22:59.969Z
 
 ## Agents
 
-- Faraday: Not Scheduled; latest report: reports/indexing-phase-dashboard-2026-08-05.md; operating mode: same-thread heartbeat
+- Faraday: Not Scheduled; latest report: reports/faraday-qualified-traffic-execution-2026-08-08.md; operating mode: same-thread heartbeat
 - Gauss: Not Scheduled; latest report: reports/gauss-daily-catalog-growth-2026-08-04.md; operating mode: same-thread heartbeat
 - Pareto: Not Scheduled; latest report: reports/pareto-faraday-first-order-activation-2026-08-04.md; operating mode: same-thread heartbeat
 - Tesla: Not Scheduled; latest report: reports/live-storefront-qa-2026-08-06.md; operating mode: same-thread heartbeat

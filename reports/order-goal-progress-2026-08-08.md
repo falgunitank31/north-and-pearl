@@ -24,8 +24,8 @@ GA4 aggregate funnel snapshot for 2026-08-08:
 
 - Sessions: 2
 - Users: 1
-- Screen page views: 1
-- Event count: 6
+- Screen page views: 2
+- Event count: 7
 - View item events: 0
 - Add to cart events: 0
 - Begin checkout events: 0
@@ -39,6 +39,7 @@ The store has a verified goal baseline and two verified GA4 sessions in the goal
 ## Next Operating Actions
 
 - Faraday: keep pushing qualified visitors to high-intent commercial pages and monitor Search Console clicks/impressions.
+- Faraday: latest Search Console snapshot shows 32 impressions, 0 clicks, and Birthday Jewelry Gifts as the strongest current non-brand opportunity; the page was updated with claim-safe birthday necklace copy and internal links.
 - Pareto: prioritize non-discount commercial paths that can move visitors into product pages.
 - Kuhn/Gauss: keep strongest product/category merchandising visible above the fold.
 - Tesla/Rawls: continue daily GA4 funnel pulls and dashboard regeneration.

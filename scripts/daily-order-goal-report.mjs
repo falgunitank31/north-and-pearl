@@ -40,6 +40,7 @@ const campaign = latestJson('reports/google-api', (file) => file.startsWith('ga4
 const gsc = latestJson('reports/google-api', (file) => file.startsWith('gsc-query-order-goal-') && file.endsWith('.json'));
 const sitemaps = latestJson('reports/google-api', (file) => file.startsWith('gsc-sitemaps-daily-') && file.endsWith('.json'));
 const orders = latestJson('reports', (file) => file.startsWith('shopify-orders-safe-') && file.endsWith('.json'));
+const storefront = latestJson('reports', (file) => file.startsWith('storefront-sample-daily-') && file.endsWith('.json'));
 
 const totals = ga4.data?.totals || {};
 const current = {
@@ -57,15 +58,9 @@ const sitemapWarnings = sitemapRows.reduce((sum, sitemap) => sum + Number(sitema
 const merchantPath = `reports/merchant-center-readiness-${today}.md`;
 const merchantText = existsSync(merchantPath) ? readFileSync(merchantPath, 'utf8') : '';
 const merchantSummary = merchantText.match(/Active products audited:\s*(\d+)[\s\S]*?Ready with identifier caveat:\s*(\d+)[\s\S]*?Needs review:\s*(\d+)/i);
-
-const storefrontChecks = [
-  'Homepage',
-  'Gifts Under $100',
-  'Jewelry Gifts for Her',
-  'Name Necklaces',
-  'Initial Shell Necklace PDP',
-  'Weekly gift guide',
-].join(', ');
+const storefrontChecks = storefront.data?.checks || [];
+const storefrontFailed = storefront.data?.failed || [];
+const storefrontPassed = storefrontChecks.filter((check) => check.ok).length;
 
 const dailyMet = (
   current.qualified_visitors >= val(targets.qualified_visitors, Infinity)
@@ -130,8 +125,25 @@ const lines = [
   merchantSummary
     ? `- Latest Merchant readiness: ${merchantSummary[2]} active products ready with identifier caveat, ${merchantSummary[3]} needing review.`
     : '- Latest Merchant readiness: not available for this date.',
-  `- Storefront sample: ${storefrontChecks} should be checked during the daily block.`,
+  `- Storefront sample source: \`${storefront.file || 'not available'}\``,
+  storefrontChecks.length
+    ? `- Latest storefront sample status: ${storefrontPassed}/${storefrontChecks.length} sampled URLs returned HTTP 200.`
+    : '- Latest storefront sample status: not available.',
   '',
+];
+
+if (storefrontChecks.length) {
+  lines.push('## Storefront Sample');
+  lines.push('');
+  lines.push('| Page | URL | HTTP status | Result |');
+  lines.push('| --- | --- | ---: | --- |');
+  for (const check of storefrontChecks) {
+    lines.push(`| ${check.label} | ${check.url} | ${check.status ?? 'n/a'} | ${check.ok ? 'Pass' : 'Needs attention'} |`);
+  }
+  lines.push('');
+}
+
+lines.push(
   '## Daily Result',
   '',
   dailyMet
@@ -141,7 +153,7 @@ const lines = [
   '## Stop Rule',
   '',
   'After the daily action block is complete, stop and wait for the next daily check. Do not continuously redesign, rewrite, or reshuffle the store during the same day unless a verified critical issue appears.',
-];
+);
 
 mkdirSync('reports', { recursive: true });
 writeFileSync(outputPath, `${lines.join('\n')}\n`);

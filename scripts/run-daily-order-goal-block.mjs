@@ -6,6 +6,7 @@ const property = 'properties/546565745';
 const gscProperty = 'sc-domain:northandpearl.com';
 const campaign = 'order_growth_august_2026';
 const reportPath = `reports/daily-order-goal-run-${today}.md`;
+const storefrontPath = `reports/storefront-sample-daily-${today}.json`;
 
 const steps = [
   {
@@ -74,6 +75,10 @@ const steps = [
     command: ['node', 'scripts/audit-merchant-center-readiness.mjs'],
   },
   {
+    name: 'Storefront sample HTTP check',
+    custom: runStorefrontSample,
+  },
+  {
     name: 'Daily order goal report',
     command: ['node', 'scripts/daily-order-goal-report.mjs'],
   },
@@ -87,12 +92,48 @@ const steps = [
   },
 ];
 
+const storefrontUrls = [
+  ['Homepage', 'https://northandpearl.com/'],
+  ['Gifts Under $100', 'https://northandpearl.com/collections/gifts-under-100'],
+  ['Jewelry Gifts for Her', 'https://northandpearl.com/collections/jewelry-gifts-for-her'],
+  ['Name Necklaces', 'https://northandpearl.com/collections/name-necklaces'],
+  ['Initial Shell Necklace PDP', 'https://northandpearl.com/products/north-pearl-initial-shell-necklace'],
+  ['Weekly gift guide', 'https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week'],
+];
+
+function runStorefrontSample() {
+  const checks = storefrontUrls.map(([label, url]) => {
+    try {
+      const status = execFileSync('curl', ['-L', '-s', '-o', '/dev/null', '-w', '%{http_code}', url], {
+        encoding: 'utf8',
+        stdio: ['ignore', 'pipe', 'pipe'],
+      }).trim();
+      return { label, url, status: Number(status), ok: status === '200' };
+    } catch (error) {
+      return { label, url, status: null, ok: false, error: String(error.message || error) };
+    }
+  });
+
+  const report = {
+    generatedAt: new Date().toISOString(),
+    checks,
+    failed: checks.filter((check) => !check.ok),
+  };
+  writeFileSync(storefrontPath, `${JSON.stringify(report, null, 2)}\n`);
+  if (report.failed.length) {
+    throw new Error(`${report.failed.length} storefront sample URL(s) failed`);
+  }
+  return checks.map((check) => `${check.status} ${check.url}`).join('\n');
+}
+
 function runStep(step) {
   try {
-    const output = execFileSync(step.command[0], step.command.slice(1), {
-      encoding: 'utf8',
-      stdio: ['ignore', 'pipe', 'pipe'],
-    });
+    const output = step.custom
+      ? step.custom()
+      : execFileSync(step.command[0], step.command.slice(1), {
+          encoding: 'utf8',
+          stdio: ['ignore', 'pipe', 'pipe'],
+        });
     if (step.stdoutFile) {
       mkdirSync(step.stdoutFile.split('/').slice(0, -1).join('/'), { recursive: true });
       writeFileSync(step.stdoutFile, output);

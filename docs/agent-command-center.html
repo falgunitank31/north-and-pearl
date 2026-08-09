@@ -270,8 +270,8 @@
 
     <section class="stats" aria-label="Agent status summary">
       <div class="stat"><strong>1</strong><span>Same-thread heartbeat</span></div>
-      <div class="stat"><strong>2</strong><span>Lanes updated today</span></div>
-      <div class="stat"><strong>7</strong><span>Lanes resting</span></div>
+      <div class="stat"><strong>1</strong><span>Lanes updated today</span></div>
+      <div class="stat"><strong>8</strong><span>Lanes resting</span></div>
       <div class="stat"><strong>0</strong><span>Lanes with no report yet</span></div>
     </section>
 
@@ -281,7 +281,7 @@
       <div class="metric-grid">
         
           <div class="metric blue">
-            <strong>32</strong>
+            <strong>45</strong>
             <div class="label">Search impressions</div>
             <div class="note">Search Console, latest API snapshot</div>
           </div>
@@ -334,7 +334,7 @@
 
     <section class="panel" aria-label="Order goals">
       <h2>Order Goals</h2>
-      <p class="small">Baseline date: 2026-08-08. Progress uses verified available data only. Funnel source: reports/google-api/ga4-order-goal-progress-2026-08-08.json.</p>
+      <p class="small">Baseline date: 2026-08-08. Progress uses verified available data only. Funnel source: reports/google-api/ga4-order-goal-progress-2026-08-09.json.</p>
       
         <div class="goal-card">
           <h3>Daily Order Progress Goal</h3>
@@ -342,8 +342,8 @@
           
             <div class="goal-row">
               <span>Qualified visitors</span>
-              <div class="goal-bar" aria-label="Qualified visitors daily progress"><span style="width:4%"></span></div>
-              <span>2/50</span>
+              <div class="goal-bar" aria-label="Qualified visitors daily progress"><span style="width:6%"></span></div>
+              <span>3/50</span>
             </div>
           
             <div class="goal-row">
@@ -389,7 +389,7 @@
               <div class="goal-row">
                 <span>Qualified visitors</span>
                 <div class="goal-bar" aria-label="Qualified visitors progress"><span style="width:1%"></span></div>
-                <span>2/300</span>
+                <span>3/300</span>
               </div>
             
               <div class="goal-row">
@@ -432,7 +432,7 @@
               <div class="goal-row">
                 <span>Qualified visitors</span>
                 <div class="goal-bar" aria-label="Qualified visitors progress"><span style="width:0%"></span></div>
-                <span>2/1500</span>
+                <span>3/1500</span>
               </div>
             
               <div class="goal-row">
@@ -478,8 +478,8 @@
         
           <div class="agent-metric">
             <strong>Faraday</strong>
-            <div class="small">Updated Today</div>
-            <div class="small">1 report(s) today · 22 total</div>
+            <div class="small">Waiting In Thread</div>
+            <div class="small">0 report(s) today · 22 total</div>
             <div class="small">Latest: faraday-qualified-traffic-execution-2026-08-08.md</div>
           </div>
         
@@ -535,8 +535,8 @@
           <div class="agent-metric">
             <strong>Lead Orchestrator</strong>
             <div class="small">Updated Today</div>
-            <div class="small">1 report(s) today · 13 total</div>
-            <div class="small">Latest: daily-order-goal-2026-08-08.md</div>
+            <div class="small">1 report(s) today · 15 total</div>
+            <div class="small">Latest: daily-order-goal-2026-08-09.md</div>
           </div>
         
       </div>
@@ -591,11 +591,11 @@
 
     <section class="grid" aria-label="Agent lanes">
       
-        <article class="card" data-agent="Faraday" data-state="working" data-search="faraday organic growth seo, aeo, geo, search console, buyer-intent pages, organic traffic and conversion paths. faraday-qualified-traffic-execution-2026-08-08.md updated today">
+        <article class="card" data-agent="Faraday" data-state="resting" data-search="faraday organic growth seo, aeo, geo, search console, buyer-intent pages, organic traffic and conversion paths. faraday-qualified-traffic-execution-2026-08-08.md waiting in thread">
           <div>
             <h2 class="agent-name">Faraday</h2>
             <div class="lane">Organic growth</div>
-            <div class="agent-state working">Working today</div>
+            <div class="agent-state resting">Resting until next heartbeat</div>
           </div>
           <dl>
             <dt>Owns</dt>
@@ -608,7 +608,7 @@
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
           <div>
-            <span class="status updated-today">Updated Today</span>
+            <span class="status waiting-in-thread">Waiting In Thread</span>
           </div>
         </article>
       
@@ -759,7 +759,7 @@
           </div>
         </article>
       
-        <article class="card" data-agent="Lead Orchestrator" data-state="working" data-search="lead orchestrator ecommerce operating system prioritization, cross-agent coordination, sprint/backlog, risk, qa, next-month order readiness. daily-order-goal-2026-08-08.md updated today">
+        <article class="card" data-agent="Lead Orchestrator" data-state="working" data-search="lead orchestrator ecommerce operating system prioritization, cross-agent coordination, sprint/backlog, risk, qa, next-month order readiness. daily-order-goal-2026-08-09.md updated today">
           <div>
             <h2 class="agent-name">Lead Orchestrator</h2>
             <div class="lane">Ecommerce operating system</div>
@@ -771,7 +771,7 @@
             <dt>Operating Mode</dt>
             <dd>Daily goal cadence: RRULE:FREQ=DAILY</dd>
             <dt>Latest Report</dt>
-            <dd><a href="../reports/daily-order-goal-2026-08-08.md">daily-order-goal-2026-08-08.md</a></dd>
+            <dd><a href="../reports/daily-order-goal-2026-08-09.md">daily-order-goal-2026-08-09.md</a></dd>
             <dt>Thread Rule</dt>
             <dd class="small">No separate chat. Lead Orchestrator runs this lane inside the current thread.</dd>
           </dl>
@@ -783,7 +783,7 @@
     </section>
 
     <footer>
-      Generated at 2026-08-08T20:36:02.407Z. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
+      Generated at 2026-08-09T17:10:22.787Z. Open this file after the same-thread daily run or regenerate with <code>node scripts/generate-agent-command-center.mjs</code>.
     </footer>
   </main>
   <script>

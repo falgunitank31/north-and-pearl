@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-08-09T17:10:22.688Z",
+  "checks": [
+    {
+      "label": "Homepage",
+      "url": "https://northandpearl.com/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "label": "Gifts Under $100",
+      "url": "https://northandpearl.com/collections/gifts-under-100",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "label": "Jewelry Gifts for Her",
+      "url": "https://northandpearl.com/collections/jewelry-gifts-for-her",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "label": "Name Necklaces",
+      "url": "https://northandpearl.com/collections/name-necklaces",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "label": "Initial Shell Necklace PDP",
+      "url": "https://northandpearl.com/products/north-pearl-initial-shell-necklace",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "label": "Weekly gift guide",
+      "url": "https://northandpearl.com/blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "failed": []
+}

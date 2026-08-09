@@ -1,0 +1,55 @@
+<!-- Related Collections Links for SEO - Stage 1 -->
+<div class="related-collections-section" style="margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #e5e5e5;">
+  <h3 style="font-size: 1.25rem; margin-bottom: 1.5rem;">Explore More</h3>
+  
+  {% if collection.handle == 'name-necklaces' %}
+    <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+      <li><a href="/collections/personalized-jewelry" style="color: #333; text-decoration: none;">← All Personalized Jewelry</a></li>
+      <li><a href="/collections/initial-necklaces" style="color: #333; text-decoration: none;">Initial Necklaces</a></li>
+      <li><a href="/collections/birthstone-jewelry" style="color: #333; text-decoration: none;">Birthstone Jewelry</a></li>
+      <li><a href="/collections/jewelry-gifts-for-her" style="color: #333; text-decoration: none;">Jewelry Gifts for Her</a></li>
+    </ul>
+  {% elsif collection.handle == 'initial-necklaces' %}
+    <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+      <li><a href="/collections/personalized-jewelry" style="color: #333; text-decoration: none;">← All Personalized Jewelry</a></li>
+      <li><a href="/collections/name-necklaces" style="color: #333; text-decoration: none;">Name Necklaces</a></li>
+      <li><a href="/collections/jewelry-gifts-for-her" style="color: #333; text-decoration: none;">Jewelry Gifts for Her</a></li>
+      <li><a href="/collections/birthday-jewelry-gifts" style="color: #333; text-decoration: none;">Birthday Gifts</a></li>
+    </ul>
+  {% elsif collection.handle == 'birthstone-jewelry' %}
+    <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+      <li><a href="/collections/personalized-jewelry" style="color: #333; text-decoration: none;">← All Personalized Jewelry</a></li>
+      <li><a href="/collections/jewelry-gifts-for-her" style="color: #333; text-decoration: none;">Jewelry Gifts for Her</a></li>
+      <li><a href="/collections/gifts-under-100" style="color: #333; text-decoration: none;">Gifts Under $100</a></li>
+      <li><a href="/collections/birthday-jewelry-gifts" style="color: #333; text-decoration: none;">Birthday Gifts</a></li>
+    </ul>
+  {% elsif collection.handle == 'personalized-jewelry' %}
+    <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+      <li><a href="/collections/name-necklaces" style="color: #333; text-decoration: none;">Name Necklaces</a></li>
+      <li><a href="/collections/initial-necklaces" style="color: #333; text-decoration: none;">Initial Necklaces</a></li>
+      <li><a href="/collections/birthstone-jewelry" style="color: #333; text-decoration: none;">Birthstone Jewelry</a></li>
+      <li><a href="/collections/jewelry-gifts-for-her" style="color: #333; text-decoration: none;">Jewelry Gifts for Her</a></li>
+    </ul>
+  {% elsif collection.handle == 'jewelry-gifts-for-her' %}
+    <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+      <li><a href="/collections/personalized-jewelry" style="color: #333; text-decoration: none;">← All Personalized Jewelry</a></li>
+      <li><a href="/collections/name-necklaces" style="color: #333; text-decoration: none;">Name Necklaces</a></li>
+      <li><a href="/collections/birthday-jewelry-gifts" style="color: #333; text-decoration: none;">Birthday Gifts</a></li>
+      <li><a href="/collections/gifts-under-100" style="color: #333; text-decoration: none;">Gifts Under $100</a></li>
+    </ul>
+  {% elsif collection.handle == 'gifts-under-50' or collection.handle == 'gifts-under-100' %}
+    <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+      <li><a href="/collections/jewelry-gifts-for-her" style="color: #333; text-decoration: none;">← Jewelry Gifts for Her</a></li>
+      <li><a href="/collections/name-necklaces" style="color: #333; text-decoration: none;">Name Necklaces</a></li>
+      <li><a href="/collections/personalized-jewelry" style="color: #333; text-decoration: none;">Personalized Jewelry</a></li>
+      <li><a href="/collections/birthday-jewelry-gifts" style="color: #333; text-decoration: none;">Birthday Gifts</a></li>
+    </ul>
+  {% elsif collection.handle == 'birthday-jewelry-gifts' %}
+    <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+      <li><a href="/collections/jewelry-gifts-for-her" style="color: #333; text-decoration: none;">← Jewelry Gifts for Her</a></li>
+      <li><a href="/collections/name-necklaces" style="color: #333; text-decoration: none;">Name Necklaces</a></li>
+      <li><a href="/collections/gifts-under-100" style="color: #333; text-decoration: none;">Gifts Under $100</a></li>
+      <li><a href="/collections/birthstone-jewelry" style="color: #333; text-decoration: none;">Birthstone Jewelry</a></li>
+    </ul>
+  {% endif %}
+</div>

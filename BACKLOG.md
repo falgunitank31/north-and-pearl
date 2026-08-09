@@ -2,7 +2,7 @@
 
 ## P0
 
-- None currently verified.
+- **EXECUTION: Order Goal Activation (Aug 10-Sept 7)** — Integrated plan to hit 7-day target (300 visitors, 1 order) then 30-day target (1,500 visitors, 10 orders). Details: ORDER_GOAL_EXECUTION_PLAN.md. Daily monitoring starts Aug 10 with automated checks. Claude Code has full deployment authority for data-driven improvements. Distribution execution by Faraday/Pareto is critical path. No content optimization until GA4 data shows what needs fixing.
 
 ## P1
 

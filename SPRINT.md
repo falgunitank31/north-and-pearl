@@ -78,6 +78,7 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Cleaned active product descriptions/meta to remove internal supplier, Alibaba, candidate, and review-gate language.
 - [x] Re-ran active product claim scan; 208 active products scanned, 0 unsupported/internal claim hits.
 - [x] Re-ran Merchant Center readiness; 208 active products ready with identifier caveat, 0 needing review.
+- [x] Reconciled the August 11 100-product expansion handoff against the already-completed July 28 catalog expansion; staged the 17 August 11 Alibaba candidates in `docs/sourcing/aug11-batch1-gate-register.csv` with exact URLs, hold reasons, and next gates, without creating or publishing products.
 - [x] Re-ran live storefront QA after catalog expansion and cleanup; 208/208 product pages passed and cart add passed.
 - [x] Re-curated Gifts after the 100-product expansion; narrowed live Gifts from 156 products to 56 active gift-intent products.
 - [x] Re-curated New Arrivals after the 100-product expansion; narrowed live New Arrivals from 222 products to 64 active launch-ready products.

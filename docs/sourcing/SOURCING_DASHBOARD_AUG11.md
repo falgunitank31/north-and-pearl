@@ -1,6 +1,6 @@
 # 100-Product Alibaba Expansion — Live Dashboard
 **Started:** August 11, 2026
-**Last updated:** August 11, 2026 (Batch 4 started; 5 total strict-sourced products published)
+**Last updated:** August 11, 2026 (Batch 9 discovery; 5 total strict-sourced products published)
 
 ---
 
@@ -8,25 +8,25 @@
 
 | Metric | Count |
 |---|---|
-| Candidates Researched | 31 |
-| Image/IP Screened | 10 |
-| Shortlisted | 5 |
-| Rejected | 1 |
-| Held | 26 |
+| Candidates Researched | 131 |
+| Image/IP Screened | 65 (20 full-gallery/source screened; 45 thumbnail/source-schema screened) |
+| Shortlisted | 34 (5 approved/published; 29 pending full-gallery validation) |
+| Rejected | 7 |
+| Held | 45 |
 | Approved | 5 |
 | Added to Shopify | 5 |
 | QA Passed | 5 |
 | Published | 5 |
-| RED IP Rejections | 1 |
-| YELLOW Reviews / Held (pending) | 26 (held for CAPTCHA/protection, insufficient image evidence, duplicate risk, incomplete supplier evidence, or claim-sensitive public-image risk) |
-| Exact Alibaba URLs Recorded | 31 / 31 |
+| RED IP Rejections | 7 |
+| YELLOW Reviews / Held (pending) | 45 (held for CAPTCHA/protection, insufficient image evidence, duplicate risk, incomplete supplier evidence, weak brand fit, mismatched galleries, or claim-sensitive public-image risk) |
+| Exact Alibaba URLs Recorded | 131 / 131 |
 | Missing Supplier Information | 5+ (several public-web candidates have incomplete supplier profile confirmation and remain held or marked incomplete until the source page is fully accessible) |
 
-*Real, verified count — not a target. Current August 11 strict expansion records include Batch 1 live-search candidates plus Batch 2-4 public-web exact Alibaba listings. Raw/source files include `docs/sourcing/batch1_candidates_raw.json`, `docs/sourcing/batch2_public_web_candidates_aug11.json`, `docs/sourcing/batch3_public_web_candidates_aug11.json`, and `docs/sourcing/batch4_public_web_candidates_aug11.json`. Gate registers are maintained per batch in `docs/sourcing/aug11-batch*-gate-register.csv`.*
+*Real, verified count — not a target. Current August 11 strict expansion records include Batch 1 live-search candidates plus Batch 2-9 public-web/country-search exact Alibaba listings. Raw/source files include `docs/sourcing/batch1_candidates_raw.json`, `docs/sourcing/batch2_public_web_candidates_aug11.json`, `docs/sourcing/batch3_public_web_candidates_aug11.json`, `docs/sourcing/batch4_public_web_candidates_aug11.json`, `docs/sourcing/batch5_public_web_candidates_aug11.json`, `docs/sourcing/batch6_country_candidates_aug11.json`, `docs/sourcing/batch7_search_candidates_aug11.json`, `docs/sourcing/batch8_schema_candidates_aug11.json`, and `docs/sourcing/batch9_schema_candidates_aug11.json`. Gate registers are maintained per batch in `docs/sourcing/aug11-batch*-gate-register.csv` plus Batch 8's thumbnail triage file.*
 
 *The current process intentionally favors fewer publish-ready products over bulk clutter: exact Alibaba URL, image/IP evidence, duplicate control, claim-safe copy, source metafields, and live PDP/cart QA are required before publication.*
 
-*These are real counts for the August 11 strict sourcing pipeline, updated as work actually happens — not projected/target numbers. Target is ~100 final additions per the sprint brief; current August 11 progress is 0 until Phase 2 research produces verified candidates. This does not duplicate the earlier July 28 catalog expansion that brought the active catalog to 208 products.*
+*These are real counts for the August 11 strict sourcing pipeline, updated as work actually happens — not projected/target numbers. Target is ~100 final additions per the sprint brief; current August 11 progress is 5 published strict-sourced products. This does not duplicate the earlier July 28 catalog expansion that brought the active catalog to 208 products.*
 
 ### August 11 Batch 1 Reconciliation + First Published Products
 
@@ -65,6 +65,45 @@
 - One claim-sensitive specification image was intentionally excluded because it visibly contained unverified material/plating claims.
 - Held B4-002 and B4-003 because exact URLs were captured but public image evidence was insufficient for mandatory IP screening.
 
+### August 11 Batch 5 Progress
+
+- Batch 5 captured 2 exact Alibaba earring listing URLs and 16 source images.
+- Published products: 0.
+- Held/rejected B5-001 and B5-002 because available galleries contain supplier branding, marketplace graphics, or mismatched product imagery.
+
+### August 11 Batch 6 Progress
+
+- Batch 6 captured 8 exact Alibaba listing URLs from country-search discovery and 56 source/image assets.
+- Published products: 0.
+- Gate register created at `docs/sourcing/aug11-batch6-gate-register.csv`.
+- Rejected B6-005 because available gallery assets contain visible supplier branding and marketplace packaging graphics.
+- Held B6-001, B6-002, B6-003, B6-004, B6-006, B6-007, and B6-008 because the galleries contain insufficient clean customer-facing images, mismatched/non-product images, weak premium fit, or unverified claim-sensitive material/spec graphics.
+- Decision: do not publish Batch 6 products until cleaner exact-listing image evidence or stronger suppliers are found.
+
+### August 11 Batch 7 Progress
+
+- Batch 7 selected 10 stronger exact Alibaba URLs from underfilled categories for deeper extraction.
+- Exact product detail pages were accessible enough for URL capture, but image extraction returned 0 usable gallery images due page protection or dynamic rendering.
+- Published products: 0.
+- Decision: keep Batch 7 as exact-source research only until full-gallery evidence is available; do not publish from non-verified generic web images.
+
+### August 11 Batch 8 Progress
+
+- Batch 8 captured 45 exact Alibaba listing URLs from category-page schema data across birthstone rings, zodiac necklaces, initial earrings, birthstone earrings, and related gaps.
+- 45 source thumbnails were downloaded into `reports/alibaba-batch8-schema-images-2026-08-11/`.
+- Contact sheet created at `reports/alibaba-batch8-contact-sheet-2026-08-11.jpg`.
+- Thumbnail triage register created at `docs/sourcing/aug11-batch8-thumbnail-gate-register.csv`.
+- Result: 29 candidates shortlisted for full-gallery/supplier validation, 13 held, 3 rejected.
+- Published products: 0. Batch 8 is a discovery queue, not a Shopify-ready batch, because thumbnail-only evidence is not enough for North & Pearl publication.
+
+### August 11 Batch 9 Progress
+
+- Batch 9 captured 45 additional exact Alibaba listing URLs from category-page schema data across birthstone necklaces, birthstone bracelets, and huggie earrings.
+- 45 source thumbnails were downloaded into `reports/alibaba-batch9-schema-images-2026-08-11/`.
+- Contact sheet created at `reports/alibaba-batch9-contact-sheet-2026-08-11.jpg`.
+- Published products: 0. Batch 9 is discovery-stage only until formal thumbnail triage and full-gallery validation are completed.
+- Current sourcing queue is now above 100 exact Alibaba URLs, satisfying the research-volume threshold while preserving strict publication standards.
+
 ---
 
 ## PHASE STATUS
@@ -72,15 +111,15 @@
 | Phase | Status | Notes |
 |---|---|---|
 | 1. Market opportunity + catalog gap analysis | ✅ Complete | See findings below |
-| 2. Alibaba candidate research | 🔄 In progress | Testing browser accessibility first |
-| 3. Supplier + IP screening | 🔄 Partial | 3/17 screened; 14 held behind Alibaba CAPTCHA/protection |
-| 4. Commercial analysis | 🔄 Partial | 2 products approved with conservative pricing; landed cost still unknown |
-| 5. Brand/visual review | 🔄 Partial | 2 products passed; 1 held |
-| 6. Final assortment selection | 🔄 Partial | 2 selected from accessible screened items |
-| 7. Shopify product creation | 🔄 Partial | 2 products created active |
-| 8. Collections + merchandising | 🔄 Partial | 2 products assigned to Rings, Birthstone, Gifts, Birthday, Under $100, New Arrivals |
-| 9. Technical + CX QA | 🔄 Partial | 2 products passed record/PDP/cart QA |
-| 10. Live verification | 🔄 Partial | 2 live PDPs return 200 and add-to-cart/cart test passed |
+| 2. Alibaba candidate research | 🔄 In progress | 131 exact-listing candidates captured |
+| 3. Supplier + IP screening | 🔄 Partial | 65/86 screened at full-gallery or thumbnail level; 21 remain held behind incomplete access/evidence |
+| 4. Commercial analysis | 🔄 Partial | 5 products approved with conservative pricing; landed cost still unknown |
+| 5. Brand/visual review | 🔄 Partial | 5 products passed; 60 screened candidates held/rejected or pending full validation |
+| 6. Final assortment selection | 🔄 Partial | 5 selected from accessible screened items; 29 pending full-gallery validation |
+| 7. Shopify product creation | 🔄 Partial | 5 products created active |
+| 8. Collections + merchandising | 🔄 Partial | 5 products assigned to relevant commercial collections |
+| 9. Technical + CX QA | 🔄 Partial | 5 products passed record/PDP/cart QA |
+| 10. Live verification | 🔄 Partial | 5 live PDPs return 200 and representative add-to-cart/cart tests passed |
 
 ---
 

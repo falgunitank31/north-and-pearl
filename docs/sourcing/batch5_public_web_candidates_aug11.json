@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-11",
+  "count": 2,
+  "candidates": [
+    {
+      "id": "B5-001",
+      "np": "North & Pearl Sparkle Drop Earrings",
+      "category": "Earrings",
+      "url": "https://www.alibaba.com/product-detail/LUOTEEMI-New-Arrival-Women-Fashion-Online_60154705068.html",
+      "listing": "60154705068",
+      "supplier": "LUOTEEMI / supplier not fully confirmed from public page",
+      "price": "UNKNOWN",
+      "moq": "UNKNOWN",
+      "title": "LUOTEEMI New Arrival Women Fashion Online Shop Drop Earrings",
+      "images": [
+        "https://s.alicdn.com/@sc04/kf/H6aa32539faed4103a2df3c8f0712aa53p.jpg",
+        "https://sc01.alicdn.com/kf/H4ddbc23476dd4a1a8af32da3ed26eed72.png",
+        "https://sc01.alicdn.com/kf/He749e6aa33c24b4b96f7875723fd30730.png",
+        "https://sc01.alicdn.com/kf/Hfddaf74a86174ede9cc528d9da95f789D.png",
+        "https://sc04.alicdn.com/kf/HTB1KkkgJpXXXXXPXpXXq6xXFXXXw.jpg",
+        "https://sc04.alicdn.com/kf/H6aa32539faed4103a2df3c8f0712aa53p.jpg",
+        "https://sc04.alicdn.com/kf/Hc72b456bef7f4ef886b66489d2579762I.jpg",
+        "https://sc04.alicdn.com/kf/HTB1QWIAIpXXXXbAXFXXq6xXFXXXJ.jpg"
+      ],
+      "downloaded": [
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-001-1.jpg",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-001-2.png",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-001-3.png",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-001-4.png",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-001-5.jpg",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-001-6.jpg",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-001-7.jpg",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-001-8.jpg"
+      ],
+      "imageStatus": "downloaded-8"
+    },
+    {
+      "id": "B5-002",
+      "np": "North & Pearl Vintage Statement Stud Earrings",
+      "category": "Earrings",
+      "url": "https://www.alibaba.com/product-detail/New-Trendy-Large-Stud-Earrings-Vintage_1601602576391.html",
+      "listing": "1601602576391",
+      "supplier": "Supplier not fully confirmed from public page",
+      "price": "UNKNOWN",
+      "moq": "UNKNOWN",
+      "title": "New Trendy Large Stud Earrings Vintage Earrings Fashion Jewellery",
+      "images": [
+        "https://s.alicdn.com/@sc04/kf/H7c4611025fe84ffa920a362478491e77H.jpg",
+        "https://sc01.alicdn.com/kf/H4ddbc23476dd4a1a8af32da3ed26eed72.png",
+        "https://sc01.alicdn.com/kf/He749e6aa33c24b4b96f7875723fd30730.png",
+        "https://sc01.alicdn.com/kf/Hfddaf74a86174ede9cc528d9da95f789D.png",
+        "https://sc04.alicdn.com/kf/H1fb2aa6a564845fead909a4dc15e50606.jpg",
+        "https://sc04.alicdn.com/kf/Hf640021b9e2b4c4fbeb4a45ec41240bcb.png",
+        "https://sc04.alicdn.com/kf/H27be6eaa447d46dd805c48ffece22fb6a.jpg",
+        "https://sc04.alicdn.com/kf/H7f6ef7a25db446ff8928367bb260e799P.jpg"
+      ],
+      "downloaded": [
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-002-1.jpg",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-002-2.png",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-002-3.png",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-002-4.png",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-002-5.jpg",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-002-6.png",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-002-7.jpg",
+        "reports/alibaba-batch5-original-images-2026-08-11/B5-002-8.jpg"
+      ],
+      "imageStatus": "downloaded-8"
+    }
+  ]
+}

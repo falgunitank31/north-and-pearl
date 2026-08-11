@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generatedAt": "2026-08-09T17:10:22.787Z",
+    "generatedAt": "2026-08-11T20:35:22.630Z",
     "sameThreadAutomationActive": true,
     "activeAutomations": 1,
-    "workingToday": 1,
+    "workingToday": 0,
     "needsUpdate": 0,
-    "resting": 8,
+    "resting": 9,
     "searchImpressions": 45,
     "searchClicks": 0,
     "organicSessions": 0,
@@ -121,10 +121,10 @@
     },
     {
       "name": "Lead Orchestrator",
-      "reportsToday": 1,
-      "totalReports": 15,
-      "latest": "daily-order-goal-2026-08-09.md",
-      "status": "Updated Today"
+      "reportsToday": 0,
+      "totalReports": 16,
+      "latest": "daily-order-goal-run-2026-08-09.md",
+      "status": "Waiting In Thread"
     }
   ],
   "blockers": [
@@ -426,16 +426,11 @@
       ],
       "owns": "Prioritization, cross-agent coordination, sprint/backlog, risk, QA, next-month order readiness.",
       "latest": {
-        "file": "daily-order-goal-2026-08-09.md",
-        "path": "reports/daily-order-goal-2026-08-09.md",
-        "mtime": "2026-08-09T17:10:22.739Z"
+        "file": "daily-order-goal-run-2026-08-09.md",
+        "path": "reports/daily-order-goal-run-2026-08-09.md",
+        "mtime": "2026-08-09T17:10:22.983Z"
       },
-      "todayReport": {
-        "file": "daily-order-goal-2026-08-09.md",
-        "path": "reports/daily-order-goal-2026-08-09.md",
-        "mtime": "2026-08-09T17:10:22.739Z"
-      },
-      "status": "Updated Today"
+      "status": "Waiting In Thread"
     }
   ]
 }

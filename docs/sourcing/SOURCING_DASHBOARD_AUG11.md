@@ -1,6 +1,6 @@
 # 100-Product Alibaba Expansion — Live Dashboard
 **Started:** August 11, 2026
-**Last updated:** August 11, 2026 (Phase 1 complete, Batch 1 reconciled into gate register)
+**Last updated:** August 11, 2026 (Batch 1 screened where accessible; 2 products published)
 
 ---
 
@@ -9,14 +9,16 @@
 | Metric | Count |
 |---|---|
 | Candidates Researched | 17 |
-| Shortlisted | 0 |
+| Image/IP Screened | 3 |
+| Shortlisted | 2 |
 | Rejected | 0 |
-| Approved | 0 |
-| Added to Shopify | 0 |
-| QA Passed | 0 |
-| Published | 0 |
+| Held | 15 |
+| Approved | 2 |
+| Added to Shopify | 2 |
+| QA Passed | 2 |
+| Published | 2 |
 | RED IP Rejections | 0 |
-| YELLOW Reviews (pending) | 7 (unverified material/performance claims: "Waterproof Tarnish Free", "Moissanite", "925 Sterling Silver" ×3, "Hypoallergenic", "14k Gold"/"Lab Grown Diamond" — none can be used as customer-facing claims without independent verification) |
+| YELLOW Reviews (pending) | 15 (1 visually screened but held for unsupported claim panels; 14 inaccessible for mandatory visual/IP screening because Alibaba returned CAPTCHA/protection pages) |
 | Exact Alibaba URLs Recorded | 17 / 17 |
 | Missing Supplier Information | 2 (2 candidates have incomplete capture — price or supplier not yet fully read; flagged in raw data, need a follow-up pass) |
 
@@ -31,12 +33,15 @@
 
 *These are real counts for the August 11 strict sourcing pipeline, updated as work actually happens — not projected/target numbers. Target is ~100 final additions per the sprint brief; current August 11 progress is 0 until Phase 2 research produces verified candidates. This does not duplicate the earlier July 28 catalog expansion that brought the active catalog to 208 products.*
 
-### August 11 Batch 1 Reconciliation
+### August 11 Batch 1 Reconciliation + First Published Products
 
 - Existing July 28 Gauss batch: 100 draft products created, 90 activated, 10 held. That work is already reflected in the 208-product active catalog and should not be repeated.
-- Current August 11 batch: 17 raw candidates, 17 exact Alibaba URLs recorded, 0 approved for Shopify creation.
+- Current August 11 batch: 17 raw candidates, 17 exact Alibaba URLs recorded, 3 image/IP screened, 2 approved and published.
 - Preliminary gate register created at `docs/sourcing/aug11-batch1-gate-register.csv`.
-- Current best candidates to visually/IP screen first: B1-010 coordinates necklace, B1-016 personalized initial earrings, B1-002 custom name birthstone ring, B1-008 half-moon coordinates necklace, B1-013 family multi-name necklace.
+- Published Batch 1 products:
+  - `north-pearl-double-heart-birth-month-ring` — Shopify product `gid://shopify/Product/10521726877880`
+  - `north-pearl-personalized-birth-month-name-ring` — Shopify product `gid://shopify/Product/10521727008952`
+- Current best held candidates to visually/IP screen when Alibaba page access clears: B1-010 coordinates necklace, B1-016 personalized initial earrings, B1-008 half-moon coordinates necklace, B1-013 family multi-name necklace.
 
 ---
 
@@ -46,14 +51,14 @@
 |---|---|---|
 | 1. Market opportunity + catalog gap analysis | ✅ Complete | See findings below |
 | 2. Alibaba candidate research | 🔄 In progress | Testing browser accessibility first |
-| 3. Supplier + IP screening | Not started | |
-| 4. Commercial analysis | Not started | |
-| 5. Brand/visual review | Not started | |
-| 6. Final assortment selection | Not started | |
-| 7. Shopify product creation | Not started | |
-| 8. Collections + merchandising | Not started | |
-| 9. Technical + CX QA | Not started | |
-| 10. Live verification | Not started | |
+| 3. Supplier + IP screening | 🔄 Partial | 3/17 screened; 14 held behind Alibaba CAPTCHA/protection |
+| 4. Commercial analysis | 🔄 Partial | 2 products approved with conservative pricing; landed cost still unknown |
+| 5. Brand/visual review | 🔄 Partial | 2 products passed; 1 held |
+| 6. Final assortment selection | 🔄 Partial | 2 selected from accessible screened items |
+| 7. Shopify product creation | 🔄 Partial | 2 products created active |
+| 8. Collections + merchandising | 🔄 Partial | 2 products assigned to Rings, Birthstone, Gifts, Birthday, Under $100, New Arrivals |
+| 9. Technical + CX QA | 🔄 Partial | 2 products passed record/PDP/cart QA |
+| 10. Live verification | 🔄 Partial | 2 live PDPs return 200 and add-to-cart/cart test passed |
 
 ---
 

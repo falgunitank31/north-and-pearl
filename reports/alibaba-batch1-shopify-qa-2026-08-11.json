@@ -1,0 +1,342 @@
+[
+  {
+    "id": "gid://shopify/Product/10521726877880",
+    "title": "North & Pearl Double Heart Birth Month Ring",
+    "handle": "north-pearl-double-heart-birth-month-ring",
+    "status": "ACTIVE",
+    "productType": "Ring",
+    "templateSuffix": "personalized",
+    "descriptionHtml": "<p>A delicate double-heart ring designed around a birth-month inspired color accent, chosen for meaningful birthdays, family gifts, and everyday keepsake styling.</p><h3>Why it belongs in your jewelry box</h3><ul>\n<li>Adjustable ring silhouette for easier gifting.</li>\n<li>Heart-shaped color accent creates a personal, birth-month inspired feel.</li>\n<li>A thoughtful option for birthdays, sisters, daughters, mothers, and self-gifting.</li>\n<li>Clean enough for everyday wear while still feeling sentimental.</li>\n</ul><h3>Personalization details</h3><p>Use the personalization field to enter the preferred birth month or color accent. This adjustable style does not require a standard ring-size selection before checkout.</p><h3>Good to know</h3><p>Material and stone composition are supplier claims until North &amp; Pearl completes sample review and documentation checks. We describe this piece by its visible design, color, and personalization options instead of making unverified material claims.</p><h3>Care</h3><p>Store separately, keep dry when possible, and avoid perfumes, lotions, and harsh cleaners. Wipe gently with a soft cloth after wear.</p>",
+    "tags": [
+      "alibaba-source-1601447882726",
+      "aug11-batch1",
+      "birth-month",
+      "birthstone-style",
+      "gift-for-her",
+      "personalized",
+      "ring",
+      "source-mapped"
+    ],
+    "media": {
+      "nodes": [
+        {
+          "mediaContentType": "IMAGE",
+          "alt": "North & Pearl Double Heart Birth Month Ring product image 1",
+          "status": "READY"
+        },
+        {
+          "mediaContentType": "IMAGE",
+          "alt": "North & Pearl Double Heart Birth Month Ring product image 2",
+          "status": "READY"
+        },
+        {
+          "mediaContentType": "IMAGE",
+          "alt": "North & Pearl Double Heart Birth Month Ring product image 3",
+          "status": "READY"
+        },
+        {
+          "mediaContentType": "IMAGE",
+          "alt": "North & Pearl Double Heart Birth Month Ring product image 4",
+          "status": "READY"
+        },
+        {
+          "mediaContentType": "IMAGE",
+          "alt": "North & Pearl Double Heart Birth Month Ring product image 5",
+          "status": "READY"
+        },
+        {
+          "mediaContentType": "IMAGE",
+          "alt": "North & Pearl Double Heart Birth Month Ring product image 6",
+          "status": "READY"
+        }
+      ]
+    },
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/53899042586808",
+          "title": "Default Title",
+          "price": "59.00",
+          "compareAtPrice": null,
+          "availableForSale": true,
+          "inventoryPolicy": "CONTINUE",
+          "sku": "NP-B1-001-1601447882726"
+        }
+      ]
+    },
+    "collections": {
+      "nodes": [
+        {
+          "title": "Birthstone Jewelry | Ready to Ship",
+          "handle": "birthstone-jewelry"
+        },
+        {
+          "title": "Rings",
+          "handle": "rings"
+        },
+        {
+          "title": "New Arrivals",
+          "handle": "new-arrivals"
+        },
+        {
+          "title": "Jewelry Gifts for Women | Ready to Ship",
+          "handle": "jewelry-gifts-for-her"
+        },
+        {
+          "title": "Jewelry Gifts Under $100 | Ready to Order",
+          "handle": "gifts-under-100"
+        },
+        {
+          "title": "Birthday Gifts for Her | Ready-to-Ship Jewelry",
+          "handle": "birthday-jewelry-gifts"
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "namespace": "custom",
+          "key": "supplier_product_url",
+          "type": "url",
+          "value": "https://www.alibaba.com/product-detail/Fine-925-Silver-Ring-CZ-Double_1601447882726.html"
+        },
+        {
+          "namespace": "custom",
+          "key": "supplier_name",
+          "type": "single_line_text_field",
+          "value": "Shenzhen Lan Shang Jewelry Co.,ltd."
+        },
+        {
+          "namespace": "custom",
+          "key": "supplier_listing_id",
+          "type": "single_line_text_field",
+          "value": "1601447882726"
+        },
+        {
+          "namespace": "custom",
+          "key": "supplier_profile_url",
+          "type": "url",
+          "value": "https://szlanshang.en.alibaba.com/company_profile.html"
+        },
+        {
+          "namespace": "custom",
+          "key": "supplier_selected_variant",
+          "type": "single_line_text_field",
+          "value": "Adjustable ring with heart-shaped birth-month color accent"
+        },
+        {
+          "namespace": "custom",
+          "key": "source_verification_status",
+          "type": "single_line_text_field",
+          "value": "Aug 11 Batch 1: visual/IP clean; material claims unverified; claim-safe public copy required"
+        },
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Double Heart Birth Month Ring | North & Pearl"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "A delicate double-heart ring designed around a birth-month inspired color accent, chosen for meaningful birthdays, family gifts, and everyday keepsake styling."
+        }
+      ]
+    },
+    "resourcePublications": {
+      "nodes": [
+        {
+          "isPublished": true,
+          "publication": {
+            "name": "Microsoft Copilot"
+          }
+        },
+        {
+          "isPublished": true,
+          "publication": {
+            "name": "Online Store"
+          }
+        },
+        {
+          "isPublished": true,
+          "publication": {
+            "name": "Google & YouTube"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "gid://shopify/Product/10521727008952",
+    "title": "North & Pearl Personalized Birth Month Name Ring",
+    "handle": "north-pearl-personalized-birth-month-name-ring",
+    "status": "ACTIVE",
+    "productType": "Ring",
+    "templateSuffix": "personalized",
+    "descriptionHtml": "<p>A personalized name ring with a birth-month inspired color accent, selected for shoppers who want a small custom detail with everyday gift appeal.</p><h3>Why it belongs in your jewelry box</h3><ul>\n<li>Custom name or short word detail for a personal gift moment.</li>\n<li>Birth-month inspired color accent supports birthday and milestone gifting.</li>\n<li>A strong choice for mothers, daughters, sisters, best friends, and self-gifting.</li>\n<li>Designed to feel personal without relying on heavy or oversized styling.</li>\n</ul><h3>Personalization details</h3><p>Use the personalization field to enter the name or word, preferred ring size, and preferred birth month or color accent exactly as you want them prepared.</p><h3>Good to know</h3><p>Material and stone composition are supplier claims until North &amp; Pearl completes sample review and documentation checks. We describe this piece by its visible design, color, and personalization options instead of making unverified material claims.</p><h3>Care</h3><p>Store separately, keep dry when possible, and avoid perfumes, lotions, and harsh cleaners. Wipe gently with a soft cloth after wear.</p>",
+    "tags": [
+      "alibaba-source-1601911389893",
+      "aug11-batch1",
+      "birth-month",
+      "birthstone-style",
+      "gift-for-her",
+      "name-ring",
+      "personalized",
+      "source-mapped"
+    ],
+    "media": {
+      "nodes": [
+        {
+          "mediaContentType": "IMAGE",
+          "alt": "North & Pearl Personalized Birth Month Name Ring product image 1",
+          "status": "READY"
+        },
+        {
+          "mediaContentType": "IMAGE",
+          "alt": "North & Pearl Personalized Birth Month Name Ring product image 2",
+          "status": "READY"
+        },
+        {
+          "mediaContentType": "IMAGE",
+          "alt": "North & Pearl Personalized Birth Month Name Ring product image 3",
+          "status": "READY"
+        },
+        {
+          "mediaContentType": "IMAGE",
+          "alt": "North & Pearl Personalized Birth Month Name Ring product image 4",
+          "status": "READY"
+        },
+        {
+          "mediaContentType": "IMAGE",
+          "alt": "North & Pearl Personalized Birth Month Name Ring product image 5",
+          "status": "READY"
+        },
+        {
+          "mediaContentType": "IMAGE",
+          "alt": "North & Pearl Personalized Birth Month Name Ring product image 6",
+          "status": "READY"
+        }
+      ]
+    },
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/53899042816184",
+          "title": "Default Title",
+          "price": "64.00",
+          "compareAtPrice": null,
+          "availableForSale": true,
+          "inventoryPolicy": "CONTINUE",
+          "sku": "NP-B1-002-1601911389893"
+        }
+      ]
+    },
+    "collections": {
+      "nodes": [
+        {
+          "title": "Birthstone Jewelry | Ready to Ship",
+          "handle": "birthstone-jewelry"
+        },
+        {
+          "title": "Rings",
+          "handle": "rings"
+        },
+        {
+          "title": "New Arrivals",
+          "handle": "new-arrivals"
+        },
+        {
+          "title": "Jewelry for Her | Shop Beautiful Ready-to-Order Pieces",
+          "handle": "personalized-jewelry"
+        },
+        {
+          "title": "Jewelry Gifts for Women | Ready to Ship",
+          "handle": "jewelry-gifts-for-her"
+        },
+        {
+          "title": "Jewelry Gifts Under $100 | Ready to Order",
+          "handle": "gifts-under-100"
+        },
+        {
+          "title": "Birthday Gifts for Her | Ready-to-Ship Jewelry",
+          "handle": "birthday-jewelry-gifts"
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "namespace": "custom",
+          "key": "supplier_product_url",
+          "type": "url",
+          "value": "https://www.alibaba.com/product-detail/Custom-Name-Birthstone-Ring-Personalized-Engraved_1601911389893.html"
+        },
+        {
+          "namespace": "custom",
+          "key": "supplier_name",
+          "type": "single_line_text_field",
+          "value": "Yiwu Qingyuan Jewelry Co., Ltd."
+        },
+        {
+          "namespace": "custom",
+          "key": "supplier_listing_id",
+          "type": "single_line_text_field",
+          "value": "1601911389893"
+        },
+        {
+          "namespace": "custom",
+          "key": "supplier_profile_url",
+          "type": "url",
+          "value": "https://viviantra.en.alibaba.com/company_profile.html"
+        },
+        {
+          "namespace": "custom",
+          "key": "supplier_selected_variant",
+          "type": "single_line_text_field",
+          "value": "Gold-tone name ring with birth-month color accent and available sizing"
+        },
+        {
+          "namespace": "custom",
+          "key": "source_verification_status",
+          "type": "single_line_text_field",
+          "value": "Aug 11 Batch 1: visual/IP clean; material claims unverified; claim-safe public copy required"
+        },
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Personalized Birth Month Name Ring | North & Pearl"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "A personalized name ring with a birth-month inspired color accent, selected for shoppers who want a small custom detail with everyday gift appeal."
+        }
+      ]
+    },
+    "resourcePublications": {
+      "nodes": [
+        {
+          "isPublished": true,
+          "publication": {
+            "name": "Microsoft Copilot"
+          }
+        },
+        {
+          "isPublished": true,
+          "publication": {
+            "name": "Online Store"
+          }
+        },
+        {
+          "isPublished": true,
+          "publication": {
+            "name": "Google & YouTube"
+          }
+        }
+      ]
+    }
+  }
+]

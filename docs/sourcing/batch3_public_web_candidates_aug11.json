@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-11",
+  "count": 3,
+  "candidates": [
+    {
+      "id": "B3-001",
+      "np": "North & Pearl Family Birth Month Heart Necklace",
+      "category": "Necklace",
+      "url": "https://www.alibaba.com/product-introduction/Custom-Family-Names-Heart-Pendant-Necklace_1601397950260.html",
+      "listing": "1601397950260",
+      "supplier": "Supplier not fully confirmed from public page",
+      "price": "$1.07-$2.28",
+      "moq": "30 pieces",
+      "title": "Custom Family Names Heart Pendant Necklace with Birthstones Personalized Mothers Day Necklace Jewelry Gift for Mom Mum",
+      "images": [
+        "https://sc04.alicdn.com/kf/He0b13571d1fa414f9f743b6a0db6a6a9M.jpg",
+        "https://sc04.alicdn.com/kf/Ha0c94262d5ad44b692064ed6ec5c9823v.jpg",
+        "https://sc04.alicdn.com/kf/H1a8faea570584943942feccdd2d55d77f.jpg"
+      ],
+      "downloaded": [
+        "reports/alibaba-batch3-original-images-2026-08-11/B3-001-1.jpg",
+        "reports/alibaba-batch3-original-images-2026-08-11/B3-001-2.jpg",
+        "reports/alibaba-batch3-original-images-2026-08-11/B3-001-3.jpg"
+      ],
+      "imageStatus": "downloaded-3"
+    },
+    {
+      "id": "B3-002",
+      "np": "North & Pearl Oval Huggie Earrings",
+      "category": "Earrings",
+      "url": "https://www.alibaba.com/product-introduction/A00859222-XUPING-Jewelry-Wholesale-Minimalist-Ladies_1601016329480.html",
+      "listing": "1601016329480",
+      "supplier": "XUPING / supplier page not fully confirmed",
+      "price": "$4.71-$4.24",
+      "moq": "3 pairs",
+      "title": "A00859222 XUPING Jewelry Wholesale Minimalist Ladies 18K Gold Plated Copper Jewelry Fashion Hoop Huggie Earrings",
+      "images": [
+        "https://sc04.alicdn.com/kf/Hc4750501319e44f689eca02942617558C.jpg",
+        "https://sc04.alicdn.com/kf/H5fb5daa432c34376ba71267173b3e540a.jpg",
+        "https://sc04.alicdn.com/kf/H802abbd54c67492fbd2a3e2631373a26h.jpg"
+      ],
+      "downloaded": [
+        "reports/alibaba-batch3-original-images-2026-08-11/B3-002-1.jpg",
+        "reports/alibaba-batch3-original-images-2026-08-11/B3-002-2.jpg",
+        "reports/alibaba-batch3-original-images-2026-08-11/B3-002-3.jpg"
+      ],
+      "imageStatus": "downloaded-3"
+    },
+    {
+      "id": "B3-003",
+      "np": "North & Pearl Bubble Initial Necklace",
+      "category": "Necklace",
+      "url": "https://www.alibaba.com/product-introduction/Women-trendy-single-letter-necklace-micro_1601094183364.html",
+      "listing": "1601094183364",
+      "supplier": "btf / supplier page not fully confirmed",
+      "price": "UNKNOWN",
+      "moq": "12 pieces",
+      "title": "Women Trendy Single Letter Necklace Micro Pave Cz Bubble 26 Letter Necklace",
+      "images": [
+        "https://sc04.alicdn.com/kf/Hf949411899f044dca3c4e509f95518c0f.jpg"
+      ],
+      "downloaded": [
+        "reports/alibaba-batch3-original-images-2026-08-11/B3-003-1.jpg"
+      ],
+      "imageStatus": "downloaded-1"
+    }
+  ]
+}

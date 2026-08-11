@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-11",
+  "count": 3,
+  "candidates": [
+    {
+      "id": "B4-001",
+      "np": "North & Pearl Birth Flower Round Pendant Necklace",
+      "category": "Necklace",
+      "url": "https://www.alibaba.com/product-introduction/JINYOU-3001-Tarnish-Free-Mother-Women_1600370738258.html",
+      "listing": "1600370738258",
+      "supplier": "JINYOU / supplier not fully confirmed from public page",
+      "price": "$1.98-$27.60",
+      "moq": "6 pieces",
+      "title": "JINYOU 3001 Tarnish Free Mother Women Gift Jewelry Stainless Steel 12 Month Birth Flower Round Minimalist Gold Pendant Necklace",
+      "images": [
+        "https://sc04.alicdn.com/kf/He11fe86443b443adb65716bfad8a7eeay.jpg",
+        "https://sc04.alicdn.com/kf/Hc845671861474b65810126e1e1621ef4n.jpg",
+        "https://sc04.alicdn.com/kf/Hd7943d6a2bc0442eb86e2803501c963eo.jpg",
+        "https://sc04.alicdn.com/kf/Ha6b8bd35b840498e9120c88b8ddcf8fbS.jpg"
+      ],
+      "downloaded": [
+        "reports/alibaba-batch4-original-images-2026-08-11/B4-001-1.jpg",
+        "reports/alibaba-batch4-original-images-2026-08-11/B4-001-2.jpg",
+        "reports/alibaba-batch4-original-images-2026-08-11/B4-001-3.jpg",
+        "reports/alibaba-batch4-original-images-2026-08-11/B4-001-4.jpg"
+      ],
+      "imageStatus": "downloaded-4"
+    },
+    {
+      "id": "B4-002",
+      "np": "North & Pearl Engraved Bar Bracelet",
+      "category": "Bracelet",
+      "url": "https://www.alibaba.com/product-introduction/Olivia-Dainty-Skinny-Nameplate-Initials-Coordinate_62303049986.html",
+      "listing": "62303049986",
+      "supplier": "Olivia / supplier not fully confirmed from public page",
+      "price": "$1.80-$1.10",
+      "moq": "50 pieces",
+      "title": "Olivia Dainty Skinny Nameplate Initials Coordinate Bar Bracelet Customize Engraved Gold Horizontal Bar Bracelet for Women",
+      "images": [],
+      "downloaded": [],
+      "imageStatus": "missing-public-image-url"
+    },
+    {
+      "id": "B4-003",
+      "np": "North & Pearl Engraved Message Cuff Bracelet",
+      "category": "Bracelet",
+      "url": "https://www.alibaba.com/product-introduction/Cuff-Bracelet-Engraved-Personalized-Message-Stainless_1600053729390.html",
+      "listing": "1600053729390",
+      "supplier": "Supplier not fully confirmed from public page",
+      "price": "$2.85-$2.15",
+      "moq": "12 sets",
+      "title": "Cuff Bracelet Engraved Personalized Message Stainless Steel Customized Trendy Letters for Bracelets Letter Jewelry 1 Opp Bag",
+      "images": [],
+      "downloaded": [],
+      "imageStatus": "missing-public-image-url"
+    }
+  ]
+}

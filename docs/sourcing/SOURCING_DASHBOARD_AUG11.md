@@ -1,6 +1,6 @@
 # 100-Product Alibaba Expansion — Live Dashboard
 **Started:** August 11, 2026
-**Last updated:** August 11, 2026 (Batch 1 screened where accessible; 2 products published)
+**Last updated:** August 11, 2026 (Batch 4 started; 5 total strict-sourced products published)
 
 ---
 
@@ -8,28 +8,23 @@
 
 | Metric | Count |
 |---|---|
-| Candidates Researched | 17 |
-| Image/IP Screened | 3 |
-| Shortlisted | 2 |
-| Rejected | 0 |
-| Held | 15 |
-| Approved | 2 |
-| Added to Shopify | 2 |
-| QA Passed | 2 |
-| Published | 2 |
-| RED IP Rejections | 0 |
-| YELLOW Reviews (pending) | 15 (1 visually screened but held for unsupported claim panels; 14 inaccessible for mandatory visual/IP screening because Alibaba returned CAPTCHA/protection pages) |
-| Exact Alibaba URLs Recorded | 17 / 17 |
-| Missing Supplier Information | 2 (2 candidates have incomplete capture — price or supplier not yet fully read; flagged in raw data, need a follow-up pass) |
+| Candidates Researched | 31 |
+| Image/IP Screened | 10 |
+| Shortlisted | 5 |
+| Rejected | 1 |
+| Held | 26 |
+| Approved | 5 |
+| Added to Shopify | 5 |
+| QA Passed | 5 |
+| Published | 5 |
+| RED IP Rejections | 1 |
+| YELLOW Reviews / Held (pending) | 26 (held for CAPTCHA/protection, insufficient image evidence, duplicate risk, incomplete supplier evidence, or claim-sensitive public-image risk) |
+| Exact Alibaba URLs Recorded | 31 / 31 |
+| Missing Supplier Information | 5+ (several public-web candidates have incomplete supplier profile confirmation and remain held or marked incomplete until the source page is fully accessible) |
 
-*Real, verified count — not a target. 17 candidates found across 5 of ~10 priority categories via live Alibaba search:*
-- *Birthstone ring: 4*
-- *Zodiac: 3*
-- *Coordinates/engraved: 4 (including one $519 candidate for the empty $100+ tier)*
-- *Family/multi-name: 4*
-- *Earrings: 2*
+*Real, verified count — not a target. Current August 11 strict expansion records include Batch 1 live-search candidates plus Batch 2-4 public-web exact Alibaba listings. Raw/source files include `docs/sourcing/batch1_candidates_raw.json`, `docs/sourcing/batch2_public_web_candidates_aug11.json`, `docs/sourcing/batch3_public_web_candidates_aug11.json`, and `docs/sourcing/batch4_public_web_candidates_aug11.json`. Gate registers are maintained per batch in `docs/sourcing/aug11-batch*-gate-register.csv`.*
 
-*Raw data: `docs/sourcing/batch1_candidates_raw.json`. Gate register: `docs/sourcing/aug11-batch1-gate-register.csv`. Remaining priority categories not yet researched: rings (general, non-birthstone), earrings (continued — only 2 so far against a real gap), $100+ tier (beyond the one coordinates candidate), plus none of these 17 have had image-level IP screening yet — that's the next real step before any shortlisting decision, given today's earlier lesson that title-only screening missed trademark issues that only showed up on visual inspection.*
+*The current process intentionally favors fewer publish-ready products over bulk clutter: exact Alibaba URL, image/IP evidence, duplicate control, claim-safe copy, source metafields, and live PDP/cart QA are required before publication.*
 
 *These are real counts for the August 11 strict sourcing pipeline, updated as work actually happens — not projected/target numbers. Target is ~100 final additions per the sprint brief; current August 11 progress is 0 until Phase 2 research produces verified candidates. This does not duplicate the earlier July 28 catalog expansion that brought the active catalog to 208 products.*
 
@@ -42,6 +37,33 @@
   - `north-pearl-double-heart-birth-month-ring` — Shopify product `gid://shopify/Product/10521726877880`
   - `north-pearl-personalized-birth-month-name-ring` — Shopify product `gid://shopify/Product/10521727008952`
 - Current best held candidates to visually/IP screen when Alibaba page access clears: B1-010 coordinates necklace, B1-016 personalized initial earrings, B1-008 half-moon coordinates necklace, B1-013 family multi-name necklace.
+
+### August 11 Batch 2 Progress
+
+- Batch 2 public-web discovery captured 8 additional exact Alibaba listing URLs.
+- 12 original/source images downloaded for image/IP screening where public image URLs were available.
+- Published Batch 2 product:
+  - `north-pearl-zodiac-wish-card-necklace` — Shopify product `gid://shopify/Product/10521732939960`
+- Live QA passed: 12 zodiac variants, 5 images ready, canonical present, customer-facing copy clean, and add-to-cart/cart confirmed with Pisces variant.
+- Held candidates: B2-001 duplicate-risk ring; B2-003 limited-image evidence; B2-004 through B2-008 missing full image/IP screening evidence.
+
+### August 11 Batch 3 Progress
+
+- Batch 3 public-web discovery captured 3 more exact Alibaba listing URLs and 7 source images.
+- Published Batch 3 product:
+  - `north-pearl-family-birth-month-heart-necklace` — Shopify product `gid://shopify/Product/10521736937656`
+- Live QA passed: PDP renders, 3 images ready, canonical present, customer-facing copy clean, personalization property reached cart, and no unsupported public claims detected.
+- Rejected/held B3-002 because all available images contain visible XUPING logo/website watermark.
+- Held B3-003 because only one image is available and initial necklaces are not a priority gap.
+
+### August 11 Batch 4 Progress
+
+- Batch 4 public-web discovery captured 3 more exact Alibaba listing URLs and 4 source images.
+- Published Batch 4 product:
+  - `north-pearl-birth-flower-pendant-necklace` — Shopify product `gid://shopify/Product/10521737658552`
+- Live QA passed: 12 birth-month variants, 3 images ready, canonical present, customer-facing copy clean, May variant reached cart, and no unsupported public claims detected.
+- One claim-sensitive specification image was intentionally excluded because it visibly contained unverified material/plating claims.
+- Held B4-002 and B4-003 because exact URLs were captured but public image evidence was insufficient for mandatory IP screening.
 
 ---
 

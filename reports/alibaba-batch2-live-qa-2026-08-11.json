@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-08-11T20:48:57.365Z",
+  "id": "gid://shopify/Product/10521732939960",
+  "title": "North & Pearl Zodiac Wish Card Necklace",
+  "handle": "north-pearl-zodiac-wish-card-necklace",
+  "status": "ACTIVE",
+  "onlineStoreUrl": "https://northandpearl.com/products/north-pearl-zodiac-wish-card-necklace",
+  "variantCount": 12,
+  "variantTitles": [
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricorn",
+    "Aquarius",
+    "Pisces"
+  ],
+  "allVariantsPriced": true,
+  "allVariantsContinue": true,
+  "mediaCount": 5,
+  "allMediaReady": true,
+  "collections": [
+    "Necklaces",
+    "Gifts",
+    "New Arrivals",
+    "Jewelry Gifts for Women | Ready to Ship",
+    "Jewelry Gifts Under $50 | Ready to Order",
+    "Jewelry Gifts Under $100 | Ready to Order",
+    "Birthday Gifts for Her | Ready-to-Ship Jewelry"
+  ],
+  "customMetafields": [
+    {
+      "key": "supplier_product_url",
+      "value": "https://www.alibaba.com/product-detail/Wholesale-12-Zodiac-Necklace-with-Wish_1601679678930.html"
+    },
+    {
+      "key": "supplier_name",
+      "value": "Yiwu Deshang Jewelry Co., Ltd."
+    },
+    {
+      "key": "supplier_listing_id",
+      "value": "1601679678930"
+    },
+    {
+      "key": "supplier_profile_url",
+      "value": "https://deshangjewelry.en.alibaba.com/company_profile.html"
+    },
+    {
+      "key": "supplier_selected_variant",
+      "value": "Round zodiac pendant necklace with sign card presentation"
+    },
+    {
+      "key": "source_verification_status",
+      "value": "Aug 11 Batch 2: visual/IP clean; material claims unverified; claim-safe public copy required"
+    }
+  ],
+  "seo": {
+    "title": "Zodiac Wish Card Necklace | North & Pearl",
+    "description": "A delicate zodiac pendant necklace chosen for birthday gifting, friendship gifts, and shoppers who want a small meaningful symbol tied to their sign."
+  },
+  "publicSupplierLanguage": true,
+  "publicUnsupportedClaims": false,
+  "canonicalPresent": true,
+  "pdpStatus": true,
+  "cartOk": true,
+  "cartTitle": "Pisces"
+}

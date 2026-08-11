@@ -199,3 +199,22 @@ Indexing caveat: Google does not provide an API to force ordinary Shopify ecomme
 - Each updated guide now contains direct product links and collection links so article traffic has a clearer path into product views.
 - Theme Check after the update: 286 files inspected, 0 offenses.
 - Evidence file: `reports/faraday-weak-guide-commercial-routing-2026-08-08.md`.
+
+## August 11 Strict Alibaba Expansion Checkpoint
+
+- Current strict expansion candidate count: 31 exact Alibaba URLs recorded.
+- Current strict expansion screen count: 10 candidates image/IP screened.
+- Current strict-sourced products published from the August 11 pipeline: 5 total.
+- Additional products published after Batch 1: 3.
+  - `north-pearl-zodiac-wish-card-necklace`
+  - `north-pearl-family-birth-month-heart-necklace`
+  - `north-pearl-birth-flower-pendant-necklace`
+- Current strict expansion rejected/held for visible branding: 1.
+- Current strict expansion held pending stronger evidence: 26.
+- Product QA gates passed for the three new products: source metafields present, images ready, customer-facing copy clean, no unsupported public claims detected, canonical present, and Add to Cart/cart variant or personalization tests passed.
+- Evidence files:
+  - `docs/sourcing/SOURCING_DASHBOARD_AUG11.md`
+  - `docs/sourcing/alibaba-product-source-master.csv`
+  - `reports/alibaba-batch2-screening-and-shopify-qa-2026-08-11.md`
+  - `reports/alibaba-batch3-screening-and-shopify-qa-2026-08-11.md`
+  - `reports/alibaba-batch4-screening-and-shopify-qa-2026-08-11.md`

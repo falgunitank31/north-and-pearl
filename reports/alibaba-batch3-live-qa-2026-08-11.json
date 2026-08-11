@@ -1,0 +1,143 @@
+{
+  "checkedAt": "2026-08-11T20:53:41.405Z",
+  "candidate": "B3-001",
+  "id": "gid://shopify/Product/10521736937656",
+  "title": "North & Pearl Family Birth Month Heart Necklace",
+  "handle": "north-pearl-family-birth-month-heart-necklace",
+  "status": "ACTIVE",
+  "onlineStoreUrl": "https://northandpearl.com/products/north-pearl-family-birth-month-heart-necklace",
+  "variantCount": 1,
+  "variant": {
+    "id": "gid://shopify/ProductVariant/53899065819320",
+    "title": "Default Title",
+    "price": "69.00",
+    "inventoryPolicy": "CONTINUE",
+    "inventoryQuantity": 0,
+    "inventoryItem": {
+      "sku": "NP-B3-001-1601397950260"
+    }
+  },
+  "mediaCount": 3,
+  "allMediaReady": true,
+  "collections": [
+    "Necklaces",
+    "Gifts",
+    "Mother's Collection",
+    "New Arrivals",
+    "Jewelry Gifts for Women | Ready to Ship",
+    "Jewelry Gifts Under $100 | Ready to Order",
+    "Birthday Gifts for Her | Ready-to-Ship Jewelry"
+  ],
+  "personalizedCollectionCandidates": [
+    {
+      "id": "gid://shopify/Collection/658327175352",
+      "title": "Best Sellers",
+      "handle": "best-sellers"
+    },
+    {
+      "id": "gid://shopify/Collection/658327240888",
+      "title": "Necklaces",
+      "handle": "necklaces"
+    },
+    {
+      "id": "gid://shopify/Collection/658327273656",
+      "title": "Name Necklaces | Ready to Ship",
+      "handle": "name-necklaces"
+    },
+    {
+      "id": "gid://shopify/Collection/658327371960",
+      "title": "Couple Jewelry",
+      "handle": "couple-jewelry"
+    },
+    {
+      "id": "gid://shopify/Collection/658327404728",
+      "title": "Bracelets",
+      "handle": "bracelets"
+    },
+    {
+      "id": "gid://shopify/Collection/658327437496",
+      "title": "Rings",
+      "handle": "rings"
+    },
+    {
+      "id": "gid://shopify/Collection/658327470264",
+      "title": "Earrings",
+      "handle": "earrings"
+    },
+    {
+      "id": "gid://shopify/Collection/658327503032",
+      "title": "Gifts",
+      "handle": "gifts"
+    },
+    {
+      "id": "gid://shopify/Collection/658327535800",
+      "title": "Mother's Collection",
+      "handle": "mothers-collection"
+    },
+    {
+      "id": "gid://shopify/Collection/658327568568",
+      "title": "Wedding & Bridesmaids",
+      "handle": "wedding-bridesmaids"
+    },
+    {
+      "id": "gid://shopify/Collection/658327601336",
+      "title": "Men's Jewelry",
+      "handle": "mens-jewelry"
+    },
+    {
+      "id": "gid://shopify/Collection/658327634104",
+      "title": "Gift Cards",
+      "handle": "gift-cards"
+    },
+    {
+      "id": "gid://shopify/Collection/658932859064",
+      "title": "Jewelry for Her | Shop Beautiful Ready-to-Order Pieces",
+      "handle": "personalized-jewelry"
+    },
+    {
+      "id": "gid://shopify/Collection/658933088440",
+      "title": "Anniversary Gifts",
+      "handle": "anniversary-gifts"
+    },
+    {
+      "id": "gid://shopify/Collection/659239338168",
+      "title": "Jewelry Gift Sets",
+      "handle": "jewelry-gift-sets"
+    }
+  ],
+  "customMetafields": [
+    {
+      "key": "supplier_product_url",
+      "value": "https://www.alibaba.com/product-introduction/Custom-Family-Names-Heart-Pendant-Necklace_1601397950260.html"
+    },
+    {
+      "key": "supplier_name",
+      "value": "Supplier not fully confirmed from public page"
+    },
+    {
+      "key": "supplier_listing_id",
+      "value": "1601397950260"
+    },
+    {
+      "key": "supplier_profile_url",
+      "value": "https://www.alibaba.com/product-introduction/Custom-Family-Names-Heart-Pendant-Necklace_1601397950260.html"
+    },
+    {
+      "key": "supplier_selected_variant",
+      "value": "Heart pendant necklace with multiple names and birth-month color accents"
+    },
+    {
+      "key": "source_verification_status",
+      "value": "Aug 11 Batch 3: visual/IP clean; material claims unverified; claim-safe public copy required"
+    }
+  ],
+  "seo": {
+    "title": "Family Birth Month Heart Necklace | North & Pearl",
+    "description": "A personalized heart necklace designed for family names and birth-month inspired color accents, selected for meaningful gifts for mothers, grandmothers, and close family."
+  },
+  "publicInternalLanguage": false,
+  "publicUnsupportedClaims": false,
+  "canonicalPresent": true,
+  "pdpStatus": true,
+  "cartOk": "Names: Maya, Leo; Color accents: January, May"
+}

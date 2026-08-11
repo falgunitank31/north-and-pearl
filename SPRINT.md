@@ -214,6 +214,8 @@ Make the live storefront more premium, shoppable, and marketing-ready before sca
 - [x] Faraday/Pareto created the 7-day no-spend distribution plan with tracked links, daily warm-audience/social actions, and measurement rules needed to pursue the first-order target.
 - [x] Rawls added GA4 campaign/source/content attribution for `order_growth_august_2026`; the first verified report shows 0 campaign sessions so far.
 - [ ] Faraday/Kuhn next blog implementation batch: improve thin/weak article sections with concise buyer-decision blocks, keeping products and collections as the conversion path and avoiding unsupported material or delivery claims.
+- [x] Gauss/Curie/Kuhn/Pareto/Tesla continued the August 11 strict Alibaba sourcing expansion: researched 14 additional exact Alibaba URLs after Batch 1, downloaded 23 source images, rejected/held weak or branded candidates, and published 3 additional gate-cleared products with source metafields and live PDP/cart QA.
+- [ ] Continue strict sourcing toward the 100-product expansion target; prioritize rings, earrings, birth-flower/birth-month, zodiac, coordinates, family/multi-name, and differentiated ready-to-order products while holding any candidate without exact URL + image/IP evidence.
 ## Success Criteria
 
 - No known P0 issues.

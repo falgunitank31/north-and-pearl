@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-08-11T21:01:30.735Z",
+  "candidate": "B4-001",
+  "id": "gid://shopify/Product/10521737658552",
+  "title": "North & Pearl Birth Flower Pendant Necklace",
+  "handle": "north-pearl-birth-flower-pendant-necklace",
+  "status": "ACTIVE",
+  "onlineStoreUrl": "https://northandpearl.com/products/north-pearl-birth-flower-pendant-necklace",
+  "variantCount": 12,
+  "variantTitles": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "allVariantsPriced": true,
+  "allVariantsContinue": true,
+  "mediaCount": 3,
+  "allMediaReady": true,
+  "collections": [
+    "Necklaces",
+    "Birthstone Jewelry | Ready to Ship",
+    "Gifts",
+    "Mother's Collection",
+    "New Arrivals",
+    "Jewelry Gifts for Women | Ready to Ship",
+    "Jewelry Gifts Under $50 | Ready to Order",
+    "Jewelry Gifts Under $100 | Ready to Order",
+    "Birthday Gifts for Her | Ready-to-Ship Jewelry"
+  ],
+  "customMetafields": [
+    {
+      "key": "supplier_product_url",
+      "value": "https://www.alibaba.com/product-introduction/JINYOU-3001-Tarnish-Free-Mother-Women_1600370738258.html"
+    },
+    {
+      "key": "supplier_name",
+      "value": "JINYOU / supplier not fully confirmed from public page"
+    },
+    {
+      "key": "supplier_listing_id",
+      "value": "1600370738258"
+    },
+    {
+      "key": "supplier_profile_url",
+      "value": "https://www.alibaba.com/product-introduction/JINYOU-3001-Tarnish-Free-Mother-Women_1600370738258.html"
+    },
+    {
+      "key": "supplier_selected_variant",
+      "value": "Round birth-flower pendant necklace with month options"
+    },
+    {
+      "key": "source_verification_status",
+      "value": "Aug 11 Batch 4: visual/IP clean with claim-sensitive spec image excluded; material claims unverified; claim-safe public copy required"
+    }
+  ],
+  "seo": {
+    "title": "Birth Flower Pendant Necklace | North & Pearl",
+    "description": "A round birth-flower inspired pendant necklace selected for birthday gifting, mom gifts, and meaningful everyday wear."
+  },
+  "publicInternalLanguage": false,
+  "publicUnsupportedClaims": false,
+  "canonicalPresent": true,
+  "pdpStatus": true,
+  "cartOk": true,
+  "cartTitle": "May"
+}

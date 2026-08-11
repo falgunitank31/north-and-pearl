@@ -58,6 +58,7 @@
 - Continue monitor-only GSC posture until indexing stabilizes; do not request manual reindexing or submit individual URLs. Keep improving customer-facing quality only.
 - August 8 DataForSEO blog analysis: weak-guide commercial routing was improved on 7 existing guides with live product links, collection links, and buyer checklists. Remaining P1 actions are to resolve duplicate under-$100 intent, improve article depth/FAQ quality where thin, and validate Article/BlogPosting schema coverage from live rendered pages.
 - August 8 DataForSEO three-blog publication completed: monitor `charm-bracelet-guide`, `initial-necklace-guide`, and `birthstone-necklace-guide` for Search Console discovery/impressions without manual reindexing until the indexing pause is lifted.
+- August 11 strict sourcing expansion progress: 31 exact Alibaba candidate URLs recorded, 10 image/IP screened, 5 total strict-sourced products published, 1 visible-branding candidate rejected/held, and 26 held pending fuller image/IP/supplier evidence. Continue discovery without lowering standards.
 ## P2
 
 - Monitor Gifts curation after traffic begins; current Gifts collection was narrowed from 156 products to 56 active gift-intent products on July 28, 2026.
@@ -76,6 +77,7 @@
 - August 5 Merchant description enrichment completed for all active product records; next differentiation layer should use supplier/product-specific evidence rather than broad template copy.
 - August 5 priority product internal-link pass completed for 10 active product pages; continue this pattern only for index-worthy products with usable images, available variants, and clear category fit.
 - August 6 priority collection/product QA completed cleanly; next safe work is merchandising refinement or source/cost guardrail completion, not indexing actions.
+- Continue filling real catalog gaps with strict-sourced products: rings, earrings, birth-flower/birth-month, zodiac, coordinates, family/multi-name, and cleaner premium/entry mix. Do not add near-duplicates or candidates with supplier branding/watermarks in required customer images.
 - Monitor the new honest PDP review surface after traffic begins; real review/rating output remains dependent on verified Shopify review metafields or an approved review app, and Product schema must not include fake `review` or `aggregateRating` data.
 - Blog content depth queue: several articles are 450-600 words and need buyer-decision blocks, concise FAQs, and clearer article-specific headings before additional blog volume is prioritized.
 

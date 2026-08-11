@@ -1,0 +1,91 @@
+{
+  "id": "gid://shopify/Product/10521732939960",
+  "title": "North & Pearl Zodiac Wish Card Necklace",
+  "handle": "north-pearl-zodiac-wish-card-necklace",
+  "status": "ACTIVE",
+  "totalInventory": 0,
+  "onlineStoreUrl": "https://northandpearl.com/products/north-pearl-zodiac-wish-card-necklace",
+  "variantCount": 1,
+  "variants": [
+    {
+      "title": "Aries",
+      "price": "39.00",
+      "policy": "CONTINUE",
+      "qty": 0,
+      "sku": "NP-B2-002-1601679678930-ARIES"
+    }
+  ],
+  "mediaCount": 5,
+  "media": [
+    {
+      "alt": "North & Pearl Zodiac Wish Card Necklace product image 1",
+      "type": "IMAGE",
+      "status": "READY",
+      "url": "https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H046bed918a0e4624bf408a967e14484cV.jpg?v=1786"
+    },
+    {
+      "alt": "North & Pearl Zodiac Wish Card Necklace product image 2",
+      "type": "IMAGE",
+      "status": "READY",
+      "url": "https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H5d5c862ab16644329680dad21280e4384.jpg?v=1786"
+    },
+    {
+      "alt": "North & Pearl Zodiac Wish Card Necklace product image 3",
+      "type": "IMAGE",
+      "status": "READY",
+      "url": "https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H40d4e01d84d74c10b7c8bbbe61429f88f.jpg?v=1786"
+    },
+    {
+      "alt": "North & Pearl Zodiac Wish Card Necklace product image 4",
+      "type": "IMAGE",
+      "status": "READY",
+      "url": "https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H4fd7556192434149b98182c12943207dO.jpg?v=1786"
+    },
+    {
+      "alt": "North & Pearl Zodiac Wish Card Necklace product image 5",
+      "type": "IMAGE",
+      "status": "READY",
+      "url": "https://cdn.shopify.com/s/files/1/0969/9331/2952/files/Hbd4fe5fd3b8c420f87d3efe9a1f7cfacL.jpg?v=1786"
+    }
+  ],
+  "collections": [
+    "Necklaces",
+    "Gifts",
+    "New Arrivals",
+    "Jewelry Gifts for Women | Ready to Ship",
+    "Jewelry Gifts Under $50 | Ready to Order",
+    "Jewelry Gifts Under $100 | Ready to Order",
+    "Birthday Gifts for Her | Ready-to-Ship Jewelry"
+  ],
+  "metafields": [
+    {
+      "key": "supplier_product_url",
+      "value": "https://www.alibaba.com/product-detail/Wholesale-12-Zodiac-Necklace-with-Wish_1601679678930.html"
+    },
+    {
+      "key": "supplier_name",
+      "value": "Yiwu Deshang Jewelry Co., Ltd."
+    },
+    {
+      "key": "supplier_listing_id",
+      "value": "1601679678930"
+    },
+    {
+      "key": "supplier_profile_url",
+      "value": "https://deshangjewelry.en.alibaba.com/company_profile.html"
+    },
+    {
+      "key": "supplier_selected_variant",
+      "value": "Round zodiac pendant necklace with sign card presentation"
+    },
+    {
+      "key": "source_verification_status",
+      "value": "Aug 11 Batch 2: visual/IP clean; material claims unverified; claim-safe public copy required"
+    }
+  ],
+  "seo": {
+    "title": "Zodiac Wish Card Necklace | North & Pearl",
+    "description": "A delicate zodiac pendant necklace chosen for birthday gifting, friendship gifts, and shoppers who want a small meaningful symbol tied to their sign."
+  },
+  "publicCopyContainsSupplier": true
+}

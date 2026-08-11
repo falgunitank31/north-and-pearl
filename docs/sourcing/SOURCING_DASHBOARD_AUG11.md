@@ -1,6 +1,6 @@
 # 100-Product Alibaba Expansion — Live Dashboard
 **Started:** August 11, 2026
-**Last updated:** August 11, 2026 (Batch 9 discovery; 5 total strict-sourced products published)
+**Last updated:** August 11, 2026 (Batch 9 thumbnail triage; 5 total strict-sourced products published)
 
 ---
 
@@ -9,16 +9,16 @@
 | Metric | Count |
 |---|---|
 | Candidates Researched | 131 |
-| Image/IP Screened | 65 (20 full-gallery/source screened; 45 thumbnail/source-schema screened) |
-| Shortlisted | 34 (5 approved/published; 29 pending full-gallery validation) |
-| Rejected | 7 |
-| Held | 45 |
+| Image/IP Screened | 110 (20 full-gallery/source screened; 90 thumbnail/source-schema screened) |
+| Shortlisted | 59 (5 approved/published; 54 pending full-gallery validation) |
+| Rejected | 10 |
+| Held | 62 |
 | Approved | 5 |
 | Added to Shopify | 5 |
 | QA Passed | 5 |
 | Published | 5 |
-| RED IP Rejections | 7 |
-| YELLOW Reviews / Held (pending) | 45 (held for CAPTCHA/protection, insufficient image evidence, duplicate risk, incomplete supplier evidence, weak brand fit, mismatched galleries, or claim-sensitive public-image risk) |
+| RED IP Rejections | 10 |
+| YELLOW Reviews / Held (pending) | 62 (held for CAPTCHA/protection, insufficient image evidence, duplicate risk, incomplete supplier evidence, weak brand fit, mismatched galleries, or claim-sensitive public-image risk) |
 | Exact Alibaba URLs Recorded | 131 / 131 |
 | Missing Supplier Information | 5+ (several public-web candidates have incomplete supplier profile confirmation and remain held or marked incomplete until the source page is fully accessible) |
 
@@ -101,7 +101,9 @@
 - Batch 9 captured 45 additional exact Alibaba listing URLs from category-page schema data across birthstone necklaces, birthstone bracelets, and huggie earrings.
 - 45 source thumbnails were downloaded into `reports/alibaba-batch9-schema-images-2026-08-11/`.
 - Contact sheet created at `reports/alibaba-batch9-contact-sheet-2026-08-11.jpg`.
-- Published products: 0. Batch 9 is discovery-stage only until formal thumbnail triage and full-gallery validation are completed.
+- Thumbnail triage register created at `docs/sourcing/aug11-batch9-thumbnail-gate-register.csv`.
+- Result: 25 candidates shortlisted for full-gallery/supplier validation, 17 held, 3 rejected.
+- Published products: 0. Batch 9 is discovery-stage only until full-gallery validation is completed.
 - Current sourcing queue is now above 100 exact Alibaba URLs, satisfying the research-volume threshold while preserving strict publication standards.
 
 ---
@@ -112,10 +114,10 @@
 |---|---|---|
 | 1. Market opportunity + catalog gap analysis | ✅ Complete | See findings below |
 | 2. Alibaba candidate research | 🔄 In progress | 131 exact-listing candidates captured |
-| 3. Supplier + IP screening | 🔄 Partial | 65/86 screened at full-gallery or thumbnail level; 21 remain held behind incomplete access/evidence |
+| 3. Supplier + IP screening | 🔄 Partial | 110/131 screened at full-gallery or thumbnail level; 21 remain held behind incomplete access/evidence |
 | 4. Commercial analysis | 🔄 Partial | 5 products approved with conservative pricing; landed cost still unknown |
-| 5. Brand/visual review | 🔄 Partial | 5 products passed; 60 screened candidates held/rejected or pending full validation |
-| 6. Final assortment selection | 🔄 Partial | 5 selected from accessible screened items; 29 pending full-gallery validation |
+| 5. Brand/visual review | 🔄 Partial | 5 products passed; 105 screened candidates held/rejected or pending full validation |
+| 6. Final assortment selection | 🔄 Partial | 5 selected from accessible screened items; 54 pending full-gallery validation |
 | 7. Shopify product creation | 🔄 Partial | 5 products created active |
 | 8. Collections + merchandising | 🔄 Partial | 5 products assigned to relevant commercial collections |
 | 9. Technical + CX QA | 🔄 Partial | 5 products passed record/PDP/cart QA |

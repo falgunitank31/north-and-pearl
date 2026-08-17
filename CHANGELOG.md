@@ -1,3 +1,4 @@
+- August 17, 2026: Published and upgraded three Maxwell Gift Guide articles live through Shopify Admin API: `engraved-necklace-gift-guide`, `initial-bracelet-gift-guide`, and `birth-flower-necklace-guide`. Added featured images, image-led editorial openers, `Shop the Story` product cards with live products/prices, article CTAs, and live blog editorial CSS. Ran live QA for HTTP status, canonical, indexability, images/product modules, public-language safety, and Search Console day-0 URL Inspection. Created `reports/maxwell-three-blog-publication-monitor-2026-08-17.md`.
 - August 11, 2026: Completed the accessible Batch 1 Alibaba expansion gate. Image/IP screened 3 of 17 candidates, published 2 approved source-mapped products (`north-pearl-double-heart-birth-month-ring` and `north-pearl-personalized-birth-month-name-ring`), held B1-003 for unsupported supplier-image claim panels, kept B1-004 through B1-017 held behind Alibaba visual-screening access blockers, verified product records/PDP/cart behavior, and updated the sourcing master files with exact Alibaba URLs and Shopify product IDs.
 - August 11, 2026: Reconciled the 100-product catalog expansion handoff against existing Claude/Gauss work. Confirmed the July 28 product expansion is already reflected in the 208 active catalog, preserved the resolved RED/IP product state from `OWNER_ACTION_REQUIRED_AUG11.md`, created `docs/sourcing/aug11-batch1-gate-register.csv` for 17 August 11 Alibaba candidates, and updated sourcing docs without creating or publishing products.
 - August 4, 2026: Fixed Product JSON-LD offer schema for Merchant Center by adding safe shipping and return-policy fields to PDP structured data.
@@ -188,3 +189,13 @@
 - August 8, 2026: Added GA4 campaign/source/content attribution reporting for the first-order campaign and confirmed `order_growth_august_2026` currently has 0 verified sessions.
 - August 8, 2026: Added storefront sample HTTP checks to the daily order-goal runner and wired pass/fail evidence into the daily order-goal report.
 - August 11, 2026: Continued the strict Alibaba 100-product expansion after Batch 1 by capturing 14 additional exact Alibaba candidate URLs, downloading source imagery where available, publishing three additional gate-cleared products (`north-pearl-zodiac-wish-card-necklace`, `north-pearl-family-birth-month-heart-necklace`, and `north-pearl-birth-flower-pendant-necklace`), rejecting/holding branded or weak-evidence candidates, and updating the sourcing master/dashboard with live QA evidence.
+## 2026-08-17 — Maxwell DataForSEO-backed three-blog draft batch
+
+- Added analysis report: `reports/maxwell-three-blog-analysis-2026-08-17.md`.
+- Added draft article: `content/blogs/gift-guides/engraved-necklace-gift-guide.md`.
+- Added draft article: `content/blogs/gift-guides/initial-bracelet-gift-guide.md`.
+- Added draft article: `content/blogs/gift-guides/birth-flower-necklace-guide.md`.
+- Used live DataForSEO Google Ads volume data where the account accepted requests; selected topics from verified demand plus existing content-gap review.
+- Revised all three drafts into the North & Pearl premium editorial guide format inspired by high-ranking jewelry guide structure: byline/update/read-time, quick answer, key takeaways, on-page navigation, comparison/reference tables, Shop the Story, related guides, FAQ, and final buying note.
+- Published the articles live after product-link live QA, image/visual QA, and blog template checks; then upgraded each live article with featured imagery and in-article product merchandising.
+- Updated Maxwell's permanent skill/playbook so future blogs use this richer guide architecture by default while remaining original and claim-safe.

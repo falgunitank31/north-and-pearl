@@ -1,5 +1,31 @@
 /* North & Pearl Blog Editorial System — reusable across all future articles */
 
+.article-template__hero-container {
+  max-width: min(96rem, calc(100vw - 3.2rem));
+  margin: clamp(2rem, 4vw, 4.8rem) auto 0;
+}
+
+.article-template__hero-container .media {
+  border-radius: 1.2rem;
+  background: #fbf7ef;
+  border: 1px solid rgba(var(--color-foreground), 0.08);
+  overflow: hidden;
+}
+
+.article-template__hero-container .media > img {
+  object-fit: contain !important;
+  object-position: center center;
+  padding: clamp(1.2rem, 3vw, 3.2rem);
+}
+
+.article-template__hero-small {
+  height: clamp(22rem, 42vw, 42rem);
+}
+
+.article-template header {
+  margin-top: clamp(3rem, 5vw, 5.6rem);
+}
+
 .np-article-kicker {
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -268,6 +294,19 @@
 }
 
 @media screen and (max-width: 749px) {
+  .article-template__hero-container {
+    max-width: calc(100vw - 2rem);
+    margin-top: 1.6rem;
+  }
+
+  .article-template__hero-small {
+    height: clamp(20rem, 82vw, 32rem);
+  }
+
+  .article-template__hero-container .media > img {
+    padding: 1rem;
+  }
+
   .np-editorial-visual {
     grid-template-columns: 1fr;
     padding: 1.6rem;

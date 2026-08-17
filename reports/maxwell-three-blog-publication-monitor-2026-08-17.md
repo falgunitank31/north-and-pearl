@@ -6,8 +6,8 @@ Published through Shopify Admin API into the `Gift Guide` blog.
 
 | Article | URL | Shopify Article ID | Primary Keyword | Day-0 Live Status | Day-0 GSC Status |
 |---|---|---|---|---|---|
-| Engraved Necklace Gift Guide: What to Personalize and How to Choose | https://northandpearl.com/blogs/gift-guide/engraved-necklace-gift-guide | `gid://shopify/Article/646935740600` | engraved necklace | 200, canonical self-referencing, indexable HTML | URL is unknown to Google |
-| Initial Bracelet Gift Guide: How to Choose a Letter Bracelet | https://northandpearl.com/blogs/gift-guide/initial-bracelet-gift-guide | `gid://shopify/Article/646935773368` | initial bracelet | 200, canonical self-referencing, indexable HTML | URL is unknown to Google |
+| Engraved-Look Necklace Gift Guide: How to Choose a Meaningful Piece | https://northandpearl.com/blogs/gift-guide/engraved-necklace-gift-guide | `gid://shopify/Article/646935740600` | engraved necklace | Admin updated; public cache/translation layer still showing older title/body at time of QA | URL is unknown to Google |
+| Initial Bracelet Gift Guide: How to Choose a Ready-to-Order Letter Bracelet | https://northandpearl.com/blogs/gift-guide/initial-bracelet-gift-guide | `gid://shopify/Article/646935773368` | initial bracelet | Admin updated; public cache/translation layer still showing older title/body at time of QA | URL is unknown to Google |
 | Birth Flower Necklace Guide: Meaning, Months, and Gift Ideas | https://northandpearl.com/blogs/gift-guide/birth-flower-necklace-guide | `gid://shopify/Article/646935806136` | birth flower necklace | 200, canonical self-referencing, indexable HTML | URL is unknown to Google |
 
 ## Live QA
@@ -23,6 +23,18 @@ Published through Shopify Admin API into the `Gift Guide` blog.
 - Removed internal planning text before final republish.
 - Verified no public `Alibaba`, `supplier`, or `draft-not-published` language in the final rendered pages.
 - Pushed `assets/blog-editorial.css` to the live theme so the editorial opener and Shop the Story product cards render with the intended premium layout.
+- August 17 follow-up: corrected the three guides away from personalized/custom-order positioning and into ready-to-order gift positioning, matching the current North & Pearl merchandising direction.
+- August 17 follow-up: fixed the article hero presentation so product images render contained inside a refined editorial frame instead of being cropped as a wide banner. Live CSS confirms `object-fit: contain !important` for article hero images.
+
+## Current Blocker
+
+Shopify Admin API readback confirms the Engraved and Initial Bracelet article records were updated with ready-to-order titles and body copy. Public storefront HTML still served older title/body strings during immediate QA.
+
+Translation-layer inspection is currently blocked because the app lacks Shopify `read_translations` access:
+
+`Access denied for translatableResource field. Required access: read_translations access scope.`
+
+Recommended next fix: add `read_translations,write_translations`, reauthorize the Shopify app, inspect article translatable resources, and clear/update stale article translations if present.
 
 ## AJLuxe-Style Editorial Pattern Applied
 

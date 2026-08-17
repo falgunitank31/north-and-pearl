@@ -16,21 +16,21 @@ const articleEnhancements = {
   'engraved-necklace-gift-guide': {
     heroImage: {
       url: 'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H980f3daf9cc740c2ab4e31d74b65785b3.jpg?v=1784856006',
-      altText: 'North & Pearl nameplate necklace shown as an engraved necklace gift idea',
+      altText: 'North & Pearl nameplate necklace shown as a meaningful ready-to-order gift idea',
     },
     visualIntro: {
-      kicker: 'Personalized necklace edit',
+      kicker: 'Ready-to-order necklace edit',
       heading: 'Start with one detail that carries the story.',
       text:
-        'Names, dates, initials, and coordinates work best when the necklace shape leaves room for the detail to feel intentional. These shopping paths keep the choice focused instead of overwhelming.',
+        'Names, initials, hearts, and message-led shapes work best when the necklace feels intentional at first glance. These shopping paths keep the choice focused without requiring a custom order.',
       image:
         'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H88b485e0f127458a911563100a11ef5dS.jpg?v=1785198222',
-      alt: 'North & Pearl charm nameplate necklace for personalized gifting',
+      alt: 'North & Pearl charm nameplate necklace for meaningful gifting',
     },
     products: [
       {
         title: 'Nameplate Charm Necklace',
-        reason: 'A clear name-led path when the personalized word should be the design.',
+        reason: 'A clear name-led path when the word-inspired shape should be the design.',
         url: '/products/north-pearl-name-necklace-8213',
         image:
           'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H980f3daf9cc740c2ab4e31d74b65785b3.jpg?v=1784856006',
@@ -53,7 +53,7 @@ const articleEnhancements = {
         price: '$59.00',
       },
     ],
-    cta: { label: 'Shop Personalized Jewelry', url: '/collections/personalized-jewelry' },
+    cta: { label: 'Shop Ready-to-Order Gifts', url: '/collections/gifts' },
   },
   'initial-bracelet-gift-guide': {
     heroImage: {
@@ -64,15 +64,15 @@ const articleEnhancements = {
       kicker: 'Bracelet gift edit',
       heading: 'Choose the letter first, then choose how she wears it.',
       text:
-        'A bracelet can be personal without becoming too visible or formal. The strongest options feel easy to wear, easy to gift, and clear enough that the meaning does not need a long explanation.',
+        'A bracelet can feel personal without becoming too visible or formal. The strongest ready-to-order options feel easy to wear, easy to gift, and clear enough that the meaning does not need a long explanation.',
       image:
         'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H0eb0d0933f3744d3b8b41d302f732affP.webp?v=1786499336',
       alt: 'North & Pearl birthstone bead bracelet for meaningful bracelet gifting',
     },
     products: [
       {
-        title: 'Personalized Name Birth Flower Bracelet',
-        reason: 'A personal bracelet path for name or floral-inspired gifting.',
+        title: 'Birth Flower Accent Bracelet',
+        reason: 'A ready-to-order bracelet path for floral-inspired gifting.',
         url: '/products/north-pearl-birth-flower-accent-bracelet',
         image:
           'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H72ce4c380813427e84120eeaa89b78cbv.jpg?v=1786722547',
@@ -104,9 +104,9 @@ const articleEnhancements = {
     },
     visualIntro: {
       kicker: 'Birth month jewelry',
-      heading: 'A softer way to make the month feel personal.',
+      heading: 'A softer way to make the month feel meaningful.',
       text:
-        'Birth flower jewelry is strongest when the floral detail feels wearable first and symbolic second. Use the month as the reason, then choose the piece by the recipient’s everyday style.',
+        'Birth flower jewelry is strongest when the floral detail feels wearable first and symbolic second. Use the month as the reason, then choose a ready-to-order piece by the recipient’s everyday style.',
       image:
         'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/Hc5eb24e11ab9499e9d3a67987f2c0993N.webp?v=1786499149',
       alt: 'North & Pearl birth flower necklace for birthday jewelry gifting',
@@ -121,8 +121,8 @@ const articleEnhancements = {
         price: '$59.00',
       },
       {
-        title: 'Personalized Name Birth Flower Bracelet',
-        reason: 'A floral-inspired alternative when she prefers bracelets.',
+        title: 'Birth Flower Accent Bracelet',
+        reason: 'A floral-inspired ready-to-order alternative when she prefers bracelets.',
         url: '/products/north-pearl-birth-flower-accent-bracelet',
         image:
           'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H72ce4c380813427e84120eeaa89b78cbv.jpg?v=1786722547',

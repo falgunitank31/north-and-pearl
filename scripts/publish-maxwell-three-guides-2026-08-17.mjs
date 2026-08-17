@@ -11,6 +11,10 @@ const markdownFiles = [
   'content/blogs/gift-guides/initial-bracelet-gift-guide.md',
   'content/blogs/gift-guides/birth-flower-necklace-guide.md',
 ];
+const onlyHandles = (process.env.ONLY_HANDLES || '')
+  .split(',')
+  .map((handle) => handle.trim())
+  .filter(Boolean);
 
 const articleEnhancements = {
   'engraved-necklace-gift-guide': {
@@ -106,10 +110,10 @@ const articleEnhancements = {
       kicker: 'Birth month jewelry',
       heading: 'A softer way to make the month feel meaningful.',
       text:
-        'Birth flower jewelry is strongest when the floral detail feels wearable first and symbolic second. Use the month as the reason, then choose a ready-to-order piece by the recipient’s everyday style.',
+        'Birth flower jewelry works best when the floral detail feels beautiful before it needs explaining. Use the month as the reason, then choose a ready-to-order piece by the recipient’s everyday style.',
       image:
-        'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/Hc5eb24e11ab9499e9d3a67987f2c0993N.webp?v=1786499149',
-      alt: 'North & Pearl birth flower necklace for birthday jewelry gifting',
+        'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/Hfc6c08c98c6449b4be6dc5692af1eef6Y.webp?v=1786499149',
+      alt: 'North & Pearl birth flower necklace detail for birthday jewelry gifting',
     },
     products: [
       {
@@ -121,20 +125,28 @@ const articleEnhancements = {
         price: '$59.00',
       },
       {
+        title: 'Baguette Birthstone Necklace',
+        reason: 'A clean color-led birth-month necklace for shoppers who want a stone-inspired focal point.',
+        url: '/products/north-pearl-baguette-birthstone-necklace',
+        image:
+          'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H0cb6ba1be16f47bdb1acad10a78442914.webp?v=1786484656',
+        price: '$69.00',
+      },
+      {
+        title: 'Heart Birthstone Pendant Necklace',
+        reason: 'A softer heart-shaped option for birthday, mom, or keepsake gifting.',
+        url: '/products/north-pearl-heart-birthstone-pendant-necklace',
+        image:
+          'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H819cdeb4f8df475197741874653d3c05k.webp?v=1786484761',
+        price: '$49.00',
+      },
+      {
         title: 'Birth Flower Accent Bracelet',
         reason: 'A floral-inspired ready-to-order alternative when she prefers bracelets.',
         url: '/products/north-pearl-birth-flower-accent-bracelet',
         image:
           'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H72ce4c380813427e84120eeaa89b78cbv.jpg?v=1786722547',
         price: '$69.00',
-      },
-      {
-        title: 'Dainty Birthstone Bead Bracelet',
-        reason: 'A color-led birth-month gift path with a softer everyday feel.',
-        url: '/products/north-pearl-dainty-birthstone-bead-bracelet',
-        image:
-          'https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H0eb0d0933f3744d3b8b41d302f732affP.webp?v=1786499336',
-        price: '$39.00',
       },
     ],
     cta: { label: 'Shop Birthday Jewelry Gifts', url: '/collections/birthday-jewelry-gifts' },
@@ -338,6 +350,59 @@ function productCards(products) {
 </section>`;
 }
 
+function birthFlowerEditorialModules() {
+  return `<section class="np-guide-snapshot" aria-label="Birth flower necklace shopping snapshot">
+  <div>
+    <span>01</span>
+    <strong>Choose the month</strong>
+    <p>Start with the birth month or the month connected to the memory.</p>
+  </div>
+  <div>
+    <span>02</span>
+    <strong>Pick the mood</strong>
+    <p>Floral for soft symbolism, birthstone-inspired for color, heart for keepsake gifting.</p>
+  </div>
+  <div>
+    <span>03</span>
+    <strong>Check the product page</strong>
+    <p>Use the current product page for exact variants, materials, images, and return details.</p>
+  </div>
+</section>
+<section class="np-jewelry-collage" aria-label="Birth month jewelry inspiration">
+  <figure>
+    <img src="https://cdn.shopify.com/s/files/1/0969/9331/2952/files/Hc5eb24e11ab9499e9d3a67987f2c0993N.webp?v=1786499149" alt="Birth flower and birthstone necklace in gold tone" loading="lazy" width="900" height="900">
+  </figure>
+  <div>
+    <p class="np-editorial-visual__kicker">Gift note</p>
+    <h2>Make the month feel wearable.</h2>
+    <p>Birth flower jewelry should not feel like a chart turned into a pendant. The best pieces look like jewelry first, then carry the month as a quieter layer of meaning.</p>
+    <a href="/collections/birthday-jewelry-gifts">Shop birthday jewelry gifts</a>
+  </div>
+  <figure>
+    <img src="https://cdn.shopify.com/s/files/1/0969/9331/2952/files/H819cdeb4f8df475197741874653d3c05k.webp?v=1786484761" alt="Heart birthstone pendant necklace gift idea" loading="lazy" width="900" height="900">
+  </figure>
+</section>
+<section class="np-month-edit" aria-labelledby="np-month-edit-title">
+  <p class="np-shop-story__eyebrow">Month-by-month guide</p>
+  <h2 id="np-month-edit-title">Birth flowers at a glance</h2>
+  <div class="np-month-edit__grid">
+    <span><strong>Jan</strong>Carnation</span>
+    <span><strong>Feb</strong>Violet</span>
+    <span><strong>Mar</strong>Daffodil</span>
+    <span><strong>Apr</strong>Daisy</span>
+    <span><strong>May</strong>Lily of the Valley</span>
+    <span><strong>Jun</strong>Rose</span>
+    <span><strong>Jul</strong>Larkspur</span>
+    <span><strong>Aug</strong>Gladiolus</span>
+    <span><strong>Sep</strong>Aster</span>
+    <span><strong>Oct</strong>Marigold</span>
+    <span><strong>Nov</strong>Chrysanthemum</span>
+    <span><strong>Dec</strong>Narcissus</span>
+  </div>
+  <p>Flower meanings are symbolic traditions, not scientific facts. Use them as a gift story, then choose the piece by style and wearability.</p>
+</section>`;
+}
+
 function visualIntro(enhancement) {
   return `<section class="np-editorial-visual">
   <div class="np-editorial-visual__copy">
@@ -358,11 +423,48 @@ function articleCta(cta) {
 </section>`;
 }
 
+function setArticleSeoMetafields(ownerId, seo) {
+  if (!ownerId || !seo?.title || !seo?.description) return;
+  const result = gql(
+    `mutation SetArticleSeo($metafields: [MetafieldsSetInput!]!) {
+      metafieldsSet(metafields: $metafields) {
+        metafields { id namespace key value }
+        userErrors { field message }
+      }
+    }`,
+    {
+      metafields: [
+        {
+          ownerId,
+          namespace: 'global',
+          key: 'title_tag',
+          type: 'single_line_text_field',
+          value: seo.title,
+        },
+        {
+          ownerId,
+          namespace: 'global',
+          key: 'description_tag',
+          type: 'single_line_text_field',
+          value: seo.description,
+        },
+      ],
+    },
+    true,
+  ).metafieldsSet;
+  if (result.userErrors.length) throw new Error(`metafieldsSet SEO: ${JSON.stringify(result.userErrors)}`);
+}
+
 function enhanceArticleHtml(handle, html) {
   const enhancement = articleEnhancements[handle];
   if (!enhancement) return html;
   let enhanced = `${visualIntro(enhancement)}\n${html}`;
-  enhanced = enhanced.replace('<h2 id="shop-the-story">Shop the Story</h2>', productCards(enhancement.products));
+  if (handle === 'birth-flower-necklace-guide') {
+    enhanced = enhanced.replace('<h2 id="key-takeaways">Key Takeaways</h2>', `${birthFlowerEditorialModules()}\n<h2 id="key-takeaways">Key Takeaways</h2>`);
+    enhanced = enhanced.replace(/<h2 id="shop-the-story">Shop the Story<\/h2>[\s\S]*?(?=<h2 id="related-guides">Related Guides<\/h2>)/, productCards(enhancement.products));
+  } else {
+    enhanced = enhanced.replace('<h2 id="shop-the-story">Shop the Story</h2>', productCards(enhancement.products));
+  }
   enhanced = enhanced.replace('<h2 id="final-buying-note">Final Buying Note</h2>', `${articleCta(enhancement.cta)}\n<h2 id="final-buying-note">Final Buying Note</h2>`);
   return enhanced;
 }
@@ -375,26 +477,36 @@ function firstParagraph(markdown) {
   return paragraph ? inlineMarkdown(paragraph.replace(/\n/g, ' ').trim()) : '';
 }
 
-const articles = markdownFiles.map((filePath) => {
-  const markdown = readFileSync(filePath, 'utf8');
-  const { data, body } = parseFrontmatter(markdown, filePath);
-  if (!data.title || !data.handle) throw new Error(`Missing title or handle in ${filePath}`);
-  return {
-    filePath,
-    title: data.title,
-    handle: data.handle,
-    body: enhanceArticleHtml(data.handle, markdownToHtml(body)),
-    image: articleEnhancements[data.handle]?.heroImage,
-    summary: data.meta_description || firstParagraph(body),
-    tags: [
-      'gift guide',
-      'Maxwell',
-      'North & Pearl Journal',
-      data.primary_keyword,
-      ...(data.secondary_keywords || '').split(',').map((item) => item.trim()).filter(Boolean),
-    ].filter(Boolean),
-  };
-});
+const articles = markdownFiles
+  .map((filePath) => {
+    const markdown = readFileSync(filePath, 'utf8');
+    const { data, body } = parseFrontmatter(markdown, filePath);
+    if (!data.title || !data.handle) throw new Error(`Missing title or handle in ${filePath}`);
+    return {
+      filePath,
+      title: data.title,
+      handle: data.handle,
+      body: enhanceArticleHtml(data.handle, markdownToHtml(body)),
+      image: articleEnhancements[data.handle]?.heroImage,
+      summary: data.meta_description || firstParagraph(body),
+      seo: {
+        title: data.seo_title || data.title,
+        description: data.meta_description || firstParagraph(body).replace(/<[^>]+>/g, ''),
+      },
+      tags: [
+        'gift guide',
+        'Maxwell',
+        'North & Pearl Journal',
+        data.primary_keyword,
+        ...(data.secondary_keywords || '').split(',').map((item) => item.trim()).filter(Boolean),
+      ].filter(Boolean),
+    };
+  })
+  .filter((article) => !onlyHandles.length || onlyHandles.includes(article.handle));
+
+if (!articles.length) {
+  throw new Error(`No articles matched ONLY_HANDLES=${process.env.ONLY_HANDLES || ''}`);
+}
 
 let blog = gql(
   `query GiftGuideBlog {
@@ -454,6 +566,7 @@ for (const article of articles) {
     if (result.userErrors.length) {
       throw new Error(`articleUpdate ${article.handle}: ${JSON.stringify(result.userErrors)}`);
     }
+    setArticleSeoMetafields(result.article.id, article.seo);
     changed.push({ action: 'updated', file: basename(article.filePath), ...result.article });
   } else {
     const result = gql(
@@ -469,6 +582,7 @@ for (const article of articles) {
     if (result.userErrors.length) {
       throw new Error(`articleCreate ${article.handle}: ${JSON.stringify(result.userErrors)}`);
     }
+    setArticleSeoMetafields(result.article.id, article.seo);
     changed.push({ action: 'created', file: basename(article.filePath), ...result.article });
   }
 }

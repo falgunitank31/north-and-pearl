@@ -1,5 +1,11 @@
 /* North & Pearl Blog Editorial System — reusable across all future articles */
 
+.article-template {
+  background:
+    linear-gradient(180deg, rgba(250, 246, 238, 0.78), rgba(255, 252, 247, 0) 36rem),
+    rgb(var(--color-background));
+}
+
 .article-template__hero-container {
   max-width: min(96rem, calc(100vw - 3.2rem));
   margin: clamp(2rem, 4vw, 4.8rem) auto 0;
@@ -7,9 +13,10 @@
 
 .article-template__hero-container .media {
   border-radius: 1.2rem;
-  background: #fbf7ef;
-  border: 1px solid rgba(var(--color-foreground), 0.08);
+  background: radial-gradient(circle at 30% 20%, #fff9ef 0, #f9f1e4 42%, #fdfaf5 100%);
+  border: 1px solid rgba(171, 132, 72, 0.22);
   overflow: hidden;
+  box-shadow: 0 2.4rem 5.8rem rgba(53, 37, 16, 0.08);
 }
 
 .article-template__hero-container .media > img {
@@ -24,6 +31,19 @@
 
 .article-template header {
   margin-top: clamp(3rem, 5vw, 5.6rem);
+}
+
+.article-template__content {
+  color: #211c17;
+}
+
+.article-template__content h2,
+.article-template__content h3 {
+  color: #17130f;
+}
+
+.article-template__content h2 {
+  margin-top: 4.4rem;
 }
 
 .np-article-kicker {
@@ -50,11 +70,11 @@
 
 /* On this page TOC */
 .np-toc {
-  border: 1px solid rgba(var(--color-foreground), 0.12);
+  border: 1px solid rgba(171, 132, 72, 0.2);
   border-radius: 0.8rem;
   margin: 2.5rem 0 3rem;
   padding: 1.6rem 2rem;
-  background: rgba(var(--color-foreground), 0.02);
+  background: #fffaf2;
 }
 
 .np-toc summary {
@@ -102,8 +122,8 @@
 
 /* Quick answer block */
 .np-quick-answer {
-  background: rgba(var(--color-foreground), 0.03);
-  border-left: 3px solid rgb(var(--color-foreground));
+  background: linear-gradient(135deg, #fffaf2, #f7efe3);
+  border-left: 3px solid #b18a49;
   border-radius: 0 0.6rem 0.6rem 0;
   padding: 1.8rem 2.2rem;
   margin: 2.5rem 0;
@@ -130,9 +150,12 @@
   align-items: center;
   margin: 0 0 4rem;
   padding: clamp(2rem, 4vw, 4rem);
-  border: 1px solid rgba(var(--color-foreground), 0.1);
+  border: 1px solid rgba(171, 132, 72, 0.2);
   border-radius: 1.2rem;
-  background: rgba(var(--color-foreground), 0.025);
+  background:
+    radial-gradient(circle at 92% 12%, rgba(214, 184, 131, 0.2), rgba(214, 184, 131, 0) 22rem),
+    #fffaf2;
+  box-shadow: 0 1.8rem 4rem rgba(50, 36, 17, 0.06);
 }
 
 .np-editorial-visual__kicker {
@@ -141,7 +164,7 @@
   letter-spacing: 0.12em;
   font-size: 1.1rem;
   font-weight: 700;
-  color: rgba(var(--color-foreground), 0.62);
+  color: #9b7435;
 }
 
 .np-editorial-visual h2 {
@@ -164,6 +187,153 @@
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 0.9rem;
+  background: #fbf5ec;
+  box-shadow: 0 1rem 2.8rem rgba(50, 36, 17, 0.08);
+}
+
+.np-guide-snapshot {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.4rem;
+  margin: 3.2rem 0;
+}
+
+.np-guide-snapshot div {
+  border: 1px solid rgba(171, 132, 72, 0.22);
+  border-radius: 1rem;
+  padding: 2rem;
+  background: linear-gradient(180deg, #fffaf2, #fffdf9);
+}
+
+.np-guide-snapshot span {
+  display: inline-flex;
+  width: 3.4rem;
+  height: 3.4rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #17130f;
+  color: #fffaf2;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: 1.2rem;
+}
+
+.np-guide-snapshot strong {
+  display: block;
+  font-family: var(--font-heading-family);
+  font-size: 1.8rem;
+  line-height: 1.15;
+  color: #17130f;
+}
+
+.np-guide-snapshot p {
+  margin: 0.8rem 0 0;
+  color: rgba(33, 28, 23, 0.72);
+  font-size: 1.38rem;
+}
+
+.np-jewelry-collage {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(22rem, 0.86fr) minmax(0, 0.92fr);
+  gap: clamp(1.4rem, 2.4vw, 2.8rem);
+  align-items: stretch;
+  margin: 4rem 0;
+}
+
+.np-jewelry-collage figure,
+.np-jewelry-collage div {
+  margin: 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid rgba(171, 132, 72, 0.2);
+  background: #fffaf2;
+}
+
+.np-jewelry-collage img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 30rem;
+  object-fit: cover;
+}
+
+.np-jewelry-collage div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(2rem, 3vw, 3.4rem);
+  background:
+    linear-gradient(180deg, rgba(255, 250, 242, 0.92), rgba(246, 236, 220, 0.92)),
+    #fffaf2;
+}
+
+.np-jewelry-collage h2 {
+  margin: 0 0 1.2rem;
+  font-size: clamp(2.4rem, 3vw, 3.8rem);
+  line-height: 1.05;
+}
+
+.np-jewelry-collage p:not(.np-editorial-visual__kicker) {
+  color: rgba(33, 28, 23, 0.72);
+}
+
+.np-jewelry-collage a {
+  margin-top: 1.2rem;
+  color: #17130f;
+  font-weight: 700;
+  text-decoration-color: #b18a49;
+  text-underline-offset: 0.3rem;
+}
+
+.np-month-edit {
+  margin: 4rem 0;
+  padding: clamp(2rem, 4vw, 3.8rem);
+  border-radius: 1rem;
+  background: #17130f;
+  color: #fffaf2;
+}
+
+.np-month-edit h2 {
+  color: #fffaf2;
+  text-align: center;
+  margin: 0 0 2.2rem;
+}
+
+.np-month-edit .np-shop-story__eyebrow {
+  color: #d9b36d;
+}
+
+.np-month-edit__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.np-month-edit__grid span {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid rgba(255, 250, 242, 0.18);
+  border-radius: 999px;
+  padding: 0.9rem 1.2rem;
+  background: rgba(255, 250, 242, 0.06);
+  font-size: 1.25rem;
+  color: rgba(255, 250, 242, 0.78);
+}
+
+.np-month-edit__grid strong {
+  color: #fffaf2;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.np-month-edit > p:last-child {
+  max-width: 68rem;
+  margin: 2rem auto 0;
+  text-align: center;
+  color: rgba(255, 250, 242, 0.72);
 }
 
 /* Inline editorial image */
@@ -188,9 +358,10 @@
 /* Shop the Story */
 .np-shop-story {
   margin: 3.5rem 0;
-  padding: 2.4rem;
-  border-radius: 0.8rem;
-  background: rgba(var(--color-foreground), 0.03);
+  padding: clamp(2rem, 4vw, 3.6rem);
+  border-radius: 1.1rem;
+  background: linear-gradient(180deg, #fffaf2, #f8f0e5);
+  border: 1px solid rgba(171, 132, 72, 0.2);
 }
 
 .np-shop-story h2 {
@@ -210,39 +381,55 @@
 
 .np-shop-story__eyebrow {
   margin: 0 0 0.8rem;
-  color: rgba(var(--color-foreground), 0.62);
+  color: #9b7435;
 }
 
 .np-shop-story__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.6rem;
 }
 
 .np-shop-story__item {
   text-decoration: none;
   color: inherit;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 1rem;
+  border-radius: 0.9rem;
+  background: #fffdf9;
+  border: 1px solid rgba(171, 132, 72, 0.16);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.np-shop-story__item:hover {
+  transform: translateY(-0.2rem);
+  border-color: rgba(171, 132, 72, 0.38);
+  box-shadow: 0 1.2rem 3rem rgba(50, 36, 17, 0.08);
 }
 
 .np-shop-story__item img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 0.6rem;
+  border-radius: 0.7rem;
   display: block;
   margin-bottom: 1rem;
+  background: #fbf5ec;
 }
 
 .np-shop-story__item strong {
   display: block;
-  font-size: 1.4rem;
+  font-family: var(--font-heading-family);
+  font-size: 1.55rem;
+  line-height: 1.18;
   margin-bottom: 0.3rem;
 }
 
 .np-shop-story__item span {
   display: block;
-  color: rgba(var(--color-foreground), 0.65);
+  color: rgba(33, 28, 23, 0.68);
   font-size: 1.3rem;
 }
 
@@ -255,11 +442,14 @@
 
 .np-shop-story__item .np-shop-story__cta {
   display: inline-block;
-  margin-top: 0.8rem;
+  margin-top: auto;
+  padding-top: 1rem;
   font-size: 1.2rem;
   font-weight: 600;
   text-decoration: underline;
   color: inherit;
+  font-style: normal;
+  text-underline-offset: 0.3rem;
 }
 
 .np-shop-story__note {
@@ -286,7 +476,8 @@
 
 .article-template__content table th {
   font-weight: 700;
-  border-bottom: 2px solid rgba(var(--color-foreground), 0.3);
+  border-bottom: 2px solid rgba(171, 132, 72, 0.34);
+  background: #fffaf2;
 }
 
 .article-template__content table tr:nth-child(even) {
@@ -322,7 +513,27 @@
   }
 
   .np-shop-story__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .np-guide-snapshot,
+  .np-jewelry-collage,
+  .np-month-edit__grid {
     grid-template-columns: 1fr;
+  }
+
+  .np-jewelry-collage img {
+    min-height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  .np-month-edit {
+    padding: 1.8rem;
+  }
+
+  .np-month-edit__grid span {
+    border-radius: 0.7rem;
   }
 
   .article-template__content {

@@ -1,11 +1,11 @@
 .np-guide-links {
-  padding: clamp(3.2rem, 5vw, 4.8rem) 0;
+  padding: clamp(2.8rem, 4vw, 4rem) 0;
 }
 
 .np-guide-links__inner {
   display: grid;
-  grid-template-columns: minmax(22rem, .42fr) minmax(0, 1fr);
-  gap: clamp(2rem, 4vw, 3.2rem);
+  grid-template-columns: minmax(20rem, .36fr) minmax(0, 1fr);
+  gap: clamp(1.8rem, 3vw, 2.8rem);
   align-items: center;
 }
 
@@ -21,7 +21,7 @@
 .np-guide-links h2 {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.6rem, 3vw, 4.2rem);
+  font-size: clamp(2.4rem, 2.4vw, 3.6rem);
   line-height: 1.08;
   text-wrap: balance;
 }
@@ -41,6 +41,7 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: .9rem;
+  align-items: start;
 }
 
 .np-guide-product {
@@ -56,14 +57,16 @@
 .np-guide-product img {
   display: block;
   width: 100%;
-  aspect-ratio: 1.16 / 1;
+  height: clamp(13rem, 14vw, 18rem);
+  aspect-ratio: 1.18 / 1;
   object-fit: cover;
+  object-position: center;
   background: #f3e8d9;
 }
 
 .np-guide-product span {
   display: block;
-  padding: .9rem;
+  padding: .8rem .9rem .9rem;
 }
 
 .np-guide-product strong,
@@ -72,12 +75,13 @@
 }
 
 .np-guide-product strong {
-  font-size: 1.18rem;
+  font-size: 1.12rem;
   line-height: 1.22;
 }
 
 .np-guide-product small {
   margin-top: .35rem;
+  font-size: 1.12rem;
   color: var(--np-muted);
   font-weight: 700;
   letter-spacing: .04em;
@@ -136,6 +140,10 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .np-guide-product img {
+    height: clamp(13rem, 32vw, 18rem);
+  }
+
   .np-guide-links__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -149,6 +157,10 @@
   .np-guide-links__products,
   .np-guide-links__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .np-guide-product img {
+    height: clamp(11.5rem, 38vw, 15rem);
   }
 
   .np-guide-links__grid a {

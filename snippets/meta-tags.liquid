@@ -73,8 +73,8 @@
       when 'how-to-layer-necklaces'
         assign og_description = 'Learn how to layer necklaces with initials, name necklaces, pendants, hearts, and everyday jewelry styles.'
       when 'birth-flower-necklace-guide'
-        assign og_title = 'Birth Flower Necklace Guide: Meanings, Months & Gifts | North & Pearl'
-        assign og_description = 'Compare birth flower necklace meanings by month, floral vs birthstone-inspired jewelry, prices from $49-$69, FAQs, and ready-to-order North & Pearl gift picks.'
+        assign og_title = 'Birth Flower Necklace Guide: Meanings by Month | North & Pearl'
+        assign og_description = 'Compare birth flower necklace meanings by month, birth flower vs. birthstone jewelry, gift ideas, FAQs, and ready-to-order North & Pearl picks.'
       else
         assign og_description = article.content | strip_html | strip | truncate: 155
     endcase

@@ -202,3 +202,4 @@
 - Published the articles live after product-link live QA, image/visual QA, and blog template checks; then upgraded each live article with featured imagery and in-article product merchandising.
 - Updated Maxwell's permanent skill/playbook so future blogs use this richer guide architecture by default while remaining original and claim-safe.
 - Tightened the Birth Flower guide visual density after live review: reduced tall collage/card sizing and compacted the article-ending shopping footer from a long sitemap-like block into a focused commerce rail.
+- Upgraded the Birth Flower guide for ranking readiness with a tighter keyword target, source-backed symbolism notes, long-tail buyer question coverage, cleaner H1/body alignment, and prepared theme-level title/meta/schema cleanup.

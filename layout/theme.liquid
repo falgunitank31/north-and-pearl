@@ -86,8 +86,8 @@
           when 'family-name-jewelry-guide'
             assign np_page_description = 'How to choose a family or multi-name necklace — sizing tips, name-order guidance, and gift ideas for moms with kids’ names.'
           when 'birth-flower-necklace-guide'
-            assign np_page_title = 'Birth Flower Necklace Guide: Meanings, Months & Gifts | North & Pearl'
-            assign np_page_description = 'Compare birth flower necklace meanings by month, floral vs birthstone-inspired jewelry, prices from $49-$69, FAQs, and ready-to-order North & Pearl gift picks.'
+            assign np_page_title = 'Birth Flower Necklace Guide: Meanings by Month | North & Pearl'
+            assign np_page_description = 'Compare birth flower necklace meanings by month, birth flower vs. birthstone jewelry, gift ideas, FAQs, and ready-to-order North & Pearl picks.'
           else
             assign np_page_description = article.content | strip_html | strip | truncate: 155
         endcase

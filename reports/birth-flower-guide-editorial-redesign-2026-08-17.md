@@ -44,6 +44,15 @@ Some live storefront fetches returned older Shopify-rendered article HTML during
 - Tightened the article-ending guide section by reducing spacing, shrinking the large heading, compacting product cards, and trimming the link-card set from nine paths to six focused shopping paths.
 - Preserved the same customer-facing claims and product links; this pass is presentation-only.
 
+## Ranking-Readiness Pass
+
+- Tightened the article title and SEO target from a broad "meanings, months, and gifts" framing to `Birth Flower Necklace Guide: Meanings by Month`.
+- Added a direct answer section for whether birth flower meanings are official.
+- Added a long-tail selection section for shoppers comparing birth flower necklaces, birthstone jewelry, initial jewelry, and name necklaces.
+- Added source/editorial notes referencing birth flower tradition and flower-language context while keeping symbolism clearly separate from product facts.
+- Removed the duplicate Dawn header Organization JSON-LD block from the source theme so North & Pearl's custom Organization schema remains the primary brand entity graph.
+- Published the article body update through Shopify Admin API. Theme-level title/meta/schema cleanup is prepared in source and requires the next scoped live theme push.
+
 ## Files Changed
 
 - `assets/blog-editorial.css`

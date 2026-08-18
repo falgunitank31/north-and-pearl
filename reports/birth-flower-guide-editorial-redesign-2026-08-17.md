@@ -37,10 +37,19 @@ The guide looked too plain for a jewelry brand and did not match the expected ed
 
 Some live storefront fetches returned older Shopify-rendered article HTML during validation, while Admin API readback showed the corrected source of truth. Treat this as Shopify storefront cache/edge propagation to monitor, not a content-source failure.
 
+## Follow-Up Visual Density Pass
+
+- Reduced the height of the in-article jewelry collage imagery so the section no longer creates overly tall columns on desktop.
+- Reduced the `Shop the Story` product card scale, text size, padding, and image ratio so product merchandising feels compact instead of oversized.
+- Tightened the article-ending guide section by reducing spacing, shrinking the large heading, compacting product cards, and trimming the link-card set from nine paths to six focused shopping paths.
+- Preserved the same customer-facing claims and product links; this pass is presentation-only.
+
 ## Files Changed
 
 - `assets/blog-editorial.css`
+- `assets/north-pearl-guide-links.css`
 - `content/blogs/gift-guides/birth-flower-necklace-guide.md`
 - `scripts/publish-maxwell-three-guides-2026-08-17.mjs`
+- `sections/north-pearl-guide-links.liquid`
 - `layout/theme.liquid`
 - `snippets/meta-tags.liquid`

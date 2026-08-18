@@ -2,6 +2,17 @@
 
 {%- liquid
   assign featured_collection = section.settings.featured_collection | default: collections['gifts-under-100']
+
+  assign np_sibling_guides = ''
+  assign np_article_handle = article.handle | split: '/' | last
+  case np_article_handle
+    when 'zodiac-jewelry-guide'
+      assign np_sibling_guides = 'coordinates-jewelry-guide|Coordinates Jewelry Guide|Turn a meaningful place into a wearable piece.,family-name-jewelry-guide|Family Name Jewelry Guide|How to choose and order a multi-name necklace.'
+    when 'coordinates-jewelry-guide'
+      assign np_sibling_guides = 'zodiac-jewelry-guide|Zodiac Jewelry Guide|What each sign means and how to choose a piece.,family-name-jewelry-guide|Family Name Jewelry Guide|How to choose and order a multi-name necklace.'
+    when 'family-name-jewelry-guide'
+      assign np_sibling_guides = 'zodiac-jewelry-guide|Zodiac Jewelry Guide|What each sign means and how to choose a piece.,coordinates-jewelry-guide|Coordinates Jewelry Guide|Turn a meaningful place into a wearable piece.'
+  endcase
 -%}
 
 <section class="np-guide-links color-{{ section.settings.color_scheme }}">
@@ -9,6 +20,18 @@
     <div>
       <p class="np-guide-links__kicker">{{ section.settings.kicker }}</p>
       <h2>{{ section.settings.heading }}</h2>
+      {%- if np_sibling_guides != '' -%}
+        {%- assign np_sibling_guides_list = np_sibling_guides | split: ',' -%}
+        <div class="np-guide-links__grid np-guide-links__related" style="margin-top: 2.4rem;">
+          {%- for guide in np_sibling_guides_list -%}
+            {%- assign guide_parts = guide | split: '|' -%}
+            <a href="{{ routes.root_url }}blogs/gift-guide/{{ guide_parts[0] }}">
+              <span>{{ guide_parts[1] }}</span>
+              <p>{{ guide_parts[2] }}</p>
+            </a>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
     </div>
     <div class="np-guide-links__commerce">
       {%- if featured_collection != blank and featured_collection.products_count > 0 -%}
@@ -40,7 +63,7 @@
           <p>Find pieces by occasion, recipient, and meaningful moment.</p>
         </a>
         <a href="{{ routes.collections_url }}/personalized-jewelry">
-          <span>Personalized Jewelry</span>
+          <span>Ready-to-Order Jewelry</span>
           <p>Shop name, initial, heart, and meaning-led pieces in one focused edit.</p>
         </a>
         <a href="{{ routes.collections_url }}/jewelry-gifts-for-her">
@@ -55,21 +78,9 @@
           <span>Gifts Under $50</span>
           <p>Find polished smaller gifts that still feel personal.</p>
         </a>
-        <a href="{{ routes.collections_url }}/name-necklaces">
-          <span>Name Necklaces</span>
-          <p>Start with the most personal everyday keepsake.</p>
-        </a>
         <a href="{{ routes.collections_url }}/birthday-jewelry-gifts">
           <span>Birthday Jewelry Gifts</span>
           <p>Choose initials, birth-month inspiration, hearts, and everyday styles.</p>
-        </a>
-        <a href="{{ routes.collections_url }}/anniversary-gifts">
-          <span>Anniversary Gifts</span>
-          <p>Shop heart, name, initial, ring, bracelet, and couple-inspired pieces.</p>
-        </a>
-        <a href="{{ routes.root_url }}blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week">
-          <span>Weekly Gift Guide</span>
-          <p>Use a short editorial path into the strongest gift collections and featured pieces.</p>
         </a>
       </div>
     </div>

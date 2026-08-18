@@ -236,10 +236,10 @@
 
 .np-jewelry-collage {
   display: grid;
-  grid-template-columns: minmax(0, 0.92fr) minmax(22rem, 0.86fr) minmax(0, 0.92fr);
-  gap: clamp(1.4rem, 2.4vw, 2.8rem);
-  align-items: stretch;
-  margin: 4rem 0;
+  grid-template-columns: minmax(0, 1fr) minmax(28rem, 0.9fr) minmax(0, 1fr);
+  gap: clamp(1.2rem, 2vw, 2rem);
+  align-items: center;
+  margin: 3rem 0;
 }
 
 .np-jewelry-collage figure,
@@ -254,8 +254,7 @@
 .np-jewelry-collage img {
   display: block;
   width: 100%;
-  height: 100%;
-  min-height: 30rem;
+  height: clamp(24rem, 34vw, 38rem);
   object-fit: cover;
 }
 
@@ -263,7 +262,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: clamp(2rem, 3vw, 3.4rem);
+  min-height: clamp(24rem, 34vw, 38rem);
+  padding: clamp(1.8rem, 2.6vw, 3rem);
   background:
     linear-gradient(180deg, rgba(255, 250, 242, 0.92), rgba(246, 236, 220, 0.92)),
     #fffaf2;
@@ -271,12 +271,15 @@
 
 .np-jewelry-collage h2 {
   margin: 0 0 1.2rem;
-  font-size: clamp(2.4rem, 3vw, 3.8rem);
-  line-height: 1.05;
+  font-size: clamp(2.4rem, 2.8vw, 3.4rem);
+  line-height: 1.08;
+  text-wrap: balance;
 }
 
 .np-jewelry-collage p:not(.np-editorial-visual__kicker) {
   color: rgba(33, 28, 23, 0.72);
+  font-size: clamp(1.45rem, 1.3vw, 1.7rem);
+  line-height: 1.65;
 }
 
 .np-jewelry-collage a {
@@ -357,16 +360,19 @@
 
 /* Shop the Story */
 .np-shop-story {
-  margin: 3.5rem 0;
-  padding: clamp(2rem, 4vw, 3.6rem);
+  margin: 3rem 0;
+  padding: clamp(1.8rem, 3vw, 3rem);
   border-radius: 1.1rem;
   background: linear-gradient(180deg, #fffaf2, #f8f0e5);
   border: 1px solid rgba(171, 132, 72, 0.2);
 }
 
 .np-shop-story h2 {
-  margin: 0 0 2rem;
+  margin: 0 0 1.8rem;
   text-align: center;
+  font-size: clamp(2.6rem, 3.2vw, 4rem);
+  line-height: 1.08;
+  text-wrap: balance;
 }
 
 .np-shop-story__eyebrow,
@@ -387,7 +393,7 @@
 .np-shop-story__grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1.6rem;
+  gap: 1.4rem;
 }
 
 .np-shop-story__item {
@@ -396,7 +402,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  padding: 1rem;
+  padding: 0.9rem;
   border-radius: 0.9rem;
   background: #fffdf9;
   border: 1px solid rgba(171, 132, 72, 0.16);
@@ -411,40 +417,41 @@
 
 .np-shop-story__item img {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1.08 / 1;
   object-fit: cover;
   border-radius: 0.7rem;
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
   background: #fbf5ec;
 }
 
 .np-shop-story__item strong {
   display: block;
   font-family: var(--font-heading-family);
-  font-size: 1.55rem;
-  line-height: 1.18;
+  font-size: 1.38rem;
+  line-height: 1.16;
   margin-bottom: 0.3rem;
 }
 
 .np-shop-story__item span {
   display: block;
   color: rgba(33, 28, 23, 0.68);
-  font-size: 1.3rem;
+  font-size: 1.18rem;
+  line-height: 1.45;
 }
 
 .np-shop-story__item small {
   display: block;
-  margin-top: 0.7rem;
-  font-size: 1.35rem;
+  margin-top: 0.55rem;
+  font-size: 1.24rem;
   font-weight: 700;
 }
 
 .np-shop-story__item .np-shop-story__cta {
   display: inline-block;
   margin-top: auto;
-  padding-top: 1rem;
-  font-size: 1.2rem;
+  padding-top: 0.8rem;
+  font-size: 1.12rem;
   font-weight: 600;
   text-decoration: underline;
   color: inherit;
@@ -524,8 +531,16 @@
   }
 
   .np-jewelry-collage img {
-    min-height: auto;
+    height: auto;
     aspect-ratio: 1 / 1;
+  }
+
+  .np-jewelry-collage div {
+    min-height: auto;
+  }
+
+  .np-jewelry-collage h2 {
+    font-size: clamp(2.4rem, 9vw, 3.4rem);
   }
 
   .np-month-edit {

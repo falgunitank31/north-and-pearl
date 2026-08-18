@@ -201,3 +201,4 @@
 - Revised all three drafts into the North & Pearl premium editorial guide format inspired by high-ranking jewelry guide structure: byline/update/read-time, quick answer, key takeaways, on-page navigation, comparison/reference tables, Shop the Story, related guides, FAQ, and final buying note.
 - Published the articles live after product-link live QA, image/visual QA, and blog template checks; then upgraded each live article with featured imagery and in-article product merchandising.
 - Updated Maxwell's permanent skill/playbook so future blogs use this richer guide architecture by default while remaining original and claim-safe.
+- Tightened the Birth Flower guide visual density after live review: reduced tall collage/card sizing and compacted the article-ending shopping footer from a long sitemap-like block into a focused commerce rail.

@@ -27,33 +27,45 @@
   }
 
   .footer__intent-links {
-    border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
+    border-top: 0.1rem solid var(--np-line);
     padding: 2.4rem 0 0;
   }
 
   .footer__intent-heading {
-    margin: 0 0 1.2rem;
-    font-size: 1.2rem;
-    letter-spacing: 0.12em;
+    margin: 0 0 1.6rem;
+    color: var(--np-gold);
+    font-weight: 700;
+    font-size: 1.15rem;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
   }
 
   .footer__intent-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.8rem 1.6rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 0.6rem 2.4rem;
     margin: 0;
     padding: 0;
   }
 
+  @media screen and (max-width: 749px) {
+    .footer__intent-list {
+      grid-template-columns: 1fr;
+    }
+  }
+
   .footer__intent-list a {
-    color: rgba(var(--color-foreground), 0.78);
+    display: inline-block;
+    padding: 0.3rem 0;
+    color: var(--np-muted);
+    font-size: 1.35rem;
     text-decoration: none;
+    transition: color 0.2s ease;
   }
 
   .footer__intent-list a:hover,
   .footer__intent-list a:focus-visible {
-    color: rgb(var(--color-foreground));
+    color: var(--np-gold);
     text-decoration: underline;
     text-underline-offset: 0.3rem;
   }
@@ -285,7 +297,7 @@
   <nav class="footer__intent-links page-width" aria-label="Popular jewelry shopping paths">
     <h2 class="footer__intent-heading">Shop meaningful jewelry</h2>
     <ul class="footer__intent-list list-unstyled" role="list">
-      <li><a href="{{ routes.collections_url }}/personalized-jewelry">Personalized Jewelry</a></li>
+      <li><a href="{{ routes.collections_url }}/personalized-jewelry">Ready-to-Order Jewelry</a></li>
       <li><a href="{{ routes.collections_url }}/jewelry-gifts-for-her">Jewelry Gifts for Her</a></li>
       <li><a href="{{ routes.collections_url }}/gifts-under-50">Gifts Under $50</a></li>
       <li><a href="{{ routes.collections_url }}/gifts-under-100">Gifts Under $100</a></li>
@@ -297,7 +309,7 @@
       <li><a href="{{ routes.collections_url }}/gift-cards">Gift Cards</a></li>
       <li><a href="{{ routes.root_url }}blogs/gift-guide/meaningful-jewelry-gifts-to-shop-this-week">Weekly Gift Guide</a></li>
       <li><a href="{{ routes.root_url }}blogs/gift-guide/birthstone-inspired-jewelry-gifts-for-mom">Birthstone Gifts for Mom</a></li>
-      <li><a href="{{ routes.root_url }}blogs/gift-guide/jewelry-gifts-under-100">Jewelry Gifts Under $100</a></li>
+      <li><a href="{{ routes.root_url }}blogs/gift-guide/best-jewelry-gifts-under-100">Jewelry Gifts Under $100</a></li>
       <li><a href="/pages/contact">Contact</a></li>
       <li><a href="/pages/faq">FAQ</a></li>
       <li><a href="/pages/track-your-order">Track Your Order</a></li>
